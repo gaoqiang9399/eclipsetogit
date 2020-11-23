@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dlchkinfo0003_listD12" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="检查编号" maxlength="30" mustinput="0" row="16"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="chkDate" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="查询时间" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg()" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkCusId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="检查人" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="chkCusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="查询人" maxlength="80" mustinput="0" onclick="prodAutoMenu(this,'/sysUser/getUserListAjax',sysUserCallBack,'opName');" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isLegality" fieldsize="YES_NO" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="是否合法" maxlength="1" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isSuff" fieldsize="YES_NO" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="是否充足" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="liquidate" fieldsize="CHARGE_LEVEL" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="变现能力" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkDesc" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="检查机构/查询网址" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="押品类别ID" mustinput="" readonly="" row="17" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeSts" fieldsize="CAR_USE_TYPE" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="4" labelname="车辆使用性质" maxlength="1" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isKeep" fieldsize="YES_NO" fieldtype="2" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="车辆是否处于查询状态" maxlength="1" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isSale" fieldsize="YES_NO" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="车辆是否为大修车、事故车" maxlength="1" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isMove" fieldsize="YES_NO" fieldtype="2" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="车辆是否有权利瑕疵" maxlength="1" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="isRenewal" fieldsize="YES_NO" fieldtype="2" formactiveid="17" horVer="1" labelalign="1" labelcol="4" labelname="车辆是否有未处理违章、罚款" maxlength="1" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="entityPrimarykeys" mustinput="" param="chkId" readonly="" row="18"/>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf4003" title="视角配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="视角编号" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="wkfVpName" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="视角名称" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpMenuNo" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="菜单号（或按钮编号）" maxlength="5" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="wkfVpMenuName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="菜单名称（或按钮名称）" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="wkfVpMenuUrl" fieldtype="5" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="菜单URL" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="jsMethod" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="触发JS方法" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="urlSts" fieldsize="YES_NO" fieldtype="2" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="启用" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="2" fieldname="wkfVpRemark" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="描述" maxlength="200" mustinput="0" row="11"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="wkfSeq" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelname="顺序" maxlength="5" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="upWkfVpMenuNo" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="上级菜单" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="expr" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="不显示条件" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="urlType" fieldtype="22" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="类型" mustinput="" param="0-按钮|1-菜单|" readonly="" row="9" />
+</form>

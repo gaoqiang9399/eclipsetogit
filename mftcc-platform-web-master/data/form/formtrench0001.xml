@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="trench0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchUid" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="渠道商编号" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement alt="请输入渠道商名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="渠道商名称" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="银行账户名称" maxlength="100" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="开户行" maxlength="50" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNumber" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="银行卡号" maxlength="30" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankAccountInfo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="开户行支行信息" maxlength="100" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="signRate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="签约利率(%)" maxlength="30" mustinput="1" onblur="func_uior_valFormat_tips(this, 'rate');" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchButtName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="对接人姓名" maxlength="30" mustinput="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchButtPhone" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="对接人联系方式" maxlength="30" mustinput="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchOpNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="关联业务员" maxlength="500" mustinput="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="12" labelalign="3" labelcol="1" labelname="说明" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="30" mustinput="0" readonly="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="登记人" maxlength="100" mustinput="0" readonly="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="登记部门" maxlength="100" mustinput="0" readonly="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="1" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="最近修改时间" mustinput="" readonly="1" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchOpName" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="关联业务员" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="渠道商类型" mustinput="1" readonly="" row="1"/>
+</form>

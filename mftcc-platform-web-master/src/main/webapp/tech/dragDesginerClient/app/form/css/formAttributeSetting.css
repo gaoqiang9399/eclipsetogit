@@ -1,0 +1,550 @@
+.show_icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
+.event_icon {
+  border: solid 1px transparent;
+}
+.event_icon:hover {
+  background-color: #dedede;
+  border: solid 1px #c3c3c3;
+  border-radius: 2px;
+}
+.event_icon:active {
+  background-color: #98a1a9;
+  border: solid 1px #c3c3c3;
+  border-radius: 2px;
+}
+.show_icon_position {
+  float: left;
+  padding: 6px 8px 0px 6px;
+}
+.team_icon {
+  display: block;
+  height: 21px;
+  width: 32px;
+}
+.team_icon .show_icon {
+  float: left;
+}
+.team_icon .fa-sort-desc {
+  float: left;
+  margin-top: 3px;
+}
+.split_line_vertical {
+  width: 3px;
+  height: 25px;
+  margin-top: 5px;
+  background: no-repeat url('../../common/img/split_line.png');
+}
+.setProperties {
+  height: 65px;
+  width: 100%;
+  background: url('../../common/img/title_line.png');
+}
+.margin-top-5 {
+  margin-top: 5px;
+}
+.margin-top-5-bold {
+  font-weight: bold;
+}
+.padding-left-right {
+  padding: 0px 4px;
+}
+.show_icon_position .fa-circle {
+  font-size: 8px;
+  color: #58738a;
+  margin-top: 4px;
+}
+.event,
+.showSelect,
+.event_icon,
+.showSelectIcon:hover {
+  cursor: pointer;
+}
+.eventConfigurationShow {
+  display: block;
+  float: left;
+}
+.transparent_border {
+  border: transparent 1px solid;
+}
+.event_name {
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  color: #58738a;
+  margin-left: 1px;
+  margin-top: -1px;
+}
+.input_40 {
+  border: 1px solid #a7acb1;
+  width: 40px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_60 {
+  border: 1px solid #a7acb1;
+  width: 60px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_70 {
+  border: 1px solid #a7acb1;
+  width: 70px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_80 {
+  border: 1px solid #a7acb1;
+  width: 80px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_90 {
+  border: 1px solid #a7acb1;
+  width: 90px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_110 {
+  border: 1px solid #a7acb1;
+  width: 110px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_120 {
+  border: 1px solid #a7acb1;
+  width: 90px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_200 {
+  border: 1px solid #a7acb1;
+  width: 200px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_260 {
+  border: 1px solid #a7acb1;
+  width: 245px;
+  height: 20px;
+  border-radius: 2px;
+}
+.input_30 {
+  border: none;
+  width: 30px;
+  height: 20px;
+}
+.span_30 {
+  border: none;
+  width: 30px;
+  height: 20px;
+  float: left;
+}
+.span_lableName {
+  border: none;
+  width: 110px;
+  height: 20px;
+  float: left;
+}
+.span_filedName {
+  border: none;
+  width: 110px;
+  height: 20px;
+  float: left;
+}
+.span_40 {
+  border: 1px solid #a7acb1;
+  width: 42px;
+  height: 20px;
+  border-radius: 2px;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+.a_up {
+  height: 9px;
+  width: 10px;
+  float: left;
+  border: none;
+  cursor: pointer;
+  background-color: #dbdfe1;
+}
+.a_up span {
+  height: 10px;
+  width: 10px;
+  border: none;
+  font-size: 10px;
+  margin: 2px 0 0 2px;
+  color: #2e2e2e;
+  float: left;
+}
+.a_select_down {
+  height: 18px;
+  width: 10px;
+  float: left;
+  border: none;
+  cursor: pointer;
+  background-color: #dbdfe1;
+}
+.a_select_down span {
+  height: 10px;
+  width: 10px;
+  border: none;
+  margin: 4px 0 0 2px;
+  font-size: 10px;
+  color: #2e2e2e;
+}
+.select_open {
+  display: block;
+}
+.select_colse {
+  display: none;
+}
+.setProperties .showSelect,
+#eventConfiguration .showSelect,
+#linkageCalculation .showSelect,
+#validateSetting .showSelect {
+  z-index: 999;
+  box-shadow: 2px 5px 12px #ddd;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  position: absolute;
+  display: block;
+  margin-top: 19px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.setProperties .showSelect li,
+#eventConfiguration .showSelect li,
+#linkageCalculation .showSelect li,
+#validateSetting .showSelect li {
+  display: block;
+  padding: 1px 0 1px 5px;
+}
+#eventConfiguration ul,
+.setProperties ul,
+#linkageCalculation ul,
+#validateSetting ul {
+  margin: 0px;
+  padding: 0px;
+}
+#eventConfiguration ul li,
+.setProperties ul li,
+#linkageCalculation ul li,
+#validateSetting ul li {
+  margin: 0px;
+  padding: 0px;
+}
+.showSelectIcon {
+  z-index: 999;
+  box-shadow: 2px 5px 12px #ddd;
+  background-color: #fff;
+  border: solid 1px #cccccc;
+  position: absolute;
+  display: block;
+  margin-top: 5px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.showSelectIcon li {
+  display: block;
+  height: 33px;
+}
+.showSelectIcon .iconlable,
+.showSelectIcon .selectlabel {
+  display: block;
+  float: left;
+  padding: 5px 0 0 12px;
+}
+.showSelectIcon .selectlabel {
+  margin-top: 2px;
+}
+.open_tab {
+  display: block;
+}
+.colse_tab {
+  display: none;
+}
+.table_tab_ctrl {
+  display: none;
+}
+.showSelect li:hover {
+  background-color: #ececec;
+}
+.showSelectIcon > li:hover {
+  background-color: #ececec;
+}
+.pseudoSelected {
+  background-color: #ececec;
+}
+.showSelect li:active {
+  background-color: #e1e1e1;
+}
+.showSelectIcon > li:active {
+  background-color: #e1e1e1;
+}
+.a_down {
+  height: 9px;
+  width: 10px;
+  float: left;
+  border: none;
+  cursor: pointer;
+  background-color: #dbdfe1;
+}
+.a_down span {
+  height: 10px;
+  width: 10px;
+  border: none;
+  margin: -2px 0 0 2px;
+  font-size: 10px;
+  color: #2e2e2e;
+  float: left;
+}
+.span_label {
+  margin-right: 2px;
+  margin-top: 2px;
+  float: left;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.float_none {
+  float: none;
+}
+.a_hover:hover {
+  background-color: #b4b8bc;
+}
+.a_hover:active {
+  background-color: #9a9ea1;
+}
+.mainContent {
+  font-size: 12px;
+}
+.showName {
+  width: 115px;
+}
+.attribte_head {
+  padding: 10px 0 0 23px;
+  float: left;
+}
+.attribte_head span {
+  float: left;
+}
+.fixed_head {
+  width: 160px;
+  height: 65px;
+  float: left;
+}
+.float_head {
+  width: auto;
+  height: 65px;
+}
+.lable_name {
+  background: no-repeat url('../../common/img/FormIcons.png') -1px -55px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.file_name {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -55px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.split_line {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -55px;
+}
+.add_row {
+  background: no-repeat url('../../common/img/FormIcons.png') -1px -1px;
+}
+.add_cell {
+  background: no-repeat url('../../common/img/FormIcons.png') -19px -1px;
+}
+.del_row {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -1px;
+}
+.del_cell {
+  background: no-repeat url('../../common/img/FormIcons.png') -55px -1px;
+}
+.del_cell {
+  background: no-repeat url('../../common/img/FormIcons.png') -55px -1px;
+}
+.form_align_left {
+  background: no-repeat url('../../common/img/FormIcons.png') -1px -19px;
+}
+.form_align_center {
+  background: no-repeat url('../../common/img/FormIcons.png') -19px -19px;
+}
+.form_align_right {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -19px;
+}
+.selRange_all {
+  background: no-repeat url('../../common/img/FormIcons.png') -1px -73px;
+}
+.selRange_left {
+  background: no-repeat url('../../common/img/FormIcons.png') -19px -73px;
+}
+.selRange_right {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -73px;
+}
+.labelDirect_cell {
+  background: no-repeat url('../../common/img/FormIcons.png') -55px -73px;
+}
+.labelDirect_row {
+  background: no-repeat url('../../common/img/FormIcons.png') -73px -73px;
+}
+.readonly-unchoice {
+  background: no-repeat url('../../common/img/FormIcons.png') -19px -37px;
+}
+.readonly-choice {
+  background: #dedede no-repeat url('../../common/img/FormIcons.png') -1px -91px;
+  border: solid 1px #c3c3c3;
+  border-radius: 2px;
+}
+.mandatory-unchoice {
+  background: no-repeat url('../../common/img/FormIcons.png') -55px -55px;
+}
+.mandatory-choice {
+  background: #dedede no-repeat url('../../common/img/FormIcons.png') -19px -91px;
+  border: solid 1px #c3c3c3;
+  border-radius: 2px;
+}
+.parameter {
+  background: no-repeat url('../../common/img/FormIcons.png') -37px -37px;
+}
+.fields_title {
+  background: no-repeat url('../../common/img/FormIcons.png') -55px -37px;
+}
+.calculation {
+  background: no-repeat url('../../common/img/FormIcons.png') -19px -55px;
+}
+.event_set {
+  background: no-repeat url('../../common/img/FormIcons.png') -73px -37px;
+}
+.add_event {
+  background: no-repeat url('../../common/img/FormIcons.png') -73px -55px;
+}
+.formDataSetting {
+  display: none;
+  height: 170px;
+  background: #ffffff;
+  border: 1px solid #5cb85c;
+  position: relative;
+}
+.formDataSetting .nav_left {
+  width: 100px;
+  float: left;
+  margin-top: 5px;
+}
+.formDataSetting .nav_left .nav > li > a {
+  padding: 8px 15px;
+}
+.formDataSetting #keypad1 {
+  float: left;
+  width: 136px;
+  margin: 0 5px;
+}
+.formDataSetting #operator1 {
+  float: left;
+  width: 253px;
+}
+.formDataSetting #insertContainer {
+  margin-left: 5px;
+  float: left;
+  width: 250px;
+}
+.formDataSetting #insertContainer select {
+  width: 120px;
+}
+.formDataSetting #insertContainer .btn-group {
+  float: right;
+}
+.formDataSetting #insertContainer .dropdown {
+  height: 25px;
+  width: 80%;
+  z-index: 2;
+}
+.formDataSetting #insertContainer #calculationInsert {
+  margin: 1px 1px 0 1px;
+  height: 24px;
+}
+.formDataSetting #insertContainer #calculationShow {
+  float: left;
+  height: 70px;
+  width: 225px;
+  margin-left: -111px;
+}
+.formDataSetting #insertContainer #calculationShow .form-control {
+  height: 62px;
+  margin-top: 2px;
+  width: 360px;
+  resize: none;
+}
+.formDataSetting #calculationSetVal {
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 106px;
+  filter: alpha(opacity=100);
+}
+.formDataSetting #calculationSetVal .btn {
+  height: 23px;
+  line-height: 23px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 40px;
+}
+.formDataSetting #calculationSetVal .button-x-2 {
+  width: 79px;
+}
+.formDataSetting #calculationSetVal .margin-left-1 {
+  margin-left: -1px;
+}
+.formDataSetting #calculationSetVal .button-y-2 {
+  height: 45px;
+}
+.formDataSetting #calculationSetVal .button-x-1 {
+  width: 20px;
+}
+.formDataSetting #calculationSetVal .pull-right {
+  float: right;
+}
+.formDataSetting .nav_content {
+  margin-top: 5px;
+  float: right;
+}
+.formDataSetting .nav_content .form-group {
+  margin-bottom: 5px;
+}
+.formDataSetting .nav_content .form-group .input-group-addon {
+  padding: 3px 10px;
+  height: 25px;
+  border-radius: 0px;
+}
+.formDataSetting .nav_content .form-group .form-control {
+  height: 25px;
+  padding: 0px 5px;
+}
+.formDataSetting .nav_content .dropdown {
+  width: 100%;
+  z-index: 2;
+  height: 25px;
+}
+.formDataSetting .nav_content .dropdown.open {
+  z-index: 10;
+}
+.formDataSetting .nav_button {
+  position: absolute;
+  right: 15px;
+  top: 130px;
+}
+.formDataSetting .nav_button .btn {
+  padding: 3px 12px;
+}

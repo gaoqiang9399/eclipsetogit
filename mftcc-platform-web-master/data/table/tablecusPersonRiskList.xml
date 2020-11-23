@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusPersonRiskList" link="/mfCusPersonRisk/findByPage" para="eadis_page" title="人风险" type="1">
+<tableitem align="2" filedname="aroundCompany" id="27" indexed="27" label="风险数量" row="1" type="0"/>
+<tableitem align="2" filedname="riskNo" id="26" indexed="26" label="风险涉及公司" row="1" type="0"/>
+<tableitem align="2" filedname="riskCase" id="25" indexed="25" label="公司主要人员" row="1" type="0"/>
+<tableitem align="2" filedname="title" id="24" indexed="24" label="标题" row="1" type="4" typepara="/mfCusPersonRisk/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusPersonRisk/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/mfCusPersonRisk/deleteAjax.action;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+</table>

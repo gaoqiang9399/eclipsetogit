@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pact0006" title="变更合同号">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="原合同号" mustinput="" readonly="1" row="1"/>
+<formelement alt="请输入新合同号" datatype="0" fieldalign="1" fieldcol="2" fieldname="newPactNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="新合同号" maxlength="50" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="合同id" mustinput="" param2="1" readonly="" row="3"/>
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="oaleave0005" title="请假审批带选则">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="opinionType" fieldsize="OPINION_TYPE" fieldtype="4" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="0" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="isChairman" fieldsize="MF_OA_CHAIRMAN" fieldtype="4" formactiveid="10" horVer="0" initvalue="0" labelalign="3" labelcol="1" labelname="董事长审批" mustinput="0" readonly="" row="5"/>
+</form>

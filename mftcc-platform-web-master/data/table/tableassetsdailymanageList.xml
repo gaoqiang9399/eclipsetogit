@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetsdailymanageList" link="/mfAssetsDailyManage/findByPage" para="eadis_page" title="资产日常管理列表" type="1">
+<tableitem align="2" filedname="accCheckTime" id="6" indexed="6" label="账实核对时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="accountsCheck" id="5" indexed="5" label="账实核对" row="1" type="6" typepara="ACCOUNTS_CHECK" widthType="0"/>
+<tableitem align="2" filedname="checkTime" id="4" indexed="4" label="检查维护时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="checkRecords" id="3" indexed="3" label="检查维护内容" type="4" typepara="/mfAssetsDailyManage/getById;recordId-recordId;onClick-MfAssetsManage_Detail.getAssetsDailyDetail;subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="manageType" id="2" indexed="2" label="管理方式" row="1" type="6" typepara="MANAGE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="opName" id="8" indexed="8" label="登记人姓名" row="1" type="0"/>
+</table>

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>demo.html</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type="text/javascript" src="../libs/jQueryWeUI/lib/jquery-2.1.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="../libs/jQueryWeUI/css/jquery-weui.css">
+	<link rel="stylesheet" type="text/css" href="../libs/jQueryWeUI/lib/weui.css">
+	<script type="text/javascript" src="../libs/jQueryWeUI/js/jquery-weui.js"></script>
+
+	<style>
+		.weui_tabbar{
+			position: fixed;
+		}
+		.weui_search_bar{
+			position: fixed;
+			top:0;
+			left:0px;
+			right:0px;
+			z-index:999;
+		}
+		#weui_tab_db1 {
+			margin-top:40px;
+		}
+		.weui_navbar{
+			position: fixed;
+			margin-top:44px;
+		}
+		.me_cl{
+			width:33.33333%;
+			float:left;
+			background-color:#00BBFF;
+			padding-top:10px;
+			padding-bottom:10px;
+		}
+		.me_cl p{
+			text-align:center;
+		}
+		.tab3_content_cl{
+			width:33.33333%;
+			float:left;
+			padding-top:20px;
+			padding-bottom:20px;
+		}
+		.tab3_content_cl p{
+			text-align:center;
+		}
+		#tab1_top{
+			background-color:#00BBFF;
+			padding-top:10px;
+			position: fixed;
+			top:0;
+			z-index:999;
+			left:0px;
+			right:0px;
+		}
+		#panel_db_1 {
+			margin-top:100px;
+			background-color:#efeff4;
+		}
+		.span_1{
+			text-align: right;
+		}
+		.second_part{
+			margin-top:10px;
+			background-color:white;
+		}
+		.font_blue{
+			color:blue;
+		}
+		.xiangmuxinxi{
+			margin-top:10px;
+		}
+		.baozhengxinxi{
+			margin-top:10px;
+		}
+		.form_xinxi_left{
+			float: left;
+			width: 45%;
+			margin-left: 5%;
+		}
+		.form_xinxi_right{
+			float: right;
+			width: 45%;
+		}
+		.clearfloat{
+			clear:both
+		}
+		#weui-ca{
+			margin-top:0px;
+		}
+		#tab3_content{
+			margin-top:5px;
+			background-color:white;
+		}
+		.smallgray{
+			font-size: 10px;
+			color: #999999;
+		}
+		#tab3_part2{
+			margin-top:44px;
+			background-color:#efeff4;
+		}
+		.tab4_cl{
+			background-color:#00BBFF;
+			padding-top:33px;
+			position: fixed;
+			top:0;
+			z-index:999;
+			left:0px;
+			right:0px;
+			height:95px;
+		}
+		.tab4_cl p{
+			text-align:center;
+		}
+		#jiugong{
+			margin-top:95px;
+		}
+		.weui_grids{
+			margin-top:395px;
+		}
+	</style>
+  </head>
+  
+  <body>
+    <div class="weui_tab">
+	  <div class="weui_tab_bd">
+	    <div id="tab1" class="weui_tab_bd_item  ">
+	      <div id="tab1_top">
+	      	<p>
+	      		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp刘石
+	      	</p>
+	      	<div class="me_cl">
+		      	<p>	
+		      		10,000元
+		      	</p>
+		      	<p>
+		      		贷款金额	
+		      	</p>
+	      	</div>
+	      	<div class="me_cl">
+		      	<p>	
+		      		10月
+		      	</p>
+		      	<p>
+		      		贷款期限	
+		      	</p>
+	      	</div>
+	      	<div class="me_cl">
+		      	<p>	
+		      		96%
+		      	</p>
+		      	<p>
+		      		利率（%）	
+		      	</p>
+	      	</div>
+	      </div>
+	      <div class="weui_panel">
+		  <div class="weui_panel_bd" id="panel_db_1">
+		    <div class="weui_media_box weui_media_small_appmsg">
+		      <div class="weui_cells weui_cells_access">
+		        <a class="weui_cell" href="javascript:;">
+		          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+		          <div class="weui_cell_bd weui_cell_primary">
+		            <b>客户经理</b>
+		            <p>刘石</p>
+		          </div>
+		          <div>
+		          <p class="span_1">已审核</p>
+		          <p class="span_1">2016-01-21</p>
+		          </div>
+		        </a>
+		      </div>
+		      <div class="weui_cells weui_cells_access">
+		        <a class="weui_cell" href="javascript:;">
+		          <div class="weui_cell_hd"><img src="./img/panel_user_women.png" style="width:46px;"></div>
+		          <div class="weui_cell_bd weui_cell_primary">
+		            <b>客户经理</b>
+		            <p>王艳</p>
+		          </div>
+		          <div>
+		          <p class="span_1">已审核</p>
+		          <p class="span_1">2016-01-21</p>
+		          </div>
+		        </a>
+		      </div>
+		      <div class="weui_cells weui_cells_access">
+		        <a class="weui_cell" href="javascript:;">
+		          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+		          <div class="weui_cell_bd weui_cell_primary">
+		            <b>客户经理</b>
+		            <p>刘石</p>
+		          </div>
+		          <div>
+		          <p class="span_1">已审核</p>
+		          <p class="span_1">2016-01-21</p>
+		          </div>
+		        </a>
+		      </div>
+		      <div class="weui_cells weui_cells_access">
+		        <a class="weui_cell" href="javascript:;">
+		          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+		          <div class="weui_cell_bd weui_cell_primary">
+		            <b>客户经理</b>
+		            <p>刘石</p>
+		          </div>
+		          <div>
+		          <p class="span_1">已审核</p>
+		          <p class="span_1">2016-01-21</p>
+		          </div>
+		        </a>
+		      </div>
+		      <div class="weui_cells weui_cells_access">
+		        <a class="weui_cell" href="javascript:;">
+		          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+		          <div class="weui_cell_bd weui_cell_primary">
+		            <b>客户经理</b>
+		            <p>刘石</p>
+		          </div>
+		          <div>
+		          <p class="span_1">已审核</p>
+		          <p class="span_1">2016-01-21</p>
+		          </div>
+		        </a>
+		      </div>
+		    </div>
+		    <div class="second_part">
+		    	<div class="weui_cells weui_cells_access" id="weui-ca">
+				  <a class="weui_cell" href="javascript:;">
+				    <div class="weui_cell_hd">
+				      <img src="./img/Information.png" alt="icon" style="width:20px;margin-right:5px;display:block">
+				    </div>
+				    <div class="weui_cell_bd weui_cell_primary">
+				      <b class="font_blue">担保信息</b>
+				    </div>
+				  </a>
+				</div>
+				<div>
+					<b class="font_blue">项目信息</b>
+					<div class="xiangmuxinxi">
+						<b>主担保方式</b>
+						<p>信用贷款</p>
+					</div>
+				</div>
+				<div>
+					<b class="font_blue">保证信息</b>
+					<div class="baozhengxinxi">
+						<div class="form_xinxi_left">
+							<b>贷款申请号：</b>
+							<p>200004310001</p>
+						</div>
+						<div class="form_xinxi_right">
+							<b>保证方式：</b>
+							<p>自然人担保</p>
+						</div>
+						<div class="form_xinxi_left">
+							<b>担保人类型：</b>
+							<p>身份证</p>
+						</div>
+						<div class="form_xinxi_right">
+							<b>担保人名称</b>
+							<p>程娇</p>
+						</div>
+						<div class="clearfloat"></div> 
+					</div>
+				</div>
+		    </div>
+		  </div>
+		</div>
+	    </div>
+	    <div id="tab2" class="weui_tab_bd_item">
+	      <div class="weui_search_bar" id="search_bar">
+			  <form class="weui_search_outer">
+			    <div class="weui_search_inner">
+			      <i class="weui_icon_search"></i>
+			      <input type="search" class="weui_search_input" id="search_input" placeholder="搜索" required/>
+			      <a href="javascript:" class="weui_icon_clear" id="search_clear"></a>
+			    </div>
+			    <label for="search_input" class="weui_search_text" id="search_text">
+			      <i class="weui_icon_search"></i>
+			      <span>搜索</span>
+			    </label>
+			  </form>
+			  <a href="javascript:" class="weui_search_cancel" id="search_cancel">取消</a>
+			</div>
+			<div class="weui_tab">
+				<div class="weui_navbar">
+			    	<a class="weui_navbar_item weui_bar_item_on">
+			      		全部
+			    	</a>
+			    	<a class="weui_navbar_item">
+			     		 个人
+			   	 	</a>
+			    	<a class="weui_navbar_item">
+			      		企业
+			    	</a>
+			  	</div>
+			  	<div class="weui_tab_bd" id="weui_tab_db1">
+			    	<div class="weui_panel">
+					  <div class="weui_panel_hd">b</div>
+					  <div class="weui_panel_bd">
+					    <div class="weui_media_box weui_media_small_appmsg">
+					      <div class="weui_cells weui_cells_access">
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>北京银行</p>
+					            <p>13998553411</p>
+					          </div>
+					        </a>
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/company.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>北京微金时代</p>
+					          </div>
+					        </a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="weui_panel_hd">l</div>
+					  <div class="weui_panel_bd">
+					    <div class="weui_media_box weui_media_small_appmsg">
+					      <div class="weui_cells weui_cells_access">
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user_women.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>李小琳</p>
+					          </div>
+					        </a>
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>lld</p>
+					          </div>
+					        </a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="weui_panel_hd">p</div>
+					  <div class="weui_panel_bd">
+					    <div class="weui_media_box weui_media_small_appmsg">
+					      <div class="weui_cells weui_cells_access">
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>ppp</p>
+					          </div>
+					        </a>
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>pcp</p>
+					          </div>
+					        </a>
+					      </div>
+					    </div>
+					  </div>
+					  <div class="weui_panel_hd">z</div>
+					  <div class="weui_panel_bd">
+					    <div class="weui_media_box weui_media_small_appmsg">
+					      <div class="weui_cells weui_cells_access">
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>zz</p>
+					          </div>
+					        </a>
+					        <a class="weui_cell" href="javascript:;">
+					          <div class="weui_cell_hd"><img src="./img/panel_user.png" style="width:46px;"></div>
+					          <div class="weui_cell_bd weui_cell_primary">
+					            <p>zy</p>
+					          </div>
+					        </a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			  	</div>
+			</div>
+	    </div>
+	    <div id="tab3" class="weui_tab_bd_item ">
+	      <div class="weui_search_bar" id="search_bar2">
+			  <form class="weui_search_outer">
+			    <div class="weui_search_inner">
+			      <i class="weui_icon_search"></i>
+			      <input type="search" class="weui_search_input" id="search_input" placeholder="搜索" required/>
+			      <a href="javascript:" class="weui_icon_clear" id="search_clear"></a>
+			    </div>
+			    <label for="search_input" class="weui_search_text" id="search_text">
+			      <i class="weui_icon_search"></i>
+			      <span>搜索</span>
+			    </label>
+			  </form>
+			  <a href="javascript:" class="weui_search_cancel" id="search_cancel">取消</a>
+			</div>
+			<div id="tab3_part2">
+			<div id="tab3_content">
+				<div class="weui_cells weui_cells_access" id="weui-ca">
+				  <div class="weui_cell" >
+				  	<div style="width:80%">
+				      <b>尹玲双</b>
+				      <img src="./img/xiaotu.png" alt="icon" style="width:20px;margin-left:5px;">
+				    </div>
+				    <p class="smallgray">申请未提交</p>
+				  </div>
+				  <div>
+			      	<div class="tab3_content_cl">
+				      	<p class="font_blue">	
+				      		0.83
+				      	</p>
+				      	<p>
+				      		月利率(%)
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		6
+				      	</p>
+				      	<p>
+				      		期限(月)	
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		10W
+				      	</p>
+				      	<p>
+				      		金额(元)	
+				      	</p>
+			      	</div>
+			      </div>
+				</div>
+			</div>
+			
+			<div id="tab3_content">
+				<div class="weui_cells weui_cells_access" id="weui-ca">
+				  <div class="weui_cell" >
+				  	<div style="width:80%">
+				      <b>王代鹏</b>
+				      <img src="./img/xiaotu.png" alt="icon" style="width:20px;margin-left:5px;">
+				    </div>
+				    <p class="smallgray">申请未提交</p>
+				  </div>
+				  <div>
+			      	<div class="tab3_content_cl">
+				      	<p class="font_blue">	
+				      		0.83
+				      	</p>
+				      	<p>
+				      		月利率(%)
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		36
+				      	</p>
+				      	<p>
+				      		期限(月)	
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		10W
+				      	</p>
+				      	<p>
+				      		金额(元)	
+				      	</p>
+			      	</div>
+			      </div>
+				</div>
+			</div>
+			
+			<div id="tab3_content">
+				<div class="weui_cells weui_cells_access" id="weui-ca">
+				  <div class="weui_cell" >
+				  	<div style="width:80%">
+				      <b>TOM</b>
+				      <img src="./img/xiaotu.png" alt="icon" style="width:20px;margin-left:5px;">
+				    </div>
+				    <p class="smallgray">申请未提交</p>
+				  </div>
+				  <div>
+			      	<div class="tab3_content_cl">
+				      	<p class="font_blue">	
+				      		1.00
+				      	</p>
+				      	<p>
+				      		月利率(%)
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		5
+				      	</p>
+				      	<p>
+				      		期限(月)	
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		100W
+				      	</p>
+				      	<p>
+				      		金额(元)	
+				      	</p>
+			      	</div>
+			      </div>
+				</div>
+			</div>
+			
+			<div id="tab3_content">
+				<div class="weui_cells weui_cells_access" id="weui-ca">
+				  <div class="weui_cell" >
+				  	<div style="width:80%">
+				      <b>尼奥</b>
+				      <img src="./img/xiaotu.png" alt="icon" style="width:20px;margin-left:5px;">
+				    </div>
+				    <p class="smallgray">申请未提交</p>
+				  </div>
+				  <div>
+			      	<div class="tab3_content_cl">
+				      	<p class="font_blue">	
+				      		1
+				      	</p>
+				      	<p>
+				      		月利率(%)
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		16
+				      	</p>
+				      	<p>
+				      		期限(月)	
+				      	</p>
+			      	</div>
+			      	<div class="tab3_content_cl">
+				      	<p>	
+				      		50W
+				      	</p>
+				      	<p>
+				      		金额(元)	
+				      	</p>
+			      	</div>
+			      </div>
+				</div>
+			</div>
+			
+		 </div>
+	    </div>
+	    <div id="tab4" class="weui_tab_bd_item  weui_tab_bd_item_active">
+	      <div class="tab4_cl">
+	      	<p>
+	      		贷款金额
+	      	</p>
+		     <p>
+		      	746.75万
+	      	</p>
+	      </div>
+	      
+	      <div class="weui_grids">
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong1.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      Button
+			    </p>
+			  </a>
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong2.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      List
+			    </p>
+			  </a>
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong3.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      List
+			    </p>
+			  </a>
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong4.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      List
+			    </p>
+			  </a>
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong5.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      List
+			    </p>
+			  </a>
+			  <a href="" class="weui_grid js_grid">
+			    <div class="weui_grid_icon">
+			      <img src="./img/9gong6.png" alt="">
+			    </div>
+			    <p class="weui_grid_label">
+			      List
+			    </p>
+			  </a>
+			</div>
+	      
+	    </div>
+	  </div>
+	  <div class="weui_tabbar">
+	    <a href="#tab1" class="weui_tabbar_item ">
+	      <div class="weui_tabbar_icon">
+	        <img src="./img/blue_home.png" alt="" style="width:24px;">
+	      </div>
+	      <p class="weui_tabbar_label">主页</p>
+	    </a>
+	    <a href="#tab2" class="weui_tabbar_item">
+	      <div class="weui_tabbar_icon">
+	        <img src="./img/panel_user.png" alt="" style="width:24px;">
+	      </div>
+	      <p class="weui_tabbar_label">客户</p>
+	    </a>
+	    <a href="#tab3" class="weui_tabbar_item ">
+	      <div class="weui_tabbar_icon">
+	        <img src="./img/apply.png" alt="" style="width:24px;">
+	      </div>
+	      <p class="weui_tabbar_label">申请</p>
+	    </a>
+	    <a href="#tab4" class="weui_tabbar_item  weui_bar_item_on">
+	      <div class="weui_tabbar_icon">
+	        <img src="./img/write.png" alt="" style="width:24px;">
+	      </div>
+	      <p class="weui_tabbar_label">审批</p>
+	    </a>
+	  </div>
+	</div>
+  </body>
+</html>

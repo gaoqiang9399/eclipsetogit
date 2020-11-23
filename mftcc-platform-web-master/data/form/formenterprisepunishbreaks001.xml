@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="enterprisepunishbreaks001" title="企业工商数据之失信被执行人信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseCode" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="案号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="name" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="被执行人姓名" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="type" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="失信人类型" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="age" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="年龄" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ysfzd" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="身份证原始发证地" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="立案时间" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="courtName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="执行法院" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gistId" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="执行依据文号" mustinput="" readonly="1" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="duty" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="法律文书确定的义务" mustinput="" readonly="1" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="performAnce" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="被执行人的履行情况" mustinput="" readonly="1" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="unPerformPart" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="未履行" mustinput="" readonly="1" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sex" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="性别" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cardNum" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="身份证号码" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="businessEntity" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="法定代表人/负责人姓名" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="publishDate" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="公布时间" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="省份" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gistUnit" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="执行依据单位" mustinput="" readonly="1" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="performedPart" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="已履行" mustinput="" readonly="1" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disruptTypeName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="失信被执行人行为具体情形" mustinput="" readonly="1" row="9" />
+</form>

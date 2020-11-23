@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusPaymentDetail" title="收支情况详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="2" fieldcol="2" fieldname="mainPock" fieldtype="1" formactiveid="3" horVer="1" labelalign="2" labelcol="1" labelname="主要经济来源" maxlength="50" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="2" fieldcol="3" fieldname="otherPock" fieldtype="1" formactiveid="4" horVer="1" labelalign="2" labelcol="2" labelname="其他经济来源" maxlength="50" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="12" fieldalign="2" fieldcol="4" fieldname="cusIncome" fieldtype="1" formactiveid="5" horVer="1" labelalign="2" labelcol="3" labelname="个人月收入" maxlength="20" mustinput="0" param="cusNo;" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="2" fieldcol="5" fieldname="homeIncome" fieldtype="1" formactiveid="6" horVer="1" labelalign="2" labelcol="4" labelname="家庭月收入" maxlength="20" mustinput="0" param="cusNo;" row="1" unit="元"/>
+<formelement datatype="1" fieldalign="2" fieldcol="5" fieldname="fendNum" fieldtype="1" formactiveid="7" horVer="1" labelalign="2" labelcol="4" labelname="主要供养人口" mustinput="0" param="cusNo;" row="3" unit="人"/>
+<formelement datatype="1" fieldalign="2" fieldcol="4" fieldname="homePeoples" fieldtype="1" formactiveid="8" horVer="1" labelalign="2" labelcol="3" labelname="家庭人口数" mustinput="0" param="cusNo;" row="3" unit="人"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="3" />
+<formelement datatype="12" fieldalign="2" fieldcol="2" fieldname="homePay" fieldsize="0.00" fieldtype="1" formactiveid="10" horVer="1" labelalign="2" labelcol="1" labelname="家庭月支出" maxlength="14" mustinput="" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="2" fieldcol="3" fieldname="cusPay" fieldsize="0.00" fieldtype="1" formactiveid="11" horVer="1" labelalign="2" labelcol="2" labelname="个人月支出" maxlength="14" mustinput="" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="brName" fieldtype="90" formactiveid="12" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" row="4" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="regTime" fieldtype="90" formactiveid="13" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" row="5" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="opNo" fieldtype="90" formactiveid="14" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" row="6" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext5" fieldtype="90" formactiveid="15" labelalign="3" labelcol="1" labelname="ext5" maxlength="100" row="7" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext1" fieldtype="90" formactiveid="16" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" row="8" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext2" fieldtype="90" formactiveid="17" labelalign="3" labelcol="1" labelname="ext2" maxlength="100" row="9" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext3" fieldtype="90" formactiveid="18" labelalign="3" labelcol="1" labelname="ext3" maxlength="100" row="10" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext4" fieldtype="90" formactiveid="19" labelalign="3" labelcol="1" labelname="ext4" maxlength="100" row="11" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="opName" fieldtype="90" formactiveid="20" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" row="12" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="brNo" fieldtype="90" formactiveid="21" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" row="13" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="lstModTime" fieldtype="90" formactiveid="22" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" row="14" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="23" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

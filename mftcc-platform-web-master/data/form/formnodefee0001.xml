@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="nodefee0001" title="节点费用配置表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNo" fieldtype="8" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="费用名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optPower" fieldsize="NODE_FEE_POWER" fieldtype="4" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="操作权限" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="itemName" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="费用项名称（隐）" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNodeFeeId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="唯一id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="busModel" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="5" labelname="业务模式" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="nodeNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="节点编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="feeCollectTime" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="收取时间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="standard" fieldsize="FEE_STANDARD" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="5" labelname="基准类型" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="takeType" fieldsize="FEE_TAKE_TYPE" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="费率类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="rateScale" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="费率值" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="feeType" fieldsize="FEE_COLLECT_TYPE" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="5" labelname="收取方式" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="itemType" fieldsize="FEE_ITEM_TYPE" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="费用项类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="sort" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="排序" mustinput="" readonly="" row="2"/>
+</form>

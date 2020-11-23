@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="changePactList" link="/mfBusPactChange/findByPage" para="eadis_page" title="合同变更历史表" type="4">
+<tableitem align="2" filedname="appName" id="5" indexed="6" label="项目名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincRateChangeStr" id="21" indexed="24" label="变更后利率" type="0" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="110" indexed="25" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="109" indexed="5" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincRateStr" id="108" indexed="20" label="合同利率" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactAmtChange" id="17" indexed="19" label="变更后合同金额" row="1" type="0"/>
+<tableitem align="2" filedname="pactAmt" id="16" indexed="17" label="合同金额" row="1" type="0"/>
+</table>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0033" title="查询审批用户">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="任务编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parNames" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="parNames" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="popNames" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="popNames" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfUserName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="12" mustinput="" readonly="" row="1"/>
+</form>

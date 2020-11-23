@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusagenciesSelectList" para="eadis_page" title="上级资金机构选择页面" type="1">
+<tableitem align="2" filedname="选择" id="15" indexed="20" label="-" type="5" typepara="#;agenciesId-agenciesId;agenciesName-agenciesName;onClick-choseAgencies" widthType="0"/>
+<tableitem align="1" filedname="agenciesName" id="3" indexed="4" label="机构名称" mytitle="机构名称-agenciesName" row="1" sortType="0" type="3" typepara="30" widthType="0"/>
+<tableitem align="2" filedname="agenciesId" id="16" indexed="3" label="id" row="1" type="99" widthType="0"/>
+</table>

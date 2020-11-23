@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditpactTemporaryBase" title="临额调整合同签约">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldstyle="half" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="合同编号" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="8"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="creditTerm" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="授信期限" mustinput="1" readonly="1" row="5" unit="个月"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日" maxlength="17" mustinput="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldstyle="half" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="合同签订日" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日" mustinput="1" readonly="1" row="6" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="意见描述" maxlength="200" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditAppId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protocolTemplate" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="授信协议" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projectType" fieldsize="PROJECT_TYPE" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="业务类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectName" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="1" readonly="" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="5" labelname="pactId" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="firstApprovalUserName" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="指定审批人员" mustinput="0" onclick="WkfApprove.getNextUserByNodePage(this,'1531187706206')" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="firstApprovalUser" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="指定审批人员编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="授信性质" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditModel" fieldsize="CREDIT_MODEL" fieldtype="2" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="授信模型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="addAmt" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="新增金额" maxlength="14" mustinput="1" readonly="1" row="4" unit="元"/>
+</form>

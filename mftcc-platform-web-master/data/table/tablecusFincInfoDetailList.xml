@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusFincInfoDetailList" para="eadis_page" title="客户借据明细列表" type="1">
+<tableitem align="2" filedname="appName" id="4" indexed="5" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="3" indexed="6" label="放款金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="9" indexed="4" label="借据号" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincRate" id="8" indexed="10" label="利率" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="7" indexed="9" label="贷款余额" row="1" type="12" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="prd1001" title="金融产品表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="金融产品号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="金融方案名称：" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="finaManager" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="产品经理：" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="10" fieldname="userFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="4" labelalign="3" labelcol="9" labelname="是否有效：" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="6" fieldname="finaStartDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="起始日期：" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="1" />
+<formelement datatype="6" fieldalign="1" fieldcol="8" fieldname="finaEndDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="7" labelname="到期日期：" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="1" />
+</form>

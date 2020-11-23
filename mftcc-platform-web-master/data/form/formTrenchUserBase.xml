@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="TrenchUserBase" title="渠道操作员信息表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="channelSourceName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="渠道" mustinput="" readonly="1" row="1"/>
+<formelement alt="请输入用户名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNickname" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="用户名称" mustinput="1" readonly="" row="2"/>
+<formelement alt="请输入用户手机号码" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="手机号码" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');MfTrenchUser_Insert.checkCusAccountUnique(this,'2')" readonly="" row="7"/>
+<formelement alt="请输入6位密码" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusPassword" fieldtype="6" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="密码" mustinput="1" onblur="func_uior_valFormat_tips(this, 'pwd');" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="channelSourceNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="渠道编号" mustinput="" readonly="" row="1"/>
+<formelement alt="0000" datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldsize="TRENCH_USER_DATA_RANG" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="数据权限" mustinput="1" readonly="" row="9"/>
+<formelement alt="请输入登录账号" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusAccount" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="登录账号" mustinput="1" onblur="MfTrenchUser_Insert.checkCusAccountUnique(this,'1')" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusEmail" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="邮箱" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleNo" fieldsize="TRENCH_ROLE" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="角色" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="身份证号" mustinput="1" onblur="func_uior_valFormat_tips(this,'allidtype');" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldsize="SEX" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="性别" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="地区" mustinput="" onclick="selectAreaDialog(MfTrenchUser_Insert.selectAreaCallBack)" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="4" labelname="id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="areaNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="4" labelname="地区" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="roleName" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="角色" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="idType" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="证件类型" mustinput="" readonly="" row="2"/>
+</form>

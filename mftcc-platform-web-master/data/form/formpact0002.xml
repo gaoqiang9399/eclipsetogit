@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pact0002" title="合同信息登记表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="产品种类" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="curNo" fieldsize="CUR_TYPE" fieldtype="21" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="币种" mustinput="" readonly="1" row="3"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="usableFincAmt" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="融资利率" mustinput="" readonly="1" row="5" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="termMonth" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="申请期限月" mustinput="" readonly="1" row="7" unit="月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="23" horVer="1" labelalign="1" labelcol="3" labelname="担保方式" mustinput="" onchange="dealVouModel()" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngName" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="3" labelname="客户经理" mustinput="" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNoSell" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="2" labelname="卖方客户号" mustinput="" readonly="" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="1" labelname="合同号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="1" labelname="合同开始日" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="3" labelname="合同结束日" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pactId" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="2" labelname="合同ID" mustinput="" readonly="" row="22"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="signDate" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="1" labelname="签订日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="39" horVer="1" labelalign="1" labelcol="1" labelname="申请ID（隐）" mustinput="" readonly="" row="17"/>
+</form>

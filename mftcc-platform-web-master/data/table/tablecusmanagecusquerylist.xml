@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusmanagecusquerylist" para="eadis_page" title="客户经理查询客户查询列表表单" type="2">
+<tableitem align="2" filedname="contactsTel" id="15" indexed="5" label="联系电话" row="1" sortType="2" type="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="18" indexed="4" label="证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="16" indexed="6" label="管户人" type="0" widthType="0"/>
+</table>

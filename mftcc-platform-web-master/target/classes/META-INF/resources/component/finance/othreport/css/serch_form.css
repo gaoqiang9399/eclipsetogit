@@ -1,0 +1,60 @@
+.znsearch-div .more-btn{
+	margin-left: 8px;
+	float: right;
+}
+.more-btn > .dropdown_ul{
+	min-width: 68px;
+	right: 0;
+	left: auto;
+}
+
+.general_List .ls_list tr td{
+	border-left: 1px solid #e9ebf2;
+	border-bottom: 1px solid #e9ebf2;
+}
+
+.general_List .ls_list tr td p{
+	padding: 8px 5px;
+	margin: 0 -5px;
+	line-height: 20px !important;
+	height: 35px !important; 
+    border-bottom: 1px solid #e9ebf2;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ .general_List .ls_list tr td p:first-child{
+    margin: -5px -5px 0 -5px;
+}
+.general_List .ls_list tr td p:last-child{
+    border-bottom: none ;
+    margin: 0 -5px -5px -5px;
+} 
+
+
+.account_voucher_list .ls_list tr td{
+	border-left: 1px solid #e9ebf2;
+	border-bottom: 1px solid #e9ebf2;
+}
+
+.account_voucher_list .ls_list tr td p{
+	padding: 8px 5px;
+	margin: 0 -5px;
+	line-height: 20px !important;
+	height: 35px !important; 
+    border-bottom: 1px solid #e9ebf2;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ .account_voucher_list .ls_list tr td p:first-child{
+    margin: -5px -5px 0 -5px;
+}
+.account_voucher_list .ls_list tr td p:last-child{
+    border-bottom: none ;
+    margin: 0 -5px -5px -5px;
+} 

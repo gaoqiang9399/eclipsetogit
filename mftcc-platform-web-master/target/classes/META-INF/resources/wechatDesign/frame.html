@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link type="image/x-icon" rel="shortcut icon" href="img/favicon.ico">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无标题文档</title>
+		<!--<link type="text/css" rel="stylesheet" href="jquery-ui.css"/>  -->
+		<link rel="stylesheet" type="text/css" href="weblib/jQueryWeUI/lib/weui.min.css" />
+		<link rel="stylesheet" type="text/css" href="weblib/jQueryWeUI/css/jquery-weui.css" />
+		<link rel="stylesheet" type="text/css" href="weblib/font-awesome-4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="weblib/customScrollbar/css/jquery.mCustomScrollbar.css"/>
+		<script src="weblib/jQueryWeUI/lib/jquery-2.1.4.js" type="text/javascript"></script>
+		<script src="weblib/jQueryWeUI/js/jquery-weui.js" type="text/javascript"></script>
+		<script type="text/javascript" src="weblib/customScrollbar/js/jquery.mousewheel-3.0.6.js" ></script>
+		<script src="weblib/customScrollbar/js/jquery.mCustomScrollbar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="weblib/jquery-ui-1.11.4/jquery-ui.js" type="text/javascript"></script>
+		<script src="js/draggable.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			* {
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			html{
+				height: 100%;
+				width: 100%;
+				margin: 0px;
+				padding: 0px;
+			}
+			body {
+				height: 100%;
+				width:100%;
+				margin: 0px;
+				padding: 0px;
+			    background-color: #fff;
+			}
+			
+			/* .weui_cells_form {
+				min-height: 80%;
+				padding-left: 15px;
+				padding-right: 15px;
+			} */
+			
+			.tab {
+				min-height: 400px;
+			}
+			.outside_border{
+				/* border: 2px solid red; */
+				-moz-box-shadow: 0px 0px 10px #000000;
+				-webkit-box-shadow: 0px 0px 10px #000000;
+				box-shadow: 0px 0px 10px #000000;
+			}
+			.weui_grid_icon i.fa{
+				font-size: 1.4rem;
+			}
+			.weui_cell:before{
+				left: 0px;
+			}
+			.weui_btn{
+				margin-top: 10px;
+			}
+			.vertical{
+				display: block;
+			}
+			.dropbody{
+				width:100%;
+				height: 100%;
+			}
+			.dropbody_form{
+				width: calc(100% - 20px);
+			    min-height: 524px;
+			    padding-left: 10px;
+				padding-right: 10px;
+			    margin-bottom: 20px;
+			}
+			.dropbody_form.level1 {
+				width: 100%;
+			   	height: 470px;
+			    padding: 0px;
+			}
+			.mCSB_scrollTools{
+				width: 4px;
+			}
+		</style>
+	</head>
+
+	<body >
+		<div class="dropbody">
+			<div class="weui_cells_form dropbody_form" id="dropArea"></div>
+		</div>
+	</body>
+	<script>
+		$(function() {
+			$(".cpList,.sub_cpList", parent.document).find("span").each(function() {
+				$(this).on("dragstart", dragStart);
+				$(this).on("dragend", dragEnd);
+			});
+			$(document).bind("dragover",function(){
+				var e =  parent.event || parent.window.event;
+				var para = parent.document.getElementById("mainDragDashed");
+				if(!para) return;
+				var l = para.getAttribute("sl");
+				var t = para.getAttribute("st");
+				var mobile =parent.document.getElementById("window");
+				var spos = {
+						x:parent.getElementLeft(mobile),
+						y:parent.getElementTop(mobile)
+				};
+				getMouseLoc(para,l,t,spos);
+			});
+			function getMouseLoc(para,sl,st,spos){
+				var pos = getPageLocation();
+				para.style.left = (pos.x - sl+spos.x)+"px";
+				para.style.top  = (pos.y - st+spos.y)+"px";
+			}
+			$(window).load(function(){
+	            $(".dropbody").mCustomScrollbar({theme:"minimal-dark"});
+	        });
+		});
+		$.ajax({
+			type:"post",
+			async:false,
+			cache:false,
+			url:"file/menu.json",
+			dataType:"json",
+			success:function(jsonData){
+				tagPropertys = jsonData.property;
+				tagDatatypes = jsonData.datatype;
+			},
+			error:function(){
+				alert("error");
+			}
+		});
+	</script>
+
+</html>

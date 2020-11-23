@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="VouAfterTrackApprove" title="保后跟踪审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="" row="2"/>
+<formelement alt="6000字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="6000" mustinput="1" readonly="" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rollbackName" fieldtype="2" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="发回岗位" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="180" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldtype="99" formactiveid="181" horVer="0" labelalign="3" labelcol="1" labelname="风险等级" mustinput="" readonly="" row="1"/>
+</form>

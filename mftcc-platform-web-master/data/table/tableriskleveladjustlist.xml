@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="riskleveladjustlist" link="/mfRiskLevelAdjust/findByPage" para="eadis_page" title="" type="2">
+<tableitem align="2" filedname="详情" id="15" indexed="8" label="-" row="1" type="5" typepara="/mfRiskLevelAdjust/getById;id-id;onClick-MfRiskLevelManage_Detail.getById;" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="14" indexed="7" label="申请状态" row="1" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" filedname="adjustLevel" id="12" indexed="6" label="调整等级" row="1" type="6" typepara="EXAM_RISK_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="operateType" id="2" indexed="3" label="处置类型" type="6" typepara="RISK_LEVEL_ADJUST_TYPE" widthType="0"/>
+<tableitem align="2" filedname="riskLevel" id="10" indexed="4" label="风险等级" row="1" type="6" typepara="EXAM_RISK_LEVEL" widthType="0"/>
+</table>

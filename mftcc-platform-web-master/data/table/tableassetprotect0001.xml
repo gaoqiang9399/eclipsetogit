@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetprotect0001" link="/mfAssetProtectRecord/findByPage" para="eadis_page" title="资产保全记录表" type="1">
+<tableitem align="2" authority="seizureFlag-0" filedname="解封" id="27" indexed="14" label="-" row="1" type="5" typepara="/mfAssetProtectRecord/jieFengInput;protectId-protectId;onClick-MfAssetProtectRecord.jieFengAjax(this);" widthType="0"/>
+<tableitem align="2" authority="seizureFlag-1" filedname="查封" id="26" indexed="12" label="-" row="1" type="5" typepara="/mfAssetProtectRecord/chaFengInput;protectId-protectId;onClick-MfAssetProtectRecord.chaFengAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="caseId" id="25" indexed="10" label="案件编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="caseName" id="24" indexed="9" label="案件名称" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="protectId" id="1" indexed="3" label="资产保全编号" row="1" sortType="2" type="99" typepara="/mfAssetProtectRecord/getById;protectId-protectId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="assetTypeName" id="9" indexed="11" label="资产类别" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assetName" id="8" indexed="5" label="资产名称" row="1" sortType="2" type="4" typepara="/mfAssetProtectRecord/getById;protectId-protectId;subStringNub-12;onclick-MfAssetProtectRecord.assetProtectRecordDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="抵债" id="28" indexed="15" label="-" type="5" typepara="/mfAssetProtectRecord/diZhaiInput;protectId-protectId;onClick-MfAssetProtectRecord.diZhaiAjax(this);" widthType="0"/>
+</table>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0051" title="更新用户">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="userId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="执行人编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="流程节点" mustinput="" readonly="" row="3" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="appId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="2" labelname="业务主键" mustinput="" readonly="" row="1" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="执行人" mustinput="" onclick="prodAutoMenu(this,'SysUserActionAjax_getUserListAjax.action',regNameCallBack,'opName','opNo','-') " readonly="" row="1" writeAuth="Advance"/>
+</form>

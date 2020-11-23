@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivepaperselect" para="eadis_page" title="选择" type="3">
+<tableitem align="1" filedname="docSplitNo" id="5" indexed="0" label="类型编号" row="1" sortType="1" type="0" width="22" widthType="0"/>
+<tableitem align="1" filedname="docSplitName" id="6" indexed="1" label="资料类别" row="1" sortType="1" type="0" width="22" widthType="0"/>
+<tableitem align="2" filedname="选择" id="9" indexed="7" label="-" row="1" type="5" typepara="#;docSplitNo-docSplitNo;onClick-choseInvoice" width="2" widthType="0"/>
+</table>

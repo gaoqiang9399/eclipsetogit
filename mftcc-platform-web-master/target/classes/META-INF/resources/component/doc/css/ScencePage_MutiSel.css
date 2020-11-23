@@ -1,0 +1,73 @@
+.risk_class_item{
+	width: 120px;	
+	float: left;
+    list-style-type: none;
+    margin-left: 50px;
+    height: 30px;
+    vertical-align: middle;
+    padding-right: 6px;
+    color: #ffffff;
+}
+.risk_class{
+	padding-top: 20px;
+}
+.risk_class li{
+	cursor: pointer;
+}
+.risk_class li.item_false{
+  	
+    border: 1px solid #cacaca;
+    background: #cacaca;
+}
+.risk_class li.item_false:hover{
+    border: 1px solid #adadad;
+    background: #adadad;
+}
+.risk_class li.item_false:hover span.checkbox_false i{
+    color:#adadad;
+}
+.risk_class li.item_true{
+    border: 1px solid #32b5cb;
+    background: #32b5cb;
+   
+}
+.risk_class li.item_true:hover{
+    border: 1px solid #009db7;
+    background: #009db7;
+}
+.risk_class li.item_true:hover span.checkbox_true i{
+   color:#009db7;
+}
+
+.risk_class li span.checkbox_true {
+	text-align: center;
+	color: #32b5cb;
+	font-size: 22px;
+}
+
+
+.risk_class li span.checkbox_false {
+	text-align: center;
+	color: #cacaca;
+	font-size: 22px;
+}
+
+.risk_class  .item_key{
+	display:none;
+}
+.risk_class li span {
+    line-height: 0;
+    padding: 0px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 0 none;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    padding-top: 3px;
+}
+.sysKind-tr{
+	height: 50px;
+}

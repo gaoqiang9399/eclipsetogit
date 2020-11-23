@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cus00010" title="卖方客户基本信息(业务申请登记)">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="20" mustinput="1" onchange="cusNoSellChange(this)" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="客户名称" maxlength="100" mustinput="1" onchange="cusNameSellChange(this)" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="客户类型" maxlength="2" mustinput="0" onblur="getIdType()" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="idType" fieldsize="ID_TYPE" fieldtype="21" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="证件类型" maxlength="2" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isThreeToOne" fieldsize="IS_THREE_TO_ONE" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="三证合一" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="证件号码" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusBussType" fieldsize="BUSINESS_TYPE" fieldtype="2" formactiveid="14" horVer="1" labelalign="1" labelcol="3" labelname="客户业务类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTel" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="客户手机号码" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="otherContactWay" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="其他联系方式" maxlength="50" mustinput="0" row="9"/>
+</form>

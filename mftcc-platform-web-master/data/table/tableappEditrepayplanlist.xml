@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="appEditrepayplanlist" para="eadis_page" title="修改还款计划" type="2">
+<tableitem align="2" filedname="beginDate" id="27" indexed="23" label="开始日期" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpBalAfter" id="26" indexed="30" label="本金余额" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="planId" id="38" indexed="29" label="planId" type="99" widthType="0"/>
+<tableitem align="2" filedname="repayMonth" id="37" indexed="27" label="还款月（第几月）" row="1" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="36" indexed="26" label="结束日期" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="24" indexed="22" label="期号" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="repayPrcp" id="34" indexed="28" label="本金" row="1" type="9" width="20" widthType="0"/>
+</table>

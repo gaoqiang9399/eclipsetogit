@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusstaff00003" title="员工信息（详情页面 纵向）">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="staffSum" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="员工总数" mustinput="" readonly="1" row="1" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange25" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="25岁以下" mustinput="1" param="&gt;0" readonly="" row="1" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="3" fieldname="ageRange30" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="25-30岁" mustinput="1" readonly="" row="1" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="4" fieldname="ageRange45" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="30-45岁" mustinput="1" readonly="" row="1" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="5" fieldname="ageRange45Up" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="45岁以上" mustinput="1" readonly="" row="1" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="4" fieldname="bachelorDegree" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="本科以上含本科" mustinput="1" readonly="" row="3" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="3" fieldname="juniorDegree" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="大专学历" mustinput="1" readonly="" row="3" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="2" fieldname="seniorDegree" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="高中和中专学历" mustinput="1" readonly="" row="3" />
+<formelement alt="nonnegative" datatype="1" fieldalign="1" fieldcol="5" fieldname="otherDegree" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="4" labelname="其他" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="9" />
+</form>

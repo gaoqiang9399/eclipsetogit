@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="kindform0001" para="eadis_page" link="/mfKindForm/findByPage" title="产品表单配置表" type="1">
+<tableitem align="2" filedname="kindFormId" id="1" indexed="1" label="唯一编号" row="1" type="4" typepara="/mfKindForm/getById;kindFormId-kindFormId;query-'query'"/>
+<tableitem align="2" filedname="nodeNo" id="2" indexed="2" label="节点编号" row="1" type="0" />
+<tableitem align="2" filedname="nodeName" id="3" indexed="3" label="节点名称" row="1" type="0" />
+<tableitem align="2" filedname="category" id="4" indexed="4" label="表单类别 1：进件；2：流程节点；" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="5" indexed="5" label="产品编号" row="1" type="0" />
+<tableitem align="2" filedname="busModel" id="6" indexed="6" label="业务模式" row="1" type="0" />
+<tableitem align="2" filedname="showType" id="7" indexed="7" label="表单类型 1：正常表单；2：列表；" row="1" type="0" />
+<tableitem align="2" filedname="addModelBase" id="8" indexed="8" label="母版表单编号" row="1" type="0" />
+<tableitem align="2" filedname="addModel" id="9" indexed="9" label="子版表单编号" row="1" type="0" />
+<tableitem align="2" filedname="editFlag" id="10" indexed="10" label="是否允许编辑 1：是；0：否；" row="1" type="0" />
+<tableitem align="2" filedname="sort" id="11" indexed="11" label="排序" row="1" type="0" />
+<tableitem align="2" filedname="useFlag" id="12" indexed="12" label="是否启用 1：启用；0：禁用；" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="13" indexed="13" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="14" indexed="14" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="15" indexed="15" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="16" indexed="16" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="17" indexed="17" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="18" indexed="18" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="19" indexed="19" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="20" indexed="20" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="21" indexed="21" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="22" indexed="22" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="23" indexed="23" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="24" indexed="24" label="扩展字段" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfKindForm/deleteAjax;kindFormId-kindFormId;onClick-ajaxDelete(this)" width="2"/>
+</table>

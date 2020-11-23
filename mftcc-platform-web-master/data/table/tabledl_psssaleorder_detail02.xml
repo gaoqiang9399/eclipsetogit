@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_psssaleorder_detail02" para="eadis_page" title="以销定购列表" trClick=";onClick-PssSaleOrderDetail_ToBuyOrderList.checkCurrentTr(this)" trDbClick="/pssBuyOrder/getAddPage;saleOrderId-saleOrderId;goodsId-goodsId;willBuyQuantity-willBuyQuantity;onDbClick-PssSaleOrderDetail_ToBuyOrderList.generateBuyOrder(this)" type="2">
+<tableitem align="2" filedname="checkbox" id="3" indexed="2" label="全选" row="1" sortType="2" type="2" width="4" widthType="0"/>
+<tableitem align="2" filedname="saleOrderId" id="23" indexed="4" label="销货订单主键" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="25" indexed="5" label="商品Id" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="4" indexed="6" label="商品" mytitle="模板内容-goodsName;" row="1" sortType="2" type="3" typepara="4" width="6" widthType="0"/>
+<tableitem align="2" filedname="unitName" id="5" indexed="8" label="单位" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="3" filedname="baseQuantity" id="7" indexed="9" label="数量" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="saleOrderNo" id="8" indexed="12" label="订单号" mytitle="订单号-saleOrderNo;" row="1" sortType="2" type="4" typepara="/pssSaleOrder/getDetailPage;saleOrderNo-saleOrderNo;onClick-PssSaleOrderDetail_ToBuyOrderList.getSaleOrder;subStringNub-15;" width="10" widthType="0"/>
+<tableitem align="2" filedname="orderDate" id="9" indexed="13" label="订单日期" row="1" sortType="2" type="1" width="7" widthType="0"/>
+<tableitem align="2" filedname="searchFlag" id="24" indexed="14" label="库存" row="1" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="buyOrderOrSaleBillDates" id="10" indexed="15" label="购销日期" row="1" sortType="2" type="1" width="7" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNos" id="11" indexed="16" label="购货订单号" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="3" filedname="toBuyOrderQuantitys" id="12" indexed="17" label="以销定购" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="inStorageQuantitys" id="13" indexed="18" label="实际入库" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="saleBillNos" id="14" indexed="19" label="销货单号" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="outStorageQuantitys" id="15" indexed="20" label="销货出库" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="notOutStorageQuantity" id="19" indexed="21" label="未出库" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="willBuyQuantity" id="20" indexed="22" label="待采购" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="thisBuyQuantity" id="21" indexed="23" label="采购数量" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="thisBuyUnitPrice" id="22" indexed="24" label="采购价格" row="1" sortType="2" type="12" width="6" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="frzoenBase" link="/mfCreditFrozenThaw/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="cusName" id="26" indexed="2" label="客户名称" type="4" typepara="/mfCreditIntentionApply/getFrozenById;operaId-operaId;onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="operaType" id="2" indexed="3" label="类型" row="1" type="6" typepara="OPERA_TYPE" widthType="0"/>
+<tableitem align="2" filedname="remark" id="9" indexed="11" label="原因" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="operaSts" id="8" indexed="10" label="状态" row="1" type="6" typepara="CREDIT_STS" widthType="0"/>
+<tableitem align="2" filedname="operaDate" id="16" indexed="18" label="时间" row="1" type="1" widthType="0"/>
+</table>

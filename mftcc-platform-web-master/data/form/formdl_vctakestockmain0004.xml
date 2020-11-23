@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vctakestockmain0004" title="经销商盘库">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="takeStockMode" fieldsize="VC_TAKE_STOCK_MODE" fieldtype="2" formactiveid="2" labelalign="3" labelcol="5" labelname="盘库方式" maxlength="2" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="takeStockOpName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="5" labelname="盘库人" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealerName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="经销商" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockOpNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="盘库人编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="fieldName" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="labelName" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="经销商ID" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="合格证ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockMainId" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="单据编号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sendTime" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="发起时间" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendOpName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="发起人" mustinput="" readonly="1" row="2"/>
+</form>

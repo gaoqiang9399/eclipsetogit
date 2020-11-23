@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="PactDetail0002" title="立项授信合同明细表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="唯一主键" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="客户姓名" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="pactNo" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="2" labelname="合同展示号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactName" fieldtype="1" maxlength="100" formactiveid="5" labelalign="1" labelcol="1" labelname="合同名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="pactType" fieldtype="1" maxlength="2" formactiveid="6" labelalign="1" labelcol="2" labelname="合同类型" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="firstParty" fieldtype="1" maxlength="100" formactiveid="7" labelalign="1" labelcol="1" labelname="甲方" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="secondParty" fieldtype="1" maxlength="100" formactiveid="8" labelalign="1" labelcol="2" labelname="乙方" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="thirdParty" fieldtype="1" maxlength="100" formactiveid="9" labelalign="1" labelcol="1" labelname="丙方" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="fourParty" fieldtype="1" maxlength="100" formactiveid="10" labelalign="1" labelcol="2" labelname="丁方" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactSignDate" fieldtype="1" maxlength="8" formactiveid="11" labelalign="1" labelcol="1" labelname="签约日期" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="creditSum" fieldtype="1" maxlength="20" formactiveid="12" labelalign="1" labelcol="2" labelname="授信总额(合同金额)" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="involveCreditSum" fieldtype="1" maxlength="20" formactiveid="13" labelalign="1" labelcol="1" labelname="涉及授信金额" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="authBal" fieldtype="1" maxlength="20" formactiveid="14" labelalign="1" labelcol="2" labelname="授信余额" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditTerm" fieldtype="1" maxlength="0" formactiveid="15" labelalign="1" labelcol="1" labelname="授信期限" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="beginDate" fieldtype="1" maxlength="17" formactiveid="16" labelalign="1" labelcol="2" labelname="开始日期" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="endDate" fieldtype="1" maxlength="17" formactiveid="17" labelalign="1" labelcol="1" labelname="结束日期" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="isCeilingLoop" fieldtype="1" maxlength="1" formactiveid="18" labelalign="1" labelcol="2" labelname="额度是否可循环" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="400" formactiveid="19" labelalign="1" labelcol="1" labelname="备注" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cooperationPlatform" fieldtype="1" maxlength="400" formactiveid="20" labelalign="1" labelcol="2" labelname="合作平台" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="21" labelalign="1" labelcol="1" labelname="登记人号" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="opName" fieldtype="1" maxlength="40" formactiveid="22" labelalign="1" labelcol="2" labelname="登记人名称" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="10" formactiveid="23" labelalign="1" labelcol="1" labelname="登记机构号" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="brName" fieldtype="1" maxlength="80" formactiveid="24" labelalign="1" labelcol="2" labelname="登记机构名称" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="25" labelalign="1" labelcol="1" labelname="登记" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="26" labelalign="1" labelcol="2" labelname="最近修改时间" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditAppId" fieldtype="1" maxlength="30" formactiveid="27" labelalign="1" labelcol="1" labelname="授信申请编号" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="creditModel" fieldtype="1" maxlength="2" formactiveid="28" labelalign="1" labelcol="2" labelname="授信模式。数据字典CREDIT_MODEL1客户授信2项目授信" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="projectNo" fieldtype="1" maxlength="50" formactiveid="29" labelalign="1" labelcol="1" labelname="项目展示编号" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="projectName" fieldtype="1" maxlength="100" formactiveid="30" labelalign="1" labelcol="2" labelname="项目名称" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="projectPactNo" fieldtype="1" maxlength="50" formactiveid="31" labelalign="1" labelcol="1" labelname="项目合同号" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="creditPactId" fieldtype="1" maxlength="50" formactiveid="32" labelalign="1" labelcol="2" labelname="授信协议编号" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditPactNo" fieldtype="1" maxlength="50" formactiveid="33" labelalign="1" labelcol="1" labelname="授信协议展示号" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="appId" fieldtype="1" maxlength="50" formactiveid="34" labelalign="1" labelcol="2" labelname="业务申请号" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="loanPactNo" fieldtype="1" maxlength="50" formactiveid="35" labelalign="1" labelcol="1" labelname="融资合同展示号" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="200" formactiveid="36" labelalign="1" labelcol="2" labelname="" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="200" formactiveid="37" labelalign="1" labelcol="1" labelname="" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="200" formactiveid="38" labelalign="1" labelcol="2" labelname="" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="200" formactiveid="39" labelalign="1" labelcol="1" labelname="" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext5" fieldtype="1" maxlength="200" formactiveid="40" labelalign="1" labelcol="2" labelname="" mustinput="0" row="39"/>
+</form>

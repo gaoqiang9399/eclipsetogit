@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusflowassetsBaseListBase" link="/mfCusPersonFlowAssetsInfo/findByPage" para="eadis_page" title="登记流动资产信息" type="1">
+<tableitem align="2" filedname="ext2" id="5" indexed="5" label="到期日期" type="1" widthType="1"/>
+<tableitem align="2" filedname="assetsTypeName" id="4" indexed="4" label="资产类型" row="1" type="4" typepara="/mfCusPersonFlowAssetsInfo/listShowDetailAjax;assetsId-assetsId;cusNo-cusNo;assetsType-assetsType;oneUrl-'/mfCusPersonFlowAssetsInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="nowPrice" id="9" indexed="9" label="现值" row="1" type="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="29" indexed="29" label="-" row="1" type="5" typepara="/mfCusPersonFlowAssetsInfo/deleteAjax;assetsId-assetsId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+</table>

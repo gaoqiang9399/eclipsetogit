@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="riskVerificationList" para="eadis_page" title="风险核查结果列表" type="2">
+<tableitem align="2" filedname="threePartyName" id="3" indexed="0" label="服务名称" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusname" id="6" indexed="1" label="核查客户" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="reqSts" id="5" indexed="2" label="状态" row="1" sortType="2" type="6" typepara="QUERY_THREE_STS" width="20" widthType="0"/>
+<tableitem align="2" filedname="txTime" id="4" indexed="6" label="查询时间" row="1" type="30" width="20" widthType="0"/>
+<tableitem align="2" authority="reqSts-0;" filedname="查看报告" id="2" indexed="7" label="--" row="1" type="5" typepara="/apiReturnRecord/openCheckReport;returnId-returnId;id-id;orderNo-orderNo;onClick-MfCus_RiskManagement.openResultHtml(this);" width="20" widthType="0"/>
+</table>

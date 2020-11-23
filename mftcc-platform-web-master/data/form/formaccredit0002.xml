@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="accredit0002" title="OA工作托管">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accreditId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="托管id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="accreditFunc" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="托管功能" maxlength="40" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authorizerNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="委托人编号" maxlength="22" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authorizerName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="委托人名称" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agentNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="受托人编号" maxlength="22" mustinput="0" row="5"/>
+<formelement alt="点击选择受托人" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agentName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="受托人名称" maxlength="40" mustinput="1" onclick="MfOaAccreditInsert .workGive()" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick= 'MfOaAccreditInsert .workGive();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accreditSts" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="托管状态 0托管失效 1正在托管" maxlength="1" mustinput="0" row="7"/>
+<formelement alt="点击选择托管开始时间" datatype="30" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="accreditStart" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="开始时间" maxlength="17" mustinput="1" onclick="laydateTimer(this,{min: today})" row="2" unit="&lt;i class='i i-rili pointer' onclick=&quot;laydateTimer(this,{min: today,name:'accreditStart'})&quot;&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accreditEnd" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="结束时间" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accreditSum" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="托管时长" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authorizerBrNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="委托人部门编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authorizerBrName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="委托人部门名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agentBrNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="受托人部门编号" maxlength="22" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agentBrName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="受托人部门名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="16"/>
+</form>

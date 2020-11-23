@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cifapplyInfo0002" title="自主开户申请结果">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="companyname" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="公司名称" mustinput="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="licenseNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="营业执照号" mustinput="1" readonly="1" row="2" />
+<formelement calculationType="onClick" datatype="0" fieldalign="1" fieldcol="2" fieldname="fileName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="营业执照照片" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="联系人姓名" mustinput="1" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactTel" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="联系人手机号" mustinput="1" row="5" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="eMail" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="联系人邮箱" mustinput="1" row="6" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="companyAds" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="公司地址" mustinput="1" row="7" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appTime" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="申请时间" mustinput="" readonly="1" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusState" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="审核状态" mustinput="" readonly="1" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="审核时间" mustinput="" readonly="1" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditState" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="审核说明" mustinput="" readonly="1" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarkState" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="申请备注" maxlength="200" mustinput="" row="8" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+</form>

@@ -1,0 +1,32 @@
+.ztree li input.level0 {border: 1px solid #c7d2e1;height: 25px;left: 2px;position: absolute;top: 2px;width: 123px;}
+.ztree li a.level0 {height: 25px; text-align: left; display:block; background-color: #C7D2E1;padding-left: 50px;}
+.ztree li a.level0.cur {background-color: #C7D2E1; }
+.ztree li a.level0 span {display: block; color: #677181; padding-top:6px; font-size:12px; font-weight: bold;word-spacing: 2px;}
+.ztree li a.level0 span.button {background: url(../../themes/zTreeStyle/img/level0.png) no-repeat 0px 0px;float:left; margin: 2px 0 0 15px; visibility: visible;display:none;}
+.ztree li i.level1 {font-size: 1.5em;margin: 8px 8px 0 24px;float: left;}
+.ztree li i.fa-plus.level1{color:#8894A2;font-size: 1em;margin: 8px 8px 0 24px;float: right;cursor: pointer;}
+.ztree li i.fa-minus.level1{color:#8894A2;font-size: 1em;margin: 8px 8px 0 24px;float: right;cursor: pointer;}
+.ztree li a.level1 {height: 30px; text-align: left; display:block; background-color: #E7EDF7;}
+.ztree li a.level1.cur {background-color: #E7EDF7; }
+.ztree li a.level1 span {display: block; color: #677181; padding-top:6px; font-size:12px; font-weight: bold;word-spacing: 2px;}
+.ztree li a.level1 span.button {	float:left; margin-left: -26px; visibility: visible;display:none;}
+.ztree li a.level2 {padding-left: 50px;height: 30px; text-align: left; display:block; background-color: transparent;;}
+.ztree li a.level2 span {display: block; color: #677181; padding-top:6px; font-size:12px; font-weight: bold;word-spacing: 2px;}
+.ztree li a.level2 span.button {	float:right; margin-left: 10px; visibility: visible;display:none;}
+.ztree li span.button.switch.level0 {display:none;}
+.ztree li span.button.switch.level1 {display:none;}
+.ztree li span.button.switch.level2 {display:none;}
+.ztree li.level1 span.button.chk{cursor: auto;float: left;height: 13px;margin: 8px 0 0 -45px;width: 13px;}
+.ztree li.level2 span.button.chk{cursor: auto;float: left;height: 13px;margin: 8px 0 0 26px;width: 13px;}
+/*#tree_2_ico{
+	background: url(zTreeStyle/img/level11.png) no-repeat 0px 0px;
+	margin-left: -23px;
+}
+#tree_6_ico{
+	background: url(zTreeStyle/img/level12.png) no-repeat 0px 0px;
+	margin-left: 18px;
+}
+#tree_7_ico{
+	background: url(zTreeStyle/img/level13.png) no-repeat 0px 0px;
+	margin-left: -26px;
+}*/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcsyswarninginfo001" para="eadis_page" title="预警消息列表" trDbClick="/vcSysWarningInfo/viewWarningInfo;id-id;onDbClick-vcSysWarningInfoList.getDetailPage(this);" type="1">
+<tableitem align="2" filedname="createTime" id="27" indexed="8" label="预警产生时间" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="warningType" id="26" indexed="5" label="预警类型" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="title" id="25" indexed="6" label="预警标题" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="sendType" id="24" indexed="7" label="预警通知类型" row="1" type="6" typepara="MSG_SEND_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="id" id="23" indexed="4" label="单据编号" row="1" type="4" typepara="/vcSysWarningInfo/viewWarningInfo;id-id;onClick-vcSysWarningInfoList.getDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" authority="sendSts-1" filedname="发送" id="29" indexed="11" label="-" row="1" type="5" typepara="/vcSysWarningInfo/sendAjax;id-id;onClick-vcSysWarningInfoList.send;" width="2" widthType="0"/>
+<tableitem align="2" filedname="sendSts" id="30" indexed="10" label="发送状态" row="1" type="6" typepara="SEND_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="sendTime" id="28" indexed="9" label="发送时间" row="1" type="0" width="10" widthType="0"/>
+</table>

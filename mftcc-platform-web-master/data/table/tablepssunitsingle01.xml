@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssunitsingle01" para="eadis_page" title="独立单位信息表" trDbClick="/pssUnit/getDetailSinPage;unitId-unitId;onDbClick-PssUnit_List.updateUnit" type="1">
+<tableitem align="2" filedname="unitName" id="2" indexed="2" label="单位名称" row="1" sortType="2" type="4" typepara="/pssUnit/getDetailSinPage;unitId-unitId;onClick-PssUnit_List.updateUnit" width="70" widthType="0"/>
+<tableitem align="2" filedname="invalidFlag" id="8" indexed="8" label="启用标志" sortType="2" type="4" typepara="/pssUnit/updateSingleFlagAjax;unitId-unitId;" width="30" widthType="0"/>
+</table>

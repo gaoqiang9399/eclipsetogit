@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0061" para="eadis_page" link="/acComHoliday/findByPage" title="节假日表" type="1">
+<tableitem align="2" filedname="endDt" id="1" indexed="1" label="节假日终止日期" row="1" type="4" typepara="/acComHoliday/getById;endDt-endDt;begDt-begDt;query-'query'"/>
+<tableitem align="2" filedname="begDt" id="2" indexed="2" label="节假日起始日期" row="1" type="4" typepara="/acComHoliday/getById;endDt-endDt;begDt-begDt;query-'query'"/>
+<tableitem align="2" filedname="days" id="3" indexed="3" label="天数" row="1" type="0" />
+<tableitem align="2" filedname="typ" id="4" indexed="4" label="类型" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="5" indexed="5" label="-" row="1" type="5" typepara="/acComHoliday/getById;endDt-endDt;begDt-begDt;" width="2"/>
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="5" typepara="/acComHoliday/del;endDt-endDt;begDt-begDt;onClick-lkconfirm" width="2"/>
+</table>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vcvehiclecertificate01" title="机动车合格证新增">
+<formelement alt="请输入物流订单号(任务单号)" datatype="0" fieldalign="1" fieldcol="4" fieldname="taskNo" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="物流单号" maxlength="50" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealerId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="经销商ID" maxlength="50" mustinput="0" row="10"/>
+<formelement alt="请单击选择经销商" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商全称" maxlength="100" mustinput="1" onclick="VcVehicleCertificate_Insert.bindDealer(this)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="configurationCode" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="配置" maxlength="20" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleTypeCode" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="车型" maxlength="20" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="coloueCode" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="颜色" maxlength="20" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="engineNo" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="发动机号" maxlength="50" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="base" fieldsize="VC_BASE" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="基地" maxlength="20" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vin" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="车架号" maxlength="50" mustinput="1" row="4"/>
+<formelement alt="请点击选择发车日期" datatype="6" fieldalign="1" fieldcol="4" fieldname="sendVehicleDate" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="发车时间" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg({})" readonly="1" row="6" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement alt="请点击选择发证日期" datatype="6" fieldalign="1" fieldcol="4" fieldname="sendCertificateDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="发证时间" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg({})" readonly="1" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendCertificateDept" fieldsize="VC_SEND_CERTIFICATE_DEPT" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="发证单位" maxlength="50" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendCertificateMode" fieldsize="VC_SEND_CERTIFICATE_MODE" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="发证方式" maxlength="2" mustinput="1" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="unitPrice" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="单价" maxlength="20" mustinput="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleTypeName" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="车型名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="configurationName" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="配置名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="colourName" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="颜色名称" mustinput="" readonly="" row="1"/>
+</form>

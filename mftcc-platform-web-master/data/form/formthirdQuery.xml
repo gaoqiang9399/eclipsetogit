@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="thirdQuery" title="三方查询表单（天易）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="objectId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="设备号" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="申请编号" mustinput="" readonly="" row="2"/>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="debteval0001" title="债项评级">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalScenceNo" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="评分模型" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="evalEndDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="评级到期日期" mustinput="1" onclick="fPopUpCalendarDlg({min: today})" readonly="1" row="7" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="rptType" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="4" labelname="报表类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalAppNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="4" labelname="评级申请号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="关联编号" mustinput="" readonly="" row="9"/>
+<formelement alt="填写扣除保证金后净额  " datatype="3" fieldalign="1" fieldcol="2" fieldname="loanTrust" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="贷款/信托/私募债/短融/中票/托收/委贷" mustinput="" readonly="" row="4" unit="元"/>
+<formelement alt="填写扣除保证金后净额" datatype="3" fieldalign="1" fieldcol="2" fieldname="letterCredit" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="信用证/汇票/融资类保函" mustinput="" readonly="" row="5" unit="元"/>
+<formelement alt="填写扣除保证金后净额" datatype="3" fieldalign="1" fieldcol="2" fieldname="finaGuarantee" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="非融资类保函" mustinput="" readonly="" row="6" unit="元"/>
+</form>

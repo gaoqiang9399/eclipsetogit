@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dlmfcollectionformcfg0002" title="催收方案设置信息配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tableDes" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="表中文名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tableName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="表名" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="formType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="配置表单类型（短信/电话...）" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formBaseType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="基础表单类型" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="是否启用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isBase" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="是否基础表单" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isMust" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="是否必须" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="action" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="Action" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showType" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="展示方式" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="显示顺序" maxlength="0" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addModel" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="新增模板" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addModelDef" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="新增模板描述" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showModel" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="查看模板" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showModelDef" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="查看模板描述" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="" maxlength="50" mustinput="0" row="9"/>
+</form>

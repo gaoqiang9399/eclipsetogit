@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="refundfeeapplyadd" title="退款信息">
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="减免/退费唯一ID" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="pactId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="cusNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="5" labelname="客户编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="normIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="实还正常利息" maxlength="14" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="overIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="实还逾期利息" maxlength="14" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="cmpdIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="实还复利利息" maxlength="14" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="penaltySum" fieldsize="0.00" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="实还违约金" maxlength="14" mustinput="0" readonly="1" row="4" unit="元"/>
+<formelement alt="请输入退款的正常利息" datatype="12" fieldalign="1" fieldcol="4" fieldname="applyNormIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="17" labelalign="3" labelcol="3" labelname="正常利息退款" maxlength="14" mustinput="0" onkeyup="MfBusRefundFee.validateInputAmt(this)" row="1" unit="元"/>
+<formelement alt="请输入退款逾期利息" datatype="12" fieldalign="1" fieldcol="4" fieldname="applyOverIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="逾期利息退款" maxlength="14" mustinput="0" onkeyup="MfBusRefundFee.validateInputAmt(this)" row="2" unit="元"/>
+<formelement alt="请输入减免复利利息" datatype="12" fieldalign="1" fieldcol="4" fieldname="applyCmpdIntstSum" fieldsize="0.00" fieldtype="1" formactiveid="19" labelalign="3" labelcol="3" labelname="复利利息退款" maxlength="14" mustinput="0" onkeyup="MfBusRefundFee.validateInputAmt(this)" row="3" unit="元"/>
+<formelement alt="请输入退款违约金" datatype="12" fieldalign="1" fieldcol="4" fieldname="applyPenaltySum" fieldsize="0.00" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="违约金退款" maxlength="14" mustinput="0" onkeyup="MfBusRefundFee.validateInputAmt(this)" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="opNo" fieldtype="99" formactiveid="22" labelalign="3" labelcol="5" labelname="操作员编号" maxlength="22" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="brNo" fieldtype="99" formactiveid="24" labelalign="3" labelcol="5" labelname="部门编号" maxlength="10" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="regTime" fieldtype="99" formactiveid="26" labelalign="3" labelcol="5" labelname="登记时间" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="lstModTime" fieldtype="99" formactiveid="27" labelalign="3" labelcol="5" labelname="最后修改时间" maxlength="17" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="regDate" fieldtype="99" formactiveid="28" labelalign="3" labelcol="5" labelname="登记日期" maxlength="8" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="lstModDate" fieldtype="99" formactiveid="29" labelalign="3" labelcol="5" labelname="上次修改日期" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="opName" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="操作员名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="brName" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="5" labelname="部门名称" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="flowFlag" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="5" labelname="走申请审批标志" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="flowId" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="5" labelname="退费申请审批流程编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="appId" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="5" labelname="业务申请编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="3" labelname="借据号" mustinput="" param2="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNoStr" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="退费项编号" mustinput="" param2="1" readonly="" row="5"/>
+</form>

@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.ulThead{
+	height:36px;
+	display:block;
+	margin: 0px;
+	padding: 0px;
+    background: #fff;
+    line-height: 36px;
+    border-bottom: 1px solid #ddd;
+}
+.ulThead li{
+	margin: 0px;
+	padding: 0px;
+}
+.ulThead li span{
+	display:block;
+	float:left;
+	color: #000;
+	font-size: 12px;
+	border: none;
+	background: none;
+	font-weight: bold;
+	padding: 0 5px;
+	text-align: center;
+}
+.ulThead li .col1{
+	width: 53px;
+}
+.ulThead li .col2{
+	width: 202px;
+}
+.ulThead li .col3{
+	width: 170px;
+}
+.ulThead li .col4{
+	width: 150px;
+}
+.ulTable *{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.ztree.ulTable{
+	padding: 0px;
+}
+a,a:ACTIVE,a:HOVER{ text-decoration:none !important;}
+.ztree.ulTable li{
+	height: 41px;
+	//line-height: 41px;
+	border-bottom: 1px solid #ddd;
+}
+.ztree.ulTable li span{
+	float: left;
+}
+.ztree.ulTable li a{
+	float: left;
+	height: 100%;
+	vertical-align: middle;
+    padding-top: 10px;
+}
+.ztree.ulTable li a.curSelectedNode{
+	background-color: #fff;
+}
+.ztree.ulTable li a .box_pmsStsDiv{
+	text-align:center;
+	width:150px;
+	display: inline-block;
+}
+.ztree.ulTable li span.button {
+	margin: 0px;
+} 
+.ztree.ulTable li span.button.chk {
+    margin: 14px 20px;
+} 
+.ztree.ulTable li span.node_name {
+	width: 200px;
+	display: inline-block;
+} 
+.ztree.ulTable li .multi-switch{
+	display: inline-block;
+}
+.ztree.ulTable li a .input_pmsField{
+	height: 25px;
+    padding: 0 0px 0 3px;
+    box-shadow: none;
+    width: 160px;
+}
+.ztree.ulTable li a .box_pmsSts{
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dlcollaterallog0002" title="押品日志">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="logId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="日志编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="logCont" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="日志内容" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="logDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="日志日期" maxlength="8" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeId" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="押品编号" maxlength="30" mustinput="0" row="2"/>
+</form>

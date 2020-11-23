@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cuscoop00001" link="/mfCusCooperativeAgency/findByPage" para="eadis_page" title="合作机构基本信息" type="1">
+<tableitem align="2" filedname="bussIncome" id="21" indexed="21" label="营业收入" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="setupDate" id="9" indexed="11" label="成立日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assetSum" id="20" indexed="20" label="资产总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="legalIdNum" id="8" indexed="10" label="法人代表证件号码" row="1" type="0"/>
+<tableitem align="2" filedname="legalRepresName" id="6" indexed="8" label="法人代表姓名" row="1" type="0"/>
+<tableitem align="2" filedname="删除" id="43" indexed="43" label="-" row="1" type="5" typepara="/mfCusCooperativeAgency/deleteAjax;orgaNo-orgaNo;onClick-MfCusCooperativeAgency_List.ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="corpNature" id="14" indexed="4" label="企业性质" row="1" type="6" typepara="LIC_REG_TYPE" widthType="0"/>
+<tableitem align="2" filedname="orgaName" id="2" indexed="2" label="受益人名称" type="4" typepara="/mfCusCooperativeAgency/getById;orgaNo-orgaNo;cusNo-cusNo;busEntrance-'cus_coopAgency';onClick-MfCusCooperativeAgency_List.getDetailPage(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="socialCreditCode" id="10" indexed="3" label="社会信用代码" row="1" type="0" widthType="0"/>
+</table>

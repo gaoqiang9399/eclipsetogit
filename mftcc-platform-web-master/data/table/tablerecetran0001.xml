@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="recetran0001" para="eadis_page" link="/mfReceivablesTransferInfo/findByPage" title="应收账款转让申请信息表" type="1">
+<tableitem align="2" filedname="receTranAppId" id="1" indexed="1" label="转让申请编号" row="1" type="4" typepara="/mfReceivablesTransferInfo/getById;receTranAppId-receTranAppId;query-'query'"/>
+<tableitem align="2" filedname="receAmt" id="2" indexed="2" label="应收账款总额" row="1" type="0" />
+<tableitem align="2" filedname="receBal" id="3" indexed="3" label="应收账款余额" row="1" type="0" />
+<tableitem align="2" filedname="tranReces" id="4" indexed="4" label="转让押品" row="1" type="0" />
+<tableitem align="2" filedname="tranAmt" id="5" indexed="5" label="转让金额" row="1" type="0" />
+<tableitem align="2" filedname="tranRate" id="6" indexed="6" label="转让比例" row="1" type="0" />
+<tableitem align="2" filedname="feeAmt" id="7" indexed="7" label="费用信息" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="8" indexed="8" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="appSts" id="9" indexed="9" label="转让申请状态0新增申请1审批中2审批通过3否决" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="18" indexed="18" label="-" row="1" type="5" typepara="/mfReceivablesTransferInfo/deleteAjax;receTranAppId-receTranAppId;onClick-ajaxDelete(this)" width="2"/>
+</table>

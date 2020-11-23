@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="lease0001" title="租赁物新增小表单">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="leaseType" fieldtype="21" fieldwidth="60" formactiveid="1" horVer="0" labelalign="3" labelcol="2" labelname="租赁物类型" labelwidth="40" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="leaseName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="2" labelname="租赁物名称" mustinput="1" readonly="" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="lamDate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="2" labelname="出厂日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="3" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="priceAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="2" labelname="单价" mustinput="1" readonly="" row="4" unit="元" />
+</form>

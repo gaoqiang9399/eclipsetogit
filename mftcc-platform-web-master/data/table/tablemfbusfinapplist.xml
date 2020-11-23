@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusfinapplist" para="eadis_page" title="客户借据信息表" type="1">
+<tableitem align="2" filedname="fincId" id="26" indexed="8" label="ID" mytitle="项目名称-appName;" sortType="2" type="99" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'finc';onClick-getDetailPage(this);subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="finterest" id="25" indexed="19" label="复利利息" row="1" type="6" typepara="ASSET_APPLY_STATUS" width="10" widthType="0"/>
+<tableitem align="2" filedname="loanAmt" id="24" indexed="9" label="放款金额" row="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="overduePrincipal" id="23" indexed="12" label="欠款本金" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="overdueInterest" id="22" indexed="18" label="逾期利息" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="loanBalance" id="5" indexed="10" label="贷款余额" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="3" indexed="5" label="借据号" mytitle="客户名-cusName;" row="1" sortType="2" type="0" typepara="subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="appName" id="2" indexed="8" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'finc';onClick-getDetailPage(this);subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="overDay" id="11" indexed="11" label="逾期天数" row="1" sortType="1" type="0" typepara="CLASS_METHOD" width="10" widthType="0"/>
+<tableitem align="2" filedname="interest" id="10" indexed="17" label="欠款利息" row="1" sortType="1" type="1" width="10" widthType="0"/>
+</table>

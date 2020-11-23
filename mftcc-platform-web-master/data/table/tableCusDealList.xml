@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusDealList" link="/mfCusDealDetail/findByPage" para="eadis_page" title="双方交易明细" type="1">
+<tableitem align="2" filedname="year" id="6" indexed="6" label="年度" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="debtorName" id="5" indexed="5" label="债务人名称" row="1" type="4" typepara="/mfCusDealDetail/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusDealDetail/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="11" indexed="11" label="-" type="5" typepara="/mfCusDealDetail/getById;id-id;cusNo-cusNo;oneUrl-'/mfCusDealDetail/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" filedname="bugProductName" id="10" indexed="8" label="主要购买产品品名" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="id" id="9" indexed="12" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="overBugAmt" id="8" indexed="10" label="其中赊购金额" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="bugSum" id="7" indexed="7" label="总购买额" row="1" type="0" width="20" widthType="0"/>
+</table>

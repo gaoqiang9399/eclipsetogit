@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="examindexrel0001" para="eadis_page" link="/mfExamineTemplateIndexRel/findByPage" title="贷后检查检查指标项关联表" type="1">
+<tableitem align="2" filedname="examTemplateId" id="1" indexed="1" label="贷后检查模型编号" row="1" type="4" typepara="/mfExamineTemplateIndexRel/getById;examTemplateId-examTemplateId;indexId-indexId;query-'query'"/>
+<tableitem align="2" filedname="indexId" id="2" indexed="2" label="指标编号" row="1" type="4" typepara="/mfExamineTemplateIndexRel/getById;examTemplateId-examTemplateId;indexId-indexId;query-'query'"/>
+<tableitem align="2" filedname="indexName" id="3" indexed="3" label="指标名称" row="1" type="0" />
+<tableitem align="2" filedname="indexDesc" id="4" indexed="4" label="指标描述" row="1" type="0" />
+<tableitem align="2" filedname="stdCore" id="5" indexed="5" label="指标得分" row="1" type="0" />
+<tableitem align="2" filedname="leval" id="6" indexed="6" label="指标级别" row="1" type="0" />
+<tableitem align="2" filedname="upIndexId" id="7" indexed="7" label="上级指标编号" row="1" type="0" />
+<tableitem align="2" filedname="gradeCardId" id="8" indexed="8" label="评分卡编号" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="10" indexed="10" label="-" row="1" type="5" typepara="/mfExamineTemplateIndexRel/deleteAjax;examTemplateId-examTemplateId;indexId-indexId;onClick-ajaxDelete(this)" width="2"/>
+</table>

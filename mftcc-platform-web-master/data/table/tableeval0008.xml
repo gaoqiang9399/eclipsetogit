@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="eval0008" para="eadis_page" title="评级分数等级配置表" type="1">
+<tableitem align="2" filedname="级别配置" id="9" indexed="16" label="-" row="1" type="5" typepara="/evalScoreGradeConfig/getById;configNo-configNo;cusType-cusType;onClick-MfCusConfig.editAssessNew(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="evalLevel" id="7" indexed="12" label="级别" row="1" type="12" typepara="EVAL_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="opScore2" id="6" indexed="8" label="区间分数2" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opScore1" id="5" indexed="5" label="区间分数1" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opSymbol2" id="4" indexed="7" label="操作符2" row="1" sortType="2" type="6" typepara="OP_SYMBOL" widthType="0"/>
+<tableitem align="2" filedname="evalAssess" id="12" indexed="15" label="评价信息" mytitle="评价信息-evalAssess;" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="opSymbol1" id="3" indexed="4" label="操作符1" row="1" sortType="2" type="6" typepara="OP_SYMBOL" widthType="0"/>
+<tableitem align="2" filedname="configNo" id="2" indexed="2" label="配置编号" row="1" type="0"/>
+<tableitem align="2" filedname="evalLevelEn" id="11" indexed="13" label="级别名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="10" indexed="14" label="授信额度(元)" type="0" widthType="0"/>
+</table>

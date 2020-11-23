@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusMainBusinessBase" title="主营业务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="cusNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mainId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="marketDemand" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="市场需求" maxlength="400" mustinput="1" readonly="" row="2"/>
+</form>

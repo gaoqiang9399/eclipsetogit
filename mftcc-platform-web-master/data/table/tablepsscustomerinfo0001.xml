@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psscustomerinfo0001" para="eadis_page" title="进销存-客户表" type="2">
+<tableitem align="2" filedname="enabledStatus" id="19" indexed="19" label="使用状态" row="1" sortType="2" type="4" typepara="/pssCustomerInfo/updateEnabledStatusAjax;cusNo-cusNo;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="20" indexed="20" label="-" row="1" sortType="2" type="5" typepara="/pssCustomerInfo/deleteCustomerInfoAjax;cusNo-cusNo;onClick-PssCustomerInfo.deleteCustomerInfo(this)" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="18" indexed="2" label="全选" row="1" sortType="2" type="2" typepara="cusNo-cusNo;" width="4" widthType="0"/>
+<tableitem align="2" filedname="mobilePhone" id="16" indexed="15" label="手机号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="15" indexed="14" label="首要联系人" mytitle="模板内容-contactsName;" row="1" sortType="2" type="3" typepara="10" widthType="0"/>
+<tableitem align="1" filedname="sendGoodsAddress" id="14" indexed="18" label="送货地址" mytitle="模板内容-sendGoodsAddress;" row="1" sortType="2" type="0" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="cusGrade" id="5" indexed="6" label="客户等级" row="1" sortType="2" type="6" typepara="PSS_CUS_GRADE" widthType="0"/>
+<tableitem align="2" filedname="accountsReceivedBalance" id="13" indexed="17" label="应收款余额" row="1" type="0"/>
+<tableitem align="2" filedname="cusCategory" id="4" indexed="5" label="客户类别" row="1" sortType="2" type="6" typepara="PSS_CUS_CATEGORY" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="4" label="客户名称" mytitle="模板内容-cusName;" row="1" sortType="2" type="3" typepara="6" width="8" widthType="0"/>
+<tableitem align="2" filedname="salerNo" id="12" indexed="13" label="销售人员" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusCode" id="2" indexed="3" label="客户号" type="4" typepara="/pssCustomerInfo/getDetailPage;cusNo-cusNo;saveOrEditFlag-'2';onClick-PssCustomerInfo.getCustomerInfo;" width="12" widthType="0"/>
+</table>

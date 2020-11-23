@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveborrowdetailin" para="eadis_page" title="借阅文档" type="1">
+<tableitem align="2" filedname="revertPlanDate" id="5" indexed="4" label="计划归还日期" type="99" width="23" widthType="0"/>
+<tableitem align="2" filedname="borrowerName" id="4" indexed="3" label="借阅人" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="docName" id="3" indexed="2" label="文件名称" row="1" type="4" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" width="50" widthType="0"/>
+<tableitem align="2" filedname="archiveDetailNo" id="2" indexed="1" label="归档明细编号" row="1" type="99"/>
+<tableitem align="2" filedname="归还" id="7" indexed="5" label="-" row="1" type="99" typepara="/archiveLendInfo/getReturnFilePage;id-id;onClick-returnFile(this)" width="1" widthType="0"/>
+</table>

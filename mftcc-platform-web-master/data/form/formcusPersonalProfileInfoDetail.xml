@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusPersonalProfileInfoDetail" title="个人概况信息详情">
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="brithday" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="出生日期" maxlength="8" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nationality" fieldsize="NATION" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="民族" maxlength="2" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="marrige" fieldsize="MARRIGE" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="4" labelname="婚姻状况" maxlength="1" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="sex" fieldsize="SEX" fieldtype="21" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="客户性别" maxlength="1" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="education" fieldsize="EDU" fieldtype="21" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="最高学历" maxlength="1" mustinput="" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="2" fieldname="careaCity" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="客户所属地区" maxlength="6" mustinput="" onclick="selectAreaDialog(selectAreaCallBack)" param="cusNo;" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="2" fieldname="regHomeAddre" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="户籍地址" maxlength="200" mustinput="0" param="cusNo;" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="resideSta" fieldsize="RESIDE_STS" fieldtype="2" formactiveid="37" horVer="1" labelalign="1" labelcol="3" labelname="居住状况" maxlength="2" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="90" formactiveid="38" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="90" formactiveid="39" labelalign="3" labelcol="1" labelname="ext10" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="90" formactiveid="40" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="careaCity" fieldtype="90" formactiveid="41" labelalign="3" labelcol="1" labelname="客户所属市" maxlength="6" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recommenderIdNum" fieldtype="90" formactiveid="42" labelalign="3" labelcol="1" labelname="推荐人证件号码" maxlength="30" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addreTel" fieldtype="99" formactiveid="43" horVer="1" labelalign="1" labelcol="1" labelname="住址电话" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeModel" fieldtype="90" formactiveid="44" labelalign="3" labelcol="1" labelname="评分模型（城户,农户,工商户）" maxlength="1" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regHome" fieldtype="90" formactiveid="45" labelalign="3" labelcol="1" labelname="户口性质（常驻户口，临时户口）" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifParty" fieldtype="90" formactiveid="46" labelalign="3" labelcol="1" labelname="政治面貌（党员，群众）" maxlength="1" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngNo" fieldtype="90" formactiveid="47" labelalign="3" labelcol="1" labelname="客户经理编号" maxlength="22" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recommenderName" fieldtype="90" formactiveid="48" labelalign="3" labelcol="1" labelname="推荐人姓名" maxlength="40" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="90" formactiveid="49" labelalign="3" labelcol="1" labelname="ext5" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="90" formactiveid="50" labelalign="3" labelcol="1" labelname="ext6" maxlength="100" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="90" formactiveid="51" labelalign="3" labelcol="1" labelname="ext7" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="90" formactiveid="52" labelalign="3" labelcol="1" labelname="ext8" maxlength="100" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="90" formactiveid="53" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="90" formactiveid="54" labelalign="3" labelcol="1" labelname="ext2" maxlength="100" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="90" formactiveid="55" labelalign="3" labelcol="1" labelname="ext3" maxlength="100" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="90" formactiveid="56" labelalign="3" labelcol="1" labelname="ext4" maxlength="100" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="57" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="90" formactiveid="58" labelalign="3" labelcol="1" labelname="ext9" maxlength="100" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="companyTel" fieldtype="90" formactiveid="59" labelalign="3" labelcol="1" labelname="单位电话" maxlength="20" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="careaCounty" fieldtype="90" formactiveid="60" labelalign="3" labelcol="1" labelname="客户所属县" maxlength="6" mustinput="0" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="90" formactiveid="61" labelalign="3" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="healthStat" fieldtype="90" formactiveid="62" labelalign="3" labelcol="1" labelname="个人健康状况（良好,一般,较差）" maxlength="1" mustinput="0" row="38"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="63" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="90" formactiveid="64" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="40"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="90" formactiveid="65" labelalign="3" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wechat" fieldtype="90" formactiveid="66" labelalign="3" labelcol="1" labelname="微信" maxlength="30" mustinput="0" row="42"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="agricultureType" fieldsize="AGRICULTURE_TYPE" fieldtype="99" formactiveid="67" horVer="1" labelalign="1" labelcol="3" labelname="户口性质" mustinput="" param="cusNo;" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="careaProvice" fieldtype="99" formactiveid="68" horVer="0" labelalign="3" labelcol="5" labelname="客户所属省" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="69" horVer="0" labelalign="3" labelcol="3" labelname="户籍地址" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="70" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" row="7" />
+</form>

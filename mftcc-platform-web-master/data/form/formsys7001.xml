@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sys7001" title="按钮定义表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="btnNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="按钮编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="btnName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="按钮名称" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="btnDesc" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="按钮描述" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="componentName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="组件名称" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="componentDesc" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="组件描述" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="功能编号" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="funName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="功能名称" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lv" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="级别" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upId" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="上级编号" maxlength="10" mustinput="0" row="5"/>
+</form>

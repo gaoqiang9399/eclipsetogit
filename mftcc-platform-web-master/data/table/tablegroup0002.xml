@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="group0002" para="eadis_page" link="" title="集团成员信息" type="2">
+<tableitem align="2" filedname="groupNo" id="1" indexed="1" label="集团编号" row="1" type="4" typepara="/cusGroupMem/getByIdAjax;groupNo-groupNo;memNo-memNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="memNo" id="2" indexed="2" label="集团成员客户号" row="1" type="4" typepara="/cusGroupMem/getByIdAjax;groupNo-groupNo;memNo-memNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="memName" id="3" indexed="3" label="集团成员名称" row="1" type="0" />
+<tableitem align="2" filedname="memType" id="4" indexed="4" label="成员类型" row="1" type="0" />
+</table>

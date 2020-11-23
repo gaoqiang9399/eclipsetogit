@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sys9999" para="eadis_page" title="全局搜索" trDbClick="/sysGlobalSearch/getByIdAjax;configNo-configNo;onDbClick-func_getById(this);" type="2">
+<tableitem align="2" filedname="fixedQuery" id="9" indexed="10" label="固定查询" row="1" type="3" typepara="8"/>
+<tableitem align="2" filedname="belong" id="8" indexed="9" label="归属类别" row="1" type="0"/>
+<tableitem align="2" filedname="url" id="7" indexed="8" label="请求链接" row="1" type="3" typepara="8"/>
+<tableitem align="2" filedname="prmKey" id="14" indexed="3" label="主键" type="0" widthType="0"/>
+<tableitem align="2" filedname="tableColState" id="5" indexed="6" label="字段说明" mytitle="字段说明-tableColState;" row="1" type="3" typepara="8"/>
+<tableitem align="2" authority="sts-1" buttonMark="SysGlobalearch003" filedname="删除" id="13" indexed="14" label="-" row="1" type="5" typepara="/sysGlobalSearch/deleteAjax;configNo-configNo;onClick-ajaxTrDelete(this);" width="2"/>
+<tableitem align="2" filedname="selectColumns" id="4" indexed="4" label="条件字段" row="1" type="3" typepara="8"/>
+<tableitem align="2" filedname="sts" id="12" indexed="12" label="启用状态" row="1" type="4" typepara="/sysGlobalSearch/updateStsAjax;configNo-configNo;"/>
+<tableitem align="2" filedname="tableColumns" id="3" indexed="5" label="显示数组" row="1" type="3" typepara="8"/>
+<tableitem align="2" authority="sts-1" buttonMark="SysGlobalearch002" filedname="修改" id="11" indexed="13" label="-" row="1" type="5" typepara="/sysGlobalSearch/getByIdAjax;configNo-configNo;onClick-func_getById(this);" width="2"/>
+<tableitem align="2" filedname="tableName" id="2" indexed="2" label="表名" row="1" type="0"/>
+<tableitem align="2" filedname="funNoSql" id="10" indexed="11" label="条件字段" row="1" type="0"/>
+<tableitem align="2" filedname="configNo" id="1" indexed="1" label="配置编号" row="1" type="4" typepara="/sysGlobalSearch/getByIdAjax;configNo-configNo;query-'query';onClick-ajaxGetById(this);"/>
+</table>

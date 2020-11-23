@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="finpersonbaseinfo" title="理财人基础信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="理财客户" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="prdtName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="理财产品名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="付息方式" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="prdtAmt" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="4" labelname="产品金额" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="applyAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="投资金额" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="applyRate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="年化收益率" mustinput="" readonly="" row="3" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="银行卡号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="opName" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="4" labelname="业务主办" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="remarks" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="备注" mustinput="" readonly="" row="5"/>
+</form>

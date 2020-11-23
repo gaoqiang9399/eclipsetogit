@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="kingsoftcontactlist" title="金山紧急联系人列表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactName" fieldtype="1" maxlength="100" formactiveid="2" labelalign="3" labelcol="1" labelname="联系人姓名" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactPhone" fieldtype="1" maxlength="18" formactiveid="3" labelalign="3" labelcol="1" labelname="联系人手机号" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relation" fieldtype="1" maxlength="20" formactiveid="4" labelalign="3" labelcol="1" labelname="联系人与员工关系" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardNo" fieldtype="1" maxlength="18" formactiveid="5" labelalign="3" labelcol="1" labelname="白名单关联紧急联系人身份证号" mustinput="0" row="5" />
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="aserate" para="eadis_page" link="/mfSysRateBase/findByPage" title="基准利率表" type="1">
+<tableitem align="2" filedname="rateno" id="1" indexed="1" label="编号" row="1" type="4" typepara="/mfSysRateBase/getById;rateno-rateno;query-'query'"/>
+<tableitem align="2" filedname="begindate" id="2" indexed="2" label="生效时间" row="1" type="0" />
+<tableitem align="2" filedname="ratetype" id="3" indexed="3" label="利率类型" row="1" type="0" />
+<tableitem align="2" filedname="rate1" id="4" indexed="4" label="6个月以内（含）" row="1" type="0" />
+<tableitem align="2" filedname="rate2" id="5" indexed="5" label="6个月 - 1年（含）" row="1" type="0" />
+<tableitem align="2" filedname="rate3" id="6" indexed="6" label="1年 - 3年（含）" row="1" type="0" />
+<tableitem align="2" filedname="rate4" id="7" indexed="7" label="3年 - 5年（含）" row="1" type="0" />
+<tableitem align="2" filedname="rate5" id="8" indexed="8" label="5年以上" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="20" indexed="20" label="-" row="1" type="5" typepara="/mfSysRateBase/deleteAjax;rateno-rateno;onClick-ajaxDelete(this)" width="2"/>
+</table>

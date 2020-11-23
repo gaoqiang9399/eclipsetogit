@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+.qutton_item {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    box-sizing: content-box !important;
+    cursor: auto;
+}
+.qutton_open {
+    box-shadow: 3px 3px 6px -3px rgba(0, 0, 0, 0.3);
+}
+.qutton_item.close {
+    cursor: pointer;
+    position: absolute !important;
+}
+.buttonCollection {
+    height: auto;
+    margin: 110px auto 0;
+    padding: 10px;
+    text-align: center;
+    width: 320px;
+}
+.qutton_item {
+    display: inline-block;
+    margin-right: 35px;
+}
+.qutton_item:last-child {
+    margin-right: 0;
+}
+.qutton_dialog {
+    display: none;
+}
+.button_basic, #button_basic_upload, #button_basic_confirm_delete, #button_basic_submit_comment {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-family: "Roboto";
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 250px;
+}
+.button_basic:hover, #button_basic_upload:hover, #button_basic_confirm_delete:hover, #button_basic_submit_comment:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+#uploadDialog {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px 10px;
+    width: 300px;
+}
+#uploadDialog h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+}
+#uploadDialog input#fileUrl {
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    font-size: 1em;
+    height: 30px;
+    padding: 0 5px;
+    width: 100%;
+}
+#uploadDialog .urlField {
+    display: block;
+    height: 30px;
+    margin: 10px auto 0;
+    padding: 5px;
+    width: 83%;
+}
+#button_basic_upload {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #498af2;
+    border-color: #196bef #196bef #105fdf;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    height: 40px;
+    line-height: 22px;
+    margin: 20px auto 0;
+    padding: 9px;
+    width: 80%;
+}
+#deleteDialog {
+    background-color: #ececec;
+    border: 1px solid #d0d4d7;
+    height: 380px;
+    padding: 15px 10px;
+    position: absolute;
+    width: 400px;
+}
+#lineDialog {
+    background-color: #e3eaf3;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    height: 275px;
+    padding: 15px 10px;
+    width: 420px;
+}
+#deleteDialog h2 {
+    font-family: "Roboto";
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+}
+#button_basic_confirm_delete {
+    background-color: #eb1220;
+    border: 1px solid #bc0e1a;
+    height: 35px;
+    line-height: 33px;
+    margin: 5px auto 0;
+    width: 180px;
+}
+#commentDialog {
+    background-color: #fff;
+    border-radius: 4px;
+    height: 250px;
+    padding: 15px;
+    width: 380px;
+}
+#commentDialog textarea#commentInput {
+    border: 1px solid #afafaf;
+    border-radius: 2px;
+    display: block;
+    font-size: 1em;
+    height: 70%;
+    margin: 0 auto;
+    padding: 8px;
+    resize: none;
+    width: 100%;
+}
+#commentDialog textarea#commentInput:focus {
+    outline: medium none;
+}
+#button_basic_submit_comment {
+    background-color: #498af2;
+    border: 1px solid #196bef;
+    color: white;
+    font-size: 1em;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 15px;
+    width: 100%;
+}

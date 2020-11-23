@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="BusBreedList" para="eadis_page" title="授信业务品种" type="2">
+<tableitem align="2" filedname="creditAmt" id="27" indexed="14" label="授信额度" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="breedName" id="15" indexed="13" label="业务品种" row="1" sortType="2" type="0" width="50" widthType="0"/>
+<tableitem align="2" filedname="agenciesCreditAmt" id="31" indexed="12" label="合作银行授信额度" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="breedAgenciesName" id="29" indexed="11" label="合作银行" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="breedlNo" id="28" indexed="15" label="breedlNo" row="1" type="99" widthType="0"/>
+</table>

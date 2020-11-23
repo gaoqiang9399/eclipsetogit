@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusSellListBase" link="/mfCusSellInfo/findByPage" para="eadis_page" title="客户销售情况表" type="1">
+<tableitem align="2" filedname="sellBand" id="4" indexed="4" label="经销品牌" mytitle="经销品牌-sellBand" row="1" type="4" typepara="/mfCusSellInfo/listShowDetailAjax;sellId-sellId;cusNo-cusNo;oneUrl-'/mfCusSellInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="sellArea" id="5" indexed="5" label="经销区域" row="1" type="6" typepara="SALE_AREA" width="20" widthType="0"/>
+<tableitem align="2" filedname="sellWayclass" id="6" indexed="6" label="经销行业" row="1" type="6" typepara="TRADE" width="25" widthType="0"/>
+<tableitem align="3" filedname="annualSales" id="10" indexed="11" label="年均销售额(元)" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="12" label="-" row="1" type="5" typepara="/mfCusSellInfo/deleteAjax;sellId-sellId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

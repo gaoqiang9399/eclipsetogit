@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0007" title="抵押物-在建工程表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCode" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="区域编码" maxlength="6" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="areaName" fieldsize="80" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="区域名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="investBudget" fieldtype="1" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="1" labelname="工程总价(元)" labelwidth="20" maxlength="16" mustinput="0" row="1" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="buildingArea" fieldtype="1" fieldwidth="30" formactiveid="5" labelalign="3" labelcol="3" labelname="建筑面积(平方米)" labelwidth="20" maxlength="16" mustinput="0" row="1" unit="平方米"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="开工日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="预计竣工日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifArrearage" fieldsize="YES_NO" fieldtype="21" formactiveid="8" labelalign="3" labelcol="3" labelname="是否欠工程款" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="arrearageAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="欠工程款金额（元）" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="landFour" fieldsize="YES_NO" fieldtype="21" formactiveid="10" labelalign="3" labelcol="3" labelname="四证是否齐全" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="landLicenseNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="土地使用权证书号" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buildLandNo" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="建设用地规划许可证号" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buildProjectNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="建设工程规划许可证号" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buildConstructNo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="建筑工程施工许可证号" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="landType" fieldsize="LAND_USE_TYPE" fieldtype="21" formactiveid="15" labelalign="3" labelcol="1" labelname="土地使用权性质" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="landBookDate" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="土地取得日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="landMatureDate" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="土地使用终止日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="landAcreage" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="土地面积(平方米)" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="landRemiseAmt" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="出让价格" maxlength="16" mustinput="0" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="landPayCirce" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="出让金缴付情况" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="landPatchAmt" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="应补出让金金额（元）" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="担保方式" mustinput="" readonly="" row="14" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="vouAmt" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="担保金额" mustinput="" readonly="" row="13" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="抵质押物类型" mustinput="" readonly="" row="12" />
+</form>

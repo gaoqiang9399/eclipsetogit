@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0032" title="抵押物-车辆表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carType" fieldsize="VCH_TYPE" fieldtype="21" formactiveid="2" labelalign="3" labelcol="1" labelname="车辆类别" maxlength="2" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carBrand" fieldtype="1" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="1" labelname="车辆品牌" labelwidth="20" maxlength="30" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="frameNo" fieldtype="1" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="3" labelname="车架号" labelwidth="20" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sengineNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="发动机号码" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="carNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="车牌号码" maxlength="10" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="driveNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="行驶证号码" maxlength="30" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="carCircs" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="车辆情况" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="matureYear" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="行驶到期年限" maxlength="5" mustinput="0" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="driveKm" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="行驶里程（公里）" maxlength="16" mustinput="0" row="5" unit="公里"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="productionDate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="出厂日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="purchaseDate" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="购入日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="purchaseAmt" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="购入价格（元）" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insNo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="保单证号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="insAmt" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="保额" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="insTerm" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="保险期限" maxlength="5" mustinput="0" row="9" unit="年"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="抵押物类型" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="9" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAmt" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="9" unit="元" />
+</form>

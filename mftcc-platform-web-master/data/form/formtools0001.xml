@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="tools0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendMsg" fieldtype="5" fieldwidth="10" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="短信内容" maxlength="500" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="手机号码" maxlength="11" mustinput="0" onclick="selectSysUserTelDialog(getSysUsetTel)" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sendSts" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="0 发送失败  1 发送成功" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendTime" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="短信发送时间" maxlength="17" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="操作员登录号" maxlength="22" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="机构号" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="机构名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendMsgType" fieldsize="SEND_MSG_TYPE" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="收信人" mustinput="" onchange="MfToolsSendMessageInsert.changeReceiver(this);" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msgTel" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="手机号码" mustinput="1" readonly="" row="2" />
+</form>

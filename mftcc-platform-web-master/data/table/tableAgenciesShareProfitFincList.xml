@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AgenciesShareProfitFincList" para="eadis_page" title="资金机构分润放款列表" type="1">
+<tableitem align="2" filedname="sel_all" id="18" indexed="0" label="全选" row="1" sortType="2" type="2" width="10" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'finc';onClick-TrenchShareProfit.getDetailPage(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="2" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'finc';onClick-TrenchShareProfit.getDetailPage(this);subStringNub-12;" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="19" indexed="12" label="隐藏借据展示id，获取被选中项值用" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="16" indexed="13" label="借据号" row="1" sortType="2" type="99" width="10" widthType="0"/>
+<tableitem align="2" filedname="putoutDate" id="17" indexed="14" label="放款日期" row="1" sortType="2" type="1" width="10" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="15" label="借据金额(元)" row="1" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="20" indexed="16" label="放款本息（元）" row="1" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="shareProfitAmt" id="15" indexed="17" label="分润金额（元）" row="1" sortType="2" type="12" width="10" widthType="0"/>
+</table>

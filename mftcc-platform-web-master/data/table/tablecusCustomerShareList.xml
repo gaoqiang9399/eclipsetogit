@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCustomerShareList" para="eadis_page" title="客户共享列表" type="1">
+<tableitem align="2" filedname="shareDate" id="27" indexed="6" label="共享时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="5" indexed="17" label="-" row="1" type="5" typepara="/mfCusCustomerShare/deleteById;id-id;onclick-MfCusCustomerShare.deleteById(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="26" indexed="3" label="项目经理" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="id" id="1" indexed="1" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="remark" id="19" indexed="5" label="共享原因" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="18" indexed="2" label="客户编号" row="1" type="99" width="20" widthType="0"/>
+<tableitem align="2" filedname="shareMngName" id="16" indexed="4" label="共享项目经理" row="1" type="0" widthType="0"/>
+</table>

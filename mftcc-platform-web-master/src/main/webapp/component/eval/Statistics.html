@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>无标题文档</title>
+        <link href="../../UIplug/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">        
+		<link href="../../themes/view/css/view-main.css" rel="stylesheet" type="text/css">
+		<link href="../../themes/view/css/filter.css" rel="stylesheet" type="text/css">
+		<link href="../../themes/view/css/formline.css" rel="stylesheet" type="text/css">
+		<link href="../../UIplug/customScrollbar/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+        <link href="css/appEvalInfo.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../../layout/view/themes/css/initScroll.css" type="text/css"/>
+		<link type="text/css" rel="stylesheet" href="../../component/eval/css/detailResult.css"/>
+        <script src="../../layout/view/js/jquery-1.11.2.min.js"></script>
+        <script  src="../../UIplug/jqueryUI/smoothness/jquery-ui.css"></script>
+        <script src="../../UIplug/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../../UIplug/customScrollbar/js/jquery.mCustomScrollbar.js"></script>
+		<script src="../../UIplug/customScrollbar/js/jquery.mousewheel.min.js"></script>
+		<script>
+        $(function(){
+			$(".statisticsRight").mCustomScrollbar();
+			})
+        </script>
+        <style>
+		html{ height:100%;}
+        .statistics{ padding:0 15px; height:100%}
+		.statisticsRight,.statisticsLeft{ float:left; width:33%; height:415px; position:relative;}
+		body.contentA table.evel_table{width: calc(100% - 100px);}
+		.li_content .ls_list_a tbody tr td.border_left{border-bottom:none; border-top:none;}
+		.li_content .ls_list_a tbody tr td.border_center{border-bottom:none;}
+		.statisticsRightTitle{ position: absolute; top:38px; left:20px; font-weight:700; padding-top:7px;border-top: 1px solid #afc5d0; width:72px;}
+		.statisticsCenter{ float:left; position:relative;}
+        </style>
+
+</head>
+
+		<body style="padding:10px; height:100%;" class="contentA cellBoxBg">
+        <div class="cellBg statistics">
+          <h3>项目评级</h3>
+          <div class="bigform_content">
+            <div class="content_table">
+              <div class="input_btn"> </div>
+              
+              <!--页面显示区域-->
+              <div id="content" class="table_content" style="height: auto;">
+                <div class="pageer" pageNo="1" pageSum="1" pageSize="25" style="display:block; overflow:hidden">
+ <!-- statistics-left -->                    
+                <div class="statisticsLeft" id="freewall">
+<div class='cell' cellid='cell_1' >
+				<div class="info scroll_xy">
+					<table class="evel_table">
+						<tbody><tr><td style="width:50%"><span class="levels level_7"></span><span class="evel_title">综合评价</span><span class="evaluation">偿还债务能力较强,较易受不利环境影响,等级风险低。</span></td></tr>
+                        <tr>
+                        <td style="width:50%"><div style="text-align: right;"><span class="score_lable">得分</span><span class="count_score">94</span></div><div class="bar_div"><span class="bar_outter"><span class="bar_inner" style="width: 94%;"></span></span></div><div class="div_line  show_0"><span class="radio_span"><span class="radio_span_inner"></span></span><span class="radio_lable">财务得分</span><span class="radio_filed">+71</span></div><div class="div_line  show_1"><span class="radio_span"><span class="radio_span_inner"></span></span><span class="radio_lable">定量得分</span><span class="radio_filed">0</span></div></td>
+                        </tr>
+                        
+                        </tbody>
+					</table>
+				</div>
+			</div>
+                </div>
+                 <!-- statistics-right -->
+                  <div  class="statisticsCenter"><div class="statisticsRightTitle">财务指标</div></div>
+                <div  class="statisticsRight">
+
+                  <div name="fin" class="li_content_type">
+                    <div class="li_title"> 
+                      <!--<span>财务得分</span>--> 
+                      <span class="scoreShow"> <span class="score">71</span>分 </span> </div>
+                    <div class="li_content">
+                          <table class="ls_list_a" style="width:100%">
+                            <thead>
+                              <tr>
+                                <th style="width:20%;" name="noneshow">&nbsp;</th>
+                                <th name="indexName" class="text_align_s" style="width: 35%;">指标名称</th>
+                                <th name="indexVal" style="width: 29%;">指标值</th>
+                                <th name="score">得分</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td class="font_weight  border_left" rowspan="0"></td>
+                                <td class="border_center" colspan="4"><table class="ls_list" style="width: 100%; margin: 5px 0px">
+                                    <tbody>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px; width: 40%;">主营业务成本</td>
+                                        <td name="indexVal" style="width: 40%;">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">资本积累率</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">资本收益率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">资产负债率</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">负债比率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">股东权益比率</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">总收入增长率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">主营业务利润比率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">连续两年盈利年数</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">经营性现金流出比率</td>
+                                        <td name="indexVal">5.0E7</td>
+                                        <td name="score">3.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">销售（营业）利润率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">速动比率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">3.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">三年销售平均增长率</td>
+                                        <td name="indexVal">454.0</td>
+                                        <td name="score">3.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">三年资本平均增长率</td>
+                                        <td name="indexVal">5.0E7</td>
+                                        <td name="score">3.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">现金流动负债比率</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">2.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">两年利润总额平均额</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">2.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">已获利息倍数</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">5.0</td>
+                                      </tr>
+                                    <tr>
+                                        <td name="indexName" style="padding-left: 15px;">盈余现金保障倍数</td>
+                                        <td name="indexVal">500000.0</td>
+                                        <td name="score">0.0</td>
+                                      </tr>
+                                  </tbody>
+                                  </table></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      
+                  </div>
+                </div>
+                                  <div  class="statisticsCenter"><div class="statisticsRightTitle">定量指标</div></div>
+                  <!-- statistics-right --> 
+                <div  class="statisticsRight">
+              
+                  <div name="fin" class="li_content_type">
+                    <div class="li_title"> 
+                      <!--<span>财务得分</span>--> 
+                      <span class="scoreShow"> <span class="score">0</span>分 </span> </div>
+                    <div class="li_content">
+                          <table class="ls_list_a" style="width:100%">
+									<thead><tr><th style="width:20%;" name="noneshow">&nbsp;</th><th name="indexName" class="text_align_s" style="width: 40%;">指标名称</th><th name="javaItem" style="width: 32%;">业务参数</th><th name="score">得分</th></tr></thead>
+									<tbody><tr><td class="font_weight  border_left" rowspan="0"></td><td class="border_center" colspan="4"><table class="ls_list" style="width: 100%; margin: 5px 0px"><tbody><tr><td name="indexName" style="padding-left: 15px; width: 50%;">总资产增长率</td><td name="javaItem" style="width: 40%;">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">经营性现金流入比率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">净资产收益率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">三年利润平均增长率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">销售收入现金含量</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">经营活动中现金净流量</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">现金支付能力</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">利息保障倍数</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">流动资产周转率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">销售（营业）利润增长率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">流动资产比率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr><tr><td name="indexName" style="padding-left: 15px;">现金比率</td><td name="javaItem">325.0</td><td name="score">0.0</td></tr></tbody></table></td></tr></tbody>
+								</table>
+                        </div>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+</body>
+</html>

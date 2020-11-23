@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+.changeval {
+	width:auto;
+}
+.changeval input{
+	border: none;
+	/*border: 1px solid #009BED;*/
+	/*height: 100%;*/
+}
+.changeval i{
+	border: 1px solid #009bed;
+    color: black;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    height: 21px;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    float: left;
+    margin:0 1px
+}
+.inputcontent{
+	border: 1px solid #009bed;
+	height: 21px;
+}
+.inputcontent{
+	display: block;
+    float: left;
+    background-color: white;
+}
+.inputcontent input{
+	display: block;
+	float: left;
+	margin-top: -1px;
+	height: 19px;
+}
+.inputcontent .inputText{
+	display: block;
+	float: left;
+	width:200px;
+	margin: 0;
+}
+.inputcontent span{
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: black;
+}
+.inputcontent select{
+	height: 19px;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+    background: transparent url("./creditapp/test/arrow.png") no-repeat scroll right center;
+    height: 19px;
+    padding-right: 18px;
+}
+.inputcontent select::-ms-expand{
+	display: none;
+}
+.info .infoTitle{
+	 color: #6096B6;
+	 border: 0 none;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.info{
+	 margin: 0 5px 5px;
+ 			 padding: 4px 5px 5px;
+ 			 font-family : 微软雅黑;
+}
+.info td{
+	color: #000000;
+}

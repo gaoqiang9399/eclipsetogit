@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="commissionchangebase" title="佣金变更记录表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="commissionChangeId" fieldtype="1" maxlength="20" formactiveid="1" labelalign="1" labelcol="1" labelname="佣金变更记录表" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="2" labelalign="1" labelcol="1" labelname="佣金发放或提取申请时间" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="commissionChangeType" fieldtype="1" maxlength="1" formactiveid="3" labelalign="1" labelcol="1" labelname="佣金变更类型" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="changeAmt" fieldtype="1" maxlength="20" formactiveid="4" labelalign="1" labelcol="1" labelname="变更金额" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="5" labelalign="1" labelcol="1" labelname="关联客户编号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="50" formactiveid="6" labelalign="1" labelcol="1" labelname="关联客户名称" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactNo" fieldtype="1" maxlength="50" formactiveid="7" labelalign="1" labelcol="1" labelname="关联合同号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" maxlength="20" formactiveid="8" labelalign="1" labelcol="1" labelname="关联合同金额" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="drawTime" fieldtype="1" maxlength="17" formactiveid="9" labelalign="1" labelcol="1" labelname="提取时间" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="drawSts" fieldtype="1" maxlength="1" formactiveid="10" labelalign="1" labelcol="1" labelname="提取状态" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="confirmNo" fieldtype="1" maxlength="20" formactiveid="11" labelalign="1" labelcol="1" labelname="确认人" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="confirmName" fieldtype="1" maxlength="50" formactiveid="12" labelalign="1" labelcol="1" labelname="确认人" mustinput="0" row="21"/>
+</form>

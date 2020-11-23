@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="compensatoryexpire0001" para="eadis_page" title="代偿提醒" type="2">
+<tableitem align="1" filedname="cusName" id="5" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;onClick-getDetailCus(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="compensatoryFeeSum" id="15" indexed="17" label="合计值" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryFee" id="14" indexed="15" label="代偿费" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryOverIntst" id="13" indexed="13" label="代偿逾期利息" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryIntst" id="12" indexed="12" label="代偿利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryPrcp" id="11" indexed="11" label="代偿本金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryPenalty" id="10" indexed="14" label="代偿违约金" row="1" type="12" widthType="0"/>
+<tableitem align="2" fieldStyle="termNum" filedname="termNum" id="9" indexed="9" label="代偿期号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="planId" filedname="planId" id="16" indexed="18" label="还款计划编号" row="1" type="99" widthType="0"/>
+</table>

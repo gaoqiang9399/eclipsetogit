@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="sysTaskInfoShow" title="系统消息展示表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="publishTime" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="发布时间" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="createDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="发送时间" maxlength="255" mustinput="0" readonly="1" row="1"/>
+<formelement alt="请输入标题（50字以内）" datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="消息发起人" maxlength="100" mustinput="0" readonly="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="通知公告ID" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="发布人" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="pasContent" fieldtype="5" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="消息内容" maxlength="400" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contentAbstract" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="摘要" maxlength="200" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeSts" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="公告状态" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeScorp" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="发布范围编号" mustinput="" readonly="" row="5"/>
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetmanageinfo" title="资产申请信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="loanNum" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="贷款笔数" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="loanAmt" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="贷款总额" maxlength="30" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="loanBalance" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="贷款余额" maxlength="30" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="overdueInterest" fieldsize="0.00" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="逾期利息" maxlength="20" mustinput="0" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extInt2" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="2" labelname="预留整数型" mustinput="0" row="29"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="overduePrincipal" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="逾期本金" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="penaltyAmount" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="3" labelname="罚息金额" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="proposer" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="4" labelname="申请人" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="1" labelname="申请日期" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="35" horVer="1" labelalign="1" labelcol="4" labelname="情况描述" maxlength="400" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyStatus" fieldsize="ASSET_APPLY_STATUS" fieldtype="2" formactiveid="37" horVer="1" labelalign="1" labelcol="3" labelname="申请状态" mustinput="" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="lstModDate" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="2" labelname="最后修改日期" mustinput="" readonly="" row="5"/>
+</form>

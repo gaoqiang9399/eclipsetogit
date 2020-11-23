@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busapplyassurelist" para="eadis_page" title="担保项目列表" type="2">
+<tableitem align="2" filedname="regTime" id="88" indexed="102" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="87" indexed="94" label="项目金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="relation" id="98" indexed="101" label="与被担保人关系" row="1" type="6" typepara="CUS_PERS_REL" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="85" indexed="103" label="办理阶段" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="assureAmt" id="97" indexed="100" label="担保金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="96" indexed="95" label="项目期限" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="92" indexed="84" label="项目名称" row="1" type="4" typepara="/mfBusApply/getSummary;appId-appId;onClick-enterClick(this);" widthType="0"/>
+</table>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pledgeDetailc05" title="应收租金信息">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="4" labelname="押品名称" mustinput="" param="pledgeNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="classSecondName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="4" labelname="类别名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="担保类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="押品状态" mustinput="" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="extNum01" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="应收账款净值" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="extDstr01" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="应收账款生效日" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="extDstr02" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="应收账款到期日" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="extNum02" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="发票金额" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="400" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="客户编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="3" labelname="类别编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr04" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="4" labelname="发票号码" mustinput="" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="extDstr03" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="开票日期" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extDic02" fieldsize="CUR_TYPE" fieldtype="2" formactiveid="27" horVer="1" labelalign="1" labelcol="2" labelname="发票币种" mustinput="" readonly="" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt01" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="主折扣天数" mustinput="" readonly="" row="13"/>
+<formelement datatype="17" fieldalign="1" fieldcol="3" fieldname="extNum03" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="2" labelname="主折扣率" mustinput="" readonly="" row="13" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="extInt02" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="3" labelname="次折扣天数" mustinput="" readonly="" row="13"/>
+<formelement datatype="17" fieldalign="1" fieldcol="5" fieldname="extNum04" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="4" labelname="次折扣率" mustinput="" readonly="" row="13" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="extLstr02" fieldtype="5" formactiveid="32" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="付款条件" maxlength="400" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extDic03" fieldsize="PAY_TYPE" fieldtype="2" formactiveid="33" horVer="1" labelalign="1" labelcol="3" labelname="支付方式" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr07" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="4" labelname="订单号码" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="certificateName" fieldtype="2" formactiveid="35" horVer="1" labelalign="1" labelcol="2" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="classSecondName" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="押品类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="4" fieldname="extLstr02" fieldtype="5" formactiveid="37" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="付款条件" maxlength="200" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="38" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+</form>

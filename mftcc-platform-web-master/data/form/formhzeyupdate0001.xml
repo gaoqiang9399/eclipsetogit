@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="hzeyupdate0001" title="icloud账户管理更新表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="icloudId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="icloud账号" mustinput="" readonly="1" row="1"/>
+<formelement alt="请点击按钮生成密码" datatype="0" fieldalign="1" fieldcol="2" fieldname="icloudPwd" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="icloud密码" mustinput="" readonly="" row="2" unit="&lt;i class='i i-password pointer' onclick=MfbusIcloudManage.getIcloudPwdAjax()&gt;&lt;/i&gt;"/>
+</form>

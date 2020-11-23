@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="pers0006" title="配偶信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateName" fieldtype="1" fieldwidth="70" formactiveid="48" labelalign="1" labelcol="1" labelname="姓名" labelwidth="30" maxlength="180" mustinput="0" param="cusNo;" row="2"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateIdType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="49" labelalign="1" labelcol="1" labelname="证件类型" maxlength="6" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateIdNo" fieldtype="1" formactiveid="50" labelalign="1" labelcol="1" labelname="证件号码" maxlength="60" mustinput="0" param="cusNo;" row="4"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateMobilTel" fieldtype="1" formactiveid="51" labelalign="1" labelcol="1" labelname="手机号码" maxlength="45" mustinput="0" param="cusNo;" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateUnitName" fieldtype="1" formactiveid="52" labelalign="1" labelcol="1" labelname="工作单位" maxlength="180" mustinput="0" param="cusNo;" row="6"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateVocation" fieldsize="VOCATION" fieldtype="2" formactiveid="53" labelalign="1" labelcol="1" labelname="职业" maxlength="6" mustinput="0" param="cusNo;" row="7"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateDuties" fieldsize="DUTIES" fieldtype="2" formactiveid="54" labelalign="1" labelcol="1" labelname="职务" maxlength="3" mustinput="0" param="cusNo;" row="8"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="mateIncome" fieldtype="1" formactiveid="55" labelalign="1" labelcol="1" labelname="收入" maxlength="16" mustinput="0" param="cusNo;" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mateUnitFixedTel" fieldtype="1" formactiveid="56" labelalign="1" labelcol="1" labelname="单位联系电话" maxlength="45" mustinput="0" param="cusNo;" row="10"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="mateJobDate" fieldtype="1" formactiveid="57" labelalign="1" labelcol="1" labelname="参加工作时间" maxlength="24" mustinput="0" param="cusNo;" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="58" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="marrige" fieldsize="MARRIGE" fieldtype="2" formactiveid="59" horVer="0" labelalign="1" labelcol="1" labelname="婚姻状况" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="60" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

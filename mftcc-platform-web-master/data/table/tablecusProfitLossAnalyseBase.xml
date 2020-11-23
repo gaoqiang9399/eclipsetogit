@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusProfitLossAnalyseBase" title="损益分析" type="1">
+<tableitem align="2" filedname="proName" id="14" indexed="1" label="项目" row="1" type="4" typepara="/mfCusProfitLossAnalyse/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusProfitLossAnalyse/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="15" widthType="0"/>
+<tableitem align="3" filedname="incomeTotal" id="12" indexed="2" label="收入合计(元)" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="variableCostTotal" id="11" indexed="3" label="可变成本合计(元)" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="grossProfit" id="10" indexed="4" label="毛利(元)" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="disposableIncome" id="20" indexed="10" label="可支配收入(元)" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="3" filedname="netProfit" id="18" indexed="7" label="净利润(元)" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="7" indexed="13" label="-" type="5" typepara="/mfCusProfitLossAnalyse/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+</table>

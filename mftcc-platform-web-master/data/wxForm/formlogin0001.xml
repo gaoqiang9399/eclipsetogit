@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formId="login0001" webFormId="login0001" desc="登录表单" css="mian-login" layout="horizontal" timestamp="1483435384665">
+    <formelement order="0" lv="2" property="text" change="" blur="" click="" focus="" maxlength="" domid="account" pkno="dhcc-1" id="14" pid="0" name="用户名" icon="wx-input" datatype="0" placeholder="请输入用户名（0001）"/>
+    <formelement order="1" lv="2" property="password" domid="password" placeholder="请输入密码（000000）" pkno="dhcc-6" id="14" pid="0" name="密码" icon="wx-input" datatype="0"/>
+    <formelement order="2" lv="2" property="btn" disabled="" pkno="dhcc-5" id="8" pid="0" name="登录" icon="wx-button" css="weui_btn_primary" click="" domclass="login-btn" domid="login"/>
+</form>

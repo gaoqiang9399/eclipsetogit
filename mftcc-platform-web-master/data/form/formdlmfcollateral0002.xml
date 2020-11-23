@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dlmfcollateral0002" title="抵质押品管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="name" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="" maxlength="100" mustinput="0" row="1"/>
+</form>

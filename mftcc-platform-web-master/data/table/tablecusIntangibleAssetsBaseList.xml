@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusIntangibleAssetsBaseList" title="无形资产列表" type="2">
+<tableitem align="2" filedname="assetsNo" id="5" indexed="3" label="资产编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assetsName" id="4" indexed="0" label="无形资产名称" mytitle="无形资产名称-assetsName;" row="1" type="4" typepara="/mfCusIntangibleAssets/getDetailByAjax;intangibleAssetsId-intangibleAssetsId;cusNo-cusNo;oneUrl-'/mfCusIntangibleAssets/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="assetsType" id="3" indexed="2" label="无形资产种类" row="1" type="6" typepara="INTANGIBLE_ASSETS_TYPE" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="2" indexed="4" label="-" type="5" typepara="/mfCusIntangibleAssets/getById;intangibleAssetsId-intangibleAssetsId;cusNo-cusNo;oneUrl-'/mfCusIntangibleAssets/updateAjax';onClick-updateCusTableInfo(this);" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="1" indexed="5" label="-" row="1" type="5" typepara="/mfCusIntangibleAssets/deleteAjax;intangibleAssetsId-intangibleAssetsId;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" widthType="0"/>
+</table>

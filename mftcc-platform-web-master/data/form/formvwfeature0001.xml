@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vwfeature0001" title="前端交易_平台特点管理; InnoDB free: 52224 kB">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="16" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="平台特点名称" maxlength="66" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="link" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="平台特点链接" maxlength="166" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="简介" maxlength="33" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="状态，0：启用，1 禁用" maxlength="3" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occTime" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="时间戳" maxlength="16" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="创建时间" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="column1" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="备用字段1" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="column2" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="备用字段2" maxlength="33" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="column3" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="备用字段3" maxlength="166" mustinput="0" row="11"/>
+</form>

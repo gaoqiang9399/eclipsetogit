@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveapplytemplatelist" title="合同列表" type="2">
+<tableitem align="2" filedname="templateNum" id="6" indexed="5" label="份数" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="templateTypeName" id="5" indexed="1" label="合同类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="下载" id="4" indexed="6" label="-" row="1" type="99" typepara="/mfToolsDownload/downloadTemplate;ajaxData-templateBizConfigId;" width="2" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="3" indexed="2" label="资料名称" type="4" typepara="/mfTemplateBizConfig/getOfficeUrlAjax;templateBizConfigId-templateBizConfigId;onclick-templateIncludePage.openTemplateTmp(this);" widthType="0"/>
+<tableitem align="2" filedname="templateBizConfigId" id="2" indexed="0" label="选择" row="1" type="2" typepara="templateBizConfigId-templateBizConfigId" widthType="0"/>
+<tableitem align="2" filedname="templateType" id="1" indexed="3" label="类型" row="1" type="10" typepara="ARCHIVE_TEMPLATE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="ext9" id="7" indexed="4" label="选中判断" row="1" type="99" widthType="0"/>
+</table>

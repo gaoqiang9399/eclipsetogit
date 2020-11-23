@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="filesign0001" link="/mfOaFileCountersign/findByPage" para="eadis_page" title="文件会签申请" type="1">
+    <tableitem align="1" filedname="remark" id="5" indexed="5" label="备注" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="appSts" id="4" indexed="6" label="状态" row="1" type="0" widthType="0"/>
+    <tableitem align="1" filedname="counterName" id="3" indexed="3" label="会签主题" row="1" type="4" typepara="/mfOaFileCountersign/getById;fileNo-fileNo;onClick-openGetByIdForm(this);" widthType="0"/>
+    <tableitem align="2" filedname="fileType" id="2" indexed="2" label="文件类型" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="审批历史" id="18" indexed="7" label="-" type="5" typepara="/mfOaFileCountersign/approvalHis;fileNo-fileNo;onClick-showAppHis(this)"/>
+    <tableitem align="2" filedname="删除" id="17" indexed="19" label="-" row="1" type="99" typepara="/mfOaFileCountersign/deleteAjax;fileNo-fileNo;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplantrial0001" para="eadis_page" title="还款计划试算" type="2">
+<tableitem align="2" filedname="termNum" id="2" indexed="2" label="期号" row="1" type="0" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="3" indexed="3" label="开始时间" row="1" type="6" typepara="ACC_USE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="8" indexed="4" label="结束时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayPrcp" id="4" indexed="5" label="每期本金（元）" mytitle="bankNo-333" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayIntst" id="9" indexed="6" label="每期利息（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="10" indexed="7" label="期供金额（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpBalAfter" id="6" indexed="10" label="剩余本金（元）" row="1" type="0" widthType="0"/>
+</table>

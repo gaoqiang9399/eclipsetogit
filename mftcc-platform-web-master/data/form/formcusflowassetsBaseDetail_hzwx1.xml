@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusflowassetsBaseDetail_hzwx1" title="个人流动资产-现金及银行存款详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsType" fieldsize="ASSETS_TYPE" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="资产类型" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="assetsName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="存款银行" maxlength="100" mustinput="0" param="assetsId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accountType" fieldsize="ACCOUNT_TYPE" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="账户类型" maxlength="30" mustinput="0" row="1"/>
+<formelement alt="请输入正确的银行卡号" datatype="0" fieldalign="1" fieldcol="5" fieldname="accountNo" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="4" labelname="账号" maxlength="30" mustinput="" param="assetsId;" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="nowPrice" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="余额" maxlength="14" mustinput="" param="assetsId;" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="资产id" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="16" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="assetsId" readonly="" row="1"/>
+</form>

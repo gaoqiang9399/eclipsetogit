@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="msgconf0003" title="消息模板监听表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerClass" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="监听类名" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerFunc" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="监听方法" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerArgs" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="变量参数（存 变量id）" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerBusi" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="业务阶段" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerTrigger" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="触发点" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reciverType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="发送对象" maxlength="2" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendType" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="发送方式" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelContent" fieldtype="5" formactiveid="9" labelalign="3" labelcol="1" labelname="模板内容" maxlength="65535" mustinput="0" onclick="addMsgInfoModel1();" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flag" fieldsize="YES_NO" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="是否启用" maxlength="2" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="listenerName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="监听名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="varUsageRel" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="信息类型" mustinput="" readonly="" row="8"/>
+</form>

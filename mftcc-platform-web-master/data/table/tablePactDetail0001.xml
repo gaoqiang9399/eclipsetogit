@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="PactDetail0001" link="/mfCusCreditContractDetail/findByPage" para="eadis_page" title="立项授信合同明细表" type="2">
+<tableitem align="2" filedname="thirdParty" id="9" indexed="9" label="丙方" row="1" type="0"/>
+<tableitem align="2" filedname="secondParty" id="8" indexed="8" label="乙方" row="1" type="0"/>
+<tableitem align="2" filedname="firstParty" id="7" indexed="7" label="甲方" row="1" type="0"/>
+<tableitem align="2" filedname="creditTerm" id="15" indexed="15" label="合作期限(月)" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactType" id="6" indexed="6" label="合同类型" row="1" type="6" typepara="PACT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="合同号" row="1" type="4" typepara="/mfCusCreditContractDetail/getById;id-id;onClick-mfCusCreditContractDetail.editPactDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" row="1" type="0"/>
+<tableitem align="2" filedname="pactSignDate" id="11" indexed="11" label="签约日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="fourParty" id="10" indexed="10" label="丁方" row="1" type="0"/>
+</table>

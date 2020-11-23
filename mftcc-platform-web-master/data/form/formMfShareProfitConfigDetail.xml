@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="MfShareProfitConfigDetail" title="分润配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="关联客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="关联客户姓名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isBase" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="是否是基础数据：1-是；0-否；" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="configName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="配置名称" maxlength="50" mustinput="1" onclick="selectShareProfitConfigDialog(shareProfitConfigCallBack);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="matchType" fieldsize="MATCH_TYPE" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="匹配类型" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="calcBase" fieldsize="MATCH_TYPE" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="计算基数" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="calcMethod" fieldsize="CALC_METHOD" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="计算方式" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="calcCoefficient" fieldsize="CALC_COEFFICIENT" fieldtype="2" formactiveid="9" horVer="1" labelalign="1" labelcol="4" labelname="计算系数" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="4" fieldname="calcFormula" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="计算公式" maxlength="200" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseConfigId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="基础配置id" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="entityPrimarykeys" mustinput="" param="id" readonly="" row="5"/>
+</form>

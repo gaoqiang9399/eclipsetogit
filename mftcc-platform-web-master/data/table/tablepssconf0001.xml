@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pssconf0001" para="eadis_page" link="" title="" type="2">
+<tableitem align="2" filedname="confId" id="1" indexed="1" label="数据主键" row="1" type="4" typepara="/pssConfig/getByIdAjax;confId-confId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="curType" id="2" indexed="2" label="币种" row="1" type="0" />
+<tableitem align="2" filedname="numDecimalDigit" id="3" indexed="3" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="amtDecimalDigit" id="4" indexed="4" label="数量小数位" row="1" type="0" />
+<tableitem align="2" filedname="invPricingMethod" id="5" indexed="5" label="单价小数位" row="1" type="0" />
+<tableitem align="2" filedname="startNegativeInv" id="6" indexed="6" label="启用负库存检查" row="1" type="0" />
+<tableitem align="2" filedname="startApproval" id="7" indexed="7" label="启用审核" row="1" type="0" />
+<tableitem align="2" filedname="startDuty" id="8" indexed="8" label="启用税金" row="1" type="0" />
+<tableitem align="2" filedname="dutyRate" id="9" indexed="9" label="增值税税率" row="1" type="0" />
+<tableitem align="2" filedname="startPlusDuty" id="10" indexed="10" label="商品价格是否含税" row="1" type="0" />
+<tableitem align="2" filedname="startPropHelper" id="11" indexed="11" label="启用辅助属性" row="1" type="0" />
+<tableitem align="2" filedname="startSn" id="12" indexed="12" label="启用序列号" row="1" type="0" />
+<tableitem align="2" filedname="startExpDate" id="13" indexed="13" label="启用批次保质期管理" row="1" type="0" />
+<tableitem align="2" filedname="startAutoAmt" id="14" indexed="14" label="启用自动填充结算金额" row="1" type="0" />
+<tableitem align="2" filedname="startAps" id="15" indexed="15" label="启用分仓核算" row="1" type="0" />
+<tableitem align="2" filedname="regOpNo" id="16" indexed="16" label="创建人编号" row="1" type="0" />
+<tableitem align="2" filedname="regOpName" id="17" indexed="17" label="创建人名称" row="1" type="0" />
+<tableitem align="2" filedname="regBrNo" id="18" indexed="18" label="创建人机构编号" row="1" type="0" />
+<tableitem align="2" filedname="regBrName" id="19" indexed="19" label="创建人机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="20" indexed="20" label="创建时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModOpNo" id="21" indexed="21" label="最后修改人编号" row="1" type="0" />
+<tableitem align="2" filedname="lstModOpName" id="22" indexed="22" label="最后修改人名称" row="1" type="0" />
+<tableitem align="2" filedname="lstModBrNo" id="23" indexed="23" label="最后修改人机构编号" row="1" type="0" />
+<tableitem align="2" filedname="lstModBrName" id="24" indexed="24" label="最后修改人机构名称" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="25" indexed="25" label="最后修改时间" row="1" type="0" />
+</table>

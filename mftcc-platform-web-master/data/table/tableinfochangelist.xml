@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="infochangelist" link="/mfCusInfoChange/findByPage" para="eadis_page" title="客户信息变更申请表" type="1">
+<tableitem align="2" filedname="afterTheChangeShow" id="7" indexed="7" label="变更后" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="beforeTheChangeShow" id="6" indexed="6" label="变更前" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="14" indexed="14" label="详情" row="1" type="5" typepara="/mfCusInfoChange/getById;changeId-changeId;onClick-MfCusInfoChange_List.getById;" widthType="0"/>
+<tableitem align="2" filedname="changeFieldName" id="4" indexed="4" label="变更信息" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="13" indexed="13" label="申请状态" row="1" sortType="2" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="12" indexed="12" label="更新时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="11" indexed="11" label="申请时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="10" label="变更人" row="1" sortType="2" type="0" widthType="0"/>
+</table>

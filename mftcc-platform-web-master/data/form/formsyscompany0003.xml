@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="syscompany0003" title="公司基本信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="公司编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comMark" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="公司唯一编号" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="systemName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="系统名称" mustinput="" readonly="" row="1"/>
+<formelement alt="请输入色值，如#ffffff" datatype="0" fieldalign="1" fieldcol="2" fieldname="systemNameColor" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="系统名称颜色" mustinput="" readonly="" row="2"/>
+<formelement alt="请输入rgba，如rgba(0,0,0,0.15)" datatype="0" fieldalign="1" fieldcol="2" fieldname="inputBlockBackgroundColor" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="输入区域背景颜色" mustinput="" readonly="" row="3"/>
+<formelement alt="请输入色值，如#0A7279" datatype="0" fieldalign="1" fieldcol="4" fieldname="inputBackgroundColor" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="输入框背景色" mustinput="" readonly="" row="3"/>
+<formelement alt="请输入色值，如#555555" datatype="0" fieldalign="1" fieldcol="2" fieldname="inputFontColor" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="输入框文字颜色" mustinput="" readonly="" row="4"/>
+<formelement alt="请输入色值，如#ffffff" datatype="0" fieldalign="1" fieldcol="4" fieldname="inputIconColor" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="输入框图标颜色" mustinput="" readonly="" row="4"/>
+<formelement alt="请输入色值，如#00F0FF" datatype="0" fieldalign="1" fieldcol="2" fieldname="loginBtnBackgroundColor" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="登录按钮背景色" mustinput="" readonly="" row="5"/>
+<formelement alt="请输入色值，如#ffffff" datatype="0" fieldalign="1" fieldcol="4" fieldname="loginFontColor" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="登录按钮文字颜色" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loginPageLogoLocation" fieldsize="LOGIN_PAGE_LOGO_LOCATION" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="系统logo位置" mustinput="" readonly="" row="2"/>
+</form>

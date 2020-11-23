@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="movablecompensation0001" para="eadis_page" link="/mfMoveableCompensation/findByPage" title="动产跌价补偿表" type="1">
+<tableitem align="2" filedname="compensationId" id="1" indexed="1" label="补偿编号" row="1" type="4" typepara="/mfMoveableCompensation/getById;compensationId-compensationId;query-'query'"/>
+<tableitem align="2" filedname="pledgeNo" id="2" indexed="2" label="押品编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="3" indexed="3" label="押品名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeShowNo" id="4" indexed="4" label="押品展示编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeWorth" id="5" indexed="5" label="押品价值" row="1" type="0" />
+<tableitem align="2" filedname="regulatoryPrice" id="6" indexed="6" label="最低监管货值" row="1" type="0" />
+<tableitem align="2" filedname="compensatePrice" id="7" indexed="7" label="需补偿价值" row="1" type="0" />
+<tableitem align="2" filedname="compensateType" id="8" indexed="8" label="补偿方式" row="1" type="0" />
+<tableitem align="2" filedname="busPleId" id="9" indexed="9" label="押品业务关联编号" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="10" indexed="10" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="11" indexed="11" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="12" indexed="12" label="登记部门" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="13" indexed="13" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="14" indexed="14" label="信息登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="15" indexed="15" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="16" indexed="16" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="17" indexed="17" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="18" indexed="18" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="19" indexed="19" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="20" indexed="20" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="21" indexed="21" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="25" indexed="25" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="27" indexed="27" label="-" row="1" type="5" typepara="/mfMoveableCompensation/deleteAjax;compensationId-compensationId;onClick-ajaxDelete(this)" width="2"/>
+</table>

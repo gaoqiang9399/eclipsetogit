@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveconfimdoclist" para="eadis_page" title="文档列表" type="2">
+<tableitem align="2" fieldStyle="docType" filedname="docSplitName" id="15" indexed="1" label="文档类型" type="99" widthType="0"/>
+<tableitem align="2" filedname="docName" id="5" indexed="5" label="资料名称" mytitle="文件名-docName;" row="1" type="4" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" widthType="0"/>
+<tableitem align="2" filedname="docNos" id="14" indexed="2" label="选择" row="1" type="99" typepara="archiveDetailNo-archiveDetailNo;docNo-docNo;" widthType="0"/>
+<tableitem align="2" filedname="archiveDocStatus" id="13" indexed="15" label="状态" row="1" type="6" typepara="ARCHIVE_DOC_STATE" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="编辑" id="2" indexed="17" label="-" row="1" type="99" typepara="/archiveInfoDetail/getBigForm;archiveDetailNo-archiveDetailNo;onClick-getBigForm(this)" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="downBtn" filedname="下载" id="1" indexed="16" label="-" row="1" type="99" typepara="action;docBizNo-docBizNo;docNo-docNo;onClick-downloadFile(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="16" indexed="4" label="文档类别" row="1" type="0" widthType="0"/>
+</table>

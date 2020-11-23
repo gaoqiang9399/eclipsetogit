@@ -1,0 +1,52 @@
+.wrapper { width: 1138px; margin-left: 20px;margin-top: 20px;border: 1px solid #cfcfcf;background: #fff; }
+body { font: 12px/1.5 \5b8b\4f53;color: #555; text-align: center;}
+
+
+/*voucher_wrap*/
+.voucher_wrap {padding: 30px 0px; margin: auto; width: 760px;  min-width: 400px; background: #fff; position: relative; padding-top: 0; box-sizing:content-box; -webkit-box-sizing:content-box; }
+
+.voucher_top {padding-top: 10px; margin-bottom: 10px; overflow: hidden; zoom: 1; border: 0; width: 100%;font-size: 12px; color: #666;}
+.voucher_tit { display: inline; font: 24px/1.8 "Microsoft Yahei"; text-align: center; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); }
+.voucher_top #vch_attach {margin-right: 12px;}
+.voucher_top tr td{width: 33%; min-width: 250px;}
+.voucher_top .company_wrap {text-align: left;}
+.voucher_top .date_wrap {text-align: center;}
+.voucher_top .attach_wrap {padding-top: 12px; text-align: right;}
+.voucher_top .proof_wrap {text-align: right;}
+
+
+
+/*voucher*/
+.voucher { border-collapse: collapse; margin-bottom:10px; }
+.voucher th, .voucher td { border: 1px solid #666; }
+.voucher thead th { border-top-width:2px; }
+.voucher tfoot td { border-bottom-width:2px; }
+.voucher .col_summary, .voucher .col_total{ border-left-width:2px;}
+.voucher .col_credit{ border-right-width:2px;}
+.col_quantity, .col_currency{ display:none; }
+.voucher th {color: #555555; font-size: 14px; text-align: center; font-weight: bold; overflow: hidden; }
+.voucher tr { height: 52px; }
+.transverse tr {height: 35px !important; }
+
+.voucher .col_summary .cell_val, .voucher .col_subject .cell_val { padding: 0 5px; font-size: 12px; }
+.voucher .col_subject .cell_val span{ font-size:12px; }
+.voucher .col_option { border-left: 0; }
+.voucher .col_operate {border: 0; }
+
+/*摘要*/
+.voucher tbody .col_summary { border-right: 0; width: 35%; min-width: 120px; }
+.col_summary .cell_val {word-break: break-all; word-wrap: break-word; }
+/*科目*/
+.voucher tbody .col_subject { border-right: 0; width: 35%; min-width: 120px; }
+.col_subject .cell_val {word-break: break-all; word-wrap: break-word; }
+
+/*借贷金额*/
+.voucher .col_debite, .voucher .col_credit, .voucher .col_money { width: 15%; min-width: 80px;}
+.voucher .col_debite .cell_val, .voucher .col_credit .cell_val { overflow: hidden; font-size: 12px; overflow: hidden; position: relative; right: 5px; *right: 4px;
+text-align: right; }
+
+.voucher .col_total {padding: 0 10px; font-size: 14px; font-weight: bold; }
+
+/*底部*/
+.vch_ft {font-size: 12px; color: #666; text-align: left;}
+.fr {float: right;display: inline;margin-left: 5px;}

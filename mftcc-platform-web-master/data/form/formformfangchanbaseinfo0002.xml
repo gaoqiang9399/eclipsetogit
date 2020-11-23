@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formfangchanbaseinfo0002" title="房产押品信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="4" labelname="押品名称" maxlength="80" mustinput="0" param="pledgeNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pledgeNo" fieldtype="99" formactiveid="88" horVer="0" labelalign="3" labelcol="5" labelname="押品编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="89" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="91" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr01" fieldtype="1" formactiveid="92" horVer="1" labelalign="1" labelcol="4" labelname="抵质押顺位" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr02" fieldtype="1" formactiveid="94" horVer="1" labelalign="1" labelcol="4" labelname="产权共有人" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr04" fieldtype="1" formactiveid="95" horVer="1" labelalign="1" labelcol="1" labelname="权属证书类型" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr03" fieldsize="YES_NO" fieldtype="2" formactiveid="96" horVer="1" labelalign="1" labelcol="2" labelname="是否需要析产" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr05" fieldtype="1" formactiveid="97" horVer="1" labelalign="1" labelcol="3" labelname="权属证书编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr06" fieldtype="1" formactiveid="98" horVer="1" labelalign="1" labelcol="4" labelname="产权期限" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr08" fieldtype="1" formactiveid="99" horVer="1" labelalign="1" labelcol="1" labelname="建筑面积" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr09" fieldtype="1" formactiveid="100" horVer="1" labelalign="1" labelcol="2" labelname="所在层数" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr10" fieldtype="1" formactiveid="101" horVer="1" labelalign="1" labelcol="3" labelname="建筑物总层数" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr11" fieldtype="1" formactiveid="102" horVer="1" labelalign="1" labelcol="4" labelname="建筑物设计用途" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="extOstr07" fieldtype="1" formactiveid="103" horVer="1" labelalign="1" labelcol="1" labelname="详细地址" mustinput="" readonly="" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="extOstr12" fieldtype="1" formactiveid="104" horVer="1" labelalign="1" labelcol="1" labelname="取得时间" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr13" fieldtype="1" formactiveid="105" horVer="1" labelalign="1" labelcol="2" labelname="取得方式" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr14" fieldtype="1" formactiveid="106" horVer="1" labelalign="1" labelcol="3" labelname="原始价值" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr15" fieldtype="1" formactiveid="107" horVer="1" labelalign="1" labelcol="4" labelname="按揭/抵押借款余额" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr16" fieldtype="1" formactiveid="108" horVer="1" labelalign="1" labelcol="1" labelname="使用状态" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr17" fieldtype="1" formactiveid="109" horVer="1" labelalign="1" labelcol="2" labelname="承租方" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr18" fieldtype="1" formactiveid="110" horVer="1" labelalign="1" labelcol="3" labelname="租赁期限" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr19" fieldtype="1" formactiveid="111" horVer="1" labelalign="1" labelcol="4" labelname="年租金" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr21" fieldtype="1" formactiveid="112" horVer="1" labelalign="1" labelcol="1" labelname="预收租金时长" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr20" fieldtype="1" formactiveid="113" horVer="1" labelalign="1" labelcol="2" labelname="租金缴纳方式" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr22" fieldsize="YES_NO" fieldtype="2" formactiveid="114" horVer="1" labelalign="1" labelcol="3" labelname="是否转租" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr24" fieldtype="1" formactiveid="115" horVer="1" labelalign="1" labelcol="4" labelname="转租方" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr24" fieldtype="1" formactiveid="116" horVer="1" labelalign="1" labelcol="1" labelname="转租期限" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr25" fieldtype="1" formactiveid="117" horVer="1" labelalign="1" labelcol="2" labelname="转租年租金" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr26" fieldtype="1" formactiveid="118" horVer="1" labelalign="1" labelcol="3" labelname="转租预收租金时长" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="5" fieldname="remark" fieldtype="5" formactiveid="119" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="400" mustinput="" readonly="" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="classNo" fieldsize="COLLATERAL_TYPE" fieldtype="2" formactiveid="120" horVer="1" labelalign="1" labelcol="2" labelname="押品类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="121" horVer="1" labelalign="1" labelcol="3" labelname="押品状态" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="certificateName" fieldtype="1" formactiveid="122" horVer="1" labelalign="1" labelcol="2" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="123" horVer="1" labelalign="1" labelcol="3" labelname="担保类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="124" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+</form>

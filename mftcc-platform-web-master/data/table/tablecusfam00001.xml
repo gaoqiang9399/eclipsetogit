@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusfam00001" link="/mfCusFamilyInfo/findByPage" para="eadis_page" title="社会关系" type="1">
+<tableitem align="2" filedname="relative" id="4" indexed="5" label="与客户关系" row="1" type="6" typepara="CUS_PERS_REL" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfCusFamilyInfo/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="workUnit" id="10" indexed="10" label="工作单位" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="relTel" id="9" indexed="9" label="联系电话" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="relName" id="7" indexed="1" label="姓名" mytitle="姓名-relName" type="4" typepara="/mfCusFamilyInfo/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusFamilyInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="25" widthType="0"/>
+</table>

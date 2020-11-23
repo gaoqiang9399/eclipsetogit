@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincBathchRepaymentBase" para="eadis_page" title="批量还款" type="1">
+<tableitem align="2" filedname="fincId" id="15" indexed="20" label="借据号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="benJin" id="6" indexed="15" label="本金" row="1" type="9" widthType="0"/>
+<tableitem align="2"  filedname="infoType" id="13" indexed="9" label="" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="20" indexed="14" label="借据编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="feiYong" id="18" indexed="19" label="费用" type="9" widthType="0"/>
+<tableitem align="2" filedname="yuQiLiXi" id="17" indexed="18" label="逾期利息" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="liXi" id="16" indexed="17" label="利息" row="1" type="9" widthType="0"/>
+</table>

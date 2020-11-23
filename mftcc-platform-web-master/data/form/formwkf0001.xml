@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="wkf0001" title="审批角色表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfRoleNo" fieldtype="1" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="审批角色编号" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkfRoleName" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="3" labelname="审批角色名称" labelwidth="20" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfRoleBrName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="审批指定部门" mustinput="0" onclick="selectOrgCheckDialog(sysOrgCallBack)" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='selectOrgSelectDialog(setSysOrgInfo);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkfRoleBrNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="审批指定部门编号" mustinput="" readonly="" row="2"/>
+</form>

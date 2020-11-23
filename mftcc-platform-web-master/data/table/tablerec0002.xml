@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="rec0002" para="eadis_page" title="催收任务表" type="2">
+<tableitem align="2" filedname="cusContactName" id="33" indexed="8" label="联系人" mytitle="联系人-cusContactName" row="1" sortType="2" type="3" typepara="4" widthType="0"/>
+<tableitem align="2" filedname="recallEndDate" id="32" indexed="13" label="计划完成日期" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="recallAmt" id="31" indexed="11" label="催收金额" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="appName" id="30" indexed="5" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="3" typepara="6" widthType="0"/>
+<tableitem align="2" filedname="recallSts" id="23" indexed="28" label="催收状态" row="1" sortType="1" type="6" typepara="RECALL_STS" width="6" widthType="0"/>
+<tableitem align="2" filedname="mgrName" id="22" indexed="29" label="催收人" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recallWay" id="21" indexed="10" label="催收方式" row="1" sortType="1" type="6" typepara="RECALL_WAY" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="5" indexed="9" label="联系人电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="4" indexed="4" label="客户名称" mytitle="客户名称-cusName" row="1" sortType="2" type="3" typepara="8" widthType="0"/>
+<tableitem align="2" filedname="conNo" id="2" indexed="3" label="合同号" row="1" type="99" typepara="/recallBase/getById;taskNo-taskNo;recallSts-recallSts;onClick-openDetailInfo(this)" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="36" indexed="6" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="35" indexed="2" label="任务编号" row="1" sortType="1" type="4" typepara="/recallBase/getById;taskNo-taskNo;recallSts-recallSts;onClick-openDetailInfo(this)" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="34" indexed="12" label="任务生成日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+</table>

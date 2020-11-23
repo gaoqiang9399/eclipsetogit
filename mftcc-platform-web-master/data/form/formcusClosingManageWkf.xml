@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusClosingManageWkf" title="结案申请审批表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" onclick="MfCusClosingManage.selectAppName();" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="revouCase" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="反担保情况" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nextBrName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="评审部门" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="compensatoryTime" fieldstyle="pointer" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="代偿时间" mustinput="1" onclick="fPopUpCalendarDlg({max: today})" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="compensatoryAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="代偿金额" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recourseAmt" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="追偿金额" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recourseCouse" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="追偿过程" maxlength="400" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recourseRemark" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="追偿责任人意见" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="fincId" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="cusNo" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="compensatoryId" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="compensatoryId" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="ext1" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nextBrNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="nextBrNo" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="fincShowId" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="审批意见类型" mustinput="" onchange="WkfApprove.opinionTypeChange()" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taskId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="taskId" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dbid" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="dbid" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="wkfId" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="5" labelname="wkfId" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="备注" mustinput="" readonly="" row="5"/>
+</form>

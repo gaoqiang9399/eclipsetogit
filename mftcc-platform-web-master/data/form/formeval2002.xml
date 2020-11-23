@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="eval2002" title="评级财务得分表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalAppNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="评级申请号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalScenceNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="评级业务场景编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="score" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="得分" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="scoreList" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="得分列表" maxlength="1000" mustinput="0" row="3"/>
+</form>

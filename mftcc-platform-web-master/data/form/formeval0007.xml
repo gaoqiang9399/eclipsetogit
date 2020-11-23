@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval0007" title="分数等级配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalScenceNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="4" labelname="评级场景编号" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="configNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="4" labelname="配置编号" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="opSymbol1" fieldsize="OP_SYMBOL" fieldtype="99" formactiveid="3" initvalue="4" labelalign="3" labelcol="1" labelname="操作符1" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opSymbol2" fieldsize="OP_SYMBOL" fieldtype="99" formactiveid="4" initvalue="5" labelalign="3" labelcol="1" labelname="操作符2" maxlength="1" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="opScore1" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="分数下限（含）" maxlength="16" mustinput="1" row="2" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="opScore2" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="分数上限" maxlength="16" mustinput="1" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalLevel" fieldsize="EVAL_LEVEL" fieldtype="2" formactiveid="7" labelalign="3" labelcol="1" labelname="级别" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="授信额度(元)" mustinput="1" readonly="" row="4" />
+</form>

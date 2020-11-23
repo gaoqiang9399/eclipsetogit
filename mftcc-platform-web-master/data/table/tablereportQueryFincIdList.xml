@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reportQueryFincIdList" para="eadis_page" title="选择借据号" type="1">
+<tableitem align="2" filedname="fincShowId" id="4" indexed="5" label="编号" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="appName" id="8" indexed="6" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="7" indexed="4" label="选择" row="1" sortType="2" type="2" width="30" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="credittuningList1" title="工程担保授信尽调列表1" type="2">
+<tableitem align="2" filedname="creditKind" id="15" indexed="11" label="授信品种" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="creditSum" id="27" indexed="10" label="授信总量" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="guarantee" id="35" indexed="16" label="担保物" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="vouType" id="34" indexed="15" label="担保方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="33" indexed="13" label="结束日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="19" label="-" row="1" type="5" typepara="/mfCusCreditTuningDetail/deleteAjax;id-id;onClick-mfCusCreditApplyDetail.tuningDelete(this)" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="29" indexed="14" label="开始日期" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="30" indexed="12" label="余额" row="1" type="0" width="15" widthType="0"/>
+</table>

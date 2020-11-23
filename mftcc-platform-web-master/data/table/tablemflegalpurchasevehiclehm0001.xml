@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="mflegalpurchasevehiclehm0001" para="eadis_page" link="" title="法人购车贷款车辆信息" type="2">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="流水号" row="1" type="4" typepara="/mfLegalPurchaseVehicleHm/getByIdAjax;id-id;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="appId" id="3" indexed="3" label="申请号" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="4" indexed="4" label="合同号" row="1" type="0" />
+<tableitem align="2" filedname="fincId" id="5" indexed="5" label="借据号" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="6" indexed="6" label="产品号" row="1" type="0" />
+<tableitem align="2" filedname="carModel" id="7" indexed="7" label="型号" row="1" type="0" />
+<tableitem align="2" filedname="vinNo" id="8" indexed="8" label="识别号/车架号" row="1" type="0" />
+<tableitem align="2" filedname="prices" id="9" indexed="9" label="单价" row="1" type="0" />
+<tableitem align="2" filedname="paymentRate" id="10" indexed="10" label="首付比例" row="1" type="0" />
+<tableitem align="2" filedname="remarks" id="11" indexed="11" label="说明" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="12" indexed="12" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="13" indexed="13" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="createDate" id="14" indexed="14" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModDate" id="15" indexed="15" label="修改时间" row="1" type="0" />
+</table>

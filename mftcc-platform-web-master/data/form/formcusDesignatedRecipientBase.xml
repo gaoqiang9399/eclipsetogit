@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusDesignatedRecipientBase" title="指定收件人">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serialNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="收件人编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="关联编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recipientIdType" fieldsize="PERS_ID_TYPE" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="收件人证件类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recipientIdNum" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="收件人证件号码" mustinput="" onblur="func_uior_valFormat_tips(this, 'idnum');" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recipientAddress" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="收件地址" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recipientName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="收件人名称" mustinput="" readonly="" row="1" unit="&lt;i class='i i-fangdajing pointer' &gt;&lt;/i&gt;"/>
+<formelement alt="请输入11位正确的手机号码" datatype="0" fieldalign="1" fieldcol="2" fieldname="recipientTel" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="收件人联系方式" maxlength="11" mustinput="" onblur="func_uior_valFormat_tips(this, 'mobile');" readonly="" row="3"/>
+</form>

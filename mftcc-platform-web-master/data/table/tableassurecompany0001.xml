@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assurecompany0001" link="/mfCusAssureCompany/findByPage" para="eadis_page" title="担保公司" type="1">
+<tableitem align="2" filedname="marginAmt" id="26" indexed="6" label="保证金金额（元）" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="magnificationMax" id="25" indexed="7" label="放大倍数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="telephone" id="12" indexed="15" label="联系人手机号" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="assureCompanyName" id="24" indexed="2" label="企业名称" mytitle="企业名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusAssureCompany/assureCompanyView;cusNo-cusNo;busEntrance-'cus_assure';onClick-MfCusAssureCompany_List.getDetailPage(this);subStringNub-8;" width="15" widthType="0"/>
+<tableitem align="2" filedname="responsiblePerson" id="11" indexed="14" label="联系人姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="usableAmt" id="10" indexed="13" label="可使用金额（元）" row="1" type="12" widthType="0"/>
+</table>

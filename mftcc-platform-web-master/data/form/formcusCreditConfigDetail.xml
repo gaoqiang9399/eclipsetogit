@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="cusCreditConfigDetail" title="">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditName" fieldtype="1" maxlength="50" formactiveid="2" labelalign="1" labelcol="1" labelname="授信名称" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="creditModel" fieldtype="1" maxlength="1" formactiveid="3" labelalign="1" labelcol="1" labelname="授信性质1-客户授信2-项目授信" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="templateCredit" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="1" labelname="模板授信" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="startupBrNo" fieldtype="1" maxlength="1000" formactiveid="5" labelalign="1" labelcol="1" labelname="开办部门" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="startupRoleNo" fieldtype="1" maxlength="200" formactiveid="6" labelalign="1" labelcol="1" labelname="开办角色" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="startupCusType" fieldtype="1" maxlength="200" formactiveid="7" labelalign="1" labelcol="1" labelname="客户类型" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="adaptationKindNo" fieldtype="1" maxlength="200" formactiveid="8" labelalign="1" labelcol="1" labelname="适配产品" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ifUse" fieldtype="1" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="是否启用1-启用0-禁用" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="200" formactiveid="10" labelalign="1" labelcol="1" labelname="说明" mustinput="0" row="17"/>
+</form>

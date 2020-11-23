@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfcirloanvehiclehm0001" para="eadis_page" title="购买车辆信息维护" type="2">
+<tableitem align="2" filedname="purchaseDate" id="10" indexed="10" label="采购日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="id" id="1" indexed="1" label="流水号" sortType="2" type="4" typepara="/mfCirloanVehicleHm/getById;id-id;onClick-MfCirloanVehicleHm.getById;" widthType="0"/>
+<tableitem align="2" filedname="prices" id="9" indexed="9" label="单价" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="configure" id="8" indexed="8" label="配置" row="1" type="0"/>
+<tableitem align="2" filedname="carModel" id="7" indexed="7" label="车型" row="1" type="0"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssaleinvoice0001" para="eadis_page" title="销售开票" trClick=";onClick-PssSaleInvoice_List.checkCurrentTr(this)" type="2">
+<tableitem align="2" filedname="saleInvoiceId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="saleInvoiceId-saleInvoiceId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="10" indexed="2" label="单据日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="saleBillNo" id="8" indexed="3" label="单据编号" row="1" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="13" indexed="4" label="客户" mytitle="模板内容-cusName;" row="1" sortType="2" type="3" typepara="15" width="15" widthType="0"/>
+<tableitem align="3" filedname="totalPriceWithTax" id="11" indexed="5" label="价税合计" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="invoiceDate" id="3" indexed="6" label="开票日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="invoiceAmount" id="4" indexed="7" label="开票金额" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="invoiceNo" id="2" indexed="8" label="发票编号" row="1" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="saleBillType" id="15" indexed="9" label="单据类型" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="invoiceTitle" id="5" indexed="10" label="发票抬头" mytitle="模板内容-invoiceTitle;" row="1" sortType="2" type="0" typepara="15" width="18" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="11" label="-" row="1" sortType="2" type="5" typepara="/pssSaleInvoice/deleteInvoiceInofAjax;saleInvoiceId-saleInvoiceId;onClick-PssSaleInvoice_List.deletePssSaleInvoice(this)" width="6" widthType="0"/>
+</table>

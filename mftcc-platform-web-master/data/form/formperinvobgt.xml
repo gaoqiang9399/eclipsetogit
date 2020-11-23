@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="perinvobgt" title="个人涉诉案件曝光台">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bgtId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="曝光台ID" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="body" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="内容" maxlength="400" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sortTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="立案时间" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="法院名称" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="案号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataType" fieldsize="CASE_DATA_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="数据类型" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pname" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="当事人" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseCause" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="案由" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="yiju" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="依据" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idcardNo" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="身份证/组织机构代码" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="address" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="地址" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bgDate" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="曝光日期" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="partyType" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="当事人类型" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proposer" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="申请人" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unnexeMoney" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="未执行金额" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="execMoney" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="标的金额" mustinput="" readonly="" row="9"/>
+</form>

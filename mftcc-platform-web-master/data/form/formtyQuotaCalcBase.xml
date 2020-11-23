@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="tyQuotaCalcBase" title="通用200万授信测算">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="21" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="授信性质" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditModel" fieldsize="CREDIT_MODEL" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="授信模型" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isCeilingLoop" fieldsize="YES_NO" fieldtype="21" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="授信是否可循环" mustinput="" param="anchors:['anchor1']" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="产品编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="calc3" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="最近12个月纳税收入" maxlength="10" mustinput="1" readonly="" row="6" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="calc4" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="5" labelname="上年度缴纳社保人员数" mustinput="0" readonly="" row="9" unit="个"/>
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="calc10" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="借款人名下在京房产余值" maxlength="10" mustinput="0" readonly="" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="calc6" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="最近12个月纳税报表净利润" maxlength="10" mustinput="0" readonly="" row="12" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="calc7" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="纳税收入连续2年增长率" mustinput="1" readonly="" row="6" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="calc8" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="纳税收入比上年减少比例" mustinput="0" readonly="" row="10" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calc1" fieldsize="YES_NO" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="实际控制人为京籍" mustinput="1" readonly="" row="8"/>
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="calc4" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="上年度缴纳社保人员数" mustinput="0" readonly="" row="9" unit="个"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="peopleNum" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="除实际控制人外为京籍或企业股东反担保人个数" mustinput="1" readonly="" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="calc2" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="借款人或反担保保证人名下在京房产余值" maxlength="10" mustinput="1" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="calc13" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="成立以来获得的机构股权融资金额" maxlength="10" mustinput="1" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="calc15" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="企业现有贷款总额" maxlength="10" mustinput="0" readonly="" row="12" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{isCeilingLoop:'1|0'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calc16" fieldsize="YES_NO" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="连续2年入围瞪羚、展翼名单" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calc17" fieldsize="YES_NO" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="额度是否大于100万" mustinput="0" readonly="" row="6"/>
+</form>

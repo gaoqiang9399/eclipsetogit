@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="movablepatrol0001" para="eadis_page" link="/mfMoveablePatrolInventory/findByPage" title="动产巡库登记表" type="1">
+<tableitem align="2" filedname="patrolOpNo" id="2" indexed="2" label="巡库人" row="1" type="0" />
+<tableitem align="2" filedname="patrolOpName" id="3" indexed="3" label="巡库人名称" row="1" type="0" />
+<tableitem align="2" filedname="patrolDate" id="4" indexed="4" label="巡库时间" row="1" type="0" />
+<tableitem align="2" filedname="quantityIsTrue" id="5" indexed="5" label="品名、数量是否正确" row="1" type="0" />
+<tableitem align="2" filedname="isDamage" id="6" indexed="6" label="是否有包装破损、锈蚀" row="1" type="0" />
+<tableitem align="2" filedname="isStackTrue" id="7" indexed="7" label="是否有按要求堆放" row="1" type="0" />
+<tableitem align="2" filedname="isStackChange" id="8" indexed="8" label="是否变更堆位" row="1" type="0" />
+<tableitem align="2" filedname="isAbnormalGoodsLabel" id="9" indexed="9" label="有无其他异常货物标签" row="1" type="0" />
+<tableitem align="2" filedname="isRisk" id="10" indexed="10" label="是否存在风险" row="1" type="0" />
+<tableitem align="2" filedname="riskType" id="11" indexed="11" label="存在风险情况" row="1" type="0" />
+<tableitem align="2" filedname="riskRemark" id="12" indexed="12" label="风险情况说明" row="1" type="0" />
+<tableitem align="2" filedname="storageCapacityRemark" id="13" indexed="13" label="仓库库容情况" row="1" type="0" />
+<tableitem align="2" filedname="inventoryConditionRemark" id="14" indexed="14" label="仓库存货条件" row="1" type="0" />
+<tableitem align="2" filedname="mechEquipmentRemark" id="15" indexed="15" label="仓库机械设备" row="1" type="0" />
+<tableitem align="2" filedname="staffTurnoverRemark" id="16" indexed="16" label="仓库人员变化" row="1" type="0" />
+<tableitem align="2" filedname="stockRemark" id="17" indexed="17" label="收货情况" row="1" type="0" />
+<tableitem align="2" filedname="shipmentRemark" id="18" indexed="18" label="出货情况" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="19" indexed="19" label="总结或补充" row="1" type="0" />
+<tableitem align="2" filedname="manageRemark" id="20" indexed="20" label="仓库管理动态" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="30" indexed="30" label="-" row="1" type="5" typepara="/mfMoveablePatrolInventory/deleteAjax;patrolId-patrolId;onClick-ajaxDelete(this)" width="2"/>
+</table>

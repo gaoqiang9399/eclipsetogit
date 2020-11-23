@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="corp0016" title="联系信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="postCode" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="邮政编码" maxlength="6" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="mailAddr" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="通讯地址" maxlength="80" mustinput="" param="cusNo;" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="fax" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="传真" maxlength="13" mustinput="" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="fixedTel" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="联系电话" maxlength="15" mustinput="" param="cusNo;" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="email" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="电子邮件地址" maxlength="30" mustinput="" param="cusNo;" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="7" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

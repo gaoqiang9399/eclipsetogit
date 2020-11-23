@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusJudgmentBase" title="裁判文书">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="judgmentId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" maxlength="30" mustinput="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="1" readonly="1" row="1"/>
+<formelement alt="请输入涉案人" datatype="0" fieldalign="1" fieldcol="2" fieldname="casePeople" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="涉案人" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="casePeopleType" fieldsize="CASE_PEOPLE_TYPE" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="涉案人类型" maxlength="100" mustinput="1" row="3"/>
+<formelement alt="请输入案号" datatype="0" fieldalign="1" fieldcol="2" fieldname="caseNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="案号" maxlength="50" mustinput="1" row="4"/>
+<formelement alt="请输入案件类型" datatype="0" fieldalign="1" fieldcol="2" fieldname="caseType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="案件类型" maxlength="10" mustinput="1" row="5"/>
+<formelement alt="请选择立案时间" datatype="6" fieldalign="1" fieldcol="2" fieldname="caseDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="立案时间" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg()" row="6" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement alt="100字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="judgmentTitle" fieldtype="5" formactiveid="9" labelalign="3" labelcol="1" labelname="标题" maxlength="200" mustinput="1" row="17"/>
+<formelement alt="请输入简述" datatype="0" fieldalign="1" fieldcol="2" fieldname="judgmentSketch" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="简述" maxlength="65535" mustinput="1" row="18"/>
+<formelement alt="请输入内容" datatype="0" fieldalign="1" fieldcol="2" fieldname="judgmentContent" fieldtype="5" formactiveid="11" labelalign="3" labelcol="1" labelname="内容" maxlength="65535" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="90" formactiveid="12" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="14" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="90" formactiveid="15" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="16" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="90" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr501" fieldtype="90" formactiveid="18" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr502" fieldtype="90" formactiveid="19" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr503" fieldtype="90" formactiveid="20" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr504" fieldtype="90" formactiveid="21" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr505" fieldtype="90" formactiveid="22" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1001" fieldtype="90" formactiveid="23" labelalign="3" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1002" fieldtype="90" formactiveid="24" labelalign="3" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1003" fieldtype="90" formactiveid="25" labelalign="3" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr2001" fieldtype="90" formactiveid="26" labelalign="3" labelcol="1" labelname="预留较长文本字段" maxlength="200" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic1" fieldtype="90" formactiveid="27" labelalign="3" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic2" fieldtype="90" formactiveid="28" labelalign="3" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="90" formactiveid="29" labelalign="3" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble22" fieldtype="90" formactiveid="30" labelalign="3" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt1" fieldtype="90" formactiveid="31" labelalign="3" labelcol="1" labelname="预留整数型" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt2" fieldtype="90" formactiveid="32" labelalign="3" labelcol="1" labelname="预留整数型" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="90" formactiveid="33" labelalign="3" labelcol="1" labelname="关联编号" maxlength="30" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="90" formactiveid="34" labelalign="3" labelcol="1" labelname="软删除标记--1删除-0默认" maxlength="1" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="法院" maxlength="100" mustinput="" readonly="" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="postingDate" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="刊登时间" maxlength="17" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeTypeName" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="公告类型名称" maxlength="100" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeType" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="公告类型" maxlength="100" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="plaintiff" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="原告" maxlength="100" mustinput="" readonly="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeState" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="公告状态" maxlength="100" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeNum" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="公告号" maxlength="100" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="party" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="当事人" maxlength="100" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="judge" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="法官" maxlength="100" mustinput="" readonly="" row="16"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="1" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="案件金额" maxlength="80" mustinput="" readonly="" row="9" unit="元"/>
+</form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="CusPersCashFlowAnalysisBase" title="个人客户现金流分析">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cashId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="现金流ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="客户号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="copBankAverageDaily" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="合作行日均存款（近6个月）" maxlength="14" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="otherBankAverageDaily" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="他行日均存款（近6个月）" maxlength="14" mustinput="0" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cashFlowMatchBus" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="6" labelalign="3" labelcol="3" labelname="现金流量与经营规模是否匹配" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashOcctimeMatchBus" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="7" labelalign="3" labelcol="1" labelname="现金发生时间与经营是否匹配" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditCardCash" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="8" labelalign="3" labelcol="3" labelname="信用卡是否经常取现" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="largeCapitalFlows" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="9" labelalign="3" labelcol="1" labelname="是否有大额异常资金流动" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="dailySaveCompareApp" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="日均存款与申请额度比例" maxlength="20" mustinput="0" row="4" unit="元"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="11" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="5" labelname="客户经理编号" maxlength="22" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="客户经理姓名" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brNo" fieldtype="99" formactiveid="14" labelalign="3" labelcol="5" labelname="部门编号" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="5" labelname="部门名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="avgMonthCashFlow" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="近6月平均每月现金流出量" maxlength="14" mustinput="" readonly="" row="5" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cashFlowNormalFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="现金流入、流出对象是否正常" mustinput="" readonly="" row="5"/>
+</form>

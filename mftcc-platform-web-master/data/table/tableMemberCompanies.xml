@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MemberCompanies" link="/mfMemberCompanies/findByPage" para="eadis_page" title="成员企业" type="1">
+<tableitem align="2" filedname="contactsTel" id="6" indexed="6" label="联系人手机号码" row="1" type="0"/>
+<tableitem align="2" filedname="contactsName" id="5" indexed="5" label="联系人" row="1" type="0"/>
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="成员企业代码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="memberName" id="2" indexed="2" label="成员企业名称" row="1" type="4" typepara="/mfMemberCompanies/listShowDetailAjax;memberNo-memberNo;oneUrl-'/mfMemberCompanies/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

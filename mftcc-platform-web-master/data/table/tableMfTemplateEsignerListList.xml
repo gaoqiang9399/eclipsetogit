@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfTemplateEsignerListList" link="/mfTemplateEsignerList/findByPage" para="eadis_page" title="签约人员列表" type="1">
+<tableitem align="3" filedname="pactAmt" id="15" indexed="13" label="合同金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="14" indexed="11" label="产品名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="13" indexed="10" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="signDate" id="12" indexed="16" label="签订日期" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="ifEsigned" id="10" indexed="14" label="签章状态" row="1" sortType="2" type="6" typepara="IF_ESIGNED" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="16" indexed="12" label="合同编号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

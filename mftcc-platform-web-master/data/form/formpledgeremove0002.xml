@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pledgeremove0002" title="押品解押明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="5" labelname="业务申请编号" maxlength="30" mustinput="1" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pleId" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="押品编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="押品名称" maxlength="100" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classNo" fieldsize="GAGE_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="押品类别名称" maxlength="100" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="removeAmount" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="押品解押数量" maxlength="20" mustinput="0" row="6" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="removeValue" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="解押价值(元)" maxlength="20" mustinput="1" row="5" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="removeDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="解押日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="6" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="totalPrice" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="质押金额" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="detailId" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="5" labelname="清单编号（隐）" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNoShow" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="押品编号" mustinput="1" readonly="1" row="1" />
+</form>

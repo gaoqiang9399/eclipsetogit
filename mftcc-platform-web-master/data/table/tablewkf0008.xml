@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="wkf0008" link="/wkfApprovalUser/findApprovalUserByPage" para="eadis_page" title="审批用户list" type="2">
+<tableitem align="2" filedname="wkfBrNoS" id="6" indexed="5" label="在审任务" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="displayname" id="5" indexed="3" label="审批人姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" fieldStyle="check" filedname="-" id="4" indexed="1" label="选择" sortType="2" type="2" width="4" widthType="0"/>
+<tableitem align="1" filedname="wkfUserName" id="3" indexed="4" label="审批人编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="seq" id="2" indexed="2" label="审批角色名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="displayname" id="8" indexed="6" label="审批人姓名" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="wkfUserName" id="7" indexed="7" label="审批人编号" row="1" type="99" widthType="0"/>
+</table>

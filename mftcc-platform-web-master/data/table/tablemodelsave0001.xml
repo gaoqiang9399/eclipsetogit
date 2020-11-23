@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="modelsave0001" para="eadis_page" link="/mfSysModelSaveInfo/findByPage" title="模板保存信息" type="1">
+<tableitem align="2" filedname="serialNo" id="1" indexed="1" label="记录编号" row="1" type="4" typepara="/mfSysModelSaveInfo/getById;serialNo-serialNo;query-'query'"/>
+<tableitem align="2" filedname="relserialNo" id="2" indexed="2" label="关联编号" row="1" type="0" />
+<tableitem align="2" filedname="docType" id="3" indexed="3" label="模板文档类型" row="1" type="0" />
+<tableitem align="2" filedname="docName" id="4" indexed="4" label="模板文档名称" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="5" indexed="5" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="6" indexed="6" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="7" indexed="7" label="登记部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="8" indexed="8" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="9" indexed="9" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="10" indexed="10" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="docFilePath" id="11" indexed="11" label="文档存储路径" row="1" type="0" />
+<tableitem align="2" filedname="docFileName" id="12" indexed="12" label="保存后的文件名称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="14" indexed="14" label="-" row="1" type="5" typepara="/mfSysModelSaveInfo/deleteAjax;serialNo-serialNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

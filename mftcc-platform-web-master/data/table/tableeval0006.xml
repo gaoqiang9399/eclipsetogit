@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="eval0006" para="eadis_page" link="" title="评级定性评分指标项关联表" type="2">
+<tableitem align="2" filedname="scenceNo" id="1" indexed="1" label="评级场景编号" row="1" type="4" typepara="/evalScenceRestrictRel/getByIdAjax;indexNo-indexNo;scenceNo-scenceNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="indexNo" id="2" indexed="2" label="指标编号" row="1" type="4" typepara="/evalScenceRestrictRel/getByIdAjax;indexNo-indexNo;scenceNo-scenceNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="indexName" id="3" indexed="3" label="指标名称" row="1" type="0" />
+<tableitem align="2" filedname="indexDesc" id="4" indexed="4" label="指标描述" row="1" type="0" />
+<tableitem align="2" filedname="javaItem" id="5" indexed="5" label="" row="1" type="0" />
+<tableitem align="2" filedname="opSymbol1" id="6" indexed="6" label="区间符号1" row="1" type="0" />
+<tableitem align="2" filedname="opSymbol2" id="7" indexed="7" label="区间符号2" row="1" type="0" />
+<tableitem align="2" filedname="opSymbol3" id="8" indexed="8" label="区间符号3" row="1" type="0" />
+<tableitem align="2" filedname="opVal1" id="9" indexed="9" label="区间值1" row="1" type="0" />
+<tableitem align="2" filedname="opVal2" id="10" indexed="10" label="区间值2" row="1" type="0" />
+<tableitem align="2" filedname="evalLevel" id="11" indexed="11" label="约束级别" row="1" type="0" />
+<tableitem align="2" filedname="level" id="12" indexed="12" label="指标级别" row="1" type="0" />
+<tableitem align="2" filedname="upIndexNo" id="13" indexed="13" label="上级指标编号" row="1" type="0" />
+</table>

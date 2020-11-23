@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="corp0022" title="经营信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="runRange" fieldtype="5" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="经营范围" maxlength="500" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mainBus" fieldtype="5" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="主营业务" maxlength="500" mustinput="" param="cusNo;" readonly="" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assTot" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="资产总额" maxlength="8" mustinput="" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="saleTot" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="年销售额" maxlength="8" mustinput="" param="cusNo;" readonly="" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="5" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

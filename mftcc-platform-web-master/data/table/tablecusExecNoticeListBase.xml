@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusExecNoticeListBase" link="/mfCusExecNotice/findByPage" para="eadis_page" title="执行公告" type="1">
+<tableitem align="2" filedname="execCourt" id="5" indexed="6" label="执行法院" row="1" type="6" widthType="0"/>
+<tableitem align="2" filedname="caseNo" id="4" indexed="4" label="案件编号" row="1" type="4" typepara="/mfCusExecNotice/listShowDetailAjax;execNoticeId-execNoticeId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusExecNotice/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="35" indexed="9" label="-" row="1" type="5" typepara="/mfCusExecNotice/getById;execNoticeId-execNoticeId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusExecNotice/updateAjax';onClick-updateCusTableInfo(this);subStringNub-16;" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="34" indexed="35" label="-" row="1" type="5" typepara="/mfCusExecNotice/deleteAjax;execNoticeId-execNoticeId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="extDouble21" id="8" indexed="8" label="执行标地（元）" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="caseDate" id="7" indexed="5" label="立案日期" row="1" type="1" widthType="0"/>
+</table>

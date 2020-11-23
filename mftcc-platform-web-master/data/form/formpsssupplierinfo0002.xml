@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="psssupplierinfo0002" title="进销存-供应商表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="供应商号" maxlength="20" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="supplierName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="供应商名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierCategory" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="供应商类别" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="balanceDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="余额日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg()" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null, null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="accountsPayed" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="期初应付账款" maxlength="18" mustinput="0" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="depositPayed" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="期初预付账款" maxlength="18" mustinput="0" row="3" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="taxRate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="税率" maxlength="12" mustinput="0" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTaxNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="纳税人识别号" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="开户行名称" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bankNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="开户行账号" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="accountsPayedBalance" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="应付款余额" maxlength="18" mustinput="0" row="12" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="contactsAddress" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="联系地址" maxlength="300" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="enabledStatus" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="启用状态(1-启用 0-关闭)" maxlength="1" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="15" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="40" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="登记人机构编号" maxlength="40" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记人机构名称" maxlength="80" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="最后修改人编号" maxlength="40" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="最后修改人名称" maxlength="80" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="最后修改人机构编号" maxlength="40" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" labelname="最后修改人机构名称" maxlength="80" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settleTerm" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="结算期限" mustinput="" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="creditAmount" fieldtype="1" formactiveid="27" horVer="0" initvalue="0" labelalign="3" labelcol="3" labelname="信用额度" maxlength="30" mustinput="" readonly="" row="7" unit="元"/>
+</form>

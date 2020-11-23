@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="InvoiceManagerRepayPlan" para="eadis_page" title="发票管理还款计划列表" type="2">
+<tableitem align="2" filedname="number" id="29" indexed="7" label="复选框" row="1" type="2" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="7" indexed="8" label="期号" row="1" type="0"/>
+<tableitem align="2" filedname="planBeginDate" id="22" indexed="9" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="23" indexed="15" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayPrcp" id="12" indexed="16" label="应还本金(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayIntst" id="25" indexed="17" label="应还利息(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="28" indexed="18" label="费用总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="26" indexed="19" label="还款总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpBalAfter" id="27" indexed="20" label="期末本金余额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="24" indexed="21" label="状态" row="1" type="6" typepara="OUT_FLAG"/>
+<tableitem align="2" filedname="invoiceStatus" id="30" indexed="22" label="开票状态" row="1" type="6" typepara="INVOICE_STATUS" widthType="0"/>
+</table>

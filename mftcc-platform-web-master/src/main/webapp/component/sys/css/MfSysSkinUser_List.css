@@ -1,0 +1,41 @@
+.btn-div{
+	min-width:225px;
+	height:130px;
+	margin:50px 0px 0px 80px;
+	position: relative;
+	border: none;
+	padding:0px;
+	box-shadow:none;
+}
+.skin-div i {
+	color:#fff;
+	position: absolute;
+	right: 5px;
+	bottom: 25px;
+	font-size: 25px;
+	display: none;
+}
+.skin-div.cur-skin i {
+	display: block;
+}
+.skin-default{
+	background: #4B4B4B;
+	height:110px;
+	width:inherit;
+}
+.skin-red{
+	background: #A52A2A;
+	height:110px;
+	width:inherit;
+}
+.skin-blue{
+	background: #4a7ec3;
+	height:110px;
+	width:inherit;
+}
+
+.skin-green{
+	background: #32b5cb;
+	height:110px;
+	width:inherit;
+}

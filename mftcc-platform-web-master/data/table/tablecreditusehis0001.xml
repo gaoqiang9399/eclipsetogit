@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="creditusehis0001" para="eadis_page" link="/mfCusCreditUseHis/findByPage" title="用信历史表" type="1">
+<tableitem align="2" filedname="creditSum" id="3" indexed="3" label="用信额度" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="13" indexed="13" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="16" indexed="16" label="客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="appName" id="18" indexed="18" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="creditUseType" id="19" indexed="19" label="用信类型" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="22" indexed="22" label="-" row="1" type="5" typepara="/mfCusCreditUseHis/deleteAjax;creditUseHisId-creditUseHisId;onClick-ajaxDelete(this)" width="2"/>
+</table>

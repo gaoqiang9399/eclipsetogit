@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetspreservationrecordlist" para="eadis_page" title="资产保全记录列表" type="1">
+<tableitem align="2" filedname="caseTitle" id="3" indexed="6" label="案件名称" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="opName" id="18" indexed="11" label="操作员" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="caseId" id="17" indexed="5" label="案件编号" mytitle="案件编号-caseId" sortType="2" type="4" typepara="/mfAssetsPreservation/listShowDetailAjax;id-id;oneUrl-'/mfAssetsPreservation/updateByOneAjax';onClick-listShowDetail(this);" width="25" widthType="0"/>
+<tableitem align="2" filedname="involvementSts" id="16" indexed="10" label="涉诉状态" row="1" sortType="2" type="6" typepara="INVOLVEMENT_STS" width="25" widthType="0"/>
+</table>

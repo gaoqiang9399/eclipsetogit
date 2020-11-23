@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0102" title="业务费用详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="费用流水号" maxlength="90" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="业务申请号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="合同号" maxlength="90" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeType" fieldsize="FEE_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="1" labelname="费用类型" maxlength="18" mustinput="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="feeAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="费用金额" maxlength="16" mustinput="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payOrder" fieldsize="PAY_ORDER" fieldtype="21" formactiveid="6" labelalign="3" labelcol="3" labelname="先付后付" maxlength="3" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="monAccFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="7" labelalign="3" labelcol="3" labelname="是否月结" maxlength="3" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeSts" fieldsize="APP_FEE_STS" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="收取状态" maxlength="3" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="客户编号" maxlength="90" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="客户名称" maxlength="240" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="proxyNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="经销商编号" maxlength="90" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proxyName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="经销商名称" maxlength="240" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记机构" maxlength="90" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="240" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记人" maxlength="90" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="240" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="登记日期" maxlength="24" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="最后更新日期" maxlength="24" mustinput="0" row="18"/>
+</form>

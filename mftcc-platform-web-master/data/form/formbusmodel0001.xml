@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="busmodel0001" title="业务模式基础数据表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelId" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="1" maxlength="50" formactiveid="2" labelalign="3" labelcol="3" labelname="模式编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="3" labelcol="1" labelname="模式名称" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldtype="1" maxlength="1" formactiveid="4" labelalign="3" labelcol="3" labelname="启用状态0：禁用；1：启用；默认：0" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isFund" fieldtype="1" maxlength="1" formactiveid="5" labelalign="3" labelcol="1" labelname="启用资金方0：禁用；1：启用；默认：0" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="6" labelalign="3" labelcol="3" labelname="扩展字段1" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="7" labelalign="3" labelcol="1" labelname="扩展字段2" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="8" labelalign="3" labelcol="3" labelname="扩展字段3" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="9" labelalign="3" labelcol="1" labelname="扩展字段4" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="10" labelalign="3" labelcol="3" labelname="扩展字段5" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="1" maxlength="100" formactiveid="11" labelalign="3" labelcol="1" labelname="扩展字段6" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext7" fieldtype="1" maxlength="100" formactiveid="12" labelalign="3" labelcol="3" labelname="扩展字段7" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="1" maxlength="100" formactiveid="13" labelalign="3" labelcol="1" labelname="扩展字段8" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext9" fieldtype="1" maxlength="100" formactiveid="14" labelalign="3" labelcol="3" labelname="扩展字段9" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="1" maxlength="100" formactiveid="15" labelalign="3" labelcol="1" labelname="扩展字段10" mustinput="0" row="8" />
+</form>

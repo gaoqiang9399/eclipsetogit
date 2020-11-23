@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplanchild0001" para="eadis_page" title="子还款计划列表" type="2">
+<tableitem align="2" filedname="overDays" id="29" indexed="21" label="逾期天数" row="1" type="0" typepara="天" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="28" indexed="17" label="费用总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpBalAfter" id="27" indexed="20" label="期末本金余额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="26" indexed="18" label="还款总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayIntst" id="25" indexed="16" label="应收利息(元)" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="24" indexed="22" label="状态" row="1" type="6" typepara="OUT_FLAG"/>
+<tableitem align="2" filedname="planEndDate" id="23" indexed="14" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="22" indexed="8" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="7" indexed="7" label="期号" row="1" type="0"/>
+<tableitem align="2" filedname="repayPrcp" id="12" indexed="15" label="应收本金(元)" row="1" type="0" widthType="0"/>
+</table>

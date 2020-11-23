@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatemodify_approve01" title="合格证价格修改审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyGroupId" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="申请组ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regBrName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="申请人所属机构" mustinput="" readonly="1" row="1"/>
+</form>

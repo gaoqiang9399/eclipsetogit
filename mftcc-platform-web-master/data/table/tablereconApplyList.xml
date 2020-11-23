@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reconApplyList" para="eadis_page" title="复议列表" type="1">
+<tableitem align="2" filedname="appName" id="5" indexed="6" label="项目名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="manageOpName1" id="111" indexed="21" label="业务主办" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="发起复议" id="110" indexed="26" label="-" row="1" sortType="2" type="5" typepara="/mfQueryDisagree/disagreeReconsider;appId-appId;onClick-doReconsider(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="109" indexed="5" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appTime" id="108" indexed="20" label="申请时间" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="17" indexed="19" label="产品种类" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="16" indexed="17" label="申请金额" row="1" sortType="1" type="0" widthType="0"/>
+</table>

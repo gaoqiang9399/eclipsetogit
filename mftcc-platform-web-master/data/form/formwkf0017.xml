@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="wkf0017" title="新增代理人">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="user" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="被代理人" mustinput="1" onclick="funcWkfApprovalUserMapPop('user,userName','WKF_USER_NAME,DISPLAYNAME')" readonly="1" row="1" unit="[选择]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="userName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="被代理人名称" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proxyUser" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="代理人" mustinput="1" onclick="funcWkfApprovalUserMapPop('proxyUser,proxyUserName','WKF_USER_NAME,DISPLAYNAME')" readonly="1" row="2" unit="[选择]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proxyUserName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="代理人名称" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startTime" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="开始时间" mustinput="1" onclick="fPopUpCalendarDlg(startTime);return false" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endTime" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="结束时间" mustinput="1" onclick="fPopUpCalendarDlg(endTime);return false" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="process" fieldsize="80" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="代理业务" maxlength="400" mustinput="1" onclick="selectProcess()" readonly="1" row="4" textAreaFieldRows="5" unit="[选择]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldsize="PROXY_STS" fieldtype="21" formactiveid="8" labelalign="3" labelcol="1" labelname="是否启用" mustinput="1" readonly="" row="5"/>
+<formelement datatype="2" fieldalign="1" fieldcol="2" fieldname="dbid" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="代理编号" mustinput="" readonly="1" row="1" unit="[自动生成]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proxyId" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="proxyId" mustinput="" readonly="" row="7"/>
+</form>

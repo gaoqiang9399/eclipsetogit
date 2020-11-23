@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0024" title="租赁物概况下的业务信息">
+<formelement datatype="0" fieldalign="3" fieldcol="6" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="21" formactiveid="1" horVer="0" labelalign="1" labelcol="5" labelname="还款方式" maxlength="2" mustinput="" readonly="" row="3" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="finalAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="3" labelname="尾款金额" maxlength="16" mustinput="" readonly="" row="5" unit="元" />
+<formelement datatype="1" fieldalign="3" fieldcol="2" fieldname="termMon" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="期限月" maxlength="5" mustinput="" readonly="" row="3" />
+<formelement datatype="12" fieldalign="3" fieldcol="6" fieldname="totalAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="5" labelname="总价款" maxlength="16" mustinput="" readonly="" row="1" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="6" fieldname="actualAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="5" labelname="融资额" maxlength="16" mustinput="" readonly="" row="2" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="4" fieldname="executRate" fieldtype="1" formactiveid="6" horVer="0" initvalue="12" labelalign="1" labelcol="3" labelname="利率" mustinput="" readonly="" row="3" unit="%" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="fstPayRio" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="1" labelname="首付比例" mustinput="" readonly="" row="2" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="fstPayAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="1" labelcol="3" labelname="首付金额" mustinput="" readonly="" row="2" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="depositRio" fieldtype="1" formactiveid="9" horVer="0" labelalign="1" labelcol="1" labelname="保证金比例" maxlength="10" mustinput="" readonly="" row="4" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="depositAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="1" labelcol="3" labelname="保证金金额" maxlength="16" mustinput="" readonly="" row="4" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="finalRio" fieldtype="1" formactiveid="11" horVer="0" labelalign="1" labelcol="1" labelname="尾款比例" maxlength="10" mustinput="" readonly="" row="5" unit="%" />
+<formelement datatype="6" fieldalign="3" fieldcol="6" fieldname="startDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="1" labelcol="5" labelname="预计起租日" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="4" />
+<formelement datatype="0" fieldalign="3" fieldcol="6" fieldname="payDay" fieldsize="PAY_DATE" fieldtype="2" formactiveid="18" horVer="0" labelalign="1" labelcol="5" labelname="租金支付日" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="appNo" fieldtype="1" formactiveid="19" horVer="0" labelalign="1" labelcol="1" labellink="#;appNo-appNo;conNo-conNo;cusType-cusType;onClick-goToAppProject" labelname="业务申请号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="20" horVer="0" labelalign="1" labelcol="3" labellink="#;cusNo-cusNo;cusType-cusType;onClick-goToCus" labelname="承租人" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="1" />
+</form>

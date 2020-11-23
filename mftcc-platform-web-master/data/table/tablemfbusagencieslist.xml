@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusagencieslist" para="eadis_page" title="资金机构信息表" type="1">
+<tableitem align="2" filedname="删除" id="15" indexed="21" label="-" row="1" type="99" typepara="/mfBusAgencies/deleteAjax;agenciesId-agenciesId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="agenciesButtPhone" id="5" indexed="9" label="对接人联系方式" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="agenciesButtName" id="4" indexed="8" label="对接人名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="12" indexed="17" label="登记时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="1" filedname="agenciesName" id="3" indexed="3" label="机构名称" mytitle="机构名称-agenciesName" row="1" sortType="2" type="4" typepara="/mfBusAgencies/getAgenciesView;agenciesId-agenciesId;busEntrance-'cus_agencies';onClick-getViewCommon;" widthType="0"/>
+<tableitem align="2" filedname="address" id="21" indexed="7" label="地址" type="0" width="50" widthType="0"/>
+<tableitem align="2" filedname="分润" id="19" indexed="18" label="-" row="1" sortType="2" type="99" typepara="/mfBusAgencies/agenciesShareProfit;cusNo-agenciesUid;onClick-MfBusAgencies.agenciesShareProfit;" widthType="0"/>
+<tableitem align="2" filedname="parentAgenciesName" id="20" indexed="10" label="上级资金机构名称" row="1" type="0" widthType="0"/>
+</table>

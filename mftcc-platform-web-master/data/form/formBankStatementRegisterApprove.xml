@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="BankStatementRegisterApprove" title="银行结算单审批">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="4" labelname="id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="refundId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="4" labelname="refundId" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="78" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="79" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="81" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="82" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="83" labelalign="3" labelcol="1" maxlength="4" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="申请人编号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="4" labelname="客户名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="99" formactiveid="5" labelalign="3" labelcol="3" labelname="产品名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settlementMethod" fieldsize="SETTLEMENT_METHOD" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="结算方式" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payee" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="收款单位" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="issuingBank" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="出票银行" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useOfFunds" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="资金用途" mustinput="" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="registerAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rollbackName" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="发回岗位" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="7"/>
+<formelement alt="500字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="500" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="99" formactiveid="84" horVer="0" labelalign="3" labelcol="3" labelname="pactNo" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="99" formactiveid="85" horVer="0" labelalign="3" labelcol="3" labelname="pactAmt" mustinput="" readonly="" row="9"/>
+</form>

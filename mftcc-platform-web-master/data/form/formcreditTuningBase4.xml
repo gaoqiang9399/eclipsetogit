@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditTuningBase4" title="工程担保授信尽调表单4">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="3" labelname="creditAppId" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="51" horVer="0" labelalign="3" labelcol="4" labelname="id" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tradeRemark" fieldtype="1" formactiveid="52" horVer="0" labelalign="3" labelcol="1" labelname="主要交易对手情况" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tradeName" fieldtype="1" formactiveid="54" horVer="0" labelalign="3" labelcol="1" labelname="名称" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settlementMethod" fieldtype="1" formactiveid="55" horVer="0" labelalign="3" labelcol="1" labelname="结算方式" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settlementAccount" fieldtype="1" formactiveid="57" horVer="0" labelalign="3" labelcol="1" labelname="结算账期" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delType" fieldtype="99" formactiveid="59" horVer="0" labelalign="3" labelcol="1" labelname="列表类型" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busScale" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="业务比例" mustinput="1" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="tradeTime" fieldtype="1" formactiveid="61" horVer="0" labelalign="3" labelcol="1" labelname="往来时间" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busRemark" fieldtype="1" formactiveid="62" horVer="0" labelalign="3" labelcol="1" labelname="业务情况" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isRelation" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="是否关联企业" mustinput="1" readonly="" row="6"/>
+</form>

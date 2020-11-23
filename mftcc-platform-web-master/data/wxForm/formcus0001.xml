@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formId="cus0001" desc="承租人绑定" webFormId="cus0001" css="" layout="horizontal" timestamp="1483436473969">
+    <formelement order="0" lv="2" placeholder="请输入真实姓名" datatype="0" icon="wx-input" name="真实姓名" pid="0" id="14" pkno="dhcc-1" property="text" fieldname="cusName"/>
+    <formelement order="1" lv="2" property="select" custom="身份证-0|组织机构代码-A" parmkey="" datatype="0" icon="wx-select" name="证件类型" pid="0" id="16" pkno="dhcc-2" fieldname="idType"/>
+    <formelement order="2" lv="2" property="text" placeholder="请输入证件号码" maxlength="" datatype="0" icon="wx-input" name="证件号码" pid="0" id="14" pkno="dhcc-3" fieldname="idNo"/>
+    <formelement order="3" lv="2" property="btn" click="ajaxSubmit(this.form);" css="weui_btn_primary" icon="wx-button" name="确认绑定" pid="0" id="8" pkno="dhcc-4"/>
+    <formelement order="4" lv="2" property="btn" css="weui_btn_default" icon="wx-button" name="已绑定直接登录" pid="0" id="8" pkno="dhcc-5" click=""/>
+    <formelement pkno="dhcc-6" order="5" lv="2" property="hidden" fieldname="openId" domid="" datatype="0" icon="wx-hidden" name="隐藏域" pid="0" id="17"/>
+</form>

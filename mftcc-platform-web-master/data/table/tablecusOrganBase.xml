@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusOrganBase" link="/mfCusOrgan/findByPage" para="eadis_page" title="机构管理表" type="1">
+<tableitem align="2" filedname="organType" id="15" indexed="3" label="机构类型" row="1" type="6" typepara="POST_INSTITUTION_TYPE" widthType="0"/>
+<tableitem align="2" filedname="organLmPhone" id="5" indexed="6" label="联系人方式" row="1" type="0"/>
+<tableitem align="2" filedname="regTime" id="13" indexed="14" label="登记时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="organLmName" id="4" indexed="5" label="联系人" row="1" type="0"/>
+<tableitem align="2" filedname="organName" id="2" indexed="2" label="机构名称" row="1" type="4" typepara="/mfCusOrgan/getById;organId-organId;onClick-MfCusOrgan_List.dimissionDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="操作" id="31" indexed="31" label="-" type="5" width="2" widthType="0"/>
+<tableitem align="2" filedname="organStatus" id="17" indexed="17" label="机构状态" row="1" type="6" typepara="POST_INSTITUTIONS_STS" widthType="0"/>
+</table>

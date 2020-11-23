@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0016" title="代理查询">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="userId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="代理人" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="userName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="代理人名称" mustinput="" readonly="" row="1"/>
+</form>

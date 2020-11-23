@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="DepositOutList" para="eadis_page" title="风险保证金列表" type="2">
+<tableitem align="2" filedname="收取费用" id="19" indexed="21" label="-" row="1" type="5" typepara="/mfBusAppFee/getFincBusFeeCollect;fincId-fincId;appId-appId;onClick-guaranteeApply_feeCollectConfirm.doFincFeeCollect(this);" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="21" indexed="7" label="借据期限" type="0" widthType="0"/>
+<tableitem align="2" filedname="生成费用计划" id="18" indexed="20" label="-" row="1" type="5" typepara="/mfBusAppFee/getFincBusAppFeeByAppId;fincId-fincId;appId-appId;onClick-guaranteeApply_feeCollectConfirm.createFincFeePlan(this);" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="20" indexed="6" label="借据开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="16" indexed="2" label="借据号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusNoFund" id="15" indexed="9" label="收取主体" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="3" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="depositOutAccountId" id="13" indexed="17" label="收取账号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusNameFund" id="4" indexed="8" label="收取主体" row="1" sortType="2" type="99" typepara="/mfBusPact/getById;pactId-pactId;" widthType="0"/>
+<tableitem align="2" filedname="depositOutTime" id="11" indexed="19" label="缴纳时间" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="5" label="借据金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="depositOutMarginAmt" id="10" indexed="16" label="保证金额" row="1" sortType="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="guaranteeRate" id="1" indexed="15" label="担保比例" row="1" sortType="1" type="99" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="wkf0001" link="/wkfApprovalRole/findByPage" para="eadis_page" title="审批角色表" trDbClick="/wkfApprovalRole/getByIdAjax;wkfRoleNo-wkfRoleNo;wkfRoleName-wkfRoleName;onDbclick-wkfApprovalRoleUpdate(this);" type="2">
+<tableitem align="2" filedname="wkfRoleBrName" id="5" indexed="3" label="审批指定部门" mytitle="审批指定部门-wkfRoleBrName;" row="1" type="3" typepara="5" widthType="0"/>
+<tableitem align="2" buttonMark="WkfApprovalRole002" filedname="删除" id="4" indexed="5" label="-" row="1" type="5" typepara="/wkfApprovalRole/deleteAjax;wkfRoleNo-wkfRoleNo;onClick-ajaxDelete(this);" width="2"/>
+<tableitem align="2" buttonMark="WkfApprovalRole001" fieldStyle="auditUrl" filedname="修改" id="3" indexed="4" label="-" type="5" typepara="/wkfApprovalRole/getByIdAjax;wkfRoleNo-wkfRoleNo;wkfRoleName-wkfRoleName;onclick-wkfApprovalRoleUpdate(this);" width="2" widthType="0"/>
+<tableitem align="1" filedname="wkfRoleName" id="2" indexed="2" label="审批角色名称" row="1" type="0"/>
+<tableitem align="1" filedname="wkfRoleNo" id="1" indexed="1" label="审批角色编号" row="1" type="0" typepara="WkfApprovalRoleAction_getById.action;wkfRoleNo-wkfRoleNo;query-'query';onClick-showDialogS;"/>
+</table>

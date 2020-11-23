@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tableApiThirdServiceOrder0001_hm" para="eadis_page" title="第三方还款列表-海马" type="1">
+<tableitem align="2" filedname="orderId" id="23" indexed="8" label="批次号" row="1" type="0" width="160" widthType="1"/>
+<tableitem align="3" filedname="repayAmount" id="22" indexed="11" label="还款金额" row="1" type="12" width="100" widthType="1"/>
+<tableitem align="2" filedname="appName" id="19" indexed="5" label="还款来源" row="1" type="0" width="90" widthType="1"/>
+<tableitem align="2" filedname="cusName" id="18" indexed="4" label="客户名称" type="0" width="200" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="20" indexed="7" label="借据/票据号" row="1" type="0" width="190" widthType="1"/>
+<tableitem align="2" filedname="errorCode" id="7" indexed="17" label="第三方代码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="orderResult" id="5" indexed="13" label="状态" row="1" type="6" typepara="ORDER_RESULT" widthType="0"/>
+<tableitem align="2" filedname="orderTime" id="13" indexed="22" label="登记时间" row="1" type="30" width="130" widthType="1"/>
+<tableitem align="2" filedname="fincId" id="4" indexed="6" label="业务号" row="1" type="0" width="130" widthType="1"/>
+<tableitem align="2" filedname="errorMsg" id="12" indexed="21" label="第三方返回消息" mytitle="消息-errorMsg;" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+</table>

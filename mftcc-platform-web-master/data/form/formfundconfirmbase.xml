@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="fundconfirmbase" title="北京确认放款表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement alt="请输入融资项目编号" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="serialNo" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="融资项目编号" mustinput="1" row="2"/>
+<formelement alt="请输入融资金额" datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="融资金额" maxlength="14" mustinput="1" row="3" unit="元"/>
+<formelement alt="请输入融资期限" datatype="0" fieldalign="1" fieldcol="4" fieldname="termMonth" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="融资期限" mustinput="1" row="3" unit="月"/>
+<formelement alt="请输入借款利率" datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="借款利率" maxlength="6" mustinput="1" onblur="toDouble(this);" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" mustinput="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="intsBeginDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="起息日" mustinput="1" onclick="fPopUpCalendarDlg({})" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null,updatePactEndDate)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="intsEndDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="到期日" mustinput="1" onfocus="fPopUpCalendarDlg({})" row="6" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null,updatePactEndDate)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNo" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomBank" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="收款账号开户行" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="signDate" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="签约日期" mustinput="1" onclick="fPopUpCalendarDlg({})" readonly="" row="4" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null,updatePactEndDate)'&gt;&lt;/i&gt;"/>
+<formelement alt="请输入备注说明，200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="putoutDate" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="放款日期" mustinput="1" onclick="fPopUpCalendarDlg({})" readonly="" row="5"/>
+</form>

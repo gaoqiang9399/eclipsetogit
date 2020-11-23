@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0004" title="概况业务情况">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="leaseType" fieldsize="LEASE_TYPE" fieldtype="21" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="租赁方式" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="prodName" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="销售产品" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="finaName" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="金融产品" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="21" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="还款方式" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="21" formactiveid="5" horVer="0" labelalign="1" labelcol="1" labelname="担保方式" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="appNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="1" labelname="合同号" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="proxyName" fieldtype="1" formactiveid="8" horVer="0" labelalign="1" labelcol="1" labelname="经销商名称" mustinput="" readonly="" row="8" />
+<formelement datatype="1" fieldalign="3" fieldcol="2" fieldname="leaseNum" fieldtype="1" formactiveid="10" horVer="0" labelalign="1" labelcol="1" labelname="租赁物数量" mustinput="" readonly="" row="9" unit="台" />
+</form>

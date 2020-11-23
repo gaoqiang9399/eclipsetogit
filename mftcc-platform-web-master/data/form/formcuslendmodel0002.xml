@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cuslendmodel0002" title="客户贷后预警">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cuslendWarnContent" fieldsize="100" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="模板信息" maxlength="65535" mustinput="1" row="1" textAreaFieldRows="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cuslendWarnNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="预警编号" mustinput="" readonly="" row="2"/>
+</form>

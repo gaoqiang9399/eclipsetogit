@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_pledge" title="世联押品价值评估">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="QuotationCount" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="案例数" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="AvgUnitPrice" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="案例均价" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="MaxPrice" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="最大单价" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="AvgPrice" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="楼盘均价" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="MinPrice" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="最小单价" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="Note" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="返回备注" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="UnitPrice" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="评估单价" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="State" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="估价方式" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="HouseName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="房号名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="Address" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="地址" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="AllQuotationCount" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="楼盘案例总数" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="BuildingName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="楼栋名称" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ConstructionName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="楼盘名称" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="TotalPrice" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="评估总价" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="FloorNumber" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="所在层" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="TotalFloor" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="总楼层" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="EndDate" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="建成年代" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="BuildingTypeName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="楼宇类型" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="PurposeName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="用途" mustinput="" readonly="" row="10"/>
+</form>

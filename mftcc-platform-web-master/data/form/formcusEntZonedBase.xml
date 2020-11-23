@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusEntZonedBase" title="企业划型">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="企业名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="社会信用代码" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="oldProjSize" fieldsize="PROJ_SIZE" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="原企业规模" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="说明" mustinput="0" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="cusNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="amtSum" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="上一年末资产总额" maxlength="20" mustinput="1" readonly="" row="3" unit="万元"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="incomeSum" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="上一年度营业收入" maxlength="20" mustinput="1" readonly="" row="4" unit="万元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="员工人数（上年）" maxlength="10" mustinput="1" readonly="" row="5" unit="人"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayClassDes" fieldsize="TRADE" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="行业" maxlength="100" mustinput="1" onclick="NmdWay.getNmdWayDialog('4',nmdWaycCallBack);" param="cusNo;" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayClass" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="小类" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayMaxClass" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="大类" mustinput="" readonly="" row="2"/>
+</form>

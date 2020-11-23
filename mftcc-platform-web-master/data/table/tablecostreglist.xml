@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="costreglist" para="eadis_page" title="法律诉讼费用登记列表" type="1">
+<tableitem align="2" filedname="litigationId" id="27" indexed="3" label="申请编号" row="1" type="99" width="10" widthType="0"/>
+<tableitem align="3" filedname="feeAmt" id="24" indexed="11" label="费用金额" row="1" sortType="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="feeType" id="30" indexed="5" label="费用类型" row="1" type="6" typepara="COST_TYPE" width="20" widthType="0"/>
+<tableitem align="2" filedname="assetId" id="29" indexed="4" label="案件编号" type="4" typepara="/mfLawsuit/listShowDetailAjax;litigationId-litigationId;oneUrl-'/mfLitigationExpenseApply/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="20" widthType="0"/>
+<tableitem align="2" filedname="lstModDate" id="28" indexed="12" label="登记日期" row="1" type="1" width="20" widthType="0"/>
+</table>

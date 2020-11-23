@@ -1,0 +1,228 @@
+html{
+	height:100%;
+}
+.form-container {
+	/* 去掉这句在火狐上保存按钮展示不出来 */
+	height: 100%;
+	padding-bottom: 60px;
+}
+.scroll-content {
+	height:100%;
+	/**解决ie9 ie10 上滚动条无法滚动的问题 **/
+	height:600px\0;
+}
+@media all and (-ms-high-contrast:none) {
+	*::-ms-backdrop, .scroll-content { height:100%;} /* IE11 */
+}
+.bootstarpTag {
+	height:100%\0;
+}
+@media all and (-ms-high-contrast:none) {
+	*::-ms-backdrop, .bootstarpTag { height:auto} /* IE11 */
+}
+/* bootstrapTag标签解析表单的样式begin */
+.bootstarpTag .form-title{
+	text-align:center;
+	font-size:16px;
+}
+.bootstarpTag .form-tips {
+	color: #FE4202;
+	font-size: 12px;
+}
+
+.bootstarpTag form .table {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.bootstarpTag .table-bordered {
+	border-left: none;
+	border-right: none;
+}
+
+.bootstarpTag .table-bordered>tbody>tr>td,
+.bootstarpTag .table-bordered>tbody>tr>th,
+.bootstarpTag .table-bordered>tfoot>tr>td,
+.bootstarpTag .table-bordered>tfoot>tr>th,
+.bootstarpTag .table-bordered>thead>tr>td,
+.bootstarpTag .table-bordered>thead>tr>th{
+	border-left: none;
+	border-right: none;
+}
+
+.bootstarpTag label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 0px;
+	font-weight: normal;
+	margin-left: 55px;
+}
+.bootstarpTag label>font{
+	margin-right:5px;
+	margin-left:-10px;
+}
+
+.bootstarpTag .table>tbody>tr {
+	border-top: 1px solid #ddd;
+}
+
+.bootstarpTag .table>tbody>tr>td,
+.bootstarpTag .table>tbody>tr>th,
+.bootstarpTag .table>tfoot>tr>td,
+.bootstarpTag .table>tfoot>tr>th,
+.bootstarpTag .table>thead>tr>td,
+.bootstarpTag .table>thead>tr>th{
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: middle;
+	border-top: 1px solid #ddd;
+}
+
+/* ↓
+ * 两列表单和四列表单的样式区分，默认即为2列表单。
+ * 在bootstarpTag上加fourColumn类即为4列表单。
+ */
+.bootstarpTag .tdlable {
+	width: 240px;
+	min-width: 240px;
+	background: #f8f8f8;
+	border-right: 1px solid #ddd !important;
+	text-align: left;
+}
+.bootstarpTag .tdvalue {
+	width: 75%;
+	text-align: left;
+}
+.bootstarpTag.fourColumn .tdlable {
+	width: 159px;
+	min-width : 159px;
+}
+.bootstarpTag.fourColumn .tdvalue {
+	width: 477px;
+}
+.bootstarpTag.fourColumn label{
+	margin-left: 30px;
+}
+
+.bootstarpTag .tdvalue.focusStyle{
+	border-bottom: 1px solid #A52A2A;
+}
+.bootstarpTag .tdvalue .block-view{
+	padding: 3px 9px;
+    border-radius: 0px;
+}
+
+.bootstarpTag .form-control,
+.bootstarpTag .form-control:focus {
+	border: none;
+	box-shadow: none;
+	color:#333;
+}
+
+.bootstarpTag .form-control[disabled],
+.bootstarpTag .form-control[readonly],
+.bootstarpTag fieldset[disabled] .form-control
+{
+	background-color: #fff;
+}
+
+/* 日期类型的输入框只读时鼠标样式为箭头 */
+.bootstarpTag .form-control[readonly][datatype="6"] {
+    cursor: pointer;
+}
+
+.bootstarpTag .input-group {
+	width: 100%;
+	min-height:34px;
+}
+.bootstarpTag textarea.form-control {
+	resize:none;
+	min-height:72px;
+}
+
+
+.bootstarpTag .input-group-addon {
+	background-color: #fff;
+	border: none;
+}
+.bootstarpTag .input-group-addon{
+	padding-right: 2px;
+}
+
+.bootstarpTag .checkbox,
+.bootstarpTag .radio {
+	margin: 7px 0px;
+}
+
+.bootstarpTag input[type="radio"],
+.bootstarpTag input[type="checkbox"]{
+	margin:10px 0px 10px 12px;
+}
+
+.bootstarpTag .input-group-addon i {
+	color: #A52A2A;
+	font-size: 16px;
+	margin-right: 0px;
+	margin-left:5px;
+}
+.bootstarpTag .error {
+	max-width: 500px;
+	min-height: 20px;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	background-color: #D2EFF5;
+	padding: 10px 18px;
+	z-index: 10;
+	color: #32b5cb;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.bootstarpTag .error:before {
+	content: "";
+	display: block;
+	border-width: 8px;
+	position: absolute;
+	top: 11px;
+	left: -16px;
+	border-style: solid dashed dashed;
+	border-color: transparent #D2EFF5 transparent transparent;
+	font-size: 0;
+	line-height: 0
+}
+
+/* 隐藏表单内的小笔图标。 */
+.bootstarpTag .i-bianji3 {
+	display : none !important;
+}
+/* 金额大写显示内容 */
+.bootstarpTag .bigAmt {
+	background-color: #fff;
+	padding:5px 5px 5px 14px;
+	width: 1%;
+	white-space: nowrap;
+	vertical-align: middle;
+	display: table-cell;
+	color: #009db7;
+	display: none;
+}
+/* bootstrapTag标签解析表单的样式end */
+
+/*个人资产负债表单使用，用于隔开两个相邻的input*/
+.customerBorderRight {
+	    border-right: 1px solid #ddd !important;
+}
+
+input::-webkit-input-placeholder{
+	color:#999 !important;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+	color:#999 !important;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+	color:#999 !important;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+	color:#999 !important;
+}

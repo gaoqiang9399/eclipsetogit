@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="applyCusPerApprove" title="客户权限申请审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyauthId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="客户权限申请id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="2"/>
+</form>

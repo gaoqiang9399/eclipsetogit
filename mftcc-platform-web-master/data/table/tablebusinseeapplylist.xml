@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="businseeapplylist" para="eadis_page" title="51业务查询列表" type="1">
+<tableitem align="2" filedname="查看报告" id="31" indexed="35" label="反欺诈风险评估报告" row="1" sortType="2" type="5" typepara="/apiReturnRecord/riskManagement;appId-appId;cusNo-cusNo;onclick-MfBusApply_BusinessList.getYouYuDetail(this);" width="10" widthType="0"/>
+<tableitem align="2" fieldStyle="grade" filedname="grade" id="28" indexed="32" label="反欺诈风险等级" row="1" sortType="1" type="6" typepara="RISK_GRADE" width="10" widthType="0"/>
+<tableitem align="2" filedname="appName" id="27" indexed="23" label="项目名称" mytitle="项目名称-appName" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;onClick-MfBusApply_BusinessList.getAppDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="putoutDate" id="26" indexed="28" label="放款日期" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="24" indexed="22" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;busEntrance-'apply';onClick-MfBusApply_BusinessList.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="fincTerm" id="23" indexed="29" label="借款期限" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincSts" id="39" indexed="34" label="借据状态" row="1" sortType="2" type="6" typepara="FINC_STS" width="7" widthType="0"/>
+<tableitem align="2" fieldStyle="score" filedname="score" id="37" indexed="31" label="反欺诈风险分数" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="36" indexed="26" label="借据号" row="1" sortType="2" type="6" width="10" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="34" indexed="27" label="放款金额" row="1" sortType="2" type="12" width="10" widthType="0"/>
+</table>

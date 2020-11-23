@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc0001" title="还款顺序表">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="paySeq" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="还款序号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="paySeqCde" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="还款顺序代码" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="payAmtTyp" fieldtype="1" formactiveid="3" labelalign="3" labelcol="5" labelname="还款类型" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="ffd" mustinput="" readonly="" row="2" />
+</form>

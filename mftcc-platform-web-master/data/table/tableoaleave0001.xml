@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="oaleave0001" title="请假申请列表" type="1">
+<tableitem align="2" authority="leaveSts-0;leaveSts-2;leaveSts-5;" filedname="催办" id="7" indexed="7" label="-" row="1" type="5" typepara="/mfOaLeave/urgedDoAjax;leaveNo-leaveNo;leaveSts-leaveSts;onClick-OaLeaveList.leavecuiban(this);" width="3" widthType="0"/>
+<tableitem align="2" filedname="leaveType" id="6" indexed="1" label="请假类型" row="1" sortType="2" type="6" typepara="LEAVE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="createTime" id="15" indexed="5" label="申请时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" authority="leaveSts-0;leaveSts-1;leaveSts-3;leaveSts-4;leaveSts-5;" filedname="打印审批表" id="14" indexed="12" label="-" row="1" type="5" typepara=";leaveNo-leaveNo;onClick-OaLeaveList.printApproveTable(this);" width="3" widthType="0"/>
+<tableitem align="2" filedname="endTime" id="5" indexed="3" label="结束时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="opName" id="13" indexed="0" label="请假人" row="1" sortType="2" type="4" typepara="/mfOaLeave/getById;leaveNo-leaveNo;onClick-OaLeaveList.ajaxGetById(this);" widthType="0"/>
+<tableitem align="2" filedname="startTime" id="4" indexed="2" label="开始时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" authority="leaveSts-1;leaveSts-2;leaveSts-3;leaveSts-4;" filedname="重新提交" id="12" indexed="11" label="-" row="1" type="5" typepara="/mfOaLeave/updateLeaveStsAjax;leaveNo-leaveNo;onClick-OaLeaveList.leavetijiao(this);" width="3" widthType="0"/>
+<tableitem align="2" filedname="timeSum" id="3" indexed="4" label="请假时长" sortType="2" type="30" typepara="天" widthType="0"/>
+<tableitem align="2" filedname="leaveSts" id="2" indexed="6" label="申请状态" row="1" sortType="2" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" authority="leaveSts-0;leaveSts-2;leaveSts-5;" filedname="撤回" id="10" indexed="8" label="-" row="1" type="5" typepara="/mfOaLeave/updateLeaveStsAjax;leaveNo-leaveNo;onClick-OaLeaveList.leavedelete(this)" width="3" widthType="0"/>
+</table>

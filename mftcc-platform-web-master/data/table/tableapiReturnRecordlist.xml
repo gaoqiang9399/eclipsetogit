@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="apiReturnRecordlist" para="eadis_page" title="接口返回值列表" type="2">
+<tableitem align="2" filedname="returnId" id="6" indexed="4" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="reqSts" id="5" indexed="1" label="状态" row="1" sortType="2" type="6" typepara="QUERY_THREE_STS" widthType="0"/>
+<tableitem align="2" filedname="txTime" id="4" indexed="6" label="查询时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="threePartyName" id="3" indexed="0" label="服务名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="reqSts-0;beeStatus-0;beeStatus-1;beeStatus-2;" filedname="查看报告" id="2" indexed="7" label="--" type="5" typepara="/apiReturnRecord/inputResult;returnId-returnId;threeParty-threeParty;orderNo-orderNo;reqSts-reqSts;token-token;id-id;onClick-MfBusApply_RiskManagement.openResultHtml(this);" widthType="0"/>
+<tableitem align="2" filedname="beeStatus" id="9" indexed="5" label="查询报告状态" row="1" sortType="2" type="6" typepara="BEE_STATUS" widthType="0"/>
+<tableitem align="2" filedname="score" id="8" indexed="2" label="分数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="threeParty" id="7" indexed="3" label="三方名称" row="1" type="99" widthType="0"/>
+</table>

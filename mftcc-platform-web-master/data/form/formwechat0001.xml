@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="wechat0001" title="铁甲网公众号">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="客户名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="身份证号" maxlength="18" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobile" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="手机号" maxlength="11" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="verCode" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="验证码" maxlength="15" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipPlace" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="设备所在地" maxlength="50" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="devicesOwn" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="自有设备数量" maxlength="3" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="产品名称" maxlength="20" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="appAmt" fieldsize="1-是|0-否|" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="借款金额" maxlength="14" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="equipmentNo" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="设备编号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipmentNo" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="城市经理" mustinput="" readonly="1" row="4"/>
+</form>

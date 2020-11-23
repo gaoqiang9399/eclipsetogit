@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vwlink0002" title="前端交易_友情链接管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="链接名称" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="linkType" fieldsize="LINK_TYPE" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="链接类型" maxlength="5" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="link" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="链接地址" maxlength="500" mustinput="0" row="4"/>
+<formelement alt="点此上传图片" datatype="0" fieldalign="1" fieldcol="2" fieldname="showJust" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="链接图片" maxlength="500" mustinput="0" row="3" unit="&lt;a onclick='showImg()'&gt;预览&lt;/a&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileType" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="图片类型" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="base64" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="图片base64字符" mustinput="" readonly="" row="6" />
+</form>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form id="storewarn0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warningId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="方案编号" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="货物编号" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="maxAmt" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="最大库存" maxlength="0" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="minAmt" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="最小库存" maxlength="0" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storehouseId" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="仓库编号" maxlength="40" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useHelperprop" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="是否使用辅助属性" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailIds" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="辅助属性" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="创建人编号" maxlength="40" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="创建人名称" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="创建人机构编号" maxlength="40" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="创建人机构名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="最后修改人编号" maxlength="40" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="最后修改人名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改人机构编号" maxlength="40" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="最后修改人机构名称" maxlength="80" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+</form>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbusreleasecashdepositwkf0003" title="保证金释放审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="releaseId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="保证金释放申请ID" maxlength="50" mustinput="0" param2="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID" maxlength="50" mustinput="0" param2="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfAppId" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="流程ID" maxlength="50" mustinput="0" param2="1" row="9"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="releaseAmount" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="释放保证金金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appStationId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="申请岗ID" maxlength="50" mustinput="0" param2="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appStationName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="申请岗" maxlength="100" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="appDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="chkStationId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="3" labelname="复核岗ID" maxlength="50" mustinput="0" param2="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkStationName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="复核岗" maxlength="100" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="chkTime" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="复核时间" maxlength="17" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="申请状态" maxlength="2" mustinput="0" param2="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="13" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disagreeReason" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="否决原因" maxlength="500" mustinput="0" param2="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="50" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOpName" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="100" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="登记人机构编号" maxlength="50" mustinput="0" param2="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regBrName" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="登记人机构名称" maxlength="100" mustinput="0" param2="1" row="13"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" param2="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModOpNo" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="最后修改人编号" maxlength="50" mustinput="0" param2="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="最后修改人名称" maxlength="100" mustinput="0" param2="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModBrNo" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="最后修改人机构编号" maxlength="50" mustinput="0" param2="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="最后修改人机构名称" maxlength="100" mustinput="0" param2="1" row="16"/>
+<formelement datatype="20" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="最后修改时间" maxlength="17" mustinput="0" param2="1" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="6"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="6"/>
+</form>

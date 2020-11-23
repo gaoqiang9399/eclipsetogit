@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="repaycorrect" title="冲正">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="recvAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="repayDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="还款日期" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="undoId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="undoId" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="repayId" mustinput="" readonly="" row="5"/>
+</form>

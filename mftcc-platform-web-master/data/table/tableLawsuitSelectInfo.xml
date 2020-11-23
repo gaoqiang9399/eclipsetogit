@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="LawsuitSelectInfo" para="eadis_page" title="法律诉讼选择列表" type="1">
+<tableitem align="2" filedname="选择" id="48" indexed="8" label="-" sortType="2" type="5" typepara="/mfLawsuit/getByIdAjax;caseId-caseId;onClick-MfLawsuit_SelectInfo.selectinfo;" width="20" widthType="0"/>
+<tableitem align="1" filedname="caseTitle" id="2" indexed="7" label="案件名称" mytitle="案件名称-caseTitle" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="caseId" id="47" indexed="6" label="案件编号" row="1" sortType="2" type="0" width="40" widthType="0"/>
+</table>

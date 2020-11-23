@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1111" para="eadis_page" link="/grtPPolicy/findByPage" title="203.保单 GRT_P_POLICY" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPPolicy/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="policyType" id="2" indexed="2" label="保险种类" row="1" type="0" />
+<tableitem align="2" filedname="coName" id="3" indexed="3" label="保险公司名称" row="1" type="0" />
+<tableitem align="2" filedname="policyNo" id="4" indexed="4" label="保单编号" row="1" type="0" />
+<tableitem align="2" filedname="policyHolder" id="5" indexed="5" label="投保人" row="1" type="0" />
+<tableitem align="2" filedname="insured" id="6" indexed="6" label="被保险人" row="1" type="0" />
+<tableitem align="2" filedname="beneficiary" id="7" indexed="7" label="受益人" row="1" type="0" />
+<tableitem align="2" filedname="policyCircs" id="8" indexed="8" label="保险责任情况" row="1" type="0" />
+<tableitem align="2" filedname="policyAmt" id="9" indexed="9" label="已缴纳保险费金额（元）" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="18" indexed="18" label="-" row="1" type="5" typepara="/grtPPolicy/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

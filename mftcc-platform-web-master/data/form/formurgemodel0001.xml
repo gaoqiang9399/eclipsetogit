@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form id="urgemodel0001" title="催收模板（两条基础数据：应收账款/融资款）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="urgeModelId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="催收模板ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="应收账款/融资款" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelContent" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="模板内容（编辑器）" maxlength="65535" mustinput="0" row="2"/>
+</form>

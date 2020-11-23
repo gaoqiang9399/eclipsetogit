@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="applyOld0001" para="eadis_page" title="借新还旧业务关联旧借据" type="2">
+<tableitem align="2" filedname="putoutAmt" id="6" indexed="1" label="放款金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="5" indexed="5" label="申请日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="2" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="3" indexed="3" label="产品种类" row="1" type="0" typepara="KIND_NO" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="1" indexed="0" label="借据号" type="4" typepara="/mfBusFincApp/listShowDetailAjax;fincId-fincId;pactId-pactId;oneUrl-'';onClick-listShowDetail(this);" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatedic01" title="车辆颜色字典项维护表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicName" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="名称" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="登记人" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="登记时间" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModOpName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="修改人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="修改时间" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dicType" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="" row="4"/>
+</form>

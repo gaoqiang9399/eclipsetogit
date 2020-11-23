@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatescanfile03" title="合格证扫描件压缩包上传表单">
+<formelement alt="请单击选择经销商" datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商全称" mustinput="0" onclick="VcCertificateScanfile_Insert4Batch.bindDealer(this)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerShort" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="经销商简称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="经销商编号" mustinput="" readonly="1" row="3"/>
+</form>

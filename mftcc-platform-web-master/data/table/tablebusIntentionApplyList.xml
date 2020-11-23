@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busIntentionApplyList" para="eadis_page" title="申请意向列表" type="1">
+<tableitem align="2" filedname="kindName" id="6" indexed="2" label="申请产品" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="5" indexed="3" label="申请金额(元)" row="1" sortType="0" type="12" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="3" indexed="5" label="申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="1" label="客户名称" row="1" sortType="2" type="4" typepara=";id-id;onClick-MfBusIntentionApply.showApplyDetail(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="1" indexed="7" label="项目经理" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="id" id="8" indexed="0" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="term" id="7" indexed="4" label="申请期限(月)" row="1" sortType="1" type="0" widthType="0"/>
+</table>

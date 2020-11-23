@@ -1,0 +1,20 @@
+.panel-col-2 {
+	display: inline-block;
+	width: 49%;
+	border-left: 1px solid rgb(229, 229, 229);
+	vertical-align: text-top;
+	/* width: 50%;
+	width: calc(( 100% - 15px * 1)/2); */
+}
+
+.panel-col-3 {
+	display: inline-block;
+	width: 32%;
+	border-left: 1px solid rgb(229, 229, 229);
+	vertical-align: text-top;
+	/* width: 33.333333333333336%;
+	width: calc(( 100% - 15px * 2)/3); */
+}
+.column .weui_grid_label{
+	height: 40px !important;
+}

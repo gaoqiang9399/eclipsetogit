@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="reporecord0001" title="卖方回购记录详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="回购编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="合同ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="repoAmt" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="回购金额" mustinput="" readonly="" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="repoCount" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="回购笔数" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="回购日期" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="操作员" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoReason" fieldsize="100" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="回购原因" maxlength="400" mustinput="" readonly="" row="7" textAreaFieldRows="4"/>
+</form>

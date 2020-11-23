@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="buscusInfoList" para="eadis_page" title="渠道推荐客户列表" type="1">
+<tableitem align="2" filedname="contactsTel" id="15" indexed="5" label="联系电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="classifyType" id="5" indexed="6" label="客户分类" mytitle="项目名称-appName;" sortType="2" type="6" typepara="CLASSIFY_TYPE" width="165" widthType="1"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="4" label="联系人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="1" label="客户类别" row="1" sortType="2" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;busEntrance-'apply';onClick-mfCusApply_List.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="groomflag" id="17" indexed="19" label="状态" row="1" sortType="2" type="4" typepara="/mfCusCustomer/updategroomflag;cusNo-cusNo;" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="7" indexed="3" label="证件号码" row="1" sortType="2" type="1" widthType="0"/>
+</table>

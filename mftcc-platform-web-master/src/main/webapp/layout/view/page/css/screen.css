@@ -1,0 +1,106 @@
+
+.app-screen {
+    float: right;
+    height: 33px;
+    margin: 0;
+    padding: 0 0 0 5px;
+    position: relative;
+    width: auto;
+    white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: absolute;
+	right: 0px;
+	z-index: 99;
+	background-color: #f7f7f7;
+}
+.screen-right{
+   right:14px;
+}
+.app-screen button {
+	 float: right;
+	border:none;
+    /*border-left: 1px #dadbdc solid;*/
+	height: 33px;
+	width: 74px;
+	margin: 0px;
+	color:#fff;
+	background:#eaebec;
+}
+.app-screen button:hover {
+    background: #f0f0f0 none repeat scroll 0 0;
+    cursor: pointer;
+}
+.app-screen input {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: medium none;
+    color: #1e94cc;
+    float: right;
+    height: 32px;
+    width: 74px;
+}
+.app-screen input:hover {
+    background: #f0f0f0 none repeat scroll 0 0;
+    cursor: pointer;
+}
+.app-screen .drop-down {
+    background-color: #1e94cc;
+    font-size: 17px;
+    width: 35px;
+}
+.app-screen .drop-down:hover {
+    background: #30a2d8 none repeat scroll 0 0;
+    cursor: pointer;
+}
+.app-screen-list {
+    background-color: #f0f0f0;
+    border: 1px solid #dadbdc;
+    display: none;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    min-width: 125px;
+}
+.app-screen-list ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.app-screen-list li {
+    margin: 0;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid #dddddd;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+.app-screen-list li:hover {
+    background-color: #E9EFF3;
+}
+.app-screen-list li:hover button {
+    background-color: #E9EFF3;
+    color: #1E95CD;
+    font-weight: 600;
+}
+.app-screen-list li:hover input {
+    background-color: #E9EFF3;
+    color: #1E95CD;
+    /* font-weight: 600; */
+}
+.app-screen-list li button {
+    background-color: #c9c9c9;
+    border: medium none;
+    color: #7a7a7a;
+    text-decoration: none;
+}
+.app-screen-list li input {
+    border: medium none;
+    color: #7a7a7a;
+    font-size: 12px;
+    line-height: 28px;
+    text-decoration: none;
+    background:none;
+    height: 28px;
+}

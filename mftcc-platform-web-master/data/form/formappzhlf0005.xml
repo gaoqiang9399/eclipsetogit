@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="appzhlf0005" title="临汾-担保-收费">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="22" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="收取方式" mustinput="1" param="-|1-转账|2-微信|3-现金|4-支付宝|5-刷卡|6-其他|" row="11"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fincAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="实收保费" maxlength="14" mustinput="1" readonly="" row="10" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="收款日期" maxlength="8" mustinput="1" onfocus="fPopUpCalendarDlg()" readonly="1" row="11" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="授信额度" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="期限" mustinput="" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="借款利率" mustinput="" readonly="1" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="应收保费" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="ext1" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="反担保方案" maxlength="400" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="项目说明" maxlength="200" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fincUseDes" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="贷款用途" maxlength="200" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="担保方式" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fincUse" fieldsize="TRADE" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="贷款投向" mustinput="" readonly="1" row="5"/>
+</form>

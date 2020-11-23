@@ -1,0 +1,66 @@
+.newsFrame{
+	background-color:#FFFFFF;
+	width:260px;
+	height:160px;
+	font-family:微软雅黑;
+	box-shadow:0px 0px 10px #5f5f5f;
+	position:absolute;
+	right:10px;
+	bottom:5px;
+	z-index:100;
+}
+.newsFrame_title{
+	height:30px;
+	line-height: 30px;
+	background-color:#A52A2A;
+}
+.newsFrame_title_icon{
+	font-size:14px;
+	/*float:left;*/
+	color:#FFFFFF;
+	width: 100%;
+	margin: 0px;
+	height: inherit;
+	line-height: inherit;
+}
+.newsFrame_title_tip{
+	font-size:14px;
+	height: inherit;
+	line-height: inherit;
+	color:#FFFFFF;
+}
+.newsFrame_title_close{
+	float:right;
+	margin-right:5px;
+	font-size:18px;
+	color:#FFFFFF;
+	cursor: pointer;
+}
+.newsFrame_content{
+	height:100px;
+	border-bottom:1px solid #EAE8E8;
+	font-size:12px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+}
+.newsFrame_content_summary{
+	margin-top:20px;
+}
+.newsFrame_content_summary_count{
+	font-size:22px;
+	padding-left:5px;
+	padding-right:5px;
+	color:#A52A2A;
+}
+.newsFrame_bottom{
+	height:30px;
+	background-color:#F8F9FD;
+	color:#A52A2A;
+	text-align:center;
+	font-size:12px;
+	line-height:30px;
+}
+.newsFrame_bottom a{
+	cursor: pointer;
+}

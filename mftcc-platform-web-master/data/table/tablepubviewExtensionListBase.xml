@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pubviewExtensionListBase" para="eadis_page" title="展期列表" type="2">
+    <tableitem align="2" filedname="extenBeginDate" id="6" indexed="5" label="展期起始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="extenTerm" id="5" indexed="4" label="展期期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="extenCmpdFloat" id="4" indexed="3" label="展期复利利率上浮" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="extenOverFloat" id="3" indexed="2" label="展期逾期利率上浮" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="extenFincRate" id="2" indexed="1" label="展期利率" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="extensionApplyId" id="1" indexed="0" label="展期申请号" row="1" type="4"
+               typepara="/mfBusPact/getPactFincByIdDetail;fincId-fincId;extensionId-extensionApplyId;appId-appId;busEntrance-'3';onClick-extensionDetail(this);"
+               width="15" widthType="1"/>
+    <tableitem align="2" filedname="extenBusStage" id="9" indexed="8" label="展期状态" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="extenEndDate" id="7" indexed="7" label="展期结束日期" type="1" widthType="0"/>
+</table>

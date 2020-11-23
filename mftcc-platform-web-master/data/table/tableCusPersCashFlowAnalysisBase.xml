@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="CusPersCashFlowAnalysisBase" para="eadis_page" link="/mfCusPersCashFlowAnalysis/findByPage" title="个人客户现金流分析" type="1">
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="copBankAverageDaily" id="4" indexed="4" label="合作行日均存款（近6个月）" row="1" type="0" />
+<tableitem align="2" filedname="otherBankAverageDaily" id="5" indexed="5" label="他行日均存款（近6个月）" row="1" type="0" />
+<tableitem align="2" filedname="cashFlowMatchBus" id="6" indexed="6" label="现金流量与经营规模是否匹配" row="1" type="0" />
+<tableitem align="2" filedname="cashOcctimeMatchBus" id="7" indexed="7" label="现金发生时间与经营是否匹配" row="1" type="0" />
+<tableitem align="2" filedname="creditCardCash" id="8" indexed="8" label="信用卡是否经常取现" row="1" type="0" />
+<tableitem align="2" filedname="largeCapitalFlows" id="9" indexed="9" label="是否有大额异常资金流动" row="1" type="0" />
+<tableitem align="2" filedname="dailySaveCompareApp" id="10" indexed="10" label="日均存款与申请额度比例" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="11" indexed="11" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="12" indexed="12" label="客户经理编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="13" indexed="13" label="客户经理姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="14" indexed="14" label="部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="15" indexed="15" label="部门名称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfCusPersCashFlowAnalysis/deleteAjax;cashId-cashId;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="makepolicymeetingApprovalHis" title="决策会审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="meetingMinutes" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="会议纪要" maxlength="500" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="meetingOpinions" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="决策意见及落实情况" maxlength="500" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="sumComments" fieldsize="REVIEW_OPINION_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="上会结果" maxlength="500" mustinput="0" row="1"/>
+</form>

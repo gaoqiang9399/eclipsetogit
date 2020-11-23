@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0005" title="pop">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfRoleName" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="1" labelname="审批角色名称" labelwidth="20" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkfRoleNo" fieldtype="1" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="3" labelname="审批角色编号" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parNames" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="父页面名称" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="popNames" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="子页面值" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnMethod" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="回调函数" mustinput="" readonly="" row="2"/>
+</form>

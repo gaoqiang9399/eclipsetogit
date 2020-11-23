@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root formId="timeline0001" desc="时间轴" webFormId="" css="timeline" layout="horizontal">
+    <formelement tagName="DIV" attr-elem-class="weui_panel weui_panel_access   timeline   moveNode" attr-data-titleshow="0" attr-data-grid="2" attr-data-uidraggable="[object Object]" attr-data-icon="wx-tabbar" attr-data-property="panel" attr-data-name="布局" attr-data-lv="2" attr-data-pid="0" attr-data-id="7" attr-data-pkno="dhcc-1" attr-style="border: 1px solid rgb(229, 229, 229); right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-type="2" attr-data-title="时间轴" attr-data-objectname="list" attr-data-domclass="timeline" attr-panellv="0" data-domclass="timeline" data-objectname="list" data-title="时间轴" data-type="2" data-pkno="dhcc-1" data-id="7" data-pid="0" data-lv="2" data-name="布局" data-property="panel" data-icon="wx-tabbar" data-uidraggable="[object Object]" data-grid="2" data-titleshow="0">
+        <formelement tagName="DIV" attr-elem-class="weui_panel_hd" attr-data-title="时间轴" data-title="时间轴" SProp-text="时间轴"/>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column panel-col-2  ui-sortable" attr-style="min-height:100px;/* padding:10px; */">
+            <formelement tagName="P" attr-elem-class="weui_grid_label moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="label" attr-data-name="标签" attr-data-lv="2" attr-data-pid="0" attr-data-id="10" attr-data-pkno="dhcc-1" attr-style="right: auto;bottom: auto;height: 20px;opacity: 0.35;width: auto;z-index: 0;position: relative;" attr-data-text="demo1" attr-data-fieldname="demo1" attr-data-domclass="timeline-top" data-domclass="timeline-top" data-fieldname="demo1" data-text="demo1" data-pkno="dhcc-1" data-id="10" data-pid="0" data-lv="2" data-name="标签" data-property="label" data-icon="wx-input" data-uidraggable="[object Object]" SProp-text="demo1"/>
+            <formelement tagName="P" attr-elem-class="weui_grid_label moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="label" attr-data-name="标签" attr-data-lv="2" attr-data-pid="0" attr-data-id="10" attr-data-pkno="dhcc-6" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-text="demo6" attr-data-fieldname="demo6" data-fieldname="demo6" data-text="demo6" data-pkno="dhcc-6" data-id="10" data-pid="0" data-lv="2" data-name="标签" data-property="label" data-icon="wx-input" data-uidraggable="[object Object]" SProp-text="demo6"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column panel-col-2  ui-sortable" attr-style="min-height:100px;/* padding:10px */">
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="总计" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-2" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 0.35; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo2" attr-data-readonly="1" attr-data-domclass="timeline-total" data-domclass="timeline-total" data-readonly="1" data-fieldname="demo2" data-pkno="dhcc-2" data-id="14" data-pid="0" data-lv="2" data-name="总计" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="总计"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="实还本金" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-3" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 0.35; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo3" attr-data-readonly="1" data-readonly="1" data-fieldname="demo3" data-pkno="dhcc-3" data-id="14" data-pid="0" data-lv="2" data-name="实还本金" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="实还本金"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="实还利息" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-4" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo4" attr-data-readonly="1" data-readonly="1" data-fieldname="demo4" data-pkno="dhcc-4" data-id="14" data-pid="0" data-lv="2" data-name="实还利息" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="实还利息"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="罚金" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-5" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo5" attr-data-readonly="1" data-readonly="1" data-fieldname="demo5" data-pkno="dhcc-5" data-id="14" data-pid="0" data-lv="2" data-name="罚金" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="罚金"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+        </formelement>
+    </formelement>
+</root>

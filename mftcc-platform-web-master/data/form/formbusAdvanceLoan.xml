@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="busAdvanceLoan" title="提前放款申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="业务申请号" mustinput="" param2="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="合同号" mustinput="" param2="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="advanceLoanId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="主键" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="放款金额" maxlength="14" mustinput="1" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="B岗复核人" maxlength="100" mustinput="0" onclick="bindDataSource(this,'1','approvePartNo','选择B岗复核人','','','','1')" readonly="1" row="6" unit="&lt;i class='i i-fangdajing pointer' onclick='MfCusCreditApply_input.initCus();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="产品品种编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="B岗复核人编号" maxlength="100" mustinput="" readonly="" row="8"/>
+</form>

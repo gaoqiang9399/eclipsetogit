@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0052" title="公共币种表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="币种" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="curNoName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="币种名称" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="curBase" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="计算基础" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useInd" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="是否启用" maxlength="10" mustinput="0" row="2"/>
+</form>

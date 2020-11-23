@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="psssaleinvoice0001" title="销售开票">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="invoiceNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="5" labelname="发票编号" maxlength="10" mustinput="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="invoiceDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="开票日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(invoiceDate);return false" readonly="1" row="1" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceAmount" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="发票金额" maxlength="18" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceTitle" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="发票抬头" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="发票类型" maxlength="2" mustinput="1" row="1"/>
+</form>

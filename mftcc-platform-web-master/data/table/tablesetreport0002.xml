@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="setreport0002" para="eadis_page" title="设置其他财务报表" type="1">
+<tableitem align="2" filedname="itemAAmt" id="6" indexed="8" label="报表项配置" row="1" sortType="2" type="0" width="30"/>
+<tableitem align="1" filedname="showName" id="5" indexed="5" label="项目" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="xjllTr" id="8" indexed="7" label="行次" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="lrTr" id="7" indexed="6" label="行次" row="1" sortType="2" type="0" width="5" widthType="0"/>
+</table>

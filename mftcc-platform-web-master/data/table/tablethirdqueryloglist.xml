@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="thirdqueryloglist" para="eadis_page" title="三方查询结果列表（天易）" type="2">
+<tableitem align="2" filedname="thirdName" id="3" indexed="0" label="服务名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="statusShow" id="5" indexed="1" label="查询状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="4" indexed="2" label="查询时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="查看详情" id="2" indexed="3" label="--" row="1" type="5" typepara="/mfThirdServiceRecord/getThirdQueryDetail;id-id;onclick-MfThirdServiceRecord_thirdQueryTY.getThirdQueryDetail(this);" widthType="0"/>
+</table>

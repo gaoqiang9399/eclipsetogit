@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusandapply_cash0001" para="eadis_page" title="客户业务申请信息列表" type="1">
+<tableitem align="2" filedname="appTime" id="7" indexed="6" label="申请日期" row="1" sortType="1" type="1"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="4" label="联系电话" row="1" sortType="2" type="0"/>
+<tableitem align="1" filedname="kindName" id="6" indexed="7" label="产品种类" row="1" sortType="2" type="0"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="3" label="联系人" row="1" sortType="2" type="0"/>
+<tableitem align="1" filedname="appName" id="5" indexed="5" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="1" filedname="manageOpName1" id="13" indexed="17" label="业务主办" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="1" label="客户类别" sortType="2" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="12" indexed="16" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="3" filedname="appAmt" id="1" indexed="8" label="申请金额(元)" row="1" sortType="1" type="0"/>
+</table>

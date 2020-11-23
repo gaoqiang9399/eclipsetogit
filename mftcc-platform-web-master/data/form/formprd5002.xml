@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="prd5002" title="产品费用配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="6" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeType" fieldsize="FEE_TYPE" fieldtype="21" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="费用类型" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payOrder" fieldsize="PAY_ORDER" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="付款顺序" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="feeFormula" fieldsize="100" fieldtype="5" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="费用公式" maxlength="200" mustinput="0" row="11" unit="如需以下信息请用代码代替: 总价款:T ;融资额:A;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mustInd" fieldsize="YES_NO" fieldtype="21" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="是否必收" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifFee" fieldsize="100" fieldtype="5" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="费用收取前提" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="最后更新人编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="最后更新人名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="产品编号" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="monAccFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="是否月结" maxlength="1" mustinput="0" row="7"/>
+</form>

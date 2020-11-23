@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="paymentpwd0002" title="支付密码">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="99" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="流水号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="2" labelalign="1" labelcol="1" labelname="客户编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusTel" fieldtype="1" maxlength="15" formactiveid="3" labelalign="1" labelcol="1" labelname="客户电话" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="4" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="payPassword" fieldtype="1" maxlength="50" formactiveid="5" labelalign="1" labelcol="1" labelname="支付密码，加密保存" mustinput="0" row="7"/>
+</form>

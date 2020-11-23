@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="importexcelpersdetail" title="历史数据导入个人客户基本信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="历史数据导入临时表编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusBaseType" fieldtype="1" maxlength="1" formactiveid="4" labelalign="3" labelcol="3" labelname="客户大类（1-企业客户；2-个人客户；3-核心企业；4-渠道商；5-资金机构；6-仓储机构；7-保险机构；8-物流企业；9-担保公司；A-集团客户）" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="1" maxlength="4" formactiveid="5" labelalign="3" labelcol="1" labelname="客户类型" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idType" fieldtype="1" maxlength="2" formactiveid="6" labelalign="3" labelcol="3" labelname="证件类型（身份证,户口薄,护照,军官证,士兵证,港澳居民来往内地通行证,台湾同胞来往内地通行证,临时身份证,外国人居留证, 警官证,其他证件 ）" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" maxlength="30" formactiveid="7" labelalign="3" labelcol="1" labelname="证件号码" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTel" fieldtype="1" maxlength="20" formactiveid="8" labelalign="3" labelcol="3" labelname="手机号码" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="postalCode" fieldtype="1" maxlength="6" formactiveid="9" labelalign="3" labelcol="1" labelname="邮政编号" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="commAddress" fieldtype="1" maxlength="200" formactiveid="10" labelalign="3" labelcol="3" labelname="通讯地址" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="400" formactiveid="11" labelalign="3" labelcol="1" labelname="备注" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngNo" fieldtype="1" maxlength="22" formactiveid="12" labelalign="3" labelcol="3" labelname="客户经理编号" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" maxlength="40" formactiveid="13" labelalign="3" labelcol="1" labelname="客户经理姓名" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="14" labelalign="3" labelcol="3" labelname="预留字段" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="15" labelalign="3" labelcol="1" labelname="" mustinput="0" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="16" labelalign="3" labelcol="3" labelname="" mustinput="0" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="17" labelalign="3" labelcol="1" labelname="" mustinput="0" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="18" labelalign="3" labelcol="3" labelname="" mustinput="0" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="1" maxlength="100" formactiveid="19" labelalign="3" labelcol="1" labelname="" mustinput="0" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext7" fieldtype="1" maxlength="100" formactiveid="20" labelalign="3" labelcol="3" labelname="" mustinput="0" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="1" maxlength="100" formactiveid="21" labelalign="3" labelcol="1" labelname="" mustinput="0" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext9" fieldtype="1" maxlength="100" formactiveid="22" labelalign="3" labelcol="3" labelname="" mustinput="0" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="1" maxlength="100" formactiveid="23" labelalign="3" labelcol="1" labelname="" mustinput="0" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="hisId" fieldtype="1" maxlength="22" formactiveid="24" labelalign="3" labelcol="3" labelname="历史数据导入编号" mustinput="0" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="readResult" fieldtype="1" maxlength="22" formactiveid="25" labelalign="3" labelcol="1" labelname="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" mustinput="0" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="readSts" fieldtype="1" maxlength="22" formactiveid="26" labelalign="3" labelcol="3" labelname="解析excel数据状态：0失败1成功" mustinput="0" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importSts" fieldtype="1" maxlength="22" formactiveid="27" labelalign="3" labelcol="1" labelname="数据导入状态：0待导入1已导入" mustinput="0" row="14" />
+</form>

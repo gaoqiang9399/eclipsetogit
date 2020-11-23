@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fdm1002" title="客户资金池">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户类型" maxlength="1" mustinput="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="monthBal" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="月初余额" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="yearBal" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="年初余额" maxlength="16" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="totalBal" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="余额" maxlength="16" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="monthAmtB" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="本月发生额借" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="monthAmtL" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="本月发生额贷" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="yearAmtB" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="本年发生额借" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="yearAmtL" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="本年发生额贷" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="lstDate" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="更新日期" maxlength="8" mustinput="0" row="11"/>
+</form>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusFarmerProAndOpeBase" title="农户生产经营信息（吉林金控）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="90" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID（用作关联客户的编号）" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="opeVarieties" fieldsize="OPE_VARIETIES" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="具体经营品种" maxlength="2" mustinput="1" row="2"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="opeScale" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="经营规模" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agrIns" fieldsize="YES_NO" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="参保农业险" maxlength="2" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="关联编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="90" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="90" formactiveid="12" labelalign="3" labelcol="3" labelname="登记人姓名" maxlength="40" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="13" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="90" formactiveid="14" labelalign="3" labelcol="3" labelname="登记部门名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="15" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="90" formactiveid="16" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="90" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="90" formactiveid="18" labelalign="3" labelcol="3" labelname="最后修改时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="90" formactiveid="19" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="90" formactiveid="20" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="90" formactiveid="21" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extInt" fieldtype="90" formactiveid="22" labelalign="3" labelcol="3" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble" fieldtype="90" formactiveid="23" labelalign="3" labelcol="1" mustinput="0" row="18"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="unitPro" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="单位产量" maxlength="12" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="opeProjectType" fieldsize="OPE_PROJECT_TYPE_FG_JLJK" fieldtype="2" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="经营种类" mustinput="1" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="yearPro" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="上年度产量" maxlength="12" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="orderFrom" fieldsize="YES_NO" fieldtype="2" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="有无订单" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="plantTech" fieldsize="PLANT_TECH_FG_JLJK" fieldtype="2" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="种植技术水平" mustinput="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="plantSpecies" fieldsize="PLANT_SPECIES_FG_JLJK" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="种植品种" mustinput="1" readonly="" row="10"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="localPro" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="当地平均产量" maxlength="12" mustinput="1" readonly="" row="6"/>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="plCertiApprovalBase" title="担保登记审批基础表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfCertiId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="业务流程关联编号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receTransAmt" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="转让总额" maxlength="16" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="融资客户" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="receAmt" fieldsize="0.00" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="应收账款总额" maxlength="14" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="业务申请编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receInvoiceAmt" fieldsize="0.00" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="票面总额" maxlength="14" mustinput="" readonly="1" row="2" unit="元"/>
+</form>

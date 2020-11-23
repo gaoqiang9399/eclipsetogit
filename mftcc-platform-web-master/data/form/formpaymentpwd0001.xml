@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="paymentpwd0001" title="支付密码">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" maxlength="15" formactiveid="3" labelalign="3" labelcol="1" labelname="客户电话" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" row="4" />
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="demo0011" title="复制demo0010">
+<formelement alt="22222" datatype="1" fieldalign="1" fieldcol="2" fieldname="demoId" fieldstyle="demo222" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="演示编号" labelstyle="demo222" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="demoTime" fieldsize="STS" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="时间" labelstyle="startRang" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoPosition" fieldsize="DUTIES" fieldtype="21" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="职务" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoTel" fieldtype="8" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="电话" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="年月" mustinput="" onclick="laydatemonth(this);" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="testBox" fieldsize="APP_TYPE" fieldtype="3" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="复选框测试" mustinput="" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="日期框" labelstyle="endRang" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="5" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="文本区域" maxlength="400" mustinput="" readonly="" row="5"/>
+</form>

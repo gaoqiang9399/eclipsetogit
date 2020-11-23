@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="psssourcedetailbill0002" title="收付核源单明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sourceDetailId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="收付核源单明细ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="1" labelname="收付核单据编号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" maxlength="0" formactiveid="3" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recPayCancelType" fieldtype="1" maxlength="1" formactiveid="4" labelalign="3" labelcol="1" labelname="收付核类型" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cancelDetailType" fieldtype="1" maxlength="1" formactiveid="5" labelalign="3" labelcol="1" labelname="核销单据类型" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sourceBillNo" fieldtype="1" maxlength="40" formactiveid="6" labelalign="3" labelcol="1" labelname="源单编号" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sourceBillType" fieldtype="1" maxlength="1" formactiveid="7" labelalign="3" labelcol="1" labelname="源单业务类别" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sourceBillDate" fieldtype="1" maxlength="8" formactiveid="8" labelalign="3" labelcol="1" labelname="源单单据日期" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sourceBillAmt" fieldtype="1" maxlength="18" formactiveid="9" labelalign="3" labelcol="1" labelname="源单单据金额" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comCancelAmt" fieldtype="1" maxlength="18" formactiveid="10" labelalign="3" labelcol="1" labelname="已核销金额" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="notCancelAmt" fieldtype="1" maxlength="18" formactiveid="11" labelalign="3" labelcol="1" labelname="未核销金额" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="currCancelAmt" fieldtype="1" maxlength="18" formactiveid="12" labelalign="3" labelcol="1" labelname="本次核销金额" mustinput="0" row="12"/>
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vcvehicleprice0001" para="eadis_page" title="机动车价格表" type="1">
+<tableitem align="2" filedname="vehicleConfName" id="5" indexed="5" label="车辆配置" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="3" filedname="vehiclePrice" id="18" indexed="8" label="车辆价格" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="9" indexed="10" label="登记人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="12" indexed="13" label="登记时间" row="1" sortType="1" type="30" width="12" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="14" indexed="15" label="修改人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="17" indexed="16" label="修改时间" row="1" sortType="1" type="30" width="12" widthType="0"/>
+<tableitem align="2" filedname="remarks" id="21" indexed="17" label="备注" row="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="修改" id="19" indexed="18" label="-" row="1" type="5" typepara="/vcVehiclePrice/getUpdatePage;priceId-priceId;vehicleConf-vehicleConf;onClick-VcVehiclePrice_List.getUpdatePage;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="20" indexed="19" label="-" row="1" type="5" typepara="/vcVehiclePrice/deleteAjax;priceId-priceId;vehicleConf-vehicleConf;onClick-VcVehiclePrice_List.deleteRow(this);" widthType="0"/>
+</table>

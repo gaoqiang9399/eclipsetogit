@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_r1" title="融360机构R黑名单">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="feature1" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="放款时间" mustinput="" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="feature2" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="逾期开始时间" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feature3" fieldsize="feature3" fieldtype="21" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="逾期时长" mustinput="" readonly="1" row="2" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="feature4" fieldsize="feature4" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="逾期金额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feature5" fieldsize="feature5" fieldtype="21" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="结清状态" mustinput="" readonly="1" row="3"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="tools0003" title="实名认证">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" maxlength="20" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realnameInfoId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="实名认证信息编号" maxlength="30" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="身份证号" maxlength="18" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authenticationSts" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="认证状态" maxlength="1" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="errorMessage" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="认证失败信息" maxlength="100" mustinput="" readonly="" row="6" />
+</form>

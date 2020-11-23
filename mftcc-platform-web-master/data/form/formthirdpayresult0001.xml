@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="thirdpayresult0001" title="请求第三方响应内容表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="requestId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="请求编号" mustinput="0" row="1" />
+</form>

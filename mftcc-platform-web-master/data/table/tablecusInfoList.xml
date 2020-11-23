@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInfoList" para="eadis_page" title="客户入口列表" trDbClick="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfCusCustomer_EntList.getDetailPage(this);" type="2">
+<tableitem align="2" filedname="idNum" id="7" indexed="1" label="证件号码" row="1" sortType="1" type="1" width="200" widthType="1"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="4" label="联系电话" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="infoOffer" id="6" indexed="7" label="信息来源" sortType="2" type="6" typepara="INFO_OFFER" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="3" label="联系人" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="classifyType" id="5" indexed="6" label="客户分类" mytitle="项目名称-appName;" row="1" sortType="1" type="6" typepara="CLASSIFY_TYPE" width="165" widthType="1"/>
+<tableitem align="2" filedname="cusMngName" id="13" indexed="17" label="项目经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="5" label="客户类别" row="1" sortType="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfCusCustomer_EntList.getDetailPage(this);subStringNub-20;" width="250" widthType="1"/>
+<tableitem align="2" filedname="cusLevelName" id="1" indexed="8" label="信用级别" row="1" sortType="1" type="0" widthType="0"/>
+</table>

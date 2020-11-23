@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="cuscusbusserviceDetail" title="商业服务业信息">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busId" fieldtype="99" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="主键" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="99" maxlength="20" formactiveid="2" labelalign="1" labelcol="1" labelname="客户ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="projectName" fieldtype="1" maxlength="100" formactiveid="4" labelalign="1" labelcol="1" labelname="经营项目" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busIncome" fieldtype="1" maxlength="20" formactiveid="5" labelalign="1" labelcol="1" labelname="业务收入" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="inNum" fieldtype="1" maxlength="0" formactiveid="6" labelalign="1" labelcol="1" labelname="收入数量" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="inPrice" fieldtype="1" maxlength="0" formactiveid="7" labelalign="1" labelcol="1" labelname="收入单价" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busExp" fieldtype="1" maxlength="20" formactiveid="8" labelalign="1" labelcol="1" labelname="业务支出" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="expNum" fieldtype="1" maxlength="0" formactiveid="9" labelalign="1" labelcol="1" labelname="支出数量" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="expPrice" fieldtype="1" maxlength="0" formactiveid="10" labelalign="1" labelcol="1" labelname="支出单价" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="profit" fieldtype="1" maxlength="20" formactiveid="11" labelalign="1" labelcol="1" labelname="毛利润" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="profitRate" fieldtype="1" maxlength="20" formactiveid="12" labelalign="1" labelcol="1" labelname="毛利率" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="99" maxlength="22" formactiveid="13" labelalign="1" labelcol="1" labelname="登记人编号" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="99" maxlength="40" formactiveid="14" labelalign="1" labelcol="1" labelname="登记人姓名" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="99" maxlength="30" formactiveid="15" labelalign="1" labelcol="1" labelname="" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="99" maxlength="80" formactiveid="16" labelalign="1" labelcol="1" labelname="登记部门名称" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="99" maxlength="17" formactiveid="17" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" maxlength="17" formactiveid="18" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="delFlag" fieldtype="99" maxlength="1" formactiveid="19" labelalign="1" labelcol="1" labelname="删除位 1 删除 0 默认" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regDate" fieldtype="99" maxlength="8" formactiveid="20" labelalign="1" labelcol="1" labelname="登记日期 格式：20170619" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" maxlength="8" formactiveid="21" labelalign="1" labelcol="1" labelname="最后修改日期 格式：20170619" mustinput="0" row="39"/>
+</form>

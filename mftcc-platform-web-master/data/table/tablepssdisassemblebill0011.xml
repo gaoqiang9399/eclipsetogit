@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssdisassemblebill0011" para="eadis_page" title="拆卸单子件" type="2">
+<tableitem align="2" filedname="goodsId" id="9" indexed="2" label="商品" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="8" indexed="1" label="商品" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="3" filedname="inCost" id="7" indexed="12" label="入库成本" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="searchFlag" id="15" indexed="5" label="库存查询" row="1" sortType="2" type="0" width="2" widthType="0"/>
+<tableitem align="2" filedname="storehouseId" id="6" indexed="7" label="仓库" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="1" filedname="freightSpaceId" id="14" indexed="9" label="仓位" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="1" filedname="storehouseName" id="5" indexed="6" label="仓库" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="freightSpaceNo" id="13" indexed="8" label="仓位" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="unitId" id="4" indexed="4" label="单位" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="memo" id="12" indexed="13" label="备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="unitName" id="3" indexed="3" label="单位" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="inUnitCost" id="11" indexed="11" label="入库单位成本" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="2" indexed="0" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="3" filedname="goodsQty" id="10" indexed="10" label="数量" row="1" sortType="2" type="0" width="10" widthType="0"/>
+</table>

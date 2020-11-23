@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincappmainlistforconfirm" para="eadis_page" title="融资额度确认列表" type="1">
+<tableitem align="2" filedname="fincRateShow" id="19" indexed="16" label="融资利率" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="confirmId" id="18" indexed="1" label="申请编号" row="1" type="4" typepara="/mfBusFincAmtConfirm/getById;confirmId-confirmId;onclick-MfBusFincAmtConfirm_List.getDetailInfo(this);" widthType="0"/>
+<tableitem align="2" filedname="appDate" id="17" indexed="18" label="申请日期" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="confirmAmt" id="16" indexed="11" label="确认额度(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="2" label="融资客户" mytitle="客户名称-cusName;" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'pact';onClick-MfBusFincAmtConfirm_List.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="2" filedname="termType" id="13" indexed="17" label="额度期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="confirmSts" id="11" indexed="19" label="确认状态" row="1" sortType="2" type="6" typepara="RECE_TRANS_STS" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="2" indexed="5" label="申请额度(元)" row="1" sortType="1" type="12" widthType="0"/>
+</table>

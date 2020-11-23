@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cla0004" title="初分模型基本表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="模型编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="模型名称" labelwidth="20" maxlength="60" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="modelDesc" fieldsize="50" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="描述" maxlength="300" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="YES_NO" fieldtype="2" fieldwidth="30" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="启用标志" labelwidth="20" maxlength="1" mustinput="1" row="1"/>
+</form>

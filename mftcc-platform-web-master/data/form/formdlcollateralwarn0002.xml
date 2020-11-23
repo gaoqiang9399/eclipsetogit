@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dlcollateralwarn0002" title="抵押预警信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="预警编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="预警类型" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnCont" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="预警内容" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnfixMethod" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="解决方法" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnfixCusId" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="解决人" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnfixCusName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="解决人名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnfixDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="解决日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeId" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="押品编号" maxlength="30" mustinput="0" row="4"/>
+</form>

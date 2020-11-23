@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busOaTransList" title="移交项目列表" type="3">
+<tableitem align="3" filedname="appAmt" id="5" indexed="3" label="合同金额(元)" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="4" indexed="2" label="产品名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="1" label="合同编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="1" indexed="4" label="合同期限" sortType="2" type="0" widthType="0"/>
+</table>

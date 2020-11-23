@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusreg00004" title="2">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="socialCreditCode" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="社会信用代码" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="license" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="营业执照号码" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="registeredType" fieldsize="LIC_REG_TYPE" fieldtype="2" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="登记注册类型" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="营业开始日期" maxlength="8" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="registeredCapital" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="注册资本" maxlength="20" mustinput="1" onblur="num_validate(registeredCapital)" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="组织机构代码" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="单位地址" maxlength="400" mustinput="0" param="cusNo;" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="wayArea" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelname="行业经营范围" maxlength="400" mustinput="0" param="cusNo;" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mainBusiness" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="主营业务" maxlength="400" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="commAddress" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="通讯地址" maxlength="400" mustinput="1" param="cusNo;" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="联系电话" maxlength="20" mustinput="0" param="cusNo;" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="15" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

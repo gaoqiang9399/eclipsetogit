@@ -1,0 +1,46 @@
+.p-formItem{
+		margin-left:15px;
+		width:70%
+	}
+	.nobottomborder{
+		border-bottom:0px; 	
+	}
+	.topborder{
+		border-top:1px solid #ddd; 
+	}
+	.margintop10{
+		margin-top: 10px;
+	}
+	.marginbottom10{
+		margin-bottom: 10px;
+	}
+	.margintop15{
+		margin-top: 15px;
+	}
+	.marginbottom15{
+		margin-bottom: 15px;
+	}
+	.marginbottom20{
+		margin-bottom: 20px;
+	}
+	.marginleft20{
+		margin-left: 20px;
+	}
+	.marginleft50{
+		margin-left: 50px;
+	}
+	.height40{
+		height: 40px;
+	}
+	.disShow{
+		display:none;
+	}
+ 	.upload-div{ 
+		width:60%;
+ 	} 
+ 	.checkbox-span{
+ 		width:16px;
+ 		height:16px;
+ 	}
+
+

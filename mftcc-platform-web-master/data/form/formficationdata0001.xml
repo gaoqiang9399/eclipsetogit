@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="ficationdata0001" title="辅助核算项数据表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uid" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finBooks" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="帐套标识" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="txType" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="辅助编号:" maxlength="30" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="txCode" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="编号" maxlength="20" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="txName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="名称:" maxlength="50" mustinput="1" row="2"/>
+</form>

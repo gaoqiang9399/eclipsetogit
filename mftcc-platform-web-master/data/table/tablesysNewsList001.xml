@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sysNewsList001" para="eadis_page" title="系统消息展示列表" type="1">
+<tableitem align="1" filedname="regName" id="6" indexed="1" label="消息发起人" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="pasNo" id="15" indexed="0" label="消息唯一标示" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="查看" id="13" indexed="7" label="-" row="1" type="5" typepara="action;taskId-pasNo;onclick-showNews;" width="5" widthType="0"/>
+<tableitem align="1" filedname="pasContent" id="4" indexed="4" label="内容" mytitle="内容-pasContent" sortType="2" type="3" typepara="50" width="40" widthType="0"/>
+<tableitem align="1" filedname="pasTitle" id="12" indexed="3" label="标题" mytitle="标题-pasTitle" row="1" sortType="2" type="3" typepara="20" width="20" widthType="0"/>
+<tableitem align="2" filedname="createDate" id="2" indexed="5" label="发起时间" row="1" sortType="1" type="30" width="20" widthType="0"/>
+</table>

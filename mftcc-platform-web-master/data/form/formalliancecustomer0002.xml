@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="alliancecustomer0002" title="联保体客户编辑">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="1" onclick="memberList.selectPersonalCus(this,'B','cusId','选择客户',false,'2','','','','',true);" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="5" fieldname="cusName" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="1" onclick="memberList.selectPersonalCus(this,'B','cusId','选择客户',false,'2','','','','',true);" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="entityPrimarykeys" mustinput="" param="id" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allowLoan" fieldsize="YES_NO" fieldtype="2" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="是否允许贷款" mustinput="" readonly="" row="2"/>
+</form>

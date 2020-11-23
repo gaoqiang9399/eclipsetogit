@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou1131" title="208.商铺使用权 GRT_P_STORE">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantyId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="96" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="storeNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="商铺使用权证书号码" maxlength="300" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storeArea" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="商铺面积（平方米）" maxlength="16" mustinput="0" row="3"/>
+</form>

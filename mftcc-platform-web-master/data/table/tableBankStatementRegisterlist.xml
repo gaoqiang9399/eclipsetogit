@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="BankStatementRegisterlist" para="eadis_page" title="银行结算单列表" type="1">
+<tableitem align="2" authority="applySts-1;applySts-2;applySts-3;applySts-4;applySts-5;" filedname="结算单登记" id="87" indexed="84" label="-" type="5" typepara="/mfBankStatementRegister/input;id-id;onClick-MfBankStatementRegister_List.applyInsert" width="2" widthType="0"/>
+<tableitem align="2" filedname="详情" id="86" indexed="83" label="-" row="1" type="5" typepara="/mfBankStatementRegister/getById;id-id;onClick-MfBankStatementRegister_List.detail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="registerAmt" id="82" indexed="82" label="金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="80" indexed="3" label="委托担保合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfBankStatementRegister_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="issuingBank" id="9" indexed="11" label="出票银行" mytitle="出票银行-issuingBank" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="6" indexed="5" label="担保金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="payee" id="5" indexed="8" label="收款单位" mytitle="收款单位-payee" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="settlementMethod" id="3" indexed="6" label="结算方式" row="1" sortType="2" type="6" typepara="SETTLEMENT_METHOD" widthType="0"/>
+<tableitem align="2" filedname="useOfFunds" id="12" indexed="13" label="资金用途" mytitle="资金用途-useOfFunds" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="4" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfBankStatementRegister_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="phonecollect0001" title="电话催收列表" type="2">
+<tableitem align="2" filedname="通讯录" id="9" indexed="11" label="通讯录" row="1" type="5" typepara="/mfPhoneCollectTrack/getListPage;cusNo-cusNo;fincId-fincId;onClick-getPhoneBook(this);" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="8" indexed="10" label="到期日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="3" filedname="repayPrcp" id="7" indexed="5" label="欠款本金(元)" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="overDays" id="6" indexed="4" label="逾期天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="5" indexed="3" label="联系电话" row="1" sortType="2" type="4" typepara="/mfCusTrack/getListPage;cusNo-cusNo;appId-appId;query-'0';onClick-getDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="2" label="项目名称" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-enterClick(this);" widthType="0"/>
+<tableitem align="2" filedname="optName" id="3" indexed="1" label="跟进结果" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="repayPrcpIntstSum" id="12" indexed="8" label="欠款总额" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="repayIntst" id="10" indexed="6" label="欠款利息(元)" row="1" type="0" widthType="0"/>
+</table>

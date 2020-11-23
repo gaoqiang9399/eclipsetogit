@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="nmd0004" title="选择组件新增数据字典">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keyName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="数据字典名" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sts" fieldsize="USE_FLAG" fieldtype="4" formactiveid="4" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="启用状态" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="键" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="optName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="子项名称" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="文本区域" maxlength="200" mustinput="" readonly="" row="3" />
+</form>

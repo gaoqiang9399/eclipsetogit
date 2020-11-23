@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="gps0001" title="租赁物GPS信息">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="leaseNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="租赁物编号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="equiNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="设备型号" maxlength="90" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="instaFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="是否安装" maxlength="3" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="instaDate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="安装日期" maxlength="24" mustinput="0" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="1" fieldname="instaFee" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="安装费用" maxlength="16" mustinput="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="1" fieldname="equiFee" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="设备费用" maxlength="16" mustinput="1" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldcolspan="2" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="备注" maxlength="900" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="brand" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="品牌" maxlength="240" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="instaNeedFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="是否需要安装" maxlength="3" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="address" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="发货地址" maxlength="300" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="instaCompany" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="安装单位" maxlength="300" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="mobileTel" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="联系电话" maxlength="45" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="frameNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="车架号" maxlength="300" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="plateNo" fieldtype="99" formactiveid="14" labelalign="3" labelcol="2" labelname="车牌号码" maxlength="60" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="telNum" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="手机卡号" maxlength="48" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="equipSeq" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="设备序列号" maxlength="90" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="orgNo" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="90" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="orgName" fieldtype="99" formactiveid="18" labelalign="3" labelcol="2" labelname="登记机构名称" maxlength="240" mustinput="0" readonly="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="regNo" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记人" maxlength="90" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="regName" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="240" mustinput="0" readonly="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="lstOrgNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="最新登记机构号" maxlength="90" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="lstOrgName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="2" labelname="最新登记机构名称" maxlength="240" mustinput="0" readonly="1" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="lstRegNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="最新登记人" maxlength="90" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="lstRegName" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" labelname="最新登记人名称" maxlength="240" mustinput="0" readonly="1" row="16"/>
+<formelement datatype="6" fieldalign="1" fieldcol="1" fieldname="regDate" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="登记日期" maxlength="24" mustinput="0" readonly="1" row="14"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="lstDate" fieldtype="99" formactiveid="26" labelalign="3" labelcol="2" labelname="更新日期" maxlength="24" mustinput="0" readonly="1" row="14"/>
+</form>

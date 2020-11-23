@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfTrenchCreditAmtModifyHis" para="eadis_page" title="渠道追加历史" type="1">
+<tableitem align="2" filedname="creditAmt" id="6" indexed="7" label="授信额度（元）" row="1" type="12" width="25" widthType="0"/>
+<tableitem align="2" filedname="trenchName" id="3" indexed="3" label="资金机构名称" row="1" type="4" typepara="/mfTrenchCreditAmtModifyHis/listShowDetailAjax;id-id;oneUrl-'/MfTrenchCreditAmtModifyHis/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="creditBal" id="8" indexed="8" label="授信余额（元）" row="1" type="12" width="25" widthType="0"/>
+<tableitem align="2" filedname="addCreditAmt" id="7" indexed="9" label="追加的授信额度（元）" type="12" width="25" widthType="0"/>
+</table>

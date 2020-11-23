@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbususefund0003" title="经销商用款申请（详情）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFundId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="用款申请ID" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户ID" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="用款单位" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="useFundAmount" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="用款下拨金额" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="appDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldsize="HM_APP_STS" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="申请状态" maxlength="2" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="13" labelalign="3" labelcol="1" labelname="摘要" maxlength="500" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="usableAmount" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="内部户可用额度" maxlength="15" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="15" fieldalign="1" fieldcol="4" fieldname="loanBal" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="贷款余额" mustinput="" readonly="1" row="3" unit="万元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="expectPayDate" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="期望付款日" mustinput="" onclick="fPopUpCalendarDlg({min: today})" readonly="1" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+</form>

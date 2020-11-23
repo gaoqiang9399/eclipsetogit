@@ -1,0 +1,141 @@
+
+.cell {
+    background-color: #ebebeb;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: absolute;
+}
+.cover {
+    cursor: default;
+    height: 30px;
+}
+.cover .handle {
+    box-sizing: border-box;
+    color: #1185b9;
+    height: 100%;
+    padding: 10px 5px 10px 10px;
+}
+.info {
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    top: 30px;
+    width: 100%;
+}
+.info {
+    padding: 4px 5px 5px;
+}
+.appType {
+    float: left;
+    margin: 9px 0 0 42px;
+    width: 20%;
+}
+.appType label {
+    color: #7e7e7e;
+    font-size: 12px;
+}
+.appType select {
+    border: 1px solid #dddac9;
+    color: #7e7e7e;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 15px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 42px;
+    width: 100px;
+}
+.appContent {
+    float: left;
+    margin: -17px 0 0 -50px;
+    width: 80%;
+}
+.appContent label {
+    color: #7e7e7e;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+.appContent textarea {
+    border: 1px solid #dddac9;
+    border-radius: 5px;
+    color: #7e7e7e;
+    font-size: 12px;
+    height: 60px;
+    letter-spacing: 1px;
+    line-height: 14.5px;
+    margin-left: 10px;
+    resize: none;
+    width: calc(100% - 70px);
+}
+.home {
+    float: left;
+    margin: -2px 0 0 6px;
+    width: 16%;
+}
+.home label {
+    color: #7e7e7e;
+    font-size: 12px;
+}
+.home input {
+    border: 1px solid #dddac9;
+    color: #7e7e7e;
+    font-size: 12px;
+    height: 20px;
+    margin-bottom: 15px;
+    width: calc(100% - 90px);
+}
+.homeContent {
+    float: left;
+    margin: -6px 0 0 25px;
+    width: 81%;
+}
+.homeContent label {
+    color: #7e7e7e;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+.homeContent textarea {
+    border: 1px solid #dddac9;
+    border-radius: 5px;
+    color: #7e7e7e;
+    font-size: 12px;
+    height: 60px;
+    letter-spacing: 1px;
+    line-height: 14.5px;
+    margin-left: 10px;
+    resize: none;
+    width: calc(100% - 80px);
+}
+.botTip {
+    background-color: #eef5ff;
+    border: 1px solid #c6d5f2;
+    bottom: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    color: #1888c8;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.botTip i {
+    background: rgba(0, 0, 0, 0) url("../imgs/meiii.png") repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    height: 15px;
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 7px;
+}
+.botTip span {
+    float: left;
+    margin-left: 10px;
+}

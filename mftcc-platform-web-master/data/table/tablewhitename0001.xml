@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="whitename0001" link="/mfCusWhitename/findByPage" para="eadis_page" title="白名单管理" type="1">
+<tableitem align="2" filedname="remark" id="6" indexed="6" label="备注" mytitle="字段说明-remark;" sortType="2" type="3" typepara="20" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="5" indexed="3" label="客户分类" row="1" sortType="0" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="证件号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="tel" id="3" indexed="5" label="联系方式" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="客户名称" row="1" sortType="1" type="4" typepara="/mfCusWhitename/getById;id-id;onClick-MfCusWhitename_List.getByIdThis(this);" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/mfCusWhitename/deleteAjax;id-id;onClick-MfCusWhitename_List.ajaxDelete(this)" width="2" widthType="0"/>
+</table>

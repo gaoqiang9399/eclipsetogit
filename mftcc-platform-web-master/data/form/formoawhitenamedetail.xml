@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="oawhitenamedetail" title="OA白名单信息">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="name" fieldtype="1" maxlength="100" formactiveid="2" labelalign="1" labelcol="1" labelname="姓名" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="idcardno" fieldtype="1" maxlength="18" formactiveid="3" labelalign="1" labelcol="1" labelname="身份证号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="department" fieldtype="1" maxlength="20" formactiveid="4" labelalign="1" labelcol="1" labelname="所在部门" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="worktime" fieldtype="1" maxlength="10" formactiveid="5" labelalign="1" labelcol="1" labelname="入职时长" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="workyear" fieldtype="1" maxlength="10" formactiveid="6" labelalign="1" labelcol="1" labelname="工作年限" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="salarylevel" fieldtype="1" maxlength="10" formactiveid="7" labelalign="1" labelcol="1" labelname="工资级别" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="workstatus" fieldtype="1" maxlength="2" formactiveid="8" labelalign="1" labelcol="1" labelname="工作状态" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="workkind" fieldtype="1" maxlength="2" formactiveid="9" labelalign="1" labelcol="1" labelname="工作性质" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="marriage" fieldtype="1" maxlength="1" formactiveid="10" labelalign="1" labelcol="1" labelname="婚姻状况" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="address" fieldtype="1" maxlength="150" formactiveid="11" labelalign="1" labelcol="1" labelname="联系地址" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="result" fieldtype="1" maxlength="1" formactiveid="12" labelalign="1" labelcol="1" labelname="审批结果:0:审批通过1:人工审批2:审批否决" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="message" fieldtype="1" maxlength="100" formactiveid="13" labelalign="1" labelcol="1" labelname="审批结果解释，如为何否觉，为何人工审批" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="liveresult" fieldtype="1" maxlength="50" formactiveid="14" labelalign="1" labelcol="1" labelname="活体识别结果" mustinput="0" row="25"/>
+</form>

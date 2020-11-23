@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="importexcelassurerelbase" title="历史数据导入担保人担保表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="importId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="历史数据导入临时表编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="pactNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="合同展示编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="assureName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="保证人名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="assureCusType" fieldtype="1" maxlength="5" formactiveid="4" labelalign="1" labelcol="2" labelname="保证人客户类型值同客户表中的cus_type" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="assureCusTel" fieldtype="1" maxlength="5" formactiveid="5" labelalign="1" labelcol="1" labelname="保证人客户手机号码" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="idType" fieldtype="1" maxlength="2" formactiveid="6" labelalign="1" labelcol="2" labelname="证件类型" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="idNum" fieldtype="1" maxlength="30" formactiveid="7" labelalign="1" labelcol="1" labelname="证件号码" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="followPactNo" fieldtype="1" maxlength="30" formactiveid="8" labelalign="1" labelcol="2" labelname="从合同编号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="9" labelalign="1" labelcol="1" labelname="操作员编号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="hisId" fieldtype="1" maxlength="22" formactiveid="10" labelalign="1" labelcol="2" labelname="历史数据导入编号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="readResult" fieldtype="1" maxlength="22" formactiveid="11" labelalign="1" labelcol="1" labelname="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="readSts" fieldtype="1" maxlength="22" formactiveid="12" labelalign="1" labelcol="2" labelname="解析excel数据状态：0失败1成功" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="importSts" fieldtype="1" maxlength="22" formactiveid="13" labelalign="1" labelcol="1" labelname="数据导入状态：0待导入1已导入" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="14" labelalign="1" labelcol="2" labelname="" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="15" labelalign="1" labelcol="1" labelname="" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="16" labelalign="1" labelcol="2" labelname="" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="17" labelalign="1" labelcol="1" labelname="" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="18" labelalign="1" labelcol="2" labelname="" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext6" fieldtype="1" maxlength="500" formactiveid="19" labelalign="1" labelcol="1" labelname="" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext7" fieldtype="1" maxlength="500" formactiveid="20" labelalign="1" labelcol="2" labelname="" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext8" fieldtype="1" maxlength="500" formactiveid="21" labelalign="1" labelcol="1" labelname="" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext9" fieldtype="1" maxlength="500" formactiveid="22" labelalign="1" labelcol="2" labelname="" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext10" fieldtype="1" maxlength="500" formactiveid="23" labelalign="1" labelcol="1" labelname="" mustinput="0" row="23"/>
+</form>

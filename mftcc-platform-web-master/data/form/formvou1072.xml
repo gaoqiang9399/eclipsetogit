@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1072" title="207.贵金属  GRT_P_METAL">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="metalName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="贵金属名称" maxlength="60" mustinput="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="metalGram" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="贵金属数量（克）" labelwidth="20" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="detail" fieldsize="80" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="贵金属简要说明" maxlength="120" mustinput="0" row="3"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="quality" fieldtype="1" fieldwidth="30" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="成色(%)" labelwidth="20" maxlength="10" mustinput="1" row="2" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="vouType" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="抵质押物类型" mustinput="" readonly="" row="5" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="vouAmt" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="3" unit="元" />
+</form>

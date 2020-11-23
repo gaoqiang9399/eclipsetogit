@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawnnd0002" title="质押国库债券">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ndCt" fieldtype="1" maxlength="2" formactiveid="2" labelalign="3" labelcol="3" labelname="国债币种" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ndAmount" fieldtype="1" maxlength="16" formactiveid="3" labelalign="3" labelcol="1" labelname="国债金额(折人民币)" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ndNo" fieldtype="1" maxlength="30" formactiveid="4" labelalign="3" labelcol="3" labelname="国债号码" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ndIssueDate" fieldtype="1" maxlength="8" formactiveid="5" labelalign="3" labelcol="1" labelname="发行日期" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ndDueDate" fieldtype="1" maxlength="8" formactiveid="6" labelalign="3" labelcol="3" labelname="最近到期日期" mustinput="0" row="3"/>
+</form>

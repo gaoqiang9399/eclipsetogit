@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusProfitLossAnalyseDetail" title="损益分析">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="incomeTotal" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="收入合计" maxlength="14" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="1" fieldname="grossProfit" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="毛利" maxlength="14" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="netProfit" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="3" labelname="净利润" maxlength="14" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="1" fieldname="otherOftenFeePay" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="其它经常性费用支出" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="proName" fieldsize="PROFIT_LOSS_PRO_TYPE" fieldtype="2" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="项目" maxlength="50" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="variableCostTotal" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="4" labelname="可变成本合计" maxlength="14" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="fixFeePay" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="2" labelname="固定费用支出" maxlength="14" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="otherIncome" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="4" labelname="其它收入" maxlength="14" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="disposableIncome" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="2" labelname="可支配收入" maxlength="14" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="id" mustinput="" readonly="" row="5" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="6" labelname="entityPrimarykeys" mustinput="" param="id;" readonly="" row="6"/>
+</form>

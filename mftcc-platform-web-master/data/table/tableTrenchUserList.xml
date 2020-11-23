@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="TrenchUserList" title="渠道用户列表" type="1">
+<tableitem align="2" filedname="查看要件" id="14" indexed="16" label="-" type="5" typepara="/mfTrenchUser/getById;id-id;cusNo-channelSourceNo;onClick-MfTrenchUser_Insert.getById;" widthType="0"/>
+<tableitem align="2" filedname="cusAccount" id="5" indexed="4" label="登录账号" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="4" indexed="15" label="-" row="1" type="99" typepara="/mfTrenchUser/deleteAjax;id-id;relNo-channelSourceNo;cusNo-channelSourceNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="12" indexed="5" label="数据权限" row="1" type="6" typepara="TRENCH_USER_DATA_RANG" widthType="0"/>
+<tableitem align="1" filedname="cusNickname" id="3" indexed="1" label="用户名" row="1" type="4" typepara="/mfTrenchUser/listShowDetailAjax;id-id;cusNo-channelSourceNo;oneUrl-'/mfTrenchUser/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="重置密码" id="11" indexed="16" label="-" row="1" type="5" typepara="/mfTrenchUser/resetPasswordAjax;id-id;onClick-MfTrenchUser_Insert.resetPasswordAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="2" indexed="6" label="联系电话" row="1" type="0" widthType="0"/>
+</table>

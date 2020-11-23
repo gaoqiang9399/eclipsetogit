@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="reportQueryConfigdetail" title="用户报表查询条件设置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="报表编号" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="报表名称" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="操作号" maxlength="22" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conditonContent" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="查询条件" maxlength="5000" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sqlJavaFlag" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="sql实现方式 1-sql 2-javaBean" maxlength="1" mustinput="0" row="13"/>
+</form>

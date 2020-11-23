@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincappFinish_GCDB" para="eadis_page" title="工程担保" type="1">
+<tableitem align="2" filedname="ext2" id="99" indexed="95" label="保函责任" row="1" type="6" typepara="GUARANTEE_FORM" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="87" indexed="94" label="保函金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="openDate" id="98" indexed="100" label="保函开立日期" type="1" widthType="0"/>
+<tableitem align="2" filedname="guaranteeEndDate" id="97" indexed="101" label="保函结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="manageOpName1" id="96" indexed="102" label="项目经理" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="pactNo" id="92" indexed="84" label="委保编号" row="1" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;onClick-enterClick(this);" widthType="0"/>
+<tableitem align="2" filedname="breedName" id="89" indexed="90" label="产品种类" row="1" type="0" widthType="0"/>
+</table>

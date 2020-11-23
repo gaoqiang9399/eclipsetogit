@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pledgebillupload" para="eadis_page" title="上传合同清单回显" type="2">
+<tableitem align="2" filedname="billName" id="4" indexed="4" label="买方名称" type="0" typepara="/pledgeBaseInfoBill/listShowDetailAjax;pledgeBillNo-pledgeBillNo;oneUrl-'/pledgeBaseInfoBill/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="ascriptionBus" id="3" indexed="5" label="基础合同名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="storehouse" id="10" indexed="6" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="instockData" id="9" indexed="3" label="合同签订时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="singleWeight" id="8" indexed="10" label="应收账款余额(元)" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="unitPrice" id="7" indexed="9" label="合同金额(元)" row="1" type="12" width="20" widthType="0"/>
+</table>

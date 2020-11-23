@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form id="pers0004" title="个人负债">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="debtNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="个人负债编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="debtee" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="债权人" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="persDebtType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="债务类型" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="curNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="币种" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="debtAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="欠债金额" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="startDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="起始日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="到期日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="debtDesc" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="债务描述" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="最新登记机构号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="最新登记机构名称" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegNo" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="最新登记人" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegName" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="最新登记人名称" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="10"/>
+</form>

@@ -1,0 +1,55 @@
+.layout .info.scroll_y,
+.layout .info.scroll_xy{
+	 padding: 13px 5px 8px 15px!important;
+}
+.info.scroll_xy .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar,
+.info.scroll_x .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+	margin: 5px auto;
+}
+.scroll_x .mCSB_container_wrapper
+,.scroll_y .mCSB_container_wrapper
+,.scroll_xy .mCSB_container_wrapper
+,.scroll_table .mCSB_container_wrapper
+,.scroll_content_table .mCSB_container_wrapper
+{
+	margin-bottom: 8px;
+    margin-right: 8px;
+}
+.scroll_y .mCSB_scrollTools.mCSB_scrollTools_vertical
+,.scroll_xy .mCSB_scrollTools.mCSB_scrollTools_vertical
+,.scroll_table .mCSB_scrollTools.mCSB_scrollTools_vertical
+,.scroll_content_table .mCSB_scrollTools.mCSB_scrollTools_vertical{
+  width: 8px;
+}
+
+.scroll_y .mCSB_inside > .mCSB_container 
+,.scroll_table .mCSB_inside > .mCSB_container 
+,.scroll_content_table .mCSB_inside > .mCSB_container {
+}
+.scroll_xy  .mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.scroll_x  .mCSB_scrollTools.mCSB_scrollTools_horizontal{
+ 	height: 8px;
+ }
+.scroll_xy .mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_horizontal,
+.scroll_x .mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_horizontal{
+	right: 8px;
+}
+ 
+.scroll_xy .mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_vertical{
+	bottom: 8px;
+}
+
+.scroll_xy .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden,
+.scroll_y .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden,
+.scroll_table .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden,
+.scroll_content_table .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden
+{
+	 margin-right: 6px;
+}
+.scroll_table{max-height:160px}
+.scroll_table .mCustomScrollBox,
+.scroll_content_table .mCustomScrollBox{
+	height: auto;	
+}
+.mCSB_inside > .mCSB_container{ margin-right:10px;}
+		.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-right:10px;}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetspreservationcaselist" para="eadis_page" title="涉案资产" type="1">
+<tableitem align="2" filedname="pledgeName" id="5" indexed="4" label="资产名称" sortType="2" type="4" typepara="/pledgeBaseInfo/getById;pledgeNo-pledgeNo;entranceType-'pledge';subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="16" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="keepStatus" id="19" indexed="12" label="押品状态" row="1" sortType="2" type="6" typepara="KEEP_STATUS" widthType="0"/>
+<tableitem align="2" filedname="pledgeMethod" id="18" indexed="11" label="担保方式" row="1" sortType="2" type="6" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" filedname="pledgeNo" id="17" indexed="7" label="资产编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="involvementSts" id="16" indexed="13" label="涉案状态" row="1" sortType="2" type="6" typepara="INVOLVEMENT_STS" widthType="0"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="orgnizationQueryRecords" title="机构查询记录明细表" type="2">
+<tableitem align="2" filedname="queryID" id="4" indexed="0" label="查询编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="queryOperator" id="3" indexed="1" label="查询操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="queryReason" id="2" indexed="2" label="查询原因" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="queryTime" id="1" indexed="3" label="查询时间" type="0" widthType="0"/>
+</table>

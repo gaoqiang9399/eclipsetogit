@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="penaltychild0001" link="/mfSysPenaltyChild/findByPage" para="eadis_page" title="违约金阶梯比例表" type="2">
+<tableitem align="2" filedname="loanMouthMax" id="15" indexed="17" label="贷款期限上限" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="loanMouthMin" id="14" indexed="18" label="贷款期限下限" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="min-value" filedname="surplusLoanMouthMin" id="13" indexed="20" label="剩余贷款期限下限" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" fieldStyle="max-value" filedname="surplusLoanMouthMax" id="12" indexed="19" label="剩余贷款期限上限" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="multiStepRatio" id="11" indexed="21" label="阶梯比例百分制(%)" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="operate" id="10" indexed="24" label="操作按钮" row="1" sortType="2" type="0" typepara="/cwCashierJournal/deleteAjax;weeks-weeks;accountNo-accountNo;onClick-ajaxDelete(this)" widthType="0"/>
+<tableitem align="2" filedname="id" id="17" indexed="22" label="唯一序号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="idMain" id="16" indexed="23" label="idMain" row="1" sortType="2" type="99" widthType="0"/>
+</table>

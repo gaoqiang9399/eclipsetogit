@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="msgconf0001" para="eadis_page" title="消息模板变量表" type="2">
+<tableitem align="2" filedname="flag" id="7" indexed="9" label="是否启用" type="4" typepara="/mfMsgVar/updateFlagAjax.action;varId-varId" width="10" widthType="0"/>
+<tableitem align="2" filedname="tbPk" id="6" indexed="7" label="来源表主键" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="11" label="-" row="1" type="5" typepara="/mfMsgVar/deleteAjax;varId-varId;onClick-ajaxTrDelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="varUsage" id="5" indexed="3" label="变量用途" row="1" type="6" typepara="MSG_VAR_USAGE" width="10" widthType="0"/>
+<tableitem align="2" filedname="varType" id="13" indexed="4" label="变量类型" row="1" type="6" typepara="MSG_VAR_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="varCol" id="4" indexed="5" label="来源字段" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="varTb" id="3" indexed="6" label="来源表" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="varName" id="2" indexed="2" label="变量名" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="修改" id="11" indexed="10" label="-" row="1" type="5" typepara="/mfMsgVar/getDetailPage;varId-varId;onClick-updateVar" width="5" widthType="0"/>
+</table>

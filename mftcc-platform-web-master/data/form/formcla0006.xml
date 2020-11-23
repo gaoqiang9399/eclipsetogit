@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cla0006" title="初分模型表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="模型编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="1" labelname="模型名称" labelwidth="20" maxlength="60" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="overMinDays" fieldtype="1" formactiveid="4" initvalue="0" labelalign="3" labelcol="1" labelname="逾期最小天数" mustinput="0" row="3" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="21" fieldwidth="30" formactiveid="5" labelalign="3" labelcol="3" labelname="担保方式" labelwidth="20" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="overTimes" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="逾期次数" mustinput="0" row="2" unit="次"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="grade" fieldsize="GRADE" fieldtype="21" formactiveid="7" labelalign="3" labelcol="3" labelname="客户信用" maxlength="3" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claLevel" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="风险分类结果" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="9" initvalue="1" labelalign="3" labelcol="3" labelname="启用标志" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="overMaxDays" fieldtype="1" formactiveid="10" initvalue="0" labelalign="3" labelcol="3" labelname="逾期最大天数" mustinput="0" row="3" unit="天"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="examindexrel0002" title="贷后检查检查指标项关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examTemplateId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="贷后检查模型编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="indexId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="指标编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="指标名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="indexDesc" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="指标描述" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stdCore" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="指标得分" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leval" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="指标级别" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upIndexId" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="上级指标编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gradeCardId" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="评分卡编号" maxlength="30" mustinput="0" row="7"/>
+</form>

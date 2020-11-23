@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssbuyorder02" para="eadis_page" title="购货订单(估价入库选源单)" trClick=";onClick-Pss.checkCurrentTr(this)" type="2">
+<tableitem align="2" filedname="auditOpName" id="24" indexed="13" label="审核人" mytitle="模板内容-auditOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="19" indexed="12" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="3" filedname="amount" id="9" indexed="8" label="购货金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="deliveryDate" id="5" indexed="11" label="交货日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="orderDate" id="4" indexed="2" label="订单日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="3" indexed="5" label="供应商" mytitle="模板内容-supplierName;" row="1" sortType="1" type="3" typepara="10" width="12" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNo" id="2" indexed="3" label="订单编号" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="orderState" id="11" indexed="9" label="订单状态" row="1" sortType="2" type="6" typepara="PSS_BUY_ORDER_STATE" width="6" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNo" id="1" indexed="1" label="全选" sortType="2" type="2" typepara="buyOrderNo-buyOrderNo;" width="4" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="10" indexed="7" label="数量" row="1" sortType="2" type="0" width="5" widthType="0"/>
+</table>

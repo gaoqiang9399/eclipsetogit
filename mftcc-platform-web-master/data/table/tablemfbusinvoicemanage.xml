@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusinvoicemanage" para="eadis_page" title="发票申请列表" type="1">
+<tableitem align="2" filedname="opName" id="27" indexed="28" label="申请人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceType" id="18" indexed="19" label="发票类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceTotaltaxprice" id="5" indexed="6" label="价税合计" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceFincname" id="4" indexed="5" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceTaxprice" id="13" indexed="14" label="税额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="4" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="approveResult" id="38" indexed="30" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceNumber" id="2" indexed="3" label="发票号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceApplydate" id="37" indexed="29" label="申请时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="invoiceNo" id="1" indexed="1" label="发票代码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="操作" id="36" indexed="39" label="-" type="5" typepara="/acLmAtpyDtl/getListPageForConfirm;traceNoStr-traceNo;onClick-openMyUrl" width="2" widthType="0"/>
+</table>

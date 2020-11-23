@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusApplySpouseSurveyBase" title="申请人配偶调查表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="spouseName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="配偶姓名" maxlength="20" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="spouseNameFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="配偶姓名是否一致" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="spouseIdentity" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="配偶身份" maxlength="50" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="spouseIdentityFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="配偶身份是否一致" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="educationBackground" fieldsize="EDU" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="学历" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tradeType" fieldsize="TRADE_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="从事行业" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyWorkType" fieldsize="TRADE_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="申请人工作" maxlength="1" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="spouseWork" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="配偶工作" maxlength="30" mustinput="" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="spouseMonthIncomeAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="配偶月收入" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="deviceType" fieldsize="BE_NOTHING" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="设备情况核实" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="liveAddress" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="居住地址" maxlength="200" mustinput="1" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="liveAddressFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="居住地址是否一致" mustinput="" readonly="" row="6"/>
+<formelement alt="最多输入200字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="surveyId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="主键id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext1" fieldtype="90" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="ext1" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext2" fieldtype="90" formactiveid="19" horVer="0" labelalign="3" labelcol="5" labelname="ext2" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext3" fieldtype="90" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="ext3" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext4" fieldtype="90" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="ext4" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext5" fieldtype="90" formactiveid="22" horVer="0" labelalign="3" labelcol="5" labelname="ext5" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext6" fieldtype="90" formactiveid="23" horVer="0" labelalign="3" labelcol="5" labelname="ext6" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext7" fieldtype="90" formactiveid="24" horVer="0" labelalign="3" labelcol="5" labelname="ext7" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext8" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="ext8" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext9" fieldtype="90" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="ext9" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext10" fieldtype="90" formactiveid="27" horVer="0" labelalign="3" labelcol="5" labelname="ext10" mustinput="" readonly="" row="8"/>
+</form>

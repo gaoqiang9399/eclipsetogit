@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="busrepayplan00001" para="eadis_page" link="/mfBusRepayPlan/findByPage" title="还款计划表" type="1">
+<tableitem align="2" filedname="planId" id="1" indexed="1" label="流水号" row="1" type="4" typepara="/mfBusRepayPlan/getById;planId-planId;query-'query'"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="4" indexed="4" label="合同编号" row="1" type="0" />
+<tableitem align="2" filedname="fincId" id="5" indexed="5" label="借据号，支用申请id" row="1" type="0" />
+<tableitem align="2" filedname="pactAmt" id="6" indexed="6" label="合同金额" row="1" type="0" />
+<tableitem align="2" filedname="loanAmt" id="7" indexed="7" label="借据金额" row="1" type="0" />
+<tableitem align="2" filedname="repayPrcp" id="8" indexed="8" label="本期计划应还本金" row="1" type="0" />
+<tableitem align="2" filedname="repayIntst" id="9" indexed="9" label="本期计划应还利息" row="1" type="0" />
+<tableitem align="2" filedname="repayPrcpIntstSum" id="10" indexed="10" label="本期计划应还本息合计" row="1" type="0" />
+<tableitem align="2" filedname="repayPrcpBal" id="11" indexed="11" label="期末本金余额（未减本期应还本金）" row="1" type="0" />
+<tableitem align="2" filedname="repayPrcpBalAfter" id="12" indexed="12" label="期末本金余额（减本期应还本金）" row="1" type="0" />
+<tableitem align="2" filedname="repayDate" id="13" indexed="13" label="实际还款日期，还款时更新该字段" row="1" type="0" />
+<tableitem align="2" filedname="feeSum" id="14" indexed="14" label="费用合计，还款时费用与本金、利息合并还款时累计" row="1" type="0" />
+<tableitem align="2" filedname="planBeginDate" id="15" indexed="15" label="本期还款开始日期" row="1" type="0" />
+<tableitem align="2" filedname="planEndDate" id="16" indexed="16" label="本期计划还款日期(本期结束日期)" row="1" type="0" />
+<tableitem align="2" filedname="expiryIntstDate" id="17" indexed="17" label="本期结息日期" row="1" type="0" />
+<tableitem align="2" filedname="termNum" id="18" indexed="18" label="期号" row="1" type="0" />
+<tableitem align="2" filedname="outFlag" id="19" indexed="19" label="还款计划状态（0 -未还款 1-已还完 2-部分还款 3-逾期）" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="20" indexed="20" label="登记时间17为格式20170506 15:35:40" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="21" indexed="21" label="修改时间 17为格式20170506 15:35:40" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="22" indexed="22" label="登记人员编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="23" indexed="23" label="登记人员名称" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="24" indexed="24" label="登记人员部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="25" indexed="25" label="登记人员部门名称" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="26" indexed="26" label="备用字段1" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="27" indexed="27" label="备用字段2" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="28" indexed="28" label="备用字段3" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="29" indexed="29" label="备用字段4" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="30" indexed="30" label="备用字段5" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/mfBusRepayPlan/deleteAjax;planId-planId;onClick-ajaxDelete(this)" width="2"/>
+</table>

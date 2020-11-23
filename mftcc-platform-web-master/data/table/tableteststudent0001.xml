@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="teststudent0001" para="eadis_page" link="/testStudent/findByPage" title="" type="1">
+<tableitem align="2" filedname="studentId" id="1" indexed="1" label="主键 也是学生的学号" row="1" type="4" typepara="/testStudent/getById;studentId-studentId;query-'query'"/>
+<tableitem align="2" filedname="studentName" id="2" indexed="2" label="学生的姓名" row="1" type="0" />
+<tableitem align="2" filedname="studentSex" id="3" indexed="3" label="学生的性别" row="1" type="0" />
+<tableitem align="2" filedname="studentBirth" id="4" indexed="4" label="学生生日 YYYY-MM-DD" row="1" type="0" />
+<tableitem align="2" filedname="studentCharacter" id="5" indexed="5" label="学生的性格 取值需要在词典表中进行查找" row="1" type="0" />
+<tableitem align="2" filedname="studentHobby" id="6" indexed="6" label="爱好，可以有多，多个时用逗号隔开" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="8" indexed="8" label="-" row="1" type="5" typepara="/testStudent/deleteAjax;studentId-studentId;onClick-ajaxDelete(this)" width="2"/>
+</table>

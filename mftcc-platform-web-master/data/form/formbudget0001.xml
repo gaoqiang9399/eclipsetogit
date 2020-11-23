@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="budget0001" title="预算审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="budgetName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="预算标题" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="weeks" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="预算周期" mustinput="1" row="2"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="budgetSum" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="预算总额" mustinput="" readonly="1" row="3" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isChairman" fieldsize="YES_NO" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="董事长审批" mustinput="0" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="6"/>
+</form>

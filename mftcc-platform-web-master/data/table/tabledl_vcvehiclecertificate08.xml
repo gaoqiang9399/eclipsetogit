@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcvehiclecertificate08" para="eadis_page" title="机动车合格证批量特殊出库列表" trClick=";onClick-Vcms.checkCurrentTr(this)" type="1">
+<tableitem align="2" filedname="configurationName" id="53" indexed="16" label="配置" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="haveScanfile" id="23" indexed="27" label="是否扫描" sortType="1" type="6" typepara="YES_NO" width="8" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="52" indexed="15" label="车型" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="base" id="51" indexed="14" label="基地" row="1" sortType="1" type="6" typepara="VC_BASE" width="6" widthType="0"/>
+<tableitem align="2" filedname="fileName" id="50" indexed="28" label="扫描件" row="1" sortType="1" type="4" typepara="/vcCertificateScanfile/previewFile;scanfileId-scanfileId;fileName-fileName;onClick-VcCertificateScanfile_List.previewFile(this);" width="18" widthType="0"/>
+<tableitem align="2" filedname="certificateId" id="48" indexed="2" label="全选" row="1" sortType="2" type="2" typepara="certificateId-certificateId;" width="4" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="26" label="单价(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="16" width="18" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="5" indexed="5" label="序号" row="1" sortType="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="6" label="车架号" row="1" sortType="1" type="4" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-VcVehicleCertificate_List4BatchOutStorage.getDetailPage(this);" width="16" widthType="0"/>
+</table>

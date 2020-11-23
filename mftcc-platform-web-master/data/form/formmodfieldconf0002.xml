@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="modfieldconf0002" title="历史记录字段配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="历史记录配置ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tableName" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="表名" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tableDes" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="表名描述" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appCode" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="表中的字段名" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityCode" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="实体类的字段.如appName" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifHistory" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="是否记录历史" maxlength="1" mustinput="0" row="11"/>
+</form>

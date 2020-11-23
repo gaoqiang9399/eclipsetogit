@@ -1,0 +1,206 @@
+body {
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+.track_div{
+	height:95%;
+}
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.addtracdiv { /* height: 70px;
+		line-height: 70px; 
+		background: #f9f9f9;*/
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.addtracdiv label { /* width: 25%; */
+	font-weight: normal;
+	padding-right: 20px;
+	width: 19%;
+}
+
+.addtracdiv select#track_type { /* width: 68%; */
+	border-radius: 0px;
+}
+
+.addtracdiv input[type="text"] {
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 0px;
+}
+
+.track-save,.track-save:hover,.track-save:active {
+	width: 70px;
+	background: #32b5cb;
+	color: #fff;
+	border-radius: 0px;
+	height: 33px;
+	border: 1px solid #32b5cb;
+	margin-top: 20px;
+}
+.btn-position{
+	position: inherit;
+}
+
+.track-reset {
+	width: 70px;
+	background: #fff;
+	border-radius: 0px;
+	height: 33px;
+	border: 1px solid #e3e3e3;
+	margin-top: 20px;
+}
+
+.track-div {
+	width: 80%;
+	margin:0 auto;
+}
+.track-line {
+	width: 98%;
+	padding: 0px;
+	border-top: 1px solid #d2d3d6;
+}
+.btn-div{
+	width: 78%;
+	height: 40px;
+	text-align: left;
+	margin: 0 auto;
+}
+.tip{
+    width: 45%;
+    text-align: center;
+    color: #ff0000;
+}
+.track-info { /* background: #f9f9f9; */
+	line-height: 30px;
+}
+
+.track-type-list {
+	padding: 0px;
+	color: #32B5CB;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.track-content {
+	padding: 0px;
+	text-align: left;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+.track-opt {
+	font-size: 12px;
+	text-align: left;
+	padding-right: 20px;
+}
+
+.track-reg-time {
+	color: #A7A7A7;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 7px;
+}
+
+.track-opt a {
+	color: #32B5CB;
+	/* padding-left: 15px; */
+	margin-right: 15px;
+}
+.message{
+	border-top: 1px solid #d2d3d6;
+	padding-top: 10px;
+}
+.comment-div {
+	padding: 20px;
+	padding-top: 10px;
+	width: 100%;
+	margin-left: auto;
+	background: #f9f9f9;
+}
+
+.comment-info {
+	text-align: left;
+	line-height: 30px;
+}
+
+.comment-reg-time {
+	font-size: 12px;
+	color: #A7A7A7;
+}
+
+.required {
+	color: #ff0000;
+}
+/*跟进计划弹窗样式*/
+/*日程弹窗*/
+	.row {
+		margin-bottom: 3px;
+	}
+	
+	.input-box.title {
+		text-align: center;
+	}
+	
+	.input-box .form-control {
+		display: inline-block;
+		border-radius: 4px;
+		width: 72%;
+		margin: 0px;
+		font-size: 12px;
+	}
+	
+	.input-box .datepicker {
+		width: 28%;
+	}
+	
+	.input-box .timepicker {
+		width: 21%;
+	}
+	
+	.input:HOVER {
+		background-color: #009db7;
+		border-color: #009db7;
+	}
+	
+	.input-box .wran-input {
+		width: 50%;
+	}
+	
+	.control-label {
+		float: left;
+		margin: 7px 20px;
+		font-weight: 100;
+		font-size:12px;
+	}
+	
+	.control-label.wran-label {
+		width: 30%;
+	}
+	
+	.wran-text {
+		width: 50%;
+	}
+	
+	.row {
+		margin-left: 10px;
+	}
+	
+	.form-control.share {
+		width: 68%;
+	}
+	
+	.form-control.eventtitle {
+		width: 85%;
+		margin-left: -16px;
+		margin-top: 20px;
+	}
+	.left-text {
+		text-align: left;
+	}

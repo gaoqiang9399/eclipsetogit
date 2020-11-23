@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="disagreeBussExtension" title="展期业务终止表单">
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0"
+                 labelalign="3" labelcol="1" labelname="客户" mustinput="" readonly="1" row="1"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="2" horVer="0"
+                 labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="2"/>
+    <formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="extenAppAmt" fieldtype="1" formactiveid="3"
+                 horVer="0" labelalign="3" labelcol="1" labelname="展期申请金额" mustinput="" readonly="1" row="3" unit="元"/>
+    <formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extenTerm" fieldtype="1" formactiveid="4"
+                 horVer="0" labelalign="3" labelcol="1" labelname="展期申请期限" mustinput="" readonly="1" row="5"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disagreeOpName" fieldtype="1" formactiveid="6"
+                 horVer="0" labelalign="3" labelcol="1" labelname="终止人" mustinput="" readonly="1" row="7"/>
+    <formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="disagreeDate" fieldtype="1" formactiveid="7"
+                 horVer="0" labelalign="3" labelcol="1" labelname="终止时间" mustinput="" readonly="1" row="8"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disagreeOpNo" fieldtype="99" formactiveid="8"
+                 horVer="0" labelalign="3" labelcol="5" labelname="终止操作员编号" mustinput="" param2="1" readonly=""
+                 row="2"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disagreeTime" fieldtype="99" formactiveid="9"
+                 horVer="0" labelalign="3" labelcol="5" labelname="终止时间" mustinput="" param2="1" readonly="" row="3"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="10" horVer="0"
+                 labelalign="3" labelcol="5" labelname="业务申请号" mustinput="" param2="1" readonly="" row="1"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="11" horVer="0"
+                 labelalign="3" labelcol="5" labelname="合同号" mustinput="" param2="1" readonly="" row="6"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="12" horVer="0"
+                 labelalign="3" labelcol="5" labelname="借据号" mustinput="" param2="1" readonly="" row="7"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disagreeType" fieldtype="99" formactiveid="13"
+                 horVer="0" labelalign="3" labelcol="5" labelname="否决类型" mustinput="" param2="1" readonly="" row="8"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extenFincRate" fieldtype="1" formactiveid="14"
+                 horVer="0" labelalign="3" labelcol="1" labelname="展期申请利率" mustinput="" readonly="1" row="4"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disagreeReason" fieldtype="1" formactiveid="15"
+                 horVer="0" labelalign="3" labelcol="1" labelname="终止原因" maxlength="300" mustinput="1" readonly=""
+                 row="6"/>
+    <formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extensionApplyId" fieldtype="99" formactiveid="16"
+                 horVer="0" labelalign="3" labelcol="1" labelname="展期ID" mustinput="" readonly="" row="9"/>
+</form>

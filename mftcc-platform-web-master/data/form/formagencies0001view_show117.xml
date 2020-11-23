@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="agencies0001view_show117" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="agenciesButtName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="资金机构对接人名称" maxlength="30" mustinput="1" param="agenciesUid" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="agenciesButtPhone" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="资金机构对接人联系方式" maxlength="30" mustinput="1" param="agenciesUid" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="remarks" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="备注说明" maxlength="500" mustinput="0" param="agenciesUid" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="regTime" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="4" labelname="登记时间格式" maxlength="17" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesUid" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="机构编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldcolspan="2" fieldname="agenciesOpName" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="4" labelname="关联操作员" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="3" labelname="操作员名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="consultingFeeYear" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="年化咨询费" mustinput="" param="agenciesUid" readonly="" row="3" unit="%"/>
+<formelement datatype="9" fieldalign="1" fieldcol="3" fieldname="securityFeeYear" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="年化担保费" mustinput="" param="agenciesUid" readonly="" row="3" unit="%"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="thirdPartyPaymentFee" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="3" labelname="第三方支付费" mustinput="" param="agenciesUid" readonly="" row="3" unit="%"/>
+<formelement datatype="9" fieldalign="1" fieldcol="5" fieldname="platformServerFee" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="4" labelname="平台服务费" mustinput="" param="agenciesUid" readonly="" row="3" unit="%"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="investorYieldRate" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="投资人收益率" mustinput="" param="agenciesUid" readonly="" row="5" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="25" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="agenciesUid" readonly="" row="1"/>
+</form>

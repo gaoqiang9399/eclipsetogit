@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatemodify_resubmit01" title="合格证价格修改重新提交审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyGroupId" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="申请组ID" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateIdsStr" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="合格证ID(多个用;分割)" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="newUnitPricesStr" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="新单价(多个用;分割)" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" row="1"/>
+</form>

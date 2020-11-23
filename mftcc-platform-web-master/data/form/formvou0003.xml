@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0003" title="担保与业务关联（抵押物类型）表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="业务申请号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="担保编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="21" formactiveid="3" horVer="1" initvalue="3" labelalign="1" labelcol="2" labelname="担保方式" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="21" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="抵质押物类型" maxlength="2" mustinput="1" onchange="insertForGuaTyp();" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="担保金额" mustinput="" readonly="1" row="3" unit="元" />
+</form>

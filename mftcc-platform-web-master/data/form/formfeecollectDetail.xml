@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="feeCollectDetail" title="费用收取">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="accountAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="到账金额" maxlength="14" mustinput="0" onchange="guaranteeApply_chargeFee.getFeiCha()" readonly="1" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="repayDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="到账日期" maxlength="8" mustinput="0" onfocus="fPopUpCalendarDlg()" readonly="1" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="90" formactiveid="59" labelalign="3" labelcol="1" labelname="cusNo" maxlength="20" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="90" formactiveid="61" labelalign="3" labelcol="1" labelname="合同ID" maxlength="30" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="137" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="1" formactiveid="139" horVer="0" labelalign="3" labelcol="3" labelname="合同金额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="guaranteeAmt" fieldtype="1" formactiveid="140" horVer="0" labelalign="3" labelcol="1" labelname="应收担保费" maxlength="10" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="reviewAmt" fieldtype="1" formactiveid="141" horVer="0" labelalign="3" labelcol="3" labelname="应收评审费" maxlength="10" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectAccount" fieldtype="1" formactiveid="144" horVer="0" labelalign="3" labelcol="1" labelname="到账账号" mustinput="0" onclick="MfBusChargeFee_input.selectBankAcc()" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectBank" fieldtype="1" formactiveid="145" horVer="0" labelalign="3" labelcol="1" labelname="到账账号开户行" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceType" fieldsize="ZINVOICE_TYPE" fieldtype="2" formactiveid="146" horVer="0" labelalign="3" labelcol="1" labelname="发票类型" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collectAccName" fieldtype="1" formactiveid="147" horVer="0" labelalign="3" labelcol="3" labelname="到账账号名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payTaxesNo" fieldtype="1" formactiveid="149" horVer="0" labelalign="3" labelcol="1" labelname="纳税人识别号" mustinput="0" onclick="MfBusChargeFee_input.selectInvoiceInfog()" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="area" fieldtype="1" formactiveid="150" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactsTel" fieldtype="1" formactiveid="151" horVer="0" labelalign="3" labelcol="3" labelname="电话" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collectAccId" fieldtype="99" formactiveid="152" horVer="0" labelalign="3" labelcol="3" labelname="到账账户关联id" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payBank" fieldtype="1" formactiveid="153" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payBankNo" fieldtype="1" formactiveid="154" horVer="0" labelalign="3" labelcol="3" labelname="账号" mustinput="" readonly="1" row="11"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="guaranteeAmtTax" fieldtype="1" formactiveid="155" horVer="0" labelalign="3" labelcol="1" labelname="不含税担保费" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="reviewAmtTax" fieldtype="1" formactiveid="156" horVer="0" labelalign="3" labelcol="3" labelname="不含税评审费" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="feeChargeType" fieldtype="22" formactiveid="157" horVer="0" labelalign="3" labelcol="3" labelname="收费类型" mustinput="0" param="2-补充收费|3-第二年收费|4-补充放款|" readonly="1" row="8"/>
+</form>

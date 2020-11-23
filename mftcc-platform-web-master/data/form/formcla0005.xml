@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cla0005" title="初分模型表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="模型编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="模型名称" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="overMinDays" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="逾期最小天数" maxlength="0" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="担保方式" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="overTimes" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="逾期次数" maxlength="0" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="grade" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="客户信用" maxlength="3" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="claLevel" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="风险分类结果" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="overMaxDays" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="逾期最大天数" maxlength="0" mustinput="0" row="5"/>
+</form>

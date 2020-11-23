@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="allocation0002" title="归档信息配置表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileAllocationId" fieldtype="99" maxlength="40" formactiveid="1" labelalign="1" labelcol="1" labelname="归档配置ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileAllocationUrl" fieldtype="99" maxlength="1000" formactiveid="2" labelalign="1" labelcol="1" labelname="文件归档存放路径" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileBackUrl" fieldtype="99" maxlength="1000" formactiveid="3" labelalign="1" labelcol="1" labelname="文档备份存放路径" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileReplaceUrl" fieldtype="99" maxlength="1000" formactiveid="4" labelalign="1" labelcol="1" labelname="文档替换存放路径" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileAddUrl" fieldtype="99" maxlength="1000" formactiveid="5" labelalign="1" labelcol="1" labelname="文档补充存放路径" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileDeleteUrl" fieldtype="99" maxlength="1000" formactiveid="6" labelalign="1" labelcol="1" labelname="文档删除存放路径" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileMergeUrl" fieldtype="99" maxlength="1000" formactiveid="7" labelalign="1" labelcol="1" labelname="文档合并存放路径" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileCleanFrequency" fieldtype="99" maxlength="0" formactiveid="8" labelalign="1" labelcol="1" labelname="系统文档清理频率" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileCleanFrequencyUnit" fieldtype="99" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="系统文档清理频率单位" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileBorrowTerm" fieldtype="99" maxlength="0" formactiveid="10" labelalign="1" labelcol="1" labelname="文档借阅最大期限" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fileBorrowTermUnit" fieldtype="99" maxlength="1" formactiveid="11" labelalign="1" labelcol="1" labelname="文档借阅最大期限单位" mustinput="0" row="19"/>
+</form>

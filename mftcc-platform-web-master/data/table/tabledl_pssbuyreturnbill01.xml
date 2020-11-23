@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssbuyreturnbill01" para="eadis_page" title="购货退货单" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssBuyReturnBill/getDetailPage;buyReturnBillId-buyReturnBillId;onDbClick-PssBuyReturnBill_List.getBuyReturnBill" type="2">
+<tableitem align="2" authority="auditStsed-1;approvalStatus-02;approvalStatus-03;approvalStatus-05" filedname="删除" id="31" indexed="27" label="-" row="1" sortType="2" type="5" typepara="/pssBuyReturnBill/deleteBuyReturnBillAjax;buyReturnBillId-buyReturnBillId;onClick-PssBuyReturnBill_List.deleteBuyReturnBill(this)" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="29" indexed="26" label="审批状态" sortType="1" type="6" typepara="PSS_APPROVAL_STATUS" width="8" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="24" indexed="25" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="2" filedname="refundState" id="18" indexed="19" label="退款状态" row="1" sortType="2" type="6" typepara="PSS_REFUND_STATE" width="6" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="9" indexed="9" label="数量" row="1" sortType="1" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="amount" id="8" indexed="10" label="退货金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="buyBillNo" id="7" indexed="7" label="原购货单号" mytitle="原购货单号-buyBillNo" row="1" sortType="2" type="4" typepara="/pssBuyBill/getDetailPage;buyBillNo-buyBillNo;onClick-PssBuyReturnBill_List.getBuyBill;subStringNub-13;" width="8" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNo" id="6" indexed="6" label="关联购货订单号" mytitle="关联购货订单号-buyOrderNo" row="1" sortType="2" type="4" typepara="/pssBuyOrder/getDetailPage;buyOrderNo-buyOrderNo;onClick-PssBuyReturnBill_List.getBuyOrder;subStringNub-15;" width="9" widthType="0"/>
+<tableitem align="3" filedname="refunded" id="14" indexed="15" label="已退款" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="4" indexed="2" label="单据日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="discountAfterAmount" id="12" indexed="13" label="优惠后金额" row="1" sortType="1" type="12" width="9" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="3" indexed="4" label="供应商" mytitle="模板内容-supplierName;" row="1" sortType="1" type="3" typepara="6" width="8" widthType="0"/>
+<tableitem align="2" filedname="buyReturnBillNo" id="2" indexed="3" label="单据编号" mytitle="单据编号-buyReturnBillNo" row="1" sortType="1" type="4" typepara="/pssBuyReturnBill/getDetailPage;buyReturnBillId-buyReturnBillId;onClick-PssBuyReturnBill_List.getBuyReturnBill;subStringNub-14;" width="10" widthType="0"/>
+<tableitem align="2" filedname="buyReturnBillId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="buyReturnBillId-buyReturnBillId;" width="4" widthType="0"/>
+</table>

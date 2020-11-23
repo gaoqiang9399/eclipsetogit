@@ -1,0 +1,138 @@
+@page { 
+	size:A4;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	color: #333;
+	font-family: "SimSun";
+}
+/* 清除浮动 begin*/
+.clearfix:after { 
+    content:"\200B"; 
+    display:block; 
+    height:0; 
+    clear:both; 
+} 
+.clearfix {
+	*zoom:1;
+}
+
+.td_10{
+	width: 10%;
+}
+.td_20{
+	width: 20%;
+}
+.td_30{
+	width: 30%;
+}
+.td_45{
+	width: 45%;
+}
+.td_90{
+	width: 90%;
+}
+
+.width_100{
+	width: 100%;
+}
+
+.title-outer{}
+.title-outer h1{
+	font-size: 20px;
+	text-align: center;
+}
+.table-outer table {
+	border-collapse:collapse;
+}
+.table-outer table tr th{
+	height: 18px;
+	border: 1px solid #cfcfcf;
+	font-size: 12px;
+	text-align: center;
+}
+.table-outer table tr td{
+	height: 18px;
+	border: 1px solid #cfcfcf;
+}
+.shupai{
+	 margin:0 auto;
+	 width:14px;
+	 line-height:22px;
+}
+
+.inner-tabel{
+	border: 0px;
+	width: 100%
+}
+
+.inner-tabel tr th{
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+	border-left: 1px solid #cfcfcf;
+	border-right: 1px solid #cfcfcf;
+}
+.inner-tabel tr td{
+	border: 0px !important;
+}
+
+.indent_2{
+	text-indent: 2em;
+}
+.indent_4{
+	text-indent: 4em;
+}
+.inner-div{
+	font-size:10px;
+	padding: 2px 4px;
+}
+.inner-div p{
+	line-height: 12px;
+	margin: 0px;
+	font-size:10px;
+}
+.inser-p{
+	line-height: 16px;
+	margin: 0px;
+	font-size:10px;
+	padding: 2px 4px;
+}
+
+.line-h24{
+	margin: 0px;
+	line-height: 20px;
+}
+.bottom-p{
+	margin: 0px;
+	line-height: 20px;
+	text-align: right;
+}
+
+.bottom-p font{
+	display: block;
+	height: 20px;
+	float: right;
+}
+.bottom-p span{
+	display: block;
+	height: 20px;
+	float: right;
+}
+
+.width-50{
+	width: 50px;
+}
+.width-25{
+	width: 25px;
+}
+.bottom-div{
+	padding-top: 10px;
+}
+.bottom-div p{
+	padding-top: 10px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfSysTemplateEsignerTypeList" link="/mfSysTemplateEsignerType/findByPage" para="eadis_page" title="签约人员类型表" type="1">
+<tableitem align="2" filedname="ifMustEsign" id="15" indexed="8" label="是否必签" row="1" sortType="2" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="14" indexed="10" label="-" row="1" type="5" typepara="/mfSysTemplateEsignerType/getById;id-id;templateNo-templateNo;onClick-MfSysTemplateEsignerType_Insert.edit(this);" widthType="0"/>
+<tableitem align="2" filedname="positioningMethod" id="5" indexed="7" label="定位方法" row="1" sortType="2" type="6" typepara="POSITIONING_METHOD" widthType="0"/>
+<tableitem align="2" filedname="删除" id="13" indexed="11" label="-" row="1" type="5" typepara="/mfSysTemplateEsignerType/deleteAjax;id-id;templateNo-templateNo;onClick-MfSysTemplateEsignerType_Insert.deleteAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="weight" id="4" indexed="6" label="权重(人)" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="esignerType" id="3" indexed="4" label="签约人员类型" row="1" sortType="2" type="6" typepara="ESIGNER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="esignSort" id="16" indexed="5" label="签约顺序" sortType="2" type="0" widthType="0"/>
+</table>

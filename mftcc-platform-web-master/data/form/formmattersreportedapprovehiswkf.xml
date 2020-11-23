@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mattersreportedapprovehiswkf" title="事项呈报审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mattersReportedId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="呈报编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemCategory" fieldsize="ITEM_CATEGORY" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="事项类别" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="itemTitle" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="事项标题" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="submitJobs" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="呈报人员" maxlength="20" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reportingTime" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="呈报日期" mustinput="" readonly="" row="2"/>
+</form>

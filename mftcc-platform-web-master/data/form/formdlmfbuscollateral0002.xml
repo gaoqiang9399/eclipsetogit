@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlmfbuscollateral0002" title="抵质押品管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="2" fieldcol="1" fieldname="collateralName" fieldtype="1" formactiveid="2" horVer="0" labelalign="2" labelcol="1" labelname="押品名称" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="2" fieldcol="2" fieldname="collateralMethod" fieldtype="1" formactiveid="3" horVer="0" labelalign="2" labelcol="2" labelname="担保方式" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="collateralType" fieldtype="1" formactiveid="4" horVer="0" labelalign="2" labelcol="3" labelname="押品类型" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralAuthName" fieldtype="1" formactiveid="5" horVer="0" labelalign="2" labelcol="4" labelname="所有/共有权人" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="collateralCusName" fieldtype="1" formactiveid="6" horVer="0" labelalign="2" labelcol="5" labelname="借款人" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="11" fieldname="regCusName" fieldtype="1" formactiveid="7" horVer="0" labelalign="2" labelcol="10" labelname="登记人" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="keepStatus" fieldtype="1" formactiveid="8" horVer="0" labelalign="2" labelcol="6" labelname="保管状态" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="putInDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="2" labelcol="7" labelname="入库时间" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="isUsed" fieldtype="1" formactiveid="10" horVer="0" labelalign="2" labelcol="8" labelname="是否关联贷款" mustinput="" readonly="" row="1" selrange="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="9" fieldname="regDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="2" labelcol="9" labelname="登记时间" mustinput="" readonly="" row="1" selrange="1" />
+</form>

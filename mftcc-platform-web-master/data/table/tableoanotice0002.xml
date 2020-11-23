@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="oanotice0002" para="eadis_page" title="公告查询情况" type="1">
+<tableitem align="2" filedname="lookTime" id="26" indexed="10" label="阅读时间" type="1" widthType="0"/>
+<tableitem align="2" filedname="pasSts" id="25" indexed="13" label="是否阅读" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="1" filedname="noticeTitle" id="2" indexed="2" label="通知公告标题" mytitle="标题-noticeTitle" row="1" type="3" typepara="10" widthType="0"/>
+<tableitem align="1" filedname="userName" id="9" indexed="11" label="阅读人" row="1" type="0" widthType="0"/>
+</table>

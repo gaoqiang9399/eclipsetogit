@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="requestpayouthislist" para="eadis_page" link="/mfRequestPayoutHis/findByPage" title="请款申请审批历史" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="ID" row="1" type="4" typepara="/mfRequestPayoutHis/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="requestId" id="2" indexed="2" label="请款编号" row="1" type="0" />
+<tableitem align="2" filedname="relationCusNo" id="3" indexed="3" label="关联客户" row="1" type="0" />
+<tableitem align="2" filedname="assetType" id="4" indexed="4" label="资产类别" row="1" type="0" />
+<tableitem align="2" filedname="assetName" id="5" indexed="5" label="资产名称" row="1" type="0" />
+<tableitem align="2" filedname="payoutTotalAmount" id="6" indexed="6" label="请款总金额(元)" row="1" type="0" />
+<tableitem align="2" filedname="requestDate" id="7" indexed="7" label="请款日期" row="1" type="0" />
+<tableitem align="2" filedname="requestPerson" id="8" indexed="8" label="请款人" row="1" type="0" />
+<tableitem align="2" filedname="requestState" id="9" indexed="9" label="请款状态" row="1" type="0" />
+<tableitem align="2" filedname="relationRequestId" id="10" indexed="10" label="关联请款单" row="1" type="0" />
+<tableitem align="2" filedname="requestCount" id="11" indexed="11" label="请款次数" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="12" indexed="12" label="操作员编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="13" indexed="13" label="操作员姓名" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="14" indexed="14" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="15" indexed="15" label="修改时间" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="16" indexed="16" label="当前审批节点" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="17" indexed="17" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="18" indexed="18" label="当前审批人员编号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="19" indexed="19" label="当前审批人员名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="20" indexed="20" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="21" indexed="21" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="23" indexed="23" label="-" row="1" type="5" typepara="/mfRequestPayoutHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

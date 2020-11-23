@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssaleinvoice0002" para="eadis_page" title="销售开票单据详情" trClick=";onClick-PssSaleInvoice_Detail.checkCurrentTr(this)" type="2">
+<tableitem align="2" filedname="billNo" id="8" indexed="3" label="单据编号" row="1" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="busType" id="15" indexed="11" label="业务类型" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="14" indexed="10" label="客户号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="3" filedname="currInvoiceAmount" id="5" indexed="9" label="本次开票金额" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="13" indexed="4" label="客户" mytitle="模板内容-cusName;" sortType="2" type="3" typepara="15" width="15" widthType="0"/>
+<tableitem align="3" filedname="invoicedAmount" id="4" indexed="7" label="已开票金额" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="amount" id="11" indexed="5" label="价税合计" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="notInvoicedAmount" id="2" indexed="8" label="未开票金额" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="billId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="billId-billId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="10" indexed="2" label="单据日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+</table>

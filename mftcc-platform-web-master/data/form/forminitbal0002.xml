@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form id="initbal0002" title="财务初始化余额表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finBooks" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="帐套标识" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="txDate" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accHrt" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="科目控制字" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemsNo" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="辅助核算编号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemsValueNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="辅助核算值编号" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upAccHrt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="上级科目控制字" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isAcc" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="是否是科目余额Y：是科目余额；N：辅助核算余额" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dcInd" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="借贷标志1：借；2：贷；" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curNo" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="币别" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drBal" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="借方余额" maxlength="16" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="crBal" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="贷方余额" maxlength="16" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="操作员" maxlength="20" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="操作员名称" maxlength="50" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occDate" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="时间戳" maxlength="17" mustinput="0" row="25"/>
+</form>

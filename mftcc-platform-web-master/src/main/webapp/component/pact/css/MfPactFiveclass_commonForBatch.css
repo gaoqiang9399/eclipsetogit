@@ -1,0 +1,15 @@
+.notNormFiveclassTr td:nth-child(4) {
+	color: red !important;
+}
+
+.redNowFiveclass {
+	color: red !important;
+}
+
+select.redNowFiveclass option {
+	color: initial !important;
+}
+
+select.redNowFiveclass option:checked {
+	color: red !important;
+}

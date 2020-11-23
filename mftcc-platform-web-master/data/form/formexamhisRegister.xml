@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="examhisRegister" title="贷后检查登记表单">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="templateName" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="检查模板名称" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusMngName" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="5" labelname="客户经理" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusMngNo" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="5" labelname="客户经理编号" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="examHisId" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="检查登记编号" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="docuTemplate" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="文档模板" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="formTemplate" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="5" labelname="表单模板" mustinput="" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" onclick="MfBusFincApp_examineTaskInsert.selectCusDialog()" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='MfBusFincApp_examineTaskInsert.selectCusDialog();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pasMinNo" fieldsize="EXAMINE_DATA_OBJ" fieldtype="2" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="贷后检查主体" mustinput="" row="1" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="INSIDE_LEVEL" fieldtype="21" formactiveid="69" horVer="0" labelalign="3" labelcol="1" labelname="自动分级" mustinput="1" readonly="" row="4" unit="&lt;span class='btn block-view'  onclick='ExamineApplyAfter.autoLevel(this)'&gt;自动分级&lt;/span&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rptDate" fieldtype="1" formactiveid="70" horVer="0" labelalign="3" labelcol="1" labelname="财务报表" mustinput="1" onclick="ExamineApplyAfter.selectFinMain();" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rptType" fieldtype="99" formactiveid="71" horVer="0" labelalign="3" labelcol="3" labelname="报表类型" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accountId" fieldtype="99" formactiveid="72" horVer="0" labelalign="3" labelcol="3" labelname="报表id" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reason" fieldtype="5" formactiveid="73" horVer="0" labelalign="3" labelcol="1" labelname="分级原因" mustinput="" readonly="" row="5"/>
+</form>

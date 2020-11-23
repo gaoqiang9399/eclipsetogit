@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="systemplate0001" para="eadis_page" title="模板列表" type="1">
+<tableitem align="2" authority="useFlag-1" filedname="删除" id="14" indexed="20" label="-" row="1" type="5" typepara="/mfSysTemplate/deleteAjax;templateNo-templateNo;onClick-deleteTemplate(this);" width="2"/>
+<tableitem align="2" filedname="templateNameZh" id="2" indexed="2" label="模板中文名" row="1" type="0" width="30"/>
+<tableitem align="2" filedname="useFlag" id="10" indexed="11" label="启用标示" row="1" type="4" typepara="/mfSysTemplate/updateUseFlagAjax;templateNo-templateNo;" widthType="0"/>
+<tableitem align="2" filedname="templateNo" id="1" indexed="1" label="模板编号" row="1" type="0" typepara="/mfSysModel/getById;modelNo-modelNo;query-'query'" width="20"/>
+<tableitem align="2" filedname="编辑" id="19" indexed="12" label="-" row="1" type="5" typepara="/mfSysTemplate/getById;templateNo-templateNo;onClick-editModelInfo(this);" width="2"/>
+<tableitem align="2" filedname="设计模板" id="18" indexed="13" label="-" row="1" type="5" typepara="action;templateNo-templateNo;templateNameEn-templateNameEn;onClick-template_set(this);" width="2"/>
+<tableitem align="2" filedname="标签配置" id="16" indexed="14" label="-" type="5" typepara="/mfTemplateTagSet/baseTagSet;templateNo-templateNo;onClick-baseTagSet(this);" width="2" widthType="0"/>
+</table>

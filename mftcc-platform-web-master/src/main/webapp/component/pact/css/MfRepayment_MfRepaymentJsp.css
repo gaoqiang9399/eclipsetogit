@@ -1,0 +1,304 @@
+@CHARSET "UTF-8";
+body.modal-open {
+	overflow-y: scroll;
+	padding-right: 0 !important;
+}
+    .fincinf table{
+        margin-top:10px;
+        margin-right:auto;
+        margin-bottom:10px;
+        margin-left:auto;
+        width:80%;
+        height:80px;       
+    }
+    .finctitle-name{
+        width:15%;
+        text-align:left;
+        white-space:nowrap;
+    } 
+    .finctitle-value{
+        width:35%;
+        text-align:left;
+        white-space:nowrap;
+    }
+
+
+.repay{
+		border:1px solid #ccc;
+		background-color:#F8F9FC;
+		margin:20px 50px 0px 50px;
+	}
+	.repayleft{
+		padding:20px 0px 20px 0px;
+	}
+	.repayright{
+		border-left:1px solid #F8F9FC;
+		padding:10px 0px 20px 0px !important;
+		margin: 0px  !important;
+	}
+	
+	.repay .repayleft table tr{
+		height:30px;
+		line-height:30px;
+	}
+	.repay .repayright table tr{
+		height:40px;
+		line-height:40px;
+	}
+	.repay table tr .font-smallup{
+		margin-left:20px;
+		margin-bottom:10px;
+		display:inline-block;
+	}
+	.repayInput{
+		border-style:none;
+		display:none;
+	}
+	.realvalue{
+		margin-left:20px;
+	}
+	.realvalue select,.realvalue input{
+		height:30px;
+		line-height:30px;
+		width:260px;
+	}
+	.tab_span{
+		width:100%;
+		height:100%;
+		display:inline-block;
+		text-align: center;
+	}
+	.list-table .ls_list tbody tr:nth-child(even){
+		background:#F8F9FC!important;
+	}
+	.list-table .ls_list thead tr th{
+		text-align: center;
+		font-size: 14px !important;
+		color: #666;
+	}
+/* 	.list-table .ls_list  tr th{ */
+/* 		text-align: left !important; */
+/* 		width: 14%; */
+/* 	} */
+	.money_right{
+		text-align: right;
+	}
+	.list-table{
+		margin-right:50px;
+		margin-top:0px !important;
+	}
+	
+	.list-table .ls_list tbody tr td{
+		font-size:14px!important;
+		width:130px!important;
+	}
+
+
+.baseinf {
+	width: 100%;
+	min-width: 1100px;
+	height:auto;
+	min-height:130px;
+}
+
+.pay-cus {
+	float: left;
+	width: 38%;
+	height: 50px;
+	text-align: left;
+	padding-top: 10px;
+	margin-left: 5%;
+}
+.pay-cus-img {
+	float: left !important;
+	padding-top: 20px !important;
+	margin-left: 5%;
+}
+.pay-cus-img img{
+	height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+.pay-cus-name {
+	font-size: 20px;
+	/*float: left;*/
+	padding-top:30px;
+}
+
+.pay-cus-phone {
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+	padding-top:71px;
+}
+
+.pay-cus-phone i {
+	font-size: 18px;
+	margin-right: 8px;
+	color: #32b5cb;
+}
+
+.pactinf {
+	float: left;
+	width: 40%;
+	font-size:12px;
+	margin: 0px 50px;
+}
+
+
+.pactinf tbody tr{
+	height:30px;
+	line-height:30px;
+}
+.pactinf tbody tr td{
+	width:25%;
+}
+.pactinf tbody td .fieldShow{
+	border: none;
+	margin:0px 0px 0px 10px !important;
+	background: #ffffff;
+	border: none;
+	word-break: normal;
+	color:#7f7f7f;
+	font-size:12px;
+}
+.pactinf tbody td .font-smallup,.payinf tbody td .font-smallup{
+	color:#7f7f7f;
+}
+
+.payinf {
+	font-size: 12px;
+	background: #F9F9F9;
+	padding-top: 45px;
+/* 	margin-bottom: 5px; */
+/* 	padding-bottom: 30px; */
+}
+
+
+.payinf tbody tr{
+	height:40px;
+	line-height:40px;
+	font-size: 14px;
+}
+.paydetail tbody td .fieldShow {
+	border: none;
+	margin:0px 0px 0px 10px !important;
+/* 	background: #ffffff; */
+	border: none;
+	word-break: normal;
+	color:#7f7f7f;
+	font-size:12px;
+}
+
+
+.paydetail{
+	float: left;
+	width: 45%;
+	margin-left:3%;
+}
+
+.payinf tbody tr td.tdlable{
+	width:15%;
+}
+.payinf tbody tr td.tdvalue{
+	width:35%;
+	padding-left:5px;
+}
+.realpay{
+	float: left;
+	width: 45%;
+}
+
+.realpay tbody tr td{
+	width:15%;
+}
+
+.table_show .title {
+	height: 40px;
+	background: #f8f9fc;
+	/* padding-top: 40px; */
+	padding-left: 40px;
+	font-size:14px;
+	color:#32b5cb;
+}
+
+.repay-btn {
+	width: 285px;
+	padding-left:15px;
+}
+
+.repay-btn input[type="submit"], .repay-btn input[type="button"] {
+    background: #32b5cb;
+    border: none;
+    width: 260px;
+    line-height: 35px;
+    font-size: 8px;
+    color: #fff;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.repay-btn input[type="submit"]:hover, .repay-btn input[type="button"]:hover {
+    background: #32b5cb;
+}
+
+.nor-repay{
+	width: 130px !important;
+}
+.per-repay {
+	width: 96px !important;
+	background: #fff !important;
+	color: #000 !important;
+	border: 1px solid #e3e3e3 !important;
+	
+}
+.third-repay {
+	width: 130px !important;
+	background: #fff !important;
+	color: #000 !important;
+	border: 1px solid #e3e3e3 !important;
+	
+}
+
+.realpay .realvalue{
+	position:relative;
+/* 	padding-left:15px; */
+}
+
+.realpay .unit {
+/* 	position: absolute; */
+/* 	right: 150px; */
+/* 	top: 9px; */
+	font-size:14px;
+	font-style:normal;
+	margin-left:-35px;
+}
+
+
+.nor-prepay{
+	width: 180px !important;
+}
+
+.prealpay{
+	float: left;
+	width: 45%;
+}
+
+.prealpay .punit {
+	font-size:14px;
+	font-style:normal;
+	margin-left:-25px;
+}
+.tab_span{
+	width:100%;
+	height:100%;
+	display:inline-block;
+	text-align: center;
+}
+
+.money_right{
+   text-align: center;
+   text-align: right;
+}
+		
+	

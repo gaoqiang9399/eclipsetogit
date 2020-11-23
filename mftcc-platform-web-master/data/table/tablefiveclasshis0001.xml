@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fiveclasshis0001" para="eadis_page" title="五级分类人工调整历史" trDbClick="/mfPactFiveclass/hisView;fiveclassId-fiveclassId;onDbClick-getHisById(this)" type="1">
+<tableitem align="2" filedname="confirmDate" id="15" indexed="16" label="公司认定时间" row="1" sortType="1" type="1"/>
+<tableitem align="2" filedname="systemFiveclass" id="14" indexed="13" label="系统初分" row="1" sortType="2" type="6" typepara="FIVE_STS"/>
+<tableitem align="2" filedname="详情" id="11" indexed="19" label="-" row="1" type="5" typepara="/mfPactFiveclass/hisView;fiveclassId-fiveclassId;onClick-getHisById(this)" width="2"/>
+<tableitem align="2" filedname="confirmReason" id="18" indexed="17" label="公司认定原因" mytitle="认定原因-confirmReason;" sortType="2" type="3" typepara="10" width="13" widthType="0"/>
+<tableitem align="2" filedname="changeReason" id="17" indexed="15" label="调整原因" mytitle="调整原因-changeReason" row="1" sortType="2" type="3" typepara="10" width="13"/>
+<tableitem align="2" filedname="fiveclass" id="8" indexed="12" label="五级分类" row="1" sortType="2" type="6" typepara="FIVE_STS"/>
+<tableitem align="2" filedname="classDate" id="16" indexed="14" label="客户经理调整时间" row="1" sortType="1" type="1"/>
+</table>

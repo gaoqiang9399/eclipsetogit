@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0011" title="工作流业务配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="objName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="对象名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="objAttributeName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="对象属性名称" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="des" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="中文描述" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="attributeType" fieldsize="ATTRIBUTE_TYPE" fieldtype="3" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="属性类型" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="YES_NO" fieldtype="21" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="是否启用" mustinput="1" readonly="" row="9"/>
+<formelement alt="值越小级别越高" datatype="1" fieldalign="1" fieldcol="4" fieldname="priority" fieldtype="99" formactiveid="6" initvalue="1" labelalign="3" labelcol="3" labelname="优先级" mustinput="" readonly="" row="3"/>
+</form>

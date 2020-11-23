@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1051" para="eadis_page" link="/grtPEbill/findByPage" title="202. GRT_P_EBILL（电子承兑汇票）" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPEbill/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="billType" id="2" indexed="2" label="票据种类" row="1" type="0" />
+<tableitem align="2" filedname="billNo" id="3" indexed="3" label="票据号码" row="1" type="0" />
+<tableitem align="2" filedname="billAmt" id="4" indexed="4" label="票据金额" row="1" type="0" />
+<tableitem align="2" filedname="startDate" id="5" indexed="5" label="出票日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="6" indexed="6" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="grantorId" id="7" indexed="7" label="出质人客户号" row="1" type="0" />
+<tableitem align="2" filedname="granotrName" id="8" indexed="8" label="出质人名称" row="1" type="0" />
+<tableitem align="2" filedname="drawerName" id="17" indexed="17" label="出票人/付款人名称" row="1" type="0" />
+<tableitem align="2" filedname="receiverName" id="22" indexed="22" label="收款人名称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="33" indexed="33" label="-" row="1" type="5" typepara="/grtPEbill/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

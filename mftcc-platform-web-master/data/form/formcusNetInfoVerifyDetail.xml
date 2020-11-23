@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusNetInfoVerifyDetail" title="网查信息核实表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="infoId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键id" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="删除位 1 删除 0 默认" maxlength="1" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="关联编号" maxlength="30" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusIdNum" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="申请人身份证号" maxlength="18" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusIdNumExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="申请人身份证号是否异常" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTel" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="申请人手机号" maxlength="11" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusTelExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="17" horVer="1" labelalign="1" labelcol="4" labelname="申请人手机号是否异常" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="spouseIdNum" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="申请人配偶身份证号" maxlength="18" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="spouseIdNumExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="申请人配偶身份证号是否异常" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="spouseTel" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="3" labelname="申请人配偶手机号" maxlength="11" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="spouseTelExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="21" horVer="1" labelalign="1" labelcol="4" labelname="申请人配偶手机号是否异常" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantorIdNum" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="担保人身份证号" maxlength="18" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="guarantorIdNumExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="23" horVer="1" labelalign="1" labelcol="2" labelname="担保人身份证号是否异常" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guarantorTel" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="3" labelname="担保人手机号" maxlength="11" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="guarantorTelExceptionFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="25" horVer="1" labelalign="1" labelcol="4" labelname="担保人手机号是否异常" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baiduAddress" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="百度网址" maxlength="100" mustinput="0" param="cusNo;" readonly="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="peopleCourtAddress" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="人法网址" maxlength="100" mustinput="0" param="cusNo;" readonly="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lossCrediteAddress" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="失信网址" maxlength="100" mustinput="0" param="cusNo;" readonly="1" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="61"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="63"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="65"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="32" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="67"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="33" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="69"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="34" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="71"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="35" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="73"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="36" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="75"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="37" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="77"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="38" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="79"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="39" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="infoId;" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="spouseName" fieldtype="1" formactiveid="40" horVer="1" labelalign="1" labelcol="1" labelname="配偶名称" maxlength="100" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantorName" fieldtype="1" formactiveid="41" horVer="1" labelalign="1" labelcol="1" labelname="担保人名称" maxlength="100" mustinput="" readonly="1" row="9"/>
+</form>

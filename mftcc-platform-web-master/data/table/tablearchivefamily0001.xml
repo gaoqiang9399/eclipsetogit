@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="archivefamily0001" para="eadis_page" link="/mfOaArchivesFamily/findByPage" title="OA人事档案家庭成员表" type="1">
+<tableitem align="2" filedname="familyId" id="1" indexed="1" label="家庭成员id" row="1" type="4" typepara="/mfOaArchivesFamily/getById;familyId-familyId;query-'query'"/>
+<tableitem align="2" filedname="opNo" id="2" indexed="2" label="员工id" row="1" type="0" />
+<tableitem align="2" filedname="relishion" id="3" indexed="3" label="称谓" row="1" type="0" />
+<tableitem align="2" filedname="name" id="4" indexed="4" label="姓名" row="1" type="0" />
+<tableitem align="2" filedname="age" id="5" indexed="5" label="年龄" row="1" type="0" />
+<tableitem align="2" filedname="workAddr" id="6" indexed="6" label="工作单位" row="1" type="0" />
+<tableitem align="2" filedname="position" id="7" indexed="7" label="职位" row="1" type="0" />
+<tableitem align="2" filedname="homeAddr" id="8" indexed="8" label="家庭住址" row="1" type="0" />
+<tableitem align="2" filedname="tel" id="9" indexed="9" label="联系方式" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfOaArchivesFamily/deleteAjax;familyId-familyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

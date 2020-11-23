@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlrecallconfignote0004" title="催收短信配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noteNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="短信编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectionPlanNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="催收方案编号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startRecallWay" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="发起方式" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exeWay" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="执行方式" maxlength="1" mustinput="0" row="12"/>
+<formelement alt="时间格式小时:分钟(HH:MM)，此处指短信发送时间" datatype="0" fieldalign="1" fieldcol="2" fieldname="sendTime" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="短信发送时间" maxlength="8" mustinput="0" row="5"/>
+<formelement alt="应还款日前第N天发送短信" datatype="0" fieldalign="1" fieldcol="2" fieldname="returnBeforeDays" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="还款日前（天）" mustinput="0" row="2"/>
+<formelement alt="还款日前短信发送频率" datatype="0" fieldalign="1" fieldcol="2" fieldname="returnBeforeInteval" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="频率每（天）" mustinput="0" row="3"/>
+<formelement alt="逾期后发送短信的次数" datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterDays" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="逾期发送次数" mustinput="0" row="3"/>
+<formelement alt="应还款日后短信发送频率,单位：天" datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterInteval" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="逾期发送频率" mustinput="0" row="4"/>
+<formelement alt="点击选择短信模版" datatype="0" fieldalign="1" fieldcol="2" fieldname="recallDesc" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="短信模板内容" maxlength="500" mustinput="0" onclick="addUrgeInfoModel1()" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="短信模版名称" mustinput="" onclick="prodAutoMenu(this,'/mfUrgeInfoModel/getUrgeInfoModelListAjax?urgeType=1',urgeInfoModelCallBack,'modelName')" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="短信模版ID" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noteCondition" fieldsize="NOTE_CONDITION" fieldtype="21" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="发送规则" mustinput="1" onchange="noteConditionOnChange(this)" readonly="1" row="1" />
+<formelement alt="1日-31日之间的具体日期" datatype="0" fieldalign="1" fieldcol="2" fieldname="noteDay" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="日期" maxlength="2" mustinput="" readonly="" row="4" unit="日" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" mustinput="" readonly="" row="8" />
+</form>

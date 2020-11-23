@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cussosur00002" title="社会保险表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pinsureId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="社会保险信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insuranceType" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="社会保险种类" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insuranceAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="每月投保金额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insuranceBal" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="余额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="投保开始日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="统计截止日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="15"/>
+</form>

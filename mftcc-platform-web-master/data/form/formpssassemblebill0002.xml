@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssassemblebill0002" title="组装单表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assembleBillId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="组装单据ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assembleBillNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="组装单据编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="assembleExpense" fieldtype="1" formactiveid="14" initvalue="0" labelalign="3" labelcol="1" labelname="组装费用" maxlength="18" mustinput="0" row="1"/>
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawnipoint0002" title="质押上市公司股票">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="stockId" fieldtype="1" maxlength="6" formactiveid="2" labelalign="3" labelcol="3" labelname="股票代码" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stockName" fieldtype="1" maxlength="10" formactiveid="3" labelalign="3" labelcol="1" labelname="股票名称" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="stockQty" fieldtype="1" maxlength="0" formactiveid="4" labelalign="3" labelcol="3" labelname="股票数量(股)" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stockMandTrader" fieldtype="1" maxlength="200" formactiveid="5" labelalign="3" labelcol="1" labelname="股票托管券商" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="price30Avg" fieldtype="1" maxlength="16" formactiveid="6" labelalign="3" labelcol="3" labelname="股票前30天平均价格" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curCapPerShare" fieldtype="1" maxlength="16" formactiveid="7" labelalign="3" labelcol="1" labelname="最新公布的股票每股净资产" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bgain" fieldtype="1" maxlength="1" formactiveid="8" labelalign="3" labelcol="3" labelname="上市公司是否盈利" mustinput="0" row="4"/>
+</form>

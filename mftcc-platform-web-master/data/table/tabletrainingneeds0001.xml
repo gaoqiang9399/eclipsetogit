@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="trainingneeds0001" link="/mfOaTrainingNeeds/findByPage" para="eadis_page" title="培训需求申请表" type="1">
+<tableitem align="2" filedname="opName" id="6" indexed="10" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="4" indexed="9" label="创建时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" authority="applySts-0;applySts-1;applySts-3;applySts-4;applySts-5;" filedname="打印审批表" id="12" indexed="12" label="-" type="5" typepara=";trainingNeedsId-trainingNeedsId;onClick-MfOaTrainingNeeds_List.printApproveTable(this);" widthType="0"/>
+<tableitem align="2" filedname="applyDate" id="2" indexed="6" label="申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="trainingNeedsType" id="11" indexed="3" label="培训类型" row="1" type="6" typepara="TRAINING_NEEDS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="9" indexed="11" label="申请状态" row="1" sortType="1" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" filedname="content" id="8" indexed="4" label="培训内容" mytitle="培训内容-content;" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="title" id="7" indexed="2" label="培训标题" mytitle="培训标题-title;" row="1" sortType="1" type="4" typepara="/mfOaTrainingNeeds/getById;trainingNeedsId-trainingNeedsId;onClick-MfOaTrainingNeeds_List.trainingNeedsDetail(this);subStringNub-12;" widthType="0"/>
+</table>

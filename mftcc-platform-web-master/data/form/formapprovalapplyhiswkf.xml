@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="approvalapplyhiswkf" title="业务审批历史流程图表单">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldsize="0.00" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="申请金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="期限" mustinput="" readonly="1" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="fincRate" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="利率" mustinput="" readonly="1" row="1" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="replyAmt" fieldsize="0.00" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="批复金额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="replyTerm" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="批复期限" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="replyFincRate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="批复利率" mustinput="" readonly="1" row="2" unit="%"/>
+</form>

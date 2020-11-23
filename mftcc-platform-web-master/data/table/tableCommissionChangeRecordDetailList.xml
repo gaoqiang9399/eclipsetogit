@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CommissionChangeRecordDetailList" link="/mfCommissionChangeRecordDetail/findByPage" para="eadis_page" title="分润记录明细表" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="4" label="客户名称" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="changeAmt" id="5" indexed="15" label="分润金额（元）" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="13" indexed="14" label="联系电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsName" id="12" indexed="13" label="联系人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="11" indexed="12" label="证件号码" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="16" label="分润日期" row="1" sortType="1" type="30" widthType="0"/>
+</table>

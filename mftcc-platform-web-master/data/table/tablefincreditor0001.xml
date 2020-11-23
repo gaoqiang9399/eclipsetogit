@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincreditor0001" link="/p2pInvestCreditor/findByPage" para="eadis_page" title="理财客户债权表" type="2">
+<tableitem align="2" filedname="finappNo" id="15" indexed="1" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="investAmt" id="7" indexed="8" label="理财金额（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="inCome" id="35" indexed="14" label="收益（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="term" id="36" indexed="15" label="期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endTime" id="16" indexed="16" label="到期日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="creditState" id="13" indexed="17" label="状态" row="1" type="6" typepara="P2P_CREDIT_STS" widthType="0"/>
+<tableitem align="2" filedname="删除" id="34" indexed="36" label="-" row="1" type="99" typepara="P2/pInvestCreditor/deleteAjax;cusCreditId-cusCreditId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="carCheckFormList" para="eadis_page" title="验车单列表" type="2">
+<tableitem align="2" filedname="pledgeNo" id="15" indexed="2" label="押品号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="14" indexed="1" label="验车编号" row="1" type="4" typepara="/mfCarCheckForm/listShowDetailAjax;id-id;oneUrl-'/mfCarCheckForm/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="departureTime" id="13" indexed="9" label="验车时间" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkOpName" id="12" indexed="8" label="验车人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkType" id="7" indexed="10" label="验车类型" row="1" type="6" typepara="CAR_CHECK_TYPE" widthType="0"/>
+</table>

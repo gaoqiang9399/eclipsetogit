@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="collainstockAffirm0001" title="押品入库页面">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepAddr" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="存放地址" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepOrgName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="保管机构" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keeperName" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="保管人" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="keepDesc" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="入库备注" maxlength="400" mustinput="" readonly="" row="6" textAreaFieldRows="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="押品编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepOrgId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="保管机构编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dutyCusName" fieldstyle="half" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="负责人" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operatorCusName" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="经办人" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operatorCusId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="经办人编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dutyCusId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="负责人编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="operateDate" fieldstyle="half" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="入库日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralMethod" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="担保类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepType" fieldsize="KEEP_TYPE" fieldstyle="half" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="保管类型" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operatorCusId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="经办人编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralAmt" fieldstyle="half" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralRate" fieldstyle="half" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="担保比例" mustinput="" readonly="1" row="1"/>
+</form>

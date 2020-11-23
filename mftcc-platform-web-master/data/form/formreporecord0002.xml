@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="reporecord0002" title="卖方回购记录">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="repoAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="反转让总金额" mustinput="1" readonly="1" row="1" />
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="repoCount" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="反转让总笔数" mustinput="1" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoReason" fieldsize="100" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="反转让原因" maxlength="400" mustinput="1" row="2" textAreaFieldRows="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="合同ID" mustinput="1" readonly="1" row="3" />
+</form>

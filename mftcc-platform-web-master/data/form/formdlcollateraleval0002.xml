@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlcollateraleval0002" title="押品评估信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalId" fieldstyle="half" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="评估编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalOrgName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="评估机构" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalCusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="评估人" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="evalAmount" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="评估价值" maxlength="16" mustinput="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="confirmAmount" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="确认价值" maxlength="16" mustinput="1" row="5" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="mortRate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="抵质押率" maxlength="10" mustinput="1" row="6" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldstyle="half" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="evalDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="评估日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalMethod" fieldsize="EVAL_METHOD" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="评估方法" mustinput="1" readonly="" row="3" />
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="feeRefundList" para="eadis_page" title="退费列表" type="1">
+<tableitem align="2" filedname="appName" id="5" indexed="6" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'1';onClick-MfBusFeeRefund_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="委托合同编号" mytitle="合同编号-pactNo;" row="1" type="4" typepara="/mfBusPact/getById;appId-appId;busEntrance-'2';onClick-MfBusFeeRefund_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="详情" id="111" indexed="26" label="-" row="1" type="5" typepara="/mfBusFeeRefund/getById;feeId-feeId;onClick-MfBusFeeRefund_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="110" indexed="25" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="109" indexed="5" label="客户名称" mytitle="客户名称-cusName;" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfBusFeeRefund_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="108" indexed="20" label="退费金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeAmt" id="17" indexed="19" label="已收担保费" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assureAmt" id="16" indexed="17" label="在保金额" row="1" type="0" widthType="0"/>
+</table>

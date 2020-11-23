@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table colorCol="opinionType" exportExcel="0" id="wfHistTaskListBase" para="eadis_page" title="审批历史基础列表" type="2">
+<tableitem align="2" filedname="approveIdea" id="91" indexed="7" label="意见描述" mytitle="意见描述-approveIdea;" row="1" type="3" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="detail" id="88" indexed="9" label="操作" type="4" typepara="/wkfChart/listShowDetailAjax;taskId-taskId;appNo-appNo;approveType-approveType;formType-formType;oneUrl-'/wkfChart/updateByOneAjax';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="name" id="90" indexed="3" label="审批岗位" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opinionType" id="97" indexed="8" label="意见" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="stateStr" id="96" indexed="1" label="审批状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="end" id="95" indexed="5" label="审批时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="result" id="94" indexed="2" label="意见类型" row="1" type="6" typepara="WKF_APPROVE_RESULT" widthType="0"/>
+<tableitem align="2" filedname="userName" id="93" indexed="4" label="审批人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="hours" id="92" indexed="6" label="审批历时" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app3016" title="授信情况">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="authAmt" fieldtype="1" formactiveid="1" horVer="1" initvalue="0" labelalign="1" labelcol="1" labelname="授信金额" mustinput="" readonly="1" row="1" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="authBal" fieldtype="1" formactiveid="2" horVer="1" initvalue="0" labelalign="1" labelcol="2" labelname="授信余额" mustinput="" readonly="1" row="1" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="transitAmt" fieldtype="1" formactiveid="3" horVer="1" initvalue="0" labelalign="1" labelcol="3" labelname="在途额度" mustinput="" readonly="1" row="1" unit="元" />
+</form>

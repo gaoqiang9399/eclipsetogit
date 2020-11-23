@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="doc0005" title="文挡类型详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="文档编号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitName" fieldsize="40" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="文档名称" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldsize="DOC_TYPE" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="文档类型" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="formNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="表单名称" maxlength="30" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docDesc" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="文档说明" maxlength="100" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditDocType" fieldsize="CREDIT_DOC_TYPE" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="信贷文档类型" mustinput="0" readonly="" row="2"/>
+</form>

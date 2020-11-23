@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="generateRepayPlan0001" title="生成还款计划设置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isforcible" fieldsize="YES_NO" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="还款逾期是否罚息" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="putoutDate" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="发放日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isFixDate" fieldsize="IS_FIX_DATE" fieldtype="4" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="还款日期" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDateFinc" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="到期日期" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fixDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="固定还款日" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prepayTakeIncom" fieldsize="PREPAY_TAKE_TYPE" fieldtype="4" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="预先收取利息" mustinput="" readonly="" row="3" />
+</form>

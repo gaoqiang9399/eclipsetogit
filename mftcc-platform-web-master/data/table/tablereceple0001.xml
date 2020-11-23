@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="receple0001" para="eadis_page" link="/mfReceivablesPledgeInfo/findByPage" title="应收账款质质押（转让）信息登记表" type="1">
+<tableitem align="2" filedname="receivablesPledgeId" id="1" indexed="1" label="质押/转让编号" row="1" type="4" typepara="/mfReceivablesPledgeInfo/getById;receivablesPledgeId-receivablesPledgeId;query-'query'"/>
+<tableitem align="2" filedname="registerProveId" id="2" indexed="2" label="登记证明编号" row="1" type="0" />
+<tableitem align="2" filedname="registerProveTime" id="3" indexed="3" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="registerProveType" id="4" indexed="4" label="登记种类0初始登记" row="1" type="0" />
+<tableitem align="2" filedname="dealType" id="5" indexed="5" label="交易类型1质押2转让" row="1" type="0" />
+<tableitem align="2" filedname="registerEndDate" id="6" indexed="6" label="登记到期日" row="1" type="0" />
+<tableitem align="2" filedname="pledgorName" id="8" indexed="8" label="出质/出让人名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgorRegisterAddress" id="9" indexed="9" label="出质/出让人注册地址" row="1" type="0" />
+<tableitem align="2" filedname="pledgeeName" id="11" indexed="11" label="质权/出让人" row="1" type="0" />
+<tableitem align="2" filedname="pledgeeRegisterAddress" id="12" indexed="12" label="质权/出让人注册地址" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="22" indexed="22" label="-" row="1" type="5" typepara="/mfReceivablesPledgeInfo/deleteAjax;receivablesPledgeId-receivablesPledgeId;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfarchiveborrowlist" link="/mfArchiveBorrow/findByPage" para="eadis_page" title="借阅申请表" type="1">
+<tableitem align="2" filedname="borrowingPurposes" id="29" indexed="10" label="借阅原因" mytitle="borrowingPurposes-borrowingPurposes" row="1" type="3" typepara="10" width="150" widthType="1"/>
+<tableitem align="2" filedname="archiveMainNo" id="28" indexed="4" label="档案编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" authority="borrowSts-0;borrowSts-1;borrowSts-2;borrowSts-3;borrowSts-5;" filedname="归还" id="27" indexed="29" label="-" row="1" type="5" typepara="/mfArchiveBorrow/revert;borrowId-borrowId;" widthType="0"/>
+<tableitem align="2" authority="borrowSts-4;borrowSts-0;borrowSts-1;borrowSts-3;borrowSts-5;" filedname="借阅登记" id="26" indexed="27" label="-" row="1" type="5" typepara="/mfArchiveBorrow/register;borrowId-borrowId;" width="2" widthType="0"/>
+<tableitem align="2" filedname="borrowSts" id="24" indexed="26" label="状态" row="1" type="6" typepara="borrow_sts" widthType="0"/>
+<tableitem align="2" filedname="revertActualTime" id="23" indexed="25" label="实际归还日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="revertPlanDate" id="19" indexed="21" label="计划归还日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="applyTime" id="8" indexed="9" label="申请日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="borrowingTime" id="17" indexed="19" label="借阅日期" type="1" widthType="0"/>
+<tableitem align="2" filedname="applyUserName" id="6" indexed="7" label="申请人姓名" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="archiveName" id="4" indexed="5" label="申请档案名称" row="1" type="0" widthType="0"/>
+</table>

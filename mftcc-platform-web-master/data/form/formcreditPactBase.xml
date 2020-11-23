@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditPactBase" title="授信合同签约">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldstyle="half" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同编号" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldsize="0.00" fieldstyle="half" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="授信额度" maxlength="20" mustinput="0" readonly="1" row="4" unit="&lt;span class='btn block-view' disabled='disabled'  onclick='checkinfo(this)'&gt;点击获取授信额度&lt;/span&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="合同期限" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" onchange="mfCusCreditApplyInsert.creditTermOnBlur(this)" row="4" unit="月"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日" maxlength="17" mustinput="1" onchange="mfCusCreditApplyInsert.beginDateOnBlur()" onclick="fPopUpCalendarDlg(this);" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="pactSignDate" fieldstyle="half" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="合同签订日" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日" mustinput="0" readonly="1" row="5" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="签约说明" maxlength="200" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditAppId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protocolTemplate" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="授信协议" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="立项客户" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projectType" fieldsize="PROJECT_TYPE" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="业务类型" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projectName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectNo" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="立项编号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pact_type" fieldsize="PACT_TYPE" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="合同类型" mustinput="" row="3"/>
+</form>

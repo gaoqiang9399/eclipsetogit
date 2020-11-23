@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pactfincreturnfeeL001" para="eadis_page" title="合同借据返费表" type="2">
+<tableitem align="2" authority="ext1-0" filedname="返费详情" id="16" indexed="14" label="-" row="1" type="5" typepara="/mfBusFeePlan/getReturnListPage;channelSource-ext5;channelSourceNo-ext4;fincId-fincId;onClick-finForm_input" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="ext3" id="15" indexed="6" label="渠道商名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="3" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="2" filedname="fincRate" id="13" indexed="6" label="借据利率(%)" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getDetailPage(this);subStringNub-14;" width="165" widthType="1"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="4" label="借据金额(元)" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="fincSts" id="11" indexed="5" label="办理阶段" row="1" sortType="2" type="6" typepara="FINC_STS" widthType="0"/>
+</table>

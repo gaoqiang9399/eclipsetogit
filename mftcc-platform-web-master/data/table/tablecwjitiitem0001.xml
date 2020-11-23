@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwjitiitem0001" link="/cwJitiItem/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="upjtAmt" id="19" indexed="11" label="上次提取金额（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="yunsuan2" id="18" indexed="9" label="运算符" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="upchaAmt" id="20" indexed="12" label="差额（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="jtItemResutBal" id="17" indexed="10" label="计算结果（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="yunsuan1" id="15" indexed="6" label="运算符" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="jtItemPre" id="6" indexed="8" label="提取比例（%）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="20" label="-" row="1" type="99" typepara="/cwJitiItem/deleteAjax;jtItemId-jtItemId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="jtItemBal" id="5" indexed="5" label="金额（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="jtTypeSort" id="4" indexed="4" label="名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="jtId" id="3" indexed="3" label="关联计提cw_jiti" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="jtItemId" id="2" indexed="2" label="唯一id" row="1" type="99" typepara="/cwJitiItem/getById;jtItemId-jtItemId;query-'query'" widthType="0"/>
+</table>

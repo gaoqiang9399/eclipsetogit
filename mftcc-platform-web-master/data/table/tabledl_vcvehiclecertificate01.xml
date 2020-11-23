@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcvehiclecertificate01" para="eadis_page" title="机动车合格证信息表" type="1">
+<tableitem align="2" filedname="importDate" id="23" indexed="24" label="导入日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="certificateState" id="21" indexed="22" label="状态" row="1" sortType="1" type="6" typepara="VC_CERTIFICATE_STATE" width="5" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="21" label="单价(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="configurationName" id="47" indexed="20" label="配置" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" authority="certificateState-02;certificateState-03;certificateState-04" filedname="删除" id="46" indexed="28" label="-" row="1" sortType="2" type="5" typepara="/vcVehicleCertificate/beforeDeleteAjax;certificateId-certificateId;onClick-VcVehicleCertificate_List.deleteCertificate(this)" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="2" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="13" width="15" widthType="0"/>
+<tableitem align="2" authority="certificateState-02;certificateState-03;certificateState-04;certificateState-05;certificateState-06" filedname="入库" id="45" indexed="26" label="-" row="1" sortType="2" type="5" typepara="/vcVehicleCertificate/beforeStorageAjax;certificateId-certificateId;onClick-VcVehicleCertificate_List.getStoragePage(this)" widthType="0"/>
+<tableitem align="2" authority="certificateState-01;certificateState-02;certificateState-04;certificateState-05;certificateState-06" filedname="出库" id="44" indexed="27" label="-" row="1" sortType="2" type="5" typepara="/vcVehicleCertificate/beforeOutStorageAjax;certificateId-certificateId;onClick-VcVehicleCertificate_List.getOutStoragePage(this)" widthType="0"/>
+<tableitem align="2" filedname="haveScanfile" id="43" indexed="23" label="是否扫描" sortType="1" type="6" typepara="YES_NO" width="8" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="4" label="车架号" row="1" sortType="1" type="4" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-VcVehicleCertificate_List.getDetailPage(this);" width="14" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="5" indexed="7" label="任务单号" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="2" indexed="3" label="序号" row="1" sortType="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="10" indexed="12" label="车型" row="1" sortType="1" type="0" width="8" widthType="0"/>
+</table>

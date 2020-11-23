@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="finbuspactapproval0001" title="理财合同审批表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busPactNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prdtName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contractBal" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="可用金额" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contractAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="合同利率" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termShow" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="合同期限" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="breathDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="起息日期" mustinput="1" onclick="fPopUpCalendarDlg({min: today})" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="breathBeginDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="breathEndDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="合同到期日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amtWay" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="理财资金方式" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authCycle" fieldsize="YES_NO" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="额度是否可循环" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remarks" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="备注说明" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="9" rowspan="2"/>
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="entrustedPaymentBase" title="受托审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="putoutAmtReal" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="借款金额" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="epAmtApp" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="受托金额" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="epAmt" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="批复受托金额" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectAccount" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collectBank" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="收款开户行" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="借款账号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomBank" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="借款开户行" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="approveIdea" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="意见描述" mustinput="" readonly="" row="4"/>
+</form>

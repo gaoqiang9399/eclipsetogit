@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pssrecalculatecost0001" para="eadis_page" link="" title="成本重算表" type="2">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="重算成本ID" row="1" type="4" typepara="/pssRecalculateCost/getByIdAjax;id-id;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="stockId" id="2" indexed="2" label="库存ID" row="1" type="0" />
+<tableitem align="2" filedname="storehouseId" id="3" indexed="3" label="仓库编号" row="1" type="0" />
+<tableitem align="2" filedname="goodsId" id="4" indexed="4" label="商品编号" row="1" type="0" />
+<tableitem align="2" filedname="balanQty" id="5" indexed="5" label="结存数量" row="1" type="0" />
+<tableitem align="2" filedname="balanCost" id="6" indexed="6" label="结存成本" row="1" type="0" />
+<tableitem align="2" filedname="regOpNo" id="7" indexed="7" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="regOpName" id="8" indexed="8" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="regBrNo" id="9" indexed="9" label="登记机构编号" row="1" type="0" />
+<tableitem align="2" filedname="regBrName" id="10" indexed="10" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="11" indexed="11" label="登记时间" row="1" type="0" />
+</table>

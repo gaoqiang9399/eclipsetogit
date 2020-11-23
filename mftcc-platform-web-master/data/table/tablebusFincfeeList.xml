@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busFincfeeList" para="eadis_page" title="借据费用标准列表" type="2">
+<tableitem align="2" fieldStyle="feeAmt" filedname="feeAmt" id="33" indexed="42" label="应收费用" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="itemNo" id="31" indexed="41" label="费用编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="28" indexed="37" label="编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="standard" id="27" indexed="23" label="费用基数" row="1" type="99" typepara="FEE_STANDARD" widthType="0"/>
+<tableitem align="2" filedname="takeType" id="26" indexed="29" label="类型" row="1" type="10" typepara="FEE_TAKE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="24" indexed="24" label="费用名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rateScale" id="23" indexed="30" label="费率值" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="39" indexed="22" label="费用基数" type="6" typepara="FEE_STANDARD" widthType="0"/>
+<tableitem align="2" filedname="feeCollectTime" id="38" indexed="40" label="费用收取时间" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="sort" id="37" indexed="39" label="费用收取顺序" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="itemType" id="36" indexed="27" label="费用类型" row="1" type="6" typepara="FEE_ITEM_TYPE" widthType="0"/>
+<tableitem align="2" filedname="optPower" id="35" indexed="38" label="操作权限" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="feeType" id="34" indexed="28" label="收取方式" row="1" type="10" typepara="FEE_COLLECT_TYPE" widthType="0"/>
+</table>

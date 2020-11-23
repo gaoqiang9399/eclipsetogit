@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="app0005" para="eadis_page" link="/appLeaseSignRel/findByPage" title="租赁物签订关联关系表" type="1">
+<tableitem align="2" filedname="appNo" id="1" indexed="1" label="签收申请号" row="1" type="0" />
+<tableitem align="2" filedname="relNo" id="2" indexed="2" label="关联号" row="1" type="4" typepara="/appLeaseSignRel/getById;leaseNo-leaseNo;appNo-appNo;query-'query'"/>
+<tableitem align="2" filedname="conNo" id="3" indexed="3" label="合同编号" row="1" type="0" />
+<tableitem align="2" filedname="leaseNo" id="4" indexed="4" label="租赁物编号" row="1" type="4" typepara="/appLeaseSignRel/getById;leaseNo-leaseNo;appNo-appNo;query-'query'"/>
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="5" typepara="/appLeaseSignRel/deleteAjax;leaseNo-leaseNo;appNo-appNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

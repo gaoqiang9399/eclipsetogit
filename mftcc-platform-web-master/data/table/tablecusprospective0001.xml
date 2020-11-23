@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusprospective0001" para="eadis_page" title="查询功能潜在客户列表" type="1">
+<tableitem align="2" filedname="contactsTel" id="15" indexed="6" label="联系电话" row="1" sortType="2" type="4" typepara="/mfCusTrack/getListPage;cusNo-cusNo;appId-appId;query-'0';onClick-getDetail(this);" widthType="0"/>
+<tableitem align="1" filedname="idNum" id="5" indexed="7" label="证件号码" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="1" label="客户类别" row="1" sortType="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="regTime" id="1" indexed="10" label="登记日期" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="optName" id="17" indexed="2" label="跟进结果" type="0" typepara="TRACK_TYPE" widthType="0"/>
+<tableitem align="2" filedname="contactsName" id="16" indexed="3" label="联系人" row="1" type="0" widthType="0"/>
+</table>

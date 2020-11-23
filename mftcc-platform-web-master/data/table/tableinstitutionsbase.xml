@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="institutionsbase" link="/mfBusInstitutions/findByPage" para="eadis_page" title="合作机构表" type="1">
+<!--  <tableitem align="2" filedname="删除" id="52" indexed="52" label="-" row="1" type="5" typepara="/mfBusInstitutions/deleteAjax;agenciesId-agenciesId;onClick-ajaxDelete(this)" width="2"/> -->
+<tableitem align="2" filedname="agenciesButtName" id="5" indexed="25" label="联系人" row="1" type="0"/>
+<tableitem align="2" filedname="regTime" id="14" indexed="24" label="登记时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="insititutionType" id="25" indexed="23" label="机构类型" row="1" type="6" typepara="POST_INSTITUTION_TYPE" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="3" indexed="3" label="机构名称" row="1" type="0"/>
+<tableitem align="2" filedname="insititutionStatus" id="28" indexed="28" label="机构状态" type="6" typepara="POST_INSTITUTIONS_STS" widthType="0"/>
+</table>

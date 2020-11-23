@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pactAccountInfoBase" para="eadis_page" title="在保应收账款质押" type="1">
+<tableitem align="1" filedname="manageOpName1" id="15" indexed="11" label="项目经理" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="beginDate" id="5" indexed="5" label="合同开始日" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="更新" id="25" indexed="25" label="-" row="1" sortType="2" type="5" typepara="/mfBusPact/accountInputNew;appId-appId;pledgeNo-ext3;onClick-PledgeInfo_account.accountInput(this);" width="12" widthType="0"/>
+<tableitem align="1" filedname="pactNo" id="4" indexed="3" label="合同编号" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="appName" id="1" indexed="2" label="项目名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="ext4" id="9" indexed="9" label="押品名称" sortType="2" type="0" typepara="KEEP_STATUS" width="10" widthType="0"/>
+<tableitem align="1" filedname="endDate" id="8" indexed="8" label="合同结束日" row="1" sortType="2" type="1" typepara="VOU_TYPE" width="10" widthType="0"/>
+</table>

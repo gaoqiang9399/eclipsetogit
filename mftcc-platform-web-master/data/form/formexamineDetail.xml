@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="examineDetail" title="贷后检查情况表">
+<formelement calculationType="onChange" datatype="0" fieldalign="1" fieldcol="3" fieldname="indexId" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="检查指标项" maxlength="30" mustinput="1" onchange="setIndexValueOptions(this.value);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexValue" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="检查指标" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examHisId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="检查历史编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameSupplier" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="1" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='selectExamineHisDialog();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="riskLevel" fieldsize="RISK_LEVEL" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="风险级别" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relateBussId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="关联业务编号" mustinput="" readonly="" row="1"/>
+</form>

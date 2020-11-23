@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="unusualtail0001" title="异常情况跟踪登记表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="unusualTailId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="异常情况跟踪编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="tailDate" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="跟踪时间" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg({max: today})" readonly="1" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="tailOpNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="跟踪人" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tailOpName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="跟踪人名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unusualDealType" fieldsize="UNUSUAL_DEAL_TYPE" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="异常处理结果" maxlength="1" mustinput="1" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealRemark" fieldtype="5" formactiveid="6" labelalign="3" labelcol="1" labelname="处理情况说明" maxlength="200" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="busPleId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="5" labelname="押品业务关联编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="accountCheckId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="对账编号" mustinput="" readonly="" row="5" />
+</form>

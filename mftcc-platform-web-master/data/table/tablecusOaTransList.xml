@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusOaTransList" title="移交客户列表" type="3">
+<tableitem align="2" filedname="idNum" id="3" indexed="1" label="证件号码" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="1" indexed="2" label="联系电话" row="1" sortType="2" type="0" widthType="0"/>
+</table>

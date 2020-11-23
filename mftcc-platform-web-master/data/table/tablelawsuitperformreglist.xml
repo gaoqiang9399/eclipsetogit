@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="lawsuitperformreglist" para="eadis_page" title="执行登记表展示列表" type="2">
+<tableitem align="2" filedname="unallocatedAmt" id="5" indexed="5" label="待分配金额" type="12" widthType="0"/>
+<tableitem align="2" filedname="performCost" id="4" indexed="4" label="执行费用" row="1" type="0"/>
+<tableitem align="2" filedname="performIntst" id="3" indexed="3" label="执行利息" row="1" type="0"/>
+<tableitem align="2" filedname="performPrcp" id="2" indexed="2" label="执行本金" row="1" type="0"/>
+<tableitem align="2" filedname="performId" id="1" indexed="1" label="执行登记编号" row="1" type="4" typepara="/mfLawsuitPerformReg/listShowDetailAjax;performId-performId;oneUrl-'/mfLawsuitPerformReg/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval1006" title="评级得分详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="totalScore" fieldstyle="totalScore" fieldtype="1" fieldwidth="20" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="得分:" labelstyle="totalLable" labelwidth="80" mustinput="" onfocus="this.blur()" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finScore" fieldstyle="score" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="财务得分" labelstyle="scoreLable" mustinput="" onfocus="this.blur()" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dlScore" fieldstyle="score" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="定量得分" labelstyle="scoreLable" mustinput="" onfocus="this.blur()" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dxScore" fieldstyle="score" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="1" labelname="定性得分" labelstyle="scoreLable" mustinput="" onfocus="this.blur()" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjScore" fieldstyle="score" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="调整得分" labelstyle="scoreLable" mustinput="" onfocus="this.blur()" readonly="1" row="6" />
+</form>

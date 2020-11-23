@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="voucherreceive" para="eadis_page" title="凭证收据" type="1">
+<tableitem align="2" filedname="预览" id="14" indexed="20" label="-" row="1" type="99" typepara="/mfTemplateBizConfig/previewTagValue;templateBizConfigId-templateBizConfigId;onClick-templateIncludePage.previewTagValue(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="下载" id="11" indexed="21" label="-" row="1" type="5" typepara="/mfToolsDownload/downloadTemplate;ajaxData-templateBizConfigId;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="docType" filedname="templateSuffix" id="2" indexed="6" label="文档类型" row="1" type="6" width="15" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="19" indexed="8" label="文档名称" type="4" typepara="/mfTemplateBizConfig/getOfficeUrlAjax;templateBizConfigId-templateBizConfigId;onclick-templateIncludePage.openTemplateTmp(this);" widthType="0"/>
+<tableitem align="2" filedname="archiveDesc" id="18" indexed="12" label="模板名称" row="1" type="99" widthType="0"/>
+</table>

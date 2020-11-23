@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusbank00003" para="eadis_page" title="账户管理" trDbClick="/mfCusBankAccManage/listShowDetailAjax;id-id;oneUrl-'/mfCusBankAccManage/updateByOneAjax'; onDbClick -listShowDetail(this);subStringNub-16;" type="1">
+<tableitem align="2" filedname="bank" id="6" indexed="7" label="开户行" row="1" type="0" width="17" widthType="0"/>
+<tableitem align="2" fieldStyle="bankNo" filedname="accountNo" id="4" indexed="4" label="卡号/折号" row="1" type="4" typepara="/mfCusBankAccManage/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusBankAccManage/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="useType" id="3" indexed="6" label="账号用途" row="1" type="6" typepara="FUND_ACC_TYPE" width="16" widthType="0"/>
+<tableitem align="2" filedname="accountName" id="2" indexed="4" label="账户名称" mytitle="账户名称-accountName" row="1" type="0" typepara="subStringNub-12;" width="18" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="9" indexed="12" label="-" type="5" typepara="/mfCusBankAccManage/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="bankAuthSts" id="8" indexed="11" label="认证状态" row="1" type="6" typepara="BANK_AUTH_STS" width="14" widthType="0"/>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busrecourseapply" para="eadis_page" title="代偿" type="2">
+<tableitem align="2" filedname="recourseId" id="25" indexed="11" label="recourseId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="compensatoryId" id="24" indexed="9" label="compensatoryId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="recourseFee" id="23" indexed="3" label="追偿金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="19" indexed="10" label="fincId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="recourseId" id="18" indexed="5" label="追偿申请编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="追偿详情" id="17" indexed="4" label="-" row="1" type="5" typepara="/mfBusRecourseApply/input;fincId-fincId;compensatoryId-compensatoryId;recourseId-recourseId;onClick-MfBusRecourseConfirmDetail.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="2" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="1" label="项目名称" mytitle="项目名称-appName" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getDetailPage(this);" widthType="0"/>
+</table>

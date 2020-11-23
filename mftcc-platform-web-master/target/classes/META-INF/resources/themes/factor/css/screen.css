@@ -1,0 +1,26 @@
+.app-screen {
+	float: right;
+	height: 34px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	position: relative;
+	width: auto;
+}
+
+.app-screen input {
+	background: #f7f7f7 none repeat scroll 0 0;
+	border: medium none;
+	color: #32b5cb;
+	float: right;
+	height: 32px;
+	width: 74px;
+}
+
+.app-screen input:hover {
+	background: #f0f0f0 none repeat scroll 0 0;
+	cursor: pointer;
+}
+
+.app-screen button{
+	color: #32b5cb;
+}

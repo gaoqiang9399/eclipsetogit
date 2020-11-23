@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0092" title="还款计划表">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="perdNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="期号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="repayInstmAmt" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="实收金额" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="overDays" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="逾期天数" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="租金结算日期" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="instmAmt" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="本期支付租金" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="prcpAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="本期支付本金" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="normInt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="本期支付利息" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="bal" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="未偿还本金" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="rate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="租赁利率" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="overRate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="租赁逾期利率" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="overInt" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="本期支付逾期利息" maxlength="16" mustinput="0" row="6"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="prcpAcm" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="本金积数" maxlength="19" mustinput="0" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="intAcm" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="利息积数" maxlength="19" mustinput="0" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="repayPrcpAmt" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="已还本金" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="repayNormInt" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="已还利息" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="repayOverInt" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="已还逾期利息" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="overInd" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="逾期标志" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstPayDate" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="最近还款日" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prcpSts" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="本金状态" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="intSts" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="利息状态" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="setlSts" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="是否还清标志" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fineIntDt" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="上次结罚息日期" maxlength="10" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ppErInd" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="当期还款记录是否为主动还款" maxlength="10" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acmBegDt" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="积数起始日期" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="acmDt" fieldtype="1" formactiveid="26" labelalign="3" labelcol="3" labelname="滚积数日期" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="setlDt" fieldtype="1" formactiveid="27" labelalign="3" labelcol="1" labelname="结清日期" maxlength="10" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="28" labelalign="3" labelcol="3" labelname="操作员号" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="29" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amtSource" fieldtype="1" formactiveid="30" labelalign="3" labelcol="3" labelname="金额来源" maxlength="5" mustinput="0" row="15"/>
+</form>

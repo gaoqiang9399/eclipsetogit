@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="auth0015" title="授信台账金额显示">
+<formelement datatype="15" fieldalign="1" fieldcol="3" fieldname="demoDay" fieldtype="1" formactiveid="1" horVer="1" initvalue="0.00" labelalign="3" labelcol="2" labelname="占用金额" mustinput="" readonly="" row="1" unit="万元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authAmt" fieldtype="1" formactiveid="2" horVer="1" initvalue="0.00" labelalign="3" labelcol="1" labelname="授信总额" mustinput="" readonly="" row="1" unit="万元" />
+<formelement datatype="15" fieldalign="1" fieldcol="4" fieldname="demoMaxDay" fieldtype="1" formactiveid="3" horVer="1" initvalue="0.00" labelalign="3" labelcol="3" labelname="授信余额" mustinput="" readonly="" row="1" unit="万元" />
+</form>

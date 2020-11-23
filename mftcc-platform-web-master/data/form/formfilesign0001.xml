@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="filesign0001" title="文件会签申请">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileType" fieldsize="SIGN_FILE_TYPE" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="文件类型" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="counterName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="文件名称" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="份数" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="用印总数" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onclick="WkfApprove.opinionTypeChange()" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="客户名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="证件号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsTel" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="手机号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rollbackName" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="发回岗位" mustinput="" readonly="" row="9"/>
+</form>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="p2pdiscloseinfo0005" title="披露信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bidissueId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="标的表的id" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="applyAmt" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="4" labelname="融资金额" maxlength="16" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="businessrate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="预期年化利率" maxlength="16" mustinput="0" readonly="1" row="2" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="icDate" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="起息日" maxlength="16" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termMonth" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="出借期限" maxlength="20" mustinput="0" readonly="1" row="2" unit="月"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="开始时间" maxlength="20" mustinput="0" param2="1" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="结束时间" maxlength="20" mustinput="0" param2="1" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="title" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="标题" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="2" fieldname="infoContext" fieldtype="5" formactiveid="14" horVer="1" labelalign="1" labelcol="3" labelname="项目简介" maxlength="2000" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="serialno" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="2" labelname="唯一编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="infoType" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="类型" mustinput="" param2="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="17" horVer="0" labelalign="2" labelcol="1" labelcolspan="6" labelname="项目详情" labelstyle="bartop" mustinput="" readonly="" row="1" selrange="1"/>
+</form>

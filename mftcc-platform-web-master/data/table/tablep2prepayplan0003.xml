@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="p2prepayplan0003" title="还款计划明细表" type="1">
+<tableitem align="2" filedname="repayPrcp" id="6" indexed="3" label="还款本金（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayIntst" id="5" indexed="4" label="还款利息（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="4" indexed="0" label="期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overIntst" id="3" indexed="5" label="逾期利息（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="2" indexed="6" label="还款总金额（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="1" indexed="7" label="还款状态" type="6" typepara="OUT_FLAG" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="8" indexed="1" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="7" indexed="2" label="结束日期" row="1" type="1" widthType="0"/>
+</table>

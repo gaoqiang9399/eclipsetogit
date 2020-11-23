@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vctakestockdetail001" title="盘库详细信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockDetailId" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="单据编号" maxlength="50" mustinput="0" onclick="bindDataSource(this,'1','takeStockOpNo','','true','','','0');" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vin" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="车架号" maxlength="50" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商" maxlength="500" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="base" fieldsize="VC_BASE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="基地" maxlength="50" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storageTime" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="入库时间" maxlength="50" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="affirmResult" fieldsize="VC_AFFIRM_RESULT" fieldtype="21" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="认定结果" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feedbackOpName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="盘库人" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="feedbackTime" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="盘库时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="affirmTime" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="认定时间" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="affirmDescription" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="认定说明" maxlength="400" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sendTime" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="发起日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isArtificalIdentification" fieldsize="YES_NO" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="是否已人工认定" mustinput="" readonly="1" row="7"/>
+</form>

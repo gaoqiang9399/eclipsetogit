@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusNoFundList" para="eadis_page" title="报表查询条件放款机构" type="1">
+<tableitem align="2" filedname="agenciesUid" id="4" indexed="5" label="机构编号" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="8" indexed="6" label="机构名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="agenciesUid" id="7" indexed="4" label="选择" sortType="2" type="2" width="30" widthType="0"/>
+</table>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lease0006" title="租赁物详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaseNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="租赁物编号" maxlength="90" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="业务流水号" maxlength="90" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="合同号" maxlength="90" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="台账号" maxlength="90" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="客户号" maxlength="90" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="客户名称" maxlength="240" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="销售产品类型" maxlength="6" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="leaseMold" fieldtype="22" formactiveid="8" horVer="0" labelalign="1" labelcol="1" labelname="租赁物类型" maxlength="12" mustinput="1" param="01-客车|02-货车|03-半挂牵引车|" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="modelNo" fieldtype="1" formactiveid="9" labelalign="1" labelcol="1" labelname="型号" maxlength="90" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="3" fieldcol="4" fieldname="releaseDate" fieldtype="1" formactiveid="10" labelalign="1" labelcol="3" labelname="出厂日期" maxlength="24" mustinput="1" onchange="func_uior_valTypeImm(this)" onclick="fPopUpCalendarDlg(this);return false" row="2"/>
+<formelement calculation="nameAmt=priceAmt*nameFlt/100;sumAmt=priceAmt" calculationShow="留购价款金额=单价*留购价款比例/100;合计=单价" calculationType="onChange" datatype="12" fieldalign="3" fieldcol="2" fieldname="priceAmt" fieldtype="1" formactiveid="11" labelalign="1" labelcol="1" labelname="单价" maxlength="16" mustinput="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="normAmt" fieldtype="1" formactiveid="12" labelalign="1" labelcol="3" labelname="指导价格" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="manufacturers" fieldtype="1" formactiveid="13" labelalign="1" labelcol="1" labelname="制造商" maxlength="300" mustinput="1" param="leaseNo;prodType;" row="7"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="certNo" fieldtype="1" formactiveid="14" labelalign="1" labelcol="1" labelname="合格证编号" maxlength="240" mustinput="0" row="11"/>
+<formelement calculation="nameAmt=nameFlt*priceAmt/100" calculationShow="留购价款金额=留购价款比例*单价/100" calculationType="onChange" datatype="17" fieldalign="3" fieldcol="2" fieldname="nameFlt" fieldtype="1" formactiveid="15" labelalign="1" labelcol="1" labelname="留购价款比例" maxlength="10" mustinput="1" row="9" unit="%"/>
+<formelement calculation="nameAmt=priceAmt*nameFlt" calculationShow="留购价款金额=单价*留购价款比例" datatype="12" fieldalign="3" fieldcol="4" fieldname="nameAmt" fieldtype="1" formactiveid="16" labelalign="1" labelcol="3" labelname="留购价款金额" maxlength="16" mustinput="1" readonly="1" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="alpType" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="非正常结束类型" maxlength="6" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaseSts" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="租赁物状态" maxlength="6" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeSts" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="租赁物抵押状态" maxlength="3" mustinput="0" row="22"/>
+<formelement cutOff="8" datatype="0" fieldalign="3" fieldcol="4" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="20" labelalign="1" labelcol="3" labelname="备注" maxlength="1500" mustinput="0" row="11" textAreaFieldRows="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="90" mustinput="0" row="24" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="240" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="登记人" maxlength="90" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="240" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgNo" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="最新登记机构号" maxlength="90" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" labelname="最新登记机构名称" maxlength="240" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegNo" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="最新登记人" maxlength="90" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="99" formactiveid="28" labelalign="3" labelcol="1" labelname="最新登记人名称" maxlength="240" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="登记日期" maxlength="24" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="30" labelalign="3" labelcol="1" labelname="更新日期" maxlength="24" mustinput="0" row="33" selrange="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="leaseName" fieldtype="1" formactiveid="31" horVer="0" labelalign="1" labelcol="3" labelname="租赁物名称" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="engineModel" fieldtype="1" formactiveid="32" horVer="0" labelalign="1" labelcol="1" labelname="发动机型号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="engineNo" fieldtype="1" formactiveid="33" horVer="0" labelalign="1" labelcol="3" labelname="发动机编号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="frameNo" fieldtype="1" formactiveid="34" horVer="0" labelalign="1" labelcol="1" labelname="车架号" mustinput="" param="leaseNo;" readonly="" row="10" writeAuth="BL110;"/>
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="plateNo" fieldtype="1" formactiveid="35" horVer="0" labelalign="1" labelcol="3" labelname="车牌号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="color" fieldtype="1" formactiveid="36" horVer="0" labelalign="1" labelcol="3" labelname="车身颜色" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="importSts" fieldsize="YES_NO" fieldtype="2" formactiveid="37" horVer="0" labelalign="1" labelcol="3" labelname="进口标志" mustinput="" readonly="" row="6" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="purTaxAmt" fieldtype="1" formactiveid="38" horVer="0" labelalign="1" labelcol="1" labelname="购置税" mustinput="" readonly="" row="4" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="liceFeeAmt" fieldtype="1" formactiveid="39" horVer="0" labelalign="1" labelcol="3" labelname="上牌费" mustinput="" readonly="" row="4" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="carTaxAmt" fieldtype="1" formactiveid="40" horVer="0" labelalign="1" labelcol="1" labelname="车船税" mustinput="" readonly="" row="5" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="insAmt" fieldtype="1" formactiveid="41" horVer="0" labelalign="1" labelcol="3" labelname="保险总额" mustinput="" readonly="" row="5" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodNo" fieldtype="99" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="销售产品编号" mustinput="" readonly="" row="17" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="sumAmt" fieldtype="1" formactiveid="44" horVer="0" labelalign="1" labelcol="1" labelname="小计" mustinput="1" readonly="1" row="6" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaseFormId" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="租赁物表单编号" mustinput="" readonly="" row="14" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="leaseNo" readonly="" row="1"/>
+</form>

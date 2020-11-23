@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfarchiveborrowrevert" title="借阅归还">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="revertName" fieldtype="1" formactiveid="20" labelalign="3" labelcol="1" labelname="归还人" maxlength="50" mustinput="1" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='MfArchiveBorrow.getusertinfo();'&gt;&lt;/i&gt;"/>
+<formelement alt="档案是否损坏，现状等信息" datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="22" labelalign="3" labelcol="1" labelname="归还备注" maxlength="200" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="revertActualTime" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="实际归还日期" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg({max:today})" row="3" unit="&lt;i&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="申请编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="revertNo" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="revertNo" mustinput="" readonly="" row="1"/>
+</form>

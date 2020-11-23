@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnnd0001" para="eadis_page" link="" title="质押国库债券" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnNd/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="ndCt" id="2" indexed="2" label="国债币种" row="1" type="0" />
+<tableitem align="2" filedname="ndAmount" id="3" indexed="3" label="国债金额(折人民币)" row="1" type="0" />
+<tableitem align="2" filedname="ndNo" id="4" indexed="4" label="国债号码" row="1" type="0" />
+<tableitem align="2" filedname="ndIssueDate" id="5" indexed="5" label="发行日期" row="1" type="0" />
+<tableitem align="2" filedname="ndDueDate" id="6" indexed="6" label="最近到期日期" row="1" type="0" />
+</table>

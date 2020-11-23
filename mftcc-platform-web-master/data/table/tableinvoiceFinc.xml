@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="invoiceFinc" para="eadis_page" title="发票管理_借据列表" type="4">
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'finc';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="1" filedname="appName" id="12" indexed="2" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusInvoicemanage/getInvoicePage;fincId-fincId;appId-appId;busEntrance-'finc';onClick-MfBusInvoicemanageFinc_List.invoiceInsert(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="4" label="借据号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="5" label="借据金额(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="loanBal" id="16" indexed="11" label="借据余额(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="1" indexed="12" label="开始日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="intstEndDateShow" id="15" indexed="13" label="结束日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="lastReturnDate" id="17" indexed="14" label="最后还款日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="10" indexed="15" label="借据期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincRateStr" id="13" indexed="16" label="借据利率" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincSts" id="11" indexed="17" label="借据状态" row="1" sortType="2" type="6" typepara="FINC_STS" widthType="0"/>
+<tableitem align="2" filedname="打印" id="18" indexed="18" label="操作" row="1" type="5" typepara="/mfBusInvoicemanage/getListPage;fincId-fincId;onClick-MfBusInvoicemanageFinc_List.getDetail(this)" widthType="0"/>
+</table>

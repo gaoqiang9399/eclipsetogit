@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="enterprisecpws001" title="企业裁判文书解析摘要">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="输入框" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="输入框" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="1"/>
+</form>

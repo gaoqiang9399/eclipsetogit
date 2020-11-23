@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1142" title="211.商标使用权 GRT_P_TRADEMARK">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="trademarkRegNo" fieldtype="1" fieldwidth="30" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="商标注册证号" labelwidth="20" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="signOrg" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="签发单位" labelwidth="20" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="signDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="签发日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agencyName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="代理组织名称" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="法定代表人" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="appNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="vouType" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="vouAmt" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="guaType" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="抵质押物类型" mustinput="" readonly="" row="6"/>
+</form>

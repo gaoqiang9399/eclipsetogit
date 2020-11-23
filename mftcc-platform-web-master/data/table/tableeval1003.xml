@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="eval1003" para="eadis_page" title="评级信息查看" type="2">
+<tableitem align="2" filedname="evalEndDate" id="15" indexed="5" label="评级到期日期" type="99" width="15" widthType="0"/>
+<tableitem align="2" filedname="rptDate" id="13" indexed="4" label="报表日期" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="grade" id="11" indexed="2" label="信用等级" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="evalAppNo" id="1" indexed="1" label="评级申请号" row="1" type="4" typepara="/appEval/getEvalHisDetailResult;evalAppNo-evalAppNo;query-'query';onClick-openBigForm(this)" width="15" widthType="0"/>
+<tableitem align="2" filedname="debtGrade" id="20" indexed="3" label="债项等级" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="evalSts" id="17" indexed="6" label="评级申请状态" row="1" type="99" typepara="APP_STS" width="15" widthType="0"/>
+</table>

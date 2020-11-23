@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cuspersdebt0001" title="个人客户负债表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="debtId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="欠款ID" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="loanUnit" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="借款机构" maxlength="60" mustinput="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="loanAmt" fieldsize="0.00" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="借款金额" maxlength="20" mustinput="1" param="bigAmt" row="3" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="loanTerm" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="借款期限" maxlength="3" mustinput="1" onchange="CusPersonDebtInfoInsert. getEndDate()" row="4" unit="个月"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="monthRepayAmt" fieldsize="0.00" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="月还款额" maxlength="20" mustinput="0" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="担保方式" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="99" formactiveid="9" labelalign="3" labelcol="3" labelname="还款方式" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="overdueSituation" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="逾期情况" maxlength="200" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="客户经理编号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="客户经理姓名" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanBal" fieldsize="0.00" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="贷款余额" maxlength="14" mustinput="1" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="debtType" fieldsize="PER_DEBT_TYPE" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="负债类型" maxlength="1" mustinput="1" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="借款开始时间" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg({max: today,choose:CusPersonDebtInfoInsert.getEndDate})" readonly="" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null, today, CusPersonDebtInfoInsert. getEndDate)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="借款结束时间" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="4"/>
+</form>

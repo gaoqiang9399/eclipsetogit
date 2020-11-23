@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="examineRecordList" para="eadis_page" title="贷后检查登记列表" type="1">
+<tableitem align="2" filedname="creditClass" id="29" indexed="12" label="审核人分级" row="1" type="6" typepara="INSIDE_LEVEL" widthType="0"/>
+<tableitem align="2" authority="examSts-2;examSts-3;examSts-4" filedname="删除" id="30" indexed="21" label="-" type="5" typepara="/mfExamineHis/deleteAjax;examHisId-examHisId;onClick-deleteExamine(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="adjRiskLevel" id="28" indexed="7" label="部门分级" row="1" type="6" typepara="INSIDE_LEVEL" widthType="0"/>
+<tableitem align="2" authority="examSts-1" filedname="详情" id="27" indexed="23" label="-" row="1" type="5" typepara="/mfExamineHis/examineApplyAfter;pasNo-pasNo;cusNo-cusNoSupplier;onClick-loanAfterExamineDetailNew(this)" widthType="0"/>
+<tableitem align="2" authority="examSts-2;examSts-3;examSts-4" filedname="检查登记" id="26" indexed="22" label="-" row="1" type="5" typepara="/mfExamineHis/examineApplyAfter;pasNo-pasNo;cusNo-cusNoSupplier;onClick-loanAfterExamine(this)" widthType="0"/>
+<tableitem align="2" filedname="pasNo" id="24" indexed="1" label="任务编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="examOpName" id="9" indexed="17" label="审核人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="finalLevel" id="5" indexed="13" label="最终评级" row="1" sortType="2" type="6" typepara="INSIDE_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="examSts" id="11" indexed="19" label="检查状态" row="1" sortType="2" type="6" typepara="EXAM_STS" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="3" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-getDetailPage(this);subStringNub-25;" width="20" widthType="0"/>
+<tableitem align="2" filedname="rptDate" id="10" indexed="18" label="报告期间" row="1" sortType="0" type="1" widthType="0"/>
+</table>

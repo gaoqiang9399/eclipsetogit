@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="consumable0003" title="资产详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="名称" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="price" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="资产价格" maxlength="10" mustinput="1" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="operateNum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" initvalue="1" labelalign="3" labelcol="3" labelname="入库数量" mustinput="0" readonly="1" row="2"/>
+<formelement alt="请输入备注，不超过200字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="specification" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="规格型号" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unit" fieldsize="CONS_UNIT" fieldstyle="half" fieldtype="21" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="计量单位" maxlength="2" mustinput="1" row="3"/>
+<formelement alt="字段号" datatype="0" fieldalign="1" fieldcol="2" fieldname="barCode" fieldstyle="half" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="资产序列号" mustinput="1" readonly="" row="2" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldstyle="half" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="折旧额" mustinput="" readonly="" row="3" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="2" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="设备状态" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldstyle="half" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="购置日期" maxlength="255" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="5" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;" />
+</form>

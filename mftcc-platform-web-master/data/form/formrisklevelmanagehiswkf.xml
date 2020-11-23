@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="risklevelmanagehiswkf" title="风险处置审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="appName" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="riskLevel" fieldsize="EXAM_RISK_LEVEL" fieldtype="2" formactiveid="31" horVer="1" labelalign="1" labelcol="3" labelname="风险等级" mustinput="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="manageType" fieldsize="manage_type" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="处置方案" mustinput="0" row="3"/>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="receBusinessContractInfoBase" title="应收账款商务合同信息新增基础表单">
+<formelement alt="应收账款商务合同号" datatype="0" fieldalign="1" fieldcol="4" fieldname="recePactNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同编号" maxlength="30" mustinput="1" onblur="validateDupCertiNo();" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recePactBeginDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="合同日" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg({max: today,choose:MfReceBusinessContractInfo_Insert.updatePactEndDate})" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="6" fieldname="recePactEndDate" fieldtype="99" formactiveid="6" labelalign="3" labelcol="5" labelname="合同到期日" maxlength="8" mustinput="0" readonly="1" row="3" unit="&lt;i class='i i-rili pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="客户名称" maxlength="30" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="termType" fieldsize="TERM_TYPE" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="期限类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="term" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="期限" mustinput="0" onblur="MfReceBusinessContractInfo_Insert.updatePactEndDate()" readonly="" row="1" unit="月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="receCounterparty" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="买方" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recePactName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="合同名称" mustinput="" readonly="" row="3"/>
+</form>

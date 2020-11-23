@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form id="plerepoapprove0002" title="应收回购审批历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repoAppId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyDate" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transferReason" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="反转让原因" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincPrepayBal" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="融资预付款余额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accruedInterest" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="应付未付利息" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="当前审批节点编号" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeName" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="当前审批节点名称" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="审批角色号/用户号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="当前审批角色/用户名称" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveRemark" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="审批说明" maxlength="400" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveResult" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="审批意见1同意2否决3退回上一环节4退回初审5不同意" maxlength="2" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="登记人姓名" maxlength="40" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记部门名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+</form>

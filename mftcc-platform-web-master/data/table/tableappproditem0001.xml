@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="appproditem0001" link="/mfAppProdItem/findByPage" para="eadis_page" title="app产品采集项" type="1">
+<tableitem align="2" filedname="itemOrder" id="5" indexed="7" label="显示顺序" row="1" type="0"/>
+<tableitem align="2" filedname="itemRequire" id="4" indexed="6" label="是否必填" sortType="2" type="4" typepara="/mfAppProdItem/updateRequireAjax;kindNo-kindNo;itemId-itemId;" widthType="0"/>
+<tableitem align="2" filedname="itemType" id="3" indexed="5" label="采集信息类型" row="1" type="6" typepara="APP_COLLECT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="9" indexed="4" label="采集项名称" row="1" type="0" typepara="/mfAppProdItem/getById;kindNo-kindNo;itemId-itemId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="8" indexed="2" label="产品名称" row="1" sortType="2" type="0" typepara="/mfAppProdItem/getById;kindNo-kindNo;itemId-itemId;query-'query'" widthType="0"/>
+</table>

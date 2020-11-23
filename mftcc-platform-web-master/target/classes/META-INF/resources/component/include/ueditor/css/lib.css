@@ -1,0 +1,246 @@
+  .layui-tree>li{ padding: 8px 0 ; border-bottom: 1px solid #efefef}
+.layui-tree>li>a>cite{ color: #666 ; font-size: 14px ; font-family: "微软雅黑" }
+.layui-tree li .layui-tree-spread{ float: right; padding-right: 20px ; color: #666 }
+.layui-tree li a{ padding-left: 10px }
+.layui-show>li>a>cite{ color: #999 }
+.layui-show>li{ padding: 8px 0 }
+.layui-header{ color: #fff }
+.layui-header a{ color: #fff }
+.layui-layout-admin .layui-logo{ color: #fff }
+.layui-nav{ background: #2C3B41 }
+.layui-layout-admin .layui-side{ }
+.layui-layout-admin .layui-body{ bottom: 0px }
+.page_title{ background: #e6e6e6 ; position: fixed;left: 200px; top:70px; width: 100%; line-height: 40px; color: #666 ; font-size: 14px ; border-bottom: 2px solid #ccc; padding-left: 20px }
+.layui-layout-admin .layui-body{ top: 61px }
+.wrap{ padding: 15px }
+.layui-logo{ background: #367fa9 ;color: #fff ; font-size: 20px ; text-align: center; }
+.mainHeader{ background: #fff ; padding: 15px ; margin-bottom: 15px}
+.mainContent{ background: #fff ; margin-bottom: 20px ; padding:15px}
+#formDiv{ padding: 30px 15px; font-size: 13px; color:#555; }
+.formFooter{ position: relative ; height: 50px; text-align: center;}
+.fixedFoot{text-align: center; position: fixed; width: 80%; bottom:11%; padding-bottom: 20px} 
+.footer{ position: relative }
+.footer div{position: fixed;  bottom:11%; padding-bottom: 20px ; z-index: 99999; width: 90% ; text-align: center;}
+#index_9{ margin-bottom: 100px }
+.red{ color: #f00 ; padding-right: 5px }
+.minwidth200{width: 200px}
+.minwidth250{width: 220px}
+.login-box {
+    margin: 10% auto;
+    width: 320px;
+    height: 241px;
+    max-height: 300px;
+    padding: 15px ;
+     background: #fff
+}
+.formList{ overflow: hidden }
+.left{ float: left }
+#formDiv2{ padding: 0px 15px 20px 15px; font-size: 13px; color:#555; }
+.layui-form-label2 {
+    float: left;
+    display: block;
+    padding: 9px 5px;
+    min-width: 140px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+.layui-input-block2 {
+    margin-left: 170px;
+    min-height: 36px;
+}
+.tabbutton{ border:none;background: none }
+.tabtitle{ position: relative; }
+.zhe{ width: 70% ; height: 40px ; background: #fff; opacity: 0 ;
+ position: absolute; left: 90px; top:0; display: none}
+/*.tablist{color: #ccc}*/
+.bgheader{ color: #1E9FFF ; line-height: 40px }
+.bgheader span{ padding-right: 20px }
+.zctable {
+     border-collapse: collapse;
+     border: 1px solid #d9d9d9;
+     width: 100%;
+     margin: 20px 0;
+     text-align: center;
+     background: #ffffff;
+     font-size: 12px
+ }
+ 
+ .zctable tr {
+     width: 100%;
+ }
+ 
+ .zctable th {
+     line-height: 40px;
+     border: 1px solid #d9d9d9;
+ }
+ 
+ .zctable td {
+     line-height: 30px;
+     border: 1px solid #d9d9d9;
+ }
+ 
+ .sheetRight td {
+     text-align: right;
+     /* padding-right: 10px; */
+ }
+ 
+ .sheetLeft td {
+     text-align: left;
+     padding-left: 10px;
+ }
+ 
+ .zctable td input {
+     border: none;
+     width: 170px;
+     height:30px;
+     padding: 0 5px
+ }
+ .baobiao{ padding-bottom: 20px }
+ .page{ margin: 10px auto ; text-align: center; }
+ .bgTitle{ font-size: 16px; font-weight: bold; color: #2d8cf0 ; padding: 20px 0 }
+ #form{ width: 80% ;  }
+ .loutiNav{ width: 20% ; }
+ #loutinav {
+        /*width: 60px;*/
+        position: relative;
+    }
+    #loutinav ul{
+        position: fixed;
+        /*border: 1px solid #ddd;*/
+        margin: 20px 0 0 50px;
+        border-left: 1px solid #e7e7e7 ;
+        width: 80px
+    }
+    #loutinav ul li {
+        width: 60px;
+        height: 32px;
+        list-style: none;
+        font-size: 12px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        padding: 0px 0;
+        background: #fff;
+        color: #fff;
+        line-height: 32px;
+    }
+    
+    #loutinav ul li a {
+        width: 60px;
+        height: 32px;      
+        position: relative;
+        padding-left: 25px
+    }
+    #loutinav ul li.active a {
+       /* background: #2d8cf0;*/
+        color: #2d8cf0;
+    }
+
+    #loutinav ul li:hover a {
+        /*background: #2d8cf0;*/
+        color: #2d8cf0;
+    }
+    .yuandian{ display: inline-block; position: absolute; left: -5px; top:0; border-radius: 50%; width: 10px ; height: 10px; background: #2d8cf0 ; margin-right: 20px }
+    .dd{ height: 100% ;}
+    .setting{ background: #fff ; padding-bottom: 20px } 
+    .setting p{ border-bottom: 1px solid #e7e7e7 ; padding: 14px 16px ; color: #555; font-weight: bold; }
+    .form{ padding: 10px }
+    .userList{ width: 320px; height: 150px ; background:#fff ; padding: 15px ; border-radius: 2px ; border: 1px solid #e7e7e7 }
+    .userTop{ overflow: hidden; padding: 10px 0 20px 0 }
+    .userleft{ width: 89px; height: 89px; background: #eee; border-radius: 50% ; float: left;}
+    .userleft img{ width: 100% }
+    .userright{ float: left; padding: 30px 20px 0 20px }
+    .userright p{ color: #2d8cf0 ; font-size: 18px; font-weight: bold; }
+    .userright span{display:block; font-size: 14px}
+    .userDate{ line-height: 30px ; border-top:1px solid #e7e7e7; padding-top: 10px }
+    #cwtable .grayBg{ /*background: #e7e7e7 */; text-align: left; padding-left: 10px}
+    .daoru,.xiazai,.bianji{ cursor: pointer; }
+    .jbBank p{ font-weight: bold; }
+.footButton{ text-align: center; width:90% ; position: fixed; bottom: 11% }
+.zctable{ margin-bottom: 50px }
+.picwrap{ width: 95% ; margin:0px auto; text-align: center; }
+.picwrap img{ text-align: center; margin: 20px 0}
+.gray { color: #ccc } 
+.blue{color: #2d8cf0 ; padding:10px ; cursor: pointer;}
+.pdtop10{ padding-top: 10px }
+.btnCss{ border:none; background: none ; color: #1E9FFF ; padding-right: 20px ; cursor: pointer; }
+.tableLeft{ text-align: left; ; padding: 0 5px ; display: block; }
+.baobiaoTab li{ position: relative; min-width: 0px ; margin-right: 10px}
+.baobiaoTab li span{ position: absolute; color: #1E9FFF ; right: -5px ; top:-5px; font-size: 12px }
+.baobiaoTab li span i{font-size: 14px ; font-weight: bold;}
+.bianji{ display: none; }
+.layui-layer-setwin .layui-layer-min{ display: none; }
+.font18{ font-size: 18px }
+.textRight{ text-align: right; display: block; padding-right: 10px }
+.textLeft{ display: block; text-align: left; padding: 0 10px }
+#form2 .layui-form-label{ min-width: 10px }
+#lirun input{ width: 170px }
+.basicContent{ padding: 0 20px }
+/*.bankType{ display: block; width: 100% ; height: 38px ; border: 1px solid #e6e6e6 ; font-size: 13px ; color: #666 }
+.certificateType{ display: block; width: 100% ; height: 38px ; border: 1px solid #e6e6e6 ; font-size: 13px ; color: #666 }
+.peopleType{ display: block; width: 100% ; height: 38px ; border: 1px solid #e6e6e6 ; font-size: 13px ; color: #666 }
+.directorType{  display: block; width: 100% ; height: 38px ; border: 1px solid #e6e6e6 ; font-size: 13px ; color: #666  }
+.relationType{ display: block; width: 100% ; height: 38px ; border: 1px solid #e6e6e6 ; font-size: 13px ; color: #666 }*/
+.operation{ text-align: center; }
+.operation span{ padding: 0 10px }
+#shareholderTable td{ padding: 9px 5px }
+.none{ display: none; }
+.step{ padding: 20px 0 30px 0 ; overflow: hidden; line-height: 30px ; padding-bottom: 20px}
+.step strong{ font-size: 18px ; float: left; }
+.step .stepBtn{float: left;} 
+.step a{ padding-left: 20px ; color: #1E9FFF; padding-right: 20px }
+.uploadTip{ padding-left: 20px }
+#priceForm{ padding-bottom: 30px }
+#downloadPrice{ padding-left: 20px }
+.bluezi{ color: #1E9FFF ; font-size: 14px; padding-left: 20px ; cursor: pointer; }
+.jdForm{ padding: 20px 5% ; color: #555 }
+.uploadMeeting{ color: #1E9FFF ; font-size: 14px; padding-left: 20px ; cursor: pointer;  }
+.searchWrap{ text-align: center; }
+.fkreportNo2{display: inline-block; line-height: 38px; width: 300px ; color: #2d8cf0 ; cursor: pointer;}
+.fkreportNo22{display: inline-block; line-height: 38px; width: 300px ; color: #2d8cf0 ; cursor: pointer;}
+#Question td{ padding: 0px }
+.hangnum{ line-height: 50px ; position: relative; text-align: center; border-bottom: 1px solid #e6e6e6 }
+.hangtitle{line-height: 50px ; text-align: center; position: relative;}
+.question{ padding: 15px ; border-bottom: 1px solid #e6e6e6}
+.answers{padding: 15px ;}
+.hangnum span{ position: absolute; ; display: inline-block; text-align: center; left: 0 ;top:-60px; width: 100% }
+.hangtitle span{ position: absolute; ; display: inline-block; text-align: center; left: 0 ;top:15px; width: 100%}
+.hangadd{ display: inline-block;  width: 100% ; text-align: center;}
+.headerSearch2{padding:20px 20px 0 0 ; width: 100%}
+.headerSearch2 span{display: inline-block; line-height: 30px; padding-right: 20px}
+.hsearch{ float: right; }
+.hsearch input{ float: left; width: 200px ; height: 35px}
+.search{ float: left;  margin-left: 10px ; margin-top: 2px}
+#fffff input{ text-align: right; padding-right: 5px }
+#lirun input{ text-align: right; padding-right: 5px }
+#xjtable input{ text-align: right; padding-right: 5px }
+#cwtable span{text-align: right; padding-right: 5px ; display: block;}
+.newTip{ display: block; padding: 10px 0 ; color: #ccc }
+.bothConsult{ padding-right: 30px }
+.numselect{ float: left; text-align: left; }
+.numtitle{float: left;display: block;line-height: 40px;padding: 0 50px;}
+/*#fuzhai td{ text-align: right; padding-right: 10px }
+#lirun td{ text-align: right; padding-right: 10px }*/
+.minwidth150{ width: 150px ; margin-right: 10px}
+.textCenter{ text-align: center; }
+.pdleft20{ padding-left: 20px }
+.pdleft30{ padding-left: 30px }
+.pdleft40{ padding-left: 40px }
+#fileTable form{ display: inline-block; }
+#projectImgs form{ display: inline-block; }
+#reportFile form{ display: inline-block; }
+#creditFile form{ display: inline-block; }
+#ownershipStructureImgs form{ display: inline-block; }
+#businessDetailsImg form{ display: inline-block; }
+#supplyChainStatusImg form{ display: inline-block; }
+#projectFile form{ display: inline-block; } 
+#realPersonCreditRecordFile form{ display: inline-block; } 
+
+/*执行报告贷后变更*/
+.formFooter2{ position: fixed; bottom: 10% ; width: 90% ; text-align: center ; height: 70px }
+.aligncenter{ text-align: center; }
+.reportZhe{ width: 50%; height:350px; display: none ;position: absolute; left: 0;top: 0 }
+.text-nowrap {
+        white-space: nowrap;
+    }

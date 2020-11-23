@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="assethandle0001" para="eadis_page" link="/mfAssetHandleInfo/findByPage" title="资产处置登记表" type="1">
+<tableitem align="2" filedname="assetHandleId" id="1" indexed="1" label="资产处置编号" row="1" type="4" typepara="/mfAssetHandleInfo/getById;assetHandleId-assetHandleId;query-'query'"/>
+<tableitem align="2" filedname="protectId" id="2" indexed="2" label="资产保全编号" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="3" indexed="3" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="appName" id="5" indexed="5" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="6" indexed="6" label="合同号" row="1" type="0" />
+<tableitem align="2" filedname="pactNo" id="7" indexed="7" label="合同展示号" row="1" type="0" />
+<tableitem align="2" filedname="assetNo" id="8" indexed="8" label="资产编号" row="1" type="0" />
+<tableitem align="2" filedname="assetName" id="9" indexed="9" label="资产名称" row="1" type="0" />
+<tableitem align="2" filedname="assetType" id="10" indexed="10" label="资产类别" row="1" type="0" />
+<tableitem align="2" filedname="assetAmt" id="11" indexed="11" label="资产价值" row="1" type="0" />
+<tableitem align="2" filedname="handleType" id="12" indexed="12" label="处置方式" row="1" type="0" />
+<tableitem align="2" filedname="personInCharge" id="13" indexed="13" label="购买人/承租人/负责人/接受方" row="1" type="0" />
+<tableitem align="2" filedname="transactionPrice" id="14" indexed="14" label="成交价格/租赁金额" row="1" type="0" />
+<tableitem align="2" filedname="contactNumber" id="15" indexed="15" label="联系电话/接受方联系方式" row="1" type="0" />
+<tableitem align="2" filedname="eMail" id="16" indexed="16" label="电子邮件" row="1" type="0" />
+<tableitem align="2" filedname="contactAddress" id="17" indexed="17" label="联系地址" row="1" type="0" />
+<tableitem align="2" filedname="entrustedAgency" id="18" indexed="18" label="委托机构" row="1" type="0" />
+<tableitem align="2" filedname="subjectToBid" id="19" indexed="19" label="起价标的" row="1" type="0" />
+<tableitem align="2" filedname="auctionFee" id="20" indexed="20" label="拍卖费用" row="1" type="0" />
+<tableitem align="2" filedname="liquidationBalance" id="21" indexed="21" label="变现差额" row="1" type="0" />
+<tableitem align="2" filedname="loanAmount" id="22" indexed="22" label="抵贷额" row="1" type="0" />
+<tableitem align="2" filedname="differentialHandling" id="23" indexed="23" label="差额处理" row="1" type="0" />
+<tableitem align="2" filedname="transactionDate" id="24" indexed="24" label="交易日期" row="1" type="0" />
+<tableitem align="2" filedname="leaseMode" id="25" indexed="25" label="租赁方式" row="1" type="0" />
+<tableitem align="2" filedname="leaseDate" id="26" indexed="26" label="起租日期" row="1" type="0" />
+<tableitem align="2" filedname="term" id="27" indexed="27" label="租赁期限/合营期限" row="1" type="0" />
+<tableitem align="2" filedname="hireDate" id="28" indexed="28" label="止租日期" row="1" type="0" />
+<tableitem align="2" filedname="rentPaymentMethod" id="29" indexed="29" label="租金缴纳方式" row="1" type="0" />
+<tableitem align="2" filedname="totalInvestment" id="30" indexed="30" label="投资总额" row="1" type="0" />
+<tableitem align="2" filedname="projectAddress" id="31" indexed="31" label="项目建设地址" row="1" type="0" />
+<tableitem align="2" filedname="cooperationMode" id="32" indexed="32" label="合作方式" row="1" type="0" />
+<tableitem align="2" filedname="contributionAmt" id="33" indexed="33" label="出资额" row="1" type="0" />
+<tableitem align="2" filedname="profitAmt" id="34" indexed="34" label="收益额" row="1" type="0" />
+<tableitem align="2" filedname="realizedAmt" id="35" indexed="35" label="变现金额" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="36" indexed="36" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="46" indexed="46" label="-" row="1" type="5" typepara="/mfAssetHandleInfo/deleteAjax;assetHandleId-assetHandleId;onClick-ajaxDelete(this)" width="2"/>
+</table>

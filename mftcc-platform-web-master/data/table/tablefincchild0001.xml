@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincchild0001" para="eadis_page" title="子借据列表" type="1">
+<tableitem align="1" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-openDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="fincRate" id="13" indexed="12" label="借据利率" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="合同编号" sortType="2" type="4" typepara="/mfBusAssetsPackagePool/showAssetChildViewPage;cusNo-cusNo;fincId-fincId;fincChildId-fincChildId;onClick-openDetailPage(this);" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="0" typepara="subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="4" label="合同金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termMonth" id="10" indexed="11" label="借据期限" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="1" indexed="10" label="开始日期" row="1" sortType="1" type="1" widthType="0"/>
+</table>

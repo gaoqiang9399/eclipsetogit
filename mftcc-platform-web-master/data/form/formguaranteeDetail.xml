@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="guaranteeDetail" title="保函登记">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="保函登记ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="appId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="1" labelname="申请id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="appName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="1" labelcol="1" labelname="项目名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactId" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="1" labelname="合同id" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactNo" fieldtype="1" maxlength="100" formactiveid="5" labelalign="1" labelcol="1" labelname="合同号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="6" labelalign="1" labelcol="1" labelname="客户号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="7" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="kindNo" fieldtype="1" maxlength="30" formactiveid="8" labelalign="1" labelcol="1" labelname="产品编号" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="kindName" fieldtype="1" maxlength="50" formactiveid="9" labelalign="1" labelcol="1" labelname="产品名称" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" maxlength="20" formactiveid="10" labelalign="1" labelcol="1" labelname="合同金额" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="openDate" fieldtype="1" maxlength="8" formactiveid="11" labelalign="1" labelcol="1" labelname="开立时间" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="guaranteeNo" fieldtype="1" maxlength="100" formactiveid="12" labelalign="1" labelcol="1" labelname="保函编号" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="guaranteeAmt" fieldtype="1" maxlength="20" formactiveid="13" labelalign="1" labelcol="1" labelname="保证金额" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="guaranteeEndDate" fieldtype="1" maxlength="8" formactiveid="14" labelalign="1" labelcol="1" labelname="保函有效期" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="courierNo" fieldtype="1" maxlength="100" formactiveid="15" labelalign="1" labelcol="1" labelname="快递单号" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="guaSts" fieldtype="1" maxlength="1" formactiveid="16" labelalign="1" labelcol="1" labelname="保函状态1-已登记；2-已确认" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="17" labelalign="1" labelcol="1" labelname="登记时间" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regDate" fieldtype="1" maxlength="8" formactiveid="18" labelalign="1" labelcol="1" labelname="登记日期" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="19" labelalign="1" labelcol="1" labelname="修改时间" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModDate" fieldtype="1" maxlength="8" formactiveid="20" labelalign="1" labelcol="1" labelname="修改日期" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="50" formactiveid="21" labelalign="1" labelcol="1" labelname="登记人编号" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="100" formactiveid="22" labelalign="1" labelcol="1" labelname="登记人" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="50" formactiveid="23" labelalign="1" labelcol="1" labelname="登记人部门编号" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="1" maxlength="100" formactiveid="24" labelalign="1" labelcol="1" labelname="登记人部门" mustinput="0" row="45"/>
+</form>

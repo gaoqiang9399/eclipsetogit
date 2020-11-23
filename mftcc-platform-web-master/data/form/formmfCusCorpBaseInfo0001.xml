@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfCusCorpBaseInfo0001" title="对公客户信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="superviseType" fieldsize="SUPERVISE_TYPE" fieldtype="21" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="监管方式" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="48" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameShort" fieldtype="1" formactiveid="51" horVer="0" labelalign="3" labelcol="1" labelname="客户简称1" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameShort2" fieldtype="1" formactiveid="52" horVer="0" labelalign="3" labelcol="1" labelname="客户简称2" mustinput="0" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameShort3" fieldtype="1" formactiveid="53" horVer="0" labelalign="3" labelcol="1" labelname="客户简称3" mustinput="0" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameShort4" fieldtype="1" formactiveid="54" horVer="0" labelalign="3" labelcol="1" labelname="客户简称4" maxlength="100" mustinput="0" onclick="selectAreaDialog(selectAreaCallBack)" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="56" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="closedCapitalOpFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="57" horVer="0" labelalign="3" labelcol="1" labelname="允许资金封闭运行" mustinput="1" readonly="" row="7"/>
+</form>

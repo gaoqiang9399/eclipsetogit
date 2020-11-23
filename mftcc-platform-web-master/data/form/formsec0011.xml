@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sec0011" title="用户记录信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="userId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="60" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="passwordUpdateTime" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="" maxlength="24" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="visitTimes" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loginErrorTimes" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastSignInTime" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="" maxlength="24" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lastSignOutTime" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="" maxlength="24" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="currentSignInTime" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="" maxlength="24" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="passwordState" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="" maxlength="1200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="passwordMessege" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="" maxlength="1200" mustinput="0" row="5"/>
+</form>

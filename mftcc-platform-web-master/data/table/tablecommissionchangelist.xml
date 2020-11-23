@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="commissionchangelist" link="/mfCommissionChangeRecord/findByPage" para="eadis_page" title="佣金变更记录表" type="1">
+<tableitem align="3" filedname="changeAmt" id="4" indexed="6" label="分润金额（元）" row="1" sortType="2" type="12" width="25" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="2" indexed="2" label="分润时间" row="1" sortType="2" type="4" typepara="/mfCommissionChangeRecord/listShowDetailAjax;commissionChangeId-commissionChangeId;cusNo-cusNo;oneUrl-'/mfCommissionChangeRecord/updateByOneAjax';onClick-listShowDetail(this);" width="25" widthType="0"/>
+<tableitem align="2" filedname="分润明细" id="19" indexed="12" label="-" type="5" typepara="/mfCommissionChangeRecordDetail/getListPage;commissionChangeId-commissionChangeId;onClick-getCommissionChangeRecordDetailListPage;" width="25" widthType="0"/>
+<tableitem align="2" filedname="grantCount" id="17" indexed="10" label="分润个/笔数" row="1" sortType="2" type="0" width="25" widthType="0"/>
+</table>

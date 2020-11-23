@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssfreight_space01" para="eadis_page" title="仓位" type="2">
+<tableitem align="2" filedname="sequence" id="6" indexed="2" label="-" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="1" filedname="memo" id="5" indexed="9" label="备注" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="freightSpaceName" id="3" indexed="5" label="仓位名称" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="freightSpaceNo" id="2" indexed="4" label="仓位编号" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="enabledStatus" id="9" indexed="8" label="使用状态" type="99" widthType="0"/>
+<tableitem align="2" filedname="enabledStatusName" id="8" indexed="7" label="使用状态" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="freightSpaceId" id="7" indexed="3" label="主键" row="1" type="99" widthType="0"/>
+</table>

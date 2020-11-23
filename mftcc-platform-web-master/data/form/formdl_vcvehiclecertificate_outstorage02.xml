@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vcvehiclecertificate_outstorage02" title="合格证批量出库">
+<formelement alt="请点击选择寄出时间" datatype="6" fieldalign="1" fieldcol="4" fieldname="sendingTime" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="寄出时间" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg({})" readonly="1" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mailingAddress" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="邮寄地址" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outStorageMode" fieldsize="VC_OUT_STORAGE_MODE" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="出库方式" mustinput="1" onchange="VcVehicleCertificate_BatchOutStorage.outStorageMode(this);" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="expressCompany" fieldsize="VC_EXPRESS_COMPANY" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="快递公司" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="outStorageExpressNo" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="快递单号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="outStorageDescription" fieldtype="5" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="出库描述" maxlength="400" mustinput="" readonly="" row="4"/>
+</form>

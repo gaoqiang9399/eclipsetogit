@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssaccounts0001" para="eadis_page" title="进销存-账户管理表" type="2">
+<tableitem align="2" filedname="isDefaultAccount" id="14" indexed="9" label="默认账户" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="3" filedname="periodBalance" id="5" indexed="5" label="期初余额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="13" indexed="10" label="-" row="1" sortType="2" type="5" typepara="/pssAccounts/deleteAccountAjax;accountId-accountId;onClick-PssAccounts.deleteAccount(this)" widthType="0"/>
+<tableitem align="3" filedname="currBalance" id="4" indexed="4" label="当前余额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="12" indexed="8" label="建账日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="1" filedname="accountName" id="3" indexed="3" label="账户名称" mytitle="模板内容-accountName;" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accountNo" id="2" indexed="2" label="账户编号" row="1" sortType="2" type="4" typepara="/pssAccounts/getDetailPage;accountId-accountId;onClick-PssAccounts.getAccount;" widthType="0"/>
+<tableitem align="2" filedname="accountType" id="7" indexed="7" label="账户类别" row="1" sortType="2" type="6" typepara="PSS_ACCOUNT_TYPE" widthType="0"/>
+</table>

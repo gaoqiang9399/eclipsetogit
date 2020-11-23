@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetsclass0001" title="资产类别">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="className" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="类别名称" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsYear" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="预计使用年限" mustinput="1" readonly="" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="residualRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="预计净残值率%" mustinput="1" readonly="" row="3" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comAssets" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="固定资产科目" mustinput="1" readonly="" row="4" unit="&lt;i class='i i-fangdajing pointer' onclick='openComItemDialog(2 ,comCallBack);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assetsMethod" fieldsize="DEPRE_TYPE" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="折旧方式" mustinput="" readonly="" row="1"/>
+<formelement calculationType="onBlur" datatype="0" fieldalign="1" fieldcol="4" fieldname="assetsTerm" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="预计使用期限" mustinput="1" readonly="" row="2" unit="期"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="comDepre" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="累计折旧科目" mustinput="1" readonly="" row="4" unit="&lt;i class='i i-fangdajing pointer' onclick='openComItemDialog(2 ,comCallBack1);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uuid" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="唯一编号" mustinput="" readonly="" row="1"/>
+</form>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sysuser0001" para="eadis_page" title="选择用户" type="2">
+<tableitem align="2" filedname="opName" id="2" indexed="2" label="操作员名称" row="1" type="0"/>
+<tableitem align="2" filedname="loginUser" id="22" indexed="5" label="登录账号" type="0" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="21" indexed="4" label="操作员编号" row="1" type="0"/>
+<tableitem align="2" buttonMark="选择" filedname="选择" id="20" indexed="27" label="-" row="1" type="5" typepara="#;opNo-opNo;opName-opName;onClick-choseUser" width="2"/>
+</table>

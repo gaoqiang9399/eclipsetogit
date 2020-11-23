@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="evalitem0002" title="表单项配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="表单项编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="formNameEn" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="表单名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formNameZn" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="表单中文名" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="columnNameEn" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="字段名" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="columnNameZn" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="字段中文名" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dataType" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="字段数据类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="picParmEn" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="字典项" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="picParmZn" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="字典项中文名" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="启用标识" maxlength="1" mustinput="0" row="9"/>
+</form>

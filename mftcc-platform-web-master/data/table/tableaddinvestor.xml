@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="addinvestor" title="添加投资人" type="1">
+<tableitem align="3" filedname="investAmt" id="6" indexed="4" label="投资金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="选择" id="5" indexed="5" label="-" row="1" type="5" typepara="P2/pInvestResp/insertInvestRespAjax;finappNo-busPactNo;onClick-insertInvestResp(this);" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="0" label="投资客户" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="busPactNo" id="3" indexed="1" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="contractAmt" id="2" indexed="2" label="理财金额" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="matchBal" id="1" indexed="3" label="可匹配金额" type="12" widthType="0"/>
+</table>

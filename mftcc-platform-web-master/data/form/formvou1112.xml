@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1112" title="203.保单 GRT_P_POLICY">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="policyType" fieldsize="POLICY_TYPE" fieldtype="21" fieldwidth="30" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="保险种类" labelwidth="20" maxlength="5" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="coName" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="保险公司名称" labelwidth="20" maxlength="60" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="policyNo" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="保单编号" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="policyHolder" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="投保人" maxlength="60" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insured" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="被保险人" maxlength="60" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beneficiary" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="受益人" maxlength="60" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="policyCircs" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="保险责任情况" maxlength="120" mustinput="0" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="policyAmt" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="已缴纳保险费金额（元）" maxlength="16" mustinput="1" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="保险开始日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="保险到期日期" maxlength="24" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayPay" fieldsize="POLICY_WAY" fieldtype="21" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="保险费缴纳方式" maxlength="5" mustinput="0" row="6"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="policyMonth" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="保险费交缴期限(月)" maxlength="22" mustinput="0" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="monthAmt" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="保险费每期缴纳金额" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="payStartDate" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="缴纳开始日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="payEndDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="缴纳结束日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="appNo" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="vouType" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="10" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="vouAmt" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="10" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="guaType" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="抵质押物类型" mustinput="" readonly="" row="10" />
+</form>

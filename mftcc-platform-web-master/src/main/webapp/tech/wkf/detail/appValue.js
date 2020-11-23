@@ -1,0 +1,20 @@
+appValueData = {
+	appId : "业务编号",
+	pactId : "合同编号",
+	busModel : "业务模型",
+	cusNo : "客户编号",
+	appAmt : "申请金额",
+	vouType : "担保类型",
+	wkfAppId : "业务流程编号",
+	evalAppNo : "评级申请编号",
+	orgNo : "机构编号",
+	fincId : "借据编号",
+	creditAppId : "授信申请编号",
+	examHisId : "检查登记历史编号",
+	debtId : "借款申请编号",
+	expenseId : "报销申请编号",
+	leaveNo : "请假申请编号",
+	fiveclassId : "五级分类编号",
+	repoAppId : "承购申请编号",
+	receivablesPledgeId : "质押/转让编号"
+}

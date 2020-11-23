@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="demo0002" title="演示统计">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoDay" fieldtype="1" formactiveid="1" horVer="1" labelalign="3" labelcol="2" labelname="累计天" mustinput="" readonly="" row="1" unit="天" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoCount" fieldtype="1" formactiveid="2" horVer="1" labelalign="3" labelcol="1" labelname="累计次数" mustinput="" readonly="" row="1" unit="天" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoMaxDay" fieldtype="1" formactiveid="3" horVer="1" labelalign="3" labelcol="3" labelname="最大天" mustinput="" readonly="" row="1" unit="天" />
+</form>

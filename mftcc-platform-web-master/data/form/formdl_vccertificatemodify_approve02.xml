@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatemodify_approve02" title="合格证放款凭证属性修改审批">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="合格证编号" maxlength="50" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="configurationName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="配置" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleTypeName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="车型" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="colourName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="颜色" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vin" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="车架号" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="originalLoanVoucherType" fieldsize="VC_LOAN_VOUCHER_TYPE" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="原放款凭证属性" maxlength="2" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="newLoanVoucherType" fieldsize="VC_LOAN_VOUCHER_TYPE" fieldtype="2" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="新的放款凭证属性" mustinput="0" readonly="1" row="4"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remarks" fieldtype="5" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyId" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="申请ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealerName" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="合格证所属经销商" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regBrName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="申请人所属机构" mustinput="" readonly="1" row="6"/>
+</form>

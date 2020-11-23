@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="urgemodel0002" title="催收模板">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="urgeModelId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="3" labelname="催收模板ID" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelContent" fieldsize="100" fieldtype="5" formactiveid="4" horVer="0" initvalue="@{客户名称},贷款合同号:@{合同号}的贷款,应还款本金:@{本金合计},应还利息:@{利息合计},应还款日:@{还款日},请按时足额还款。" labelalign="3" labelcol="1" labelname="模板信息" maxlength="65535" mustinput="1" row="1" textAreaFieldRows="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="模版名称" mustinput="0" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelType" fieldsize="BUS_MODEL" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="0" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="urgeType" fieldsize="URGE_TYPE" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="模版类型" mustinput="0" readonly="" row="2" />
+</form>

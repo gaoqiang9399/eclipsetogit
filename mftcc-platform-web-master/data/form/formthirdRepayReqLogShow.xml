@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="thirdRepayReqLogShow" title="thirdRepayReqLogShow">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memberCode" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="会员编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="merchantAcctId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="收款账号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contractId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="requestId" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="请求批次号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="requestTime" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="请求时间" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="numTotal" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="总笔数" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amountTotal" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="总金额" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="inputCharset" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="字符集" mustinput="" param2="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注1" maxlength="400" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="备注2" maxlength="400" mustinput="" readonly="1" row="5"/>
+</form>

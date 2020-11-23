@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vccertificatescanfile03" para="eadis_page" title="合格证扫描件待导入列表" type="2">
+<tableitem align="2" filedname="certificateState" id="52" indexed="21" label="状态" row="1" type="6" typepara="VC_CERTIFICATE_STATE" width="8" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="20" label="车架号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="51" indexed="19" label="经销商" mytitle="模板内容-dealerName" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="3" filedname="docSize" id="48" indexed="24" label="大小(KB)" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="engineNo" id="47" indexed="22" label="发动机号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="fileName" id="20" indexed="23" label="文件名称" sortType="2" type="0" width="17" widthType="0"/>
+</table>

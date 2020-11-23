@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="TrenchProfitRateList" para="eadis_page" title="渠道分润比例列表" type="1">
+<tableitem align="2" filedname="shareProfitRate" id="6" indexed="9" label="分润比例(%)" row="1" sortType="2" type="17" width="20" widthType="0"/>
+<tableitem align="2" filedname="baseEndAmt" id="5" indexed="5" label="基数截止值(元)" row="1" sortType="2" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="baseStartAmt" id="4" indexed="4" label="基数起始值(元)" row="1" sortType="2" type="12" width="20" widthType="0"/>
+<tableitem align="1" filedname="trenchName" id="3" indexed="3" label="渠道名称" mytitle="姓名-trenchName" row="1" sortType="2" type="4" typepara="/mfTrenchShareProfitRate/listShowDetailAjax;id-id;cusNo-trenchUid;relNo-relNo;oneUrl-'/mfTrenchShareProfitRate/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="sort" id="11" indexed="10" label="排序" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="11" label="-" sortType="2" type="5" typepara="/mfTrenchShareProfitRate/deleteAjax;id-id;cusNo-trenchUid;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

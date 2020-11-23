@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="invoiceManageHistoryDetaill" para="eadis_page" title="还款历史详情列表" type="2">
+<tableitem align="2" filedname="termNum" id="7" indexed="8" label="期号" row="1" type="0"/>
+<tableitem align="2" filedname="recvAmt" id="26" indexed="16" label="实际还款总额" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="prcpSum" id="12" indexed="17" label="还款本金总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="normIntstSum" id="25" indexed="18" label="还款正常利息" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="shouldPrcpSum" id="27" indexed="19" label="本次应还本金总额" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="28" indexed="20" label="还款日期" row="1" type="1" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="24" indexed="21" label="还款类型" row="1" type="6" typepara="REPAY_HIS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="invoiceStatus" id="30" indexed="22" label="开票状态" row="1" type="6" typepara="INVOICE_STATUS" widthType="0"/>
+</table>

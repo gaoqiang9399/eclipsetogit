@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="bank0001" title="账户信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="accBankName" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="开户行名称" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="accNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="结算账号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="accName" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="账号户名" mustinput="" readonly="" row="2" />
+</form>

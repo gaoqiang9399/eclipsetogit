@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lawsuitfollow0001" title="法律诉讼跟进详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="跟进备注：" maxlength="400" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="actCourt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="受理法院：" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="judge" fieldstyle="half" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="主审法官：" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="appActDate" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="申请执行日期：" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="lawFileNo" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="法律文书号：" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="result" fieldstyle="half" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="审理结果：" mustinput="" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="judgAmt" fieldstyle="half" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="判决金额：" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="judgActDate" fieldstyle="half" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="判决执行日期：" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="lawFileNo" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="法律文书号：" mustinput="" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="lawFileDate：" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="法律文书生效日期：" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="actType" fieldsize="ACT_TYPE" fieldstyle="half" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="执行类型：" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="actType" fieldstyle="half" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="执行类型：" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="actCourt" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="执行法院：" mustinput="" readonly="1" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actAmt" fieldstyle="half" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="执行金额：" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="actResult" fieldstyle="half" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="执行结果：" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="followTypeName" fieldstyle="half" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="跟进类型：" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="followDate" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="日期：" mustinput="" readonly="1" row="1"/>
+</form>

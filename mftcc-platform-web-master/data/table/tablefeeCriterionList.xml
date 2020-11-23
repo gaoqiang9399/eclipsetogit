@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="feeCriterionList" para="eadis_page" title="费用标准列表" type="2">
+<tableitem align="2" filedname="feeVoucherNo" id="27" indexed="28" label="财务凭证号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="relationPactNo" id="26" indexed="30" label="费用合同号" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="feeAccountNo" id="25" indexed="26" label="账号信息" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="24" indexed="24" label="费用名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="预收" id="31" indexed="31" label="预收" row="1" type="5" typepara="/mfBusAppFee/perfectBusAppFee;id-id;onClick-MfBusAppFee_CriterionList.advanceCollectFee(this)" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="30" indexed="29" label="合同号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="29" indexed="22" label="编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="feeMainName" id="28" indexed="25" label="收费主体" row="1" type="0" widthType="0"/>
+</table>

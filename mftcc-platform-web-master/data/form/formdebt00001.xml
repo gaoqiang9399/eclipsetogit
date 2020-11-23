@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="debt00001" title="借款表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="debtId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="借款编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="借款人编号" maxlength="22" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="借款人姓名" maxlength="40" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="部门编号" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brName" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="部门名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyType" fieldstyle="half" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="申请类型" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyName" fieldstyle="half" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="申请名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyAmt" fieldstyle="half" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="借款金额" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAmt" fieldstyle="half" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="销账金额" maxlength="10" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="debtAmt" fieldstyle="half" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="欠款金额" maxlength="10" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reason" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="申请事由" maxlength="200" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyTime" fieldstyle="half" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="申请时间" maxlength="17" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstReturnTime" fieldstyle="half" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="最后一次还款时间" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="debtSts" fieldstyle="half" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="申请状态" maxlength="10" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldstyle="half" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="审批环节" maxlength="20" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="br" fieldstyle="half" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="部门" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="op" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="申请人" mustinput="" readonly="1" row="1" />
+</form>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cusveh00002" title="车辆资产表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleInfoId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="车辆资产信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="carType" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="车辆种类" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="licenseNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="车辆牌号" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brand" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="车辆品牌" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="model" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="型号" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shelfNo" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="车架号" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="engineNo" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="发动机号" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="roadHaulKm" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="车辆行驶公里数" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="price" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="购买金额" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="purchase" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="购买情况（类型）" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loanSum" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="贷款或欠款金额" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="holdDate" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="买入日期" maxlength="8" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="使用状态" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="21"/>
+</form>

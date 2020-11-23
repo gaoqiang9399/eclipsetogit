@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="trace0001" title="客户跟踪表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTraceNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="240" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="purpose" fieldsize="240" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="目的" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="timePlace" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="时间地点" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="interviewees" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="对象" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="staff" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="我方人员" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="othInfo" fieldsize="100" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="客户阶段及其它信息" maxlength="600" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contact" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="联系人" maxlength="40" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactDuties" fieldsize="DUTIES" fieldtype="21" formactiveid="10" labelalign="3" labelcol="3" labelname="联系人职务" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactSex" fieldsize="SEX" fieldtype="21" formactiveid="11" labelalign="3" labelcol="1" labelname="联系人性别" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactFixedTel" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="联系人办公电话" maxlength="15" mustinput="0" onblur="checkTelOnly(contactFixedTel)" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactMobileTel1st" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="联系人手机号码" maxlength="15" mustinput="1" onblur="checkMobileOnly(contactMobileTel1st)" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactEmail" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="联系人电子邮件" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="contactOthInfo" fieldsize="100" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="其它信息" maxlength="600" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prepCusInfo" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="行业及客户" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="forecast" fieldtype="1" formactiveid="17" labelalign="3" labelcol="3" labelname="需求预测" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="preData" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="提交资料" maxlength="600" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="preOthInfo" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="其他" maxlength="600" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="talkPoints" fieldsize="100" fieldtype="5" formactiveid="20" labelalign="3" labelcol="1" labelname="会谈要点" maxlength="100" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="busNeeds" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="业务需求" maxlength="600" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="advise" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="结论及建议" maxlength="600" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="90" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="240" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="登记人" maxlength="90" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regName" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="240" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgNo" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="最新登记机构号" maxlength="90" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgName" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" labelname="最新登记机构名称" maxlength="240" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegNo" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="最新登记人" maxlength="90" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegName" fieldtype="99" formactiveid="30" labelalign="3" labelcol="3" labelname="最新登记人名称" maxlength="240" mustinput="0" row="10"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="31" labelalign="3" labelcol="1" labelname="登记日期" maxlength="24" mustinput="0" row="11"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="99" formactiveid="32" labelalign="3" labelcol="3" labelname="更新日期" maxlength="24" mustinput="0" row="11"/>
+</form>

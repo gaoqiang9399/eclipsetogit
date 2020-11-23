@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app2005" title="合同视角融资信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="21" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="还款方式" maxlength="2" mustinput="" readonly="" row="1" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="finalAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="尾款金额" maxlength="16" mustinput="" readonly="" row="6" unit="元" />
+<formelement datatype="1" fieldalign="3" fieldcol="4" fieldname="termMon" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="3" labelname="期限月" maxlength="5" mustinput="" readonly="" row="1" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="totalAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="总价款" maxlength="16" mustinput="" readonly="" row="3" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="actualAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="3" labelname="融资额" maxlength="16" mustinput="" readonly="" row="3" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="executeRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="利率" mustinput="" readonly="" row="2" unit="%" />
+<formelement datatype="17" fieldalign="3" fieldcol="4" fieldname="fstPayRio" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="3" labelname="首付比例" mustinput="" readonly="" row="4" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="fstPayAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="1" labelcol="1" labelname="首付金额" mustinput="" readonly="" row="4" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="4" fieldname="depositRio" fieldtype="1" formactiveid="9" horVer="0" labelalign="1" labelcol="3" labelname="保证金比例" maxlength="10" mustinput="" readonly="" row="5" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="depositAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="1" labelcol="1" labelname="保证金金额" maxlength="16" mustinput="" readonly="" row="5" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="4" fieldname="finalRio" fieldtype="1" formactiveid="11" horVer="0" labelalign="1" labelcol="3" labelname="尾款比例" maxlength="10" mustinput="" readonly="" row="6" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="serviceAmt" fieldtype="1" formactiveid="14" horVer="0" labelalign="1" labelcol="1" labelname="服务费总计" maxlength="16" mustinput="" readonly="" row="7" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="nameAmt" fieldtype="1" formactiveid="15" horVer="0" labelalign="1" labelcol="3" labelname="留购价款" maxlength="16" mustinput="" readonly="" row="7" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="advAmt" fieldtype="1" formactiveid="16" horVer="0" labelalign="1" labelcol="3" labelname="预收租金" maxlength="16" mustinput="" readonly="" row="8" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="fstTermAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="1" labelcol="1" labelname="首期还款额" maxlength="16" mustinput="" readonly="" row="8" unit="元" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="payDay" fieldtype="1" formactiveid="18" horVer="0" labelalign="1" labelcol="3" labelname="租金支付日" mustinput="" readonly="" row="2" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="sumInstmAmt" fieldtype="1" formactiveid="19" horVer="0" labelalign="1" labelcol="1" labelname="租金总计" mustinput="" readonly="" row="9" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="sumNormInt" fieldtype="1" formactiveid="20" horVer="0" labelalign="1" labelcol="3" labelname="利息总计" mustinput="" readonly="" row="9" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="surInstmAmt" fieldtype="1" formactiveid="21" horVer="0" labelalign="1" labelcol="1" labelname="剩余租金" mustinput="" readonly="" row="10" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="surNormInt" fieldtype="1" formactiveid="22" horVer="0" labelalign="1" labelcol="3" labelname="剩余利息" mustinput="" readonly="" row="10" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="conBal" fieldtype="1" formactiveid="23" horVer="0" labelalign="1" labelcol="1" labelname="本金余额" mustinput="" readonly="" row="11" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="4" fieldname="depositBal" fieldtype="1" formactiveid="24" horVer="0" labelalign="1" labelcol="3" labelname="保证金余额" mustinput="" readonly="" row="11" unit="元" />
+</form>

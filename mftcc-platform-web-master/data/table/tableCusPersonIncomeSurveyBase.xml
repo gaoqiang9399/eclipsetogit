@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusPersonIncomeSurveyBase" link="/mfCusPersonIncomeSurvey/findByPage" para="eadis_page" title="收入流水调查表" type="1">
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="5" indexed="4" label="-" type="5" typepara="/mfCusPersonIncomeSurvey/deleteAjax;surveyId-surveyId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="incomeMonth" id="4" indexed="0" label="月份" row="1" type="4" typepara="/mfCusPersonIncomeSurvey/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusPersonIncomeSurvey/updateAjaxByOne';onClick-listShowDetail(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="incomeMonthAmt" id="3" indexed="1" label="月收入" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="incomeAverageAmt" id="2" indexed="2" label="平均流水" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="incomeSumAmt" id="1" indexed="3" label="总计" row="1" type="12" width="20" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="apply0001" link="/mfBusApply/findByPage" para="eadis_page" title="申请列表" type="2">
+<tableitem align="2" filedname="regTime" id="88" indexed="100" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="87" indexed="94" label="申请金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="85" indexed="101" label="办理阶段" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appTime" id="96" indexed="95" label="申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="appName" id="92" indexed="84" label="委托保证合同" type="4" typepara="/mfBusApply/getSummary;appId-appId;onClick-enterClick(this);" widthType="0"/>
+</table>

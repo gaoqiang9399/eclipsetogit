@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="xxzy" title="信息摘要">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditCard_A" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="信用卡账户数" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditCard_B" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="信用卡未结清/未销户账户数" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditCard_D" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="信用卡发生过逾期的账户数" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditCard_E" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="信用卡发生过90天以上逾期的账户数" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditCard_C" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="信用卡为他人担保笔数" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseLoan_D" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="房贷发生过逾期的账户数" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseLoan_A" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="房贷账户数" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="houseLoan_B" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="房贷未结清/未销户账户数" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="houseLoan_E" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="房贷发生过90天以上逾期的账户数" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseLoan_C" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="房贷为他人担保笔数" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherLoan_A" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="其它贷款账户数" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="otherLoan_B" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="其它贷款未结清/未销户账户数" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherLoan_D" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="其它贷款发生过逾期的账户数" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="otherLoan_E" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="其它贷款发生过90天以上逾期的账户数" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherLoan_C" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="其它贷款为他人担保笔数" mustinput="" readonly="" row="9"/>
+</form>

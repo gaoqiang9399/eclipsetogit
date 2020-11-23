@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusfina00001" para="eadis_page" link="/mfCusFinancialInfo/findByPage" title="金融业务信息" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户号" row="1" type="4" typepara="/mfCusFinancialInfo/getById;cusNo-cusNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名" row="1" type="0" />
+<tableitem align="2" filedname="license" id="3" indexed="3" label="营业执照号码" row="1" type="0" />
+<tableitem align="2" filedname="basicBank" id="4" indexed="4" label="基本账号开户行" row="1" type="0" />
+<tableitem align="2" filedname="basicBankAccount" id="5" indexed="5" label="基本账户账号" row="1" type="0" />
+<tableitem align="2" filedname="exaApper" id="6" indexed="6" label="基本开户审批机关" row="1" type="0" />
+<tableitem align="2" filedname="forlicNo" id="7" indexed="7" label="开户许可证准号" row="1" type="0" />
+<tableitem align="2" filedname="forlicCode" id="8" indexed="8" label="外汇许可证号码" row="1" type="0" />
+<tableitem align="2" filedname="finalTel" id="9" indexed="9" label="财务部联系方式" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="18" indexed="18" label="-" row="1" type="5" typepara="/mfCusFinancialInfo/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pssotherstockoutbill0002" title="其他出库单表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherStockOutId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="其他出库单据ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherOutType" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="业务类别" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="客户编号" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherStockOutNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="其他出库单据编号" mustinput="" readonly="" row="3"/>
+</form>

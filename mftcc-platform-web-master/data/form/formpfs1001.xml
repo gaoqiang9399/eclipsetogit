@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs1001" title="平衡校验公式">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportType" fieldsize="REPORT_TYPE" fieldtype="2" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="报表类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="accRule" fieldsize="ACC_RULE" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="会计准则" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="filler" fieldsize="100" fieldtype="5" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="备注[格式:XXXX=aaaa+bbbb]" maxlength="1000" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="validNo" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="validNo" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="2" fieldname="formName" fieldsize="98" fieldtype="5" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="公式名称" maxlength="500" mustinput="0" row="3"/>
+</form>

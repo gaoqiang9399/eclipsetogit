@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="approvalstsquerylist" para="eadis_page" title="申请审批状态查询列表" type="1">
+<tableitem align="2" filedname="regTime" id="6" indexed="6" label="申请日期" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="5" indexed="5" label="项目期限" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="4" indexed="4" label="项目金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="3" indexed="3" label="产品种类" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="2" indexed="2" label="项目名称" row="1" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'4';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="1" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="7" indexed="7" label="审批状态" type="6" typepara="APP_STS" widthType="0"/>
+</table>

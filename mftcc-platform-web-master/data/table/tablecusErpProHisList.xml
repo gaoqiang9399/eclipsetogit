@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusErpProHisList" link="/mfCusErpProHis/findByPage" para="eadis_page" title="ERP原料采购历史" type="1">
+<tableitem align="2" filedname="删除" id="35" indexed="35" label="-" row="1" type="5" typepara="/mfCusErpProHis/deleteAjax.action;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+<tableitem align="2" filedname="breakContract" id="32" indexed="32" label="违约次数" row="1" type="0"/>
+<tableitem align="2" filedname="averageTransactionAmount" id="31" indexed="31" label="平均交易金额/年" row="1" type="0"/>
+<tableitem align="2" filedname="transactionAmount" id="30" indexed="30" label="交易总金额/年" row="1" type="0"/>
+<tableitem align="2" filedname="transactionFrequency" id="29" indexed="29" label="交易频率/年" row="1" type="0"/>
+<tableitem align="2" filedname="data" id="28" indexed="28" label="年份" row="1" type="4" typepara="/mfCusErpProHis/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;formId-formId;oneUrl-'/mfCusErpProHis/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_3" title="公安不良信息接口">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="message" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="描述" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="status" fieldsize="ga_status" fieldtype="21" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="是否有不良信息" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="姓名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idCardNum" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="证件号" mustinput="" readonly="1" row="1"/>
+</form>

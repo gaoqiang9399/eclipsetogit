@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="risk0006" title="风险拦截场景维度定义详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="业务场景编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dime" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="维度" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dimeJavaFieldName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="是否启用" maxlength="1" mustinput="0" row="2"/>
+</form>

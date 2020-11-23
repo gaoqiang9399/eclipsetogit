@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusinc00001" link="/mfCusPersonIncExpe/findByPage" para="eadis_page" title="收支情况" type="1">
+<tableitem align="2" filedname="删除" id="21" indexed="21" label="-" type="5" typepara="/mfCusPersonIncExpe/deleteAjax;cusNo-cusNo;relNo-relNo;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="homePeoples" id="8" indexed="8" label="家庭人口数" row="1" type="0"/>
+<tableitem align="2" filedname="fendNum" id="7" indexed="7" label="主要供养人口" row="1" type="0"/>
+<tableitem align="2" filedname="homeIncome" id="6" indexed="6" label="家庭月收入" row="1" type="0"/>
+<tableitem align="2" filedname="cusIncome" id="5" indexed="5" label="个人月收入" row="1" type="0"/>
+<tableitem align="2" filedname="otherPock" id="4" indexed="4" label="其他经济来源" row="1" type="0"/>
+<tableitem align="2" filedname="mainPock" id="3" indexed="3" label="主要经济来源" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名" row="1" type="0"/>
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户ID" row="1" type="4" typepara="/mfCusPersonIncExpe/getById;cusNo-cusNo;relNo-relNo;query-'query'" widthType="0"/>
+</table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="demo0005" title="演示全表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoWork" fieldsize="STS" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="单位" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="演示编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoTime" fieldsize="STS" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="时间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoPosition" fieldsize="STS" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="职务" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoTel" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="其他" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="demoDay" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="累计天数" mustinput="" onclick="laydateTimer(this)" readonly="" row="4" unit="天"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="demoCount" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="累计次数" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="4" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="demoMaxDay" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="最大天" mustinput="" readonly="" row="5" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoOther" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="其他" maxlength="400" mustinput="" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="demoAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="demoAmt2" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="金额2" mustinput="" readonly="" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="demoAmt3" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="金额3" mustinput="" readonly="" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="掩饰名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="realVal" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="列表选择真实值" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showVal" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="列表选择显示" mustinput="" readonly="" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="testAmt" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="显示大写测试" mustinput="" param="bigAmt" readonly="" row="9" unit="元"/>
+</form>

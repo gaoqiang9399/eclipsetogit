@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="sysModifyPwd" title="用户修改密码">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="用户名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="password" fieldtype="6" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="原密码" mustinput="1" onblur="modifyPwd.validatePwd(this)" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="password1" fieldtype="6" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="新密码" mustinput="1" onblur="modifyPwd.checkPwd(this)" onkeyup="modifyPwd.validate(this)" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="password11" fieldtype="6" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="确认密码" mustinput="1" onblur="modifyPwd.checkPwd(this)" readonly="" row="4" textAreaFieldRows="0"/>
+</form>

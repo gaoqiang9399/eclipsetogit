@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssupplierinfo0001" para="eadis_page" title="进销存-供应商表" type="2">
+<tableitem align="2" filedname="mobilePhone" id="18" indexed="14" label="手机号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="17" indexed="13" label="首要联系人" mytitle="模板内容-contactsName;" sortType="2" type="3" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="supplierCategory" id="16" indexed="4" label="供应商类别" row="1" sortType="2" type="6" typepara="PSS_SUPPLIER_CATEGORY" widthType="0"/>
+<tableitem align="2" filedname="删除" id="15" indexed="18" label="-" row="1" sortType="2" type="5" typepara="/pssSupplierInfo/deleteSupplierInfoAjax;supplierId-supplierId;onClick-PssSupplierInfo.deleteSupplierInfo(this)" widthType="0"/>
+<tableitem align="2" filedname="enabledStatus" id="14" indexed="17" label="使用状态" row="1" sortType="2" type="4" typepara="/pssSupplierInfo/updateEnabledStatusAjax;supplierId-supplierId;" widthType="0"/>
+<tableitem align="1" filedname="contactsAddress" id="13" indexed="16" label="联系地址" mytitle="模板内容-contactsAddress;" row="1" sortType="2" type="3" typepara="10" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="3" indexed="3" label="供应商名称" mytitle="模板内容-supplierName;" row="1" sortType="2" type="3" typepara="6" width="8" widthType="0"/>
+<tableitem align="2" filedname="accountsPayedBalance" id="12" indexed="15" label="应付款余额" row="1" type="0"/>
+<tableitem align="2" filedname="supplierNo" id="2" indexed="2" label="供应商号" row="1" type="4" typepara="/pssSupplierInfo/getDetailPage;supplierId-supplierId;saveOrEditFlag-'2';onClick-PssSupplierInfo.getSupplierInfo;" width="12" widthType="0"/>
+<tableitem align="2" filedname="supplierId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="supplierId-supplierId;" width="4" widthType="0"/>
+</table>

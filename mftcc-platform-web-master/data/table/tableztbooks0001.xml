@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ztbooks0001" link="/cwZtBooks/findByPage" para="eadis_page" title="帐套表" type="1">
+<tableitem align="2" authority="initFlag-0;" filedname="复制" id="26" indexed="7" label="-" type="5" typepara="/cwZtBooks/copyAddInput;bookCode-bookCode;onClick-copyAddBooks" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="5" indexed="5" label="是否启用" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="25" indexed="6" label="-" row="1" sortType="2" type="5" typepara="/cwZtBooks/getById;bookCode-bookCode;onClick-goBooksDetail" widthType="0"/>
+<tableitem align="2" authority="finBooks-basic;" filedname="删除" id="24" indexed="26" label="-" row="1" type="5" typepara="/cwZtBooks/deleteUpdateBooksAjax;bookCode-bookCode;onClick-deleteUpdateBooks" width="2" widthType="0"/>
+<tableitem align="1" filedname="bookName" id="2" indexed="2" label="帐套名称" row="1" type="4" typepara="/cwZtBooks/getById;bookCode-bookCode;onClick-goBooksDetail" widthType="0"/>
+</table>

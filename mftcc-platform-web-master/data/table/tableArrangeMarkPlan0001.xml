@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ArrangeMarkPlan0001" link="/mfBusArrangeMarkPlan/findByPage" para="eadis_page" title="排标计划表" type="1">
+<tableitem align="2" filedname="cusName" id="9" indexed="11" label="借款客户名称" row="1" type="0"/>
+<tableitem align="2" filedname="cusNameFund" id="7" indexed="9" label="资金方名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="15" indexed="15" label="详情" type="5" typepara="/mfBusArrangeMarkPlan/getDetail;arrangePlanId-arrangePlanId;onclick-MfBusArrangeMarkPlan.getMarkPlanDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="mainName" id="5" indexed="7" label="计划主体" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="prePutoutDate" id="13" indexed="5" label="预放款时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="putoutDate" id="3" indexed="3" label="放款时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="outRatio" id="12" indexed="13" label="存出保证金比例(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="inRatio" id="11" indexed="14" label="存入保证金比例(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="2" indexed="2" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="loanAmt" id="10" indexed="12" label="金额" row="1" type="0"/>
+</table>

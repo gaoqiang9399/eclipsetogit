@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssettleaccounts0001" para="eadis_page" title="进销存-结账反结账表" type="2">
+<tableitem align="2" filedname="regOpName" id="5" indexed="5" label="操作人名称" row="1" type="0"/>
+<tableitem align="2" filedname="settleAccountsDate" id="2" indexed="2" label="结账日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="8" indexed="8" label="操作时间" row="1" type="0"/>
+<tableitem align="2" filedname="regBrName" id="7" indexed="7" label="操作人机构名称" row="1" type="0"/>
+</table>

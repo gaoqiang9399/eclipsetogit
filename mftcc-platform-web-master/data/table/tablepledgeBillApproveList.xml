@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pledgeBillApproveList" para="eadis_page" title="提货关联押品清单" type="2">
+<tableitem align="2" fieldStyle="count" filedname="count" id="8" indexed="12" label="单位数量" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="unitPrice" filedname="unitPrice" id="7" indexed="11" label="单位单价(元)" type="12" widthType="0"/>
+<tableitem align="2" filedname="singleNum" id="14" indexed="10" label="最小单位数量" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="billName" id="4" indexed="5" label="名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="minUnitPrice" id="13" indexed="9" label="最小单位单价(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="pledgeBillNo" id="12" indexed="4" label="清单编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="billBrand" id="3" indexed="6" label="型号" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="ableCount" filedname="ableCount" id="11" indexed="13" label="可提货数量" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pleCount" id="10" indexed="14" label="提货数量" row="1" type="0" widthType="0"/>
+</table>

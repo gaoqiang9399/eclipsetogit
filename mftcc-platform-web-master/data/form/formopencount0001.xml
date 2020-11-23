@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="opencount0001" title="开户记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="badgeNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cust" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="申请人" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="状态 0 未提交 1 审批中 2 审批通过 3审批不通过 4 完成开户" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyTime" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="申请时间" maxlength="19" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="审批环节" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openNumber" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="开户账号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openBankNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="开户行大行行号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openBandName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="开户行名称" maxlength="100" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openAccountName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="开户名称" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openRemark" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="开户备注" maxlength="100" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proofAddress" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="转款凭单文件地址" maxlength="100" mustinput="0" row="11"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="infosvwproduct" title="前端产品详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="排序" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productObejct" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="申请对象" maxlength="65535" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productDesc" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="产品描述" maxlength="65535" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productFeature" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="产品特点" maxlength="65535" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productFlow" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="申请流程" maxlength="65535" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="productNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="产品编号" mustinput="" readonly="" row="1"/>
+</form>

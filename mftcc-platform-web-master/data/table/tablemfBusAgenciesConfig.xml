@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfBusAgenciesConfig" para="eadis_page" title="资金机构配置列表" type="1">
+<tableitem align="2" filedname="删除" id="15" indexed="20" label="-" row="1" type="5" typepara="/mfBusAgencies/deleteConfigAjax;id-id;onClick-ajaxTrDeleteConfig" width="2" widthType="0"/>
+<tableitem align="3" filedname="realCreditRate" id="5" indexed="8" label="实际贷款利率（‰）" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="agenciesDetailName" id="3" indexed="3" label="机构名称" mytitle="机构名称-agenciesDetailName" row="1" sortType="2" type="4" typepara="/mfBusAgencies/getAgenciesConfigById;id-id;onClick-getAgenciesConfigById;" widthType="0"/>
+<tableitem align="3" filedname="largeMulti" id="17" indexed="5" label="协议放大倍数" row="1" sortType="2" type="0" widthType="0"/>
+</table>

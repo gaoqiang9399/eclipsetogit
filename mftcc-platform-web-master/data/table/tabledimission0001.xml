@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dimission0001" link="/mfOaDimission/findByPage" para="eadis_page" title="离职申请表" type="1">
+<tableitem align="2" filedname="opName" id="19" indexed="18" label="申请人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="applySts-0;applySts-1;applySts-3;applySts-4;applySts-5;" filedname="打印审批表" id="20" indexed="21" label="-" type="5" typepara=";dimissionId-dimissionId;onClick-MfOaDimission_List.printApproveTable(this);" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="18" indexed="20" label="申请状态" row="1" sortType="1" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" filedname="sex" id="9" indexed="3" label="性别" row="1" sortType="2" type="6" typepara="SEX" widthType="0"/>
+<tableitem align="2" filedname="hireDate" id="8" indexed="7" label="入职日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="name" id="7" indexed="2" label="姓名" row="1" sortType="2" type="4" typepara="/mfOaDimission/getById;dimissionId-dimissionId;onClick-MfOaDimission_List.dimissionDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="dimissionType" id="16" indexed="6" label="离职类别" row="1" sortType="2" type="6" typepara="DIMISSION_TYPE" widthType="0"/>
+<tableitem align="2" filedname="position" id="13" indexed="5" label="职务" row="1" sortType="2" type="6" typepara="DUTIES" widthType="0"/>
+<tableitem align="2" filedname="brName" id="12" indexed="4" label="部门" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="applyDate" id="2" indexed="16" label="申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="takeEffectDate" id="10" indexed="12" label="离职日期" row="1" sortType="1" type="1" widthType="0"/>
+</table>

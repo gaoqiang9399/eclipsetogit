@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: mftcc-platform-web
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: gaoqiang1
+Implementation-Vendor-Id: com.mftcc
+Build-Jdk: 1.8.0_251
+Implementation-URL: http://projects.spring.io/spring-boot/mftcc-platfo
+ rm-parent/mftcc-platform-web/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

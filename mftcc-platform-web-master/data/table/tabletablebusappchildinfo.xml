@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablebusappchildinfo" title="获取借据主表信息" type="1">
+<tableitem align="2" filedname="cusName" id="4" indexed="3" label="客户名称" row="1" type="0" width="150" widthType="1"/>
+<tableitem align="2" filedname="选择" id="11" indexed="10" label="-" type="5" typepara="#;fincId-fincId;cusNo-cusNo;cusName-cusName;appId-appId;appName-appName;pactId-pactId;pactNo-pactNo;loanBal-loanBal;intstEndDate-intstEndDate;fincShowId-fincShowId;lastReturnDate-lastReturnDate;onClick-MfBusStopIntstApply.choseCredit" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="0" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="1" indexed="7" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="10" indexed="4" label="合同编号" row="1" type="0" widthType="0"/>
+</table>

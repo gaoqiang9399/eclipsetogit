@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="tagColumnConfig0002" title="标签表格列对应字段配置表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="configId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="tableColumnId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="表格列编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="columnId" fieldtype="1" maxlength="30" formactiveid="3" labelalign="1" labelcol="1" labelname="对应字段" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="columnName" fieldtype="1" maxlength="50" formactiveid="4" labelalign="1" labelcol="2" labelname="对应字段名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeFlag" fieldtype="1" maxlength="1" formactiveid="5" labelalign="1" labelcol="1" labelname="合并单元格标识。0不合并1合并" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="mergeStartLineNum" fieldtype="1" maxlength="0" formactiveid="6" labelalign="1" labelcol="2" labelname="合并开始行号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeStartColumnNum" fieldtype="1" maxlength="0" formactiveid="7" labelalign="1" labelcol="1" labelname="合并开始列号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="mergeEndLineNum" fieldtype="1" maxlength="0" formactiveid="8" labelalign="1" labelcol="2" labelname="合并结束行号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeEndColumnNum" fieldtype="1" maxlength="0" formactiveid="9" labelalign="1" labelcol="1" labelname="合并结束列号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="highlightFlag" fieldtype="1" maxlength="1" formactiveid="10" labelalign="1" labelcol="2" labelname="是否突出显示" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="highlightColor" fieldtype="1" maxlength="10" formactiveid="11" labelalign="1" labelcol="1" labelname="突出显示背景颜色" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="formatType" fieldtype="1" maxlength="2" formactiveid="12" labelalign="1" labelcol="2" labelname="格式化类型01金额小写02金额大写03日期格式化年月日05金额拆分06保留小数" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="decimalDigits" fieldtype="1" maxlength="0" formactiveid="13" labelalign="1" labelcol="1" labelname="保留小数位数" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="columnUnit" fieldtype="1" maxlength="10" formactiveid="14" labelalign="1" labelcol="2" labelname="单位。元、万元、%等" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="sysDictionryVal" fieldtype="1" maxlength="30" formactiveid="15" labelalign="1" labelcol="1" labelname="字典项编号" mustinput="0" row="15"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sys6001" title="新机构表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="机构号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="机构名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="brLev" fieldtype="1" formactiveid="3" labelalign="3" labelcol="7" labelname="机构级别" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brType" fieldtype="1" formactiveid="8" labelalign="3" labelcol="5" labelname="机构类型" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parNames" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="父页面值" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="popNames" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="子页面的值" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnMethod" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="回掉函数" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bizType" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="bizType" mustinput="" readonly="" row="1" />
+</form>

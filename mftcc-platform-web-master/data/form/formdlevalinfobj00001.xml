@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dlevalinfobj00001" title="中汇北京评估">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="评估编号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalOrgName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="评估机构" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalCusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="评估人" maxlength="80" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalMethod" fieldsize="EVAL_METHOD" fieldtype="21" formactiveid="4" labelalign="3" labelcol="1" labelname="评估方法" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="evalDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="评估基准日" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="3" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="evalAmount" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="评估价值" maxlength="16" mustinput="1" onblur="validateAmount();" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="confirmAmount" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="确认价值" maxlength="16" mustinput="0" row="11" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="mortRate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="抵质押率" maxlength="4" mustinput="1" onblur="calConfirmAmount();validateRate();" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="押品类别编号" mustinput="" readonly="" row="12"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="validTerm" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="评估有效期" maxlength="2" mustinput="" onblur="validateMonth()" readonly="" row="5" unit="月"/>
+<formelement alt="请输入说明，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarkAmtSection" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="可放款金额区间" mustinput="" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="quickOutAmt" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="速出金额" maxlength="14" mustinput="" readonly="" row="8" unit="元"/>
+</form>

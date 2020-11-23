@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="reportitem0001" title="报表项">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reportTypeId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="报表标识" maxlength="3" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reportItemId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="报表项标识" maxlength="5" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportName" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="报表项名称" maxlength="200" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showName" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="显示名称" maxlength="200" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reoprtItemLev" fieldstyle="half" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="所属父项" maxlength="5" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operationType" fieldsize="CW_ITEM_OPERA_TYPE" fieldstyle="half" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="运算类型" maxlength="3" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isUse" fieldsize="USE_FLAG" fieldstyle="half" fieldtype="2" formactiveid="10" labelalign="3" labelcol="3" labelname="是否启用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showStyle" fieldsize="YES_NO" fieldstyle="half" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="样式加粗" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reoprtLevName" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="所属父项" mustinput="" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='selectItem();'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reportItemType" fieldsize="CW_REPORT_ITEM_TYPE" fieldstyle="half" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="报表项类型" mustinput="" readonly="" row="2" />
+</form>

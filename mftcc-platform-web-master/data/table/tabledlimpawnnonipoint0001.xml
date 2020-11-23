@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnnonipoint0001" para="eadis_page" link="" title="质押非上市公司股权" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnNonIpoInt/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="stockIntName" id="2" indexed="2" label="股权名称" row="1" type="0" />
+<tableitem align="2" filedname="stockIntQty" id="3" indexed="3" label="股权数量(股)" row="1" type="0" />
+<tableitem align="2" filedname="stockIntCt" id="4" indexed="4" label="币种" row="1" type="0" />
+<tableitem align="2" filedname="capPerShare" id="5" indexed="5" label="每股净资产" row="1" type="0" />
+<tableitem align="2" filedname="bgain" id="6" indexed="6" label="公司是否盈利" row="1" type="0" />
+</table>

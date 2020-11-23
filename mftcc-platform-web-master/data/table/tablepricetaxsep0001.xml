@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pricetaxsep0001" link="/cwPriceTaxSep/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="priceTaxAmt" id="4" indexed="5" label="价税金额" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="24" indexed="9" label="-" type="5" typepara="/cwPriceTaxSep/getById;uuid-uuid;onClick-getPriceTaxDetail" widthType="0"/>
+<tableitem align="2" filedname="weeks" id="3" indexed="4" label="选择期间" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="23" indexed="25" label="-" row="1" type="5" typepara="/cwPriceTaxSep/deleteAjax;uuid-uuid;onClick-ajaxTrDelete(this)" width="2"/>
+<tableitem align="2" filedname="uuid" id="1" indexed="1" label="唯一编号" row="1" type="99" typepara="/cwPriceTaxSep/getById;uuid-uuid;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="pzPrefix" id="7" indexed="8" label="凭证" row="1" sortType="1" type="0" widthType="0"/>
+</table>

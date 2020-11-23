@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="ignoreExamineDetail" title="贷后检查忽略详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="regName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="登记人" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="createTime" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="忽略时间" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="ignoreReasion" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="忽略原因" maxlength="400" mustinput="" readonly="1" row="3"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="roleInfoList" para="eadis_page" title="角色信息列表" type="1">
+<tableitem align="2" authority="ext5-0;" filedname="操作" id="13" indexed="26" label="-" row="1" type="5" typepara="/sysOrg/roleInfoList;roleNo-roleNo;opNoType-opNoType;onClick-sysRoleManagement.modifyRole(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="roleNo" id="2" indexed="0" label="角色编号" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="opName" id="18" indexed="4" label="角色创建者" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="17" indexed="5" label="角色创建时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="roleName" id="16" indexed="2" label="角色名称" row="1" sortType="2" type="0" width="25" widthType="0"/>
+</table>

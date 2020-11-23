@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sys9901" title="全局搜索配置表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="tableName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="数据表名" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="tableColums" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="查询字段" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="输入框" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="url" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="查看链接" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="belong" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="归属业务" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="配置编号" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="configNo" mustinput="" readonly="" row="1" />
+</form>

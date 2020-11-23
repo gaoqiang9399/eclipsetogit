@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcusbadinfo" title="不良信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="身份证姓名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardNum" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="身份证号码" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="status" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="查询状态" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="message" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="状态信息" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseTime" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="案发时间" mustinput="" readonly="1" row="5"/>
+</form>

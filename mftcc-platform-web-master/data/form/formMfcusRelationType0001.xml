@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="MfcusRelationType0001" title="关联关系类型表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationTypeName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="关联关系名称" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realationType" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="关联关系类型" mustinput="0" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationTypeDesc" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="关联关系描述" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationTypeColor" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="关联关系颜色" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="3" />
+</form>

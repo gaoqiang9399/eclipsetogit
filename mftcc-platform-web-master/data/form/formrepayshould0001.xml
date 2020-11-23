@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="repayshould0001" title="应还信息（还款详情页面）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realAccntAmt" fieldtype="1" formactiveid="1" horVer="0" initvalue="0.00" labelalign="3" labelcol="1" labelname="实收账款金额" mustinput="" readonly="1" row="1" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="2" horVer="0" initvalue="0.00" labelalign="3" labelcol="3" labelname="实收融资金额" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="4" horVer="0" initvalue="0.00" labelalign="3" labelcol="1" labelname="实收利息" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="5" horVer="0" initvalue="0.00" labelalign="3" labelcol="1" labelname="实收费用" mustinput="" readonly="1" row="3" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="6" horVer="0" initvalue="0.00" labelalign="3" labelcol="3" labelname="实收罚息" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="7" horVer="0" initvalue="0.00" labelalign="3" labelcol="3" labelname="应收总额" mustinput="" readonly="1" row="3" unit="元" />
+</form>

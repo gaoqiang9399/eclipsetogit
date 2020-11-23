@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cunfina00005" title="横向表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="license" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="营业执照号码" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="basicBank" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="基本账号开户行" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="basicBankAccount" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="基本账户账号" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exaApper" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="基本开户审批机关" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="forlicNo" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="开户许可证准号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="forlicCode" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="外汇许可证号码" maxlength="30" mustinput="0" param="cusNo;" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finalTel" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="财务部联系方式" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="11" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

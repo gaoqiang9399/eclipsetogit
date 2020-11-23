@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="wkf0010" link="/wkfBusinessConfig/findByPage" para="eadis_page" title="工作流业务配置" trDbClick="WkfBusinessConfigActionAjax_getByIdAjax.action;objAttributeName-objAttributeName;objName-objName;onDbclick-func_getById(this);" type="2">
+<tableitem align="1" filedname="sts" id="6" indexed="4" label="是否启用" row="1" type="4" typepara="/wkfBusinessConfig/updateStsAjax;objAttributeName-objAttributeName;objName-objName;"/>
+<tableitem align="1" filedname="des" id="5" indexed="3" label="中文描述" row="1" type="0"/>
+<tableitem align="2" buttonMark="WkfBusinessConfig003" filedname="删除" id="4" indexed="7" label="-" type="5" typepara="/wkfBusinessConfig/deleteAjax;objAttributeName-objAttributeName;objName-objName;onClick-ajaxTrDelete(this);" width="2" widthType="0"/>
+<tableitem align="2" buttonMark="WkfBusinessConfig002" filedname="修改" id="3" indexed="6" label="-" row="1" type="5" typepara="/wkfBusinessConfig/getByIdAjax;objAttributeName-objAttributeName;objName-objName;onclick-func_getById(this);" width="2"/>
+<tableitem align="1" filedname="objAttributeName" id="2" indexed="2" label="对象属性名称" row="1" type="0"/>
+<tableitem align="1" filedname="objName" id="1" indexed="1" label="对象名称" row="1" type="0"/>
+</table>

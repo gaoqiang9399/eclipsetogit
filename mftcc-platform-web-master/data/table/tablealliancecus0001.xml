@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="alliancecus0001" para="eadis_page" title="联保体客户成员" type="2">
+<tableitem align="2" filedname="allowLoan" id="6" indexed="6" label="是否允许借款" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" authority="leaderFlag-1;" filedname="设为组长" id="26" indexed="8" label="-" row="1" type="5" typepara="/mfBusAlliance/setLeader;allianceCustomerId-id;onClick-memberList.allianceCustomerSetLeader(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="5" indexed="5" label="手机" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="leaderFlag" id="25" indexed="7" label="是否组长" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="legalIdNum" id="4" indexed="4" label="证件号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="24" indexed="26" label="-" row="1" type="5" typepara="/mfBusAlliance/deleteAllianceCustomerAjax;id-id;allianceId-allianceId;cusNo-cusId;onClick-memberList.allianceCustomerDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" mytitle="客户名称-cusName" row="1" type="4" typepara="/mfBusAlliance/listShowCustomerDetailAjax;id-id;oneUrl-'/mfBusAlliance/updateCustomerAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

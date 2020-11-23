@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssgoods0001" para="eadis_page" title="商品信息表" trDbClick="/pssGoods/getDetailPage;goodsId-goodsId;onDbClick-updateGoods" type="2">
+<tableitem align="2" filedname="docBizNo" id="23" indexed="4" label="场景号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="22" indexed="3" label="文件号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="预警设置" id="19" indexed="21" label="-" row="1" sortType="2" type="5" typepara="/pssStorageWarning/getListPage;goodsId-goodsId;goodsNo-goodsNo;onClick-updateGoods" widthType="0"/>
+<tableitem align="2" filedname="flag" id="18" indexed="20" label="使用状态" row="1" sortType="1" type="4" typepara="/pssGoods/updateFlagAjax;goodsId-goodsId;" widthType="0"/>
+<tableitem align="2" filedname="goodsUnit" id="9" indexed="11" label="计量单位" row="1" sortType="2" type="6" typepara="PSS_GOODS_UNIT" widthType="0"/>
+<tableitem align="2" filedname="fieldName" id="20" indexed="6" label="图片" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="24" label="-" row="1" sortType="2" type="99" typepara="/pssGoods/deleteAjax;goodsId-goodsId;onClick-ajaxTrDelete(this)" widthType="0"/>
+<tableitem align="1" filedname="goodsBrand" id="8" indexed="10" label="商品品牌" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="15" indexed="5" label="全选" row="1" sortType="2" type="2" typepara="goodsId-goodsId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="goodsType" id="6" indexed="9" label="商品种类" sortType="1" type="6" typepara="PSS_GOODS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="goodsModel" id="5" indexed="13" label="规格型号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="vipPrice" id="12" indexed="17" label="VIP会员价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="3" indexed="8" label="商品名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="wholesalePrice" id="11" indexed="16" label="批发价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="goodsNo" id="2" indexed="7" label="商品编号" row="1" sortType="1" type="4" typepara="/pssGoods/getDetailPage;goodsId-goodsId;onClick-updateGoods" widthType="0"/>
+<tableitem align="3" filedname="retailPrice" id="10" indexed="15" label="零售价" row="1" sortType="2" type="12" widthType="0"/>
+</table>

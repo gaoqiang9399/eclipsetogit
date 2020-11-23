@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablegetsyskindinfo" para="eadis_page" title="获取产品种类信息" type="1">
+<tableitem align="2" filedname="kindName" id="4" indexed="3" label="产品名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="选择" id="11" indexed="10" label="-" type="5" typepara="#;kindNo-kindNo;kindName-kindName;onClick-VwProductManage.getsyskindinfo" widthType="0"/>
+<tableitem align="2" filedname="kindNo" id="2" indexed="0" label="产品编号" row="1" type="0" widthType="0"/>
+</table>

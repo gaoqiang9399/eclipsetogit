@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusJobBase_add203" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="职业信息ID1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement alt="25字以内" datatype="0" fieldalign="1" fieldcol="5" fieldname="workKind" fieldtype="90" formactiveid="4" horVer="0" labelalign="3" labelcol="4" labelname="职业" maxlength="25" mustinput="0" row="4"/>
+<formelement alt="25字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="duty" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="职务" maxlength="25" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="techTitle" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="职称" maxlength="1" mustinput="0" row="7"/>
+<formelement alt="请输入单位名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="workUnit" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="工作单位" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corpWay" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="单位所属行业" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="corpKind" fieldsize="UNIT_KIND" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="单位性质" maxlength="2" mustinput="1" row="1"/>
+<formelement alt="请输入正确的单位电话" datatype="0" fieldalign="1" fieldcol="2" fieldname="telephone" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="单位电话" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'telephone');" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="postalCode" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="公司邮编" maxlength="6" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="begYearCorp" fieldtype="90" formactiveid="12" horVer="0" labelalign="3" labelcol="4" labelname="本单位工作起始年份" maxlength="4" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="单位地址" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workTime" fieldtype="90" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="现工作单位时间" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="27" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="companyScale" fieldtype="90" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="单位规模" mustinput="" param="1-大型企业|2-中型企业|3-小型企业|4-微型企业|5-其他|" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beforeTaxIncome" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="个人月收入" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workTelArea" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="单位电话区号" maxlength="10" mustinput="" readonly="" row="8"/>
+</form>

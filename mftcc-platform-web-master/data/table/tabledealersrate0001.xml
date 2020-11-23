@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dealersrate0001" link="/mfBusDealersRate/findByPage" para="eadis_page" title="经销商利率维护表" type="1">
+<tableitem align="2" filedname="importTime" id="36" indexed="35" label="导入时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="secondRate" id="35" indexed="33" label="第二执行利率(%)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="termMonth" id="34" indexed="32" label="期间（月）" type="0" widthType="0"/>
+<tableitem align="2" filedname="firstRate" id="33" indexed="31" label="第一执行利率(%)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="segmentType" id="32" indexed="34" label="类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="31" indexed="28" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="29" indexed="30" label="利率结束日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="30" indexed="29" label="利率开始日" row="1" type="1" widthType="0"/>
+</table>

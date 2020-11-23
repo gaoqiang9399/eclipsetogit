@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="changemoney0002" title="转账记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="badgeNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cust" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="申请人" maxlength="40" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="申请时间" maxlength="25" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="审批环节" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferOutAccountNumber" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="转出账号" maxlength="30" mustinput="1" onblur="MfOaCounttransInsert.getBankByCardNumber01(this);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transferInAccountNumber" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="转入账号" maxlength="30" mustinput="1" onblur="MfOaCounttransInsert.getBankByCardNumber02(this);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferOutAccountName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="转出账户名称" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="transferInAccountName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelcolspan="3" labelname="转入账户名称" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferOutBandName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="转出开户行名称" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transferInBandName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="转入开户行名称" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transferInBandBignumber" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="转入行大行行号" maxlength="30" mustinput="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="moneyAmt" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="转账金额" maxlength="14" mustinput="1" row="4" unit="元"/>
+<formelement alt="最多200汉字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="transferRemark" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="转账事由" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proofAddress" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="转款凭单文件地址" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" maxlength="22" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" maxlength="40" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" maxlength="10" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" maxlength="80" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" maxlength="17" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" maxlength="17" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" maxlength="200" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="29" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="32" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="61"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transferInAccountName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="转入账户名称" maxlength="100" mustinput="1" readonly="" row="2" />
+</form>

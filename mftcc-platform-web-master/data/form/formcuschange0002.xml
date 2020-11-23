@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cuschange0002" title="企业重大变更信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="唯一id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeDate" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="变更日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeType" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="变更类型1-注册资本变更2-经营范围变更3-法人代表变更4-投资人（股权）变更5-住所变更6-其他变更" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contentOld" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="变更前内容" maxlength="400" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contentNew" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="变更后内容" maxlength="400" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记操作员编号" maxlength="22" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="登记操作员名称" maxlength="40" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" row="21"/>
+</form>

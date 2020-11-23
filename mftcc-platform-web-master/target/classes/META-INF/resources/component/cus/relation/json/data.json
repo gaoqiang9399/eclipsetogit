@@ -1,0 +1,843 @@
+{
+	"Result" : {
+		"Node" : {
+			"name" : "东华软件股份公司",
+			"KeyNo" : "zhe",
+			"Category" : 1,
+			"ShortName" : "东华软件股份",
+			"children" : [{
+						"name" : "对外投资",
+						"KeyNo" : null,
+						"Category" : 2,
+						"ShortName" : "对外投资",
+						"children" : [{
+									"name" : "南京东华科创信息技术有限公司",
+									"KeyNo" : "8fdc1282da064250d293606b89743e51",
+									"Category" : 2,
+									"ShortName" : "东华科创信息",
+									"Level" : 1,
+									"children" : null
+								}, {
+									"name" : "天津东华瑞鼎科技有限公司",
+									"KeyNo" : "0efb0c9333a455719511168c467313d5",
+									"Category" : 2,
+									"ShortName" : "东华瑞鼎",
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华金云网络股份公司",
+									"KeyNo" : "8a4a5bd1516db8d6c9fba8e5974e96b7",
+									"Category" : 2,
+									"ShortName" : "东华金云网络",
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华软件智能科技有限公司",
+									"KeyNo" : "9ebcc46f3c4aff7af740c24f5728bf9e",
+									"Category" : 2,
+									"ShortName" : "东华软件智能",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "贵州东华云数据科技有限责任公司",
+									"KeyNo" : "ba56f4844a2523dd14a226c9cf7dd869",
+									"Category" : 2,
+									"ShortName" : "东华云数据",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华福蝉信息技术有限公司",
+									"KeyNo" : "289a446442ff98c7709ac3ddcf2a9e68",
+									"Category" : 2,
+									"ShortName" : "东华福蝉信息",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "即墨东华软件有限公司",
+									"KeyNo" : "ca0ac400075ab9a1405b0c7dabd07526",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "华金在线股份公司",
+									"KeyNo" : "bce86c6bfd0f01eab9614d3493136170",
+									"Category" : 2,
+									"ShortName" : "华金在线股份",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "郑州东华诚信软件有限公司",
+									"KeyNo" : "29f58b314d3612bd5524e94e6ef74c59",
+									"Category" : 2,
+									"ShortName" : "东华诚信软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "吉林省东华软件信息工程有限公司",
+									"KeyNo" : "e74a68c8ad5eda0af0030329397f5b08",
+									"Category" : 2,
+									"ShortName" : "东华软件信息",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "成都天府银华科技有限责任公司",
+									"KeyNo" : "ec973c0f210cbd5ce17f88695b92df8d",
+									"Category" : 2,
+									"ShortName" : "天府银华",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华智中能源互联网科技有限公司",
+									"KeyNo" : "436772147b58636fa1361fcfa2384aff",
+									"Category" : 2,
+									"ShortName" : "东华智中能源",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "湖北华中大数据交易股份有限公司",
+									"KeyNo" : "65cfaf2efd601f4f1a2da432b77f750c",
+									"Category" : 2,
+									"ShortName" : "华中大数据交",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "海南东华软件有限公司",
+									"KeyNo" : "198b73bfe4e6eda9550c10d792907d26",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "海南银行股份有限公司",
+									"KeyNo" : "c1e62e3d7e2df44243ee936505232fc6",
+									"Category" : 2,
+									"ShortName" : "海南银行",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华光普大数据技术有限公司",
+									"KeyNo" : "171fc181919d57f844c058d91d8e263c",
+									"Category" : 2,
+									"ShortName" : "东华光普大数",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "瑞客东华转化医学研究中心有限公司",
+									"KeyNo" : "3a9e26ae84b675b9778f8b9de349249e",
+									"Category" : 2,
+									"ShortName" : "瑞客东华转化",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华互联宜家数据服务有限公司",
+									"KeyNo" : "b4d405ab1ea9bd1b08f083e5a587fc00",
+									"Category" : 2,
+									"ShortName" : "东华互联宜家",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "内蒙古东华软件有限公司",
+									"KeyNo" : "beb013f9c3aa270e9154cf38762008dd",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华软件（绵阳）有限公司",
+									"KeyNo" : "e2663c354a1cd34afdc68d79facde429",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华网络股份公司",
+									"KeyNo" : "571a111b0e29e62395149cecd27b035a",
+									"Category" : 2,
+									"ShortName" : "东华网络股份",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华博育云有限公司",
+									"KeyNo" : "5259fc9e84e3fe49b235167f5aa90094",
+									"Category" : 2,
+									"ShortName" : "东华博育云",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华软件威海有限公司",
+									"KeyNo" : "0548d067aba4446b86e0ce30cc1273cb",
+									"Category" : 2,
+									"ShortName" : "东华软件威海",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "合力东华（北京）科技有限公司",
+									"KeyNo" : "1732326222d69d92068a5c857be904d6",
+									"Category" : 2,
+									"ShortName" : "合力东华",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "味道网（北京）科技有限公司",
+									"KeyNo" : "de99269356595cef0a6850b8a40df42a",
+									"Category" : 2,
+									"ShortName" : "味道网",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华之星（北京）软件有限公司",
+									"KeyNo" : "29c5f29ccc6d3bd8d2f6993a27c316ce",
+									"Category" : 2,
+									"ShortName" : "东华之星软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华财富投资有限公司",
+									"KeyNo" : "ab542cff7c4cb802988501be5c186ae0",
+									"Category" : 2,
+									"ShortName" : "东华财富投资",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京首创金融资产交易信息服务股份有限公司",
+									"KeyNo" : "5d1d354299f2692a72ad8f04dc99fa8b",
+									"Category" : 2,
+									"ShortName" : "首创金融资产",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华智慧城市股份有限公司",
+									"KeyNo" : "eddaeced9eb564358a91a054b7bbc9a2",
+									"Category" : 2,
+									"ShortName" : "东华智慧城市",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "兰州东华软件有限公司",
+									"KeyNo" : "b1f11c0efc0325b7351945478a53d2f4",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "健康乐软件有限公司",
+									"KeyNo" : "96ae74b04fd304d3f8f762b528f37955",
+									"Category" : 2,
+									"ShortName" : "健康乐软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京光明数据信息技术有限公司",
+									"KeyNo" : "eefe882b893bcf7210de49c0e7e05a81",
+									"Category" : 2,
+									"ShortName" : "光明数据信息",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华云计算有限公司",
+									"KeyNo" : "4fcc011271cf9581b3755f01dab3a292",
+									"Category" : 2,
+									"ShortName" : "东华云计算",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华云计算有限公司",
+									"KeyNo" : "90c689aaa26628495c5085e08c84379b",
+									"Category" : 2,
+									"ShortName" : "东华云计算",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华星联科技有限公司",
+									"KeyNo" : "ab99957bffd13b13179a4c5234d969ee",
+									"Category" : 2,
+									"ShortName" : "东华星联",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "天津东华博雅软件股份有限公司",
+									"KeyNo" : "5d4a8349f2c924f10b643316d43acb1f",
+									"Category" : 2,
+									"ShortName" : "东华博雅软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华软件开发有限公司",
+									"KeyNo" : "eabc354c8ee3d2158bb2a472b3fad32a",
+									"Category" : 2,
+									"ShortName" : "东华软件开发",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "山西东华软件有限公司",
+									"KeyNo" : "bfe5a40eb74234ce2dbbdac1394731bc",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "南昌东华软件有限公司",
+									"KeyNo" : "19ab09bf5c03f65f624518a0f573b4cb",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "南京锦辉旅游地产投资基金合伙企业（有限合伙）",
+									"KeyNo" : "62cea90e709d1d4cfc88245079ae6f1c",
+									"Category" : 2,
+									"ShortName" : "锦辉旅游地产",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京威锐达测控系统有限公司",
+									"KeyNo" : "74cd3ffae7118eba7fcb59068dafcffd",
+									"Category" : 2,
+									"ShortName" : "威锐达测控系",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "嘉兴中发恒博电子科技有限公司",
+									"KeyNo" : "8852cb6afd2ba5927fb74861c24b824a",
+									"Category" : 2,
+									"ShortName" : "中发恒博电子",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "西安东华软件有限公司",
+									"KeyNo" : "3f64ce3d13ed34080c56760f4bb8e6d3",
+									"Category" : 2,
+									"ShortName" : "东华软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "沈阳普林科技有限公司",
+									"KeyNo" : "6515201299056d7fdf92413445580679",
+									"Category" : 2,
+									"ShortName" : "沈阳普林",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京卓讯科信技术有限公司",
+									"KeyNo" : "bdd3143ac33afee145ad193f51c6d2b6",
+									"Category" : 2,
+									"ShortName" : "卓讯科信技术",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华软件开发有限公司",
+									"KeyNo" : "6e015bc847222657203f661738216df4",
+									"Category" : 2,
+									"ShortName" : "东华软件开发",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "内蒙古合创信息技术有限公司",
+									"KeyNo" : "028fc8623aef2fdba3cd80246484df5c",
+									"Category" : 2,
+									"ShortName" : "合创信息技术",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华易时科技有限公司",
+									"KeyNo" : "16c0bb29f87e3453ddbc2d07e099802d",
+									"Category" : 2,
+									"ShortName" : "东华易时",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "北京东华厚盾软件有限公司",
+									"KeyNo" : "7aff837b473f3fe0c904b7f0bb46dfa9",
+									"Category" : 2,
+									"ShortName" : "东华厚盾软件",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}, {
+									"name" : "东华软件技术有限公司",
+									"KeyNo" : "aeb18bd4aa0ffcca21a52f0cd61d81bf",
+									"Category" : 2,
+									"ShortName" : "东华软件技术",
+
+									"Level" : 1,
+
+									"FundedRate" : "",
+									"children" : null
+								}]
+					}, {
+						"name" : "股东",
+						"KeyNo" : null,
+						"Category" : 3,
+						"ShortName" : "股东",
+						"Count" : 12,
+
+						"children" : [{
+									"name" : "阮天",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_阮天",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "夏金崇",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_夏金崇",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "张巍",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_张巍",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "吕波",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_吕波",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "李建国",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_李建国",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "李小凤",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_李小凤",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "杨健",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_杨健",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "薛向东",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_薛向东",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "史绪",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_史绪",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "杜先锋",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_杜先锋",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "申红梅",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_申红梅",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}, {
+									"name" : "赵冬梅",
+									"KeyNo" : "a474b83164dc5917cc93d8ef41beffc0_赵冬梅",
+									"Category" : 3,
+									"ShortName" : "自然人股东",
+
+									"Level" : 1,
+
+									"children" : null
+								}]
+					}, {
+						"name" : "高管",
+						"KeyNo" : null,
+						"Category" : 4,
+						"ShortName" : "高管",
+						"Count" : 14,
+
+						"children" : [{
+									"name" : "薛向东",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "董事长",
+
+									"children" : null
+								}, {
+									"name" : "吕波",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "副董事长",
+
+									"children" : null
+								}, {
+									"name" : "李建国",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "董事",
+
+									"children" : null
+								}, {
+									"name" : "夏金崇",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "董事",
+
+									"children" : null
+								}, {
+									"name" : "杨健",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "董事",
+
+									"children" : null
+								}, {
+									"name" : "郑晓清",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "董事",
+
+									"children" : null
+								}, {
+									"name" : "郭庆旺",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "独立董事",
+
+									"children" : null
+								}, {
+									"name" : "蒋力",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "独立董事",
+
+									"children" : null
+								}, {
+									"name" : "吴淼",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "独立董事",
+
+									"children" : null
+								}, {
+									"name" : "张守文",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "独立董事",
+
+									"children" : null
+								}, {
+									"name" : "薛向东",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "总经理",
+
+									"children" : null
+								}, {
+									"name" : "苏根继",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "监事会主席",
+
+									"children" : null
+								}, {
+									"name" : "郭玉杰",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "监事",
+
+									"children" : null
+								}, {
+									"name" : "蒋恕慧",
+									"KeyNo" : null,
+									"Category" : 4,
+									"ShortName" : "监事",
+
+									"children" : null
+								}]
+					}, {
+						"name" : "法院公告",
+						"KeyNo" : null,
+						"Category" : 5,
+						"ShortName" : "法院公告",
+
+						"children" : []
+					}, {
+						"name" : "历史股东",
+						"KeyNo" : null,
+						"Category" : 8,
+						"ShortName" : "历史股东",
+						"Count" : 6,
+
+						"children" : [{
+									"name" : "A股社会公众股",
+									"KeyNo" : null,
+									"Category" : 8,
+									"ShortName" : "",
+
+									"children" : null
+								}, {
+									"name" : "北京合创电商投资顾问有限公司",
+									"KeyNo" : "59fdee608afe3fbf6b6d65855aaada0a",
+									"Category" : 8,
+									"ShortName" : "企业法人",
+
+									"children" : null
+								}, {
+									"name" : "北京东华诚信工业设备有限公司",
+									"KeyNo" : "1def98bf184a4767ea3c466ea11674e3",
+									"Category" : 8,
+									"ShortName" : "企业法人",
+
+									"children" : null
+								}, {
+									"name" : "北京东华诚信工业设备中心（有限合伙）",
+									"KeyNo" : "9e0b5e179904eb865bcfc8ceec2464d4",
+									"Category" : 8,
+									"ShortName" : "企业法人",
+
+									"children" : null
+								}, {
+									"name" : "北京合创电商投资顾问中心（有限合伙）",
+									"KeyNo" : "830eebf1ccddf4d95f95645db2a11d1d",
+									"Category" : 8,
+									"ShortName" : "企业法人",
+
+									"children" : null
+								}, {
+									"name" : "北京东华诚信电脑科技发展有限公司",
+									"KeyNo" : "e463cc22d8c9563d5a2b2eeb8b4c10ab",
+									"Category" : 8,
+									"ShortName" : "企业法人",
+
+									"children" : null
+								}]
+					}, {
+						"name" : "历史法人",
+						"KeyNo" : null,
+						"Category" : 9,
+						"ShortName" : "历史法人",
+
+						"children" : null
+					}, {
+						"name" : "裁判文书",
+						"KeyNo" : null,
+						"Category" : 6,
+						"ShortName" : "裁判文书",
+						"Count" : 5,
+
+						"children" : [{
+									"name" : "佳杰科技（上海）有限公司北京分公司",
+									"KeyNo" : "79696790b8b4999a7676872254b19625",
+									"Category" : 6,
+									"ShortName" : "东华软件股份",
+
+									"children" : null
+								}, {
+									"name" : "郑州迅驰电子科技有限公司",
+									"KeyNo" : "2c878278c6e14538ffb7d3f60e879d88",
+									"Category" : 6,
+									"ShortName" : "东华软件股份",
+
+									"children" : null
+								}, {
+									"name" : "能通科技股份有限公司",
+									"KeyNo" : "94727498666eea6a6123896b281072a9",
+									"Category" : 6,
+									"ShortName" : "东华软件股份",
+
+									"children" : null
+								}, {
+									"name" : "深圳市齐普生信息科技有限公司",
+									"KeyNo" : "e518d586fbbc1030651406e3d4727d51",
+									"Category" : 6,
+									"ShortName" : "东华软件股份",
+
+									"children" : null
+								}, {
+									"name" : "北京亿阳融通科技有限公司",
+									"KeyNo" : "2849f9a2f96c9a17890a512a06fbb078",
+									"Category" : 6,
+									"ShortName" : "东华软件股份",
+
+									"children" : null
+								}]
+					}]
+		}
+	},
+	"Status" : 200,
+	"Message" : null
+}

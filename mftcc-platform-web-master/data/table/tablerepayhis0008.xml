@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayhis0008" para="eadis_page" title="客户信息还款历史列表" type="2">
+<tableitem align="2" filedname="regTime" id="27" indexed="20" label="登记时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="26" indexed="7" label="放款号" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="25" indexed="6" label="委托保证合同" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cmpdIntstSum" id="21" indexed="12" label="复利利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="recvAmtSys" id="20" indexed="19" label="还款总额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="8" indexed="8" label="还款日期" row="1" type="1"/>
+<tableitem align="2" filedname="overIntstSum" id="17" indexed="11" label="逾期利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="normIntstSum" id="7" indexed="10" label="正常利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="penaltySum" id="16" indexed="14" label="违约金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="15" indexed="15" label="费用" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="prcpSum" id="6" indexed="9" label="还本金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="deductNormIntstSum" id="14" indexed="16" label="减免金额" row="1" type="12" widthType="0"/>
+</table>

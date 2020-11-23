@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfdemo0001" title="微金时代演示组件。">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="demoId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="主键流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement alt="请输入客户名" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="demoName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="客户名称" maxlength="255" mustinput="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="registerDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="注册日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg({min:today,})" readonly="1" row="9" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="申请金额(元)" maxlength="20" mustinput="1" row="3" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="term" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="期数(月)" mustinput="1" row="4"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="rate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="利率(%)" maxlength="10" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sex" fieldsize="SEX" fieldtype="21" formactiveid="8" labelalign="3" labelcol="1" labelname="性别" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusType" fieldsize="CUS_TYPE" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="9" labelalign="3" labelcol="1" labelname="客户类型" maxlength="3" mustinput="0" param="anchors:['anchor1']" row="2"/>
+<formelement datatype="30" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="lastModifyTime" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="最近修改日期" mustinput="" onclick="laydateTimer(this);" readonly="1" row="10" unit="&lt;i class='i i-rili pointer' onClick='laydateTimer(this,{name:&quot;lastModifyTime&quot;});'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{cusType:'1}]" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="8" selrange="1"/>
+</form>

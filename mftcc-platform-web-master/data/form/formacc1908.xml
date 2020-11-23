@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc1908" title="还款顺序表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paySeqCde" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="还款顺序代码" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paySeqName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="还款顺序名称" mustinput="" readonly="" row="1" />
+</form>

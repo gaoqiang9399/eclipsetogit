@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincmfbusbase" link="/mfBusFincAppChild/findByPage" para="eadis_page" title="借据子表,多次放款不合并时与借据主表保持一致，合并时主表一笔数据，子表每次放款都存储一笔数据" type="1">
+<tableitem align="2" filedname="新增巡视记录" id="103" indexed="103" label="-" type="5" typepara="/mfbusFincTour/input;fincChildId-fincChildId;query-'0';onClick-MfBusFincTour_List.applyInsert(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="fincChildId" id="1" indexed="1" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="9" indexed="9" label="项目名称" row="1" type="0"/>
+<tableitem align="2" filedname="pactNo" id="7" indexed="7" label="合同编号" row="1" type="0" widthType="0"/>
+</table>

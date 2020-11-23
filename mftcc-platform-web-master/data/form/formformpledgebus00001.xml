@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formpledgebus00001" title="押品信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="2" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" textAreaFieldRows="1"/>
+<formelement alt="请输入押品名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="3" horVer="0" labelalign="2" labelcol="1" labelname="押品名称" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="className" fieldtype="1" formactiveid="4" horVer="0" labelalign="2" labelcol="3" labelname="类别名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethodName" fieldtype="1" formactiveid="5" horVer="0" labelalign="2" labelcol="1" labelname="担保类别" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certifiacteName" fieldtype="1" formactiveid="6" horVer="0" labelalign="2" labelcol="3" labelname="产权所有人" mustinput="" readonly="1" row="2"/>
+<formelement alt="请输入评估价值" datatype="9" fieldalign="1" fieldcol="2" fieldname="evalAmout" fieldtype="1" formactiveid="7" horVer="0" labelalign="2" labelcol="1" labelname="评估价值" mustinput="1" row="4"/>
+<formelement alt="请输入抵押率" datatype="9" fieldalign="1" fieldcol="2" fieldname="mortRate" fieldtype="1" formactiveid="9" horVer="0" labelalign="2" labelcol="1" labelname="抵押率(%)" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approve" fieldtype="2" formactiveid="10" horVer="0" labelalign="2" labelcol="1" labelname="审批意见" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fieldName" fieldtype="5" formactiveid="11" horVer="0" labelalign="2" labelcol="1" labelname="意见描述" maxlength="400" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="fieldName" fieldtype="99" formactiveid="13" horVer="0" labelalign="2" labelcol="1" labelname="类别编号" mustinput="" readonly="" row="8"/>
+<formelement alt="请选择评估基准日" datatype="6" fieldalign="1" fieldcol="4" fieldname="evalDate" fieldtype="1" formactiveid="14" horVer="0" labelalign="2" labelcol="3" labelname="评估基准日" mustinput="1" row="4"/>
+<formelement alt="请输入押品编号" datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeShowNo" fieldtype="1" formactiveid="15" horVer="0" labelalign="2" labelcol="3" labelname="押品编号" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="2" labelcol="1" labelname="客户号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldtype="99" formactiveid="17" horVer="0" labelalign="2" labelcol="1" labelname="押品类别" mustinput="" readonly="" row="10"/>
+</form>

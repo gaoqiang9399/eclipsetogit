@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="badge0002" title="申请用章">
+<formelement alt="最多80个汉字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="badageName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="用章名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busiType" fieldsize="BADGE_STYLE" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="用章方式" mustinput="1" readonly="" row="2" />
+<formelement alt="最多200个汉字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remarks" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="200" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cust" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyTime" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="申请时间" mustinput="" readonly="1" row="4" />
+</form>

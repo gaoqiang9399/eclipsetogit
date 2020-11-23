@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="app0018" title="租赁物签收">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="关联号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="签收申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="合同编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lamMatterSignSts" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="租赁物签收证明状态" maxlength="1" mustinput="0" row="6"/>
+</form>

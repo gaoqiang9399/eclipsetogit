@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="humanhis0001" para="eadis_page" link="/mfOaHumanResourcesHis/findByPage" title="人力需求审批历史表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="审批历史编号" row="1" type="4" typepara="/mfOaHumanResourcesHis/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="appId" id="2" indexed="2" label="申请编号" row="1" type="0" />
+<tableitem align="2" filedname="appDepartment" id="3" indexed="3" label="申请部门" row="1" type="0" />
+<tableitem align="2" filedname="appDate" id="4" indexed="4" label="申请日期" row="1" type="0" />
+<tableitem align="2" filedname="recruitmentPosition" id="5" indexed="5" label="招聘职位" row="1" type="0" />
+<tableitem align="2" filedname="numOfPeople" id="6" indexed="6" label="招聘人数" row="1" type="0" />
+<tableitem align="2" filedname="arrivalDate" id="7" indexed="7" label="希望到岗日期" row="1" type="0" />
+<tableitem align="2" filedname="genderRequirements" id="8" indexed="8" label="性别要求(显示男人数，女人数，或男女皆可)" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="9" indexed="9" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="10" indexed="10" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="numGender" id="11" indexed="11" label="(显示男性人数，女性人数)" row="1" type="0" />
+<tableitem align="2" filedname="typeOfDemand" id="12" indexed="12" label="需求的类别(1.缺员补员;2.离职补员;3.储备人力;4.编制外增加人员;5.临时性任务;)" row="1" type="0" />
+<tableitem align="2" filedname="addReson" id="13" indexed="13" label="编制外增加人员的理由" row="1" type="0" />
+<tableitem align="2" filedname="existNumDepartmet" id="14" indexed="14" label="部门现有人数" row="1" type="0" />
+<tableitem align="2" filedname="jobDescriptions" id="15" indexed="15" label="招聘条件" row="1" type="0" />
+<tableitem align="2" filedname="jobSpecification" id="16" indexed="16" label="任职要求" row="1" type="0" />
+<tableitem align="2" filedname="jobResponsibilities" id="17" indexed="17" label="工作职责" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="18" indexed="18" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="19" indexed="19" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="20" indexed="20" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="21" indexed="21" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="22" indexed="22" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="23" indexed="23" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="24" indexed="24" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="25" indexed="25" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="26" indexed="26" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="27" indexed="27" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="28" indexed="28" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="30" indexed="30" label="-" row="1" type="5" typepara="/mfOaHumanResourcesHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

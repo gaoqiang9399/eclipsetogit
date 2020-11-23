@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="webCusLineRegList0001" para="eadis_page" title="客户注册列表" type="1">
+<tableitem align="2" filedname="cusTel" id="15" indexed="5" label="联系电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="5" indexed="6" label="注册时间" mytitle="项目名称-appName;" row="1" sortType="2" type="1" width="165" widthType="1"/>
+<tableitem align="2" filedname="regOrigin" id="14" indexed="4" label="注册来源" row="1" sortType="2" type="6" typepara="CLIENT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="2" label="客户类别" row="1" sortType="2" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="2" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="lastTime" id="7" indexed="7" label="最近登陆时间" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="cusNo" id="16" indexed="0" label="客户号" row="1" type="0" widthType="0"/>
+</table>

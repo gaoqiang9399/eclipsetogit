@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="fdm3001" para="eadis_page" link="/budgetLog/findByPage" title="收支日志" type="1">
+<tableitem align="2" filedname="logNo" id="1" indexed="1" label="日志编号" row="1" type="4" typepara="/budgetLog/getById;logNo-logNo;query-'query'"/>
+<tableitem align="2" filedname="matchFund" id="2" indexed="2" label="待匹配流水" row="1" type="0" />
+<tableitem align="2" filedname="confirmFund" id="3" indexed="3" label="待确认流水" row="1" type="0" />
+<tableitem align="2" filedname="newFund" id="4" indexed="4" label="新生成流水" row="1" type="0" />
+<tableitem align="2" filedname="budgetType" id="5" indexed="5" label="类型" row="1" type="0" />
+<tableitem align="2" filedname="budgetDate" id="6" indexed="6" label="时间" row="1" type="0" />
+<tableitem align="2" filedname="remarks" id="15" indexed="15" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="17" indexed="17" label="-" row="1" type="5" typepara="/budgetLog/deleteAjax;logNo-logNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

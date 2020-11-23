@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="highGuaranteeContracthiswkf" title="最高额保证合同审批历史">
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="amt" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="合同额度" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="3" labelname="期限" mustinput="" readonly="1" row="1" unit="月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showId" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="展示合同号" mustinput="" readonly="1" row="1"/>
+</form>

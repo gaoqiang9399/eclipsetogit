@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archiverewardsdetail" title="OA人事档案奖惩记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rewardId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="奖惩记录id" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="员工id" maxlength="22" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adwardDate" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adwards" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="奖项" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="2" fieldname="adwardRemark" fieldtype="5" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="备注" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="rewardOrPunishment" fieldsize="REWARD_PUNISHMNET" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="惩罚或者奖励" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="grade" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="4" labelname="成绩" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="2" fieldname="reason" fieldtype="5" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="惩罚原因" maxlength="400" mustinput="" readonly="" row="3"/>
+</form>

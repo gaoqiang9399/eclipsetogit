@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockfile0001" para="eadis_page" title="盘库文件信息" type="1">
+<tableitem align="2" filedname="inputValue" id="33" indexed="5" label="输入信息" type="99" width="10" widthType="0"/>
+<tableitem align="2" filedname="fileLocation" id="32" indexed="28" label="盘库经纬度" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="fileType-3" filedname="下载" id="31" indexed="44" label="-" row="1" type="5" typepara="/vcTakeStockMain/downloadFile;id-docNo;onClick-VcTakeStockFileList.getDetailPage(this)" width="5" widthType="0"/>
+<tableitem align="2" authority="fileType-3" filedname="预览" id="29" indexed="42" label="-" row="1" type="5" typepara=";scanfileId-docNo;fileName-fileId;fileType-fileType;onClick-VcTakeStockFileList.previewFile(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="affirmDescription" id="28" indexed="40" label="认定说明" mytitle="模板内容-affirmDescription" row="1" type="3" typepara="25" width="10" widthType="0"/>
+<tableitem align="2" filedname="fileType" id="30" indexed="7" label="类型" row="1" type="6" typepara="VC_FILE_TYPE" width="6" widthType="0"/>
+<tableitem align="2" filedname="createOpName" id="27" indexed="27" label="盘库人" row="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="fileAddress" id="25" indexed="29" label="盘库地址" mytitle="模板内容-fileAddress" row="1" type="3" typepara="20" width="15" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="24" indexed="2" label="要件编号" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="affirmResult" id="22" indexed="35" label="认定结果" row="1" type="6" typepara="VC_AFFIRM_RESULT" width="6" widthType="0"/>
+<tableitem align="2" filedname="txDate" id="18" indexed="26" label="盘库日期" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="fileTime" id="5" indexed="8" label="文件日期" row="1" type="0" width="10" widthType="0"/>
+</table>

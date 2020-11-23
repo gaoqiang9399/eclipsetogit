@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="censorfileinsert001" title="审查文件详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="censorFileNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="文件编号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="censorFileName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="文件名称" mustinput="0" readonly="1" row="1"/>
+</form>

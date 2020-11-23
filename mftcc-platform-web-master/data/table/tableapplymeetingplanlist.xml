@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="applymeetingplanlist" title="上会安排" type="1">
+<tableitem align="2" filedname="appAmt" id="9" indexed="6" label="金额（万元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="8" indexed="7" label="期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="vouType" id="7" indexed="5" label="担保品种" row="1" sortType="2" type="6" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="6" indexed="1" label="企业名称" mytitle="企业名称-cusName" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="manageBrName1" id="5" indexed="2" label="事业部" mytitle="事业部-manageBrName1" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="riskApprovalPer" id="13" indexed="11" label="风险审核人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="firstApprovalUserName" id="12" indexed="10" label="项目经理B角" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="meetingTime" id="3" indexed="0" label="上会日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="manageOpName1" id="11" indexed="9" label="项目经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="wayClassDes" id="2" indexed="4" label="所处行业" mytitle="所处行业-wayClassDes" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="1" indexed="8" label="贷款行" mytitle="贷款行-agenciesName" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+</table>

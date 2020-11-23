@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusNetInfoVerifyBase" link="/mfCusNetInfoVerify/findByPage" para="eadis_page" title="网查信息核实表" type="1">
+<tableitem align="2" filedname="删除" id="40" indexed="46" label="-" row="1" type="5" typepara="/mfCusNetInfoVerify/deleteAjax;infoId-infoId;onClick-ajaxDelete(this)" width="2"/>
+<tableitem align="2" filedname="spouseIdNum" id="45" indexed="42" label="配偶身份证号" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="cusIdNum" id="44" indexed="40" label="申请人身份证号" row="1" sortType="2" type="4" typepara="/mfCusNetInfoVerify/listShowDetailAjax;infoId-infoId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusNetInfoVerify/updateAjaxByOne';onClick-listShowDetail(this);" width="30" widthType="0"/>
+<tableitem align="2" filedname="guarantorIdNum" id="42" indexed="44" label="担保人身份证号" sortType="2" type="0" width="30" widthType="0"/>
+</table>

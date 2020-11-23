@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0101" para="eadis_page" link="/acLnShdMtd/findByPage" title="还款方式表" type="1">
+<tableitem align="2" filedname="termNo" id="1" indexed="1" label="阶段号" row="1" type="4" typepara="/acLnShdMtd/getById;termNo-termNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="contNo" id="2" indexed="2" label="合同号" row="1" type="4" typepara="/acLnShdMtd/getById;termNo-termNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="shdIntstBase" id="3" indexed="3" label="利息计算基础" row="1" type="0" />
+<tableitem align="2" filedname="termAmt" id="4" indexed="4" label="该阶段本金" row="1" type="0" />
+<tableitem align="2" filedname="icDt" id="5" indexed="5" label="起息日" row="1" type="0" />
+<tableitem align="2" filedname="frmPerd" id="6" indexed="6" label="阶段开始期数" row="1" type="0" />
+<tableitem align="2" filedname="toPerd" id="7" indexed="7" label="阶段结束期数" row="1" type="0" />
+<tableitem align="2" filedname="rate" id="8" indexed="8" label="执行利率" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="18" indexed="18" label="-" row="1" type="5" typepara="/acLnShdMtd/getById;termNo-termNo;contNo-contNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="19" indexed="19" label="-" row="1" type="5" typepara="/acLnShdMtd/del;termNo-termNo;contNo-contNo;onClick-lkconfirm" width="2"/>
+</table>

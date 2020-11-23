@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dl_archive_merge02" title="归档文件合并信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" hoVer="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNos" fieldtype="1" formactiveid="2" hoVer="1" labelalign="3" labelcol="1" labelname="归档明细编号（以@分隔）" maxlength="1000" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="1" formactiveid="3" hoVer="1" labelalign="3" labelcol="1" labelname="归档编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mergeFileName" fieldtype="1" formactiveid="4" hoVer="1" labelalign="3" labelcol="1" labelname="合并文件名称" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mergeFilePath" fieldtype="1" formactiveid="5" hoVer="1" labelalign="3" labelcol="1" labelname="合并文件路径" maxlength="1000" mustinput="0" row="5"/>
+</form>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelpledgelist" para="eadis_page" link="/mfImportPledgeBaseInfo/findByPage" title="历史数据导入押品信息表" type="1">
+<tableitem align="2" filedname="importId" id="1" indexed="1" label="历史数据导入临时表编号" row="1" type="4" typepara="/mfImportPledgeBaseInfo/getById;importId-importId;query-'query'"/>
+<tableitem align="2" filedname="pledgeNo" id="2" indexed="2" label=" 押品编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="3" indexed="3" label=" 押品名称" row="1" type="0" />
+<tableitem align="2" filedname="assetProperty" id="4" indexed="4" label="资产属性1--自由资产 2--客户押品 3-涉诉押品" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="5" indexed="5" label=" 客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label=" 客户名称" row="1" type="0" />
+<tableitem align="2" filedname="certificateNo" id="7" indexed="7" label=" 所有权人编号" row="1" type="0" />
+<tableitem align="2" filedname="certificateName" id="8" indexed="8" label=" 所有权人名称" row="1" type="0" />
+<tableitem align="2" filedname="certificateIdNum" id="9" indexed="9" label=" 所有权人证件号码" row="1" type="0" />
+<tableitem align="2" filedname="classId" id="10" indexed="10" label="类别ID" row="1" type="0" />
+<tableitem align="2" filedname="classModel" id="11" indexed="11" label="业务模式" row="1" type="0" />
+<tableitem align="2" filedname="classFirstNo" id="12" indexed="12" label="一级类别编号" row="1" type="0" />
+<tableitem align="2" filedname="classSecondName" id="13" indexed="13" label="二级类别名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeMethod" id="14" indexed="14" label=" 担保类别" row="1" type="0" />
+<tableitem align="2" filedname="pledgeRate" id="15" indexed="15" label=" 抵质押率" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="16" indexed="16" label="说明" row="1" type="0" />
+<tableitem align="2" filedname="regCusNo" id="17" indexed="17" label=" 登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeShowNo" id="18" indexed="18" label="押品展示号" row="1" type="0" />
+<tableitem align="2" filedname="pleValueDate" id="19" indexed="19" label="押品生效日" row="1" type="0" />
+<tableitem align="2" filedname="pleExpiryDate" id="20" indexed="20" label="押品失效日" row="1" type="0" />
+<tableitem align="2" filedname="pleValue" id="21" indexed="21" label="押品价值" row="1" type="0" />
+<tableitem align="2" filedname="pleCertificateOwner" id="22" indexed="22" label="权属证书编号" row="1" type="0" />
+<tableitem align="2" filedname="pleAddress" id="23" indexed="23" label="押品所在地" row="1" type="0" />
+<tableitem align="2" filedname="pleProduceDate" id="24" indexed="24" label="生产日期" row="1" type="0" />
+<tableitem align="2" filedname="pleUnitPrice" id="25" indexed="25" label="单价" row="1" type="0" />
+<tableitem align="2" filedname="hisId" id="26" indexed="26" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="readResult" id="27" indexed="27" label="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" row="1" type="0" />
+<tableitem align="2" filedname="readSts" id="28" indexed="28" label="解析excel数据状态：0失败1成功" row="1" type="0" />
+<tableitem align="2" filedname="importSts" id="29" indexed="29" label="数据导入状态：0待导入1已导入" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="30" indexed="30" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="31" indexed="31" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="32" indexed="32" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="33" indexed="33" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="34" indexed="34" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="36" indexed="36" label="-" row="1" type="5" typepara="/mfImportPledgeBaseInfo/deleteAjax;importId-importId;onClick-ajaxDelete(this)" width="2"/>
+</table>

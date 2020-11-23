@@ -1,0 +1,143 @@
+
+.plugin-query{
+	/* background-color: #eaeff7; */
+}
+.cpt-tab{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.dtm-tab0{
+	bottom: 10px;
+    height: 300px;
+    left: 6px;
+    list-style: outside none none;
+    position: relative;
+    top: 8px;
+    width: 50px;
+}
+.dtm-tab0-hi{
+	border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    margin: 5px 2px 5px 0;
+    padding-left: 2px;
+    text-align: center;
+}
+.dtm-tab0-hi:hover{
+	background: #D4DEEC none repeat scroll 0 0;
+}
+.dtm-tab0-hi{
+	border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    margin: 5px 2px 5px 0;
+    padding-left: 2px;
+    text-align: center;
+}
+.dtm-tab0-hi-curr{
+	background: #D4DEEC none repeat scroll 0 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-right: 0;
+    padding-left: 0;
+}
+.dtm-tab0-coni{
+	background: #D4DEEC none repeat scroll 0 0;
+    border-radius: 4px;
+    bottom: 12px;
+    height: 300px;
+    left: 56px;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+.dtm-tab1{
+	bottom: 20px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    width: 60px;
+}
+.dtm-tab1-inner{
+	left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dtm-tab1-hi{
+	border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 36px;
+    line-height: 36px;
+    margin: 5px 0;
+    position: relative;
+    text-align: center;
+}
+.dtm-tab1-hi-curr{
+	margin-right: 0;
+    padding-left: 0;
+}
+.dtm-tab1-hi:hover::after {
+    border-color: transparent #428BCA transparent transparent;
+    border-style: solid;
+    border-width: 10px 8px 10px 0;
+    content: ".";
+    display: block;
+    font-size: 0;
+    font-style: normal;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 0;
+}
+.dtm-tab1-hi-curr::after {
+    border-color: transparent #428BCA transparent transparent;
+    border-style: solid;
+    border-width: 10px 8px 10px 0;
+    content: ".";
+    display: block;
+    font-size: 0;
+    font-style: normal;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 0;
+}
+.dtm-tab1-coni{
+	 background: #D4dedd none repeat scroll 0 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    bottom: 0;
+    left: 60px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+.dim-sclpn{
+	bottom: 15px;
+    left: 15px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    overflow: hidden;
+}

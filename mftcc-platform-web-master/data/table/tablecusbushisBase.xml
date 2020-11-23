@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusbushisBase" link="/mfCusBusHis/findByPage" para="eadis_page" title="经营历史" type="1">
+<tableitem align="2" filedname="busHisId" id="28" indexed="13" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="27" indexed="11" label="-" row="1" type="5" typepara="/mfCusBusHis/getById;busHisId-busHisId;cusNo-cusNo;oneUrl-'/mfCusBusHis/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="26" indexed="12" label="-" type="5" typepara="/mfCusBusHis/deleteAjax;busHisId-busHisId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="profitLoss" id="9" indexed="9" label="盈亏明细" row="1" type="0"/>
+<tableitem align="2" filedname="startDetail" id="8" indexed="8" label="大项开始明细" row="1" type="0"/>
+<tableitem align="2" filedname="otherDetail" id="7" indexed="7" label="其他事项明细" row="1" type="0"/>
+<tableitem align="2" filedname="projectDetail" id="6" indexed="6" label="项目明细" row="1" type="0"/>
+<tableitem align="2" filedname="endDate" id="5" indexed="5" label="结束日期" row="1" type="0"/>
+<tableitem align="2" filedname="beginDate" id="4" indexed="4" label="开始日期" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0"/>
+<tableitem align="2" filedname="capitalAcc" id="10" indexed="10" label="资本积累" row="1" type="0"/>
+</table>

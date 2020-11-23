@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusJudgmentListBase" link="/mfCusJudgment/findByPage" para="eadis_page" title="裁判文书" type="1">
+<tableitem align="2" filedname="postingDate" id="8" indexed="10" label="发布日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="caseNo" id="7" indexed="6" label="案件编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="caseType" id="5" indexed="8" label="案由" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="casePeople" id="4" indexed="7" label="涉案人" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="extDouble21" id="39" indexed="5" label="案件金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="judgmentTitle" id="38" indexed="4" label="案件名称" row="1" type="4" typepara="/mfCusJudgment/listShowDetailAjax;judgmentId-judgmentId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusJudgment/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" filedname="court" id="40" indexed="11" label="执行法院" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="37" indexed="12" label="-" row="1" type="5" typepara="/mfCusJudgment/getById;judgmentId-judgmentId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusJudgment/updateAjax';onClick-updateCusTableInfo(this);subStringNub-16;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="36" indexed="40" label="-" row="1" type="5" typepara="/mfCusJudgment/deleteAjax;judgmentId-judgmentId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+</table>

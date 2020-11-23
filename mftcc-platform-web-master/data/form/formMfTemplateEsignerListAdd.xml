@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="MfTemplateEsignerListAdd" title="签约人员列表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="3" labelcol="1" labelname="申请id" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateBizConfigId" fieldtype="1" maxlength="30" formactiveid="3" labelalign="3" labelcol="1" labelname="业务模板id" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nodeNo" fieldtype="1" maxlength="30" formactiveid="4" labelalign="3" labelcol="1" labelname="节点编号" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateNo" fieldtype="1" maxlength="30" formactiveid="5" labelalign="3" labelcol="1" labelname="模板编号" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docFilePath" fieldtype="1" maxlength="100" formactiveid="6" labelalign="3" labelcol="1" labelname="文档存储路径" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docFileName" fieldtype="1" maxlength="100" formactiveid="7" labelalign="3" labelcol="1" labelname="保存后的文件名称" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="esigner" fieldtype="1" maxlength="50" formactiveid="8" labelalign="3" labelcol="1" labelname="签章人员姓名" mustinput="0" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifRead" fieldtype="1" maxlength="1" formactiveid="9" labelalign="3" labelcol="1" labelname="是否阅读1-是0-否" mustinput="0" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifEsigned" fieldtype="1" maxlength="1" formactiveid="10" labelalign="3" labelcol="1" labelname="是否签章1-是0-否" mustinput="0" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="readTime" fieldtype="1" maxlength="17" formactiveid="11" labelalign="3" labelcol="1" labelname="阅读时间" mustinput="0" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="esignTime" fieldtype="1" maxlength="17" formactiveid="12" labelalign="3" labelcol="1" labelname="签章时间" mustinput="0" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="photoPath" fieldtype="1" maxlength="100" formactiveid="13" labelalign="3" labelcol="1" labelname="照片路径" mustinput="0" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="esignNum" fieldtype="1" maxlength="0" formactiveid="14" labelalign="3" labelcol="1" labelname="多坐标多关键字序号" mustinput="0" row="14" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="positioningMethod" fieldtype="1" maxlength="1" formactiveid="15" labelalign="3" labelcol="1" labelname="定位方法1-单坐标2-多坐标3单关键字4多关键字" mustinput="0" row="15" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="30" formactiveid="16" labelalign="3" labelcol="1" labelname="操作员编号" mustinput="0" row="16" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="50" formactiveid="17" labelalign="3" labelcol="1" labelname="操作员姓名" mustinput="0" row="17" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="30" formactiveid="18" labelalign="3" labelcol="1" labelname="部门编号" mustinput="0" row="18" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" maxlength="50" formactiveid="19" labelalign="3" labelcol="1" labelname="部门名称" mustinput="0" row="19" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="20" labelalign="3" labelcol="1" labelname="创建时间" mustinput="0" row="20" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="21" labelalign="3" labelcol="1" labelname="修改时间" mustinput="0" row="21" />
+</form>

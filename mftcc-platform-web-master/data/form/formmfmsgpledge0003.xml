@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="mfmsgpledge0003" title="押品提醒、预警配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funType" fieldsize="FUN_TYPE" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="预警方案类型" maxlength="1" mustinput="1" onchange="MfMsgPledge.changeFunType();" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="押品类型" maxlength="8000" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funDes" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="功能触发节点描述" maxlength="200" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reciverType" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="发送对象" maxlength="50" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendType" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="发送方式" maxlength="50" mustinput="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelContent" fieldtype="5" formactiveid="14" labelalign="3" labelcol="1" labelname="消息模板内容" maxlength="65535" mustinput="1" onclick="MfMsgPledge.addMfMsgPledgeModel();" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="args" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="变量参数（存 变量id）" maxlength="200" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="varUsage" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="变量来源类型" maxlength="50" mustinput="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="4" formactiveid="17" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="预警方案" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="waveType" fieldsize="WAVE_TYPE" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="波动类型" maxlength="2" mustinput="1" onchange="MfMsgPledge.changeWaveType(this);" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="waveThresholdValue" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="波动警戒值" maxlength="9" mustinput="1" readonly="" row="5" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="waveThresholdRate" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="波动警戒比" maxlength="4" mustinput="1" readonly="" row="6" unit="%"/>
+</form>

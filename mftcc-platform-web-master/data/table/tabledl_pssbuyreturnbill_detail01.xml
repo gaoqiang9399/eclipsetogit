@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssbuyreturnbill_detail01" para="eadis_page" title="购货退货单明细" type="2">
+<tableitem align="2" filedname="freightSpaceId" id="30" indexed="15" label="仓位Id" row="1" type="99" width="50" widthType="1"/>
+<tableitem align="1" filedname="storehouseName" id="19" indexed="11" label="仓库" row="1" sortType="2" type="0" width="140" widthType="1"/>
+<tableitem align="1" filedname="buyOrderNo" id="18" indexed="29" label="关联购货订单号" row="1" sortType="2" type="0" width="130" widthType="1"/>
+<tableitem align="1" filedname="memo" id="17" indexed="28" label="备注" row="1" sortType="2" type="0" width="120" widthType="1"/>
+<tableitem align="3" filedname="totalPriceWithTax" id="15" indexed="27" label="价税合计" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="3" filedname="taxAmount" id="14" indexed="25" label="税额" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="3" filedname="taxRate" id="13" indexed="24" label="税率(%)" row="1" sortType="2" type="0" width="80" widthType="1"/>
+<tableitem align="3" filedname="amount" id="12" indexed="23" label="金额" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="3" filedname="discountAmount" id="11" indexed="21" label="折扣额" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="3" filedname="discountRate" id="10" indexed="20" label="折扣率(%)" row="1" sortType="2" type="0" width="80" widthType="1"/>
+<tableitem align="3" filedname="taxUnitPrice" id="9" indexed="19" label="含税单价" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="3" filedname="unitPrice" id="8" indexed="18" label="购货单价" row="1" sortType="2" type="0" width="90" widthType="1"/>
+<tableitem align="2" filedname="freightSpaceNo" id="29" indexed="14" label="仓位" row="1" type="0" width="100" widthType="1"/>
+<tableitem align="3" filedname="quantity" id="7" indexed="17" label="数量" row="1" sortType="2" type="0" width="70" widthType="1"/>
+<tableitem align="2" filedname="searchFlag" id="28" indexed="10" label="库存查询" row="1" type="0" width="10" widthType="1"/>
+<tableitem align="2" filedname="storehouseId" id="6" indexed="12" label="仓库ID" row="1" type="99" width="50" widthType="1"/>
+<tableitem align="1" filedname="goodsModel" id="27" indexed="7" label="型号" row="1" type="0" width="100" widthType="1"/>
+<tableitem align="1" filedname="unitName" id="5" indexed="8" label="单位" row="1" sortType="2" type="0" width="60" widthType="1"/>
+<tableitem align="3" filedname="returnableQuantity" id="26" indexed="16" label="可退数量" row="1" sortType="2" type="0" width="70" widthType="1"/>
+<tableitem align="2" filedname="goodsId" id="4" indexed="6" label="商品ID" row="1" type="99" width="50" widthType="1"/>
+<tableitem align="1" filedname="goodsName" id="25" indexed="5" label="商品" row="1" sortType="2" type="0" width="200" widthType="1"/>
+<tableitem align="2" filedname="buyBillNo" id="24" indexed="30" label="原购货单号" row="1" sortType="2" type="0" width="130" widthType="1"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="2" label="-" row="1" sortType="2" type="0" width="30" widthType="1"/>
+<tableitem align="2" filedname="unitId" id="22" indexed="9" label="单位Id" row="1" type="99" width="50" widthType="1"/>
+<tableitem align="2" filedname="buyBillDetailId" id="21" indexed="32" label="购货单明细主键" type="99" width="50" widthType="1"/>
+<tableitem align="2" filedname="buyOrderDetailId" id="20" indexed="31" label="购货订单明细主键" row="1" type="99" width="50" widthType="1"/>
+</table>

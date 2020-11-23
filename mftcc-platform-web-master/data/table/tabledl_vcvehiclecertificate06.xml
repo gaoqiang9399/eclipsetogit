@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcvehiclecertificate06" para="eadis_page" title="合格证批量价格修改列表" type="2">
+<tableitem align="2" filedname="vin" id="14" indexed="6" label="车架号" row="1" sortType="1" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="51" indexed="5" label="合格证序号" sortType="1" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="importDate" id="23" indexed="25" label="导入日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="configurationName" id="47" indexed="23" label="配置" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="10" indexed="15" label="车型" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="24" label="单价(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="2" type="3" typepara="16" width="18" widthType="0"/>
+</table>

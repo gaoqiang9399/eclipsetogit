@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetsDailyManageBase" title="资产日常管理新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recordId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="记录编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageType" fieldsize="MANAGE_TYPE" fieldtype="2" formactiveid="2" labelalign="3" labelcol="1" labelname="管理方式" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkRecords" fieldtype="5" formactiveid="3" labelalign="3" labelcol="1" labelname="检查维护内容" maxlength="400" mustinput="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="checkTime" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="检查维护时间" maxlength="17" mustinput="0" onclick="fPopUpCalendarDlg();" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountsCheck" fieldsize="ACCOUNTS_CHECK" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="账实核对" maxlength="100" mustinput="1" param="anchors:['anchor1']" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="accCheckTime" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="账实核对时间" maxlength="17" mustinput="0" onclick="fPopUpCalendarDlg();" row="7" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsManageId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="资产管理编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{accountsCheck:'2'}]" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr2001" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="情况说明" maxlength="200" mustinput="" readonly="" row="5"/>
+</form>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="InstitutionsBase" title="合作机构表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="机构名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="登记时间格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtPhone" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="资金机构对接人联系方式" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesOpNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="资金机构关联操作员" maxlength="500" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="infIntegrity" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="资料完整度" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="备注说明" maxlength="500" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="部门编号" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="部门名称" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记时间格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改时间格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtPhone" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="资金机构对接人联系方式" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesDealBase" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="返现点数" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesDealMoney" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="返现金额" maxlength="20" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consultingFeeYear" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="年化咨询费" maxlength="20" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="securityFeeYear" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="年化担保费" maxlength="20" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="thirdPartyPaymentFee" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="第三方支付费" maxlength="20" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="platformServerFee" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="平台服务费" maxlength="20" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="investorYieldRate" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="投资人收益率" maxlength="20" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payTotalRate" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" labelname="客户承担总利率" maxlength="10" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insititutionType" fieldsize="POST_INSTITUTION_TYPE" fieldtype="2" formactiveid="25" labelalign="3" labelcol="1" labelname="机构类型" maxlength="20" mustinput="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditAmount" fieldtype="1" formactiveid="26" labelalign="3" labelcol="1" labelname="授信金额" maxlength="20" mustinput="0" row="4" unit="元"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="lastDateCredit" fieldtype="1" formactiveid="27" labelalign="3" labelcol="1" labelname="授信最后日期" maxlength="17" mustinput="0" onclick="fPopUpCalendarDlg({today: max})" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insititutionStatus" fieldtype="99" formactiveid="28" labelalign="3" labelcol="1" labelname="机构状态" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtName" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="联系人" mustinput="" readonly="" row="3"/>
+</form>

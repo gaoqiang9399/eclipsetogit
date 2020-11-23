@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="param0003" title="业务控制参数维护">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keyName" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="关键字" maxlength="90" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formula" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="公式" maxlength="300" mustinput="1" row="2" unit="备注：如需以下信息请用代码代替:实际融资额:C; 总价款:T; 首付比例:D; 保证金比例:S"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="3" labelalign="3" labelcol="1" labelname="备注" maxlength="300" mustinput="0" row="3"/>
+</form>

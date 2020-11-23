@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditAssureInfoList001" para="eadis_page" title="客户的保证人信息列表" type="2">
+<tableitem align="2" filedname="assureName" id="3" indexed="1" label="担保客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="4" indexed="2" label="担保客户证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="5" indexed="2" label="借款客户" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusIdNum" id="6" indexed="3" label="借款客户证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assureAmt" id="1" indexed="7" label="保证金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contractId" id="9" indexed="8" label="合同号" row="1" type="0" widthType="0"/>
+</table>

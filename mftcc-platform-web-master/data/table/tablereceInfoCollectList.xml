@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receInfoCollectList" para="eadis_page" title="应收账款信息采集列表（业务流程中使用）" type="2">
+<tableitem align="2" filedname="receNo" id="3" indexed="3" label="发票号" row="1" sortType="2" type="4" typepara="/mfBusReceBaseInfo/listShowDetailAjax;receId-receId;oneUrl-'/mfBusReceBaseInfo/updateByOneAjax';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="recePactNo" id="12" indexed="5" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="receInvoiceAmt" id="4" indexed="7" label="发票金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receAmt" id="13" indexed="9" label="应收账款金额(元)" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="receTransAmt" id="6" indexed="10" label="转让金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receEndDate" id="7" indexed="11" label="应收账款到期日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="receSts" id="10" indexed="12" label="状态" row="1" type="6" typepara="RECE_STS" widthType="0"/>
+<tableitem align="2" authority="receSts-2;receSts-3;receSts-4;receSts-5;" filedname="删除" id="11" indexed="13" label="--" row="1" type="5" typepara="/mfBusReceBaseInfo/deleteAjax;receId-receId;onClick-MfBusReceBaseInfo_InputList.deleteReceInfoAjax(this);" widthType="0"/>
+</table>

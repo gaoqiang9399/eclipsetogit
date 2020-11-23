@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cybQuotaCalcBase" title="创业保授信测算">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="21" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="授信性质" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditModel" fieldsize="CREDIT_MODEL" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="授信模型" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="授信总额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isCeilingLoop" fieldsize="YES_NO" fieldtype="21" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="授信是否可循环" mustinput="" param="anchors:['anchor1']" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="产品编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calc1" fieldsize="YES_NO" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="实际控制人为京籍" mustinput="1" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="calc2" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="借款人或反担保保证人名下在京房产余值" maxlength="10" mustinput="1" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="calc14" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="银行负债" maxlength="10" mustinput="0" readonly="" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{isCeilingLoop:'1|0'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="5" selrange="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="peopleNum" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="除实际控制人外为京籍或企业股东反担保人个数" mustinput="1" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="calc13" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="成立以来获得的机构股权融资金额" maxlength="16" mustinput="1" row="7" unit="元"/>
+</form>

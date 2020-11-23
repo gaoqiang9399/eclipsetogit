@@ -1,0 +1,107 @@
+
+.cd-sliders {
+    height: 200px;
+}
+.cd-sliders .popup-close {
+    height: 10px;
+    right: 10px;
+    top: 10px;
+    width: 10px;
+}
+.cd-sliders .title {
+    font-size: 13px;
+    font-weight: bold;
+    left: 10px;
+    position: absolute;
+    top: 7px;
+}
+.cd-sliders .context {
+    height: calc(100% - 80px);
+    margin-top: 30px;
+    overflow: hidden;
+}
+.cd-sliders .bgColor {
+    height: 100%;
+    width: 100%;
+}
+.cd-sliders .bgColor .cpw {
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding: 20px
+}
+.cd-sliders .bgColor .cpw .success {
+    color: #8bd151;
+    display: none;
+    position: relative;
+    right: 25px;
+    top: 70px;
+}
+.cd-sliders .bgColor .cpw .error {
+    color: #dd2a18;
+    display: none;
+    position: relative;
+    right: 25px;
+    top: 70px;
+}
+.cd-sliders .bgColor .validate {
+    float: left;
+    height: 100%;
+    padding: 30px 0;
+    width: 100%;
+}
+.cd-sliders .bgColor label {
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 10px 0 0;
+    padding-left: 35px;
+    text-align: left;
+    width: 30%;
+}
+.cd-sliders .bgColor input {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 24px;
+    margin: 7px 0 0;
+    padding: 5px 12px;
+    width: 50%;
+}
+.cd-sliders .bgColor .required-vpw {
+    color: #dd2a18;
+    float: left;
+    font-size: 12px;
+    padding: 0 0 0 5px;
+    width: 20%;
+}
+.cd-popup-container .btnDiv {
+    height: 35px;
+    margin-top: 10px;
+}
+.cd-popup-container .btnDiv .submitBtn {
+    background-color: rgb(50, 181, 203);
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    height: 27px;
+    margin: 0 5px;
+    width: 65px;
+}
+.cd-popup-container .btnDiv .cancelBtn {
+    background-color: #edf4f7;
+    border: medium none;
+    border-radius: 2px;
+    color: #898a8b;
+    cursor: pointer;
+    height: 27px;
+    margin: 0 5px;
+    width: 65px;
+}
+.cd-popup-container .btnDiv .submitBtn:hover {
+    background-color: #0c90db;
+}
+.cd-popup-container .btnDiv .cancelBtn:hover {
+    background-color: #d2d9dc;
+}

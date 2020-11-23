@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="requestpayoutbilllist" link="/mfRequestPayoutBill/findByPage" para="eadis_page" title="请款申请单" type="1">
+<tableitem align="2" filedname="relationRequestId" id="9" indexed="8" label="关联请款单" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestState" id="8" indexed="11" label="请款状态" row="1" sortType="2" type="6" typepara="REQUEST_PAYOUT_STAT" widthType="0"/>
+<tableitem align="2" filedname="requestPerson" id="7" indexed="7" label="请款人" row="1" sortType="0" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestDate" id="6" indexed="6" label="请款日期" row="1" sortType="0" type="0" widthType="0"/>
+<tableitem align="2" filedname="payoutTotalAmount" id="5" indexed="5" label="请款金额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="payoutGrossAmount" id="13" indexed="9" label="累计总额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="assetName" id="4" indexed="3" label="资产名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="requestState-0;requestState-1;requestState-2;requestState-3;requestState-5" fieldStyle="btnshow" filedname="结束请款" id="12" indexed="12" label="-" row="1" type="5" typepara="/mfRequestPayoutBill/finishPayment;requestId-requestId;onClick-mfRequestPayoutBillList.finishPaymentAjax" width="7" widthType="0"/>
+<tableitem align="2" filedname="assetType" id="3" indexed="4" label="资产类别" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="requestState-0;requestState-1;requestState-2;requestState-4;requestState-5" fieldStyle="btnshow" filedname="付款登记" id="11" indexed="12" label="-" type="5" typepara="/mfRequestPayoutBill/paymentRegPage;requestId-requestId;onClick-mfRequestPayoutBillList.paymentRegAjax;" width="7" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="关联客户" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestCount" id="10" indexed="10" label="请款次数" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestId" id="1" indexed="1" label="请款编号" row="1" sortType="2" type="4" typepara="/mfRequestPayoutBill/getById;requestId-requestId;onClick-mfRequestPayoutBillList.ajaxGetById(this)" widthType="0"/>
+</table>

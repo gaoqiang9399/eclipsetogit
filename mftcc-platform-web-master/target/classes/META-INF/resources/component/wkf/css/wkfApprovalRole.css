@@ -1,0 +1,188 @@
+body.overflow{
+	overflow:hidden;
+}
+table{border-collapse: initial;}
+.content{
+	margin: 10px;
+}
+.content .select-border{
+	border: 1px solid #DAE2EE;
+	padding: 5px;
+	margin: 5px 35px;
+	position: relative;
+	height: 40px;
+}
+.content .select-border label{
+	color: #333;
+}
+.content .select-border .colmon{
+	float: left;
+	margin: 2px 5px;
+}
+
+.content .select-border .colmon .swraper.light{
+	margin-left: 10px;
+	top: -2px;
+}
+.content .select-border .colmon .swraper.light .stoggler {
+	font-size: 12px;
+}
+.content .select-border .colmon label,.content .select-border .colmon input{
+	margin-left:5px ;
+}
+.content .select-border .colmon.right {
+    float: right;
+}
+.content .select-border .colmon .fa {
+    color: #428bca;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.content .select-border .colmon .fa:hover{
+	cursor:pointer;
+}
+.content .select-border .colmon .fa-hidden{
+	display: none;
+}
+
+.bgColor{
+	border:2px solid #F2F5FB;
+	border-radius: 4px;
+	margin: 10px;
+	height: auto;
+}
+.row_content{
+	margin:0 10px;
+}
+.col-md-12,.col-md-6{padding:0;}
+.table_content{
+	overflow: hidden;
+	padding: 5px 0;
+	margin-left: 5px;
+}
+.table_content .ls_list tr {
+    line-height: 26px;
+}
+
+.table_content .ls_list,.form_content .from_w{
+    font-size: 12px;
+}
+.table_content .ls_list tr:nth-child(2n) {
+    background: #f7f8fc none repeat scroll 0 0;
+}
+.table_content .ls_list tr:nth-child(2n) {
+    background: #f7f8fc none repeat scroll 0 0;
+}
+.col_content .hiden{
+	display: none;
+}
+.table_content .ls_list thead th {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #7e9abb;
+    font-size: 12px;
+    font-weight: bold;
+     border-bottom: 1px solid #ebebeb;
+}
+.table_content .ls_list tbody tr:hover{
+	background: #e0f2f8 none repeat scroll 0 0;
+}
+.table_content .ls_list tbody tr:active{
+	background: #d8e5ff none repeat scroll 0 0;
+}
+.col_content .title{
+	margin: 2px 5px;
+	padding: 1px 5px;
+	color: #00B5F2;
+	height: 35px;
+}
+.col_content .title span{
+	left: 90%;
+    position: relative;
+    top: -35px;
+}
+.col_content .mCSB_inside > .mCSB_container {
+    margin-right: 10px;
+}
+.col_content .mCSB_scrollTools {
+    width: 8px;
+}
+.form_content{
+	/**height: 143px;**/
+	border:1px solid #d9dce0;
+}
+.form_content .form_btn{
+	float: right;
+	margin-right:20px ;
+}
+.form_content .form_btn input{
+	margin:0 4px ;
+}
+.form_content table tr{
+	line-height: 30px;
+}
+.from_content table td input[type='text'],.select-border input[type='text']{
+	border-radius: 2px;
+    box-shadow: none;
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #acacac;
+    color: #000000;
+}
+.select-border input[type="button"],.col_content input[type="button"] {
+    background-color: #54aced;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    height: 22px;
+    margin: 1px 5px 0;
+    padding: 0 10px;
+    width: auto;
+}
+.form_content .readonly_border,.table_content .readonly_border{
+	border: none;
+}
+.pagerShow{
+	text-align: center;
+	height: 20px;
+}
+.pagerShow .split{
+	margin: 1px 5px;
+}
+.pageer{
+	display: none;
+}
+.swraper.light {
+	border-radius: 15px;
+}
+.swraper.light .stoggler .sblob {
+	border-radius: 15px;
+}
+.swraper.light .stoggler.on {
+    background: rgba(0, 0, 0, 0) linear-gradient(#4894cd, #4894cd) repeat scroll 0 0;
+}
+.swraper.light .stoggler{
+    background: rgba(0, 0, 0, 0) linear-gradient(#cfcfcf, #f5f5f5) repeat scroll 0 0;
+}
+.swraper.light .stoggler .sblob {
+    background: rgba(0, 0, 0, 0) linear-gradient(#f5f5f5, #cfcfcf) repeat scroll 0 0;
+    border-radius: 99px;
+}
+.swraper .stoggler .slabel-on,.swraper .stoggler .slabel-off{
+	font-size: 11px;
+}
+.mCSB_dragger_bar{ background:#d2d1d1;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background:#d8d8d8; width:3px; border-radius:3px;}
+.mCSB_scrollTools .mCSB_draggerRail{background:#f7f7f7; width:2px; border-radius:3px;}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background-color: #b4b4b4; background-color: rgba(180,180,180,0.85);
+	filter: "alpha(opacity=85)"; -ms-filter: "alpha(opacity=85)"; 
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background-color: #b4b4b4; background-color: rgba(180,180,180,0.90);
+	filter: "alpha(opacity=90)"; -ms-filter: "alpha(opacity=90)"; 
+}
+
+.input-width input{
+	width:80%;
+}

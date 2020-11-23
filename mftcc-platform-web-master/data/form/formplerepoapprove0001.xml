@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="plerepoapprove0001" title="应收回购审批历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoAppId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="申请编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="applyDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferReason" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="反转让原因" maxlength="200" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincPrepayBal" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="融资预付款余额(元)" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accruedInterest" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="应付未付利息(元)" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="6" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="7" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="账款编号" mustinput="" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AssetsManageList" link="/mfAssetsManage/findByPage" para="eadis_page" title="资产管理表" type="1">
+<tableitem align="3" filedname="assessAmt" id="6" indexed="6" label="评估价值（元）" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="pledgeName" id="3" indexed="3" label="资产名称" row="1" sortType="2" type="4" typepara="/mfAssetsManage/getById;assetsManageId-assetsManageId;subStringNub-12;onclick-MfAssetsManage_List.getById;" width="20" widthType="0"/>
+<tableitem align="2" filedname="debtBal" id="9" indexed="8" label="抵债金额余额（元）" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="8" indexed="9" label="创建时间" row="1" sortType="1" type="30" width="15" widthType="0"/>
+<tableitem align="3" filedname="debtAmt" id="7" indexed="7" label="抵债金额（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+</table>

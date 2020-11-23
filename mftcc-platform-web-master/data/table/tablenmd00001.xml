@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="nmd00001" para="eadis_page" title="押品类型" trDbClick="action;optCode-optCode;onDbClick-getOpenFormInfo('add');" type="1">
+<tableitem align="2" filedname="optName" id="5" indexed="2" label="类型名称" row="1" type="0"/>
+<tableitem align="2" filedname="optCode" id="4" indexed="1" label="类型编号" row="1" type="0" width="16"/>
+<tableitem align="2" filedname="sts" id="1" indexed="4" label="是否生效" row="1" type="6" typepara="YES_NO" width="10"/>
+<tableitem align="2" authority="sts-0" filedname="重置表单" id="8" indexed="8" label="-" row="1" type="5" typepara="action;optCode-optCode;onClick-restoreForm(this);" width="2"/>
+<tableitem align="2" authority="sts-0" filedname="设计表单" id="7" indexed="6" label="-" row="1" type="5" typepara="action;optCode-optCode;onClick-getOpenFormInfo('add');" width="2"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pleoverview0001" title="押品总览">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="评估时间" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="经办人" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importDate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="入库时间" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="envalueCrop" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="评估机构" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="canImport" fieldsize="YES_NO" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="是否入库" mustinput="" readonly="" row="3" />
+</form>

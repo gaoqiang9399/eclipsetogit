@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root formId="demo0001" desc="" webFormId="test0001" css="" layout="horizontal">
+    <formelement tagName="DIV" attr-elem-class="weui_panel weui_panel_access moveNode" attr-data-titleshow="0" attr-data-grid="3" attr-data-uidraggable="[object Object]" attr-data-icon="wx-tabbar" attr-data-property="panel" attr-data-name="布局" attr-data-lv="2" attr-data-pid="0" attr-data-id="7" attr-data-pkno="dhcc-1" attr-style="border: 1px solid rgb(229, 229, 229); right: auto; bottom: auto; opacity: 1; width: auto; z-index: 0; height: auto;" data-pkno="dhcc-1" data-id="7" data-pid="0" data-lv="2" data-name="布局" data-property="panel" data-icon="wx-tabbar" data-uidraggable="[object Object]" data-grid="3" data-titleshow="0">
+        <formelement tagName="DIV" attr-elem-class="weui_panel_hd" SProp-text="容器"/>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column panel-col-3  ui-sortable" attr-style="min-height:100px;padding:10px">
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="输入框" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-1" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 1; width: auto; z-index: 0;" data-pkno="dhcc-1" data-id="14" data-pid="0" data-lv="2" data-name="输入框" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell ui-draggable-dragging moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="password" attr-data-name="密码域" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-6" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 1; width: auto; z-index: 0;" data-pkno="dhcc-6" data-id="14" data-pid="0" data-lv="2" data-name="密码域" data-property="password" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="password" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column panel-col-3  ui-sortable" attr-style="min-height:100px;padding:10px">
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="输入框" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-2" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 0.35; width: auto; z-index: 0;" data-pkno="dhcc-2" data-id="14" data-pid="0" data-lv="2" data-name="输入框" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="输入框" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-4" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 0.35; width: auto; z-index: 0;" data-pkno="dhcc-4" data-id="14" data-pid="0" data-lv="2" data-name="输入框" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="输入框" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-5" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 0.35; width: auto; z-index: 0;" data-pkno="dhcc-5" data-id="14" data-pid="0" data-lv="2" data-name="输入框" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column panel-col-3  ui-sortable" attr-style="min-height:100px;padding:10px">
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="输入框" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-3" attr-style="right: auto; bottom: auto; height: 21px; position: relative; top: 0px; left: 0px; opacity: 0.35; width: auto; z-index: 0;" data-pkno="dhcc-3" data-id="14" data-pid="0" data-lv="2" data-name="输入框" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="输入框"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_panel weui_panel_access moveNode" attr-data-titleshow="0" attr-data-grid="1" attr-data-uidraggable="[object Object]" attr-data-icon="wx-tabbar" attr-data-property="panel" attr-data-name="布局" attr-data-lv="2" attr-data-pid="0" attr-data-id="7" attr-data-pkno="dhcc-1" attr-style="border: 1px solid rgb(229, 229, 229); right: auto; bottom: auto; opacity: 1; width: auto; z-index: 0; height: auto;" data-pkno="dhcc-1" data-id="7" data-pid="0" data-lv="2" data-name="布局" data-property="panel" data-icon="wx-tabbar" data-uidraggable="[object Object]" data-grid="1" data-titleshow="0">
+        <formelement tagName="DIV" attr-elem-class="weui_panel_hd" SProp-text="容器"/>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column ui-sortable" attr-style="min-height:100px;padding:10px"/>
+    </formelement>
+</root>

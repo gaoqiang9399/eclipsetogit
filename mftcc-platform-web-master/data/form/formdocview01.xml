@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="docview01" title="要件预览母版表单--企业资料/企业征信">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="企业名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="corpNature" fieldsize="CORP_TYPE" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="企业性质" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="证件类型" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="证件号码" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="联系人" mustinput="" readonly="1" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactsTel" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="联系方式" mustinput="" readonly="1" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projSize" fieldsize="PROJ_SIZE" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="企业规模" mustinput="" readonly="1" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="registeredType" fieldsize="LIC_REG_TYPE" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="注册类型" mustinput="" readonly="1" row="5" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="registeredCapital" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="注册资本" mustinput="" readonly="1" row="5" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assetSum" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="资产总额" mustinput="" readonly="1" row="9" unit="元" />
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="empCnt" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="5" labelname="员工人数" mustinput="" readonly="1" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalRepresName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="法人代表名称" mustinput="" readonly="1" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="legalIdType" fieldsize="PERS_ID_TYPE" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="5" labelname="法人代表证件类型" mustinput="" readonly="1" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="legalIdNum" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="3" labelname="法人代表证件号码" mustinput="" readonly="1" row="11" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="营业开始日期" mustinput="" readonly="1" row="7" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="营业结束日期" mustinput="" readonly="1" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="commAddress" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="通讯地址" mustinput="" readonly="1" row="15" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldsize="SEX" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="性别" mustinput="" readonly="1" row="19" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="brithday" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="3" labelname="出生日期" mustinput="" readonly="1" row="19" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifParty" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="政治面貌" mustinput="" readonly="1" row="21" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="marrige" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="3" labelname="婚姻状况" mustinput="" readonly="1" row="21" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="email" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="邮箱地址" mustinput="" readonly="1" row="23" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="23" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldsize="BUS_MODEL" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="业务模式" mustinput="" readonly="1" row="25" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="产品种类" mustinput="" readonly="1" row="27" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="appAmt" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="3" labelname="申请金额" mustinput="" readonly="1" row="25" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="term" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="期限" mustinput="" readonly="1" row="29" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termType" fieldsize="TERM_TYPE" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="3" labelname="期限类型" mustinput="" readonly="1" row="29" />
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="99" formactiveid="29" horVer="1" labelalign="1" labelcol="3" labelname="利率" mustinput="" readonly="1" row="27" unit="%" />
+<formelement datatype="30" fieldalign="1" fieldcol="4" fieldname="appTime" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="3" labelname="申请时间" mustinput="" readonly="1" row="31" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="合同开始日期" mustinput="" readonly="1" row="33" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="99" formactiveid="32" horVer="1" labelalign="1" labelcol="3" labelname="合同结束日期" mustinput="" readonly="1" row="33" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="99" formactiveid="33" horVer="1" labelalign="1" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="31" unit="元" />
+</form>

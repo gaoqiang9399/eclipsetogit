@@ -1,0 +1,98 @@
+body {
+    margin: 10px;
+}
+.formRow {
+	margin: 15px 0;
+	text-align: center;
+	width: 100%;
+}
+
+table {
+	width: 60%;
+	border: 0;
+}
+
+textarea {
+	resize: none;
+	width: 80%;
+}
+
+.hidden-content {
+	display: none;
+}
+
+.rows .input-box select {
+	margin-bottom: 2px;
+}
+
+#picker .webuploader-pick {
+	height: 30px;
+	line-height: 15px;
+}
+
+#thelist .item {
+	height: 30px;
+	width: 165px;
+	line-height: 20px;
+	border: none;
+}
+
+#uploader {
+	display: inline-block;
+}
+
+.item {
+    border: 1px solid #dfdfdf;
+    display: block;
+    height: auto;
+    margin: 2px 2px 4px;
+    padding: 2px 5px;
+    width:220px;
+    border-radius: 2px;
+    float:left;
+}
+.info {
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 15px;
+    width: auto;
+}
+.state {
+    color: blue;
+    font-size: 14px;
+}
+.imgs {
+    background: rgba(0, 0, 0, 0) url("../../../UIplug/webuploader/img/excl.png") no-repeat scroll 0 0;
+    display: block;
+    height: 100px;
+    width: 160px;
+}
+.btns {
+    clear: both;
+    display: block;
+    padding-bottom:50px;
+}
+
+.btns button {
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+.webuploader-pick {
+    float: left;
+    margin-right: 15px;
+    padding: 8px 10px;
+    background:#32b5cb;
+}
+.progress.progress-striped.active {
+    height: 10px;
+    margin-bottom:5px;
+}
+.btns button.submitdata{
+	display:none;
+}
+.btns button.success{
+	display:block !important;
+}

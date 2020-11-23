@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablestopintstlist" link="/mfBusStopIntstApply/findByPage" para="eadis_page" title="停息申请列表" type="1">
+<tableitem align="2" filedname="stopIntstFlag" id="26" indexed="20" label="停息状态" row="1" type="6" typepara="STOP_INTST_TYPE" widthType="0"/>
+<tableitem align="2" authority="stopIntstFlag-1;stopSts-1;stopSts-2;stopSts-4;" filedname="停息" id="25" indexed="28" label="-" type="99" typepara="#;fincId-fincId;stopIntstDate-applyDate;onClick-MfBusStopIntstApply.stopinsts" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="9" indexed="10" label="合同号" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="stopSts" id="17" indexed="16" label="审批阶段" row="1" sortType="2" type="6" typepara="STOP_INTST" widthType="0"/>
+<tableitem align="2" filedname="appName" id="7" indexed="8" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'finc';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="15" indexed="15" label="贷款余额" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="applyName" id="14" indexed="11" label="申请人姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="applyDate" id="12" indexed="12" label="申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="stopPlanDate" id="10" indexed="13" label="计划停息日期" row="1" sortType="0" type="1" widthType="0"/>
+</table>

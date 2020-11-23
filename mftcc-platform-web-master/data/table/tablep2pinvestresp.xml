@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="p2pinvestresp" title="理财客户投资标的记录表" type="1">
+<tableitem align="2" filedname="investTime" id="4" indexed="6" label="投资时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="2" label="投资客户" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="2" indexed="4" label="手机号" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="amt" id="1" indexed="5" label="投资金额" type="12" widthType="0"/>
+</table>

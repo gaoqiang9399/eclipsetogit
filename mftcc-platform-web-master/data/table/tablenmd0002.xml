@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="nmd0002" para="eadis_page" title="数据字典项列表" type="2">
+<tableitem align="2" buttonMark="ParmKey003" filedname="删除" id="6" indexed="5" label="-" type="5" typepara="/parmDic/deleteAjax;keyName-keyName;optCode-optCode;onClick-ajaxDelete(this)" width="5" widthType="0"/>
+<tableitem align="1" filedname="optName" id="5" indexed="2" label="数据字典项名称" row="1" type="0"/>
+<tableitem align="1" filedname="optCode" id="4" indexed="1" label="数据字典项编号" row="1" type="0" width="18"/>
+<tableitem align="1" filedname="keyName" id="3" indexed="0" label="数据字典项" row="1" type="0"/>
+<tableitem align="1" filedname="seqn" id="2" indexed="3" label="显示顺序" row="1" type="0" width="10"/>
+<tableitem align="1" filedname="sts" id="1" indexed="4" label="是否生效" row="1" type="6" typepara="YES_NO" width="10"/>
+</table>

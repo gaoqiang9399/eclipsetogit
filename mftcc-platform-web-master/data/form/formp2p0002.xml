@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="p2p0002" title="业务区域维护关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessAreaId" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="流水号" mustinput="" readonly="" row="1"/>
+<formelement alt="10字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="businessCode" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="区域编号" maxlength="10" mustinput="1" onblur="P2pBusinessAreaInsert.validateQuYuBianHao()" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="区域名称" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isUse" fieldsize="USE_FLAG" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="启用状态" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assOperName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员" mustinput="" onclick="selectUserDialog(P2pBusinessAreaInsert.getRecDialog)" readonly="" row="4" unit="&lt;i class='i i-fangdajing pointer' onClick='selectUserDialog(P2pBusinessAreaInsert.getRecDialog);'&gt;&lt;/i&gt;"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="备注说明" maxlength="200" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assOper" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员编号" mustinput="" readonly="" row="6"/>
+</form>

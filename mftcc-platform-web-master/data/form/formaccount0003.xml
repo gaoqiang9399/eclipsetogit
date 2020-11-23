@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="account0003" title="科目新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accNo" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="科目号：" mustinput="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accType" fieldsize="CW_ACCOUNT_TYPE" fieldstyle="half" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="科目类型：" mustinput="0" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dcInd" fieldsize="CW_DCIND" fieldstyle="half" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="借贷方向：" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accName" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="科目名称：" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accLvl" fieldstyle="half" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="科目级别：" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="xjFl" fieldsize="CW_XJFL" fieldstyle="half" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="现金分类：" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="seqNum" fieldsize="CW_FICATION" fieldtype="3" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="辅助核算：" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upAccno" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="上级科目号：" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="seqSelect" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="辅助核算2" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accLvlName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="科目级别：" mustinput="" readonly="1" row="2" />
+</form>

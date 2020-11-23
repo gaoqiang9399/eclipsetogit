@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfVouAfterRiskLevelAdjustList" para="eadis_page" title="风险调级合同列表" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label="申请人" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="5" indexed="5" label="委托担保合同编号" mytitle="配置名称-configName" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="选择" id="10" indexed="10" label="-" row="1" type="5" typepara=";pactId-pactId;onClick-MfVouAfterRiskLevelAdjust_SelectList.choseVouAfterRiskLevelAdjust;" width="20" widthType="0"/>
+</table>

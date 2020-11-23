@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusTypeConfig0001" title="客户类型表单">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="optCode" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="4" labelname="客户类型" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="类型描述" maxlength="400" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户类别" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="keyName" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="4" labelname="数据字典" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="seqn" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="4" labelname="显示顺序" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="YES_NO" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="启用标识" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusBaseType" fieldsize="CUS_BASE_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="客户性质" mustinput="0" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isCoopAgency" fieldsize="CUS_TYPE_SET" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="业务身份" mustinput="1" readonly="" row="3"/>
+</form>

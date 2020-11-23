@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0017" title="合同申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="业务申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="承租人客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="承租人名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appSts" fieldtype="1" formactiveid="54" labelalign="3" labelcol="5" labelname="申请状态" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ifSign" fieldtype="1" formactiveid="83" labelalign="3" labelcol="5" labelname="是否签订" maxlength="1" mustinput="0" row="1"/>
+</form>

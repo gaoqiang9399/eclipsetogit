@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0006" title="业务信息">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="总价款" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="融资额" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="17" fieldalign="1" fieldcol="8" fieldname="executeRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="7" labelname="执行利率" mustinput="" readonly="1" row="1" unit="%" />
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="termMon" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="期限" mustinput="" readonly="1" row="1" />
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="fstPayAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="5" labelname="首付金额" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="17" fieldalign="1" fieldcol="8" fieldname="fstPayRio" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="7" labelname="首付比例" mustinput="" readonly="1" row="2" unit="%" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="depositAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="保证金金额" mustinput="" readonly="1" row="3" unit="元" />
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="depositRio" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="保证金比例" mustinput="" readonly="1" row="3" unit="%" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="21" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaveCycleTerm" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="还款频率" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="leaveCycle" fieldsize="AC_TERM_TYPE" fieldtype="21" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="还款频率" mustinput="" readonly="1" row="1" />
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="leaseNum" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="租赁物数量" mustinput="" readonly="1" row="3" />
+</form>

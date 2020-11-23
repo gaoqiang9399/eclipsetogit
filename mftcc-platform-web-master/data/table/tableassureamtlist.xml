@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assureamtlist" link="/mfBusAssureAmt/findByPage" para="eadis_page" title="保证金管理" type="1">
+<tableitem align="2" filedname="balAmt" id="6" indexed="7" label="当前余额" row="1" type="12" width="25" widthType="0"/>
+<tableitem align="2" filedname="changeAmt" id="5" indexed="5" label="变更金额" row="1" type="4" typepara="/mfBusAssureAmt/listShowDetailAjax;assureAmtId-assureAmtId;cusNo-cusNo;oneUrl-'/mfBusAssureAmt/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="25" widthType="0"/>
+<tableitem align="2" filedname="assureAmtChangeType" id="8" indexed="6" label="变更类型" row="1" type="6" typepara="ASSURE_AMT_CHANGE_TYPE" width="25" widthType="0"/>
+<tableitem align="2" filedname="assureAmtSts" id="7" indexed="8" label="保证金状态" type="6" typepara="ASSURE_AMT_STS" width="25" widthType="0"/>
+</table>

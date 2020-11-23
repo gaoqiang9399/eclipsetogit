@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificateOutStorage_resubmit01" title="特殊出库重新提交审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyId" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="申请ID" mustinput="" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="outStorageDescription" fieldtype="5" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="出库描述" maxlength="200" mustinput="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="46" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="4"/>
+<formelement alt="如需修改并提交审批请单击重新选择合格证" datatype="0" fieldalign="1" fieldcol="2" fieldname="vin" fieldtype="1" formactiveid="47" horVer="0" labelalign="3" labelcol="1" labelname="车架号" mustinput="0" onclick="VcCertificateOutStorageApply.bindCertificate(this)" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="1" labelname="合格证ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="oldCertificateIds" fieldtype="99" formactiveid="49" horVer="0" labelalign="3" labelcol="1" labelname="之前选过的合格证IDs" mustinput="" readonly="" row="1"/>
+</form>

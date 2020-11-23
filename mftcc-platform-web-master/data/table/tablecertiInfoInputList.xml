@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="certiInfoInputList" title="权证登记列表" type="2">
+<tableitem align="2" filedname="recDate" id="4" indexed="7" label="登记日期" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="11" indexed="10" label="-" type="5" typepara="/certiInfo/editForListNew;certiId-certiId;tableId-'tablecertiInfoInputList';collateralId-collateralId;onClick-CertiInfo_InputList.editNew(this);" widthType="0"/>
+<tableitem align="2" filedname="certiNo" id="2" indexed="0" label="权证编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="certiOrg" id="1" indexed="4" label="登记机构" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contractedName" id="10" indexed="1" label="权属证名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="dealType" id="9" indexed="2" label="权证类型" row="1" type="6" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" authority="certiSts-2" filedname="删除" id="8" indexed="11" label="-" row="1" type="5" typepara="/certiInfo/deleteAjax2;certiId-certiId;tableId-'tablecertiInfoInputList';collateralId-collateralId;onClick-CertiInfo_InputList.deleteCertiInfoAjax(this);" widthType="0"/>
+</table>

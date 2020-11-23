@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="budget0002" title="预算主表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="budgetId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="预算编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="budgetName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="预算标题" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="budgetSum" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="预算总额" maxlength="20" mustinput="0" readonly="1" row="3" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="weeks" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="预算周期" maxlength="8" mustinput="1" onclick="laydatemonth(this);" readonly="1" row="2"/>
+</form>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form id="commropehis0001" title="承购申请审批历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="registerProveId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="登记证明编号" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="registerProveTime" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="registerProveType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="登记种类0初始登记" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="交易类型1质押2转让" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="registerEndDate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="登记到期日" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgorNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="出资/出让人编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgorName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="出质/出让人名称" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgorRegisterAddress" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="出质/出让人注册地址" maxlength="400" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeeNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="质权/出让人编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeeName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="质权/出让人" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeeRegisterAddress" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="质权/出让人注册地址" maxlength="400" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveProcessId" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="审批流程id" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeNo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="当前审批节点编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartNo" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="审批角色号/用户号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="当前审批角色/用户名称" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveRemark" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="审批说明" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveResult" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="审批意见1同意2否决3退回上一环节4退回初审5不同意" maxlength="1" mustinput="0" row="10"/>
+</form>

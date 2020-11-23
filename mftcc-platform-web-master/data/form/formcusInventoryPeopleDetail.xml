@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusInventoryPeopleDetail" title="盘库人员信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inventoryId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="30" mustinput="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inventoryPeopleName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="盘库人名称" maxlength="100" mustinput="1" param="inventoryId;cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="tel" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="手机号码" maxlength="20" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" param="inventoryId;cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="身份证号" maxlength="30" mustinput="0" param="inventoryId;cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="commAddress" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="通讯地址" maxlength="200" mustinput="0" param="inventoryId;cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="90" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="90" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="90" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr501" fieldtype="90" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr502" fieldtype="90" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr503" fieldtype="90" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr504" fieldtype="90" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr505" fieldtype="90" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1001" fieldtype="90" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1002" fieldtype="90" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1003" fieldtype="90" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr2001" fieldtype="90" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="预留较长文本字段" maxlength="200" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic1" fieldtype="90" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic2" fieldtype="90" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="90" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble22" fieldtype="90" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt1" fieldtype="90" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt2" fieldtype="90" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="90" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="关联编号" maxlength="30" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="90" formactiveid="30" horVer="1" labelalign="1" labelcol="1" labelname="软删除标记--1删除-0默认" maxlength="1" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="entityPrimarykeys" mustinput="" readonly="" row="3"/>
+</form>

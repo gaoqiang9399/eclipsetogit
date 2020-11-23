@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="fdm0009" title="虚拟总账">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fundTotalNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="序号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="monthBal" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="月初余额" maxlength="16" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="yearBal" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="年初余额" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="totalBal" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="余额" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="monthAmtB" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="本月发生额借" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="monthAmtL" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="本月发生额贷" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="yearAmtB" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="本年发生额借" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="yearAmtL" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="本年发生额贷" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="5"/>
+</form>

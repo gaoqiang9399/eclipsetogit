@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="creditproduct0002" title="产品授信额度信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="产品种类编号" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="产品种类" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="授信额度" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rateType" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="利率类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditRate" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="授信利率" maxlength="10" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repaymentMode" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="还款方式" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="担保方式" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyUsage" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="申请用途" maxlength="50" mustinput="0" row="9"/>
+</form>

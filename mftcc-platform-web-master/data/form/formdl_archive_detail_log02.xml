@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dl_archive_detail_log02" title="归档文件操作日志表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" hoVer="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="1" formactiveid="2" hoVer="1" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="1" formactiveid="3" hoVer="1" labelalign="3" labelcol="1" labelname="归档编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operationType" fieldtype="1" formactiveid="4" hoVer="1" labelalign="3" labelcol="1" labelname="操作类型（01-归档 02-新增 03-删除 04-恢复 05-借阅 06-归还 07-合并 08-备份）" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lendId" fieldtype="1" formactiveid="5" hoVer="1" labelalign="3" labelcol="1" labelname="借阅信息主键" maxlength="40" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mergeId" fieldtype="1" formactiveid="6" hoVer="1" labelalign="3" labelcol="1" labelname="合并信息主键" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="backupId" fieldtype="1" formactiveid="7" hoVer="1" labelalign="3" labelcol="1" labelname="备份信息主键" maxlength="40" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="8" hoVer="1" labelalign="3" labelcol="1" labelname="操作人编号" maxlength="22" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="9" hoVer="1" labelalign="3" labelcol="1" labelname="操作人名称" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="10" hoVer="1" labelalign="3" labelcol="1" labelname="操作人部门编号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="11" hoVer="1" labelalign="3" labelcol="1" labelname="操作人部门名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opDate" fieldtype="1" formactiveid="12" hoVer="1" labelalign="3" labelcol="1" labelname="操作日期" maxlength="8" mustinput="0" row="12"/>
+</form>

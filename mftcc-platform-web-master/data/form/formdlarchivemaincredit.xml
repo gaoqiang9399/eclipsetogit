@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dlarchivemaincredit" title="授信展示">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" fieldwidth="50" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pactNo" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="合同编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="creditAppNo" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="内部授信号" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="产品名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveOpName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="归档人" maxlength="40" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="archiveDate" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="归档日期" maxlength="8" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="archivePactStatus" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="6" labelname="归档阶段" mustinput="" readonly="1" row="1" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="archiveStatusString" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="3" labelname="档案状态" mustinput="" readonly="1" row="3" writeAuth="Advance"/>
+</form>

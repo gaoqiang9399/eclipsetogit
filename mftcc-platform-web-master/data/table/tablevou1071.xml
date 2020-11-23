@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1071" para="eadis_page" link="/grtPMetal/findByPage" title="207.贵金属  GRT_P_METAL" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPMetal/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="metalName" id="2" indexed="2" label="贵金属名称" row="1" type="0" />
+<tableitem align="2" filedname="metalGram" id="3" indexed="3" label="贵金属数量（克）" row="1" type="0" />
+<tableitem align="2" filedname="detail" id="4" indexed="4" label="贵金属简要说明" row="1" type="0" />
+<tableitem align="2" filedname="quality" id="5" indexed="5" label="成色(%)" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="7" indexed="7" label="-" row="1" type="5" typepara="/grtPMetal/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

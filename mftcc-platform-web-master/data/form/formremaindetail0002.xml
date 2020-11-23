@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="remaindetail0002" title="尾款明细表">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="realReturnAmt" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="尾款合计" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomBank" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="收款账户行" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="收款人" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomAccount" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="收款账号" mustinput="1" readonly="" row="2" />
+</form>

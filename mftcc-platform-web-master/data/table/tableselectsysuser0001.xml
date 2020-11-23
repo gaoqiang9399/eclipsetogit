@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="selectsysuser0001" title="档案信息页面选择操作员" type="1">
+<tableitem align="2" filedname="loginUser" id="4" indexed="2" label="登录账号" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="3" indexed="1" label="操作员姓名" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="2" indexed="0" label="操作员编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="选择操作员" id="1" indexed="3" label="选择操作员" row="1" type="5" typepara="action;opNo-opNo;onclick-enterClick;" widthType="0"/>
+</table>

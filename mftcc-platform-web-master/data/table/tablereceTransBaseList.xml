@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receTransBaseList" para="eadis_page" title="账款转让列表" type="2">
+<tableitem align="2" filedname="receBeginDate" id="9" indexed="7" label="发票日" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="receEndDate" id="7" indexed="11" label="应收账款到期日" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="receTransAmt" id="6" indexed="10" label="转让金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receTransDate" id="5" indexed="9" label="转让日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="13" indexed="3" label="融资客户" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="receInvoiceAmt" id="4" indexed="8" label="发票金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receNo" id="3" indexed="6" label="发票号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="transId" id="11" indexed="13" label="转让子表id" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="receBuyer" id="2" indexed="4" label="买方" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="transSts" id="10" indexed="12" label="状态" row="1" type="6" typepara="RECE_TRANS_STS" widthType="0"/>
+</table>

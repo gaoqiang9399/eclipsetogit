@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditRiskCheckDetail" title="授信风险检查详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalAppNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="评级申请号" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalScenceNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="评级场景编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="客户号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="totalScore" fieldstyle="half" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="总分" labelstyle="border_left" maxlength="16" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="grade" fieldsize="RISK_PREVENT_LEVEL" fieldstyle="half" fieldtype="21" formactiveid="11" labelalign="3" labelcol="3" labelname="机评等级" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mangGrade" fieldsize="RISK_PREVENT_LEVEL" fieldstyle="half" fieldtype="2" formactiveid="12" labelalign="3" labelcol="1" labelname="客户经理建议等级" labelstyle="border_left" maxlength="1" mustinput="1" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="filler" fieldtype="5" formactiveid="16" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalSts" fieldsize="APP_STS" fieldtype="99" formactiveid="17" initvalue="0" labelalign="3" labelcol="1" labelname="评级申请状态" labelstyle="border_left" maxlength="1" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="登记机构号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="登记人" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgNo" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="更新登记机构号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="更新机构名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="更新登记人" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="更新登记人名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldstyle="half" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" maxlength="3" mustinput="" readonly="1" row="1" />
+<formelement alt="客户经理评分调整(分数调整在-5分到5分之间)" datatype="3" fieldalign="1" fieldcol="6" fieldname="manAdjustScore" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="5" labelname="调整分数" mustinput="0" onblur="adjustSouseChange(this)" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="6" fieldname="manAdjustCause" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="5" labelname="调整得分理由" maxlength="200" mustinput="0" readonly="" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="totalScoreTmp" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="5" labelname="总分（隐藏）" mustinput="" readonly="" row="11" />
+</form>

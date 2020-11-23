@@ -1,0 +1,93 @@
+
+.ztree li {
+    line-height: 60px;
+    list-style: outside none none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+.ztree li ul {
+    margin: 0;
+    padding: 0;
+}
+.ztree li a {
+    background-color: transparent;
+    color: #929292;
+    display: inline-block;
+    height: 60px;
+    margin-left: -25px;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: top;
+    width: 100%;
+}
+.ztree li a.level0 {
+    background-image: url("../img/bg.gif");
+    cursor: pointer;
+    font: bold 11px/15px tahoma,arial,verdana,sans-serif;
+}
+.treeDivbg {
+    background-color: #ebebeb;
+    border-right: 1px solid #dadada !important;
+    border-radius: 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+    height: auto;
+    left: 16px;
+    overflow: hidden !important;
+    position: absolute;
+    top: 70px;
+    width: 45px;
+    z-index: 1000;
+}
+.ztree li a.level1:hover {
+}
+.ztree li a.level1 {
+    cursor: move;
+    padding: 0;
+}
+.ztree li a.level1 span {
+    display: block;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    top: -17%;
+}
+.ztree li span {
+    line-height: 60px;
+}
+.ztree li span.button {
+    border: 0 none;
+    display: inline-block;
+    height: 25px;
+    line-height: 0;
+    margin: 0;
+    outline: medium none;
+    vertical-align: middle;
+    width: 25px;
+}
+.ztree li span.button.ico_docu {
+    left: 38%;
+    position: relative;
+    top: 15%;
+}
+.toolDiv {
+    background-color: #3078c0 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.topDiv {
+    background: transparent url("../img/header_background2.png") repeat scroll 0 0 !important;
+    height: 40px;
+    width: 100%;
+}
+.propertyTable {
+    font-size: 12px;
+    width: 100%;
+}
+.propertyTable td input {
+    width: 100%;
+}

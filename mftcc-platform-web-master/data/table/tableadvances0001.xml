@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="advances0001" link="/mfBusAdvancesManage/findByPage" para="eadis_page" title="垫款管理表" type="2">
+<tableitem align="2" filedname="regTime" id="39" indexed="45" label="登记时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="dataType" id="48" indexed="44" label="类型" row="1" sortType="2" type="6" typepara="ADV_DATA_TYPE" widthType="0"/>
+<tableitem align="2" filedname="详情" id="47" indexed="47" label="-" row="1" type="5" typepara="/mfBusAdvancesManage/getById;advancesId-advancesId;onClick-MfBusAdvancesManage.finForm_detail" widthType="0"/>
+<tableitem align="2" authority="appSts-1;appSts-2;appSts-3;" filedname="提交申请" id="46" indexed="48" label="-" type="5" typepara="/mfBusAdvancesManage/apply;advancesId-advancesId;dataType-dataType;onClick-MfBusAdvancesManage.finForm_apply" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="45" indexed="42" label="垫款状态" row="1" sortType="2" type="6" typepara="ADVANCES_STS" widthType="0"/>
+<tableitem align="1" filedname="appName" id="44" indexed="5" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'1';onClick-MfBusAdvancesManage.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="1" filedname="cusName" id="42" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfBusAdvancesManage.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="opName" id="41" indexed="46" label="登记人" row="1" sortType="2" type="0" widthType="0"/>
+</table>

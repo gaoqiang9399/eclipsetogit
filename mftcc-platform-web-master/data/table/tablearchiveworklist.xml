@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveworklist" para="eadis_page" title="OA人事档案工作经历表" type="1">
+<tableitem align="2" filedname="jobTitle" id="6" indexed="6" label="职务" row="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="companyName" id="5" indexed="3" label="公司名称" mytitle="公司名称-companyName;" type="4" typepara="/mfOaArchivesWork/listShowDetailAjax;workId-workId;oneUrl-'/mfOaArchivesWork/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="4" indexed="5" label="结束日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="12" indexed="7" label="-" row="1" type="5" typepara="/mfOaArchivesWork/input;baseId-baseId;workId-workId;onClick-OaArchivesDetail.workadd;" width="5" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="3" indexed="4" label="开始日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="删除" id="11" indexed="12" label="-" row="1" type="5" typepara="/mfOaArchivesWork/deleteAjax;workId-workId;baseId-baseId;onClick-OaArchivesDetail.workdelete(this)" width="5" widthType="0"/>
+</table>

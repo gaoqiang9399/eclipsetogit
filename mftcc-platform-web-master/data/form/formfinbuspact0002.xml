@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="finbuspact0002" title="理财业务合同表">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cardDate" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="2" labelname="刷卡日期" maxlength="8" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busPactNo" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prdtName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contractAmt" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="融资金额" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="breathBeginDate" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日期" mustinput="1" onclick="fPopUpCalendarDlg({choose:FinBusPact_Detail.changeDate})" readonly="" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="breathEndDate" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="合同到期日期" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="融资期限" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyRate" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="融资利率" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="1" row="5"/>
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="ExternalRisk_miss" title="融360法海网未命中表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="证件号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="0" initvalue="未命中" labelalign="3" labelcol="1" labelname="状态" mustinput="" readonly="" row="2"/>
+</form>

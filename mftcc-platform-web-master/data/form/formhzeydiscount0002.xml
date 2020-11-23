@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="hzeydiscount0002" title="优惠券">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="discountAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="优惠金额" maxlength="10" mustinput="1" readonly="" row="1" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="优惠开始日期" maxlength="8" mustinput="1" onclick="selectrili(this,null,today,null)" readonly="" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="优惠结束日期" maxlength="8" mustinput="1" onclick="selectrili(this,null,today,null)" readonly="" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;"/>
+</form>

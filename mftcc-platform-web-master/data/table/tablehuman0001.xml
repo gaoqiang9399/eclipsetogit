@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="human0001" link="/mfOaHumanResources/findByPage" para="eadis_page" title="人力需求表" type="1">
+<tableitem align="2" filedname="arrivalDate" id="6" indexed="7" label="希望到岗日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="numOfPeople" id="5" indexed="5" label="招聘人数" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="recruitmentPosition" id="4" indexed="4" label="招聘职位" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appDate" id="3" indexed="3" label="申请日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="appDepartment" id="2" indexed="2" label="申请部门" row="1" sortType="1" type="4" typepara="/mfOaHumanResources/getById;appId-appId;applySts-applySts;onClick-MfOaHumanResources_List.getByIdThis(this);" widthType="0"/>
+<tableitem align="2" authority="applySts-0;applySts-1;applySts-3;applySts-4;applySts-5;" filedname="打印审批表" id="10" indexed="11" label="-" type="5" typepara=";appId-appId;onClick-MfOaHumanResources_List.printApproveTable(this);" widthType="0"/>
+<tableitem align="2" filedname="opName" id="9" indexed="9" label="登记人姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="8" indexed="10" label="申请状态" row="1" sortType="1" type="6" typepara="APP_STS" widthType="0"/>
+</table>

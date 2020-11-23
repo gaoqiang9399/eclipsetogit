@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="reportConfig0002" title="报表查询条件配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="报表编号" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="报表名称" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conditonContent" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="查询条件" maxlength="5000" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sqlJavaFlag" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="sql实现方式 1-sql 2-javaBean" maxlength="1" mustinput="0" row="9"/>
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0005" title="大表单金融方案">
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="totalAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="总价款" mustinput="" readonly="" row="1" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="actualAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="融资额" mustinput="" readonly="" row="2" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="executeRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="执行利率" mustinput="" readonly="" row="3" unit="%" />
+<formelement datatype="1" fieldalign="3" fieldcol="2" fieldname="termMon" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="期限" mustinput="" readonly="" row="4" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="fstPayAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="首付金额" mustinput="" readonly="" row="7" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="fstPayRio" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="1" labelname="首付比例" mustinput="" readonly="" row="6" unit="%" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="depositAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="1" labelcol="1" labelname="保证金金额" mustinput="" readonly="" row="9" unit="元" />
+<formelement datatype="17" fieldalign="3" fieldcol="2" fieldname="depositRio" fieldtype="1" formactiveid="11" horVer="0" labelalign="1" labelcol="1" labelname="保证金比例" mustinput="" readonly="" row="8" unit="%" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="leaveCycle" fieldsize="AC_TERM_TYPE" fieldtype="21" formactiveid="12" horVer="0" labelalign="1" labelcol="1" labelname="还款频率" mustinput="" readonly="" row="5" />
+</form>

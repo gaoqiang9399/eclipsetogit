@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="frontkind0001" para="eadis_page" link="/mfFrontKind/findByPage" title="交易前端产品表" type="1">
+<tableitem align="2" filedname="kindNo" id="1" indexed="1" label="产品编号" row="1" type="4" typepara="/mfFrontKind/getById;kindNo-kindNo;query-'query'"/>
+<tableitem align="2" filedname="mobileUse" id="2" indexed="2" label="移动端是否使用该产品，0不使用，1使用" row="1" type="0" />
+<tableitem align="2" filedname="pcUse" id="3" indexed="3" label="pc交易端是否使用该产品，0不使用，1使用" row="1" type="0" />
+<tableitem align="2" filedname="kindDesc" id="4" indexed="4" label="交易端产品描述信息" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="5" typepara="/mfFrontKind/deleteAjax;kindNo-kindNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

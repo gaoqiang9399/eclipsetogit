@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="app0014" title="详情备注信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeInfo" fieldtype="5" fieldwidth="80" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="变更信息" labelwidth="20" maxlength="400" mustinput="" readonly="" row="2"/>
+</form>

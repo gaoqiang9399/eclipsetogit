@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="feePactQueryList" para="eadis_page" title="查询-业务查询中的费用合同查询" type="1">
+<tableitem align="2" filedname="完善信息" id="16" indexed="16" label="操作" row="1" type="5" typepara="/mfBusAppFee/getFeeListPage;appId-appId;onclick-MfFeePactQueryList.getPreRepayDetialPage(this);" width="4" widthType="0"/>
+<tableitem align="1" filedname="cusNo" id="6" indexed="1" label="客户编号" mytitle="客户编号-cusNo;" row="1" sortType="2" type="0" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'2';onClick-getDetailPage(this);subStringNub-12;" width="13" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="14" indexed="4" label="合同号" row="1" sortType="1" type="0" width="13" widthType="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="3" label="项目名称" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;busEntrance-'2';onClick-getDetailPage(this);subStringNub-12;" width="12" widthType="0"/>
+<tableitem align="2" filedname="creditProjectName" id="13" indexed="13" label="立项项目" row="1" sortType="1" type="4" typepara="/mfCusCreditApply/openHisData;pactId-creditProjectId;cusNo-cusNo;onClick-MfFeePactQueryList.selectCredit(this);subStringNub-12;" width="9" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="12" indexed="2" label="客户名称" mytitle="客户名称-cusName" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;busEntrance-'2';onClick-getDetailPage(this);subStringNub-12;" width="8" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="5" label="借款金额" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="creditPactNo" id="11" indexed="14" label="授信合同号" sortType="1" type="4" typepara="/mfCusCreditApply/openHisData;pactId-creditPactId;cusNo-cusNo;onClick-MfFeePactQueryList.selectCredit(this);subStringNub-12;" width="10" widthType="0"/>
+<tableitem align="2" filedname="creditProjectNo" id="10" indexed="12" label="立项编号" row="1" sortType="1" type="0" width="13" widthType="0"/>
+</table>

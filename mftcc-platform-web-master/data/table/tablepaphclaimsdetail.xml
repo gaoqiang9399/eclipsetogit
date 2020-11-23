@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="paphclaimsdetail" link="/apiPaphClaimsRecordDetailFactor/findByPage" para="eadis_page" title="理赔记录明细表银行-普惠" type="1">
+<tableitem align="2" filedname="penaltyAmt" id="8" indexed="10" label="罚息" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="intstAmt" id="7" indexed="9" label="拖欠的利息" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="15" indexed="6" label="项目名称" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="prcpAmt" id="6" indexed="8" label="拖欠的本金" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="14" indexed="5" label="理赔客户名称" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="5" indexed="7" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="handleSts" id="13" indexed="15" label="理赔处理状态" row="1" sortType="2" type="0" typepara="0-未处理;1-已处理;" widthType="0"/>
+<tableitem align="2" filedname="claimsDate" id="12" indexed="14" label="应理赔日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="claimsAmt" id="11" indexed="13" label="理赔金额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="currentBalance" id="10" indexed="12" label="当前余额" row="1" sortType="2" type="0" widthType="0"/>
+</table>

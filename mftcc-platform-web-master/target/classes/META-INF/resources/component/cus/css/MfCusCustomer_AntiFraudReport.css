@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+.mainWrapperTitleBar{
+	text-align:right;
+	padding-right:50px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.height-44{
+	height: 0px !important;
+}
+.height-32{
+	height: 5px !important;
+	background:#fff;
+}
+.fl_left{
+	float: left;
+}
+.fl_right{
+	float: right;
+}
+
+.main-title{
+	line-height: 40px;
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color:#32b5cb;
+	margin:0px;
+	padding-bottom:40px;
+	background:#fff;
+}
+
+.r-main{
+	background-color: #F1F7FF;
+}
+
+.print-res{
+	padding-right:10px;
+}
+.textbold{
+	font-weight: bold !important;
+}
+.textleft{
+	text-align: left !important;
+}
+.textright{
+	text-align: right !important;
+}
+.mitem {
+	padding:0px 30px;
+}
+.mitem div span{
+	font-size: 14px;
+	line-height: 32px;
+}
+.mitem div label{
+	font-size: 14px;
+	line-height: 32px;
+	font-weight:normal
+}
+.thtable{
+	padding:5px 30px 10px 30px;
+}
+.thtable table{
+	width: 100%;
+}
+.thtable table th{
+	border: 1px solid #9ECCFD;
+	width: 30%;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 10px;
+	letter-spacing: 0.1em;
+	font-size: 14px;
+	font-weight:normal;
+}
+.thtable table th.thtitle{
+	width: 20%;
+	vertical-align: middle;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	font-weight: bold;
+}
+.thtable table td{
+	width: 50%;
+	height: 40px;
+	vertical-align: middle;
+	border: 1px solid #9ECCFD;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	padding-left: 10px;
+}
+
+.listtable{
+	padding:0px 30px 10px 30px;
+}
+.listtable .listtitle{
+	line-height: 38px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin:5px 0px 0px 0px;
+}
+.listtable table{
+	width: 100%;
+}
+.listtable table th{
+	border: 1px solid #9ECCFD;
+	text-align: center;
+	height: 32px;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.listtable table td{
+	border: 1px solid #9ECCFD;
+	height: 32px;
+	vertical-align: middle;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.servError{
+	text-align: center;
+	color: red;
+	font-size: 16px;
+}

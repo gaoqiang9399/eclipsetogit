@@ -1,0 +1,41 @@
+.lavaLamp {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+/*     margin-top: 15px; */
+}
+
+.lavaLamp li:hover {
+    background: #ffffff;
+}
+
+.lavaLamp li a {
+    color: #6d6d6d;
+    display: block;
+    font-size: 16px;
+    font-variant: small-caps;
+	position: relative;
+    text-decoration: none;
+    width: 100%;
+    z-index: 2;
+}
+.lavaLamp li.current-cat a{
+	color:#32b5cb !important;
+	
+}
+
+
+.lavaLamp li.back {
+    background: #32b5cb !important;
+    height: 2px;
+    margin-top: 32px;
+    position: absolute;
+    width: auto !important;
+    z-index: 10;
+}
+
+.cover .handle{
+	color:#32b5cb;
+}
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cla0013" title="五级分类认定">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="persClaResult" fieldsize="FIVE_STS" fieldtype="4" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="人工认定结果" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claDesc" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="描述" maxlength="200" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="序号" mustinput="" readonly="" row="1" />
+</form>

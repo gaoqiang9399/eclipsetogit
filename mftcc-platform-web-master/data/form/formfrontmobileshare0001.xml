@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="frontmobileshare0001" title="移动端分享配置">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="3" fieldname="shareContent" fieldtype="5" formactiveid="1" horVer="1" labelalign="1" labelcol="2" labelname="分享内容" maxlength="2000" mustinput="" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="shareUrl" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="分享链接" mustinput="" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="4" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="id" readonly="" row="1"/>
+</form>

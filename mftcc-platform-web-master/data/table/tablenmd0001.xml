@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="nmd0001" title="数据字典描述列表" trDbClick="/parmKey/getByIdAjax;keyName-keyName;onDbClick-parmKeyInput(this)" type="2">
+<tableitem align="2" authority="ifEdit-0" buttonMark="ParmKey002" filedname="删除" id="5" indexed="6" label="-" type="5" typepara="/parmKey/deleteAjax;keyName-keyName;onClick-ajaxDelete(this)" width="10" widthType="0"/>
+<tableitem align="1" filedname="keyChnName" id="4" indexed="1" label="数据字典名称" row="1" type="0"/>
+<tableitem align="1" filedname="keyName" id="3" indexed="0" label="数据字典名" row="1" type="0"/>
+<tableitem align="1" filedname="ifEdit" id="2" indexed="2" label="是否可编辑" row="1" type="6" typepara="YES_NO"/>
+<tableitem align="1" filedname="ifSts" id="1" indexed="4" label="是否生效" row="1" type="6" typepara="YES_NO"/>
+<tableitem align="2" authority="ifEdit-0" buttonMark="ParmKey001" filedname="修改" id="7" indexed="5" label="-" row="1" type="5" typepara="/parmKey/getByIdAjax;keyName-keyName;onClick-parmKeyInput(this)" widthType="0"/>
+</table>

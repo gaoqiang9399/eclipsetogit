@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlrecallvisit0001" para="eadis_page" link="" title="外访催收配置表" type="2">
+<tableitem align="2" filedname="visitNo" id="1" indexed="1" label="外访催收配置编号" row="1" type="4" typepara="/recallConfigVisit/getByIdAjax;visitNo-visitNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="collectionPlanNo" id="2" indexed="2" label="催收方案编号" row="1" type="0" />
+<tableitem align="2" filedname="startRecallWay" id="3" indexed="3" label="发起方式" row="1" type="0" />
+<tableitem align="2" filedname="exeWay" id="4" indexed="4" label="执行方式" row="1" type="0" />
+<tableitem align="2" filedname="returnAfterStartDays" id="5" indexed="5" label="还款日后(XX天)开始" row="1" type="0" />
+<tableitem align="2" filedname="returnAfterEndDays" id="6" indexed="6" label="还款日后(XX天)结束" row="1" type="0" />
+<tableitem align="2" filedname="returnAfterInteval" id="7" indexed="7" label="任务重复频率" row="1" type="0" />
+<tableitem align="2" filedname="returnAfterIntevalUnit" id="8" indexed="8" label="任务重复频率单位" row="1" type="0" />
+<tableitem align="2" filedname="minRecallAmt" id="9" indexed="9" label="最小催收金额" row="1" type="0" />
+<tableitem align="2" filedname="recType" id="10" indexed="10" label="接收人类型" row="1" type="0" />
+<tableitem align="2" filedname="roleNo" id="11" indexed="11" label="角色编号" row="1" type="0" />
+<tableitem align="2" filedname="roleName" id="12" indexed="12" label="角色名称" row="1" type="0" />
+<tableitem align="2" filedname="recNo" id="13" indexed="13" label="接收人编号" row="1" type="0" />
+<tableitem align="2" filedname="recName" id="14" indexed="14" label="接收人名称" row="1" type="0" />
+<tableitem align="2" filedname="recallDesc" id="15" indexed="15" label="催收内容描述" row="1" type="0" />
+</table>

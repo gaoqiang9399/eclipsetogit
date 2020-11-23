@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="llc0005" para="eadis_page" link="/llcModelConf/findByPage" title="租后模版配置" type="1">
+<tableitem align="2" filedname="modelId" id="1" indexed="1" label="序号" row="1" type="4" typepara="/llcModelConf/getById;modelId-modelId;query-'query'"/>
+<tableitem align="2" filedname="modelName" id="2" indexed="2" label="模板名称" row="1" type="0" />
+<tableitem align="2" filedname="modelPath" id="3" indexed="3" label="模板路径" row="1" type="0" />
+<tableitem align="2" filedname="modelSts" id="4" indexed="4" label="模版状态" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="5" typepara="/llcModelConf/deleteAjax;modelId-modelId;onClick-ajaxDelete(this)" width="2"/>
+</table>

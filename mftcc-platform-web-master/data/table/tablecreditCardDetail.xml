@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditCardDetail" title="信用卡记录明细" type="2">
+<tableitem align="2" filedname="sts_happen_date" id="19" indexed="15" label="状态发生时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="status" id="18" indexed="14" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="is_active" id="17" indexed="13" label="是否激活" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cancell_date" id="16" indexed="12" label="注销日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdraft_l5y_90day_amt" id="15" indexed="20" label="透支超过90天次数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bank" id="12" indexed="1" label="发行银行" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="release_date" id="11" indexed="2" label="发行日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="account_type" id="10" indexed="4" label="账户类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="due_date" id="9" indexed="5" label="截止日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="card_type" id="8" indexed="3" label="卡类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="credit_amt" id="7" indexed="6" label="信用额度" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="query_id" id="6" indexed="0" label="查询编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="used_amt" id="5" indexed="7" label="已使用额度" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="over_due_amount" id="4" indexed="8" label="逾期额度" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="is_delq" id="3" indexed="9" label="是否逾期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdraft_balance" id="23" indexed="18" label="透支余额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="delq_l5y_amt" id="2" indexed="10" label="近五年内逾期数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="is_overdraft" id="22" indexed="17" label="是否透支" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="delq_l5y_90day_amt" id="1" indexed="11" label="近五年内逾期超过90天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="balance" id="21" indexed="16" label="余额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdraft_l5y_60day_amt" id="20" indexed="19" label="发生透支超过60天的次数" row="1" type="0" widthType="0"/>
+</table>

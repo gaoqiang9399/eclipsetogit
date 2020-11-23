@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cuslistinfo0001" link="/mfCusListedInfo/findByPage" para="eadis_page" title="客户上市信息表" type="1">
+<tableitem align="2" filedname="stokeName" id="6" indexed="4" label="股票名称" mytitle="股票名称-stokeName" row="1" type="4" typepara="/mfCusListedInfo/listShowDetailAjax;listedId-listedId;cusNo-cusNo;oneUrl-'/mfCusListedInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="listedTime" id="4" indexed="5" label="上市时间" row="1" type="1" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="11" label="-" type="5" typepara="/mfCusListedInfo/deleteAjax;listedId-listedId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="currentMarketValue" id="10" indexed="10" label="现行市值(元)" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="issuePrice" id="9" indexed="9" label="发行价格(元)" row="1" type="12" width="20" widthType="0"/>
+</table>

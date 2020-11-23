@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="RiskCheckList" para="eadis_page" title="风险检查列表" type="2">
+<tableitem align="2" filedname="evalAppNo" id="1" indexed="1" label="风险检查申请号" row="1" type="4" typepara="/appEval/getEvalHisDetailResult;evalAppNo-evalAppNo;query-'query';onClick-openBigForm(this)" width="20" widthType="0"/>
+<tableitem align="2" filedname="grade" id="11" indexed="2" label="机评等级" row="1" sortType="2" type="6" typepara="RISK_PREVENT_LEVEL" width="15" widthType="0"/>
+<tableitem align="2" filedname="approvalGrade" id="20" indexed="3" label="风险检查等级" row="1" sortType="2" type="6" typepara="RISK_PREVENT_LEVEL" width="15" widthType="0"/>
+<tableitem align="2" filedname="evalScenceName" id="21" indexed="5" label="风险模型" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="evalSts" id="17" indexed="7" label="风险检查申请状态" row="1" type="99" typepara="APP_STS" widthType="0"/>
+</table>

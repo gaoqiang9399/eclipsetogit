@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0062" title="节假日表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDt" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="节假日终止日期" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="begDt" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="节假日起始日期" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="days" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="天数" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="typ" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="类型" maxlength="100" mustinput="0" row="2"/>
+</form>

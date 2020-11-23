@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcvehiclecertificate04" para="eadis_page" title="机动车合格证批量出库列表(批量出库详情页)" type="2">
+<tableitem align="2" filedname="base" id="5" indexed="7" label="基地" row="1" sortType="2" type="6" typepara="VC_BASE" width="6" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="6" label="车架号" row="1" sortType="2" type="0" width="14" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="49" indexed="5" label="序号" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="redemptionSource" id="48" indexed="25" label="赎证来源" row="1" sortType="2" type="6" typepara="VC_REDEMPTION_SOURCE" width="8" widthType="0"/>
+<tableitem align="2" filedname="redemptionMode" id="47" indexed="24" label="赎证方式" row="1" sortType="2" type="6" typepara="VC_REDEMPTION_MODE" width="8" widthType="0"/>
+<tableitem align="2" filedname="redemptionDate" id="10" indexed="16" label="赎证日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="26" label="单价(元)" row="1" sortType="2" type="12" width="7" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="2" type="3" typepara="13" width="18" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryDisagreelist" link="/queryDisagree/findDisagreeListByPageAjax" para="eadis_page" title="拒绝业务查询" type="1">
+<tableitem align="1" filedname="appName" id="15" indexed="7" label="合同编号" mytitle="项目名称-appName;" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'apply';onClick-queryDisagree_getListPage.getDetailPage(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="3" indexed="4" label="客户类型" row="1" sortType="2" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;busEntrance-'apply';onClick-queryDisagree_getListPage.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="31" indexed="10" label="申请金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="appTime" id="18" indexed="8" label="申请日期" row="1" sortType="1" type="30" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="复议" id="30" indexed="11" label="-" row="1" sortType="2" type="99" typepara="/mfQueryDisagree/disagreeReconsider;appId-appId;onClick-queryDisagree_getListPage.disagreeReconsider" width="8" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="29" indexed="9" label="产品种类" row="1" sortType="2" type="0" typepara="16" widthType="0"/>
+</table>

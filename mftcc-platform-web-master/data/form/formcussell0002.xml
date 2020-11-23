@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cussell0002" title="客户销售情况表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sellId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="销售情况id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement alt="请输入销售产品的品牌" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sellBand" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="经销品牌" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sellArea" fieldsize="SALE_AREA" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="经销区域" maxlength="1" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sellWayclass" fieldsize="TRADE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="经销行业" maxlength="5" mustinput="0" row="3"/>
+<formelement alt="请输入销售的期限" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="sellTerm" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销期限" maxlength="50" mustinput="0" onblur=" func_uior_valFormat_tips(this, 'nonnegative');" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerLevel" fieldsize="DEALER_LEVEL" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="经销商级别" maxlength="1" mustinput="0" row="5"/>
+<formelement alt="请输入该商品的年均销售额" datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="annualSales" fieldsize="0.00" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="年均销售额" maxlength="20" mustinput="1" onblur=" func_uior_valFormat_tips(this, 'nonnegative');" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="22" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="27"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="7"/>
+</form>

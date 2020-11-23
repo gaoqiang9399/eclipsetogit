@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="mfbusaccphm02" title="票据信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpId" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="票据ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpBillNo" fieldtype="1" maxlength="50" formactiveid="2" labelalign="3" labelcol="1" labelname="票据号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpBillType" fieldtype="1" maxlength="1" formactiveid="3" labelalign="3" labelcol="1" labelname="票据类型0-银行承兑汇票、1-商业承兑汇票" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpBillAmount" fieldtype="1" maxlength="20" formactiveid="4" labelalign="3" labelcol="1" labelname="票面金额" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpStartDate" fieldtype="1" maxlength="8" formactiveid="5" labelalign="3" labelcol="1" labelname="出票日期" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpEndDate" fieldtype="1" maxlength="8" formactiveid="6" labelalign="3" labelcol="1" labelname="到期日期" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drawerId" fieldtype="1" maxlength="50" formactiveid="7" labelalign="3" labelcol="1" labelname="出票人ID" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drawerName" fieldtype="1" maxlength="100" formactiveid="8" labelalign="3" labelcol="1" labelname="出票人名称（全称）" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drawerAccount" fieldtype="1" maxlength="30" formactiveid="9" labelalign="3" labelcol="1" labelname="出票人账号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drawerBkName" fieldtype="1" maxlength="100" formactiveid="10" labelalign="3" labelcol="1" labelname="出票人开户行名称" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="drawerBkNo" fieldtype="1" maxlength="30" formactiveid="11" labelalign="3" labelcol="1" labelname="出票人开户行行号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payeeId" fieldtype="1" maxlength="50" formactiveid="12" labelalign="3" labelcol="1" labelname="收票人ID" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payeeName" fieldtype="1" maxlength="100" formactiveid="13" labelalign="3" labelcol="1" labelname="收票人名称（全称）" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payeeAccount" fieldtype="1" maxlength="30" formactiveid="14" labelalign="3" labelcol="1" labelname="收票人账号" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payeeBkName" fieldtype="1" maxlength="100" formactiveid="15" labelalign="3" labelcol="1" labelname="收票人开户行名称" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payeeBkNo" fieldtype="1" maxlength="30" formactiveid="16" labelalign="3" labelcol="1" labelname="收票人开户行行号" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acceptId" fieldtype="1" maxlength="50" formactiveid="17" labelalign="3" labelcol="1" labelname="承兑行ID" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acceptName" fieldtype="1" maxlength="100" formactiveid="18" labelalign="3" labelcol="1" labelname="承兑行名称（全称）" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acceptAccount" fieldtype="1" maxlength="30" formactiveid="19" labelalign="3" labelcol="1" labelname="承兑行账号" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acceptBkName" fieldtype="1" maxlength="100" formactiveid="20" labelalign="3" labelcol="1" labelname="承兑行开户行名称" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acceptBkNo" fieldtype="1" maxlength="30" formactiveid="21" labelalign="3" labelcol="1" labelname="承兑行开户行行号" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferMode" fieldtype="1" maxlength="1" formactiveid="22" labelalign="3" labelcol="1" labelname="票据转让方式0-不得转让、1-可再转让" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outtickMode" fieldtype="1" maxlength="1" formactiveid="23" labelalign="3" labelcol="1" labelname="出票方式0-保证金、1-质押开票、2-信用" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marginAmt" fieldtype="1" maxlength="20" formactiveid="24" labelalign="3" labelcol="1" labelname="开票保证金" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marginRatio" fieldtype="1" maxlength="20" formactiveid="25" labelalign="3" labelcol="1" labelname="保证金比例" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marginName" fieldtype="1" maxlength="100" formactiveid="26" labelalign="3" labelcol="1" labelname="保证人名称" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marginAccount" fieldtype="1" maxlength="100" formactiveid="27" labelalign="3" labelcol="1" labelname="保证人账号" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marginBkNo" fieldtype="1" maxlength="30" formactiveid="28" labelalign="3" labelcol="1" labelname="保证人开户行行号" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeAmt" fieldtype="1" maxlength="20" formactiveid="29" labelalign="3" labelcol="1" labelname="质押金额" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeDesc" fieldtype="1" maxlength="500" formactiveid="30" labelalign="3" labelcol="1" labelname="质押备注信息" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accpBillSts" fieldtype="1" maxlength="5" formactiveid="31" labelalign="3" labelcol="1" labelname="票据状态 0：正常 1：转贴中 9：已转贴 -1：未接受 -2：已退票" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="advanceAmount" fieldtype="1" maxlength="20" formactiveid="32" labelalign="3" labelcol="1" labelname="垫款金额" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashDate" fieldtype="1" maxlength="8" formactiveid="33" labelalign="3" labelcol="1" labelname="兑付日期" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="redeemAmt" fieldtype="1" maxlength="20" formactiveid="34" labelalign="3" labelcol="1" labelname="赎证保证金" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="35" labelalign="3" labelcol="1" labelname="登记时间" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="36" labelalign="3" labelcol="1" labelname="最后修改时间" mustinput="0" row="36"/>
+</form>

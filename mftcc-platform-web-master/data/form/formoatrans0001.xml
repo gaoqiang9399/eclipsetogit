@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form id="oatrans0001" title="业务移交历史信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="移交号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="来自同一次移交标识" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="移交类型(1客户移交2申请移交3合同移交)" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relationId" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="关联id" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transReason" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="移交原因" maxlength="400" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transSts" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="移交状态(0移交成功1审批中)" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recOpNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="接收人编号" maxlength="22" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recOpName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="接收人名称" maxlength="40" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recBrNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="接收人部门编号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recBrName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="接收人部门名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transOpNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="移交人编号" maxlength="22" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transOpName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="移交人名称" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transBrNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="移交人部门编号" maxlength="10" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transBrName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="移交人部门名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="22" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="操作员名称" maxlength="40" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="操作员部门名称" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="transDate" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="移交日期" maxlength="8" mustinput="0" row="10"/>
+</form>

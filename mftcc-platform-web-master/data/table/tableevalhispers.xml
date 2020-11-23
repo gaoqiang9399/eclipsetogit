@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="evalhispers" para="eadis_page" title="个人评级历史列表" type="2">
+<tableitem align="2" filedname="evalEndDate" id="15" indexed="5" label="评级到期日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="grade" id="11" indexed="2" label="机评等级" row="1" type="6" typepara="EVAL_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="evalAppNo" id="1" indexed="1" label="评级申请号" row="1" type="4" typepara="/appEval/getEvalHisDetailResult;evalAppNo-evalAppNo;query-'query';onClick-openBigForm(this)" widthType="0"/>
+<tableitem align="2" filedname="approvalGrade" id="20" indexed="3" label="评级等级" row="1" type="6" typepara="EVAL_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="evalSts" id="17" indexed="5" label="评级申请状态" type="99" typepara="APP_STS" widthType="1"/>
+</table>

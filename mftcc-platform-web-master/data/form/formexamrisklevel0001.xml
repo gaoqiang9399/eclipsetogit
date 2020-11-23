@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="examrisklevel0001" title="贷后风险级别配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="configId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="配置编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opSymbol1" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="操作符1" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opSymbol2" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="操作符2" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="opScore1" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="分数下限(含)" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="opScore2" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="分数上限" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="examRiskLevel" fieldtype="99" formactiveid="6" labelalign="3" labelcol="5" labelname="级别" maxlength="1" mustinput="0" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="贷后风险级别说明" maxlength="200" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examRiskLevelName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="风险级别" mustinput="" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vwcont0001" link="/vwContManage/findByPage" para="eadis_page" title="前端交易_菜单内容管理" type="1">
+<tableitem align="2" filedname="contType" id="25" indexed="10" label="模块类型" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="remark" id="24" indexed="7" label="描述" mytitle="描述-remark" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="1" filedname="keywords" id="23" indexed="8" label="关键字" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="22" indexed="19" label="-" row="1" sortType="2" type="5" typepara="/vwContManage/getById;id-id;onClick-finForm_detail" widthType="0"/>
+<tableitem align="2" filedname="删除" id="21" indexed="26" label="-" row="1" sortType="2" type="5" typepara="/vwContManage/deleteAjax;id-id;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="block" id="9" indexed="9" label="所属模块" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="top" id="7" indexed="11" label="是否置顶" row="1" sortType="2" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="1" filedname="outLink" id="14" indexed="18" label="新闻来源链接" mytitle="新闻来源链接-outLink" row="1" sortType="2" type="4" typepara="#;outLink-outLink;onclick-goUrl;subStringNub-20;" widthType="0"/>
+<tableitem align="1" filedname="title" id="2" indexed="2" label="标题" mytitle="标题-title" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="2" filedname="isOnline" id="11" indexed="14" label="是否发布" row="1" sortType="2" type="6" typepara="YES_NO" widthType="0"/>
+</table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_zxgg" title="法海网法律灰名单-执行公告">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="zxggId" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="执行公告ID" mustinput="" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="sortTime" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="立案时间" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="body" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="内容" maxlength="400" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="标题" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pname" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="被执行人姓名" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="执行法院名称" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataType" fieldsize="dataType" fieldtype="21" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sortTimeString" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="立案时间" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="status" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="已弃用" mustinput="" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idcardNo" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="身份证" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="execMoney" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="执行标的" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keyId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="查看详情接口所需id" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cym" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="查询企业曾用名" mustinput="" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseState" fieldsize="caseState" fieldtype="21" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="案件状态" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNo" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="案号" mustinput="" readonly="1" row="4"/>
+</form>

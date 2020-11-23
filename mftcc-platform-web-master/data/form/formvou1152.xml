@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1152" title="209.应收账款 GRT_P_ACCOUNT_REC">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="conNo" fieldtype="1" fieldwidth="30" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="合同编号" labelwidth="20" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceNo" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="发票号" labelwidth="20" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="付款人名称" maxlength="60" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payOrgId" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="付款人组织机构代码" maxlength="10" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payLegal" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="付款人法定代表人" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payAddress" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="付款人注册地址" maxlength="80" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payBank" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="付款人开户行" maxlength="80" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payNo" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="付款人开户行帐号" maxlength="32" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="exclusiveUseNo" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="应收帐款我行专用帐号" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="payAccountNo" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="应收帐款金额" maxlength="16" mustinput="1" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="产生日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="到期日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="appNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="申请号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="担保类型" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaType" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="抵质押物类型" mustinput="" readonly="" row="8" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="vouAmt" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="10" unit="元" />
+</form>

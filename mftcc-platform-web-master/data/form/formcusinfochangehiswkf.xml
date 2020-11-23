@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusinfochangehiswkf" title="客户信息变更审批历史表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="changeFieldName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="变更信息" maxlength="200" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="beforeTheChangeShow" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="变更前" maxlength="200" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="2" fieldname="afterTheChangeShow" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="变更后" maxlength="50" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="opName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="变更人" maxlength="100" mustinput="0" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="guaranteeLift" para="eadis_page" title="解保管理" type="1">
+<tableitem align="2" filedname="liftType" id="29" indexed="17" label="解保类型" row="1" sortType="2" type="6" typepara="LIFT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="liftStsShow" id="30" indexed="21" label="解保申请状态隐藏" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="28" indexed="20" label="pactId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="guaStsShow" id="27" indexed="18" label="保函状态隐藏" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="guarantee" filedname="解保" id="26" indexed="19" label="-" row="1" type="5" typepara="/mfGuaranteeRegistration/inputMainTainInfo;pactId-pactId;onClick-MfGuaranteeRegistration_MaintainInfoList.update(this)" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="7" indexed="5" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfGuaranteeRegistration_LiftList.getDetailPage(this);subStringNub-20;" width="15" widthType="0"/>
+<tableitem align="2" filedname="guaSts" id="16" indexed="16" label="保函状态" row="1" sortType="2" type="6" typepara="GUA_STS" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="5" indexed="6" label="委托保证合同" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfGuaranteeRegistration_LiftList.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="guaranteeEndDate" id="14" indexed="14" label="保函有效期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="13" indexed="7" label="保函金额（元）" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="guaranteeNo" id="12" indexed="13" label="保函编号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

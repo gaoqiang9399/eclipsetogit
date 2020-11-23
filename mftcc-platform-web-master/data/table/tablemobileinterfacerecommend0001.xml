@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mobileinterfacerecommend0001" link="/mfCusRecommend/findByPage" para="eadis_page" title="客户推荐表（移动端分享链接推荐客户表）" type="1">
+<tableitem align="2" filedname="cusNo" id="7" indexed="8" label="新增客户号" row="1" type="0"/>
+<tableitem align="2" filedname="cusTel" id="6" indexed="7" label="新增客户手机号" row="1" type="0"/>
+<tableitem align="2" filedname="source" id="5" indexed="5" label="来源" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rdCusName" id="4" indexed="4" label="推荐人姓名" row="1" type="0"/>
+<tableitem align="2" filedname="ext1" id="12" indexed="12" label="状态" type="0" widthType="0"/>
+<tableitem align="2" filedname="rdCusNo" id="3" indexed="3" label="推荐人客户号" row="1" type="0"/>
+<tableitem align="2" filedname="rdCusTel" id="2" indexed="2" label="推荐人手机号" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="6" label="新增客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="11" label="登记时间" row="1" type="0"/>
+</table>

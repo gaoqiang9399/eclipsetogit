@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="recetranappro0001" title="应收账款转让审批">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="receTranAppId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelname="转让申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="应收账款总额(元)" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receBal" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="应收账款余额(元)" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="tranReces" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="转让押品" maxlength="1000" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="tranAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="转让金额(元)" maxlength="20" mustinput="0" onblur="MfReceivablesTransferInfo.receTranAmtChange();" readonly="1" row="3"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="tranRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="转让比例(%)" maxlength="2" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="feeAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="费用信息" maxlength="20" mustinput="0" readonly="1" row="5"/>
+<formelement alt="200以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="转让说明" maxlength="200" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="appSts" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelname="转让申请状态0新增申请1审批中2审批通过3否决" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="busCollateralId" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="押品业务关联编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelname="登记人" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="opName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelname="登记部门" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="brName" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="regTime" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelname="信息登记时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="lstModTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="7" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="8" />
+</form>

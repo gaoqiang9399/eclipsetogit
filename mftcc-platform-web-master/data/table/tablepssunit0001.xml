@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssunit0001" para="eadis_page" title="单位信息表" type="2">
+<tableitem align="2" filedname="groupName" id="6" indexed="6" label="多单位组名称" row="1" type="0"/>
+<tableitem align="2" filedname="relId" id="5" indexed="5" label="关联ID" row="1" type="0"/>
+<tableitem align="2" filedname="isBase" id="4" indexed="4" label="是否基本单位" row="1" type="0"/>
+<tableitem align="2" filedname="unitType" id="3" indexed="3" label="单位类型" row="1" type="0"/>
+<tableitem align="2" filedname="unitName" id="2" indexed="2" label="单位名称" row="1" type="4" typepara="/pssUnit/getByIdAjax;unitId-unitId;query-'query';onClick-ajaxGetById(this);" widthType="0"/>
+<tableitem align="2" filedname="unitId" id="1" indexed="1" label="单位ID" type="99" widthType="0"/>
+<tableitem align="2" filedname="invalidFlag" id="8" indexed="8" label="启用标志" row="1" type="0"/>
+<tableitem align="2" filedname="relNum" id="7" indexed="7" label="与基本单位关系" row="1" type="0"/>
+</table>

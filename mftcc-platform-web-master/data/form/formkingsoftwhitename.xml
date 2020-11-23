@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="kingsoftwhitename" title="金山白名单信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="身份证号" maxlength="18" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="department" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="所在部门" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workTime" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="入职时长" maxlength="20" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workYear" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="工作年限" maxlength="20" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="salaryLevel" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="工资级别" maxlength="20" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workStatus" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="工作状态" maxlength="20" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workKind" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="工作性质" maxlength="20" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marriage" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="婚姻状况" maxlength="20" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="联系地址" maxlength="150" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="whiteResult" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="审批结果" maxlength="20" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="message" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="审批结果解释" maxlength="100" mustinput="0" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="卡号/折号" maxlength="30" mustinput="0" readonly="1" row="13"/>
+</form>

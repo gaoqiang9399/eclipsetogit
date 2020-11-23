@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tagtableconfig0001" link="/mfTagTableConfig/findByPage" para="eadis_page" title="标签表格类配置表" type="1">
+<tableitem align="2" filedname="columnNum" id="6" indexed="6" label="列号" row="1" type="0"/>
+<tableitem align="2" filedname="lineNum" id="5" indexed="5" label="行号" row="1" type="0"/>
+<tableitem align="2" filedname="tableColumnName" id="3" indexed="3" label="表格列名称" row="1" type="0"/>
+<tableitem align="2" filedname="tableColumnId" id="2" indexed="2" label="表格列编号" row="1" type="4" typepara="/mfTagTableConfig/getById;configId-configId;onClick-MfTagTableConfig_List.editTagTableConfig(this)" widthType="0"/>
+<tableitem align="2" filedname="删除" id="19" indexed="20" label="-" type="5" typepara="/mfTagTableConfig/deleteAjax;configId-configId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="20" indexed="9" label="启用标识" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="columnType" id="8" indexed="8" label="单元列类型" row="1" type="6" typepara="CELL_TYPE" widthType="0"/>
+</table>

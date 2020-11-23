@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="che300eval001" link="/thirdChe300EvalRecord/findByPage" para="eadis_page" title="车300商用车车型接口调用历史记录" type="1">
+<tableitem align="2" filedname="seriesName" id="5" indexed="5" label="车系名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="13" indexed="13" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="brandName" id="3" indexed="3" label="品牌名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看" id="18" indexed="18" label="-" row="1" sortType="2" type="5" typepara="ThirdChe300/evalRecord/getByIdAjax;id-id;onClick-ThirdChe300EvalRecordInsert.showModelList(this)" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="17" indexed="17" label="登记时间" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="8" indexed="8" label="客户名" row="1" sortType="2" type="0" widthType="0"/>
+</table>

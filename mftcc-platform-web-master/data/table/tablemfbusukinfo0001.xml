@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusukinfo0001" para="eadis_page" title="U盾信息维护表MF_BUS_UKINFO" type="1">
+<tableitem align="1" filedname="ukeyNo" id="7" indexed="7" label="U盾编号" mytitle="U盾编号-ukeyNo;" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="1" filedname="opname" id="6" indexed="4" label="用户名称" mytitle="用户名称-opname;" row="1" sortType="2" type="4" typepara="/mfBusUkinfo/getById;ukeyId-ukeyId;onClick-MfBusUkinfo_List.getUdunDetail(this);subStringNub-15;" widthType="0"/>
+<tableitem align="2" filedname="isSynch" id="14" indexed="15" label="同步状态" row="1" sortType="1" type="6" typepara="UK_IS_SYNCH" widthType="0"/>
+<tableitem align="1" filedname="opno" id="5" indexed="5" label="登录号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="usbState" id="13" indexed="14" label="U盾状态" row="1" sortType="1" type="6" typepara="USB_STATE" widthType="0"/>
+<tableitem align="2" filedname="cerState" id="12" indexed="12" label="证书状态" row="1" sortType="1" type="6" typepara="UK_CER_STATE" widthType="0"/>
+<tableitem align="2" filedname="userType" id="2" indexed="6" label="用户类型" row="1" sortType="2" type="6" typepara="UK_USER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cerEndDate" id="11" indexed="11" label="证书到期日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cerStartDate" id="10" indexed="10" label="证书开始日期" row="1" sortType="1" type="1" widthType="0"/>
+</table>

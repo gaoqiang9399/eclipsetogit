@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou3001" para="eadis_page" link="" title="个人担保人" type="2">
+<tableitem align="2" filedname="vouNo" id="1" indexed="1" label="担保编号" row="1" type="4" typepara="/vouPersGuarantee/getByIdAjax;vouNo-vouNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="担保人客户名称" row="1" type="0" />
+<tableitem align="2" filedname="sex" id="4" indexed="4" label="担保人性别" row="1" type="0" />
+<tableitem align="2" filedname="idType" id="5" indexed="5" label="担保人证件类型" row="1" type="0" />
+<tableitem align="2" filedname="idNo" id="6" indexed="6" label="担保人证件号" row="1" type="0" />
+<tableitem align="2" filedname="mobileTel" id="14" indexed="14" label="担保人手机号码" row="1" type="0" />
+<tableitem align="2" filedname="guaranteeType" id="25" indexed="25" label="保证方式" row="1" type="0" />
+<tableitem align="2" filedname="vouAmt" id="26" indexed="26" label="担保金额" row="1" type="0" />
+</table>

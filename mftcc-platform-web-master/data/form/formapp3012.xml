@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app3012" title="合同申请还款信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payBank" fieldsize="PAY_BANK" fieldtype="21" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="还款银行" maxlength="2" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="还款账号" maxlength="30" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acName" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="还款账号户名" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payFeeNo" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="缴费编号" mustinput="" readonly="" row="4" />
+</form>

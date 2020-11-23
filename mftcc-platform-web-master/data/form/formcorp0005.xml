@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="corp0005" title="营业执照信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="licNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="营业执照号" maxlength="40" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="licRegType" fieldsize="LIC_REG_TYPE" fieldtype="21" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="登记注册类型" maxlength="6" mustinput="" param="cusNo;" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="licStartDate" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="注册登记时间" maxlength="8" mustinput="" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="licEndDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="到期时间" maxlength="8" mustinput="" param="cusNo;" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="licRegAddr" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="1" labelname="注册地址" maxlength="80" mustinput="" param="cusNo;" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="licChkDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="年检时间" maxlength="8" mustinput="" param="cusNo;" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="9" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

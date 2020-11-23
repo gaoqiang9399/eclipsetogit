@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="corrbind0001" link="/cwVchOutCorrbind/findByPage" para="eadis_page" title="凭证导出对应关系表" type="1">
+<tableitem align="2" filedname="itemNo" id="27" indexed="28" label="项目编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="corrType" id="26" indexed="25" label="关系类型" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="typeName" id="25" indexed="20" label="类别名称" row="1" sortType="0" type="0" width="150" widthType="1"/>
+<tableitem align="1" filedname="itemNo" id="24" indexed="21" label="编号" row="1" sortType="0" type="0" width="200" widthType="1"/>
+<tableitem align="1" filedname="itemName" id="23" indexed="23" label="名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="typeNo" id="22" indexed="27" label="类别编号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="1" filedname="corrNo" id="21" indexed="24" label="对应导出编号" row="1" sortType="0" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="corrNo" id="28" indexed="29" label="对应编号" type="99" widthType="0"/>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="addamtpact0001" para="eadis_page" title="批量提额合同列表" type="1">
+<tableitem align="2" filedname="checkAll" id="17" indexed="0" label="全部" row="1" sortType="2" type="2" typepara="pactNo-pactNo;" width="4" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';busEntrance-'2';onClick-getCusDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="1" filedname="appName" id="12" indexed="2" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;busEntrance-'2';onClick-getBusDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="5" label="合同金额(元)" row="1" sortType="1" type="12"/>
+<tableitem align="3" filedname="usableFincAmt" id="15" indexed="13" label="可支用金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="putoutCount" id="13" indexed="14" label="放款次数" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdueSts" id="11" indexed="16" label="逾期状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看" id="18" indexed="17" label="-" row="1" type="5" typepara="/mfBusAddAmtRecord/getListPage;pactNo-pactNo;onClick-getAmtDetailPage(this);subStringNub-12;" widthType="0"/>
+</table>

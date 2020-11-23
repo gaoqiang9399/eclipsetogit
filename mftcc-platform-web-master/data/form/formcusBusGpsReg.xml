@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusBusGpsReg" title="gps添加">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="客户号" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="3" labelalign="3" labelcol="1" labelname="借款人姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="合同号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="5" labelname="借据号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="90" formactiveid="7" labelalign="3" labelcol="3" labelname="借款金额" maxlength="20" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipmentBrand" fieldtype="90" formactiveid="8" labelalign="3" labelcol="1" labelname="设备品牌" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="equipmentType" fieldtype="90" formactiveid="9" labelalign="3" labelcol="3" labelname="设备型号" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="windControlName" fieldtype="90" formactiveid="10" labelalign="3" labelcol="3" labelname="省风控姓名" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="placeEquipment" fieldtype="90" formactiveid="11" labelalign="3" labelcol="1" labelname="设备所在地" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="workArea" fieldtype="90" formactiveid="12" labelalign="3" labelcol="3" labelname="施工区域" maxlength="100" mustinput="0" row="4"/>
+<formelement alt="https://www.baidu.com/?tn=57095150_6_oem_dg" calculationType="onClick" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="netSilverAddress" fieldtype="90" formactiveid="13" labelalign="2" labelcol="1" labelname="网银地址" maxlength="100" mustinput="0" onclick="window.open('https://www.baidu.com');" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeAdvancePay" fieldsize="YES_NO" fieldstyle="anchor-ctrl" fieldtype="90" formactiveid="14" labelalign="3" labelcol="1" labelname="前期费用是否支付" maxlength="1" mustinput="0" param="anchors:['anchor1']" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gpsBrand" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="GPS品牌" maxlength="100" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="城市经理" maxlength="40" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="城市经理编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="installer" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="安装人" mustinput="1" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="installDate" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="安装时间" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="关联号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gpsType" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="GPS型号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="GPS名称" mustinput="" onclick="MfBusGpsReg_CarInsert.selectCollateralData(MfBusGpsReg_CarInsert.setCollateralData);" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeShowNo" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="资产编号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="原押品号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="客户名" mustinput="" readonly="" row="4"/>
+</form>

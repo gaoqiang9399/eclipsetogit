@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfBusStageSearch" title="业务阶段查询" type="1">
+<tableitem align="2" filedname="busStage" id="9" indexed="7" label="业务阶段" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="8" indexed="1" label="联系电话" row="1" type="0" width="11" widthType="0"/>
+<tableitem align="1" filedname="appName" id="7" indexed="2" label="项目名称" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="6" indexed="3" label="合同编号" row="1" type="4" typepara="/mfBusApply/getSummary;fincId-fincId;appId-appId;busEntrance-busEntrance;onClick-getAppDetailPage(this);" width="13" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="5" indexed="4" label="项目金额（元）" row="1" type="0" width="11" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="4" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-getDetailPage(this);subStringNub-12;" width="16" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="3" indexed="6" label="期限" row="1" type="0" width="9" widthType="0"/>
+<tableitem align="3" filedname="fincRate" id="2" indexed="5" label="利率（%）" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="manageOpName1" id="10" indexed="8" label="业务主办" row="1" type="0" width="10" widthType="0"/>
+</table>

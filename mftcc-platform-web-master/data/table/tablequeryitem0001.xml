@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="queryitem0001" para="eadis_page" link="/mfQueryItem/findByPage" title="查询项基础表" type="1">
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfQueryItem/deleteAjax;itemId-itemId;onClick-ajaxDelete(this)" width="2"/>
+</table>

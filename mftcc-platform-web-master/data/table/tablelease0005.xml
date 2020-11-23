@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="lease0005" para="eadis_page" link="" title="租后租赁物关联表" type="2">
+<tableitem align="2" filedname="appNo" id="1" indexed="1" label="业务流水号" row="1" type="4" typepara="/alpLeaseRel/getByIdAjax;leaseNo-leaseNo;appNo-appNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="leaseNo" id="2" indexed="2" label="租赁物编号" row="1" type="4" typepara="/alpLeaseRel/getByIdAjax;leaseNo-leaseNo;appNo-appNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="leaseName" id="3" indexed="3" label="租赁物名称" row="1" type="0" />
+<tableitem align="2" filedname="leaseSts" id="4" indexed="4" label="租赁物状态" row="1" type="0" />
+<tableitem align="2" filedname="pledgeSts" id="5" indexed="5" label="租赁物抵押状态" row="1" type="0" />
+<tableitem align="2" filedname="sumAmt" id="6" indexed="6" label="合计" row="1" type="0" />
+<tableitem align="2" filedname="alpType" id="7" indexed="7" label="非正常结束类型" row="1" type="0" />
+<tableitem align="2" filedname="alpSts" id="8" indexed="8" label="租后状态" row="1" type="0" />
+</table>

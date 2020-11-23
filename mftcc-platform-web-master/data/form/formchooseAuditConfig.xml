@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="chooseAuditConfig" title="风控稽核选择模板类型">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="65" horVer="0" labelalign="3" labelcol="3" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chargeName" fieldtype="1" formactiveid="66" horVer="0" labelalign="3" labelcol="1" labelname="评审责任人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="81" horVer="0" labelalign="3" labelcol="1" labelname="稽核人" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="auditDate" fieldtype="1" formactiveid="82" horVer="0" labelalign="3" labelcol="3" labelname="稽核日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="85" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="86" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditType" fieldsize="AUDIT_TYPE" fieldtype="99" formactiveid="88" horVer="0" labelalign="3" labelcol="3" labelname="稽核类型" mustinput="0" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateId" fieldtype="81" formactiveid="89" horVer="0" labelalign="3" labelcol="1" labelname="模板类型" mustinput="1" readonly="" row="4"/>
+</form>

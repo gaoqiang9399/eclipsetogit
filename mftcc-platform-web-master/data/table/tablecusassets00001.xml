@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusassets00001" link="/mfCusAssets/findByPage" para="eadis_page" title="固定资产信息" trDbClick="/mfCusAssets/getById;assetsId-assetsId;onDbClick-getCusInfoById(this);" type="1">
+<tableitem align="2" filedname="buyDate" id="6" indexed="6" label="购置日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="fixAssName" id="5" indexed="4" label="固定资产名称" mytitle="固定资产名称-fixAssName" row="1" type="4" typepara="/mfCusAssets/listShowDetailAjax;assetsId-assetsId;cusNo-cusNo;oneUrl-'/mfCusAssets/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="fixAssType" id="4" indexed="5" label="固定资产类型" row="1" type="6" typepara="CORP_ASS_TYPE" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="12" label="-" type="5" typepara="/mfCusAssets/deleteAjax;assetsId-assetsId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="evalVal" id="10" indexed="11" label="评估价值(元)" row="1" type="12" width="20" widthType="0"/>
+</table>

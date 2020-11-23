@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fiveclass0004" title="五级分类公司认定表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fiveclassId" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="id" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fiveclass" fieldsize="FIVE_STS" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="公司认定" mustinput="1" onchange="selectClass()" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="autoClass" fieldsize="YES_NO" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="是否自动分类" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="" row="1" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="classDate" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="公司认定日期" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="3" unit="&lt;i class='i i-rili pointer'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="confirmReason" fieldtype="5" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="公司认定原因" maxlength="200" mustinput="1" readonly="" row="4" />
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="alliancetakeuphis0001" title="联保体额度占用历史">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanLimit" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="授信额度" maxlength="10" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="availableBalance" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="可用余额" maxlength="10" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appendLimit" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="追加额度" maxlength="10" mustinput="0" param="bigAmt" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="type" fieldsize="ALLIANCE_TAKEUP_TYPE" fieldtype="2" formactiveid="7" labelalign="3" labelcol="3" labelname="类型" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comment" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="联保体主键" mustinput="" readonly="" row="1"/>
+</form>

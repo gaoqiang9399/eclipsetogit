@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusShareHolderList" para="eadis_page" title="股东信息" type="1">
+<tableitem align="2" filedname="pushCapitalDate" id="6" indexed="8" label="出资日期" row="1" type="1" width="25"/>
+<tableitem align="2" filedname="pushCapitalAmt" id="4" indexed="5" label="出资金额(元)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="11" indexed="10" label="-" type="5" typepara="/mfCusShareholder/getById;shareholderId-shareholderId;cusNo-cusNo;oneUrl-'/mfCusShareholder/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-16;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="10" indexed="11" label="-" row="1" type="5" typepara="/mfCusShareholder/deleteAjax;shareholderId-shareholderId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalScale" id="9" indexed="9" label="股权比例 (%)" row="1" type="17" width="20" widthType="0"/>
+<tableitem align="2" filedname="shareholderName" id="7" indexed="3" label="股东名称" mytitle="股东名称-shareholderName" row="1" type="4" typepara="/mfCusShareholder/listShowDetailAjax;shareholderId-shareholderId;cusNo-cusNo;oneUrl-'/mfCusShareholder/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+</table>

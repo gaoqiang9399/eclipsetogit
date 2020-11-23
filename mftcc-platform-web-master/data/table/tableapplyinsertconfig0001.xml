@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="applyinsertconfig0001" para="eadis_page" link="/mfApplyInsertConfig/findByPage" title="进件配置表" type="1">
+<tableitem align="2" filedname="configId" id="1" indexed="1" label="进件配置编号" row="1" type="4" typepara="/mfApplyInsertConfig/getById;configId-configId;query-'query'"/>
+<tableitem align="2" filedname="reqUrl" id="2" indexed="2" label="请求地址" row="1" type="0" />
+<tableitem align="2" filedname="configType" id="3" indexed="3" label="设置类型brNo部门roleNo角色(对应字段)" row="1" type="0" />
+<tableitem align="2" filedname="deptroleNo" id="4" indexed="4" label="设置的部门或角色编号" row="1" type="0" />
+<tableitem align="2" filedname="deptroleName" id="5" indexed="5" label="部门或角色名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="6" indexed="6" label="信息登记时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="8" indexed="8" label="-" row="1" type="5" typepara="/mfApplyInsertConfig/deleteAjax;configId-configId;onClick-ajaxDelete(this)" width="2"/>
+</table>

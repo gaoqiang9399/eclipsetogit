@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_psssalebill01" para="eadis_page" title="销货单" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssSaleBill/getDetailPage;saleBillId-saleBillId;onDbClick-PssSaleBill_List.getSaleBill" type="2">
+<tableitem align="2" filedname="regOpName" id="29" indexed="22" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="2" filedname="receivedState" id="20" indexed="21" label="收款状态" row="1" sortType="2" type="6" typepara="PSS_RECEIVED_STATE" width="7" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="9" indexed="9" label="数量" row="1" sortType="1" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="amount" id="8" indexed="10" label="销货金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="saleOrderNo" id="7" indexed="6" label="源销货订单号" mytitle="源销货订单号-saleOrderNo" row="1" sortType="2" type="4" typepara="/pssSaleOrder/getDetailPage;saleOrderNo-saleOrderNo;onClick-PssSaleBill_List.getSaleOrder;subStringNub-15;" width="9" widthType="0"/>
+<tableitem align="3" filedname="received" id="15" indexed="16" label="已收款" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="5" indexed="3" label="单据日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="salerName" id="4" indexed="5" label="销售人员" mytitle="模板内容-salerName;" row="1" sortType="2" type="3" typepara="4" width="6" widthType="0"/>
+<tableitem align="3" filedname="discountAfterAmount" id="12" indexed="13" label="优惠后金额" row="1" sortType="1" type="12" width="9" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="7" label="客户" mytitle="模板内容-cusName;" row="1" sortType="1" type="3" typepara="7" width="9" widthType="0"/>
+<tableitem align="2" filedname="saleBillId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="saleBillId-saleBillId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="saleBillNo" id="37" indexed="4" label="单据编号" mytitle="单据编号-saleBillNo" row="1" sortType="1" type="4" typepara="/pssSaleBill/getDetailPage;saleBillId-saleBillId;onClick-PssSaleBill_List.getSaleBill;subStringNub-13;" width="9" widthType="0"/>
+<tableitem align="2" authority="auditStsed-1;approvalStatus-02;approvalStatus-03;approvalStatus-05" filedname="删除" id="36" indexed="33" label="-" sortType="2" type="5" typepara="/pssSaleBill/deleteSaleBillAjax;saleBillId-saleBillId;onClick-PssSaleBill_List.deleteSaleBill(this)" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="34" indexed="25" label="审批状态" row="1" sortType="1" type="6" typepara="PSS_APPROVAL_STATUS" width="8" widthType="0"/>
+</table>

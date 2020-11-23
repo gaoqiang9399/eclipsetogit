@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="acc1404" title="收益测算结果">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="instmAmt" fieldtype="99" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="每期租金" labelwidth="20" mustinput="" readonly="" row="16"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="instmTotalAmt" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="1" labelname="租金总额" labelwidth="20" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="stampDutyRate" fieldtype="99" formactiveid="3" initvalue="0.05" labelalign="3" labelcol="1" labelname="印花税税率" mustinput="" readonly="" row="19" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="stampDuty" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="印花税" mustinput="" readonly="" row="19"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="capital" fieldtype="99" formactiveid="5" labelalign="3" labelcol="3" labelname="收回本金" mustinput="" readonly="" row="20"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="interest" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="利息总额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="netFinValue" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="净融资额现值" mustinput="" readonly="" row="20"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="netPreValue" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="净现值" mustinput="" readonly="1" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="aveAssProRate" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="平均资产收益率" mustinput="" readonly="" row="21"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="preValProRate" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="现值收益率" mustinput="" readonly="" row="21"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="annPreValProRate" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="年化现值收益率" mustinput="" readonly="" row="22"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="netAssProRate" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="净资产收益率" mustinput="" readonly="" row="22"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="iRR" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="内部收益率" mustinput="" readonly="1" row="6" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="profitBITNPV" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="所得税前收益净现值" mustinput="" readonly="" row="23"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="profitAITNPV" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="所得税后收益净现值" mustinput="" readonly="" row="24"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="annualNIBTFR" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="所得税前资金年净收益率" mustinput="" readonly="" row="24"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="annualNIATFR" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="所得税后资金年净收益率" mustinput="" readonly="" row="25"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalAmt" fieldtype="1" fieldwidth="60" formactiveid="46" labelalign="3" labelcol="1" labelname="租赁物价格" labelwidth="40" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="oneYearAmt" fieldtype="1" formactiveid="47" labelalign="3" labelcol="1" labelname="折合占用一年资金" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="tcr" fieldtype="1" formactiveid="48" labelalign="3" labelcol="1" labelname="资金收益率" mustinput="" readonly="1" row="8" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="bcr" fieldtype="1" formactiveid="49" labelalign="3" labelcol="1" labelname="收益成本比" mustinput="" readonly="1" row="7"/>
+</form>

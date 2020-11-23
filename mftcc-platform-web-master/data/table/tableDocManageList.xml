@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="DocManageList" title="要件展示列表" type="2">
+<tableitem align="2" filedname="docBizNo" id="9" indexed="2" label="业务编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="8" indexed="1" label="文件编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="7" indexed="4" label="文件分类" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docName" id="15" indexed="15" label="隐藏域" type="99" widthType="0"/>
+<tableitem align="2" filedname="fieldName" id="6" indexed="3" label="图片" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docType" id="14" indexed="11" label="文件大类" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docName" id="5" indexed="5" label="文件名" mytitle="文件名-docName;" row="1" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="relNo" id="13" indexed="12" label="关联编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="4" indexed="6" label="上传时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="category" id="12" indexed="10" label="表单编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docSize" id="3" indexed="7" label="文件大小" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="2" indexed="14" label="-" row="1" type="5" typepara="action;docNo-docNo;docBizNo-docBizNo;onClick-deleteFile(this)" widthType="0"/>
+<tableitem align="2" filedname="docSplitNo" id="11" indexed="9" label="场景编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="downBtn" filedname="下载" id="1" indexed="13" label="-" row="1" type="5" typepara="action;docBizNo-docBizNo;docNo-docNo;onClick-downloadFile(this)" widthType="0"/>
+<tableitem align="2" filedname="docAddr" id="10" indexed="8" label="文件路径" row="1" type="99" widthType="0"/>
+</table>

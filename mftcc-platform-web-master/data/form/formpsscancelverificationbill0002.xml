@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="psscancelverificationbill0002" title="核销单表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cancelId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="核销单据ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cancelNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="核销单据编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cancelType" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="业务类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="客户ID（转出）" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="客户名称（转出）" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transCusNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="转入客户ID" maxlength="40" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transCusName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="转入客户名称" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="供应商ID（转出）" maxlength="40" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="供应商名称（转出）" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transSupplierId" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="转入供应商ID" maxlength="40" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transSupplierName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="转入供应商名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="cancelAmt" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="核销金额" maxlength="18" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="1"/>
+</form>

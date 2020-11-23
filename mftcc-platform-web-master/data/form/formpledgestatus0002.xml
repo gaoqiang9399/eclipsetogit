@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pledgestatus0002" title="抵押现状">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="statuId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="抵押现状编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classSecondName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="类别名称" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement alt="请输入银行贷款" datatype="12" fieldalign="1" fieldcol="4" fieldname="bankLoans" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="银行贷款" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isMaxAmount" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="是否最高额" maxlength="1" mustinput="0" row="4"/>
+<formelement alt="请输入民间贷款" datatype="12" fieldalign="1" fieldcol="4" fieldname="privateLoans" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="民间贷款" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isMore" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="是否有多抵" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="登记人号" maxlength="22" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="40" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="登记机构号" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="登记时间" maxlength="17" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="最近修改时间" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="押品名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeShowNo" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="押品编号" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="担保类别" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="押品编号" mustinput="" readonly="" row="6" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="setTime" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="预计解抵时间" mustinput="" onclick="fPopUpCalendarDlg({min: today})" readonly="" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;" />
+</form>

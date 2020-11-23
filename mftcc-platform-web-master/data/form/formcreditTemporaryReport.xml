@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditTemporaryReport" title="临额调整尽调报告">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="creditAppId" fieldtype="99" formactiveid="1" labelalign="3" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelname="客户编号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="modelId" fieldtype="99" formactiveid="5" labelalign="3" labelname="模型编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldstyle="half" fieldtype="1" fieldwidth="32" formactiveid="6" labelalign="3" labelcol="1" labelname="调整临额" labelwidth="18" maxlength="14" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldstyle="half" fieldtype="1" fieldwidth="32" formactiveid="8" labelalign="3" labelcol="3" labelname="临额期限" labelwidth="18" maxlength="2" mustinput="0" readonly="1" row="3" unit="个月"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="half" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="临额开始日" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="临额失效日" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="17" labelalign="3" labelcol="1" labelname="说明" maxlength="200" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="kindName" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelname="产品名称" mustinput="" readonly="" row="6" />
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="creditAmt" fieldstyle="half" fieldtype="99" fieldwidth="32" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="可用信额度" labelwidth="18" maxlength="14" mustinput="" onblur="func_uior_valFormat_tips(this, 'nonnegative');mfCusCreditApplyInsert.checkKindCreditSum(this)" readonly="" row="3" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfAppId" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="授信类型" mustinput="0" onchange="mfCusCreditApplyInsert.creditTypeChange()" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="responsibleOpNo" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="5" labelname="负责人" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="guarantyAgencyNo" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="担保机构" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="meetPersonDuty" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="5" labelname="约见人职务" mustinput="0" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="meetPersonName" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="5" labelname="约见人" mustinput="0" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="meetPersonDuty" fieldtype="99" formactiveid="43" horVer="0" labelalign="3" labelcol="5" labelname="约见人职务" mustinput="0" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="reportOpNo" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="5" labelname="尽调参与人" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="expectReportTime" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="5" labelname="预期尽调时间" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="reportOpName" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="5" labelname="尽调参与人" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="2" formactiveid="47" horVer="0" labelalign="3" labelcol="1" labelname="授信性质" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="addAmt" fieldtype="1" formactiveid="49" horVer="0" labelalign="3" labelcol="1" labelname="新增金额" maxlength="14" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditModel" fieldsize="CREDIT_MODEL" fieldtype="2" formactiveid="50" horVer="0" labelalign="3" labelcol="3" labelname="授信模型" mustinput="" readonly="1" row="2"/>
+</form>

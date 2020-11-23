@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="InvoiceManage" link="/mfBusInvoicemanage/findByPage" para="eadis_page" title="发票管理表" type="4">
+<tableitem align="2" filedname="invoiceName" id="2" indexed="3" label="发票名称" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名称" row="1" type="0"/>
+<tableitem align="2" filedname="appName" id="6" indexed="6" label="项目名称" row="1" type="0"/>
+<tableitem align="2" filedname="pactNo" id="8" indexed="8" label="合同展示号" row="1" type="0"/>
+<tableitem align="2" filedname="fincId" id="9" indexed="9" label="借据号" row="1" type="0"/>
+<tableitem align="2" filedname="invoiceAmount" id="11" indexed="10" label="发票金额" row="1" type="0"/>
+<tableitem align="2" filedname="invoiceStatus" id="10" indexed="11" label="发票状态" row="1" type="6" typepara="INVOICE_STATUS" widthType="0"/>
+<tableitem align="2" filedname="查看详情" id="12" indexed="12" label="发票详情" row="1" type="5" typepara="/mfBusInvoicemanage/getDetailPage;invoiceId-invoiceId;onClick-MfBusInvoicemanage_List.getDetail(this)" widthType="0"/>
+</table>

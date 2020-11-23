@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fiveclass0001" link="/mfFiveclassModel/findByPage" para="eadis_page" title="五级分类模型表" trDbClick="/mfFiveclassModel/getById;modelId-modelId;onDbClick-updateFiveClassModel(this)" type="1">
+<tableitem align="2" filedname="approveFlag" id="12" indexed="10" label="是否启用审批" row="1" sortType="2" type="6" typepara="YES_NO"/>
+<tableitem align="2" filedname="processName" id="8" indexed="11" label="审批流程" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="allowManualFlag" id="9" indexed="12" label="是否允许任意调整" row="1" sortType="2" type="6" typepara="YES_NO"/>
+<tableitem align="2" filedname="编辑" id="11" indexed="13" label="-" row="1" type="5" typepara="/mfFiveclassModel/getById;modelId-modelId;onClick-updateFiveClassModel(this)" width="2"/>
+</table>

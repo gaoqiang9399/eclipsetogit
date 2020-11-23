@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="creditmodel0002" title="授信模型配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="1" horVer="0" labelalign="2" labelcol="1" labelname="模型名称" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="1" formactiveid="4" horVer="0" labelalign="2" labelcol="1" labelname="客户类型" maxlength="500" mustinput="0" onclick="selectCusType()" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfCreditName" fieldtype="1" formactiveid="5" horVer="0" labelalign="2" labelcol="1" labelname="选择业务流程" maxlength="30" mustinput="0" onclick="window.top.showDialog('wkf_showView.action?fieldName=wkfCreditName','选择流程编号',80,90)" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditFormName" fieldtype="2" formactiveid="6" horVer="0" labelalign="2" labelcol="1" labelname="选择授信申请表单" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportTemplateName" fieldtype="2" formactiveid="7" horVer="0" labelalign="2" labelcol="1" labelname="选择尽调报告模板" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="protocolTemplateName" fieldtype="2" formactiveid="8" horVer="0" labelalign="2" labelcol="1" labelname="选择授信协议模板" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="13" horVer="0" labelalign="2" labelcol="1" labelname="模型说明" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTypeNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfCreditId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditFormId" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportTemplateId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="protocolTemplateId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelId" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="1" />
+</form>

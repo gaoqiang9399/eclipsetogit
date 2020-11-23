@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcuslosecerditbzxrinfo" title="失信被执行人信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sourceId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="官网系统ID" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="partyCardNum" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="证件号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lianDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="立案时间" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="anNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="立案号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="follows" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="关注" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="executeGov" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="执行法院" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="biaoDi" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="标地" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="status" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="状态" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="数据创建时间" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="数据更新时间" mustinput="" readonly="1" row="6"/>
+</form>

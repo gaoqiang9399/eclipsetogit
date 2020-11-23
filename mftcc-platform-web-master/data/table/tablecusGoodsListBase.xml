@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusGoodsListBase" link="/mfCusGoods/findByPage" para="eadis_page" title="客户产品产能信息表" type="1">
+<tableitem align="2" filedname="goodsName" id="2" indexed="2" label="产品名称" mytitle="产品名称-goodsName" row="1" type="4" typepara="/mfCusGoods/listShowDetailAjax;goodsId-goodsId;cusNo-cusNo;oneUrl-'/mfCusGoods/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="saleArea" id="6" indexed="6" label="销售区域" row="1" type="6" typepara="SALE_AREA" width="25" widthType="0"/>
+<tableitem align="2" filedname="goodsRule" id="7" indexed="7" label="产品遵守规则" row="1" type="6" typepara="GOODS_RULE" width="20" widthType="0"/>
+<tableitem align="2" filedname="normalDeliveryCycle" id="12" indexed="13" label="正常交货周期" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="13" indexed="14" label="-" row="1" type="5" typepara="/mfCusGoods/deleteAjax;goodsId-goodsId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+</table>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusCreditConfigAdd" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="creditId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="4" labelname="id" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="授信流程名称" maxlength="50" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditModel" fieldsize="CREDIT_MODEL" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="授信性质" maxlength="1" mustinput="1" onchange="MfCusCreditConfig_Insert.getCreditConfigList();" param="anchors:['anchor2']" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateCredit" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="模板授信" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="startupBrNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="开办部门" maxlength="1000" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="startupRoleNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="开办角色" maxlength="200" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="startupCusType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="客户类型" maxlength="200" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="adaptationKindNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="适配产品" maxlength="200" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifUse" fieldsize="YES_NO" fieldtype="2" formactiveid="9" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="1" row="15"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="说明" maxlength="200" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addOrCopy" fieldsize="ADD_OR_COPY" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="新增/复制授信流程" mustinput="1" onchange="MfCusCreditConfig_Insert.getCreditConfigList();" param="anchors:['anchor1']" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始1" labelstyle="anchor-start" mustinput="" param="[{addOrCopy:'2'}]" readonly="" row="3" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束1" labelstyle="anchor-end" mustinput="" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="templateCreditName" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="模板授信" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adaptationCreditId" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="适配授信流程" maxlength="500" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始2" labelstyle="anchor-start" mustinput="" param="[{creditModel:'3'}]" readonly="" row="8" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束2" labelstyle="anchor-end" mustinput="" readonly="" row="10" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="1" row="2"/>
+</form>

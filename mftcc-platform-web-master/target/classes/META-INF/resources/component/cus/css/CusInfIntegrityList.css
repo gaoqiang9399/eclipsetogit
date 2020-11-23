@@ -1,0 +1,153 @@
+html {
+	height: 100%
+}
+
+body {
+	height: 93.5%;
+	padding: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #4183a6;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	display: block;
+}
+
+.ratingBg {
+	border-radius: 5px;
+	background-color: #fff;
+	height: 100%;
+	padding-top: 10px;
+	border: none;
+}
+
+.ratingBg ul {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.ratingBg ul li {
+	height: 30px;
+	float: left;
+	list-style: none;
+	border: none;
+	margin-top: 3px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: #409000;
+}
+
+.ratingBg ul li.ratingLi2 {
+	width: 33%;
+	color: #67CCDE;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 152px;
+}
+
+.ratingBg ul li.ratingLi3 {
+	width: 33%;
+	color: #E17E7F;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 152px;
+	cursor: pointer;
+}
+/* .ratingBg ul li.ratingLi3{ width:25%; color:#E17E7F; text-align:left;font-size: 14px;} */
+.ratingBg ul li.passFlag {
+	width: 25%;
+	color: #84B175;
+	text-align: left;
+	font-size: 14px;
+}
+
+.ratingBg ul li.ratingLi2 i {
+	margin-left: 100px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.ratingBg ul li.ratingLi3 i {
+	margin-left: 100px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.ratingBg ul li.passFlag i {
+	margin-left: 100px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.ratingBg ul li.ratingLi4 {
+	width: calc(30% - 6px);
+	color: #67CCDE;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 200px;
+}
+
+.ratingImg1 {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(image/icon-lw.png) no-repeat;
+	background-size: 8px;
+	margin-right: 12px;
+}
+
+.ratingButton {
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	background: nnone;
+	border: none;
+	background-color: #009bed;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	float: right;
+	margin-right: 4%;
+	margin-top: 30px;
+}
+
+.progress {
+	height: 20px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+	width: 90%;
+	margin: 0 auto;
+}
+
+.progressBar {
+	background-color: #5e994a;
+	display: block;
+	width: 0%;
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15)
+		25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%,
+		rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+	height: 100%;
+	background-size: 40px 40px;
+}
+
+.ratingProgress {
+	overflow: hidden;
+	margin-left: 5%;
+	margin-top: 10px;
+	display: none;
+}
+
+.ratingDiv:nth-child(even) {
+	background: #f9f9f9;
+}

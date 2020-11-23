@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="applyUpdate" title="根据申请号修改相关信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="申请编号" mustinput="1" readonly="" row="1"/>
+</form>

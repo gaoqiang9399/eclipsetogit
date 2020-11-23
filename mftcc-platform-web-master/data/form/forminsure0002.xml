@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="insure0002" title="保险定义">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="2" labelalign="3" labelcol="1" labelname="产品种类" maxlength="10" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="保险名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="描述" maxlength="300" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insDefStatus" fieldsize="INS_DEF_STATUS" fieldtype="21" formactiveid="5" labelalign="3" labelcol="1" labelname="状态" maxlength="2" mustinput="0" row="3"/>
+</form>

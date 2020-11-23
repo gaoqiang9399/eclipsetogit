@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mattersreported0001" title="事项呈报表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mattersReportedId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="呈报编号" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="itemCategory" fieldsize="ITEM_CATEGORY" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="事项类别" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="itemTitle" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="事项标题" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="itemContent" fieldtype="5" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="事项内容" maxlength="500" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="submitJobs" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="呈报岗位/人员" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="reportingTime" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="呈报时间" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="opNo" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="登记人编号" maxlength="22" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="regTime" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" param2="1" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applySts" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="申请状态0未提交1流程中2审批完成3发回重审4补充资料5否决" maxlength="1" mustinput="0" param2="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyProcessId" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="保管审批流程编号" maxlength="50" mustinput="0" param2="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="当前审批人员编号" maxlength="50" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="当前审批人员名称" maxlength="200" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="当前审批节点" maxlength="50" mustinput="0" param2="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" param2="1" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" param2="1" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" param2="1" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" param2="1" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" param2="1" row="20"/>
+</form>

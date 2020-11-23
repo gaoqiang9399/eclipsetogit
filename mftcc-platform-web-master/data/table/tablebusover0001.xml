@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busover0001" para="eadis_page" title="合同完结结项处理列表" type="1">
+<tableitem align="2" authority="applySts-1;applySts-2;applySts-3;applySts-4;applySts-5;" filedname="结项" id="88" indexed="8" label="-" row="1" type="5" typepara="/mfBusPostProject/input;pactId-pactId;onClick-applyInsert(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="fincRate" id="99" indexed="5" label="利率(%)" row="1" sortType="1" type="0"/>
+<tableitem align="3" filedname="pactAmt" id="87" indexed="4" label="金额(元)" row="1" sortType="1" type="12"/>
+<tableitem align="1" filedname="cusName" id="98" indexed="3" label="客户名称" mytitle="客户名称-cusName" row="1" sortType="2" type="3" typepara="10"/>
+<tableitem align="2" filedname="termShow" id="96" indexed="6" label="期限" row="1" sortType="1" type="0"/>
+<tableitem align="2" filedname="applySts" id="100" indexed="7" label="审批状态" sortType="2" type="6" typepara="POST_APPLY_STS" widthType="0"/>
+<tableitem align="1" filedname="appName" id="92" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="3" typepara="10"/>
+<tableitem align="2" filedname="pactNo" id="89" indexed="2" label="合同编号" row="1" sortType="1" type="0"/>
+</table>

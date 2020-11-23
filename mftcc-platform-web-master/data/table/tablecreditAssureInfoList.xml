@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditAssureInfoList" title="保证人保证信息" type="1">
+<tableitem align="2" filedname="assureName" id="6" indexed="0" label="保证人名称" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-assureNo;appId-appId;busEntrance-'apply';onClick-MfCusCustomer_EntList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="contractId" id="5" indexed="4" label="授信申请" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="1" label="借款客户" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="10" indexed="8" label="在保余额(元)" type="12" widthType="0"/>
+<tableitem align="2" filedname="assureAmt" id="1" indexed="7" label="授信额度(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="brName" id="9" indexed="9" label="所属公司" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditEndDate" id="8" indexed="6" label="授信结束时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="creditStartDate" id="7" indexed="5" label="授信开始时间" row="1" type="1" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusInvoiceMationDetail" title="开票信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="taxpayerNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="纳税人识别号" mustinput="1" onblur="func_uior_valFormat_tips(this,'taxpayer')" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="address" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="地址" mustinput="1" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="tel" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="电话" mustinput="1" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankName" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="开户行" mustinput="1" param="id;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="accountNumber" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="账号" mustinput="1" param="id;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="开票备注" maxlength="400" mustinput="" param="id;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="4" labelname="id" mustinput="" readonly="" row="3"/>
+</form>

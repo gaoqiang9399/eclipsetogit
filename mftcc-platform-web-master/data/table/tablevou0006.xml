@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou0006" para="eadis_page" link="/vouMBuilding/findByPage" title="抵押物-在建工程表" type="1">
+<tableitem align="2" filedname="vouNo" id="1" indexed="1" label="担保编号" row="1" type="4" typepara="/vouMBuilding/getById;vouNo-vouNo;query-'query'"/>
+<tableitem align="2" filedname="areaCode" id="2" indexed="2" label="区域编码" row="1" type="0" />
+<tableitem align="2" filedname="areaName" id="3" indexed="3" label="区域名称" row="1" type="0" />
+<tableitem align="2" filedname="investBudget" id="4" indexed="4" label="工程总价(元)" row="1" type="0" />
+<tableitem align="2" filedname="buildingArea" id="5" indexed="5" label="建筑面积(平方米)" row="1" type="0" />
+<tableitem align="2" filedname="startDate" id="6" indexed="6" label="开工日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="7" indexed="7" label="预计竣工日期" row="1" type="0" />
+<tableitem align="2" filedname="landLicenseNo" id="11" indexed="11" label="土地使用权证书号" row="1" type="0" />
+<tableitem align="2" filedname="buildLandNo" id="12" indexed="12" label="建设用地规划许可证号" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="23" indexed="23" label="-" row="1" type="5" typepara="/vouMBuilding/deleteAjax;vouNo-vouNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

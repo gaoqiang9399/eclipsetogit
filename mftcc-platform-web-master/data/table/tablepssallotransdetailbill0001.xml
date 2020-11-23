@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssallotransdetailbill0001" para="eadis_page" title="调拨单明细表" type="2">
+<tableitem align="2" filedname="inFreightSpaceId" id="18" indexed="17" label="调入仓位ID" type="99" widthType="0"/>
+<tableitem align="1" filedname="inFreightSpaceNo" id="17" indexed="16" label="调入仓位" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="outFreightSpaceId" id="16" indexed="13" label="调出仓位ID" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="outFreightSpaceNo" id="15" indexed="12" label="调出仓位" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="unitName" id="14" indexed="6" label="单位" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="unitId" id="13" indexed="7" label="单位" row="1" sortType="2" type="99" width="8" widthType="0"/>
+<tableitem align="2" filedname="searchFlag" id="12" indexed="9" label="库存查询" row="1" type="0" width="2" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="11" indexed="4" label="商品" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="inStorehouseId" id="10" indexed="15" label="调入仓库" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="outStorehouseId" id="9" indexed="11" label="调出仓库" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="memo" id="8" indexed="18" label="分录备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="outStorehouseName" id="7" indexed="10" label="调出仓库" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="inStorehouseName" id="6" indexed="14" label="调入仓库" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="3" filedname="goodsQty" id="5" indexed="8" label="数量" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="4" indexed="5" label="商品" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="3" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="alloTransNo" id="2" indexed="2" label="调拨单据编号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="alloTransDetailId" id="1" indexed="1" label="单据明细Id" row="1" sortType="2" type="99" widthType="0"/>
+</table>

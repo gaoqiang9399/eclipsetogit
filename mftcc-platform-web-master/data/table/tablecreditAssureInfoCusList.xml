@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditAssureInfoCusList" para="eadis_page" title="客户保证人保证信息" type="1">
+<tableitem align="2" filedname="cusName" id="5" indexed="2" label="借款客户" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditEndDate" id="13" indexed="9" label="授信结束时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="creditStartDate" id="12" indexed="8" label="授信开始时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="assureAmt" id="11" indexed="10" label="授信额度(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="brName" id="10" indexed="12" label="所属公司" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="1" indexed="11" label="在保余额(元)" type="12" widthType="0"/>
+<tableitem align="2" filedname="contractId" id="9" indexed="7" label="授信申请" row="1" sortType="2" type="0" widthType="0"/>
+</table>

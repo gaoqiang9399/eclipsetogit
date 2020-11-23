@@ -1,0 +1,98 @@
+/****************************************************************************************************************/
+										/* ↓ bootstrap 样式修改 begin */
+/****************************************************************************************************************/
+.container {
+	padding: 0px;
+	width: 100%;
+}
+
+.row {
+	margin: 0px;
+}
+
+.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12
+{
+	padding-right: 0px;
+	padding-left: 0px
+}
+/* Bootstrap居左，覆盖为居中 */
+th {
+	text-align: center;
+}
+a{
+	color:#32b5cb;
+	text-decoration: none;
+}
+a:focus, a:hover{
+	color:#018FA7;
+	text-decoration: none;
+    outline: 0;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 0;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn-link {
+  color: #333333;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #009db7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.dropdown-menu{
+	padding:0px;
+	border-radius: 0px;
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #32b5cb;
+  border-color: #46b8da;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #009db7;
+  border-color: #1b6d85;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #009db7;
+  border-color: #269abc;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #009db7;
+  border-color: #269abc;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: "Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 弹窗遮挡住artDialog了 */
+.modal {
+	z-index : 1020;
+}
+/* ↑ bootstrap 样式修改 end*/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="hzey0002" title="icloud账户管理表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="icloudId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="icloud账号" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="icloudPwd" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="icloud密码" maxlength="50" mustinput="0" row="1"/>
+<formelement alt="请点击按钮获取密码" datatype="0" fieldalign="1" fieldcol="2" fieldname="icloudPwd" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="icloud密码" maxlength="20" mustinput="1" row="2" unit="&lt;i class='i i-password pointer' onclick=MfbusIcloudManage.getIcloudPwdAjax()&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="available" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="是否可用（是否展示/删除）0、不可用 1、可用 " maxlength="1" mustinput="0" row="27"/>
+</form>

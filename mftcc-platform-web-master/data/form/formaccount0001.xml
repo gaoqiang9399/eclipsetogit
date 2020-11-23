@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="account0001" title="科目表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finBooks" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="帐套标识" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accNo" fieldstyle="half" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="科目号" maxlength="100" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accHrt" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="科目控制字" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accHrtCod" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="科目简码" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appCod" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="应用代码" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upAccHrt" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="上级科目控制字" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accName" fieldstyle="half" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="科目名称" maxlength="60" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="科目显示的名称" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="subAccYn" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="子科目标志N：没有下级科目；Y：有下级科目" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seqCtl" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="是否存在辅助核算项N：否 Y：是" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollInd" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="轧差标志N：不轧；Y：轧差" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="foreInd" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="本外币标志该字段暂时不用" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equaInd" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="平衡标识该字段暂时不用" maxlength="1" mustinput="0" row="8" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amtDcInd" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="发生额方向该字段暂时不用" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="odInd" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="透支标志Y：允许透支；N：不允许透支；" maxlength="1" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="inInd" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="内部科目标志D：存款帐；L：贷款账；I：内部帐；A：考核账；默认为I；" maxlength="1" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scope" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="开设范围该字段暂时不用" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="drTxAmt" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="借方科目使用额" maxlength="16" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="crTxAmt" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="贷方科目使用额" maxlength="16" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="drTxCnt" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="借方使用次数" maxlength="10" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="crTxCnt" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="贷方使用次数" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="drLimitAmt" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="借方限额" maxlength="16" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="crLimitAmt" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="贷方限额" maxlength="16" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" labelname="所属部门" maxlength="50" mustinput="0" row="13" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accInd" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="科目标志该字段暂时不用" maxlength="1" mustinput="0" row="14" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uSys" fieldtype="99" formactiveid="30" labelalign="3" labelcol="3" labelname="使用系统" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brf" fieldtype="99" formactiveid="31" labelalign="3" labelcol="1" labelname="备注" maxlength="60" mustinput="0" row="15" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="corbind" fieldtype="99" formactiveid="34" labelalign="3" labelcol="3" labelname="明细对应科目用于导入导出" maxlength="20" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="iscash" fieldtype="99" formactiveid="35" labelalign="3" labelcol="1" labelname="是否是现金流量项目用于导入导出" maxlength="2" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="36" labelalign="3" labelcol="3" labelname="操作员" maxlength="20" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="37" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="50" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="occDate" fieldtype="99" formactiveid="38" labelalign="3" labelcol="3" labelname="时间戳" maxlength="17" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dcInd" fieldsize="CW_DCIND" fieldstyle="half" fieldtype="2" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="借贷方向" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="xjFl" fieldsize="CW_XJFL" fieldstyle="half" fieldtype="2" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="现金分类" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accLvl" fieldstyle="half" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="科目级别" maxlength="20" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="seqNum" fieldsize="CW_FICATION" fieldtype="3" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="辅助核算" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accKnd" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="科目类别" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accType" fieldsize="CW_ACCOUNT_TYPE" fieldstyle="half" fieldtype="2" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="科目类型" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="seqSelect" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="1" labelname="自定义辅助核算" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accLvlName" fieldtype="1" formactiveid="47" horVer="0" labelalign="3" labelcol="3" labelname="科目级别" mustinput="" readonly="1" row="2" />
+</form>

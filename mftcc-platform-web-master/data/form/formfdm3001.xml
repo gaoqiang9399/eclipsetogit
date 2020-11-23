@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="fdm3001" title="收支日志">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="logNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="日志编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="matchFund" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="待匹配流水" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="confirmFund" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="待确认流水" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="newFund" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="新生成流水" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="budgetType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="类型" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="budgetDate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="时间" maxlength="8" mustinput="0" row="3"/>
+</form>

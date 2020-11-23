@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnins0001" para="eadis_page" link="" title="质押保单" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnIns/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="insComName" id="2" indexed="2" label="保险公司名称" row="1" type="0" />
+<tableitem align="2" filedname="insType" id="3" indexed="3" label="险种类型" row="1" type="0" />
+<tableitem align="2" filedname="insNo" id="4" indexed="4" label="保险单号码" row="1" type="0" />
+<tableitem align="2" filedname="insFromName" id="5" indexed="5" label="投保人姓名" row="1" type="0" />
+<tableitem align="2" filedname="insToName" id="6" indexed="6" label="被保险人姓名" row="1" type="0" />
+<tableitem align="2" filedname="beneficiaryName" id="7" indexed="7" label="受益人姓名" row="1" type="0" />
+<tableitem align="2" filedname="insAmount" id="8" indexed="8" label="保险金额" row="1" type="0" />
+<tableitem align="2" filedname="insStartDate" id="9" indexed="9" label="保险开始日期" row="1" type="0" />
+<tableitem align="2" filedname="insDueDate" id="10" indexed="10" label="保险到期日期" row="1" type="0" />
+<tableitem align="2" filedname="insPayTimes" id="11" indexed="11" label="保险费交缴期限(月)" row="1" type="0" />
+<tableitem align="2" filedname="insPayMethod" id="12" indexed="12" label="保险费交缴方式" row="1" type="0" />
+<tableitem align="2" filedname="insPay" id="13" indexed="13" label="保险费每期交缴金额" row="1" type="0" />
+<tableitem align="2" filedname="payStartDate" id="14" indexed="14" label="交缴开始日" row="1" type="0" />
+</table>

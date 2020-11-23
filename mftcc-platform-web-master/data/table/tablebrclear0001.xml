@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="brclear0001" para="eadis_page" title="部门清理" type="2">
+<tableitem align="3" filedname="pactAmt" id="15" indexed="3" label="金额(元)" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="14" indexed="6" label="合同编号" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="5" indexed="5" label="期限" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="appName" id="4" indexed="2" label="项目名称" mytitle="项目名称-appName;" row="1" type="3" typepara="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" type="3" typepara="10" width="15" widthType="0"/>
+<tableitem align="3" filedname="pactBal" id="18" indexed="4" label="余额(元)" row="1" type="12" width="12" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="17" indexed="11" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+</table>

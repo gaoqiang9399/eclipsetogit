@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssbuybill01" para="eadis_page" title="购货单" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssBuyBill/getDetailPage;buyBillId-buyBillId;businessType-businessType;onDbClick-PssBuyBill_List.getBuyBill" type="2">
+<tableitem align="2" filedname="regOpName" id="9" indexed="11" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="4" width="6" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="8" indexed="12" label="审批状态" row="1" sortType="1" type="6" typepara="PSS_APPROVAL_STATUS" width="8" widthType="0"/>
+<tableitem align="2" authority="auditStsed-1;approvalStatus-02;approvalStatus-03;approvalStatus-05" filedname="删除" id="16" indexed="17" label="-" row="1" sortType="2" type="5" typepara="/pssBuyBill/deleteBuyBillAjax;buyBillId-buyBillId;onClick-PssBuyBill_List.deleteBuyBill(this)" widthType="0"/>
+<tableitem align="2" filedname="buyBillNo" id="5" indexed="3" label="单据编号" mytitle="单据编号-buyBillNo;" row="1" sortType="1" type="4" typepara="/pssBuyBill/getDetailPage;buyBillId-buyBillId;businessType-businessType;onClick-PssBuyBill_List.getBuyBill;subStringNub-13;" width="10" widthType="0"/>
+<tableitem align="3" filedname="amount" id="14" indexed="7" label="购货金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="paid" id="13" indexed="9" label="已付款" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="4" indexed="4" label="供应商" mytitle="模板内容-supplierName;" row="1" sortType="1" type="3" typepara="10" width="12" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="单据日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="discountAfterAmount" id="12" indexed="8" label="优惠后金额" row="1" sortType="1" type="12" width="9" widthType="0"/>
+<tableitem align="2" filedname="buyBillId" id="2" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="buyBillId-buyBillId;" width="4" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="11" indexed="6" label="数量" row="1" sortType="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="paidState" id="10" indexed="10" label="付款状态" sortType="1" type="6" typepara="PSS_PAID_STATE" width="8" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNo" id="1" indexed="5" label="关联购货订单号" mytitle="关联购货订单号-buyOrderNo;" row="1" sortType="2" type="4" typepara="/pssBuyOrder/getDetailPage;buyOrderNo-buyOrderNo;onClick-PssBuyBill_List.getBuyOrder;subStringNub-15;" width="10" widthType="0"/>
+</table>

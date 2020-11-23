@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="contactList" link="/mfCusContactlist/findByPage" para="eadis_page" title="紧急联系人列表" type="5">
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="99" typepara="/mfCusContactlist/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="relation" id="4" indexed="4" label="联系人与员工关系" row="1" type="0"/>
+<tableitem align="2" filedname="contactphone" id="3" indexed="3" label="联系人手机号" row="1" type="0"/>
+<tableitem align="2" filedname="contactname" id="2" indexed="2" label="联系人姓名" row="1" type="0"/>
+</table>

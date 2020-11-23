@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="examinecard0002" title="贷后检查检查卡表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examineCardId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="检查卡编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examineCardName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="检查卡名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examineCardType" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="检查卡类型" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examineCardTypeName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="检查卡类型名称" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examTemplateId" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="贷后检查模型编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examTemplateName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="贷后检查模型名称" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="检查卡说明" maxlength="400" mustinput="0" row="7"/>
+</form>

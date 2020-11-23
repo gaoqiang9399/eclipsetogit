@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="infochangedetail" title="客户信息变更申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="客户信息变更申请id" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="changeFieldName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="变更信息" maxlength="200" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeField" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="变更字段英文名称" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beforeTheChange" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="变更之前的值" maxlength="200" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="afterTheChange" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="变更之后的值" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="changeReason" fieldtype="5" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="变更说明" maxlength="200" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="操作员编号" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="变更人" maxlength="100" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="regTime" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelname="申请时间" maxlength="17" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="更新时间" maxlength="17" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="applySts" fieldsize="APP_STS" fieldtype="2" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="申请状态" maxlength="1" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyProcessId" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="保管审批流程编号" maxlength="50" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="当前审批节点" maxlength="50" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="当前审批人员编号" maxlength="50" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="当前审批人员名称" maxlength="200" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beforeTheChangeShow" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="变更前" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="afterTheChangeShow" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="变更后" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="4" labelname="entityPrimarykeys" mustinput="" param="changeId" readonly="" row="1"/>
+</form>

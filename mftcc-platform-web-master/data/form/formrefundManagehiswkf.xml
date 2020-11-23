@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="refundManagehiswkf" title="风险调级审批历史">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="refundGuaranteeAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="应退担保费" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="refundHandAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="应退手续费" mustinput="" readonly="" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="refundBond" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="应退保证金" mustinput="" readonly="" row="3" unit="元"/>
+</form>

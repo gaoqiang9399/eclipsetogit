@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="advanceswkf" title="审批历史流程图展示">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="advancesId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="垫款编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerName" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="收款方" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="payAmt" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="收款金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="outAmt" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="3" labelname="出款金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="55" horVer="0" labelalign="3" labelcol="1" labelname="任务id" mustinput="" readonly="" row="12"/>
+</form>

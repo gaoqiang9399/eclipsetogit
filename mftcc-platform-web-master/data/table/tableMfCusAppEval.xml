@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfCusAppEval" title="客户评级列表" type="1">
+<tableitem align="2" filedname="cusType" id="6" indexed="1" label="客户类别" row="1" type="6" typepara="CUS_TYPE" width="16" widthType="0"/>
+<tableitem align="1" filedname="idNum" id="5" indexed="2" label="证件号码" row="1" sortType="2" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="evalEndDate" id="3" indexed="5" label="评级到期日" row="1" sortType="1" type="1" width="16" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="totalScore" id="1" indexed="6" label="综合评价(分)" row="1" sortType="1" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="approvalGrade" id="7" indexed="3" label="评估等级" sortType="1" type="4" typepara="/appEval/getDetailResult;cusNo-cusNo;appSts-evalSts;useType-'1';onClick-getAppEvalForCusNo(this);" width="16" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vccertificatemodify_approve01" para="eadis_page" title="合格证批量价格修改审批列表" type="2">
+<tableitem align="2" filedname="vin" id="59" indexed="2" label="车架号" row="1" type="0" width="12" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="60" indexed="1" label="经销商" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="configurationName" id="58" indexed="4" label="配置" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="57" indexed="3" label="车型" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="certificateId" id="56" indexed="0" label="合格证ID" type="99" widthType="0"/>
+<tableitem align="3" filedname="originalUnitPrice" id="55" indexed="5" label="原单价(元)" row="1" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="newUnitPrice" id="54" indexed="6" label="新单价(元)" row="1" type="12" width="8" widthType="0"/>
+<tableitem align="1" filedname="remarks" id="53" indexed="7" label="备注" row="1" type="0" width="10" widthType="0"/>
+</table>

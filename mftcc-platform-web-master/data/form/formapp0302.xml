@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0302" title="业务调查配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="调查项" maxlength="200" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="产品类别" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usedFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="是否启用" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="10"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="5" />
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sys4001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="roleNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="menuNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buttonNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="" maxlength="20" mustinput="0" row="2"/>
+</form>

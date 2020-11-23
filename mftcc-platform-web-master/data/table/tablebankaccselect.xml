@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="bankaccselect" para="eadis_page" title="选择公司账号" type="1">
+<tableitem align="2" filedname="bank" id="6" indexed="5" label="开户行" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cardType" id="5" indexed="6" label="账号类型" sortType="2" type="99" typepara="CARD_TYPE" widthType="0"/>
+<tableitem align="2" fieldStyle="bankNo" filedname="accountNo" id="4" indexed="4" label="卡号/折号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accountName" id="2" indexed="2" label="账号名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accProperty" id="10" indexed="7" label="账户性质" row="1" sortType="2" type="6" typepara="PUB_NOT" widthType="0"/>
+<tableitem align="2" buttonMark="cw-cus-bank-acc-update" filedname="选择" id="18" indexed="18" label="-" row="1" type="5" typepara="#;id-id;onClick-choseBank" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="8" indexed="9" label="启用状态" row="1" sortType="2" type="99" typepara="YES_NO" widthType="0"/>
+</table>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssgoods0002" title="商品信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="商品ID" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="商品编号" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="商品名称" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsSn" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="商品序列号" maxlength="40" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsModel" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="规格型号" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="goodsType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="商品种类" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="storehouseId" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="首选仓库" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="goodsBrand" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="商品品牌" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitId" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="计量单位" mustinput="0" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="retailPrice" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="零售价" maxlength="18" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="wholesalePrice" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="批发价" maxlength="18" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vipPrice" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="VIP会员价" maxlength="18" mustinput="0" row="6" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="discountRate1" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="折扣率一(%)" maxlength="18" mustinput="0" row="7" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="discountRate2" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="折扣率二(%)" maxlength="18" mustinput="0" row="7" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="estimatedPurchasePrice" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="预计采购价" maxlength="18" mustinput="0" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="16" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stockWarningFlag" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="启用库存预警" maxlength="1" mustinput="0" onchange="changeWarn();" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warningPlanId" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="预警方案id" maxlength="40" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailIds" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="辅助属性编号" maxlength="200" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="batchWarningFlag" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="21" labelalign="3" labelcol="1" labelname="启用批次质量管理" maxlength="1" mustinput="0" onchange="batchWarning();" row="10"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="batchQgp" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="保质期天数" mustinput="0" row="11"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="batchBeforQgp" fieldtype="1" formactiveid="23" labelalign="3" labelcol="3" labelname="启用预警天数" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="snFlag" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="24" labelalign="3" labelcol="3" labelname="启用序列号管理" maxlength="1" mustinput="0" onchange="changeSn();" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="创建人编号" maxlength="40" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" labelname="创建人名称" maxlength="80" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="创建人机构编号" maxlength="40" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="99" formactiveid="28" labelalign="3" labelcol="1" labelname="创建人机构名称" maxlength="80" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="99" formactiveid="30" labelalign="3" labelcol="1" labelname="最后修改人编号" maxlength="40" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="99" formactiveid="31" labelalign="3" labelcol="1" labelname="最后修改人名称" maxlength="80" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="99" formactiveid="32" labelalign="3" labelcol="1" labelname="最后修改人机构编号" maxlength="40" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" labelname="最后修改人机构名称" maxlength="80" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="34" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="flag" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="4" labelname="启用标志" mustinput="" readonly="" row="6"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="maxStock" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="最大库存" mustinput="" readonly="" row="24"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="minStock" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="最小库存" mustinput="" readonly="" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sepStockFlag" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="分仓预警" mustinput="" onchange="changeSepFlag();" readonly="" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mutiUnitFlag" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="多单位" mustinput="" onclick="switchUnit();" readonly="" row="4"/>
+</form>

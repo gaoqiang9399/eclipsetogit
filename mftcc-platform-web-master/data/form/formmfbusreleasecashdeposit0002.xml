@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbusreleasecashdeposit0002" title="保证金释放申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="releaseId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="保证金释放申请ID" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户ID" maxlength="50" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="申请单位名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="releaseAmount" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="申请释放金额" maxlength="20" mustinput="1" param="bigAmt" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldsize="HM_APP_STS" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="申请状态" maxlength="2" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="13" labelalign="3" labelcol="1" labelname="用途" maxlength="500" mustinput="0" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="usableAmount" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="保证金可释放额度" maxlength="15" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="marginRatio" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="保证金比例" mustinput="" readonly="1" row="8" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="loanBal" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="贷款余额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reqType" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="请求方" mustinput="" readonly="" row="9"/>
+</form>

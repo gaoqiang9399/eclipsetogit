@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveconfiglist" title="归档设置" type="1">
+<tableitem align="2" filedname="archiveDesc" id="6" indexed="4" label="文档说明" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="5" indexed="5" label="-" row="1" type="5" typepara="/archiveConfig/getById;id-id;onClick-getById(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="archiveName" id="4" indexed="2" label="归档清单" type="0" widthType="0"/>
+<tableitem align="2" filedname="archiveMode" id="3" indexed="3" label="纸质/电子文档" row="1" type="6" typepara="ARCHIVE_MODE" widthType="0"/>
+<tableitem align="2" filedname="archiveType" id="2" indexed="0" label="归档类型" row="1" type="6" typepara="ARCHIVE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="id" id="1" indexed="1" label="归档ID" row="1" type="99" widthType="0"/>
+</table>

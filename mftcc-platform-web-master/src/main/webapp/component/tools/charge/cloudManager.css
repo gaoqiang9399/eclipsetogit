@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+.cloud_button{
+	-webkit-border-radius: 3px;
+	cursor: pointer;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #59B258;
+	color: #ffffff;
+	background-color: #5CB85C;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 15px;
+}
+.cloud_button:hover {
+    background-color: #449D44;
+}
+.span_format{
+	float: left;
+	line-height: 24px;
+	position: relative;
+	color: #7F7F7F;
+}
+.payUl{
+	list-style: none;
+	font-size: 14px;
+}
+.payUl li{
+	margin-top: 10px;
+}
+.payUl li p{
+	margin: 0px;
+	font-size: 13px;
+}
+.textForm{
+	margin-left: 38px;
+}
+.payState{
+	width: 417px;
+	margin: auto;
+	background-color: #FDFFD0;
+	padding-bottom: 20px;
+}
+.payState p{
+	margin: 0px;
+	padding-left: 15px;
+}
+.payNum{
+	height: 25px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 2px solid #d4d4d4;
+	box-shadow: inset 0px 0px 7px #d4d4d4;
+	vertical-align: middle;
+	width: 250px;
+}
+.payNum:FOCUS {
+	border: 1px solid #1583DD !important;
+}
+.fill{
+	width: 146px;
+	text-align: right;
+	padding-right: 10px;
+}
+.unUserSpan{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #AEB4BA;
+}
+.userSpan{
+	color: #73C3F8;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.disablea{
+	display: inline-block;
+	margin: 0 10px;
+	color:#4E4E4E;
+	text-decoration: underline;
+	cursor: default;
+}
+.disablea:hover{
+	color:#4E4E4E;
+	text-decoration: underline;
+	cursor: default;
+}
+.activea{
+	display: inline-block;
+	margin: 0 10px;
+	color:#0198FF;
+	text-decoration: underline;
+}
+.activea:hover{
+	color:#32B5CB;
+}
+.kaitong_div{
+	padding: 20px 40px 20px 20px; 
+	font-size: 14px;
+}
+.kaitong_div ul{
+	margin: 0px;
+	padding: 0px;
+}
+.kaitong_div ul li{
+	list-style-type: none;
+	height: 40px;
+	padding: 2px;
+}
+/* 充值页面 begin */
+.pay_out{
+	width: 490px;
+	margin: 0 auto;
+	padding: 40px 0px 0px 0px;
+}
+.pay_list ul li{
+	list-style-type: none;
+	height: 40px;
+	line-height: 40px;
+	
+}
+.pay_list ul li label{
+	display: inline-block;	
+	width: 86px;
+	text-align: right;
+}
+.pay_list ul li span{
+	display: inline-block;	
+	text-align: left;
+}
+.pay_list ul li input{
+	width:280px;
+	padding-left:4px;
+	height: 32px;
+	line-height: normal;
+	
+}
+.pay_info{
+	background-color: #FDFFD0;
+	padding: 12px;
+}
+.pay_info h3{
+	font-size: 16px;
+	color:#E65F0F;
+}
+.pay_info p{
+	font-size: 14px;
+	color:#FEA269;
+}
+.pay_btn{
+	padding: 20px;
+	text-align: center;
+}
+.pay_btn a{
+	margin: 0 20px;
+}
+
+/* 充值页面 end */
+

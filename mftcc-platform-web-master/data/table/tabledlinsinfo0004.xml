@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlinsinfo0004" para="eadis_page" title="保险信息" trDbClick="/insInfo/getById;insId-insId;onDbClick-getCollateralInfoById(this);" type="2">
+<tableitem align="2" filedname="导出" id="15" indexed="14" label="-" row="1" type="5" typepara="/pledgeBaseInfoBill/exportExcelAjax;insId-insId;collateralNo-collateralId;onClick-exportExcel(this);" widthType="0"/>
+<tableitem align="2" filedname="清单详情" id="14" indexed="15" label="-" type="5" typepara="/pledgeBaseInfoBill/getListByPage;insId-insId;pledgeNo-collateralId;onClick-history(this);" widthType="0"/>
+<tableitem align="2" filedname="insStart" id="5" indexed="6" label="变更日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="regCusName" id="13" indexed="7" label="登记人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="insType" id="12" indexed="4" label="变更类型" row="1" type="6" typepara="PLEDGE_CHANGE_TYPE" width="20" widthType="0"/>
+<tableitem align="2" filedname="insNo" id="3" indexed="3" label="登记号" mytitle="保单编号-insNo;" row="1" type="4" typepara="/insInfo/listShowDetailAjax;insId-insId;oneUrl-'/insInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="11" indexed="13" label="登记日期" row="1" type="1" width="20" widthType="0"/>
+</table>

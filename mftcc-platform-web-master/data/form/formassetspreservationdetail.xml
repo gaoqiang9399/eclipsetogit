@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetspreservationdetail" title="资产保全（涉诉，查封（保全），解封，抵债的押品）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="案件编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="caseTitle" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="案件名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeNo" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="押品编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="押品名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="查封开始日期" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="endDate" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="查封到期日期" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="unsealDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="解封日期" maxlength="8" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="操作员" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="解封锚点开始" labelstyle="anchor-start" mustinput="" param="[{involvementSts:'3'}]" readonly="" row="9" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="查封锚点开始" labelstyle="anchor-start" mustinput="" param="[{involvementSts:'2'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="involvementSts" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="涉诉状态" mustinput="" param="anchors:['anchor1','anchor2','anchor3']" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="解封锚点开始" labelstyle="anchor-start" mustinput="" readonly="" row="9" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="解封锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="12" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="查封锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="8" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="regTime" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="2" labelname="创建时间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="state" fieldtype="5" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="400" mustinput="" readonly="" row="19"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="查封开始日期" mustinput="" readonly="" row="14"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="endDate" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="查封到期日期" mustinput="" readonly="" row="10"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="assessAmt" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="4" labelname="评估价值" mustinput="" readonly="" row="14" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="debtAmt" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="抵债金额" mustinput="" readonly="" row="16" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="debtDate" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="3" labelname="抵债日期" mustinput="" readonly="" row="14"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="endDate" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="查封到期日期" mustinput="" readonly="" row="14"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="查封开始日期" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor3" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{involvementSts:'4'}]" readonly="" row="13" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor3" fieldtype="2" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="18" selrange="1"/>
+</form>

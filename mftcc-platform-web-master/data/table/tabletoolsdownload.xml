@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="toolsdownload" link="/mfToolsDownload/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="下载" id="6" indexed="5" label="-" row="1" sortType="2" type="5" typepara="/mfToolsDownload/downloadToolAjax;serialNo-serialNo;onclick-toolsDownloadList.downloadTool(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="address" id="5" indexed="4" label="路径" row="1" sortType="2" type="99" width="10" widthType="0"/>
+<tableitem align="2" filedname="version" id="4" indexed="2" label="版本" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="serialNo" id="3" indexed="0" label="序号" row="1" sortType="0" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="toolName" id="2" indexed="1" label="名称" mytitle="名称-toolName;" sortType="2" type="3" typepara="20" width="20" widthType="0"/>
+<tableitem align="2" filedname="instructions" id="1" indexed="3" label="使用说明" mytitle="使用说明-instructions;" row="1" sortType="2" type="3" typepara="25" width="36" widthType="0"/>
+</table>

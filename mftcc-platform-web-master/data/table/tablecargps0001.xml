@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cargps0001" link="/mfPledgeCarGps/findByPage" para="eadis_page" title="车辆GPS查询" type="1">
+<tableitem align="1" filedname="info" id="6" indexed="7" label="位置信息" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="plate" id="4" indexed="4" label="车牌" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="查看位置" id="24" indexed="24" label="-" sortType="2" type="5" typepara="/mfPledgeCarGps/getById;gpsId-gpsId;onClick-showDetail(this)" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="12" indexed="12" label="操作员" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="lat" id="9" indexed="9" label="维度" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="lng" id="8" indexed="8" label="经度" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="16" indexed="16" label="登记时间" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="state" id="7" indexed="6" label="车辆状态" row="1" sortType="2" type="0" width="20" widthType="0"/>
+</table>

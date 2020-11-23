@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="trenchsubsidiary0001" link="/mfTrenchShareProfitRate/findByPage" para="eadis_page" title="渠道分润比例表" type="2">
+<tableitem align="2" filedname="shareProfitRate" id="6" indexed="6" label="分润比例(%)" type="17" width="15" widthType="0"/>
+<tableitem align="2" filedname="baseEndAmt" id="5" indexed="5" label="基数截止值(元)" row="1" type="12" width="25" widthType="0"/>
+<tableitem align="2" filedname="baseStartAmt" id="4" indexed="4" label="基数起始值(元)" row="1" type="12" width="25" widthType="0"/>
+<tableitem align="1" filedname="trenchName" id="3" indexed="3" label="渠道名称" mytitle="姓名-trenchName" row="1" type="4" typepara="/mfTrenchShareProfitRate/listShowDetailAjax;id-id;cusNo-trenchUid;relNo-relNo;oneUrl-'/mfTrenchShareProfitRate/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="17" indexed="17" label="-" row="1" type="5" typepara="/mfTrenchShareProfitRate/deleteAjax;id-id;cusNo-trenchUid;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

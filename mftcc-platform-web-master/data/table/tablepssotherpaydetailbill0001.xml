@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssotherpaydetailbill0001" para="eadis_page" title="其他支出单明细表" type="2">
+<tableitem align="3" filedname="payAmt" id="6" indexed="7" label="金额" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="saleType" id="5" indexed="6" label="支出类别" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="4" indexed="5" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="buySaleExpNo" id="3" indexed="3" label="采购销售费用清单编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="logisticBillNo" id="8" indexed="4" label="物流单编号" type="99" widthType="0"/>
+<tableitem align="2" filedname="memo" id="7" indexed="8" label="分录备注" row="1" sortType="2" type="0" widthType="0"/>
+</table>

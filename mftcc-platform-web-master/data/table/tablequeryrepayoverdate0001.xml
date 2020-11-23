@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryrepayoverdate0001" para="eadis_page" title="逾期还款" type="1">
+<tableitem align="3" filedname="repayPrcp" id="9" indexed="7" label="欠款本金(元)" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="repayIntst" id="8" indexed="8" label="欠款利息(元)" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="3" filedname="repayPrcpIntstSum" id="7" indexed="10" label="欠款总额" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="6" indexed="4" label="合同号" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-6;" width="10" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="4" indexed="2" label="联系电话" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="appName" id="3" indexed="3" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;subStringNub-12;onClick-getDetailRepayPlan(this);" width="12" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="12" indexed="5" label="借据号" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="3" filedname="fine" id="11" indexed="9" label="罚金" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="1" indexed="11" label="到期日期" row="1" sortType="1" type="1" width="9" widthType="0"/>
+<tableitem align="2" filedname="overDays" id="10" indexed="6" label="逾期天数" row="1" sortType="1" type="0" width="7" widthType="0"/>
+</table>

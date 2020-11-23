@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AccountDetailList" link="/mfCusAccountDetail/findByPage" para="eadis_page" title="应收账款明细" type="1">
+<tableitem align="2" filedname="salesAmtLastYear" id="6" indexed="10" label="上年销售额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="debtorName" id="5" indexed="6" label="债务人名称" row="1" type="4" typepara="/mfCusAccountDetail/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusAccountDetail/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="13" indexed="17" label="-" type="5" typepara="/mfCusAccountDetail/getById;id-id;cusNo-cusNo;oneUrl-'/mfCusAccountDetail/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" filedname="balanceTool" id="12" indexed="15" label="结算工具" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="id" id="11" indexed="19" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="balanceType" id="9" indexed="14" label="结算方式" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="tickRatio" id="8" indexed="16" label="其中赊销比例" row="1" type="0" width="20" widthType="0"/>
+</table>

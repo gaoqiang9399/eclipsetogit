@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="tagtableconfig0002" title="标签表格类配置表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="configId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="表格配置编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="tableColumnId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="表格列编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="tableColumnName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="表格列名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="sort" fieldtype="1" maxlength="0" formactiveid="4" labelalign="1" labelcol="2" labelname="列顺序" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lineNum" fieldtype="1" maxlength="0" formactiveid="5" labelalign="1" labelcol="1" labelname="行号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="columnNum" fieldtype="1" maxlength="0" formactiveid="6" labelalign="1" labelcol="2" labelname="列号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="headerDirection" fieldtype="1" maxlength="1" formactiveid="7" labelalign="1" labelcol="1" labelname="表头方向。1横向2纵向" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="columnType" fieldtype="1" maxlength="1" formactiveid="8" labelalign="1" labelcol="2" labelname="单元列类型1常规2合并" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeType" fieldtype="1" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="合并单元格类型1合并列2合并行3复合" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="mergeStartLineNum" fieldtype="1" maxlength="0" formactiveid="10" labelalign="1" labelcol="2" labelname="合并开始行号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeStartColumnNum" fieldtype="1" maxlength="0" formactiveid="11" labelalign="1" labelcol="1" labelname="合并开始列号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="mergeEndLineNum" fieldtype="1" maxlength="0" formactiveid="12" labelalign="1" labelcol="2" labelname="合并结束行号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="mergeEndColumnNum" fieldtype="1" maxlength="0" formactiveid="13" labelalign="1" labelcol="1" labelname="合并结束列号" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="subFlag" fieldtype="1" maxlength="1" formactiveid="14" labelalign="1" labelcol="2" labelname="复合单元格子列标识。0否1是" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="parentColumnId" fieldtype="1" maxlength="30" formactiveid="15" labelalign="1" labelcol="1" labelname="父列" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="dynamicFlag" fieldtype="1" maxlength="1" formactiveid="16" labelalign="1" labelcol="2" labelname="动态列标识。0否1是" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="dynamicType" fieldtype="1" maxlength="2" formactiveid="17" labelalign="1" labelcol="1" labelname="动态类型1数据字典2以天为单位统计当前月3以月为单位统计当前年" mustinput="0" row="17"/>
+</form>

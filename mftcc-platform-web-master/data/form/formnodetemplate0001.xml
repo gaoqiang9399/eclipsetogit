@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="nodetemplate0001" title="节点与模板配置关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNodeTemplateId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="唯一编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="产品编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="busModel" fieldtype="99" formactiveid="3" labelalign="3" labelcol="5" labelname="业务模式" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="modelType" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="是否业务模式基础数据 normal：正常；base：基础；" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="nodeNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="节点编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="nodeName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="5" labelname="节点名称" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="templateNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="5" labelname="模板编号" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="sort" fieldtype="99" formactiveid="8" labelalign="3" labelcol="5" labelname="排序" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optPower" fieldsize="TEMPLATE_OPT_POWER" fieldtype="2" formactiveid="9" labelalign="3" labelcol="1" labelname="操作权限" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="5" labelname="操作员编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="部门编号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="部门名称" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记时间 格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改时间 格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateNameZh" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="模板名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateTypeName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="模板类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifMustInput" fieldsize="YES_NO" fieldtype="2" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="是否必填" mustinput="" readonly="" row="4"/>
+</form>

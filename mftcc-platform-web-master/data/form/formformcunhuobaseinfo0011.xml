@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formcunhuobaseinfo0011" title="存货信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="4" labelname="押品名称" maxlength="80" mustinput="0" param="pledgeNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" onclick="prodAutoMenu(this,'/mfCusCorpBaseInfo/getCusListAjax',sysCusCallBack,'cusName');" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="insEnd" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="保险到期日" maxlength="16" mustinput="0" onclick="fPopUpCalendarDlg()" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgNo" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="3" labelname="登记机关" maxlength="30" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr01" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="3" labelname="抵质押顺位" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extDic16" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="4" labelname="存货类别" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extDic10" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="4" labelname="存放仓库种类" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr04" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="1" labelname="权属证明名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr05" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="2" labelname="权属证书编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insCrop" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="3" labelname="保险公司" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="insAmount" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="4" labelname="投保金额" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="1" labelname="受益人" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extDic11" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="3" labelname="仓库管理方" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extDic15" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="4" labelname="监管方式" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="extOstr07" fieldtype="1" formactiveid="37" horVer="1" labelalign="1" labelcol="1" labelname="存货地点" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic12" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="1" labelname="监管方名称" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extDic14" fieldtype="1" formactiveid="40" horVer="1" labelalign="1" labelcol="2" labelname="最低存货金额" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic13" fieldtype="1" formactiveid="41" horVer="1" labelalign="1" labelcol="1" labelname="最长存货期限" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="5" fieldname="remark" fieldtype="5" formactiveid="42" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="400" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr22" fieldsize="YES_NO" fieldtype="2" formactiveid="43" horVer="1" labelalign="1" labelcol="2" labelname="是否动态监管" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pledgeNo" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="5" labelname="押品编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="classSecondName" fieldtype="1" formactiveid="47" horVer="1" labelalign="1" labelcol="2" labelname="押品类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="48" horVer="1" labelalign="1" labelcol="3" labelname="担保类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="certificateName" fieldtype="1" formactiveid="49" horVer="1" labelalign="1" labelcol="2" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="50" horVer="1" labelalign="1" labelcol="3" labelname="押品状态" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="51" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+</form>

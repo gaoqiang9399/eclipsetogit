@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psspaymentdetailbill0001" para="eadis_page" title="付款单明细表" type="2">
+<tableitem align="3" filedname="payAmt" id="6" indexed="6" label="付款金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="clearanceAccountName" id="5" indexed="5" label="结算账户" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="clearanceAccountId" id="4" indexed="4" label="结算账户ID" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="1" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="1" filedname="memo" id="9" indexed="9" label="分录备注" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="clearanceAccountNum" id="8" indexed="8" label="结算号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="clearanceAccountType" id="7" indexed="7" label="结算方式" row="1" sortType="2" type="0" width="15" widthType="0"/>
+</table>

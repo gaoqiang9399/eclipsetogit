@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusflowassetsBase_hzwx1" title="个人流动资产-现金及银行存款新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsType" fieldsize="ASSETS_TYPE" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="资产类型" maxlength="1" mustinput="0" onchange="flowAssetsInfo.changeFlowAssets(this,'/mfCusPersonFlowAssetsInfo/changeFormByTypeAjax');" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="存款银行" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountType" fieldsize="ACCOUNT_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="账户类型" maxlength="1" mustinput="0" row="3"/>
+<formelement alt="请输入正确的银行卡号" datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNo" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="账号" maxlength="30" mustinput="0" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="nowPrice" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="余额" maxlength="20" mustinput="0" row="5" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="6" fieldname="accountAge" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="账龄(月)" mustinput="" readonly="" row="1" unit="月"/>
+<formelement alt="请选择预付日期时间" datatype="6" fieldalign="1" fieldcol="4" fieldname="prepaidDate" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="预付日期" mustinput="" onclick="fPopUpCalendarDlg(this);" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today, null, null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="purchasePrice" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="5" labelname="购入价" maxlength="20" mustinput="" readonly="" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="accountMoney" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="金额" maxlength="20" mustinput="" readonly="" row="3" unit="元"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="6" fieldname="remark" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="备注" maxlength="200" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="资产id" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="1"/>
+</form>

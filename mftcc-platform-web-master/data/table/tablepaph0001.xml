@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="paph0001" title="平安普惠" type="2">
+<tableitem align="2" filedname="reqApiType" id="6" indexed="4" label="请求接口类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="trenchNo" id="4" indexed="5" label="渠道编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="trenchName" id="3" indexed="6" label="渠道名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appId" id="2" indexed="2" label="业务申请号" row="1" type="0" width="80" widthType="1"/>
+<tableitem align="2" filedname="详情" id="10" indexed="10" label="-" sortType="2" type="5" typepara="/apiBusRecord/getByIdQuery;busRecordId-busRecordId;returnId-returnId;onClick-finForm_detail" width="5" widthType="0"/>
+<tableitem align="2" filedname="busTime" id="9" indexed="7" label="业务处理时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="reqTime" id="8" indexed="3" label="请求时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="orderNo" id="7" indexed="1" label="订单号" row="1" sortType="2" type="0" typepara="/apiBusRecord/getById;orderNo-orderNo;query-'query'" width="200" widthType="1"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="certiReceTransBaseList" para="eadis_page" title="账款转让列表（权证信息）" type="2">
+<tableitem align="2" filedname="certiStartDate" id="9" indexed="5" label="合同/发票日" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="remark" id="8" indexed="2" label="应收账款名称" mytitle="名称-remark;" sortType="2" type="4" typepara="/certiInfo/getCertiInfoById;certiId-certiId;appId-appId;onClick-CertiInfoList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="certiDueDate" id="7" indexed="9" label="应收账款到期日" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="receTransAmt" id="6" indexed="8" label="转让金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="recDate" id="5" indexed="7" label="转让日" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="certiAmount" id="4" indexed="6" label="合同/发票金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="certiNo" id="3" indexed="4" label="合同号/发票号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="certiId" id="11" indexed="11" label="权证id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="garage" id="2" indexed="3" label="买方" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="certiSts" id="10" indexed="10" label="状态" row="1" type="6" typepara="RECE_DEAL_STS" widthType="0"/>
+</table>

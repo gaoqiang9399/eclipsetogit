@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="compulsoryExecutionRecords" title="强制执行记录" type="2">
+<tableitem align="2" filedname="applicationExecution" id="3" indexed="0" label="申请执行标的" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="applicationExecutionAmount" id="2" indexed="1" label="申请执行标的金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="caseNo" id="5" indexed="2" label="案号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="caseStatus" id="4" indexed="3" label="案件状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="closedTime" id="7" indexed="4" label="创建时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fieldName" id="9" indexed="5" label="文本描述" row="1" type="0"/>
+<tableitem align="2" filedname="closedWay" id="6" indexed="5" label="结案方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="executed" id="10" indexed="6" label="已执行标的" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="executed_amt" id="11" indexed="7" label="已执行标的金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="executiveCourt" id="12" indexed="8" label="执行法院" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="exe_reason" id="13" indexed="9" label="执行案由" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="filingTime" id="8" indexed="10" label="立案时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="formatedClosedTime" id="15" indexed="11" label="格式化的创建时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="formatedFilingTime" id="14" indexed="12" label="格式化的立案时间" row="1" type="0" widthType="0"/>
+</table>

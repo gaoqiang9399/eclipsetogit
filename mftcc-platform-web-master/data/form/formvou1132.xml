@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1132" title="208.商铺使用权 GRT_P_STORE">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="storeAddress" fieldtype="1" fieldwidth="30" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="商铺地址" labelwidth="20" maxlength="120" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storeFlg" fieldsize="YES_NO" fieldtype="21" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="是否有无商铺使用权证书" labelwidth="20" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="storeNo" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="商铺使用权证书号码" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="storeArea" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="商铺面积（平方米）" maxlength="16" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="storeStartDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="使用权起始日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="storeEndDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="使用权到期日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="tenancyAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="年租金" maxlength="16" mustinput="0" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldsize="80" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="250" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="申请号" mustinput="" readonly="" row="5" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="vouAmt" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="担保金额" mustinput="" readonly="" row="6" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="担保类型" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaType" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="抵质押物类型" mustinput="" readonly="" row="5" />
+</form>

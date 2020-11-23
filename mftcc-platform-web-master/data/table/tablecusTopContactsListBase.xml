@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusTopContactsListBase" para="eadis_page" title="常用联系人" type="1">
+<tableitem align="2" filedname="relative" id="4" indexed="5" label="与实控人关系" type="6" typepara="CONTACTS_REL" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="12" indexed="11" label="-" row="1" type="5" typepara="/mfCusTopContactsInfo/getById;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusTopContactsInfo/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="12" label="-" row="1" type="5" typepara="/mfCusFamilyInfo/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="relTel" id="9" indexed="9" label="联系电话" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="relName" id="7" indexed="1" label="姓名" mytitle="姓名-relName" row="1" type="4" typepara="/mfCusTopContactsInfo/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusTopContactsInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+</table>

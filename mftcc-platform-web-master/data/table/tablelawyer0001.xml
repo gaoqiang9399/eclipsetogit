@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="lawyer0001" link="/mfOaLawyer/findByPage" title="OA律师管理信息表" type="1">
+<tableitem align="2" filedname="修改" id="9" indexed="7" label="-" row="1" type="5" typepara="/mfOaLawyer/getById1;id-id;onClick-MfOaLawyer_List.ajaxGetById(this);" widthType="0"/>
+<tableitem align="2" authority="operateState-5;operateState-6;operateState-7" filedname="删除" id="8" indexed="8" label="-" row="1" type="5" typepara="/mfOaLawyer/deleteAjax;id-id;onClick-ajaxTrDelete(this);" widthType="0"/>
+<tableitem align="2" filedname="hireEndTime" id="7" indexed="5" label="聘用结束日期" row="1" sortType="0" type="1" widthType="0"/>
+<tableitem align="2" filedname="remark" id="6" indexed="6" label="备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="hireStartTime" id="5" indexed="4" label="聘用开始日期" row="1" sortType="0" type="1" widthType="0"/>
+<tableitem align="2" filedname="premises" id="4" indexed="3" label="律师事务所名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="lawyerName" id="3" indexed="0" label="律师名称" row="1" sortType="2" type="4" typepara="/mfOaLawyer/getById;id-id;onClick-MfOaLawyer_List.ajaxGetById(this);" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="2" indexed="1" label="证件号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="1" indexed="2" label="手机号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

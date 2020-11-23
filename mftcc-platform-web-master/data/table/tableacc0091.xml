@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0091" para="eadis_page" link="/acLnPayPln/findByPage" title="还款计划表" type="1">
+<tableitem align="2" filedname="perdNo" id="1" indexed="1" label="期号" row="1" type="4" typepara="/acLnPayPln/getById;contNo-contNo;perdNo-perdNo;query-'query'"/>
+<tableitem align="2" filedname="contNo" id="2" indexed="2" label="合同号" row="1" type="4" typepara="/acLnPayPln/getById;contNo-contNo;perdNo-perdNo;query-'query'"/>
+<tableitem align="2" filedname="repayInstmAmt" id="3" indexed="3" label="实收金额" row="1" type="0" />
+<tableitem align="2" filedname="overDays" id="4" indexed="4" label="逾期天数" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="5" indexed="5" label="租金结算日期" row="1" type="0" />
+<tableitem align="2" filedname="instmAmt" id="6" indexed="6" label="本期支付租金" row="1" type="0" />
+<tableitem align="2" filedname="prcpAmt" id="7" indexed="7" label="本期支付本金" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="31" indexed="31" label="-" row="1" type="5" typepara="/acLnPayPln/getById;contNo-contNo;perdNo-perdNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/acLnPayPln/del;contNo-contNo;perdNo-perdNo;onClick-lkconfirm" width="2"/>
+</table>

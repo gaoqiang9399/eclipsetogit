@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="proquota0002" title="客户授信额度提升总汇表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="giveAmt" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="授信额度提升" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="restAmt" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="剩余额度" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="7"/>
+</form>

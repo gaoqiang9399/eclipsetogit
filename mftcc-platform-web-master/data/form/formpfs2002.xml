@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs2002" title="财务指标新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="公式编号" maxlength="3" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="formName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="公式名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="formDesc" fieldsize="100" fieldtype="5" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="旧准则公式描述" maxlength="800" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funcName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="旧准则实现类" maxlength="80" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="formFormula" fieldsize="98" fieldtype="5" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="旧准则逻辑表达式" maxlength="500" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="accRule" fieldsize="ACC_RULE" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="会计准则" maxlength="2" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportType" fieldsize="REPORT_TYPE" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="报表类型" mustinput="1" readonly="" row="3" />
+</form>

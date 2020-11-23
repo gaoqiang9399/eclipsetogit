@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cussaleproductDetail" title="销售产品">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="saleId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="productName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="产品名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="productNum" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="销售数量" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="productPrice" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="销售单价" maxlength="20" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="saleAmt" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="销售额" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="profitRate" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="销售毛利率" maxlength="20" mustinput="0" readonly="1" row="7" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="5" fieldname="remark" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="500" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw5" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="30" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="99" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="删除位 1 删除 0 默认" maxlength="1" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw6" fieldtype="99" formactiveid="32" horVer="1" labelalign="1" labelcol="1" labelname="金额预留字段" maxlength="20" mustinput="0" row="61"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw7" fieldtype="99" formactiveid="33" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="63"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw8" fieldtype="99" formactiveid="34" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="65"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw9" fieldtype="99" formactiveid="35" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="67"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosRaw10" fieldtype="99" formactiveid="36" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="69"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosLabour3" fieldtype="99" formactiveid="39" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="75"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosLabour4" fieldtype="99" formactiveid="40" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="77"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cosLabour5" fieldtype="99" formactiveid="41" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="79"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="cosRaw1" fieldtype="1" formactiveid="42" horVer="1" labelalign="1" labelcol="2" labelname="原料成本一" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="cosRaw2" fieldtype="1" formactiveid="43" horVer="1" labelalign="1" labelcol="3" labelname="原料成本二" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="cosRaw3" fieldtype="1" formactiveid="44" horVer="1" labelalign="1" labelcol="1" labelname="原料成本三" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="cosRaw4" fieldtype="1" formactiveid="45" horVer="1" labelalign="1" labelcol="2" labelname="原料成本四" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="cosLabour1" fieldtype="1" formactiveid="46" horVer="1" labelalign="1" labelcol="3" labelname="劳务成本一" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="cosLabour2" fieldtype="1" formactiveid="47" horVer="1" labelalign="1" labelcol="1" labelname="劳务成本二" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="profit" fieldtype="1" formactiveid="48" horVer="1" labelalign="1" labelcol="2" labelname="销售毛利润" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="49" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="saleId" readonly="" row="6"/>
+</form>

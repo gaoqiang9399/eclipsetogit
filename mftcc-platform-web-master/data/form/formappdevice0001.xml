@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="appdevice0001" title="移动端设备信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uuid" fieldtype="1" maxlength="100" formactiveid="2" labelalign="3" labelcol="1" labelname="存放安卓的IMEI或是苹果的uuid，如果有多个使用“，”分隔" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="deviceName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="3" labelcol="1" labelname="设备名称" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="deviceModel" fieldtype="1" maxlength="30" formactiveid="4" labelalign="3" labelcol="1" labelname="设备型号" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="osType" fieldtype="1" maxlength="20" formactiveid="5" labelalign="3" labelcol="1" labelname="android或是ios" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="osVersion" fieldtype="1" maxlength="10" formactiveid="6" labelalign="3" labelcol="1" labelname="操作系统版本" mustinput="0" row="6" />
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="recedisputed0001" title="应收账款争议申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedAppId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="争议申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disputedInitiatorNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="争议发起方" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedInitiatorName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="争议发起方姓名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disputedType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="争议类型1拒绝接受货物;2拒绝接收发票;3提供抗辩、反索或抵销" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relInvoiceNum" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="关联发票号" maxlength="400" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="争议原因" maxlength="400" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedDetail" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="争议货物明细" maxlength="400" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disputedResult" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="争议结果" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="争议解除时间" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appSts" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="争议申请状态0新增申请1审批中2审批通过3否决" maxlength="1" mustinput="0" row="5"/>
+</form>

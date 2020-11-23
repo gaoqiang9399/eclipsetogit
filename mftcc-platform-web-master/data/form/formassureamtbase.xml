@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assureamtbase" title="保证金管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureAmtId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureAmtChangeType" fieldsize="ASSURE_AMT_CHANGE_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="变更类型" maxlength="1" mustinput="1" onchange="MfBusAssureAmt_Insert.calcAmt();" row="1"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="变更时间" maxlength="19" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="changeAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="变更金额" maxlength="14" mustinput="1" onblur="MfBusAssureAmt_Insert.calcAmt();" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="balAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="当前余额" maxlength="20" mustinput="1" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureAmtSts" fieldsize="ASSURE_AMT_STS" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="保证金状态" maxlength="1" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="创建者编号" maxlength="20" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModNo" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="变更人" maxlength="20" mustinput="0" row="16"/>
+<formelement alt="200以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="reason" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="描述" maxlength="200" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="balAmtCalc" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="保证金余额计算用" mustinput="" readonly="" row="4"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfShareProfitConfigList" link="/mfShareProfitConfig/findByPage" para="eadis_page" title="分润配置" type="1">
+<tableitem align="2" filedname="matchType" id="6" indexed="6" label="匹配类型" row="1" sortType="2" type="6" typepara="MATCH_TYPE" width="25" widthType="0"/>
+<tableitem align="2" filedname="configName" id="5" indexed="5" label="配置名称" mytitle="配置名称-configName" row="1" sortType="2" type="4" typepara="/mfShareProfitConfig/getById;id-id;onClick-MfShareProfitConfig_List.getById;subStringNub-13;" width="25" widthType="0"/>
+<tableitem align="2" filedname="选择" id="10" indexed="10" label="-" row="1" type="5" typepara="/mfShareProfitConfig/getByIdAjax;id-id;onClick-MfShareProfitConfig_List.choseShareProfitConfig;" width="10" widthType="0"/>
+<tableitem align="2" filedname="calcCoefficient" id="9" indexed="9" label="计算系数" sortType="2" type="6" typepara="CALC_COEFFICIENT" width="20" widthType="0"/>
+<tableitem align="2" filedname="calcMethod" id="8" indexed="8" label="计算方式" row="1" sortType="2" type="6" typepara="CALC_METHOD" width="20" widthType="0"/>
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tableCommissionChangeRecordDetailList_Finc" para="eadis_page" title="分润记录明细表" type="1">
+<tableitem align="2" filedname="changeAmt" id="5" indexed="11" label="分润金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="5" label="项目名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="12" indexed="10" label="放款本息" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="11" indexed="6" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="12" label="分润日期" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="8" indexed="7" label="借据金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+</table>

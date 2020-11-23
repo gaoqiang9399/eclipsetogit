@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="CusPersCashFlowAnalysisDetail" title="个人客户现金流分析">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="现金流ID" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="copBankAverageDaily" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="合作行日均存款（近6个月）" maxlength="20" mustinput="0" param="cusNo;" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="otherBankAverageDaily" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="他行日均存款（近6个月）" maxlength="20" mustinput="0" param="cusNo;" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cashFlowMatchBus" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="现金流量与经营规模是否匹配" maxlength="1" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashOcctimeMatchBus" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="现金发生时间与经营是否匹配" maxlength="1" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="creditCardCash" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="信用卡是否经常取现" maxlength="1" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="largeCapitalFlows" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="是否有大额异常资金流动" maxlength="1" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="dailySaveCompareApp" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="4" labelname="日均存款与申请额度比例" maxlength="20" mustinput="0" param="cusNo;" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="200" mustinput="0" param="cusNo;" row="7"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="avgMonthCashFlow" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="近6月平均每月现金流出量" maxlength="14" mustinput="" param="cusNo;" readonly="" row="5" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cashFlowNormalFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="现金流入、流出对象是否正常" mustinput="" param="cusNo;" readonly="" row="5"/>
+</form>

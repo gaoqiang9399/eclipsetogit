@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0097" title="还款计划历史表">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="perdNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="期号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="traceNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="流水号" maxlength="18" mustinput="0" row="2"/>
+</form>

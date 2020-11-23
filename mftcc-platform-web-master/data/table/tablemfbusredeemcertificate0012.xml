@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusredeemcertificate0012" para="eadis_page" title="机动车合格证信息" type="2">
+<tableitem align="2" filedname="regulationPattern" id="23" indexed="24" label="监管方式" row="1" sortType="1" type="6" typepara="SUPERVISE_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="certificateState" id="21" indexed="25" label="合格证状态" row="1" sortType="1" type="6" typepara="VC_CERTIFICATE_STATE" width="10" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="15" label="单价(元)" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="certificateId" id="44" indexed="3" label="certificateId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="storageTime" id="15" indexed="6" label="入库日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="7" label="车架号" row="1" sortType="1" type="0" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-VcVehicleCertificate_List.getDetailPage(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="base" id="2" indexed="5" label="基地" row="1" sortType="1" type="6" typepara="BASE_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="loanVoucherType" id="10" indexed="16" label="放款属性" sortType="1" type="6" typepara="VC_LOAN_VOUCHER_TYPE" width="10" widthType="0"/>
+</table>

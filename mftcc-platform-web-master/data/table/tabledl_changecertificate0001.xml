@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_changecertificate0001" para="eadis_page" title="换证申请主表" trDbClick="/vcChangeCertificateApply/viewChangeCertificateApply;changeId-changeId;query-'view';onDbClick-VcChangeCertificateApplyList.getDetailPage(this);" type="1">
+<tableitem align="2" filedname="changeId" id="19" indexed="2" label="单据编号" row="1" type="4" typepara="/vcChangeCertificateApply/viewChangeCertificateApply;changeId-changeId;query-'view';onClick-VcChangeCertificateApplyList.getDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="审批信息" id="20" indexed="27" label="-" row="1" type="5" typepara="/viewWfHisTask/getWfHistTaskInfo;appId-changeId;onClick-viewWfHisTask(this);" width="2" widthType="0"/>
+<tableitem align="2" authority="changeCertificatests-02;changeCertificatests-03;changeCertificatests-04;" filedname="发起审批" id="18" indexed="26" label="-" row="1" type="5" typepara="/vcChangeCertificateApply/approveAjax;changeId-changeId;onClick-approve;" width="2" widthType="0"/>
+<tableitem align="2" authority="changeCertificatests-02;changeCertificatests-03;changeCertificatests-04;" filedname="修改" id="17" indexed="24" label="-" row="1" type="5" typepara="/vcChangeCertificateApply/viewChangeCertificateApply;changeId-changeId;query-'update';onClick-VcChangeCertificateApplyList.openNewDiv(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="6" indexed="8" label="发起时间" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="remark" id="15" indexed="20" label="备注" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="changeCertificatests" id="14" indexed="18" label="审批状态" row="1" type="6" typepara="VC_APPROVAL_STATUS" width="15" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="13" indexed="7" label="经销商" mytitle="模板内容-dealerName" type="3" typepara="13" width="15" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="3" indexed="10" label="发起人" row="1" type="0" width="15" widthType="0"/>
+</table>

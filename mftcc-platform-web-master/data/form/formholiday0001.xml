@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="holiday0001" title="法定节日维护表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="holidayName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="假日名称" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="开始日期" maxlength="12" mustinput="0" onclick="fPopUpCalendarDlg()" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="结束日期" maxlength="12" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="firstworkDay" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="节后第一个工作日" maxlength="12" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="4" />
+</form>

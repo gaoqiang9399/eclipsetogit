@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="salesoptionslist" para="eadis_page" title="销售方案" type="1">
+<tableitem align="3" filedname="remittance" id="23" indexed="16" label="上牌需汇（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="22" indexed="18" label="-" row="1" type="5" typepara="/mfSalesOptions/deleteAjax;salesOptionsId-salesOptionsId;onClick-MfSalesOptions_List.deleteSales;" widthType="0"/>
+<tableitem align="3" filedname="purchaseTax" id="19" indexed="12" label="购置税（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="carSalesPrice" id="18" indexed="11" label="销售价格（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="modelName" id="7" indexed="3" label="车型" mytitle="车型-modelName;" row="1" sortType="2" type="4" typepara="/mfSalesOptions/getById;salesOptionsId-salesOptionsId;onClick-MfSalesOptions_List.getById;subStringNub-20;" widthType="0"/>
+<tableitem align="3" filedname="insuranceFee" id="16" indexed="13" label="保险费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="registerFee" id="15" indexed="14" label="上牌费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="fullPackagePrice" id="14" indexed="17" label="全包价（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="seriesName" id="5" indexed="5" label="车系" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="brandName" id="3" indexed="4" label="品牌" row="1" sortType="2" type="0" widthType="0"/>
+</table>

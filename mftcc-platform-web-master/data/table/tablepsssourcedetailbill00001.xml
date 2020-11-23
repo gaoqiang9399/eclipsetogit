@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssourcedetailbill00001" para="eadis_page" title="收付核源单明细表" type="2">
+<tableitem align="3" filedname="sourceBillAmt" id="9" indexed="12" label="单据金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="sourceBillDate" id="8" indexed="11" label="单据日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="sourceBillNo" id="6" indexed="6" label="源单编号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="sourceBillType" id="14" indexed="8" label="业务类别" row="1" type="6" typepara="PSS_FUND_BILL_BUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="sourceBillType" id="13" indexed="9" label="业务类别" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="3" filedname="currCancelAmt" id="12" indexed="15" label="本次核销金额" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="3" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="3" filedname="notCancelAmt" id="11" indexed="14" label="未核销金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="comCancelAmt" id="10" indexed="13" label="已核销金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+</table>

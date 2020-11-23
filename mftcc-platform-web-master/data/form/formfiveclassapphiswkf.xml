@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fiveclassapphiswkf" title="五级分类流程图显示表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fiveclass" fieldsize="FIVE_STS" fieldstyle="half" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="五级分类" mustinput="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldstyle="half" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户经理姓名" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="客户经理归属部门" mustinput="" readonly="1" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="登记日期" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeReason" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="调整原因" maxlength="200" mustinput="0" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fiveclassId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="五级分类信息id" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opinionType" fieldstyle="half" fieldtype="8" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="意见类型" mustinput="0" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="0" readonly="" row="2"/>
+</form>

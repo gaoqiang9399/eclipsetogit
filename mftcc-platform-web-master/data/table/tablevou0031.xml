@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou0031" para="eadis_page" link="/vouMCar/findByPage" title="抵押物-车辆表" type="1">
+<tableitem align="2" filedname="vouNo" id="1" indexed="1" label="担保编号" row="1" type="4" typepara="/vouMCar/getById;vouNo-vouNo;query-'query'"/>
+<tableitem align="2" filedname="carType" id="2" indexed="2" label="车辆类别" row="1" type="0" />
+<tableitem align="2" filedname="carBrand" id="3" indexed="3" label="车辆品牌" row="1" type="0" />
+<tableitem align="2" filedname="frameNo" id="4" indexed="4" label="车架号" row="1" type="0" />
+<tableitem align="2" filedname="sengineNo" id="5" indexed="5" label="发动机号码" row="1" type="0" />
+<tableitem align="2" filedname="carNo" id="6" indexed="6" label="车牌号码" row="1" type="0" />
+<tableitem align="2" filedname="driveNo" id="7" indexed="7" label="行驶证号码" row="1" type="0" />
+<tableitem align="2" filedname="carCircs" id="8" indexed="8" label="车辆情况" row="1" type="0" />
+<tableitem align="2" filedname="matureYear" id="9" indexed="9" label="行驶到期年限" row="1" type="0" />
+<tableitem align="2" filedname="driveKm" id="10" indexed="10" label="行驶里程（公里）" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="18" indexed="18" label="-" row="1" type="5" typepara="/vouMCar/deleteAjax;vouNo-vouNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

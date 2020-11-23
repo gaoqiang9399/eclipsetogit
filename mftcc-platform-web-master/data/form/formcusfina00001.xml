@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cusfina00001" title="金融业务信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="license" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="营业执照号码" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="basicBank" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="基本账号开户行" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="basicBankAccount" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="基本账户账号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="exaApper" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="基本开户审批机关" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="forlicNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="开户许可证准号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="forlicCode" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="外汇许可证号码" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finalTel" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="财务部联系方式" maxlength="20" mustinput="0" row="5"/>
+</form>

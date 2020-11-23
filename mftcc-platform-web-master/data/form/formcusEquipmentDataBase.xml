@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusEquipmentDataBase" title="设备数据_铁甲网">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="关联编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="客户经理编号" maxlength="22" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="5" labelname="客户经理姓名" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="equipmentNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="设备编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipmentBrand" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="设备品牌" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="equipmentType" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="设备型号" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="deviceNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="机号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="engineNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="发动机号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipmentProduce" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="出产年限" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="workTime" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="工作时间" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equipmentAttr" fieldsize="DEVICE_ATTR" fieldtype="2" formactiveid="14" labelalign="3" labelcol="1" labelname="设备属性" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nowPlace" fieldtype="1" formactiveid="15" labelalign="3" labelcol="3" labelname="设备所在地" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="dealPrice" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="成交价格" maxlength="20" mustinput="0" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="masterName" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="机主姓名" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="deviceStatus" fieldsize="DEVICE_STATUS" fieldtype="2" formactiveid="18" labelalign="3" labelcol="3" labelname="设备状态" maxlength="1" mustinput="0" row="6"/>
+<formelement alt="请输入11位正确的手机号码" datatype="1" fieldalign="1" fieldcol="4" fieldname="masterPhone" fieldtype="1" formactiveid="19" labelalign="3" labelcol="3" labelname="机主电话" maxlength="20" mustinput="0" row="7"/>
+</form>

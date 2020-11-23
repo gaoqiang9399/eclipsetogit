@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_changecertificate0004" para="eadis_page" title="审批流程信息" type="2">
+<tableitem align="2" filedname="result" id="6" indexed="7" label="审批结果" row="1" type="6" typepara="APPROVAL_RESULT" width="5" widthType="0"/>
+<tableitem align="2" filedname="description" id="5" indexed="1" label="任务节点" row="1" type="11" width="5" widthType="0"/>
+<tableitem align="2" filedname="end" id="4" indexed="4" label="结束时间" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="assignee" id="3" indexed="6" label="审批人" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="create" id="2" indexed="2" label="开始时间" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="state" id="1" indexed="1" label="状态" type="6" typepara="VC_TASK_STS" width="2" widthType="0"/>
+<tableitem align="2" filedname="approveIdea" id="7" indexed="8" label="审批意见" row="1" type="0" width="5" widthType="0"/>
+</table>

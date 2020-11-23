@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+
+* {
+	font-family: "微软雅黑";
+}
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+ul, li {
+	list-style: none;
+}
+nav{
+	
+}
+main {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-moz-box-shadow: 0px 0px 25px #000000;
+	-webkit-box-shadow: 0px 0px 25px #000000;
+	box-shadow: 0px 0px 25px #000000;
+}
+
+.header {
+	display: block;
+	top: 0px;
+	height: 45px;
+	left: 0px;
+	right: 0px;
+	background-color: #414649;
+}
+
+.header .weui-row {
+	height: 100%;
+}
+
+.header .header-icon {
+	height: 100%;
+}
+
+.header .header-icon a {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: block;
+}
+
+.header .header-icon .i {
+	font-size: 28px;
+	color: #ffffff;
+}
+
+.header .header-center {
+	height: 100%;
+	text-align: center;
+	padding: 7px 0px;
+	color: #ffffff;
+}
+
+.mainbody {
+	display: block;
+	top: 45px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #ffffff;
+	position: absolute;
+}
+
+.slideout-menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	width: 175px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+	display: none;
+	background-color: #EBEDEE;
+}
+
+.slideout-panel {
+	position: relative;
+	z-index: 1;
+	will-change: transform;
+}
+
+.slideout-open, .slideout-open body, .slideout-open .slideout-panel {
+	overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+	display: block;
+}
+
+.slideout-menu header {
+	
+}
+
+.slideout-menu footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.slideout-menu footer>a {
+	margin-top: 8px;
+}
+
+.menu-body {
+	background-color: #F7F6F9;
+	position: absolute;
+	top: 90px;
+	bottom: 40px;
+	left: 0px;
+	right: 0px;
+}
+
+.menu-body li {
+	height: 2rem;
+	border-bottom: 1px solid #dddddd;
+}
+
+.menu-body li.curr {
+	background-color: #4ECF58;
+}
+
+.menu-body li>a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	line-height: 2rem;
+}
+
+.menu-body li>a>i {
+	font-size: 1rem;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	color: #8A8A8A;
+	float: left;
+}
+
+.menu-body li>a>span {
+	text-align: left;
+	display: inline-block;
+	line-height: 2rem;
+	color: #8A8A8A;
+	font-size: 0.5rem;
+}
+
+.menu-body li.curr>a>i {
+	color: #fff;
+}
+
+.menu-body li.curr>a>span {
+	color: #fff;
+}
+
+.weui_media_box.weui_media_appmsg .weui_media_hd {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 40px;
+	background-color: #000;
+}
+
+.weui_media_box.weui_media_appmsg .weui_media_appmsg_thumb {
+	vertical-align: middle;
+}

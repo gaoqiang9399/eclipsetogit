@@ -1,0 +1,84 @@
+.validateSetting {
+  display: none;
+  height: 170px;
+  background: #ffffff;
+  border: 1px solid #d9534f;
+  position: relative;
+  border-collapse: collapse;
+}
+.validateSetting .btn {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  padding: 0;
+  margin-top: -1px;
+}
+.validateSetting .button-x-1 {
+  width: 25px;
+}
+.validateSetting .button-x-2 {
+  width: 99px;
+}
+.validateSetting .button-y-2 {
+  height: 59px;
+}
+.validateSetting #keypad,
+.validateSetting #operator {
+  float: left;
+  margin-top: 10px;
+}
+.validateSetting #keypad .margin-left-1,
+.validateSetting #operator .margin-left-1 {
+  margin-left: -1px;
+}
+.validateSetting #keypad {
+  margin-left: 10px;
+  width: 171px;
+  height: 150px;
+}
+.validateSetting #operator {
+  margin-left: 10px;
+  width: 196px;
+  height: 150px;
+}
+.validateSetting #valalidateCtrl {
+  margin-top: 10px;
+  float: left;
+  margin-left: 10px;
+  height: 30px;
+  width: 550px;
+}
+.validateSetting #valalidateCtrl .dropdown {
+  margin-top: -1px;
+  margin-left: 2px;
+}
+.validateSetting #valalidateCtrl .dropdown .selected,
+.validateSetting #valalidateCtrl .dropdown li {
+  height: 27px;
+  line-height: 27px;
+}
+.validateSetting #valalidateCtrl .btn-group {
+  margin-left: 4px;
+}
+.validateSetting #valalidateCtrl .nav_button {
+  margin-right: 2px;
+}
+.validateSetting #valalidateCtrl .btn {
+  width: 75px;
+  height: 29px;
+  line-height: 29px;
+}
+.validateSetting #valalidateShow {
+  float: left;
+  margin-left: 10px;
+  padding: 2px 2px 0;
+  width: 550px;
+}
+.validateSetting #valalidateShow textarea {
+  height: 113px;
+  resize: none;
+}
+.validateSetting #valalidateShow .form-control:focus {
+  border: 1px solid #dadada;
+}

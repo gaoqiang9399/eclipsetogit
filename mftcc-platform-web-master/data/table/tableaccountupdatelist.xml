@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="accountupdatelist" para="eadis_page" title="账号变更列表" type="1">
+<tableitem align="2" filedname="历史记录" id="18" indexed="16" label="-" row="1" type="5" typepara="/mfBusFincApp/getHistory;pactId-pactId;cusNo-cusNo;onClick-getHistory(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="repayAccount" id="17" indexed="13" label="还款账户" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayBank" id="16" indexed="14" label="开户行" mytitle="开户行-repayBank" row="1" sortType="2" type="3" typepara="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-getDetailPage(this);subStringNub-12;" width="130" widthType="1"/>
+<tableitem align="2" filedname="账号变更" id="15" indexed="15" label="-" type="5" typepara="/mfBusFincApp/bankAccUpdate;pactId-pactId;appId-appId;onClick-bankAccUpdate(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="2" filedname="usableFincAmt" id="13" indexed="11" label="可支用金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="4" label="合同金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="10" indexed="12" label="合同期限" row="1" sortType="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusWarehouseOrgList" link="/mfCusWarehouseOrg/findByPage" para="eadis_page" title="仓储机构" type="1">
+<tableitem align="2" filedname="regTime" id="15" indexed="15" label="创建时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="6" indexed="6" label="联系人手机号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsName" id="5" indexed="5" label="联系人姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="仓储机构名称" mytitle="仓储机构名称-cusName" row="1" sortType="2" type="4" typepara="/mfCusWarehouseOrg/getWarehouseOrgView;id-id;busEntrance-'cus_warehouse_org';onClick-MfCusWarehouseOrg_List.getById;" widthType="0"/>
+<tableitem align="2" filedname="opName" id="11" indexed="11" label="创建人" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="8" indexed="8" label="证件号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="idType" id="7" indexed="7" label="证件类型" row="1" sortType="2" type="6" typepara="ID_TYPE" widthType="0"/>
+</table>

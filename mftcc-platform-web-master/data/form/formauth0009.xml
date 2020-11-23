@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form id="auth0009" title="授信详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="authMode" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="授信类型" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="客户类型" maxlength="1" mustinput="0" row="10"/>
+</form>

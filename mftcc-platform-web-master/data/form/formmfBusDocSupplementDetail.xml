@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfBusDocSupplementDetail" title="业务要件补充详情页面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="合同期限" maxlength="500" mustinput="0" readonly="1" row="2"/>
+</form>

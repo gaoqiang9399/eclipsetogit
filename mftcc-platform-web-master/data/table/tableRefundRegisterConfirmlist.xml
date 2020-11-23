@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="RefundRegisterConfirmlist" para="eadis_page" title="退费确认列表" type="1">
+<tableitem align="2" filedname="refundSts" id="88" indexed="15" label="状态" row="1" sortType="2" type="6" typepara="REFUND_STS" widthType="0"/>
+<tableitem align="2" authority="refundSts-2" filedname="退费确认" id="87" indexed="18" label="-" row="1" type="5" typepara="/mfRefundRegister/input;id-id;from-'confirm';onClick-MfRefundRegister_ConfirmList.applyInsert" width="2" widthType="0"/>
+<tableitem align="2" filedname="详情" id="86" indexed="17" label="-" type="5" typepara="/mfRefundRegister/getById;id-id;from-'confirm';onClick-MfRefundRegister_ConfirmList.detail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="refundAmt" id="82" indexed="13" label="应退费总额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="80" indexed="3" label="委托担保合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfRefundRegister_ConfirmList.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="refundBond" id="9" indexed="11" label="应退保证金（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="6" indexed="5" label="担保金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="refundHandAmt" id="5" indexed="8" label="应退手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="refundGuaranteeAmt" id="3" indexed="6" label="应退担保费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="actualRefundAmt" id="12" indexed="14" label="实际退费金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="4" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfRefundRegister_ConfirmList.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

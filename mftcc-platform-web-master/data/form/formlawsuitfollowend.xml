@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lawsuitfollowend" title="法律诉讼跟进终结表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="followId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="跟进事件编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="跟进备注" maxlength="200" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="案件编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="followType" fieldsize="FOLLOW_TYPE" fieldstyle="half" fieldtype="2" formactiveid="20" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="跟进类型" mustinput="1" onchange="MfLawsuitFollow_Insert.followTypeChange();" readonly="" row="1" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="followDate" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="日期" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="1" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this)'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseState" fieldsize="CASE_STATE" fieldtype="2" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="案件状态" mustinput="" readonly="" row="2"/>
+</form>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusAccountDetail_csd_show113" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="账户户名" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accountNo" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="卡号/折号" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="bank" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="开户行" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="启用状态" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="useType" fieldsize="FUND_ACC_TYPE" fieldtype="2" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="账户人身份" maxlength="1" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankNumbei" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="开户行号" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="3" labelname="唯一编号" mustinput="" readonly="" row="9" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="debitAmount" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="单笔最高扣款额度" maxlength="14" mustinput="" onblur="num_validate(debitAmount)" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="id" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="400" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cardType" fieldtype="90" formactiveid="25" labelalign="3" labelcol="1" labelname="账号类型：存折账号/银行卡号" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="26" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="reservedPhone" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="4" labelname="账户人联系电话" maxlength="11" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="证件号码" maxlength="18" mustinput="" onblur="func_uior_valFormat_tips(this, 'idnum');" readonly="" row="5"/>
+</form>

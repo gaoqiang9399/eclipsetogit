@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="akf0003" title="授信审批界面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="22" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="意见类型" maxlength="10" mustinput="1" param="1-同意|4-退回初审|2-否决|" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="审批意见" maxlength="20" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authAppNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="流程任务号" mustinput="" readonly="" row="1" />
+</form>

@@ -1,0 +1,155 @@
+.mf_content {
+    width: 1000px !important;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    background: #fff;
+    margin-top: 0px;
+   /*  padding-top: 20px; */
+    border: 1px solid #d9d9d9;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background: #f7f7f7;
+    width: 0px;
+    border-radius: 3px;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: #333 !important;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    color: #333 !important;
+    text-decoration: none;
+}
+/* 滚动条宽度 */
+.mCSB_dragger_bar{
+	margin-right: 0px !important;
+}
+table{
+	width:100%;
+}
+td {
+/* 	text-align:center;
+    text-align:justify;
+    text-justify:distribute-all-lines;
+    text-align-last:justify */
+    height: 30px;
+}
+input[type="text"],textarea {
+    font-size: 14px;
+    width:100%;
+   	height: 30px;
+    border-radius: 0px !important;
+  	/*  border: 1px solid #9a9797 !important;
+    height: 25px;
+    padding-left: 9px !important; */ 
+}
+.rows .input-box.focusStyle {
+    border-bottom: 0px solid #d41818;
+}
+textarea{
+	height:80px;
+	margin-top:15px;
+}
+.type_text{
+	 readonly:none;
+/*   	 border: 1px solid #d2d3d6 !important;
+ */  	 border-radius: 0px !important;
+    height: 30px;
+    padding-left: 9px !important; 
+}
+.arch_explain {
+    padding: 27px 30px 0;
+    height: 87px;
+    background: #c2e2f2;
+    color: #2483b3;
+}
+.arch_sort{
+	background: #fff;
+    padding:15px 20px 20px;
+}
+.arch_title{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    float:left;
+}
+.arch_label{
+	width:18%;
+	font-size: 14px;
+	color:#999;
+}
+.arch_cont{
+	width:32%;
+	padding-left:5px;
+	font-size: 14px;
+}
+.arch_holder{
+	width:10%;
+}
+.arch_span{
+	float:right;
+}
+select {
+	width:100%;
+}
+/* 给编辑按钮留位置 */
+#fafa{
+	width:95%;	
+}
+/* 加载页面后先隐藏
+ */
+ .work_divclass1 ,.education_divclass1 ,.reward_divclass1,.family_divclass1{
+ 	display:none;
+ }
+ .form-body{
+ 	border-top:0px ;
+ 	border: 0px solid #e3e3e3;
+ 	border-bottom:0px;
+ 	margin-top: 27px;
+ }
+.rows .input-box textarea {
+    margin-top: -5px;
+}
+.btn {
+    display: inline-block;
+    padding: 2px;
+}
+#headdiv .btn-link:hover,#headdiv .btn-link:focus {
+    color: #009db7 !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+#headdiv .head-word {
+    margin-top: 95px;
+    margin-left: 43px;
+    color: #9e9c9c;
+    font-size: 12px;
+}
+.form-body .rows {
+    border-bottom: 0px solid #fff;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+}
+.rows label.form-label {
+    height: 35px;
+    line-height: 35px;
+    width: 17%;
+    float: left;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0px 0px 8px 35px;
+    color: #7c7c7c;
+    border-right: 0 solid #E3E3E3;
+    font-weight: normal;
+}
+.rows .half {
+    padding: 0px 20px;
+}
+.editItemRight {
+	float : right;
+}

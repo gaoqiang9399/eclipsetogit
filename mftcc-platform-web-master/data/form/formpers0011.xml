@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pers0011" title="个人文档上传">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labeldirect="1" labelname="证件类型" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNo" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="证件号码" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldsize="SEX" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="性别" mustinput="" readonly="1" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nation" fieldsize="NATION" fieldtype="2" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="民族" mustinput="" readonly="1" row="9" />
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusequ00001" link="/mfCusEquityInfo/findByPage" para="eadis_page" title="股权投资情况" trDbClick=" /mfCusEquityInfo/getById;equityInfoId-equityInfoId;onDbClick-getCusInfoById(this);" type="1">
+<tableitem align="2" filedname="pushCapitalDate" id="5" indexed="11" label="成立日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="toCorpName" id="4" indexed="4" label="投向企业名称" mytitle="投向企业名称-toCorpName" row="1" type="4" typepara="/mfCusEquityInfo/listShowDetailAjax;equityInfoId-equityInfoId;cusNo-cusNo;oneUrl-'/mfCusEquityInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="12" label="-" row="1" type="5" typepara="/mfCusEquityInfo/deleteAjax;equityInfoId-equityInfoId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalScale" id="10" indexed="9" label="股权比例(%)" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalAtm" id="9" indexed="8" label="投资金额(元)" row="1" type="0" width="20" widthType="0"/>
+</table>

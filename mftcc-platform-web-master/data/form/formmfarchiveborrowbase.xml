@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfarchiveborrowbase" title="借阅申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="申请档案名称" maxlength="50" mustinput="0" onclick="MfArchiveBorrow.archivesinsert();" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyUserName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="申请人姓名" maxlength="50" mustinput="1" row="3" unit="&lt;i class='i i-fangdajing pointer' onclick='MfArchiveBorrow.getusertinfo();'&gt;&lt;/i&gt;"/>
+<formelement alt="最多可输入200汉字" datatype="0" fieldalign="1" fieldcol="2" fieldname="applyCause" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="申请原因" maxlength="200" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="档案编号" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="applyTime" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="申请时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyUserNo" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="applyUserNo" mustinput="" readonly="" row="1"/>
+</form>

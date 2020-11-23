@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dockindyf" title="打包下载">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="角色编号" maxlength="10" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="接收人编号" maxlength="30" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="pointer" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="结束日期" mustinput="" onclick="fPopUpCalendarDlg(this)" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="date" fieldstyle="pointer" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="开始日期" mustinput="" onclick="fPopUpCalendarDlg(this)" readonly="" row="1"/>
+</form>

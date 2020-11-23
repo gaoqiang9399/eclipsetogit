@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cusproduct0001" title="主要产品或服务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="productName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="主要产品/服务名称" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="salesScale" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="年销售规模" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ratio" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="占比" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="coseStructure" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="主要成本构成" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="productForCore" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="为核心企业提供的产品/服务" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="annualTurnoverWithCore" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="与核心企业年交易额" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="备注" maxlength="400" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="更新时间" maxlength="17" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="登记人姓名" maxlength="40" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="登记部门名称" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="" maxlength="100" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="" maxlength="100" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="" maxlength="100" mustinput="0" row="11"/>
+</form>

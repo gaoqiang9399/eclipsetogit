@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivefamilydetail" title="OA人事档案家庭成员表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="familyId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="家庭成员id" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="员工id" maxlength="22" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relishion" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="称谓" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="name" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="姓名" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="age" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="年龄" maxlength="3" mustinput="0" row="1" unit="岁"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="workAddr" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="工作单位" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="position" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="职务" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldcolspan="2" fieldname="homeAddr" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="家庭住址" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tel" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="联系方式" maxlength="15" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="birthday" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="出生日期" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="profession" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="3" labelname="职业" mustinput="" readonly="" row="3"/>
+</form>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="kingsoftcontactlist" link="/mfKingsoftCusContactlist/findByPage" para="eadis_page" title="金山紧急联系人列表" type="1">
+<tableitem align="2" filedname="idCardNo" id="5" indexed="5" label="身份证号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="relation" id="4" indexed="4" label="联系人与员工关系" row="1" type="0"/>
+<tableitem align="2" filedname="contactPhone" id="3" indexed="3" label="联系人手机号" row="1" type="0"/>
+<tableitem align="2" filedname="contactName" id="2" indexed="2" label="联系人姓名" row="1" type="0"/>
+</table>

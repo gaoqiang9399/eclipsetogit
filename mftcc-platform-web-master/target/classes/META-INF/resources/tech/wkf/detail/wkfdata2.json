@@ -1,0 +1,55 @@
+[
+	{
+		"id": "start",
+		"name": "开始",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "node7518992176",
+		"type": "start"
+	}, {
+		"id": "end4688353566",
+		"name": "结束",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "",
+		"type": "end"
+	}, {
+		"id": "node7518992176",
+		"name": "面签",
+		"group": "HQ0001",
+		"groupName": "",
+		"user": "lyf",
+		"userName": "刘远飞",
+		"nextName": "node1742939642",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 11:00:38",
+		"end": "2017-04-28 11:00:39",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"pactId": "CONT17042810592103673"
+		}
+	}, {
+		"id": "node1742939642",
+		"name": "法务",
+		"group": "LSP004LSP004,LSP004,LSP004,LSP004,LSP004,LSP004",
+		"groupName": "",
+		"user": "1013,15038167586,1000,lyf,15937185623,0000",
+		"userName": "董总,袁爱中,体验用户,刘远飞,孙晓燕,0000",
+		"nextName": "end4688353566",
+		"type": "task",
+		"state": "open",
+		"create": "2017-04-28 11:00:39",
+		"end": "",
+		"result": "",
+		"approveIdea": "",
+		"appValue": {
+			"pactId": "CONT17042810592103673"
+		}
+	}
+]

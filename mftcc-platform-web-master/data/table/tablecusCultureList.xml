@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusCultureList" para="eadis_page" link="/mfCusCulture/findByPage" title="养殖概况" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户编号" row="1" type="4" typepara="/mfCusCulture/getById;cusNo-cusNo;relNo-relNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名" row="1" type="0" />
+<tableitem align="2" filedname="multiManage" id="3" indexed="3" label="是否涉及多种经营 0否 1是" row="1" type="0" />
+<tableitem align="2" filedname="manageContent" id="4" indexed="4" label="经营内容" row="1" type="0" />
+<tableitem align="2" filedname="animalCard" id="5" indexed="5" label="动物防疫条件合格证 0无 1有" row="1" type="0" />
+<tableitem align="2" filedname="registForm" id="6" indexed="6" label="建设项目环境影响登记表 0无 1有" row="1" type="0" />
+<tableitem align="2" filedname="useCard" id="7" indexed="7" label="水域滩涂养殖使用证 0无 1有" row="1" type="0" />
+<tableitem align="2" filedname="recordProof" id="8" indexed="8" label="养殖用地备案证明 0无 1有" row="1" type="0" />
+<tableitem align="2" filedname="cardsExplain" id="9" indexed="9" label="养殖三证说明" row="1" type="0" />
+<tableitem align="2" filedname="scale" id="10" indexed="10" label="养殖规模" row="1" type="0" />
+<tableitem align="2" filedname="years" id="11" indexed="11" label="养殖年限 单位年" row="1" type="0" />
+<tableitem align="2" filedname="seedFactory" id="12" indexed="12" label="苗种厂家" row="1" type="0" />
+<tableitem align="2" filedname="recycleFirm" id="13" indexed="13" label="冷藏回收企业" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="14" indexed="14" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="15" indexed="15" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="16" indexed="16" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="17" indexed="17" label="登记部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="18" indexed="18" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="19" indexed="19" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="20" indexed="20" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="21" indexed="21" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="25" indexed="25" label="" row="1" type="0" />
+<tableitem align="2" filedname="relNo" id="26" indexed="26" label="关联编号" row="1" type="4" typepara="/mfCusCulture/getById;cusNo-cusNo;relNo-relNo;query-'query'"/>
+<tableitem align="2" filedname="删除" id="28" indexed="28" label="-" row="1" type="5" typepara="/mfCusCulture/deleteAjax;cusNo-cusNo;relNo-relNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="costregdetail" title="费用登记列表详情表单">
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="litigationAmount" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="诉讼金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="filingFee" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="立案费" maxlength="10" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="saveCost" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="保全费" maxlength="10" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="securityPremium" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="保险费" maxlength="10" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="appraisalCost" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="鉴定费" maxlength="10" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="announcementFee" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="公告费" maxlength="10" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="executionFee" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="执行费" maxlength="10" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="postFee" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="邮寄费" maxlength="10" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="barFee" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="律师费" maxlength="10" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="otherCharges" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelname="其他费用" maxlength="10" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="totalExpenses" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="3" labelname="费用总额" maxlength="10" mustinput="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="litigationId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="申请ID" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assessmentFee" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="评估费用" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="advancePayFee" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="3" labelname="垫付费用退还" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="费用说明" maxlength="200" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeType" fieldsize="COST_TYPE" fieldtype="2" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="费用类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="feeAmt" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="费用金额" maxlength="14" mustinput="" param="litigationId;" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="4" labelname="entityPrimarykeys" mustinput="" readonly="" row="5"/>
+</form>

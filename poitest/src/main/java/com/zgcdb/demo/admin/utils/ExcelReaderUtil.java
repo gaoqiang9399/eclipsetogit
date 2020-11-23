@@ -18,8 +18,8 @@ public class ExcelReaderUtil {
      * @methodName: readExcel 读取excel工具类
      * @param: [is, tClass]  传入的实体类,成员变量类型只能是基本类型和字符串
      * @return: java.util.List<T>
-     * @auther: hwj
-     * @date: 2019/8/9 11:24
+     * @auther: 高强
+     * @date: 2020/11/23 11:24
      * @Description: 读取excel文件,将其转换为javabean
      */
     public static <T> List<T> readExcel2Bean(InputStream is, Class<T> tClass)

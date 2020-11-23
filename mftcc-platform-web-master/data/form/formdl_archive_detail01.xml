@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_archive_detail01" title="归档文件补充-归档明细信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="归档编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="文档类型" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="明细分类" maxlength="50" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="场景名称" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="docBizNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="业务场景编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperAddr" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="存储位置" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperNo" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperKeeperNo" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="保管人" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperKeeperName" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="保管人名称" mustinput="" readonly="" row="1"/>
+</form>

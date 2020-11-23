@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawnaccrec0002" title="质押应收账款">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buyerName" fieldtype="1" maxlength="80" formactiveid="2" labelalign="3" labelcol="3" labelname="购货商名称" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accRecCt" fieldtype="1" maxlength="2" formactiveid="3" labelalign="3" labelcol="1" labelname="币种" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accRecAmount" fieldtype="1" maxlength="16" formactiveid="4" labelalign="3" labelcol="3" labelname="应收帐款金额" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accRecDueDate" fieldtype="1" maxlength="8" formactiveid="5" labelalign="3" labelcol="1" labelname="付款到期日期" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accRecMonths" fieldtype="1" maxlength="0" formactiveid="6" labelalign="3" labelcol="3" labelname="帐龄(月)" mustinput="0" row="3"/>
+</form>

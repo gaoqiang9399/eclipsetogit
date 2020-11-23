@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="enterprisealterinfos001" title="变更信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="altDate" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="变更日期" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="altItem" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="变更事项" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="altBe" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="变更前内容" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="altAf" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="变更后内容" mustinput="" readonly="1" row="3"/>
+</form>

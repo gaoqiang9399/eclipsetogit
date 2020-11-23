@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0021" para="eadis_page" link="/acRatAdjDtlLog/findByPage" title="利率调整日志明细表" type="1">
+<tableitem align="2" filedname="contNo" id="1" indexed="1" label="合同号" row="1" type="4" typepara="/acRatAdjDtlLog/getById;traceNo-traceNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="traceNo" id="2" indexed="2" label="交易流水号" row="1" type="4" typepara="/acRatAdjDtlLog/getById;traceNo-traceNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="perdNo" id="3" indexed="3" label="期号" row="1" type="0" />
+<tableitem align="2" filedname="begDt" id="4" indexed="4" label="起始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDt" id="5" indexed="5" label="结束日期" row="1" type="0" />
+<tableitem align="2" filedname="prcpAcm" id="6" indexed="6" label="本金积数" row="1" type="0" />
+<tableitem align="2" filedname="intstAcm" id="7" indexed="7" label="利息积数" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="10" indexed="10" label="-" row="1" type="5" typepara="/acRatAdjDtlLog/getById;traceNo-traceNo;contNo-contNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/acRatAdjDtlLog/del;traceNo-traceNo;contNo-contNo;onClick-lkconfirm" width="2"/>
+</table>

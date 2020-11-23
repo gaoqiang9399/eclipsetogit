@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script type="text/javascript" src="js/macarons.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var myCharts0_1 = echarts.init(document.getElementById("main0-1"));
+				var myCharts0_2 = echarts.init(document.getElementById("main0-2"));
+				var myCharts0_3 = echarts.init(document.getElementById("main0-3"));
+				var myCharts0_4 = echarts.init(document.getElementById("main0-4"));
+				option = {
+					title: {
+						show: true,
+						subtext: "",
+						subtextStyle: {
+							color: '#7A7A7A',
+							fontSize: 14
+						},
+						right: "25%",
+						top: "25%",
+						padding: 5
+					},
+					tooltip: {
+						trigger: 'item',
+						formatter: " {b} ({d}%)"
+					},
+					legend: {
+						show: true,
+						data: [{
+							name: '服务器内存运行情况',
+							icon: 'roundRect',
+							textStyle: {
+								fontWeight: 'bold',
+								color: '#7A7A7A'
+							}
+						}],
+						left: 'left'
+					},
+					series: [{
+						name: 'NH',
+						type: 'pie',
+						radius: ['30%', '45%'],
+						center: ['25%', '50%'],
+						labelLine: {
+							normal: {
+								show: false
+							}
+						},
+						label: {
+							normal: {
+								show: false
+							},
+							emphasis: {
+								show: false
+							}
+						},
+						zlevel: 0,
+						legendHoverLink: false,
+						hoverAnimation: false,
+						avoidLabelOverlap: false,
+						data: [{
+								value: 100,
+								name: 'NH',
+								itemStyle: {
+									normal: {
+										color: '#D4D2C5'
+									},
+									emphasis: {
+										color: '#D4D2C5'
+									}
+								},
+								tooltip: {
+									showContent: false,
+									show: false
+								}
+							}
+						]
+					}, {
+						name: '服务器内存运行情况',
+						type: 'pie',
+						radius: ['40%', '55%'],
+						center: ['25%', '50%'],
+						clockwise: false,
+						avoidLabelOverlap: false,
+						zlevel: 2,
+						label: {
+							normal: {
+								position: 'center',
+								show: true,
+								textStyle: {
+									fontSize: '22',
+									fontWeight: 'bold',
+									color: '#7A7A7A'
+								},
+								formatter: function(obj) {
+									return obj.percent.toFixed(0) + "%";
+								}
+							}
+						},
+						legendHoverLink: false,
+						hoverAnimation: false,
+						avoidLabelOverlap: false,
+						labelLine: {
+							normal: {
+								show: false
+							}
+						},
+						itemStyle: {
+							normal: {
+								color: '#029DE0'
+							}
+						},
+						data: [{
+							name: '剩余',
+							value: 15,
+							itemStyle: {
+								normal: {
+									opacity: 0,
+									color: '#029DE0'
+								}
+							},
+							label: {
+								normal: {
+									show: false
+								},
+								emphasis: {
+									show: false
+								}
+							},
+							tooltip: {
+								showContent: false,
+								show: false
+							}
+						}, {
+							value: 85,
+							name: '占用内存',
+							itemStyle: {
+								normal: {
+									color: '#029DE0'
+								}
+							}
+						}]
+					}]
+				};
+				var option1 = $.extend(true, {}, option);
+				var option2 = $.extend(true, {}, option);
+				var option3 = $.extend(true, {}, option);
+				var option4 = $.extend(true, {}, option);
+				//内存情况
+				option1.title.subtext = "占用内存\n870.4Mb\n" + "总内存\n1024Mb";
+				myCharts0_1.setOption(option1);
+				setInterval(function() {
+					var RAM = 1024;
+					var zyRam = (Math.random() * 1024).toFixed(2) - 0;
+					option1.series[1].data[0].value = RAM - zyRam;
+					option1.series[1].data[1].value = zyRam;
+					option1.title.subtext = "占用内存\n" + zyRam + "Mb\n" + "总内存\n" + RAM + "Mb";
+					myCharts0_1.setOption(option1);
+				}, 2000);
+				//连接情况
+				option2.legend.data[0].name = "连接占用率";
+				option2.series[1].name = "连接占用率";
+				option2.series[1].data[1].name = "当前连接率";
+				option2.series[1].data[1].itemStyle.normal.color = "#00DB00";
+				option2.series[1].itemStyle.normal.color = "#00DB00";
+				option2.title.subtext = "当前连接数\n" + 22 + "个\n" + "连接总数\n" + 100 + "个";
+				myCharts0_2.setOption(option2);
+				setInterval(function() {
+					var RAM = 100;
+					var zyRam = (Math.random() * 100).toFixed(0) - 0;
+					option2.series[1].data[0].value = RAM - zyRam;
+					option2.series[1].data[1].value = zyRam;
+					option2.title.subtext = "当前连接数\n" + zyRam + "个\n" + "连接总数\n" + RAM + "个";
+					myCharts0_2.setOption(option2);
+				}, 2000);
+				//用户在线情况
+				option3.legend.data[0].name = "用户在线率";
+				option3.series[1].name = "用户在线率";
+				option3.series[1].data[1].name = "当前用户在线率";
+				option3.series[1].data[1].itemStyle.normal.color = "#00DB00";
+				option3.series[1].itemStyle.normal.color = "#00DB00";
+				option3.title.subtext = "当前在线数\n" + 22 + "个\n" + "在线总数\n" + 100 + "个";
+				myCharts0_3.setOption(option3);
+				setInterval(function() {
+					var RAM = 100;
+					var zyRam = (Math.random() * 100).toFixed(0) - 0;
+					option3.series[1].data[0].value = RAM - zyRam;
+					option3.series[1].data[1].value = zyRam;
+					option3.title.subtext = "当前在线数\n" + zyRam + "个\n" + "在线总数\n" + RAM + "个";
+					myCharts0_3.setOption(option3);
+				}, 2000);
+				//流程实例数
+				option4.legend.data[0].name = "流程实例数";
+				option4.tooltip.formatter = " {b} ({c}个)";
+				option4.series.splice(0, 1);
+				option4.series[0].name = "流程实例数";
+				option4.series[0].data.splice(0, 1);
+				option4.series[0].data[0].name = "流程实例数";
+				option4.series[0].data[0].itemStyle.normal.color = '#D4D2C5';
+				option4.series[0].data[0].itemStyle.emphasis = {
+					color: '#D4D2C5'
+				};
+				option4.series[0].itemStyle.normal.color = "#CDCDCD";
+				option4.series[0].label.normal.formatter = '{c}个';
+				option4.title.subtext = "流程实例数\n" + 85 + "个";
+				myCharts0_4.setOption(option4);
+				setInterval(function() {
+					var zyRam = (Math.random() * 100).toFixed(0) - 0;
+					option4.title.subtext = "流程实例数\n" + zyRam + "个";
+					option4.series[0].data[0].value = zyRam;
+					myCharts0_4.setOption(option4);
+				}, 2000);
+			});
+		</script>
+		<style type="text/css">
+			.cell {
+				position: absolute;
+			}
+			
+			.cell div {
+				float: left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="cell" style="top: 0px;left: 0px;bottom: 0px;right: 0px;">
+			<div id="main0-1" style="width: 24%;height:200px"></div>
+			<div id="main0-2" style="width: 24%;height:200px"></div>
+			<div id="main0-3" style="width: 24%;height:200px"></div>
+			<div id="main0-4" style="width: 24%;height:200px"></div>
+		</div>
+	</body>
+
+</html>

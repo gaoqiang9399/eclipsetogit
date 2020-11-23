@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssourcedetailbill0011" para="eadis_page" title="收付核源单明细表" type="2">
+<tableitem align="1" filedname="sourceBillNo" id="6" indexed="6" label="源单编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="sourceBillNo" id="3" indexed="3" label="全选" row="1" sortType="2" type="2" typepara="sourceBillNo-sourceBillNo;" width="6" widthType="0"/>
+<tableitem align="3" filedname="notCancelAmt" id="11" indexed="12" label="未核销金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="comCancelAmt" id="10" indexed="11" label="已核销金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="sourceBillAmt" id="9" indexed="10" label="单据金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="sourceBillDate" id="8" indexed="9" label="单据日期" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="sourceBillType" id="7" indexed="7" label="业务类别" row="1" sortType="2" type="6" typepara="PSS_BILL_BUS_TYPE" widthType="0"/>
+</table>

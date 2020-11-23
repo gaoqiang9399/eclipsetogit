@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="selectcollateral0001" para="eadis_page" title="抵质押列表" type="1">
+<tableitem align="2" filedname="certificateName" id="5" indexed="4" label="所有或共有权人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pledgeName" id="4" indexed="1" label="押品名称" mytitle="押品名称-collateralName" row="1" type="3" typepara="20" widthType="0"/>
+<tableitem align="2" filedname="选择" id="12" indexed="8" label="-" type="5" typepara="action;pledgeNo-pledgeNo;pledgeName-pledgeName;pledgeMethod-pledgeMethod;onclick-enterClick;" width="2" widthType="0"/>
+<tableitem align="2" filedname="classSecondName" id="3" indexed="2" label="押品类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pledgeMethod" id="11" indexed="3" label="担保方式" row="1" type="6" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" filedname="keepStatus" id="7" indexed="7" label="押品状态" row="1" type="6" typepara="KEEP_STATUS"/>
+</table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="entrymanagement0001" title="入职申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entryManagementId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="入职申请ID" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyDate" fieldtype="1" maxlength="8" formactiveid="2" labelalign="3" labelcol="3" labelname="申请日期" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldtype="1" maxlength="200" formactiveid="3" labelalign="3" labelcol="1" labelname="说明" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="baseId" fieldtype="1" maxlength="30" formactiveid="4" labelalign="3" labelcol="3" labelname="关联基础信息ID" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="5" labelalign="3" labelcol="1" labelname="" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="6" labelalign="3" labelcol="3" labelname="创建时间" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="30" formactiveid="7" labelalign="3" labelcol="1" labelname="创建该申请操作员" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applySts" fieldtype="1" maxlength="1" formactiveid="8" labelalign="3" labelcol="3" labelname="申请状态0未提交1流程中2审批完成3发回重审4补充资料5否决" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyProcessId" fieldtype="1" maxlength="50" formactiveid="9" labelalign="3" labelcol="1" labelname="保管审批流程编号" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeNo" fieldtype="1" maxlength="50" formactiveid="10" labelalign="3" labelcol="3" labelname="当前审批节点" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="1" maxlength="100" formactiveid="11" labelalign="3" labelcol="1" labelname="当前审批节点名称" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartNo" fieldtype="1" maxlength="50" formactiveid="12" labelalign="3" labelcol="3" labelname="当前审批人员编号" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="1" maxlength="200" formactiveid="13" labelalign="3" labelcol="1" labelname="当前审批人员名称" mustinput="0" row="7" />
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusPersonCorpBase" link="/mfCusPersonCorp/findByPage" para="eadis_page" title="个人名下企业表" type="1">
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="15" indexed="16" label="-" row="1" type="5" typepara="/mfCusPersonCorp/deleteAjax;corpId-corpId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="corpNature" id="5" indexed="6" label="企业性质" type="6" typepara="CORP_TYPE" width="20" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="14" indexed="3" label="社会信用代码" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="registeredCapital" id="13" indexed="15" label="注册资本" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="corpName" id="2" indexed="2" label="企业名称" row="1" type="4" typepara="/mfCusPersonCorp/listShowDetailAjax;corpId-corpId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusPersonCorp/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+</table>

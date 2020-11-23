@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="docofflinecollectdetail" title="要件线下收集情况表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="docNo" fieldtype="99" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="唯一编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="docBizNo" fieldtype="99" maxlength="30" formactiveid="2" labelalign="1" labelcol="1" labelname="业务关联编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="scNo" fieldtype="1" maxlength="30" formactiveid="3" labelalign="1" labelcol="1" labelname="场景编号（节点编号）" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="docSplitNo" fieldtype="99" maxlength="30" formactiveid="4" labelalign="1" labelcol="1" labelname="要件的唯一编号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="docName" fieldtype="1" maxlength="50" formactiveid="5" labelalign="1" labelcol="1" labelname="要件名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ifCollect" fieldtype="99" maxlength="1" formactiveid="6" labelalign="1" labelcol="1" labelname="线下是否取得0-否 1-是" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="99" maxlength="17" formactiveid="7" labelalign="1" labelcol="1" labelname="登记时间" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModeTime" fieldtype="99" maxlength="17" formactiveid="8" labelalign="1" labelcol="1" labelname="最后修改时间" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="99" maxlength="22" formactiveid="9" labelalign="1" labelcol="1" labelname="操作员编号" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="99" maxlength="40" formactiveid="10" labelalign="1" labelcol="1" labelname="操作员名称" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="99" maxlength="20" formactiveid="11" labelalign="1" labelcol="1" labelname="部门编号" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="99" maxlength="80" formactiveid="12" labelalign="1" labelcol="1" labelname="部门名称" mustinput="0" row="21"/>
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busfeeguarantee" para="eadis_page" title="工程担保" type="1">
+<tableitem align="2" filedname="standard" id="27" indexed="26" label="费用基数" row="1" type="6" typepara="FEE_STANDARD"/>
+<tableitem align="2" filedname="takeType" id="26" indexed="27" label="费率类型" row="1" type="6" typepara="FEE_TAKE_TYPE"/>
+<tableitem align="2" filedname="itemName" id="24" indexed="22" label="费用名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rateScale" id="23" indexed="28" label="费率值" row="1" type="0"/>
+<tableitem align="2" filedname="receivableFeeAmt" id="29" indexed="29" label="应收费用（元）" type="12" widthType="0"/>
+<tableitem align="2" filedname="feeType" id="28" indexed="23" label="收取方式" row="1" type="6" typepara="FEE_COLLECT_TYPE" widthType="0"/>
+</table>

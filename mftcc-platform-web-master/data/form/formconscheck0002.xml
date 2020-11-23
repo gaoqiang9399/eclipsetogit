@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="conscheck0002" title="盘点操作详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operateId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="操作编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consNo" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="操作对应易耗品编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="品名" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="操作备注" maxlength="200" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operateNum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="盘点库存" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="盘点人" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="部门" maxlength="80" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="createTime" fieldstyle="half" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="盘点时间" maxlength="17" mustinput="0" readonly="1" row="3"/>
+</form>

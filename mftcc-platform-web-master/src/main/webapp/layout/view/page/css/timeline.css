@@ -1,0 +1,122 @@
+.timeLine {
+  background-color: #EDF1F4;
+  width: 170px;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+.time-line-bg {
+  /*border: 1px solid #FF0000;*/
+  width: 100%;
+}
+.time-line-line {
+  top: 30px;
+  width: 0px;
+  background-color: #606A7B;
+  height: 480px;
+  border-left: 1px solid #606A7B;
+  border-right: 1px solid #606A7B;
+  margin: 20px auto;
+  position: absolute;
+  margin-left: 80px;
+}
+.time-line-body {
+  /*border: 1px solid #000000;*/
+  margin: 40px auto;
+}
+.time-line-dl {
+  position: relative;
+}
+.time-line-dd {
+  position: relative;
+  padding: 3px 27px;
+  margin-bottom: 6px;
+  text-align: right;
+}
+.time-line-dd:hover .time-line-dot {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #009CE2;
+  line-height: 15px;
+  left: 73px;
+  top: 4px;
+}
+.time-line-a {
+  cursor: pointer;
+  color: #c4c4c4;
+}
+.time-line-day {
+  position: absolute;
+  left: 40px;
+  color: #c4c4c4;
+  cursor: pointer;
+  text-decoration: none;
+}
+.time-line-a:hover, .time-line-a:visited, .time-line-a:link {
+  text-decoration: none;
+}
+.line-a-on {
+  color: #4491CE;
+  text-decoration: none;
+}
+.time-line-dot {
+  color: #FFFFFF;
+  background-color: #8C97AA;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  line-height: 15px;
+  display: inline-block;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  position: absolute;
+  left: 75px;
+  top: 7px;
+}
+.line-dot-on {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #009CE2;
+  line-height: 15px;
+  position: absolute;
+  left: 73px;
+  top: 4px;
+  text-align: center;
+}
+.time-line-line {
+  border-left: none;
+  border-color: #BDDEF2;
+}
+.time_head {
+  background: #e7edf7
+}
+.time_head span {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+.time-line-dot:hover {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: #49AF3E;
+  line-height: 20px;
+}

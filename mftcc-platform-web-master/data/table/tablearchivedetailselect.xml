@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivedetailselect" para="eadis_page" title="选择资料" type="1">
+<tableitem align="2" filedname="docSplitName" id="13" indexed="9" label="资料类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docNos" id="12" indexed="8" label="选择" row="1" type="2" typepara="docNo-docNo;docName-docName;archiveMainNo-archiveMainNo;archiveDetailNo-archiveDetailNo" widthType="0"/>
+<tableitem align="2" filedname="docName" id="11" indexed="11" label="资料名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="10" indexed="10" label="编号" type="99" width="20" widthType="0"/>
+</table>

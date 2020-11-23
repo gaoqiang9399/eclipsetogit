@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetchafeng" title="资产查封">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protectId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="资产保全编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseId" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="案件编号" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="项目名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="案件名称" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="资产名称" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="5" labelname="资产名称" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetType" fieldtype="99" formactiveid="9" labelalign="3" labelcol="5" labelname="资产类别" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protectApplyState" fieldtype="99" formactiveid="12" labelalign="3" labelcol="5" labelname="资产保全申请状态" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetState" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="资产状态" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seizureFlag" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="是否查封" mustinput="0" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="seizureBeginDate" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="查封开始时间" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="seizureEndDate" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="查封结束时间" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chaFengRemark" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="1000" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="cusName" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="pactId" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactName" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="pactName" mustinput="" readonly="" row="7"/>
+</form>

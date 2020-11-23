@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetsDailyManageDetail" title="资产日常管理新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recordId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="记录编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageType" fieldsize="MANAGE_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="管理方式" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="checkRecords" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="检查维护内容" maxlength="400" mustinput="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="checkTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="检查维护时间" maxlength="17" mustinput="0" row="1" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountsCheck" fieldsize="ACCOUNTS_CHECK" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="账实核对" maxlength="100" mustinput="1" param="anchors:['anchor1']" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="accCheckTime" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="账实核对时间" maxlength="17" mustinput="0" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr501" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr502" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr504" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr505" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1001" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1002" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1003" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr2001" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="预留较长文本字段" maxlength="200" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic1" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic2" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble22" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt1" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt2" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsManageId" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="资产管理编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="extStr2001" fieldtype="5" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="情况说明" maxlength="400" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{accountsCheck:'2'}]" readonly="" row="3" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="5" selrange="1"/>
+</form>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="consumable0002" title="基本信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="(第一次入库)登记人编号" maxlength="22" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="登记人" maxlength="40" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="登记机构号" maxlength="10" mustinput="0" row="1"/>
+<formelement alt="请选择类别" datatype="0" fieldalign="1" fieldcol="4" fieldname="appTypeName" fieldsize="CONS_APP_TYPE" fieldstyle="half" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="申领类型" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addType" fieldsize="CONS_ADD_TYPE" fieldstyle="half" fieldtype="2" formactiveid="20" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="增加方式" maxlength="2" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amortizeType" fieldsize="CONS_AMORTIZE_TYPE" fieldstyle="half" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="摊销方式" maxlength="2" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billNo" fieldstyle="half" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="购物发票号" mustinput="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classNo" fieldstyle="half" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="类别名称" maxlength="20" mustinput="1" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='clickClassNo()'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="className" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="5" labelname="类型编号" maxlength="40" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="operateType" fieldtype="99" formactiveid="29" horVer="0" initvalue="1" labelalign="3" labelcol="5" labelname="操作类型" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formIdTmp" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="表单编号" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consNo" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="资产编号" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appType" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="申领类型字典" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="登记机构" mustinput="" readonly="" row="4" />
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayhis0001_detail_query" para="eadis_page" title="还款历史明细" type="1">
+<tableitem align="3" filedname="prcpSum" id="26" indexed="12" label="还款本金" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="25" indexed="7" label="还款期号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="normAndOverIntstAndSum" id="24" indexed="13" label="正常利息" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="23" indexed="9" label="结束日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="3" filedname="deductNormIntstSum" id="22" indexed="20" label="减免金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="21" indexed="8" label="开始日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="3" filedname="recvAmtSys" id="20" indexed="11" label="还款金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="8" indexed="6" label="还款方式" row="1" sortType="1" type="6" typepara="REPAY_HIS_TYPE" widthType="0"/>
+<tableitem align="3" filedname="cmpdIntstSum" id="7" indexed="15" label="复利利息" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="faXiSum" id="6" indexed="14" label="罚息" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="14" indexed="10" label="还款日期" row="1" sortType="2" type="1" widthType="0"/>
+</table>

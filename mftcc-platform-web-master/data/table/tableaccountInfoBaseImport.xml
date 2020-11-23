@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="accountInfoBaseImport" para="eadis_page" title="应收账款合同清单" type="1">
+<tableitem align="2" filedname="storehouse" id="29" indexed="5" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="instockData" id="28" indexed="2" label="合同签订日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="singleNum" id="27" indexed="1" label="序号" row="1" type="2" typepara="pledgeBillNo-pledgeBillNo" widthType="0"/>
+<tableitem align="2" filedname="删除" id="26" indexed="9" label="-" type="5" typepara="/pledgeBaseInfoBill/deleteAjaxNew;pledgeBillNo-pledgeBillNo;onClick-PledgeInfo_account.deleteBill(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="修改" id="25" indexed="30" label="-" row="1" sortType="2" type="5" typepara="/pledgeBaseInfoBill/getById;pledgeBillNo-pledgeBillNo;onClick-PledgeInfo_account.accountDetail(this);" width="5" widthType="0"/>
+<tableitem align="1" filedname="singleWeight" id="5" indexed="8" label="应收账款余额(元)" row="1" sortType="1" type="12" typepara="/pledgeBaseInfoBill/getById;pledgeBillNo-pledgeBillNo;onClick-PledgeInfo_account.accountDetail(this);" width="15" widthType="0"/>
+<tableitem align="1" filedname="unitPrice" id="4" indexed="6" label="合同金额(元)" row="1" sortType="2" type="12" typepara="subStringNub-10;" width="15" widthType="0"/>
+<tableitem align="1" filedname="billName" id="2" indexed="3" label="买方名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="ascriptionBus" id="1" indexed="4" label="基础合同名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+</table>

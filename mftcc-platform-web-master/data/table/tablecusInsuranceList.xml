@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInsuranceList" para="eadis_page" title="保险信息（吉林金控）" type="1">
+<tableitem align="2" filedname="insurancePactNo" id="5" indexed="5" label="保险合同编号" row="1" type="4" typepara="/mfCusInsurance/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusInsurance/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="insuranceCompany" id="4" indexed="4" label="保险公司" row="1" type="0"/>
+<tableitem align="2" filedname="insuranceTerm" id="12" indexed="12" label="保险期限(月)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名" row="1" type="4" typepara="/mfCusInsurance/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusInsurance/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="29" indexed="13" label="-" type="5" typepara="/mfCusInsurance/getById;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusInsurance/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" filedname="删除" id="28" indexed="29" label="-" row="1" type="5" typepara="/mfCusInsurance/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onClick-FormFactor.deleteTrAjax(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="insuranceAmt" id="7" indexed="7" label="投保金额(元)" row="1" type="0" widthType="0"/>
+</table>

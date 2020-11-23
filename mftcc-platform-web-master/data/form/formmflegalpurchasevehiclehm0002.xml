@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="mflegalpurchasevehiclehm0002" title="法人购车贷款车辆信息mf_legal_purchase_vehicle_hm">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="50" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" maxlength="50" formactiveid="3" labelalign="3" labelcol="1" labelname="申请号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="1" maxlength="50" formactiveid="4" labelalign="3" labelcol="3" labelname="合同号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="1" maxlength="50" formactiveid="5" labelalign="3" labelcol="1" labelname="借据号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindNo" fieldtype="1" maxlength="50" formactiveid="6" labelalign="3" labelcol="3" labelname="产品号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carModel" fieldtype="1" maxlength="50" formactiveid="7" labelalign="3" labelcol="1" labelname="型号" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vinNo" fieldtype="1" maxlength="50" formactiveid="8" labelalign="3" labelcol="3" labelname="识别号/车架号" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prices" fieldtype="1" maxlength="50" formactiveid="9" labelalign="3" labelcol="1" labelname="单价" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="paymentRate" fieldtype="1" maxlength="50" formactiveid="10" labelalign="3" labelcol="3" labelname="首付比例" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="1" maxlength="500" formactiveid="11" labelalign="3" labelcol="1" labelname="说明" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" maxlength="50" formactiveid="12" labelalign="3" labelcol="3" labelname="登记人编号" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="100" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="createDate" fieldtype="1" maxlength="17" formactiveid="14" labelalign="3" labelcol="3" labelname="登记时间" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="1" maxlength="17" formactiveid="15" labelalign="3" labelcol="1" labelname="修改时间" mustinput="0" row="8"/>
+</form>

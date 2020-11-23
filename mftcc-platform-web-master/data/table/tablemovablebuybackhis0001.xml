@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="movablebuybackhis0001" para="eadis_page" link="/mfMoveableBuybackApproHis/findByPage" title="回购申请历史" type="1">
+<tableitem align="2" filedname="buybackApproHisId" id="1" indexed="1" label="回购审批历史编号" row="1" type="4" typepara="/mfMoveableBuybackApproHis/getById;buybackApproHisId-buybackApproHisId;query-'query'"/>
+<tableitem align="2" filedname="backId" id="2" indexed="2" label="回购编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeNo" id="3" indexed="3" label="押品编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="4" indexed="4" label="押品名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeBillNo" id="5" indexed="5" label="货物明细" row="1" type="0" />
+<tableitem align="2" filedname="pledgeWorth" id="6" indexed="6" label="押品价值" row="1" type="0" />
+<tableitem align="2" filedname="buyBackPrice" id="7" indexed="7" label="回购意向价" row="1" type="0" />
+<tableitem align="2" filedname="buyBackReason" id="8" indexed="8" label="回购原因" row="1" type="0" />
+<tableitem align="2" filedname="appSts" id="9" indexed="9" label="申请状态0新增申请1审批中2审批通过3否决" row="1" type="0" />
+<tableitem align="2" filedname="busPleId" id="10" indexed="10" label="押品业务关联编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="11" indexed="11" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="12" indexed="12" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="13" indexed="13" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="14" indexed="14" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="15" indexed="15" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="16" indexed="16" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="17" indexed="17" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="18" indexed="18" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="19" indexed="19" label="登记部门" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="20" indexed="20" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="21" indexed="21" label="信息登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="22" indexed="22" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="24" indexed="24" label="-" row="1" type="5" typepara="/mfMoveableBuybackApproHis/deleteAjax;buybackApproHisId-buybackApproHisId;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form id="eval2005" title="评级综合得分表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalAppNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="评级申请编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalScenceNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="评级场景编号" maxlength="255" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dlScore" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="定量得分" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dlScorePercent" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="定量所占权重" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dxScore" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="定性得分" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dxScorePercent" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="定性所占权重" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finScore" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="财务得分" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="finScorePercent" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="财务所占权重" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manAdjustScore" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="客户经理调整分数" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="manAdjustCause" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="客户经理调整得分理由" maxlength="500" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustScore" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="调整指标得分" maxlength="16" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustList" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="调整指标列表" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="restrictLevel" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="约束级别" maxlength="1" mustinput="0" row="7"/>
+</form>

@@ -1,0 +1,54 @@
+body{ margin:0; padding:0;}
+ul, li, a{ margin:0; padding:0; list-style:none;}
+a:hover,a:visited,a:link{
+	text-decoration:none;
+}
+/*拖拽工具图标等*/
+.D-toolbar{ height:49px; line-height:36px; border-bottom:1px solid #cacbcb; background:#eaebec; border-bottom:1px solid #dce2e7;}
+.D-toolbar button{ margin-right:6px; cursor:pointer}
+.D-toolbar button:hover{ background:#e9edf2;}
+.D-toolbar button:focus{ border:none;}
+.D-toolbar ul{ height: 48px; padding-top:13px;float:left;}
+.D-toolbar ul.rightLine{border-right:1px solid #dce2e7;}
+.D-toolbar ul li{ float: left;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: -12px;}
+.D-toolbar ul li a{ cursor:pointer; display:block;z-index: 10;}
+.D-toolbar ul li a:hover{ background:#f3f3f3;}
+.D-toolbtn{ padding:0px 12px 0px 22px; height:21px; line-height:21px; background:#eaebec; border:1px dashed #9db1ba; position:relative; text-align:center; color:#42606e; font-size:12px;}
+.D-toolbtn i{ display: block;
+    height: 21px;
+    left: 5px;
+    line-height: 21px;
+    position: absolute;
+    width: 10px;}
+.D-header{
+   border-bottom: 1px solid #dce2e7;
+    color: #fff;
+    font-size: 11.5px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    top: -14px;
+    width: auto;
+}
+.D-toolbar ul li:nth-child(2){
+	margin-left: 10px;
+}
+.D-toolbar ul li:last-child {
+    margin-right: 10px;
+}
+/*小图标ico*/
+/*.Tico-add{ background:url(../Tool-Add.png) no-repeat;}
+.Tico-skin{ background:url(../Tool-skin.png) no-repeat;}
+.Tico-trp{ background:url(../Tool-trp.png) no-repeat;}
+.Tico-save{background:url(../Tool-save.png) no-repeat;}*/
+
+/*右侧按钮*/
+.toolBtn { float:right; margin-top:5px;}
+.toolBtn button{ border-radius:3px; padding:0px 20px; height:30px; line-height:30px; border-width:1px; border-style: solid;}
+.toolBtn-dark{background:#42606e; color:#fff; border-color:#42606e;}
+.toolBtn button.toolBtn-dark:hover{background:#273e56; color:#fff;}
+.toolBtn-light{ background:#f3f3f3; border-color:#42606e; border-color:#cccece;}
+.toolBtn button .toolBtn-light:hover{ background:#f3f3f3; border-color:#c2c2c2;}

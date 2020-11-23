@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="examhis003" title="保后跟踪下">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark1" fieldtype="5" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="发生重大变化的科目余额及财务指标原因说明" mustinput="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark2" fieldtype="5" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="实地考察计划及与近期考察情况" maxlength="200" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="examHisId" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="5" labelname="examHisId" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusLevelName" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="信用评级" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="debtCusLevelName" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="债项评级" mustinput="" readonly="1" row="3"/>
+</form>

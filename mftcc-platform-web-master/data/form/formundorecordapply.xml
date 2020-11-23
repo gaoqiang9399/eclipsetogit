@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="undorecordapply" title="还款撤销申请表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="借据号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="客户名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prcpSum" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="撤销本金" maxlength="20" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="putoutAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="放款金额" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="overIntstSum" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="撤销逾期利息" maxlength="20" mustinput="0" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="normIntstSum" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="撤销正常利息" maxlength="20" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="undoCause" fieldtype="5" formactiveid="14" labelalign="3" labelcol="1" labelname="撤销原因" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="登记部门编号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="借据展示号" mustinput="" readonly="" row="13"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="cmpdIntstSum" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="撤销复利利息" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="penaltySum" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="撤销违约金" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="feeSum" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="撤销费用" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="againstAmt" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="撤销冲抵金额" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="balAmt" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="3" labelname="撤销结余金额" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="repayDate" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="还款日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="撤销日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="repayId" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="5" labelname="还款历史ID" mustinput="" param2="1" readonly="" row="8"/>
+</form>

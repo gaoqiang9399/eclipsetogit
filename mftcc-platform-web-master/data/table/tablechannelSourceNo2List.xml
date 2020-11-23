@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="channelSourceNo2List" para="eadis_page" title="美莱报表查询条件商户名称" type="1">
+<tableitem align="2" filedname="channelSourceNo" id="4" indexed="5" label="商户编号" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="channelSource" id="8" indexed="6" label="商户名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="channelSourceNo" id="7" indexed="4" label="选择" row="1" sortType="2" type="2" width="30" widthType="0"/>
+</table>

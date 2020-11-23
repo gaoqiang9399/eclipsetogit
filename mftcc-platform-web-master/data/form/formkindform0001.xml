@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312"?><form id="kindform0001" title="产品表单配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindFormId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nodeNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="节点编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nodeName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="节点名称" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="category" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="表单类别 1：进件；2：流程节点；" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="产品编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busModel" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="业务模式" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="表单类型 1：正常表单；2：列表；" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addModelBase" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="母版表单编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addModel" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="子版表单编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="editFlag" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="是否允许编辑 1：是；0：否；" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="排序" maxlength="0" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="是否启用 1：启用；0：禁用；" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="最后修改时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="扩展字段" maxlength="100" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="扩展字段" maxlength="100" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="扩展字段" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="扩展字段" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="扩展字段" maxlength="100" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext6" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="扩展字段" maxlength="100" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="扩展字段" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext8" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="扩展字段" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="扩展字段" maxlength="100" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext10" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="扩展字段" maxlength="100" mustinput="0" row="12"/>
+</form>

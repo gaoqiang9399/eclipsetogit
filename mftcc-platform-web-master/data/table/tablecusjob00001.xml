@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusjob00001" link="/mfCusPersonJob/findByPage" para="eadis_page" title="职业信息" type="1">
+<tableitem align="2" filedname="workKind" id="6" indexed="2" label="职业" mytitle="职业-workKind;" row="1" type="3" typepara="10" width="25" widthType="0"/>
+<tableitem align="2" filedname="duty" id="5" indexed="4" label="担任职务" mytitle="担任职务-duty;" row="1" type="3" typepara="10" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="12" indexed="5" label="-" type="5" typepara="/mfCusPersonJob/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="id" id="11" indexed="6" label="编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="telephone" id="8" indexed="3" label="单位电话" mytitle="单位电话-telephone;" row="1" type="3" typepara="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="workUnit" id="7" indexed="1" label="所在单位" mytitle="所在单位-workUnit;" row="1" type="4" typepara="/mfCusPersonJob/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusPersonJob/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="25" widthType="0"/>
+</table>

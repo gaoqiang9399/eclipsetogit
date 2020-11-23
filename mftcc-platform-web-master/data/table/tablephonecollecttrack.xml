@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="phonecollecttrack" title="电话跟进内容列表" type="2">
+<tableitem align="2" filedname="id" id="9" indexed="4" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="取消" id="14" indexed="16" label="操作按钮" row="1" type="5" typepara="action;onclick-cancelRemark(this);" widthType="0"/>
+<tableitem align="2" filedname="保存" id="13" indexed="15" label="操作按钮" row="1" type="5" typepara="action;onclick-updateRemark(this);" widthType="0"/>
+<tableitem align="1" filedname="remark" id="3" indexed="14" label="备注" row="1" sortType="2" type="0" width="50" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="12" indexed="14" label="操作按钮" row="1" type="5" typepara="action;onclick-editRemark(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="contactName" id="2" indexed="0" label="联系人" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="phoneBookId" id="11" indexed="11" label="通讯录id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="phone" id="1" indexed="1" label="联系电话" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="phone" id="10" indexed="12" label="电话号" row="1" type="99" widthType="0"/>
+</table>

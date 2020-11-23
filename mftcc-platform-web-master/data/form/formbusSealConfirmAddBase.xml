@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="busSealConfirmAddBase" title="用章确认表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="产品名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameFund" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="借款银行" maxlength="100" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="appAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="借款金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termType" fieldsize="TERM_TYPE" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="期限类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="term" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="申请期限" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termShow" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="申请期限" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="借款利率" maxlength="20" mustinput="0" readonly="1" row="3" unit="%"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="sealDate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="盖章日期" maxlength="10" mustinput="1" onfocus="fPopUpCalendarDlg({max: new Date().toLocaleDateString()});" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sealPerson" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="盖章人员" maxlength="100" mustinput="1" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sealState" fieldtype="22" formactiveid="16" labelalign="3" labelcol="3" labelname="盖章状态" maxlength="2" mustinput="1" param="01-同意盖章|02-拒绝盖章|" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="17" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="登记部门编号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="最后修改日期" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="登记时间" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="预留字段" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" mustinput="0" row="15"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="extNum" fieldtype="99" formactiveid="30" labelalign="3" labelcol="3" maxlength="16" mustinput="0" row="15"/>
+</form>

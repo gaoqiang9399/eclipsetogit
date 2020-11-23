@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vcscanfiledownloadapply_main02" title="合格证扫描件下载申请审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadApplyMainId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="合格证所属经销商ID" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyReason" fieldsize="VC_SCANFILE_DOWNLOAD_REASON" fieldtype="2" formactiveid="3" labelalign="3" labelcol="3" labelname="申请理由" maxlength="2" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remarks" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="4"/>
+</form>

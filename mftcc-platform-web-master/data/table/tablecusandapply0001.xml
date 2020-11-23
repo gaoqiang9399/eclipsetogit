@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusandapply0001" title="客户和申请信息" trDbClick="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onDbClick-getDetailPage(this);" type="2">
+<tableitem align="2" filedname="breedName" id="19" indexed="11" label="业务品种" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="bankXiYi" id="18" indexed="7" label="委托合同编号" mytitle="项目名称-appName;" row="1" sortType="1" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'1';onClick-getDetailPage(this);subStringNub-20;" width="150" widthType="1"/>
+<tableitem align="2" filedname="appTime" id="7" indexed="12" label="申请日期" row="1" sortType="1" type="1"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="6" label="联系电话" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="6" indexed="10" label="产品种类" row="1" sortType="2" type="0" width="150" widthType="1"/>
+<tableitem align="2" filedname="appName" id="5" indexed="9" label="内部编号" mytitle="项目名称-appName;" row="1" sortType="1" type="99" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'1';onClick-getDetailPage(this);subStringNub-20;" width="200" widthType="1"/>
+<tableitem align="2" filedname="manageOpName1" id="13" indexed="21" label="项目经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="12" indexed="20" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-20;" width="250" widthType="1"/>
+<tableitem align="3" filedname="appAmt" id="1" indexed="8" label="申请金额(元)" row="1" sortType="1" type="0"/>
+</table>

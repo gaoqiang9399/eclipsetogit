@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusMajorChangeListBase" link="/mfCusCorpMajorChange/findByPage" para="eadis_page" title="企业重大变更信息表" type="1">
+<tableitem align="1" filedname="contentOld" id="6" indexed="6" label="变更前内容" mytitle="变更前内容-contentOld" row="1" type="3" typepara="5" width="25" widthType="0"/>
+<tableitem align="2" filedname="contentItem" id="5" indexed="5" label="变更事项" type="6" typepara="CHANGE_TYPE" width="20" widthType="0"/>
+<tableitem align="2" filedname="changeDate" id="4" indexed="4" label="变更日期" row="1" type="4" typepara="/mfCusCorpMajorChange/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusCorpMajorChange/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="8" indexed="9" label="-" row="1" type="5" typepara="/mfCusCorpMajorChange/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+<tableitem align="1" filedname="contentNew" id="7" indexed="8" label="变更后内容" mytitle="变更后内容-contentNew" row="1" type="3" typepara="5" width="25" widthType="0"/>
+</table>

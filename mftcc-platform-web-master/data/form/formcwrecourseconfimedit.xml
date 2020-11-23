@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cwrecourseconfimedit" title="追偿到账确认">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="receviedAccout" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="到账账号" maxlength="100" mustinput="1" onclick="selectBankDialog();" readonly="1" row="6" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="composationAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="代偿金额" maxlength="14" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actualAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="实际到账金额" maxlength="14" mustinput="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="单笔合同ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="合同金额" maxlength="14" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receviedAccoutName" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="到账账号户名" maxlength="100" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receviedBankName" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="到账账号开户行" maxlength="30" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recourseAmt" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="追回金额" maxlength="14" mustinput="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recourseDate" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="追回日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receviedDate" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="到账日期" mustinput="1" onclick="fPopUpCalendarDlg({max: new Date().toLocaleDateString()})" readonly="1" row="5" unit="&lt;i class='i i-rili pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="vouBankAccId" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="5" labelname="担保公司账号关联id" mustinput="" readonly="" row="5"/>
+</form>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="AssetsDisposalDetail" title="资产处置">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="disposalId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="资产处置id" maxlength="255" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="assetsManageId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="资产管理编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="assetNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="资产编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="assetName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="资产名称" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="assetType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="资产类别" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="assetAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="资产价值" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="handleType" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="处置方式" maxlength="2" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="personInCharge" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="购买人/承租人/负责人/接受方" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="transactionPrice" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="成交价格/租赁金额" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="contactNumber" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="联系电话/接受方联系方式" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="eMail" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="电子邮件" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="contactAddress" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="联系地址" maxlength="200" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="entrustedAgency" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="委托机构" maxlength="200" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="subjectToBid" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="起价标的" maxlength="20" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="auctionFee" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="拍卖费用" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="liquidationBalance" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="变现差额" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="loanAmount" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="抵贷额" maxlength="20" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="differentialHandling" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="差额处理" maxlength="200" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="transactionDate" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="交易日期" maxlength="8" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="leaseMode" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="租赁方式" maxlength="200" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="leaseDate" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="起租日期" maxlength="8" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="租赁期限/合营期限" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="hireDate" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="止租日期" maxlength="8" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="rentPaymentMethod" fieldtype="1" formactiveid="26" labelalign="3" labelcol="3" labelname="租金缴纳方式" maxlength="200" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="totalInvestment" fieldtype="1" formactiveid="27" labelalign="3" labelcol="1" labelname="投资总额" maxlength="20" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="projectAddress" fieldtype="1" formactiveid="28" labelalign="3" labelcol="3" labelname="项目建设地址" maxlength="200" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cooperationMode" fieldtype="1" formactiveid="29" labelalign="3" labelcol="1" labelname="合作方式" maxlength="200" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="contributionAmt" fieldtype="1" formactiveid="30" labelalign="3" labelcol="3" labelname="出资额" maxlength="20" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="profitAmt" fieldtype="1" formactiveid="31" labelalign="3" labelcol="1" labelname="收益额" maxlength="20" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="realizedAmt" fieldtype="1" formactiveid="32" labelalign="3" labelcol="3" labelname="变现金额" maxlength="20" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="33" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="34" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="22" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="35" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="36" labelalign="3" labelcol="3" labelname="登记时间" maxlength="17" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="37" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="assessAmt" fieldtype="1" formactiveid="38" labelalign="3" labelcol="3" labelname="抵债资产评估价值" maxlength="20" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="debtAmt" fieldtype="1" formactiveid="39" labelalign="3" labelcol="1" labelname="抵债金额" maxlength="20" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="applySts" fieldtype="1" formactiveid="40" labelalign="3" labelcol="3" labelname="申请状态0未提交1流程中2审批完成3发回重审4补充资料5否决" maxlength="1" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="applyProcessId" fieldtype="1" formactiveid="41" labelalign="3" labelcol="1" labelname="保管审批流程编号" maxlength="50" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="1" formactiveid="42" labelalign="3" labelcol="1" labelname="当前审批节点" maxlength="50" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="approveNodeName" fieldtype="1" formactiveid="43" labelalign="3" labelcol="3" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="approvePartNo" fieldtype="1" formactiveid="44" labelalign="3" labelcol="3" labelname="当前审批人员编号" maxlength="50" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="approvePartName" fieldtype="1" formactiveid="45" labelalign="3" labelcol="1" labelname="当前审批人员名称" maxlength="200" mustinput="0" row="45"/>
+</form>

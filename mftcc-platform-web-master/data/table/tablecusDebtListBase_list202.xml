@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusDebtListBase_list202" link="/mfCusPersonDebtInfo/findByPage" para="eadis_page" title="title" type="1">
+<tableitem align="2" filedname="loanUnit" id="4" indexed="4" label="借款机构" mytitle="贷款单位-loanUnit" row="1" type="4" typepara="/mfCusPersonDebtInfo/listShowDetailAjax;debtId-debtId;cusNo-cusNo;debtType-debtType;oneUrl-'/mfCusPersonDebtInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="25" widthType="0"/>
+<tableitem align="2" filedname="loanAmt" id="5" indexed="5" label="金额(元)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="debtType" id="8" indexed="7" label="负债类型" row="1" type="6" typepara="PER_DEBT_TYPE" width="25" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="7" indexed="9" label="余额(元)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="9" indexed="10" label="-" row="1" type="5" typepara="/mfCusPersonDebtInfo/deleteAjax;debtId-debtId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

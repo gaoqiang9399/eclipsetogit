@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="llc0003" title="租后检查区域关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="任务编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaProv" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="关系省" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCity" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="关系市" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkCusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="关系人编号" maxlength="10" mustinput="0" row="2"/>
+</form>

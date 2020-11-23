@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dl_archive_backup02" title="归档文件备份表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" hoVer="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="1" formactiveid="2" hoVer="1" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="1" formactiveid="3" hoVer="1" labelalign="3" labelcol="1" labelname="归档编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docNo" fieldtype="1" formactiveid="4" hoVer="1" labelalign="3" labelcol="1" labelname="文件编号" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="5" hoVer="1" labelalign="3" labelcol="1" labelname="文件名称" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSize" fieldtype="1" formactiveid="6" hoVer="1" labelalign="3" labelcol="1" labelname="文件大小" maxlength="16" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docAttribute" fieldtype="1" formactiveid="7" hoVer="1" labelalign="3" labelcol="1" labelname="文件属性（01-文档 02-图片 03-音频 04-视频）" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docAddr" fieldtype="1" formactiveid="8" hoVer="1" labelalign="3" labelcol="1" labelname="文件地址" maxlength="1000" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docEncryptAddr" fieldtype="1" formactiveid="9" hoVer="1" labelalign="3" labelcol="1" labelname="文件加密地址" maxlength="1000" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveBackupAddr" fieldtype="1" formactiveid="10" hoVer="1" labelalign="3" labelcol="1" labelname="归档备份地址" maxlength="1000" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldtype="1" formactiveid="11" hoVer="1" labelalign="3" labelcol="1" labelname="文档类型编号" maxlength="2" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docTypeName" fieldtype="1" formactiveid="12" hoVer="1" labelalign="3" labelcol="1" labelname="文档类型名称" maxlength="50" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="1" formactiveid="13" hoVer="1" labelalign="3" labelcol="1" labelname="文档细分类型编号" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitName" fieldtype="1" formactiveid="14" hoVer="1" labelalign="3" labelcol="1" labelname="文档细分类型名称" maxlength="50" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="1" formactiveid="15" hoVer="1" labelalign="3" labelcol="1" labelname="场景编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docBizNo" fieldtype="1" formactiveid="16" hoVer="1" labelalign="3" labelcol="1" labelname="业务场景编号" maxlength="10" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docStatus" fieldtype="1" formactiveid="17" hoVer="1" labelalign="3" labelcol="1" labelname="文档状态（01-正常 02-删除）" maxlength="2" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isLend" fieldtype="1" formactiveid="18" hoVer="1" labelalign="3" labelcol="1" labelname="是否借出（0-否 1-是）" maxlength="1" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isPaper" fieldtype="1" formactiveid="19" hoVer="1" labelalign="3" labelcol="1" labelname="是否存在纸制文档（0-否 1-是）" maxlength="1" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperAddr" fieldtype="1" formactiveid="20" hoVer="1" labelalign="3" labelcol="1" labelname="纸制文档存放位置" maxlength="1000" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="source" fieldtype="1" formactiveid="21" hoVer="1" labelalign="3" labelcol="1" labelname="文件来源（01-业务模块归档 02-归档模块新增）" maxlength="2" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpNo" fieldtype="1" formactiveid="22" hoVer="1" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="22" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpName" fieldtype="1" formactiveid="23" hoVer="1" labelalign="3" labelcol="1" labelname="更新人名称" maxlength="40" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrNo" fieldtype="1" formactiveid="24" hoVer="1" labelalign="3" labelcol="1" labelname="更新人部门编号" maxlength="10" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrName" fieldtype="1" formactiveid="25" hoVer="1" labelalign="3" labelcol="1" labelname="更新人部门名称" maxlength="80" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateDate" fieldtype="1" formactiveid="26" hoVer="1" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="26"/>
+</form>

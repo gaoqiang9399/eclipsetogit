@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dl_vcscanfiledownloadapply_detail01" title="合格证扫描件下载申请明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadApplyDetailId" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadApplyMainId" fieldtype="1" maxlength="50" formactiveid="2" labelalign="3" labelcol="1" labelname="主表ID" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="1" maxlength="50" formactiveid="3" labelalign="3" labelcol="1" labelname="合格证ID" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="1" maxlength="50" formactiveid="4" labelalign="3" labelcol="1" labelname="合格证所属经销商ID" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isDownload" fieldtype="1" maxlength="1" formactiveid="5" labelalign="3" labelcol="1" labelname="是否下载(1-是 0-否)" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadOpNo" fieldtype="1" maxlength="50" formactiveid="6" labelalign="3" labelcol="1" labelname="下载人编号" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadOpName" fieldtype="1" maxlength="100" formactiveid="7" labelalign="3" labelcol="1" labelname="下载人名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadBrNo" fieldtype="1" maxlength="50" formactiveid="8" labelalign="3" labelcol="1" labelname="下载人机构编号" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadBrName" fieldtype="1" maxlength="100" formactiveid="9" labelalign="3" labelcol="1" labelname="下载人机构名称" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="downloadTime" fieldtype="1" maxlength="17" formactiveid="10" labelalign="3" labelcol="1" labelname="下载时间" mustinput="0" row="10"/>
+</form>

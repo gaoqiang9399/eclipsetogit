@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dimissionapprovehiswkf" title="离职申请审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="姓名" maxlength="30" mustinput="0" onclick="MfOaDimission_Insert.selectName(MfOaDimission_Insert.changeBaseInfo);" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="hireDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="入职日期" maxlength="8" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="部门" maxlength="80" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="positionShow" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="职务" maxlength="40" mustinput="0" readonly="1" row="2"/>
+</form>

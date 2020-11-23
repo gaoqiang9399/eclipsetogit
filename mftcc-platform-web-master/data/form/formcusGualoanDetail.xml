@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusGualoanDetail" title="对外担保和贷款详情信息">
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="guaranteeEndTime" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="担保到期日" maxlength="8" mustinput="1" onclick="selectrili(this,null,today,null)" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="" readonly="" row="1" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="guaranteeAmt" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="担保总额" maxlength="14" mustinput="1" onblur="GaiGuaranteeAmt(this)" param="cusNo;" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="guaranteeBal" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="担保余额" maxlength="14" mustinput="1" onblur="GaiGuarantee(this)" param="cusNo;" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="guaranteeDescribe" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="4" labelname="担保描述" maxlength="200" mustinput="1" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="loanEndTime" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="3" labelname="贷款到期日" mustinput="1" onclick="selectrili(this,null,today,null)" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="loanBal" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="贷款余额" maxlength="14" mustinput="1" onblur="GaiLoantee(this)" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="loanDescribe" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="4" labelname="贷款描述" maxlength="200" mustinput="1" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanAmt" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="贷款总额" maxlength="14" mustinput="1" onblur="GaiLoanteeAmt(this)" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="2" labelname="客户号" mustinput="" readonly="" row="5"/>
+</form>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form id="wkf5002" title="审批任务类型">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="审批任务类型编号" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkfVpName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="审批任务类型名称" maxlength="20" mustinput="0" row="1"/>
+</form>

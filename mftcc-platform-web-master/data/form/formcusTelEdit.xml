@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusTelEdit" title="修改客户手机号">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="" readonly="" row="9" />
+<formelement alt="请输入正确的手机号码" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="ext1" fieldtype="1" formactiveid="59" horVer="0" labelalign="3" labelcol="1" labelname="修改后的手机号码" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile')" row="3"/>
+<formelement alt="手机号未登记修改将为新增操作" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusTel" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="客户手机号" mustinput="0" readonly="1" row="2"/>
+<formelement alt="请选择客户，手机号自动带出" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="客户姓名" mustinput="1" onclick="MfCusMaintain.selectCusTel();" readonly="1" row="1" unit=" &lt;i class='i i-fangdajing pointer' onclick='MfCusMaintain.selectCusIdNum();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusBaseType" fieldtype="99" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="1"/>
+<formelement alt="请输入修改说明" datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="66" horVer="0" labelalign="3" labelcol="1" labelname="修改说明" mustinput="1" readonly="" row="4"/>
+</form>

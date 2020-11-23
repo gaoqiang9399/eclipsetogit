@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="creditpact0001" para="eadis_page" link="/mfCusCreditContract/findByPage" title="授信签约信息表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="" row="1" type="4" typepara="/mfCusCreditContract/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="pactNo" id="2" indexed="2" label="合同展示号" row="1" type="0" />
+<tableitem align="2" filedname="creditSum" id="3" indexed="3" label="授信总额(合同金额)" row="1" type="0" />
+<tableitem align="2" filedname="creditTerm" id="4" indexed="4" label="授信期限" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="5" indexed="5" label="开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="6" indexed="6" label="结束日期" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="7" indexed="7" label="合同签订时间" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="8" indexed="8" label="意见描述" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="15" indexed="15" label="-" row="1" type="5" typepara="/mfCusCreditContract/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

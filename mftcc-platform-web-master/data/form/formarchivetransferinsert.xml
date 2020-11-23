@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivetransferinsert" title="档案移交申请">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="3" labelname="主键ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="archiveStatus" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="归档状态（01-合同签订 02-合同完结）" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" onclick="ArchiveInfo_Insert.selectCusDialog('03');" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="3" labelname="申请号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="项目名称" mustinput="1" onclick="ArchiveInfo_Insert.selectArchiveAppNameDialog('03');" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="产品号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="产品名称" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="更新人名称" maxlength="40" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="5" labelname="合同号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="合同ID" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveNo" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="档案号" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNum" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="箱号" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferName" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="移交人" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="transferDate" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="移交日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="transferNo" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="5" labelname="移交人编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="receiveNo" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="5" labelname="接收人编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="receiveName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="接收人" mustinput="1" onclick="bindDataSource(this,'1','receiveNo','','','','','0',recPersonCallBack);" readonly="1" row="5" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="addamtrecord0001" para="eadis_page" title="提额记录列表" type="1">
+<tableitem align="1" filedname="cusName" id="6" indexed="2" label="客户名称" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="2" filedname="opName" id="13" indexed="17" label="操作" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="5" label="合同编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="4" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="3" filedname="addAmt" id="2" indexed="7" label="提升金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="17" indexed="1" label="客户号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="createTime" id="16" indexed="16" label="提额时间" type="1" widthType="0"/>
+</table>

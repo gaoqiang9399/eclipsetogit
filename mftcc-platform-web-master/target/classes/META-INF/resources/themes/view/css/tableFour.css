@@ -1,0 +1,25 @@
+.overflowHidden{
+	overflow: hidden;
+}
+.content_form {
+    margin: 2px;
+}
+.bigform_content.mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y{
+ 	margin-right: 15px;
+}
+.bigform_content>.mCustomScrollBox>.mCSB_scrollTools {
+    width: 15px;
+}
+.bigform_content>.mCSB_inside > .mCSB_container {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.table_show.mCSB_container.mCS_y_hidden.mCS_no_scrollbar_y{
+ 	margin-right: 10px;
+}
+.table_show>.mCustomScrollBox>.mCSB_scrollTools {
+    width: 8px;
+}
+.table_show>.mCSB_inside > .mCSB_container {
+    margin-right: 10px;
+}

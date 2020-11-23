@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="importexcelrepaylist" link="MfImportRepayHistoryAction_findByPage.action" para="eadis_page" title="历史数据导入还款历史总表" type="1">
+<tableitem align="2" filedname="paymentType" id="28" indexed="30" label="支付方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="27" indexed="28" label="还款类型编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cmpdIntstSum" id="9" indexed="7" label="复利利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overIntstSum" id="8" indexed="6" label="逾期利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="normIntstSum" id="7" indexed="5" label="正常利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="deductNormIntstSum" id="15" indexed="10" label="减免正常利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="prcpSum" id="6" indexed="4" label="还本金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="5" indexed="3" label="还款日期" row="1" type="0"/>
+<tableitem align="2" filedname="penaltySum" id="14" indexed="8" label="违约金" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recvAmtSys" id="4" indexed="11" label="还款总额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="13" indexed="9" label="费用" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="41" indexed="41" label="业务主办登陆号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="39" indexed="27" label="还款类型名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext2" id="40" indexed="29" label="支付方式名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="2" label="借据展示号" row="1" type="0"/>
+</table>

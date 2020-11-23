@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplan0003_cash" para="eadis_page" title="今日还款列表" type="1">
+<tableitem align="2" filedname="normIntstSum" id="31" indexed="17" label="正常利息" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="28" indexed="21" label="费用总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="overIntstSum" id="30" indexed="19" label="逾期利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="26" indexed="22" label="还款类型" row="1" type="0" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="25" indexed="12" label="客户名称" row="1" type="0" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="accountFlag" id="24" indexed="24" label="记账标识" row="1" type="6" typepara="OUT_FLAG" widthType="0"/>
+<tableitem align="2" filedname="appName" id="23" indexed="13" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="22" indexed="14" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="prcpSum" id="7" indexed="15" label="还款总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="balAmt" id="12" indexed="16" label="本次结余" row="1" type="12" widthType="0"/>
+</table>

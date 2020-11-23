@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivefamilylist" para="eadis_page" title="OA人事档案家庭成员表" type="2">
+<tableitem align="1" filedname="workAddr" id="6" indexed="7" label="工作单位" mytitle="工作单位-workAddr;" type="3" typepara="12" width="30" widthType="0"/>
+<tableitem align="2" filedname="name" id="4" indexed="4" label="姓名" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="btnshow" filedname="编辑" id="12" indexed="11" label="-" row="1" type="5" typepara="/mfOaArchivesFamily/input;baseId-baseId;familyId-familyId;onClick-OaArchivesDetail.familyadd;" width="5" widthType="0"/>
+<tableitem align="2" filedname="relishion" id="3" indexed="3" label="称谓" row="1" type="4" typepara="/mfOaArchivesFamily/listShowDetailAjax;familyId-familyId;oneUrl-'/mfOaArchivesFamily/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="btnshow" filedname="删除" id="11" indexed="13" label="-" row="1" type="5" typepara="/mfOaArchivesFamily/deleteAjax;familyId-familyId;baseId-baseId;onClick-OaArchivesDetail.familydelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="tel" id="9" indexed="6" label="联系方式" row="1" type="0" width="20" widthType="0"/>
+</table>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="identitycheck0001" para="eadis_page" link="/mfIdentityCheckRecordInfo/findByPage" title="身份核查记录表" type="1">
+<tableitem align="2" filedname="checkId" id="1" indexed="1" label="核查编号" row="1" type="4" typepara="/mfIdentityCheckRecordInfo/getById;checkId-checkId;query-'query'"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="客户身份证号" row="1" type="0" />
+<tableitem align="2" filedname="agentNo" id="5" indexed="5" label="代理机构编号" row="1" type="0" />
+<tableitem align="2" filedname="agentName" id="6" indexed="6" label="代理机构名称" row="1" type="0" />
+<tableitem align="2" filedname="queryDate" id="7" indexed="7" label="查询日期" row="1" type="0" />
+<tableitem align="2" filedname="queryTime" id="8" indexed="8" label="查询时间" row="1" type="0" />
+<tableitem align="2" filedname="requestState" id="9" indexed="9" label="查询状态0查询失败1查询成功" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="10" indexed="10" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="11" indexed="11" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="receptionEquipmentNo" id="12" indexed="12" label="前台终端号" row="1" type="0" />
+<tableitem align="2" filedname="tradeNo" id="13" indexed="13" label="交易代码" row="1" type="0" />
+<tableitem align="2" filedname="checkReturnCode" id="14" indexed="14" label="查询返回码" row="1" type="0" />
+<tableitem align="2" filedname="checkReturnRemark" id="15" indexed="15" label="查询返回码描述" row="1" type="0" />
+<tableitem align="2" filedname="commCode" id="16" indexed="16" label="通讯状态码" row="1" type="0" />
+<tableitem align="2" filedname="commRemark" id="17" indexed="17" label="通讯状态描述" row="1" type="0" />
+<tableitem align="2" filedname="checkResult" id="18" indexed="18" label="查询返回结果" row="1" type="0" />
+<tableitem align="2" filedname="originalCusName" id="19" indexed="19" label="原录入的姓名" row="1" type="0" />
+<tableitem align="2" filedname="originalIdNum" id="20" indexed="20" label="原录入的证件号码" row="1" type="0" />
+<tableitem align="2" filedname="issueBrNo" id="21" indexed="21" label="签发机关" row="1" type="0" />
+<tableitem align="2" filedname="issueBrName" id="22" indexed="22" label="签发机关名称" row="1" type="0" />
+<tableitem align="2" filedname="checkResultCode" id="23" indexed="23" label="核查结果00-公民身份证号码与姓名一致，且存在照片01-公民身份证号码与姓名一致，但不存在照片02-公民身份证号码存在，但与姓名不一致等" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="24" indexed="24" label="备用字段1" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="25" indexed="25" label="备用字段2" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="26" indexed="26" label="备用字段3" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="28" indexed="28" label="-" row="1" type="5" typepara="/mfIdentityCheckRecordInfo/deleteAjax;checkId-checkId;onClick-ajaxDelete(this)" width="2"/>
+</table>

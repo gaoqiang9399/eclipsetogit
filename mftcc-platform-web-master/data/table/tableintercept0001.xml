@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="intercept0001" para="eadis_page" link="/mfKindNodeIntercept/findByPage" title="节点与拦截项关系表" type="1">
+<tableitem align="2" filedname="kindNodeInterceptId" id="1" indexed="1" label="唯一编号" row="1" type="4" typepara="/mfKindNodeIntercept/getById;kindNodeInterceptId-kindNodeInterceptId;query-'query'"/>
+<tableitem align="2" filedname="category" id="2" indexed="2" label="类别 1：产品；" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="3" indexed="3" label="产品编号" row="1" type="0" />
+<tableitem align="2" filedname="busModel" id="4" indexed="4" label="业务模式" row="1" type="0" />
+<tableitem align="2" filedname="nodeNo" id="5" indexed="5" label="节点编号" row="1" type="0" />
+<tableitem align="2" filedname="itemNo" id="6" indexed="6" label="拦截项编号" row="1" type="0" />
+<tableitem align="2" filedname="itemName" id="7" indexed="7" label="拦截项名称" row="1" type="0" />
+<tableitem align="2" filedname="sort" id="8" indexed="8" label="排序" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="9" indexed="9" label="操作员编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="10" indexed="10" label="操作员名称" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="11" indexed="11" label="部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="12" indexed="12" label="部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="13" indexed="13" label="登记时间 格式：yyyyMMdd HH:mm:ss" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="14" indexed="14" label="最后修改时间 格式：yyyyMMdd HH:mm:ss" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="15" indexed="15" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="16" indexed="16" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="17" indexed="17" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="18" indexed="18" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="19" indexed="19" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="20" indexed="20" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="21" indexed="21" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfKindNodeIntercept/deleteAjax;kindNodeInterceptId-kindNodeInterceptId;onClick-ajaxDelete(this)" width="2"/>
+</table>

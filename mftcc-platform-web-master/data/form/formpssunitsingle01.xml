@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssunitsingle01" title="单位信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="单位ID" maxlength="40" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="单位名称" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitType" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单位类型" maxlength="80" mustinput="0" param2="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isBase" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="是否基本单位" maxlength="1" mustinput="0" param2="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relId" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="关联ID" maxlength="80" mustinput="0" param2="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="groupName" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="多单位组名称" maxlength="80" mustinput="0" param2="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNum" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="与基本单位关系" maxlength="40" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invalidFlag" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" param2="1" row="8"/>
+</form>

@@ -1,0 +1,46 @@
+.head-div{
+	border-bottom:1px solid #ddd;
+	padding:10px 80px;
+}
+.head-div table{
+	font-size:14px;
+	marign-top:20px;
+	width:100%;
+}
+.head-div table tr,.his-list table tr{
+	line-height:30px;
+}
+.head-div table .tdlabel{
+	width:12%;
+}
+.head-div table .tdvalue{
+	width:21%;
+}
+
+.btn-rec +.btn-rec{
+	margin-left:20px;
+}
+
+
+.his-list table{
+	font-size:14px;
+	marign-top:20px;
+	width:100%;
+	height:120px;
+}
+
+.his-list table tr{
+	height:100px;
+}
+.his-list table tr:nth-child(2n){
+	background-color:#f9f9f9;
+}
+.his-list table tr td{
+	padding:0px 20px;
+}
+.his-list table tr td .dateDiv{
+	width:80px;
+}
+.his-list table tr td p{
+	margin: 0 0 5px;
+}

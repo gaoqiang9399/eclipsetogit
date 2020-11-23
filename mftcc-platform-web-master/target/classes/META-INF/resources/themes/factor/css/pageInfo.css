@@ -1,0 +1,44 @@
+#nope {
+    background-color: #67CCDE;
+    border: 0 none;
+    box-sizing: border-box;
+    color: #000;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: 18px;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    height: 60%;
+    line-height: inherit;
+   	margin:12px 0px 9px 0px;
+    padding: 0 12px;
+    width: 85%;
+    font-size:14px;
+}
+
+.pageInfo {
+    color: #fff;
+    float: left;
+    height: 60%;
+    vertical-align: middle;
+    width: 85%;
+    position: relative;
+    font-weight: 300;
+    letter-spacing: 1px;
+    background: #67CCDE;
+    margin:12px 0px 9px 0px;
+}
+
+.middle-north-center .i-fangdajing {
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    top: 8px;
+    font-size: 16px;
+}

@@ -1,0 +1,327 @@
+.bigform_content .content_form, .page_w {
+	/*display: none;*/
+	
+}
+
+.bigform_content .table tr {
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.bigform_content .content_table .ls_list tr {
+	line-height: 26px;
+}
+
+.bigform_content .content_table .ls_list thead tr th {
+	border-bottom: 1px solid #ced7e6;
+	font-size: 12px;
+	color: #838c9d;
+}
+
+.bigform_content .content_table .ls_list tbody tr td {
+	font-size: 12px;
+	color: #838c9d;
+}
+
+.bigform_content .content_table .ls_list tbody tr:nth-child(odd) {
+	background: #f7f8fc none repeat scroll 0 0;
+	height: 26px;
+}
+
+.bigform_content .content_table .ls_list tbody tr:nth-child(even) {
+	height: 26px;
+}
+
+.content table td {
+	vertical-align: top;
+}
+
+.bigform_content .formDiv input[type="text"], .bigform_content .formDiv  input[type="password"],
+	.bigform_content .formDiv  input[type="email"], .bigform_content .formDiv  input[type="number"],
+	.bigform_content .formDiv  input[type="tel"], .bigform_content .formDiv  input[type="url"],
+	.bigform_content .formDiv  select {
+	height: 25px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 260px;
+}
+.bigform_content .formDiv input[name="censAreaNo"]{}
+.bigform_content input[type="text"], .bigform_content input[type="password"],
+	.bigform_content input[type="email"], .bigform_content input[type="number"],
+	.bigform_content input[type="tel"], .bigform_content input[type="url"],
+	.bigform_content select {
+	height: 25px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 200px;
+}
+
+.bigform_content .form_number {
+	text-align: right;
+	width: 120px;
+}
+
+.bigform_content .form_select {
+	background: #fefefe;
+}
+
+.bigform_content input[type="text"].disable {
+	background: #eef0f3;
+	border-color: #dbdcde;
+}
+
+.bigform_content .UnitFont {
+	font-size: 12px;
+	color: #707174;
+}
+
+.bigform_content input[type="text"].Required {
+	background: #fcf8f8;
+	border-color: #f33434;
+}
+.bigform_content textarea.Required {
+	background: #fcf8f8;
+	border-color: #f33434;
+}
+
+.bigform_content .dateBtn {
+	background: url(calendar-icon.png) no-repeat;
+	border: none;
+	width: 15px;
+	height: 18px;
+	outline: none;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+	left: -30px;
+	top: 4px;
+}
+
+.bigform_content .dateBtn:active {
+	outline: none;
+}
+
+.bigform_content .Required-font {
+	font-size: 12px;
+	color: #DD2A18;
+	width: 200px;
+	/* display: inline-block; */
+	position: absolute;
+	top: 5px;
+}
+.rightForm-edit .Required-font {
+	font-size: 12px;
+	color: #DD2A18;
+	width: 200px;
+	/* display: inline-block; */
+	position: absolute;
+	top: 2px;
+}
+.bigform_content .Required-font i {
+	font-size: 16px;
+	color: #DD2A18;
+	width: 20px;
+	height: 20px;
+}
+
+.bigform_content .Required-font i {
+	animation: required 1s linear 0s infinite alternate running;
+	-moz-animation: required 1s linear 0s infinite alternate running;
+	-webkit-animation: required 1s linear 0s infinite alternate running;
+	-o-animation: required 1s linear 0s infinite alternate running;
+}
+
+.content_table .input_btn {
+	margin-bottom: 5px;
+	overflow:hidden;
+}
+
+.bigform_content .input_btn input[type="button"] {
+	float: right;
+	margin-right: 10px;
+	background: #1e94cc none repeat scroll 0 0;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 15px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.bigform_content .input_btn input[type="button"]:hover {
+	background: #009ce2;
+}
+
+.bigForm_content_form {
+	width: 100%;
+}
+
+.bigForm_content_form .table tr {
+	line-height: 25px;
+	font-size: 12px;
+}
+
+.bigForm_content_form  tr td {
+	font-size: 12px;
+}
+
+.bigForm_content_form .form_number {
+	text-align: right;
+	width: 120px;
+}
+
+.bigForm_content_form table tr .bartitle {
+	color: #87b5d6;
+	font-size: 16px;
+	font-weight: 400 line-height:35px;
+}
+
+.bigForm_content_form  table tr td {
+	padding: 0 5px;
+	padding-bottom: 6px;
+	position: relative;
+}
+
+.bigForm_content_form  .from_btn {
+	text-align: center;
+}
+
+.bigForm_content_form  .from_btn input {
+	background: #009ce2 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 34px;
+	margin: 20px 0;
+	width: 180px;
+}
+input.calendar{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.bigform_content .formDiv input.calendar{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.bigform_content .formDiv input.datelogo.BOTTOM_LINE{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#eef0f3;
+}
+.bigform_content .content_form input.datelogo{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#eef0f3;
+}
+.bigform_content  input.datelogo{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#eef0f3;
+}
+input[datatype="20"]{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#eef0f3;
+}
+input[datatype="30"]{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color:#eef0f3;
+}
+.bigform_content  input.formRang{
+	width: 93px;
+	margin-right:0px;
+	background-size: 18px 14px;
+}
+.bigform_content  span.formRang{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.bigform_content .formDiv input[datatype="6"]{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.bigform_content .formDiv input[datatype="20"]{
+	background: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.content_form table tr td {
+	font-size: 12px;
+}
+
+.content_form {
+	padding-top: 30px;
+	margin-top:5px;
+}
+
+.inneriframe {
+	border: none;
+}
+
+.iframe_content iframe {
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+@keyframes required { 
+	0% {opacity: 1;filter: Alpha(opacity = 100);}
+	50%{opacity:0.2;filter:Alpha(opacity=20);}
+	100%{opacity:1;filter:Alpha(opacity=100);}
+}
+@-moz-keyframes required{
+	0% {opacity: 1;filter: Alpha(opacity = 100);}
+	50%{opacity:0.2;filter:Alpha(opacity=20);}
+	100%{opacity:1;filter:Alpha(opacity=100);}
+}
+@-webkit-keyframes required {
+	0% {opacity: 1;filter: Alpha(opacity = 100);}
+	50%{opacity:0.2;filter:Alpha(opacity=20);}
+	100%{opacity:1;filter:Alpha(opacity=100);}
+}
+@-o-keyframes required { 
+	0% {opacity: 1;filter: Alpha(opacity = 100);}
+	50%{opacity:0.2;filter:Alpha(opacity=20);}
+	100%{opacity:1;filter:Alpha(opacity=100);}
+}
+
+.bigform_content .readonly input,
+.bigform_content .readonly textarea,
+.bigform_content .readonly select,
+.readonly input,
+.readonly textarea,
+.readonly select{
+	background: #eef0f3 none repeat scroll 0 0;
+}
+
+.popover.popover-Required{
+    border-color: red;
+}
+.popover.popover-Required.bottom>.arrow{
+    border-bottom-color: red;
+}
+.popover.popover-Required.top>.arrow{
+    border-top-color: red;
+}
+.popover.popover-Required.left>.arrow{
+    border-left-color: red;
+}
+.popover.popover-Required.right>.arrow{
+    border-right-color: red;
+}

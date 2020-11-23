@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatepost_address01" title="合格证邮寄地址新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="经销商ID" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="phoneNumber" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="手机号码" maxlength="50" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addresseeName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="接收人姓名" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addresseeIdCardNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="接收人身份证号" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="telephoneNumber" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="电话号码" maxlength="50" mustinput="0" row="3"/>
+<formelement alt="请单击选择经销商" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="经销商全称" maxlength="100" mustinput="1" onclick="VcCertificatePostAddress_Insert.bindDealer(this)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="detailedAddress" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="接收详细地址" maxlength="200" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="abbreviatedAddress" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="地址简称" maxlength="50" mustinput="1" row="5"/>
+</form>

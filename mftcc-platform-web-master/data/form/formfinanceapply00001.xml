@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="financeapply00001" title="理财申请">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="理财客户" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prdtName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="理财产品名称" mustinput="" onclick="FinCusPersonCustomerFinanceApply()" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prdtAmt" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="产品金额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="付息方式" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prdtBal" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="可投金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="castAmount" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="起投金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prdtRate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="年化收益率" mustinput="" readonly="1" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termMonth" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="理财期限" mustinput="" readonly="1" row="4" unit="月"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="applyAmt" fieldsize="0.00" fieldtype="1" formactiveid="9" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="投资金额" maxlength="14" mustinput="1" onblur="checkByKindInfo(this)" param="prdtBal" readonly="" row="5" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bindingCard" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="银行卡号" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="业务主办" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="登记日期" mustinput="" readonly="1" row="6"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindReleaseId" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="产品流水号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busApplyId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="理财客户编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termType" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="期限类型" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="期限展示" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prdtNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="理财产品编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayTypeName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="付息方式" mustinput="" readonly="" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="showPrdtAmt" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="产品金额" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="showCastAmount" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="起投金额" mustinput="" readonly="" row="11" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="showPrdtBal" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="可投金额" mustinput="" readonly="" row="9" unit="元"/>
+</form>

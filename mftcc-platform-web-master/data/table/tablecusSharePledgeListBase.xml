@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusSharePledgeListBase" para="eadis_page" title="股权质押列表信息" type="1">
+<tableitem align="2" filedname="pledgee" id="6" indexed="10" label="质权人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="mortgagor" id="4" indexed="8" label="出质人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="status" id="24" indexed="30" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="29" indexed="31" label="操作" type="5" typepara="/mfCusSharePledge/deleteAjax;sharePledgeId-sharePledgeId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="sharePledgeDate" id="17" indexed="22" label="股权出质登记日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="sharePledgeAmount" id="8" indexed="12" label="出质股权数额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="regNo" id="28" indexed="7" label="登记编号" row="1" type="4" typepara="/mfCusSharePledge/listShowDetailAjax;sharePledgeId-sharePledgeId;cusNo-cusNo;oneUrl-'/mfCusSharePledge/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

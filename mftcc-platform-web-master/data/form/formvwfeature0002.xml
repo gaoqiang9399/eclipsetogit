@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vwfeature0002" title="前端交易_平台特点管理; InnoDB free: 52224 kB">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="特点" maxlength="66" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="link" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="链接" maxlength="166" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="简介" maxlength="400" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="USE_FLAG" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="状态" maxlength="3" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="5"/>
+</form>

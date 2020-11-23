@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusIdNumEdit" title="修改客户证件号码">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="" readonly="" row="9" />
+<formelement alt="请输入正确的证件号" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="ext1" fieldtype="1" formactiveid="59" horVer="0" labelalign="3" labelcol="1" labelname="修改后的证件号码" mustinput="1" onblur="func_uior_valFormat_tips(this,'allidtype');" row="2"/>
+<formelement alt="请输入修改说明" datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="修改说明" mustinput="1" readonly="" row="3"/>
+<formelement alt="请选择证件号" datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="客户证件号码" mustinput="1" onclick="MfCusMaintain.selectCusIdNum();" readonly="1" row="1" unit=" &lt;i class='i i-fangdajing pointer' onclick='MfCusMaintain.selectCusIdNum();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldtype="99" formactiveid="65" horVer="0" labelalign="3" labelcol="1" labelname="证件类型" mustinput="" readonly="" row="1"/>
+</form>

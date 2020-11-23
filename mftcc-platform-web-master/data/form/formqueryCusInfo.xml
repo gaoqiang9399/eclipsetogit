@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="queryCusInfo" title="客户信息查询">
+<formelement alt="请选择客户后，再选择合同" datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="选择合同" mustinput="1" onclick="MfCusInfoDw.selectpactNo();" readonly="1" row="2" unit="  &lt;i class='i i-fangdajing pointer' onclick='MfCusInfoDw.selectpactNo();'&gt;&lt;/i&gt;"/>
+<formelement alt="请选择客户" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="选择客户" mustinput="1" onclick="MfCusInfoDw.selectCusName();" readonly="1" row="1" unit="  &lt;i class='i i-fangdajing pointer' onclick='MfCusInfoDw.selectCusName();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="65" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="66" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" mustinput="" readonly="" row="1"/>
+</form>

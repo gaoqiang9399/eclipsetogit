@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="HandAmtManagelist" para="eadis_page" title="手续费管理" type="1">
+<tableitem align="2" filedname="详情" id="86" indexed="86" label="-" type="5" typepara="/mfHandAmtManage/getById;id-id;onClick-MfHandAmtManage_List.detail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="refundHandAmt" id="82" indexed="14" label="已退手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="80" indexed="3" label="委托担保合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfHandAmtManage_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="actualPayHandAmt" id="9" indexed="12" label="实际支出手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="6" indexed="6" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="actualReceivedHandAmt" id="5" indexed="9" label="已收手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="projectName" id="12" indexed="5" label="项目名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="handAmt" id="3" indexed="7" label="应收手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="4" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfHandAmtManage_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

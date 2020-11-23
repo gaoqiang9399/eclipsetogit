@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="juxinli0001" link="/thirdJxlBeeRecord/findByPage" para="eadis_page" title="聚信立蜜蜂报告调用接口历史记录" type="1">
+<tableitem align="2" filedname="status" id="6" indexed="6" label="状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="phone" id="5" indexed="4" label="手机号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="13" indexed="13" label="登记时间" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="idcard" id="4" indexed="3" label="身份证号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="name" id="3" indexed="2" label="姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="token" id="2" indexed="5" label="令牌" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="10" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看" id="19" indexed="19" label="-" row="1" type="5" typepara="/thirdJxlBeeRecord/lookpreAjax;id-id;onClick-ajaxLookpre(this)" width="2" widthType="0"/>
+</table>

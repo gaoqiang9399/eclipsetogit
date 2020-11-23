@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="finkindrelease0001" link="/finKindRelease/findByPage" para="eadis_page" title="理财产品发布列表" type="1">
+<tableitem align="2" filedname="regTime" id="30" indexed="23" label="登记时间" type="30" widthType="0"/>
+<tableitem align="2" filedname="opName" id="27" indexed="28" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="releaseTime" id="25" indexed="26" label="发布时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="prdtAmt" id="9" indexed="6" label="产品总额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="releaseStatus" id="17" indexed="17" label="发布状态" row="1" type="6" typepara="P2P_RELEASE_STATUS" widthType="0"/>
+<tableitem align="2" filedname="prdtRate" id="8" indexed="9" label="年化利率(%)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="16" indexed="11" label="付息方式" row="1" type="6" typepara="REPAY_TYPE" widthType="0"/>
+<tableitem align="3" filedname="castAmount" id="15" indexed="12" label="起投金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="5" indexed="5" label="产品种类" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="14" indexed="10" label="期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="prdtName" id="3" indexed="3" label="理财产品名称" mytitle="理财产品名称-prdtName" row="1" sortType="2" type="4" typepara="/finKindRelease/getById;kindReleaseId-kindReleaseId;releaseStatus-releaseStatus;onClick-FinKindReleaseList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="operate" id="38" indexed="38" label="操作" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="prdtBal" id="10" indexed="13" label="可投金额(元)" row="1" type="12" widthType="0"/>
+</table>

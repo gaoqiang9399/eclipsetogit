@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="review0001" link="/cwReviewBusiness/findByPage" para="eadis_page" title="业务复核数据" type="1">
+<tableitem align="2" filedname="cusTel" id="52" indexed="5" label="联系电话" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkAll" id="49" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="traceNo-traceNo;" width="4" widthType="0"/>
+<tableitem align="2" filedname="busShowNo" id="51" indexed="7" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="48" indexed="53" label="-" row="1" type="5" typepara="/cwReviewBusiness/getById;traceNo-traceNo;onClick-ajaxGetReviewInfo(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="txCode" id="50" indexed="6" label="业务类型" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="customerName" id="9" indexed="4" label="客户名称" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="createDate" id="43" indexed="47" label="日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="businessNo" id="5" indexed="9" label="业务编号隐藏" row="1" sortType="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="businessType" id="4" indexed="8" label="业务类型隐藏" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="3" filedname="totalAmt" id="12" indexed="16" label="总金额" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="prdtNo" id="3" indexed="10" label="产品类型" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pzPrefix" id="38" indexed="48" label="凭证" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="remarks" id="11" indexed="15" label="摘要" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="traceNo" id="1" indexed="2" label="流水号" row="1" sortType="1" type="99" typepara="/cwReviewBusiness/getById;traceNo-traceNo;query-'query'" widthType="0"/>
+</table>

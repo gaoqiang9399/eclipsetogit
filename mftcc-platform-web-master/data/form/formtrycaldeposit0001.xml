@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="trycaldeposit0001" title="保证金试算">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="depositRate" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="保证金比例" mustinput="" readonly="1" row="1" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditBal" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="授信可用金额" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="routeDepositTotal" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="∑每笔在途贷款金额*保证金比例" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="hisDepositTotal" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="∑每笔贷款余额*保证金比例" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="DEPOSIT_AMOUNT" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="应收保证金金额" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="currDeposit" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="本次贷款金额*保证金比例" mustinput="" readonly="1" row="3" unit="元"/>
+</form>

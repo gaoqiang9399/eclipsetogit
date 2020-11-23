@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="examineAuditList" para="eadis_page" title="实地核查列表" type="1">
+<tableitem align="2" filedname="planName" id="9" indexed="9" label="计划约见人" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="examHisId" id="17" indexed="1" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="examOpName" id="8" indexed="8" label="主管领导" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" authority="examineStage-4" filedname="检查登记" id="16" indexed="13" label="-" row="1" sortType="2" type="5" typepara="/mfExamineHis/examineRegister;examHisId-examHisId;onClick-MfExamineHis_auditList.getExamineUpdatePage(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="7" indexed="11" label="创建日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="2" authority="examineStage-1" filedname="详情" id="12" indexed="14" label="-" row="1" sortType="2" type="5" typepara="/mfExamineHis/examineDetail;examHisId-examHisId;onClick-MfExamineHis_auditList.getExamineDetailPage(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="busBrName" id="3" indexed="4" label="事业部" row="1" sortType="2" type="0" width="9" widthType="0"/>
+<tableitem align="2" colorCol="pasStsVal" filedname="examineStage" id="11" indexed="12" label="检查状态" row="1" sortType="2" type="6" typepara="EXAMINE_STAGE" width="7" widthType="0"/>
+<tableitem align="2" filedname="examMonth" id="2" indexed="3" label="实地核查月份" row="1" sortType="2" type="1" width="9" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="2" label="核查企业" mytitle="客户名称-cusNameSupplier;" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfExamineHis_auditList.getDetailPage(this);subStringNub-8;" width="9" widthType="0"/>
+<tableitem align="2" filedname="planTime" id="10" indexed="10" label="计划约见时间" row="1" sortType="2" type="1" width="8" widthType="0"/>
+</table>

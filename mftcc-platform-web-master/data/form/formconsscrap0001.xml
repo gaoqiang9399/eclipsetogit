@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="consscrap0001" title="低值易耗品报损申请">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consNo" fieldstyle="half" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="品名" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="storeNum" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="当前库存" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="specification" fieldstyle="half" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="规格型号" maxlength="40" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="className" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="类别" maxlength="40" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unit" fieldstyle="half" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="计量单位" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="盘点人编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="登记人" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="盘点人机构号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="部门" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="报损原因" maxlength="400" mustinput="1" readonly="" row="6"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="operateNum" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="报损数量" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="operateType" fieldtype="99" formactiveid="27" horVer="0" initvalue="4" labelalign="3" labelcol="5" labelname="操作类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="consId" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="5" labelname="易耗品编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="scrapTime" fieldstyle="half" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="报损日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="5" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="price" fieldstyle="half" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="单价(元)" mustinput="" readonly="" row="3"/>
+</form>

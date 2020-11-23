@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfinvoicedeliveryList" para="eadis_page" title="发票寄送列表" type="1">
+<tableitem align="2" filedname="pactNo" id="89" indexed="92" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="brName" id="88" indexed="102" label="登记部门" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="87" indexed="96" label="合同金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="billSts" id="85" indexed="103" label="开票状态" row="1" type="6" typepara="BILL_STS" widthType="0"/>
+<tableitem align="2" filedname="id" id="99" indexed="84" label="选择" row="1" type="2" typepara="id-id" widthType="0"/>
+<tableitem align="2" authority="billSts-1;billSts-2;billSts-3;billSts-5;" filedname="收妥确认" id="98" indexed="105" label="-" type="5" typepara="/mfInvoiceDelivery/receiveConfimAjax;id-id;onClick-receiveConfim" width="2" widthType="0"/>
+<tableitem align="2" authority="billSts-1;billSts-2;billSts-4;billSts-5;" filedname="寄送登记" id="97" indexed="104" label="-" row="1" type="5" typepara="/mfInvoiceDelivery/input;id-id;onClick-postRegist(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="96" indexed="91" label="产品名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="billSts" id="100" indexed="101" label="多选框禁用判断" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="85" label="客户名称" row="1" type="0" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'2';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+</table>

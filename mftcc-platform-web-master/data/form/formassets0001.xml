@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assets0001" title="资产主表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="资产编码" mustinput="0" readonly="1" row="1"/>
+<formelement calculationType="onClick" datatype="0" fieldalign="1" fieldcol="2" fieldname="className" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="资产类别" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="使用部门" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="number" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="数量" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assetsName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="资产名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkShow" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="录入期间" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="开始使用日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ckShow" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="清理期间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsMethod" fieldsize="DEPRE_TYPE" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="折旧方式" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comAssets" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="固定资产科目" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comDepre" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="累计折旧科目" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="comTax" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="税金科目" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assetsTerm" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="预计使用期限" mustinput="" readonly="1" row="6" unit="期"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="comBuy" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="资产来源/购入科目" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="comCost" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="折旧费用科目" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="comClean" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="资产清理科目" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="originalAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="原值" mustinput="" readonly="1" row="11" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="residualRate" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="残值率" mustinput="" readonly="1" row="12" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="reservesAmt" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="减值准备" maxlength="14" mustinput="" row="13" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="depreAmt" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="期初累计折旧" mustinput="" readonly="1" row="14" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="monthAmt" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="月折旧" mustinput="" readonly="1" row="15" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="taxAmt" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="税额" mustinput="" readonly="1" row="11" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="residualAmt" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="预计残值" mustinput="" readonly="1" row="12" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="deprePeriod" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="已折旧期间" mustinput="" readonly="1" row="13" unit="期"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="networthAmt" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="期初净值" mustinput="" readonly="1" row="14" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="1" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uuid" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="唯一编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="部门编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="weeks" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="期间" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classNo" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="类别编号" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="clearWeek" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="清理期" mustinput="" readonly="" row="19"/>
+</form>

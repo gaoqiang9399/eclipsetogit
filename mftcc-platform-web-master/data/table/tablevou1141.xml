@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1141" para="eadis_page" link="/grtPTrademark/findByPage" title="211.商标使用权 GRT_P_TRADEMARK" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPTrademark/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="trademarkRegNo" id="2" indexed="2" label="商标注册证号" row="1" type="0" />
+<tableitem align="2" filedname="signOrg" id="3" indexed="3" label="签发单位" row="1" type="0" />
+<tableitem align="2" filedname="signDate" id="4" indexed="4" label="签发日期" row="1" type="0" />
+<tableitem align="2" filedname="agencyName" id="5" indexed="5" label="代理组织名称" row="1" type="0" />
+<tableitem align="2" filedname="legalName" id="6" indexed="6" label="法定代表人" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="8" indexed="8" label="-" row="1" type="5" typepara="/grtPTrademark/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

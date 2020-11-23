@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="remaindetail0001" title="尾款明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="收款账户行" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="收款人" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="收款账户" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="returnTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="退还日期" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="登记人" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reviewOpName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="复核人" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reviewDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="复核日期" mustinput="" readonly="1" row="4" />
+</form>

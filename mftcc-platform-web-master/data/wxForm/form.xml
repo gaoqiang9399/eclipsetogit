@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form timestamp="1488505500603" formId="" layout="horizontal" desc="" webFormId="">
+    <formelement uiSortableItem="true" pkno="dhcc-6" id="8" pid="0" lv="2" name="按钮1" property="btn" icon="wx-button" css="weui_btn_default" uidraggable="[object Object]"/>
+    <formelement uiSortableItem="true" pkno="dhcc-7" id="7" pid="0" lv="2" name="布局" property="panel" icon="wx-tabbar" uidraggable="[object Object]"/>
+    <formelement uiSortableItem="true" pkno="dhcc-8" id="7" pid="0" lv="2" name="布局" property="panel" icon="wx-tabbar" uidraggable="[object Object]"/>
+    <formelement uiSortableItem="true" property="panel" pkno="dhcc-9" id="7" pid="0" lv="2" name="布局" icon="wx-tabbar" uidraggable="[object Object]"/>
+</form>

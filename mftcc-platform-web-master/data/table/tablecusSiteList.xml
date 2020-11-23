@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusSiteList" para="eadis_page" title="承包地块列表" type="1">
+<tableitem align="2" filedname="siteArea" id="5" indexed="5" label="面积（亩）" row="1" type="6" widthType="0"/>
+<tableitem align="2" filedname="删除" id="25" indexed="25" label="-" row="1" type="5" typepara="/mfCusCertification/deleteAjax;id-id;collateralId-collateralId;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="siteName" id="4" indexed="4" label="地块名称" type="4" typepara="/mfCusSite/listShowDetailAjax;id-id;collateralId-collateralId;oneUrl-'/mfCusSite/updateByOneAjax';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="siteClass" id="8" indexed="8" label="地类" row="1" type="6" widthType="0"/>
+</table>

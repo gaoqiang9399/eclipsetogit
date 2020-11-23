@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cashier0002" title="出纳账户表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uid" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNo" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="编码" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="名称" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="银行账号" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accHrt" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="科目控制字" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="会计科目" maxlength="60" mustinput="0" row="4" unit="&lt;i class='i i-fangdajing pointer' onclick='openComItemDialog(2 ,comCallBack);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountType" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="账户类型" mustinput="" readonly="" row="5" />
+</form>

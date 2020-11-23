@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="tagset0001" para="eadis_page" link="/loanTemplateTagSet/findByPage" title="标签配置表" type="1">
+<tableitem align="2" filedname="seriaNo" id="1" indexed="1" label="唯一号" row="1" type="4" typepara="/loanTemplateTagSet/getById;seriaNo-seriaNo;query-'query'"/>
+<tableitem align="2" filedname="templateNo" id="2" indexed="2" label="模板编号" row="1" type="0" />
+<tableitem align="2" filedname="templateCnName" id="3" indexed="3" label="模板中文名称" row="1" type="0" />
+<tableitem align="2" filedname="templateEnName" id="4" indexed="4" label="模板英文名称" row="1" type="0" />
+<tableitem align="2" filedname="templatePath" id="5" indexed="5" label="模板存储路径" row="1" type="0" />
+<tableitem align="2" filedname="tagKeyNo" id="6" indexed="6" label="标签key编号" row="1" type="0" />
+<tableitem align="2" filedname="tagKeyName" id="7" indexed="7" label="标签key名称" row="1" type="0" />
+<tableitem align="2" filedname="templateEditFlag" id="8" indexed="8" label="模板是否允许编辑" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="10" indexed="10" label="-" row="1" type="5" typepara="/loanTemplateTagSet/deleteAjax;seriaNo-seriaNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusformconfigfordev" link="/mfCusFormConfig/findByPage" para="eadis_page" title="开发者平台使用的客户表单配置列表" type="1">
+<tableitem align="2" filedname="新增表单" id="9" indexed="9" label="-" row="1" type="5" typepara="/mfCusFormConfig/checkAndCreateFormAjax;id-id;onclick-formDesignThis('1')" width="2" widthType="0"/>
+<tableitem align="2" filedname="isMust" id="8" indexed="7" label="是否必填" row="1" type="4" typepara="/mfCusFormConfig/updateStsAjax;id-id;" width="20" widthType="0"/>
+<tableitem align="2" filedname="展示表单" id="7" indexed="10" label="-" row="1" type="5" typepara="/mfCusFormConfig/checkAndCreateFormAjax;id-id;onclick-formDesignThis('2')" width="2" widthType="0"/>
+<tableitem align="2" authority="useFlag-0" filedname="表单重置" id="6" indexed="13" label="-" row="1" type="5" typepara="/mfCusFormConfig/resetFormAjax;id-id;onclick-resetForm" width="2"/>
+<tableitem align="2" filedname="useFlag" id="5" indexed="6" label="是否启用" row="1" type="4" typepara="/mfCusFormConfig/updateStsAjax;id-id;" width="20" widthType="0"/>
+<tableitem align="2" filedname="isBase" id="3" indexed="3" label="是否基础表单" row="1" type="99" typepara="/mfCusFormConfig/updateStsAjax;id-id;" width="20" widthType="0"/>
+<tableitem align="2" filedname="tableDes" id="2" indexed="2" label="表单名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" authority="showType-1;showType-3" filedname="列表表单" id="11" indexed="11" label="-" type="5" typepara="/mfCusFormConfig/checkAndCreateFormAjax;id-id;onclick-formDesignThis('3')" width="2" widthType="0"/>
+<tableitem align="2" filedname="weight" id="10" indexed="8" label="所占权重（%）" row="1" type="99" width="12" widthType="0"/>
+</table>

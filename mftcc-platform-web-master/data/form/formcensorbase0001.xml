@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="censorbase0001" title="新增文件审查项">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="censorName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="审查分类名称" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="itemName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="审查项名称" mustinput="1" readonly="" row="2"/>
+</form>

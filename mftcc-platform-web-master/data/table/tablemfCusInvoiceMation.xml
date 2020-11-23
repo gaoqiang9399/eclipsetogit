@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusInvoiceMation" link="/mfCusInvoiceMation/findByPage" para="eadis_page" title="开票信息" type="1">
+<tableitem align="2" filedname="cusNo" id="14" indexed="10" label="cusNo" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="13" indexed="11" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="tel" id="12" indexed="12" label="联系电话" row="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="address" id="11" indexed="9" label="地址" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="taxpayerNo" id="10" indexed="8" label="纳税人识别号" row="1" type="4" typepara="/mfCusInvoiceMation/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusInvoiceMation/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="9" indexed="13" label="-" type="5" typepara="/mfCusInvoiceMation/deleteAjax;id-id;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+</table>

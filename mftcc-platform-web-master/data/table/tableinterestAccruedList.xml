@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="interestAccruedList" para="eadis_page" title="利息计提列表" type="1">
+<tableitem align="2" filedname="accruedInterest" id="24" indexed="17" label="计提利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="calcuInterestDays" id="23" indexed="14" label="计息天数" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="22" indexed="10" label="计息止日" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="accruedMonth" id="21" indexed="11" label="利息计提月份" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="realRate" id="19" indexed="8" label="实际利率(%)" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="principalInterest" id="18" indexed="7" label="计息本金" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="20" indexed="9" label="计息起日" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="fincRate" id="15" indexed="6" label="合同利率(%)" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="4" label="借据号" mytitle="借据号-fincShowId" sortType="1" type="3" typepara="20" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="合同号" mytitle="合同号-pactNo" row="1" sortType="2" type="3" typepara="12" width="140" widthType="1"/>
+<tableitem align="1" filedname="cusName" id="12" indexed="2" label="客户名称" mytitle="项目名称-cusName" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusFincApp_InterestAccruedList.getDetailPage(this);subStringNub-12;" width="140" widthType="1"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="5" label="借据金额" row="1" sortType="1" type="12" widthType="1"/>
+</table>

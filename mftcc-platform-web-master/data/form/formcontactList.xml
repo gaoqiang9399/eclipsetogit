@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="contactList" title="紧急联系人列表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactname" fieldtype="1" maxlength="100" formactiveid="2" labelalign="3" labelcol="1" labelname="联系人姓名" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactphone" fieldtype="1" maxlength="18" formactiveid="3" labelalign="3" labelcol="1" labelname="联系人手机号" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relation" fieldtype="1" maxlength="2" formactiveid="4" labelalign="3" labelcol="1" labelname="联系人与员工关系" mustinput="0" row="4" />
+</form>

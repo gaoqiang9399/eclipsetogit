@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="risk0001" link="/riskItem/findByPage" para="eadis_page" title="预警方案查询列表" trDbClick="/riskItem/getById;itemNo-itemNo;onDbClick-getById(this)" type="1">
+<tableitem align="2" filedname="itemName" id="2" indexed="2" label="方案名称" mytitle="方案名称-itemName" row="1" type="3" typepara="10"/>
+<tableitem align="2" filedname="itemType" id="3" indexed="3" label="方案类型" row="1" type="6" typepara="RISK_ITEM_TYPE"/>
+<tableitem align="2" filedname="itemDesc" id="4" indexed="4" label="方案描述" mytitle="方案描述-itemDesc" row="1" type="3" typepara="15"/>
+<tableitem align="2" filedname="usedInd" id="5" indexed="7" label="是否启用" row="1" type="6" typepara="USE_FLAG"/>
+<tableitem align="2" filedname="修改" id="16" indexed="13" label="-" row="1" type="5" typepara="/riskItem/getById;itemNo-itemNo;onClick-getById(this)" width="2"/>
+<tableitem align="2" filedname="删除" id="14" indexed="16" label="-" row="1" type="5" typepara="/riskItem/deleteAjax;itemNo-itemNo;onClick-ajaxTrDelete(this)" width="2"/>
+</table>

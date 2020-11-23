@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="tailRepaymentBase" title="尾款结付页面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="融资金额" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receBuyer" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="买方名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="tailDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="结付日期" mustinput="1" onclick="fPopUpCalendarDlg();" row="9"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="tailAmt" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="结付金额" maxlength="20" mustinput="1" onblur="MfRepaymentTail.tailAmtChange();" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="借据编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receNo" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="合同号/发票号" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="账款名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receInvoiceAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="合同/发票金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="receAmt" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="应收账款金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receTransAmt" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="转让金额" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receTransBal" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="可融资金额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receTransDate" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="转让日" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="receBeginDate" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="合同/发票日" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receEndDate" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="应收账款到期日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="转让子表Id" mustinput="" readonly="" row="12"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="balAmt" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="结余金额" mustinput="" onblur="MfRepaymentTail.tailAmtChange();" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="balId" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="应收账款结余id" mustinput="" readonly="" row="10"/>
+</form>

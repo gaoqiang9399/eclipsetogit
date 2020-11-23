@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0022" title="抵押物-林权表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCode" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="区域编码" maxlength="6" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="areaName" fieldsize="80" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="区域名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseType" fieldsize="HOUSE_TYPE" fieldtype="21" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="1" labelname="房产类型" labelwidth="20" maxlength="5" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buildStructure" fieldsize="BUILDING_STRUCTURE" fieldtype="21" formactiveid="5" labelalign="3" labelcol="3" labelname="结构类型" maxlength="2" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifExisting" fieldsize="YES_NO" fieldtype="21" fieldwidth="30" formactiveid="6" labelalign="3" labelcol="1" labelname="是否成品房" labelwidth="20" maxlength="1" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="finishDate" fieldtype="1" fieldwidth="30" formactiveid="7" labelalign="3" labelcol="3" labelname="竣工日期" labelwidth="20" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="floorArea" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="建筑面积(平方米)" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseLicenseNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="房产证号码" maxlength="60" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="landLicenseNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="土地证号码" maxlength="60" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="landUseType" fieldsize="LAND_USE_TYPE" fieldtype="21" formactiveid="11" labelalign="3" labelcol="1" labelname="土地使用权类型" maxlength="5" mustinput="0" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="landUseArea" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="土地使用面积(平方米)" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="landUseDate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="土地使用终止日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="抵押物类型" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="7" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAmt" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="7" unit="元" />
+</form>

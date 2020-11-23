@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="recetransfermainlist" title="应收账款转让列表（转让主表）" type="1">
+<tableitem align="3" filedname="transAmtSum" id="6" indexed="3" label="转让金额" row="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="融资客户" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'pact';onClick-MfBusReceTransferMain_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="transAppDate" id="4" indexed="4" label="转让申请日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="2" label="合同编号" row="1" type="4" typepara="/mfBusPact/getById;appId-appId;busEntrance-'pact';onClick-MfBusReceTransferMain_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="transNo" id="2" indexed="0" label="转让编号" row="1" type="4" typepara="/mfBusReceTransfer/getReceTransDetail;pactId-pactId;transMainId-transMainId;onClick-MfBusReceTransferMain_List.getReceDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="transSts" id="1" indexed="5" label="转让状态" row="1" sortType="2" type="6" typepara="RECE_TRANS_STS" widthType="0"/>
+</table>

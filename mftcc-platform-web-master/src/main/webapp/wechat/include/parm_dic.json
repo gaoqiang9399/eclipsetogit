@@ -1,0 +1,50 @@
+{
+  "ID_TYPE": [
+    {
+      "optCode": 0,
+      "optName": "身份证"
+    },
+    {
+      "optCode": "A",
+      "optName": "组织机构代码"
+    }
+  ],
+  "APP_STS": [
+    {
+      "optCode": 0,
+      "optName": "未提交"
+    },
+    {
+      "optCode": "1",
+      "optName": "上传资料"
+    },
+    {
+      "optCode": "2",
+      "optName": "流程中"
+    },
+    {
+      "optCode": "3",
+      "optName": "退回"
+    },
+    {
+      "optCode": "4",
+      "optName": "通过"
+    },
+    {
+      "optCode": "5",
+      "optName": "否决"
+    },
+    {
+      "optCode": "6",
+      "optName": "制作合同"
+    },
+    {
+      "optCode": "7",
+      "optName": "续议"
+    },
+    {
+      "optCode": "8",
+      "optName": "附条件通过"
+    }
+  ]
+}

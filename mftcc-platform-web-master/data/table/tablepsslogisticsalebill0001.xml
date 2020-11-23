@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psslogisticsalebill0001" para="eadis_page" title="物流管理选择销货单" type="2">
+<tableitem align="2" filedname="cusCode" id="6" indexed="5" label="客户号" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="6" label="客户名" mytitle="模板内容-cusName;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="saleBillNo" id="4" indexed="4" label="单据编号" mytitle="模板内容-saleBillNo;" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="memo" id="12" indexed="12" label="备注" mytitle="模板内容-memo;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="单据日期" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="saleBillNo" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="saleBillNo-saleBillNo;" width="4" widthType="0"/>
+</table>

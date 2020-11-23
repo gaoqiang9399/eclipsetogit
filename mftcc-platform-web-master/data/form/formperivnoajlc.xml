@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="perivnoajlc" title="个人涉诉案件案件流程信息">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ajlcId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="案件流程ID" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="body" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="内容" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sortTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="立案时间" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="法院名称" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="案号" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataType" fieldsize="CASE_DATA_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="数据类型" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sentencingDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="判决日期" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="status" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="执行状态" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trialProcedure" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="审理程序" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseCause" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="案由" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="member" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="法庭成员" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="clerkPhone" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="当值员电话" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseType" fieldsize="RISK_CASE_TYPE" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="案件类别" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseStatus" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="案件状态" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="organizer" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="组织者" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ajlcStatus" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="审理状态" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="filingDate" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="归档日期" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="chiefJudge" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="主要法官" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trialLimitDate" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="审判限制日期" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="judge" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="法官" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="clerk" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="书记员" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pname" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="当事人" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="actionObject" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="诉讼标的" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="effectiveDate" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="有效日期" mustinput="" readonly="" row="13"/>
+</form>

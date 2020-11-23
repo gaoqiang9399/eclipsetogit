@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbusagenciesconfig0001" title="资金机构配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="agenciesUid" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="5" labelname="agenciesUid" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="agenciesDetailUid" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="资金机构编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesDetailName" fieldsize="AGENCIES_BANK" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="资金机构" mustinput="1" readonly="" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="largeMulti" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="协议放大倍数" mustinput="1" readonly="" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="realCreditRate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="贷款利率" maxlength="15" mustinput="1" readonly="" row="3" unit="‰"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="操作员编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="操作员名称" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="部门编号" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="部门名称" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="最后修改时间" mustinput="" readonly="" row="18"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="creditRateMemo" fieldtype="5" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="贷款政策" maxlength="200" mustinput="1" readonly="" row="4"/>
+</form>

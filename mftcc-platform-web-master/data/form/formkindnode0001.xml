@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="kindnode0001" title="节点信息维护表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNodeId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="产品编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="业务模式" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="是否业务模式基础数据 normal：正常；base：基础；" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flowId" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="流程唯一编号" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nodeNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="节点编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nodeName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="节点名称" maxlength="100" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docFlag" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="是否挂载要件 1：是；0：否；" maxlength="1" mustinput="0" row="8"/>
+</form>

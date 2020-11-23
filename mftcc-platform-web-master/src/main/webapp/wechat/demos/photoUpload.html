@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=no">
+<title>图片上传</title>
+<link rel="stylesheet" href="../libs/jQueryWeUI/lib/weui.css">
+<link rel="stylesheet" href="../libs/jQueryWeUI/css/jquery-weui.css">
+<script type="text/javascript"
+	src="../libs/jQueryWeUI/lib/jquery-2.1.4.js"></script>
+<script type="text/javascript"
+	src="../libs/jQueryWeUI/js/jquery-weui.js"></script>
+<script type="text/javascript"
+	src="../libs/jQueryWeUI/js/swiper.js"></script>
+<script type="text/javascript"
+	src="../libs/webuploader-0.1.5/webuploader.js"></script>
+<script type="text/javascript"
+	src="../libs/webuploader-0.1.5/webuploader.extent.js"></script>
+<style type="text/css">
+.weui_uploader_input div {
+	top: 0px !important;
+	left: 0px !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.weui_uploader_input .webuploader-pick {
+	display: none;
+}
+
+.weui_uploader_input input.webuploader-element-invisible {
+	width: 100%;
+	height: 100%;
+}
+</style>
+</head>
+
+<body>
+	<div class="weui_cells weui_cells_form">
+		<div class="weui_cell">
+			<div class="weui_cell_bd weui_cell_primary">
+				<div class="weui_uploader">
+					<div class="weui_uploader_hd weui_cell">
+						<div class="weui_cell_bd weui_cell_primary">图片上传（可以上传）</div>
+					</div>
+					<div class="weui_uploader_bd">
+						<ul class="weui_uploader_files" id="wx_upload_list">
+						</ul>
+						<div class="weui_uploader_input_wrp">
+							<div class="weui_uploader_input" id="wx_upload_btn"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="weui_cells weui_cells_form">
+		<div class="weui_cell">
+			<div class="weui_cell_bd weui_cell_primary">
+				<div class="weui_uploader">
+					<div class="weui_uploader_hd weui_cell">
+						<div class="weui_cell_bd weui_cell_primary">图片上传（样式）</div>
+						<div class="weui_cell_ft">0/2</div>
+					</div>
+					<div class="weui_uploader_bd">
+						<ul class="weui_uploader_files">
+							<li class="weui_uploader_file"
+								style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+							<li class="weui_uploader_file"
+								style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+							<li class="weui_uploader_file"
+								style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+							<li class="weui_uploader_file weui_uploader_status"
+								style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+								<div class="weui_uploader_status_content">
+									<i class="weui_icon_warn"></i>
+								</div>
+							</li>
+							<li class="weui_uploader_file weui_uploader_status"
+								style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)">
+								<div class="weui_uploader_status_content">50%</div>
+							</li>
+						</ul>
+						<div class="weui_uploader_input_wrp">
+							<input class="weui_uploader_input" type="file" accept="image/*"
+								multiple="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		mobileUpload("wx_upload",'WxSysUploadActionAjax_uploadFile.action');
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="doc0010" title="上传文档文件管理详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docBizNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="docNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="docSize" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docAddr" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="" maxlength="1000" mustinput="0" row="3"/>
+</form>

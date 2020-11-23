@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="record0001" link="/mfRequestThirdPartyRecord/findByPage" para="eadis_page" title="请求第三方记录表" type="1">
+<tableitem align="2" filedname="cusName" id="18" indexed="4" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="19" label="-" row="1" type="5" typepara="/mfRequestThirdPartyRecord/deleteAjax;requestId-requestId;onClick-ajaxDelete(this)" width="2"/>
+<tableitem align="2" filedname="requestState" id="8" indexed="8" label="处理状态" row="1" type="6" typepara="THIRD_PAY_REQUEST_ST" widthType="0"/>
+<tableitem align="2" filedname="requestTime" id="7" indexed="9" label="处理时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincState" id="5" indexed="14" label="放款状态" row="1" type="6" typepara="THIRD_PAY_FINC_ST" widthType="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="6" label="借据号" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="13" indexed="15" label="原因" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="12" indexed="13" label="更新时间" row="1" type="0"/>
+<tableitem align="2" filedname="thirdPartyRequestId" id="2" indexed="2" label="第三方请求流水号" row="1" type="0"/>
+</table>

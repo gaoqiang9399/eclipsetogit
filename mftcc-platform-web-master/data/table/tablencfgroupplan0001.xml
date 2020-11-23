@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ncfgroupplan0001" link="/mfPlanInfoWx/findByPage" para="eadis_page" title="网信放款信息还款计划表" type="1">
+<tableitem align="2" filedname="fincId" id="19" indexed="4" label="业务借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="consultation" id="9" indexed="11" label="咨询费" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="checkAll" id="18" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="planId-planId;" widthType="0"/>
+<tableitem align="2" filedname="更新状态" id="17" indexed="19" label="-" row="1" type="5" typepara="/mfPlanInfoWx/updateRepayStateAjax;planId-planId;onClick-updateRepayState" width="2" widthType="0"/>
+<tableitem align="2" filedname="platformConsultation" id="8" indexed="10" label="平台服务费" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="repayInterest" id="7" indexed="9" label="应还利息" row="1" type="0"/>
+<tableitem align="2" filedname="status" id="15" indexed="17" label="还款状态" row="1" sortType="2" type="6" typepara="WX_REFUND_STAGE" widthType="0"/>
+<tableitem align="2" filedname="repayPrincipalAmt" id="6" indexed="8" label="应还本金" row="1" type="0"/>
+<tableitem align="2" filedname="planRepayAmt" id="14" indexed="16" label="应还总额" row="1" type="0"/>
+<tableitem align="2" filedname="repayPerDate" id="5" indexed="7" label="还款日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayPerNo" id="4" indexed="6" label="还款期次" row="1" type="0"/>
+<tableitem align="2" filedname="prePaymentPenalty" id="12" indexed="14" label="违约金" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="3" indexed="5" label="客户号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="guaranteeCost" id="11" indexed="13" label="担保费" type="99" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="3" label="展示借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="unionConsultationExpense" id="10" indexed="12" label="联合咨询费" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="planId" id="1" indexed="2" label="流水号" row="1" type="99" typepara="/mfPlanInfoWx/getById;planId-planId;query-'query'" widthType="0"/>
+</table>

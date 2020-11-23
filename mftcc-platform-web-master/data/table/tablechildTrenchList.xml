@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="childTrenchList" para="eadis_page" title="子渠道列表表单" type="1">
+<tableitem align="2" filedname="creditBal" id="6" indexed="10" label="授信余额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="attachBrName" id="5" indexed="9" label="归属公司" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditRate" id="13" indexed="12" label="额度剩余比例(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="warningRate" id="12" indexed="13" label="预警比例(%)" type="17" widthType="0"/>
+<tableitem align="1" filedname="trenchName" id="3" indexed="3" label="渠道名称" mytitle="渠道商名称-trenchName" row="1" sortType="2" type="4" typepara="/mfBusTrench/getChildTrenchDetailView;trenchId-trenchId;onClick-TrenchCenterInfo.getViewCommon;subStringNub-13;" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="11" indexed="11" label="授信总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="trenchButtPhone" id="10" indexed="8" label="联系人电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="trenchButtName" id="9" indexed="5" label="联系人" row="1" sortType="2" type="0" widthType="0"/>
+</table>

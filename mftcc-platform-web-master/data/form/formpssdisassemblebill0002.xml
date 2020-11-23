@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssdisassemblebill0002" title="拆卸单表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disassembleBillId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="拆卸单据ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disassembleBillNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="拆卸单据编号" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="disassembleExpense" fieldtype="1" formactiveid="14" initvalue="0" labelalign="3" labelcol="1" labelname="拆卸费用" maxlength="18" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disassembleExpenseType" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="费用类型" maxlength="1" mustinput="0" row="5"/>
+</form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="Golden" title="黄金">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname=" 押品名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classSecondName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="类别名称" maxlength="80" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="担保类别" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="抵质押率" maxlength="16" mustinput="0" row="5" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="权属证书编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fieldName" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="黄金纯度" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="黄金交易所" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="品牌" mustinput="" readonly="" row="7"/>
+<formelement datatype="8" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="重量" mustinput="" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="购买单价" mustinput="" readonly="" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="总金额" mustinput="" readonly="" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="押品类别" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="押品状态" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="" readonly="" row="11"/>
+</form>

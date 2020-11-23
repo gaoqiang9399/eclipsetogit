@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="oawhitename" link="/mfCusOaWhitename/findByPage" para="eadis_page" title="OA白名单信息" type="1">
+<tableitem align="2" filedname="department" id="4" indexed="4" label="所在部门" row="1" type="0"/>
+<tableitem align="2" filedname="idcardno" id="3" indexed="3" label="身份证号" type="4" typepara="/mfCusOaWhitename/getByIdcardno;idcardno-idcardno;onClick-MfCusOaWhitename.getById(this)" widthType="0"/>
+<tableitem align="2" filedname="address" id="11" indexed="11" label="联系地址" row="1" type="0"/>
+<tableitem align="2" filedname="name" id="2" indexed="2" label="姓名" row="1" type="0"/>
+<tableitem align="2" filedname="删除" id="16" indexed="16" label="-" row="1" type="99" typepara="/mfCusOaWhitename/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+</table>

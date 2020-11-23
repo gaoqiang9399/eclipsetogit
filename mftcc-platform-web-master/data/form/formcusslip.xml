@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusslip" title="客户转单">
+<formelement alt="请选择客户经理" datatype="0" fieldalign="1" fieldcol="2" fieldname="recOpName" fieldtype="1" formactiveid="20" labelalign="3" labelcol="1" labelname="客户经理" maxlength="50" mustinput="1" onclick="MfCusGetNotCusInfo.getcusmanagers();" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationId" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="2"/>
+<formelement alt="此客户没有客户经理不支持移交" datatype="0" fieldalign="1" fieldcol="2" fieldname="transContent" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="移交客户" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transType" fieldtype="99" formactiveid="29" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="移交类型" mustinput="" readonly="" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="transReason" fieldtype="5" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="转单原因" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recOpNo" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transOpNo" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="移交人编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transOpName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="移交人" mustinput="" readonly="1" row="1"/>
+</form>

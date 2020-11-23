@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pledgeDetailc100" title="毛豆信息">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pledgeName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="2" labelname="押品名称" mustinput="" param="pledgeNo;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="classModel" fieldsize="CLASS_MODEL" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="4" labelname="业务属性" maxlength="1" mustinput="" param="pledgeNo;" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="担保类别" mustinput="" param="pledgeNo;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="押品状态" mustinput="" readonly="1" row="3" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="pleValue" fieldsize="0.00" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="质押财产价值" maxlength="14" mustinput="" param="pledgeNo;" readonly="" row="7" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="pleExpiryDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="4" labelname="登记到期日" maxlength="8" mustinput="" onclick="selectrili(this,null,today,null)" param="pledgeNo;" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="200" mustinput="" param="pledgeNo;" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" mustinput="" readonly="" row="17" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="客户编号" mustinput="" readonly="" row="17" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="3" labelname="类别编号" mustinput="" readonly="" row="17" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="extDstr03" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="3" labelname="登记日期" mustinput="" onclick="selectrili(this,null,null,today)" param="pledgeNo;" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic02" fieldsize="CUR_TYPE" fieldtype="2" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="币种" mustinput="" param="pledgeNo;" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="20" mustinput="" onclick="selectrili(this,null,null,today)" readonly="" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt01" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="主折扣天数" maxlength="11" mustinput="" param="pledgeNo;" readonly="" row="11"/>
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="extNum03" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="2" labelname="主折扣率" maxlength="16" mustinput="" param="pledgeNo;" readonly="" row="11"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="extInt02" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="3" labelname="次折扣天数" maxlength="11" mustinput="" param="pledgeNo;" readonly="" row="11"/>
+<formelement datatype="3" fieldalign="1" fieldcol="5" fieldname="extNum04" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="4" labelname="次折扣率" maxlength="16" mustinput="" param="pledgeNo;" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extDic03" fieldsize="PAY_TYPE" fieldtype="2" formactiveid="33" horVer="1" labelalign="1" labelcol="4" labelname="支付方式" maxlength="1" mustinput="" param="pledgeNo;" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="3" labelname="所有权人名称" maxlength="80" mustinput="" onclick="bindDataSource(this,'6','certificateNo');" param="pledgeNo;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="classSecondName" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="押品类别" maxlength="30" mustinput="" param="pledgeNo;" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="extLstr02" fieldtype="5" formactiveid="37" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="付款条件" maxlength="200" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr16" fieldtype="90" formactiveid="38" labelalign="3" labelcol="1" labelname="EXT_OSTR16" maxlength="80" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr17" fieldtype="90" formactiveid="39" labelalign="3" labelcol="1" labelname="EXT_OSTR17" maxlength="80" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr18" fieldtype="90" formactiveid="40" labelalign="3" labelcol="1" labelname="EXT_OSTR18" maxlength="80" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr19" fieldtype="90" formactiveid="41" labelalign="3" labelcol="1" labelname="EXT_OSTR19" maxlength="80" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr01" fieldtype="90" formactiveid="42" labelalign="3" labelcol="1" labelname="EXT_DSTR01" maxlength="8" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr10" fieldtype="90" formactiveid="43" labelalign="3" labelcol="1" labelname="EXT_OSTR10" maxlength="80" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleUnit" fieldtype="90" formactiveid="44" labelalign="3" labelcol="1" labelname="单位" maxlength="20" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr11" fieldtype="90" formactiveid="45" labelalign="3" labelcol="1" labelname="EXT_OSTR11" maxlength="80" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr14" fieldtype="1" formactiveid="46" horVer="1" labelalign="1" labelcol="3" labelname="登记机关" maxlength="30" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr12" fieldtype="90" formactiveid="47" labelalign="3" labelcol="1" labelname="EXT_OSTR12" maxlength="80" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr13" fieldtype="90" formactiveid="48" labelalign="3" labelcol="1" labelname="EXT_OSTR13" maxlength="80" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleSourceDate" fieldtype="90" formactiveid="49" labelalign="3" labelcol="1" labelname="取得时间" maxlength="8" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr14" fieldtype="90" formactiveid="50" labelalign="3" labelcol="1" labelname="EXT_OSTR14" maxlength="80" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr15" fieldtype="90" formactiveid="51" labelalign="3" labelcol="1" labelname="EXT_OSTR15" maxlength="80" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr09" fieldtype="90" formactiveid="52" labelalign="3" labelcol="1" labelname="EXT_DSTR09" maxlength="8" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr08" fieldtype="90" formactiveid="53" labelalign="3" labelcol="1" labelname="EXT_DSTR08" maxlength="8" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr07" fieldtype="90" formactiveid="54" labelalign="3" labelcol="1" labelname="EXT_DSTR07" maxlength="8" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr06" fieldtype="90" formactiveid="55" labelalign="3" labelcol="1" labelname="EXT_DSTR06" maxlength="8" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr05" fieldtype="90" formactiveid="56" labelalign="3" labelcol="1" labelname="EXT_DSTR05" maxlength="8" mustinput="0" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr04" fieldtype="90" formactiveid="57" labelalign="3" labelcol="1" labelname="EXT_DSTR04" maxlength="8" mustinput="0" row="37"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="pleUnitPrice" fieldtype="90" formactiveid="58" labelalign="3" labelcol="1" labelname="单价" mustinput="0" row="38"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr02" fieldtype="90" formactiveid="59" labelalign="3" labelcol="1" labelname="EXT_DSTR02" maxlength="8" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleUseStatus" fieldtype="90" formactiveid="60" labelalign="3" labelcol="1" labelname="使用状态" maxlength="1" mustinput="0" row="40"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt10" fieldtype="90" formactiveid="61" labelalign="3" labelcol="1" labelname="EXT_INT10" mustinput="0" row="41"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt06" fieldtype="90" formactiveid="62" labelalign="3" labelcol="1" labelname="EXT_INT06" mustinput="0" row="42"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr29" fieldtype="90" formactiveid="63" labelalign="3" labelcol="1" labelname="EXT_OSTR29" maxlength="80" mustinput="0" row="43"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt07" fieldtype="90" formactiveid="64" labelalign="3" labelcol="1" labelname="EXT_INT07" mustinput="0" row="44"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt08" fieldtype="90" formactiveid="65" labelalign="3" labelcol="1" labelname="EXT_INT08" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr27" fieldtype="90" formactiveid="66" labelalign="3" labelcol="1" labelname="EXT_OSTR27" maxlength="80" mustinput="0" row="46"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt09" fieldtype="90" formactiveid="67" labelalign="3" labelcol="1" labelname="EXT_INT09" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr28" fieldtype="90" formactiveid="68" labelalign="3" labelcol="1" labelname="EXT_OSTR28" maxlength="80" mustinput="0" row="48"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="69" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="49"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt03" fieldtype="90" formactiveid="70" labelalign="3" labelcol="1" labelname="EXT_INT03" mustinput="0" row="50"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="90" formactiveid="71" labelalign="3" labelcol="1" labelname="类别ID" maxlength="30" mustinput="0" row="51"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt04" fieldtype="90" formactiveid="72" labelalign="3" labelcol="1" labelname="EXT_INT04" mustinput="0" row="52"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt05" fieldtype="90" formactiveid="73" labelalign="3" labelcol="1" labelname="EXT_INT05" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr21" fieldtype="90" formactiveid="74" labelalign="3" labelcol="1" labelname="EXT_OSTR21" maxlength="80" mustinput="0" row="54"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr10" fieldtype="90" formactiveid="75" labelalign="3" labelcol="1" labelname="EXT_DSTR10" maxlength="8" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr22" fieldtype="90" formactiveid="76" labelalign="3" labelcol="1" labelname="EXT_OSTR22" maxlength="80" mustinput="0" row="56"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr11" fieldtype="90" formactiveid="77" labelalign="3" labelcol="1" labelname="EXT_DSTR11" maxlength="8" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr12" fieldtype="90" formactiveid="78" labelalign="3" labelcol="1" labelname="EXT_DSTR12" maxlength="8" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr20" fieldtype="90" formactiveid="79" labelalign="3" labelcol="1" labelname="EXT_OSTR20" maxlength="80" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr25" fieldtype="90" formactiveid="80" labelalign="3" labelcol="1" labelname="EXT_OSTR25" maxlength="80" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr26" fieldtype="90" formactiveid="81" labelalign="3" labelcol="1" labelname="EXT_OSTR26" maxlength="80" mustinput="0" row="61"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr23" fieldtype="90" formactiveid="82" labelalign="3" labelcol="1" labelname="EXT_OSTR23" maxlength="80" mustinput="0" row="62"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr24" fieldtype="90" formactiveid="83" labelalign="3" labelcol="1" labelname="EXT_OSTR24" maxlength="80" mustinput="0" row="63"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occDate" fieldtype="90" formactiveid="84" labelalign="3" labelcol="1" labelname="业务发生时间" maxlength="17" mustinput="0" row="64"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleMediaBrand" fieldtype="90" formactiveid="85" labelalign="3" labelcol="1" labelname="品牌" maxlength="50" mustinput="0" row="65"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr14" fieldtype="90" formactiveid="86" labelalign="3" labelcol="1" labelname="EXT_DSTR14" maxlength="8" mustinput="0" row="66"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr13" fieldtype="90" formactiveid="87" labelalign="3" labelcol="1" labelname="EXT_DSTR13" maxlength="8" mustinput="0" row="67"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusNo" fieldtype="90" formactiveid="88" labelalign="3" labelcol="1" labelname=" 登记人" maxlength="30" mustinput="0" row="68"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgNo" fieldtype="90" formactiveid="89" labelalign="3" labelcol="1" labelname=" 更新机构编号" maxlength="30" mustinput="0" row="69"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDstr15" fieldtype="90" formactiveid="90" labelalign="3" labelcol="1" labelname="EXT_DSTR15" maxlength="8" mustinput="0" row="70"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleWarrantyNum" fieldtype="90" formactiveid="91" labelalign="3" labelcol="1" labelname="保单号" maxlength="50" mustinput="0" row="71"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum05" fieldtype="90" formactiveid="92" labelalign="3" labelcol="1" labelname="EXT_NUM05" mustinput="0" row="72"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum06" fieldtype="90" formactiveid="93" labelalign="3" labelcol="1" labelname="EXT_NUM06" mustinput="0" row="73"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum07" fieldtype="90" formactiveid="94" labelalign="3" labelcol="1" labelname="EXT_NUM07" mustinput="0" row="74"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr38" fieldtype="90" formactiveid="95" labelalign="3" labelcol="1" labelname="EXT_OSTR38" maxlength="80" mustinput="0" row="75"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum08" fieldtype="90" formactiveid="96" labelalign="3" labelcol="1" labelname="EXT_NUM08" mustinput="0" row="76"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="refFlag" fieldtype="90" formactiveid="97" labelalign="3" labelcol="1" labelname=" 是否被关联" maxlength="2" mustinput="0" row="77"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr39" fieldtype="90" formactiveid="98" labelalign="3" labelcol="1" labelname="EXT_OSTR39" maxlength="80" mustinput="0" row="78"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleSource" fieldtype="90" formactiveid="99" labelalign="3" labelcol="1" labelname="取得方式" maxlength="200" mustinput="0" row="79"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum09" fieldtype="90" formactiveid="100" labelalign="3" labelcol="1" labelname="EXT_NUM09" mustinput="0" row="80"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr34" fieldtype="90" formactiveid="101" labelalign="3" labelcol="1" labelname="EXT_OSTR34" maxlength="80" mustinput="0" row="81"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic11" fieldtype="90" formactiveid="102" labelalign="3" labelcol="1" labelname="EXT_DIC11" maxlength="5" mustinput="0" row="82"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="communiMediaType" fieldtype="90" formactiveid="103" labelalign="3" labelcol="1" labelname="交通工具类型" maxlength="5" mustinput="0" row="83"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="pleOriginalValue" fieldtype="90" formactiveid="104" labelalign="3" labelcol="1" labelname="押品原值" mustinput="0" row="84"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr35" fieldtype="90" formactiveid="105" labelalign="3" labelcol="1" labelname="EXT_OSTR35" maxlength="80" mustinput="0" row="85"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic10" fieldtype="90" formactiveid="106" labelalign="3" labelcol="1" labelname="EXT_DIC10" maxlength="5" mustinput="0" row="86"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr36" fieldtype="90" formactiveid="107" labelalign="3" labelcol="1" labelname="EXT_OSTR36" maxlength="80" mustinput="0" row="87"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic13" fieldtype="90" formactiveid="108" labelalign="3" labelcol="1" labelname="EXT_DIC13" maxlength="5" mustinput="0" row="88"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleCoowner" fieldtype="90" formactiveid="109" labelalign="3" labelcol="1" labelname="产权共有人" maxlength="50" mustinput="0" row="89"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr37" fieldtype="90" formactiveid="110" labelalign="3" labelcol="1" labelname="EXT_OSTR37" maxlength="80" mustinput="0" row="90"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic12" fieldtype="90" formactiveid="111" labelalign="3" labelcol="1" labelname="EXT_DIC12" maxlength="5" mustinput="0" row="91"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr30" fieldtype="90" formactiveid="112" labelalign="3" labelcol="1" labelname="EXT_OSTR30" maxlength="80" mustinput="0" row="92"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr31" fieldtype="90" formactiveid="113" labelalign="3" labelcol="1" labelname="EXT_OSTR31" maxlength="80" mustinput="0" row="93"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum01" fieldtype="90" formactiveid="114" labelalign="3" labelcol="1" labelname="EXT_NUM01" mustinput="0" row="94"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr32" fieldtype="90" formactiveid="115" labelalign="3" labelcol="1" labelname="EXT_OSTR32" maxlength="80" mustinput="0" row="95"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum02" fieldtype="90" formactiveid="116" labelalign="3" labelcol="1" labelname="EXT_NUM02" mustinput="0" row="96"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr33" fieldtype="90" formactiveid="117" labelalign="3" labelcol="1" labelname="EXT_OSTR33" maxlength="80" mustinput="0" row="97"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic07" fieldtype="90" formactiveid="118" labelalign="3" labelcol="1" labelname="EXT_DIC07" maxlength="5" mustinput="0" row="98"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic08" fieldtype="90" formactiveid="119" labelalign="3" labelcol="1" labelname="EXT_DIC08" maxlength="5" mustinput="0" row="99"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr40" fieldtype="90" formactiveid="120" labelalign="3" labelcol="1" labelname="EXT_OSTR40" maxlength="80" mustinput="0" row="100"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic09" fieldtype="90" formactiveid="121" labelalign="3" labelcol="1" labelname="EXT_DIC09" maxlength="5" mustinput="0" row="101"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic04" fieldtype="90" formactiveid="122" labelalign="3" labelcol="1" labelname="EXT_DIC04" maxlength="5" mustinput="0" row="102"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic05" fieldtype="90" formactiveid="123" labelalign="3" labelcol="1" labelname="EXT_DIC05" maxlength="5" mustinput="0" row="103"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic06" fieldtype="90" formactiveid="124" labelalign="3" labelcol="1" labelname="EXT_DIC06" maxlength="5" mustinput="0" row="104"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insEndDate" fieldtype="90" formactiveid="125" labelalign="3" labelcol="1" labelname="保险到期日" maxlength="8" mustinput="0" row="105"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="pleLoanBalance" fieldtype="90" formactiveid="126" labelalign="3" labelcol="1" labelname="贷款余额" mustinput="0" row="106"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="pleAmount" fieldtype="90" formactiveid="127" labelalign="3" labelcol="1" labelname="押品数量" mustinput="0" row="107"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="pleMinValue" fieldtype="90" formactiveid="128" labelalign="3" labelcol="1" labelname="押品最低监管价值" mustinput="0" row="108"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgNo" fieldtype="90" formactiveid="129" labelalign="3" labelcol="1" labelname=" 登记机构" maxlength="30" mustinput="0" row="109"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="90" formactiveid="130" labelalign="3" labelcol="1" labelname=" 更新人名称" maxlength="80" mustinput="0" row="110"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr49" fieldtype="90" formactiveid="131" labelalign="3" labelcol="1" labelname="EXT_OSTR49" maxlength="80" mustinput="0" row="111"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="90" formactiveid="132" labelalign="3" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="112"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr47" fieldtype="90" formactiveid="133" labelalign="3" labelcol="1" labelname="EXT_OSTR47" maxlength="80" mustinput="0" row="113"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr48" fieldtype="90" formactiveid="134" labelalign="3" labelcol="1" labelname="EXT_OSTR48" maxlength="80" mustinput="0" row="114"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic01" fieldtype="90" formactiveid="135" labelalign="3" labelcol="1" labelname="EXT_DIC01" maxlength="5" mustinput="0" row="115"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr45" fieldtype="90" formactiveid="136" labelalign="3" labelcol="1" labelname="EXT_OSTR45" maxlength="80" mustinput="0" row="116"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr46" fieldtype="90" formactiveid="137" labelalign="3" labelcol="1" labelname="EXT_OSTR46" maxlength="80" mustinput="0" row="117"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr43" fieldtype="90" formactiveid="138" labelalign="3" labelcol="1" labelname="EXT_OSTR43" maxlength="80" mustinput="0" row="118"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr44" fieldtype="90" formactiveid="139" labelalign="3" labelcol="1" labelname="EXT_OSTR44" maxlength="80" mustinput="0" row="119"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr41" fieldtype="90" formactiveid="140" labelalign="3" labelcol="1" labelname="EXT_OSTR41" maxlength="80" mustinput="0" row="120"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr42" fieldtype="90" formactiveid="141" labelalign="3" labelcol="1" labelname="EXT_OSTR42" maxlength="80" mustinput="0" row="121"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr50" fieldtype="90" formactiveid="142" labelalign="3" labelcol="1" labelname="EXT_OSTR50" maxlength="80" mustinput="0" row="122"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="pleUsefulLife" fieldtype="90" formactiveid="143" labelalign="3" labelcol="1" labelname="押品有效期" mustinput="0" row="123"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importDate" fieldtype="90" formactiveid="144" labelalign="3" labelcol="1" labelname="入库日期" maxlength="8" mustinput="0" row="124"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delflag" fieldtype="90" formactiveid="145" labelalign="3" labelcol="1" labelname=" 是否已删除" maxlength="2" mustinput="0" row="125"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="90" formactiveid="146" labelalign="3" labelcol="1" labelname=" 登记人名称" maxlength="80" mustinput="0" row="126"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleStorageCompany" fieldtype="90" formactiveid="147" labelalign="3" labelcol="1" labelname="仓储方名称" maxlength="50" mustinput="0" row="127"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exportDate" fieldtype="90" formactiveid="148" labelalign="3" labelcol="1" labelname="出库日期" maxlength="8" mustinput="0" row="128"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegNo" fieldtype="90" formactiveid="149" labelalign="3" labelcol="1" labelname=" 更新人" maxlength="30" mustinput="0" row="129"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="pleMinNum" fieldtype="90" formactiveid="150" labelalign="3" labelcol="1" labelname="押品最低监管数量" mustinput="0" row="130"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="90" formactiveid="151" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="131"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum13" fieldtype="90" formactiveid="152" labelalign="3" labelcol="1" labelname="EXT_NUM13" mustinput="0" row="132"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum12" fieldtype="90" formactiveid="153" labelalign="3" labelcol="1" labelname="EXT_NUM12" mustinput="0" row="133"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic20" fieldtype="90" formactiveid="154" labelalign="3" labelcol="1" labelname="EXT_DIC20" maxlength="5" mustinput="0" row="134"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum11" fieldtype="90" formactiveid="155" labelalign="3" labelcol="1" labelname="EXT_NUM11" mustinput="0" row="135"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum10" fieldtype="90" formactiveid="156" labelalign="3" labelcol="1" labelname="EXT_NUM10" mustinput="0" row="136"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgName" fieldtype="90" formactiveid="157" labelalign="3" labelcol="1" labelname=" 登记机构名称" maxlength="80" mustinput="0" row="137"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleProducingArea" fieldtype="90" formactiveid="158" labelalign="3" labelcol="1" labelname="产地" maxlength="200" mustinput="0" row="138"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleBreed" fieldtype="90" formactiveid="159" labelalign="3" labelcol="1" labelname="品种" maxlength="50" mustinput="0" row="139"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum15" fieldtype="90" formactiveid="160" labelalign="3" labelcol="1" labelname="EXT_NUM15" mustinput="0" row="140"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extNum14" fieldtype="90" formactiveid="161" labelalign="3" labelcol="1" labelname="EXT_NUM14" mustinput="0" row="141"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="90" formactiveid="162" labelalign="3" labelcol="1" labelname=" 抵质押率" mustinput="0" row="142"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic17" fieldtype="90" formactiveid="163" labelalign="3" labelcol="1" labelname="EXT_DIC17" maxlength="5" mustinput="0" row="143"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic16" fieldtype="90" formactiveid="164" labelalign="3" labelcol="1" labelname="EXT_DIC16" maxlength="5" mustinput="0" row="144"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic15" fieldtype="90" formactiveid="165" labelalign="3" labelcol="1" labelname="EXT_DIC15" maxlength="5" mustinput="0" row="145"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic14" fieldtype="90" formactiveid="166" labelalign="3" labelcol="1" labelname="EXT_DIC14" maxlength="5" mustinput="0" row="146"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic19" fieldtype="90" formactiveid="167" labelalign="3" labelcol="1" labelname="EXT_DIC19" maxlength="5" mustinput="0" row="147"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic18" fieldtype="90" formactiveid="168" labelalign="3" labelcol="1" labelname="EXT_DIC18" maxlength="5" mustinput="0" row="148"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleCargoName" fieldtype="90" formactiveid="169" labelalign="3" labelcol="1" labelname="货物名称" maxlength="50" mustinput="0" row="149"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleGrade" fieldtype="90" formactiveid="170" labelalign="3" labelcol="1" labelname="等级" maxlength="30" mustinput="0" row="150"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extLstr03" fieldtype="90" formactiveid="171" labelalign="3" labelcol="1" labelname="EXT_LSTR03" maxlength="200" mustinput="0" row="151"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extLstr05" fieldtype="90" formactiveid="172" labelalign="3" labelcol="1" labelname="EXT_LSTR05" maxlength="200" mustinput="0" row="152"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extLstr04" fieldtype="90" formactiveid="173" labelalign="3" labelcol="1" labelname="EXT_LSTR04" maxlength="200" mustinput="0" row="153"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="90" formactiveid="174" labelalign="3" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="154"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insBeneFiciary" fieldtype="90" formactiveid="175" labelalign="3" labelcol="1" labelname="受益人" maxlength="50" mustinput="0" row="155"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extLstr01" fieldtype="90" formactiveid="176" labelalign="3" labelcol="1" labelname="EXT_LSTR01" maxlength="200" mustinput="0" row="156"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr04" fieldtype="90" formactiveid="177" labelalign="3" labelcol="1" labelname="EXT_OSTR04" maxlength="80" mustinput="0" row="157"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="90" formactiveid="178" labelalign="3" labelcol="1" labelname=" 更新机构名称" maxlength="80" mustinput="0" row="158"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insCrop" fieldtype="90" formactiveid="179" labelalign="3" labelcol="1" labelname="保险公司名称" maxlength="50" mustinput="0" row="159"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr03" fieldtype="90" formactiveid="180" labelalign="3" labelcol="1" labelname="EXT_OSTR03" maxlength="80" mustinput="0" row="160"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr02" fieldtype="90" formactiveid="181" labelalign="3" labelcol="1" labelname="EXT_OSTR02" maxlength="80" mustinput="0" row="161"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr01" fieldtype="90" formactiveid="182" labelalign="3" labelcol="1" labelname="EXT_OSTR01" maxlength="80" mustinput="0" row="162"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleAddress" fieldtype="90" formactiveid="183" labelalign="3" labelcol="1" labelname="押品所在地" maxlength="200" mustinput="0" row="163"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr09" fieldtype="90" formactiveid="184" labelalign="3" labelcol="1" labelname="EXT_OSTR09" maxlength="80" mustinput="0" row="164"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr08" fieldtype="90" formactiveid="185" labelalign="3" labelcol="1" labelname="EXT_OSTR08" maxlength="80" mustinput="0" row="165"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr06" fieldtype="90" formactiveid="186" labelalign="3" labelcol="1" labelname="EXT_OSTR06" maxlength="80" mustinput="0" row="166"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr05" fieldtype="90" formactiveid="187" labelalign="3" labelcol="1" labelname="EXT_OSTR05" maxlength="80" mustinput="0" row="167"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleProduceDate" fieldtype="90" formactiveid="188" labelalign="3" labelcol="1" labelname="生产日期" maxlength="8" mustinput="0" row="168"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleMediaModel" fieldtype="90" formactiveid="189" labelalign="3" labelcol="1" labelname="型号" maxlength="30" mustinput="0" row="169"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="insAmount" fieldtype="90" formactiveid="190" labelalign="3" labelcol="1" labelname="投保金额" mustinput="0" row="170"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="191" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr15" fieldtype="1" formactiveid="192" horVer="1" labelalign="1" labelcol="4" labelname="出质人" maxlength="10" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr07" fieldtype="1" formactiveid="193" horVer="1" labelalign="1" labelcol="1" labelname="登记信息" maxlength="30" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pleInvoiceNum" fieldtype="1" formactiveid="194" horVer="1" labelalign="1" labelcol="2" labelname="登记证明编号" maxlength="30" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateNo" fieldtype="99" formactiveid="195" horVer="1" labelalign="1" labelcol="1" labelname="所有权人编号" mustinput="" readonly="" row="16"/>
+</form>

@@ -1,0 +1,24 @@
+.tabs_list iframe{
+	border: none;
+}
+.lavaLamp li a{
+	font-size: 14px;
+	cursor: pointer;
+}
+.row{
+	margin: 0;
+	padding: 0;
+}
+.lavaLamp li.back {
+    background-color: #009ce1;
+}
+.lavaLamp {
+	left:21px;
+}		
+.content .lavaLampParent .lavaLamp li.pages-btn {
+	margin-right:0px;
+    padding: 0 10px;
+}
+.lavaLamp li {
+    width: auto;
+}

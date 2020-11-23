@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="policy0001" link="/mfPolicyInfo/findByPage" para="eadis_page" title="保单信息表" type="2">
+<tableitem align="1" filedname="beneficiary" id="5" indexed="5" label="受益人" row="1" type="3" typepara="30" width="35" widthType="0"/>
+<tableitem align="1" filedname="policyHolder" id="4" indexed="4" label="投保人" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="policyNo" id="1" indexed="1" label="保单编号" row="1" type="4" typepara="/mfPolicyInfo/listShowDetailAjax;policyNo-policyNo;oneUrl-'/mfPolicyInfo/updateByOneAjax';onClick-listShowDetail(this);" width="25" widthType="0"/>
+<tableitem align="2" filedname="policyTerm" id="8" indexed="3" label="保单期限(月)" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="policyAmt" id="7" indexed="2" label="保单金额" row="1" type="12" width="10" widthType="0"/>
+</table>

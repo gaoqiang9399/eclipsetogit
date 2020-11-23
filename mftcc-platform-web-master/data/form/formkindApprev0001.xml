@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="kindApprev0001" title="产品中审批流程">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="applyProcessName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="2" labelname="业务审批流程" mustinput="" onclick="window.top.showDialog('wkf_showView.action?fieldName=applyProcessName','选择流程编号',80,90);" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="2" labelname="合同审批流程" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="applyProcessId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="业务审批流程编号" mustinput="" readonly="" row="1" />
+</form>

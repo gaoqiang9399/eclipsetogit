@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="loanuseadd" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useid" fieldtype="1" maxlength="8" formactiveid="1" labelalign="3" labelcol="1" labelname="" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usebrno" fieldtype="1" maxlength="500" formactiveid="2" labelalign="3" labelcol="1" labelname="" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usename" fieldtype="1" maxlength="100" formactiveid="3" labelalign="3" labelcol="1" labelname="" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usefile" fieldtype="1" maxlength="400" formactiveid="4" labelalign="3" labelcol="1" labelname="" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="type" fieldtype="1" maxlength="20" formactiveid="5" labelalign="3" labelcol="1" labelname="" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" maxlength="1" formactiveid="6" labelalign="3" labelcol="1" labelname="" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="filler" fieldtype="1" maxlength="500" formactiveid="7" labelalign="3" labelcol="1" labelname="" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upone" fieldtype="1" maxlength="8" formactiveid="8" labelalign="3" labelcol="1" labelname="" mustinput="0" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uptwo" fieldtype="1" maxlength="8" formactiveid="9" labelalign="3" labelcol="1" labelname="" mustinput="0" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upup" fieldtype="1" maxlength="8" formactiveid="10" labelalign="3" labelcol="1" labelname="" mustinput="0" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ficode" fieldtype="1" maxlength="1" formactiveid="11" labelalign="3" labelcol="1" labelname="" mustinput="0" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isleaf" fieldtype="1" maxlength="1" formactiveid="12" labelalign="3" labelcol="1" labelname="" mustinput="0" row="12" />
+</form>

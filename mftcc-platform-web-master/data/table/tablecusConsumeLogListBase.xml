@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusConsumeLogListBase" para="eadis_page" title="消费记录" type="1">
+<tableitem align="2" filedname="appAmt" id="6" indexed="7" label="消费金额" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="bankNo" filedname="orderId" id="4" indexed="4" label="订单号" row="1" type="4" typepara="/mfCusConsumeLog/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusConsumeLog/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="projectName" id="3" indexed="6" label="项目" row="1" type="6" width="25" widthType="0"/>
+<tableitem align="2" filedname="merchantName" id="2" indexed="4" label="商家" mytitle="账户名称-accountName" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="9" indexed="12" label="-" type="5" typepara="/mfCusConsumeLog/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

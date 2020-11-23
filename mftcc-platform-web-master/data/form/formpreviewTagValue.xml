@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="previewTagValue" title="标签预览展示表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tagValue2" fieldtype="1" formactiveid="3" horVer="0" labelalign="2" labelcol="3" labelname="标签名2" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tagValue1" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="标签名1" mustinput="" readonly="1" row="1"/>
+</form>

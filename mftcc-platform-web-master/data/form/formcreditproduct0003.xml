@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditproduct0003" title="产品授信额度信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="id" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="授信申请编号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldsize="KIND_NO" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="产品种类" maxlength="10" mustinput="0" onchange="mfCusCreditProductDetail.ifCirloan(this);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="产品种类" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="授信额度" maxlength="20" mustinput="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateType" fieldsize="RATE_TYPE" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="利率类型" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="creditRate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="利率" maxlength="10" mustinput="0" onblur="checkProductCreditInfo(this);" row="2" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="repaymentMode" fieldsize="REPAY_TYPE" fieldtype="3" formactiveid="8" labelalign="3" labelcol="1" labelname="还款方式" maxlength="2" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="3" formactiveid="9" labelalign="3" labelcol="1" labelname="担保方式" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyUsage" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="申请用途" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseType" fieldsize="BASE_TYPE" fieldtype="21" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="基地" mustinput="" readonly="" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="depositRate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="保证金比例" mustinput="1" onblur="checkProductCreditInfo(this);" readonly="" row="3" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditProductBatchId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="产品授信批次号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isCeilingLoop" fieldsize="YES_NO" fieldtype="21" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="额度是否可循环" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="" readonly="" row="7"/>
+</form>

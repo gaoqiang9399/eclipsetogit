@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form id="recallconfigphone0002" title="电话催收配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="phoneNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="电话催收配置编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectionPlanNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="催收方案编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startRecallWay" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="发起方式" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exeWay" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="执行方式" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterStartDays" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="还款日后(XX天)开始" maxlength="0" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterEndDays" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="还款日后(XX天)结束" maxlength="0" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterInteval" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="任务重复频率" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAfterIntevalUnit" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="任务重复频率单位" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="minRecallAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="最小催收金额" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recType" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="接收人类型" maxlength="1" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="角色编号" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="角色名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="接收人编号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="接收人名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recallDesc" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="催收内容描述" maxlength="500" mustinput="0" row="15"/>
+</form>

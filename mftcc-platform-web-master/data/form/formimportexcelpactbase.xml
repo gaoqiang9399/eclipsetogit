@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="importexcelpactbase" title="历史数据导入融资合同表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="importId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="历史数据导入临时表编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="pactId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="合同号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactNo" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="合同展示号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="4" labelalign="1" labelcol="2" labelname="客户号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="5" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="kindNo" fieldtype="1" maxlength="30" formactiveid="6" labelalign="1" labelcol="2" labelname="产品编号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="kindName" fieldtype="1" maxlength="60" formactiveid="7" labelalign="1" labelcol="1" labelname="产品名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="idNum" fieldtype="1" maxlength="30" formactiveid="8" labelalign="1" labelcol="2" labelname="证件号码" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" maxlength="30" formactiveid="9" labelalign="1" labelcol="1" labelname="合同金额" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="usableFincAmt" fieldtype="1" maxlength="30" formactiveid="10" labelalign="1" labelcol="2" labelname="可支用金额" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fincRate" fieldtype="1" maxlength="30" formactiveid="11" labelalign="1" labelcol="1" labelname="利率" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="termType" fieldtype="1" maxlength="1" formactiveid="12" labelalign="1" labelcol="2" labelname="期限类型" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="term" fieldtype="1" maxlength="11" formactiveid="13" labelalign="1" labelcol="1" labelname="申请期限日" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="repayType" fieldtype="1" maxlength="1" formactiveid="14" labelalign="1" labelcol="2" labelname="还款方式1等额本息2等额本金3利随本清4到期还本按月结息5到期还本按季结息6按计划" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="rateType" fieldtype="1" maxlength="1" formactiveid="15" labelalign="1" labelcol="1" labelname="利率类型 1为年利率" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="overFloat" fieldtype="1" maxlength="30" formactiveid="16" labelalign="1" labelcol="2" labelname="逾期利率浮动百分比" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="overRate" fieldtype="1" maxlength="30" formactiveid="17" labelalign="1" labelcol="1" labelname="逾期利率" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cmpdFloat" fieldtype="1" maxlength="30" formactiveid="18" labelalign="1" labelcol="2" labelname="复利利率浮动百分比" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cmpdRate" fieldtype="1" maxlength="30" formactiveid="19" labelalign="1" labelcol="1" labelname="复利利率" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="vouType" fieldtype="1" maxlength="20" formactiveid="20" labelalign="1" labelcol="2" labelname="担保方式（支持多选）" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="21" labelalign="1" labelcol="1" labelname="登记人号" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="beginDate" fieldtype="1" maxlength="8" formactiveid="22" labelalign="1" labelcol="2" labelname="合同开始日期" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="endDate" fieldtype="1" maxlength="8" formactiveid="23" labelalign="1" labelcol="1" labelname="合同结束日期" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="signDate" fieldtype="1" maxlength="8" formactiveid="24" labelalign="1" labelcol="2" labelname="合同签订日期" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="authCycle" fieldtype="1" maxlength="50" formactiveid="25" labelalign="1" labelcol="1" labelname="额度是否可循环：1-是，0-否" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="collectAccId" fieldtype="1" maxlength="50" formactiveid="26" labelalign="1" labelcol="2" labelname="收款账户 关联mf_cus_bank_acc_manage表的ID" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="repayAccId" fieldtype="1" maxlength="50" formactiveid="27" labelalign="1" labelcol="1" labelname="还款账户 关联mf_cus_bank_acc_manage表的ID" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="hisId" fieldtype="1" maxlength="22" formactiveid="28" labelalign="1" labelcol="2" labelname="历史数据导入编号" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="readResult" fieldtype="1" maxlength="22" formactiveid="29" labelalign="1" labelcol="1" labelname="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="readSts" fieldtype="1" maxlength="22" formactiveid="30" labelalign="1" labelcol="2" labelname="解析excel数据状态：0失败1成功" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="importSts" fieldtype="1" maxlength="22" formactiveid="31" labelalign="1" labelcol="1" labelname="数据导入状态：0待导入1已导入" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="32" labelalign="1" labelcol="2" labelname="" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="33" labelalign="1" labelcol="1" labelname="" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="34" labelalign="1" labelcol="2" labelname="" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="35" labelalign="1" labelcol="1" labelname="" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="36" labelalign="1" labelcol="2" labelname="" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext6" fieldtype="1" maxlength="500" formactiveid="37" labelalign="1" labelcol="1" labelname="" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext7" fieldtype="1" maxlength="500" formactiveid="38" labelalign="1" labelcol="2" labelname="" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext8" fieldtype="1" maxlength="500" formactiveid="39" labelalign="1" labelcol="1" labelname="" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext9" fieldtype="1" maxlength="500" formactiveid="40" labelalign="1" labelcol="2" labelname="" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext10" fieldtype="1" maxlength="500" formactiveid="41" labelalign="1" labelcol="1" labelname="" mustinput="0" row="41"/>
+</form>

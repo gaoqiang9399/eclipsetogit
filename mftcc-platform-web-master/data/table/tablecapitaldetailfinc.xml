@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="capitaldetailfinc" para="eadis_page" title="借据详情下资金落实" type="1">
+<tableitem align="2" filedname="落实详情" id="27" indexed="20" label="-" type="5" typepara="/mfBusFincApp/capitalDetail;warningId-warningId;onClick-MfCapitalImplementDetail_Insert.capitalDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="otherLoanBal" id="26" indexed="19" label="其他账号余额" row="1" type="15" widthType="0"/>
+<tableitem align="2" filedname="bankLoanBal" id="25" indexed="18" label="贷款账号余额" row="1" type="15" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="guaranteAmt" id="12" indexed="15" label="到期担保金额" row="1" type="15" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="23" indexed="14" label="到期日期" row="1" type="1" widthType="0"/>
+</table>

@@ -1,0 +1,177 @@
+.body_leave{
+	background-color: #f4f4f4;
+}
+.mf_content{
+	width: 100%; 
+	height: 100%; 
+	margin-top: 0px; 
+	padding: 30px 0px 55px 0px;
+}
+.content-div{
+	margin: 0px -100px; 
+	padding: 37px 100px; 
+	padding-bottom:120px; 
+	border: 1px solid #cacaca;  
+	background-color: white;
+}
+.label{
+	padding-top: 9px;
+    color: #191818;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+}
+table{
+	width: 100%;
+	border: 0 ;
+	align: center; 
+	cellpadding: 1;
+	cellspacing: 1;
+	margin-left: 0%;
+}
+td{
+	height: 40px;
+}
+.td-div{
+	float: left;
+}
+.input-style{
+	outline: none; 
+	width: 100%;
+	border: 0;
+	height: 30px;
+    font-size: 14px !important;
+}
+.mainTd_2_1 * {
+	font-weight: 100;
+	color: #4e5252 ;
+	font-size: 20pt ;
+}
+
+input[type="text"] { 
+	box-shadow: none;
+	height: 30px;
+	border: 1px solid #F2F2F2;
+	font-size: large;
+	color: black;
+}
+input[type="text"] ,input[type="textarea"] {
+    box-shadow: none;
+    height: 30px;
+    font-size: 14;
+    color: black;
+}
+/*  input:focus {
+	outline: 5px solid white;
+	background-color: white;
+}  */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], input[type="url"], select, textarea {
+    box-sizing: border-box;
+    padding: 7px 8px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+textarea {
+	border: 1px solid #949491 !important;
+    padding: 9px !important;
+    border-radius: 0px !important
+}
+a {
+	color: #32b5cb;
+	text-decoration: none;
+}
+
+#search-div {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	height: 40px
+}
+.filter_option {
+ 	margin-left: -4px;
+ 	border:1px solid #c5c5c5 !important; 
+	border-left:none !important; 
+	background-color: white !important;
+}
+.mySelectedNode span#my_filter_1_span{
+	color:#32b5cb !important;
+}
+.mysearch-div .ztree li a:hover .button {
+    border: 1px solid #adadad;
+}
+.node_name {
+	color: black !important;
+}
+.gaga {
+	border-right:none  !important;
+}
+.mysearch-div .ztree li.mySelectedNode .filter_option{
+	border:1px solid #32b5cb !important;
+	border-left:none !important; 
+}
+.mysearch-div .ztree li span.button {
+    border: 1px solid #c5c5c5;
+}
+.tab-content .rows .left .error {   
+    max-width: 500px;
+    min-height: 20px;
+    position:absolute;
+    top: inherit;
+    left: 51;
+    background-color: #D2EFF5;
+    padding: 10px 18px;
+    z-index: 10;
+    border-radius: 5px;
+    color: #32b5cb;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.pointer {
+	position: absolute;
+    top: 11px;
+    right: 0px;
+    color: #32B5CB;
+    font-size: 20px;
+}
+
+.dropdown .ztree li:hover .i-radio1, .dropdown .ztree li a:hover .i-radio1 {
+    display: block;
+    color: #c5c5c5;
+}
+.dropdown .ztree li:hover .filter_option, .dropdown .ztree li a:hover .filter_option, .dropdown .ztree li:hover span.button, .dropdown .ztree li a:hover span.button {
+    background: #ffffff;
+    border: 1px solid #c5c5c5;
+}
+.dropdown .ztree li.mySelectedNode span.button .i {
+    color: #32b5cb !important;
+}
+
+.dropdown .ztree li.mySelectedNode:hover span.button, .dropdown .ztree li.mySelectedNode a:hover span.button, .dropdown .ztree li.mySelectedNode:hover .filter_option, .dropdown .ztree li.mySelectedNode a:hover .filter_option {
+    background-color: #ffffff;
+    border: 1px solid #32b5cb;
+}
+.dropdown .ztree li {
+    width: 85%;
+}
+.dropdown .ztree li:hover {
+    background: none;
+    width: 85%;
+}
+.dropdown .ztree li.mySelectedNode:hover {
+    background-color: #ffffff;
+}
+.dropdown .ztree li.mySelectedNode {
+    background-color: #ffffff;
+}
+.mysearch-div .ztree li.mySelectedNode a:hover span.button {
+    background-color: #fff;
+    border: 1px solid #32b5cb !important;
+    border-right: none !important;
+}
+.dropdown .ztree li.mySelectedNode span.button, .dropdown .ztree li.mySelectedNode .filter_option {
+    background-color: #ffffff;
+    border: 1px solid #32b5cb;
+}

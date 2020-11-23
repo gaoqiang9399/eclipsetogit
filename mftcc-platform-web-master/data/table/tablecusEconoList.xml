@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusEconoList" para="eadis_page" title="农户经济情况（耕地和副业用地吉林金控）" type="1">
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="26" indexed="26" label="-" type="5" typepara="/mfCusFarmerEconoInfo/deleteAjax;farmerEconoInfoId-farmerEconoInfoId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="contractedValue" id="11" indexed="11" label="承包价值" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="landType" id="9" indexed="9" label="土地类型" row="1" type="6" typepara="LAND_TYPE_FG_JLJK" widthType="0"/>
+<tableitem align="2" filedname="contractedLandArea" id="7" indexed="8" label="面积" row="1" type="4" typepara="/mfCusFarmerEconoInfo/listShowDetailAjax;farmerEconoInfoId-farmerEconoInfoId;cusNo-cusNo;oneUrl-'/mfCusFarmerEconoInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

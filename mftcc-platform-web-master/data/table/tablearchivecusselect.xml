@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivecusselect" para="eadis_page" title="选择客户" type="1">
+<tableitem align="2" filedname="选择" id="5" indexed="5" label="-" row="1" type="5" typepara="#;cusNo-cusNo;onClick-choseCus" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="4" indexed="4" label="客户编号" mytitle="证件号码-idNum;" type="0" typepara="12" width="45" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="3" label="客户名称" mytitle="客户名称-cusName;" row="1" type="3" typepara="16" width="45" widthType="0"/>
+</table>

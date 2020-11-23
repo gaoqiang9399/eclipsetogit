@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="rec0007" para="eadis_page" title="催收指派" type="2">
+<tableitem align="2" filedname="指派" id="27" indexed="31" label="操作" row="1" type="5" typepara=";taskNo-taskNo;onclick-getSysUserList(this,'1');" width="6" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="4" indexed="6" label="客户名称" row="1" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="4" label="借据号" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="appName" id="21" indexed="7" label="项目名称" row="1" type="0" width="18" widthType="0"/>
+<tableitem align="2" filedname="recallSts" id="30" indexed="24" label="状态" row="1" type="6" typepara="RECALL_STS" width="8" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="29" indexed="2" label="选择" row="1" type="2" typepara="taskNo-taskNo" width="6" widthType="0"/>
+<tableitem align="2" filedname="mgrName" id="28" indexed="27" label="催收人名称" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="recallAmt" id="7" indexed="10" label="催收金额（元）" row="1" type="0" width="12" widthType="0"/>
+</table>

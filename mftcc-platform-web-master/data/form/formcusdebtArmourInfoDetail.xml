@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusdebtArmourInfoDetail" title="铁甲网-个人客户负债表">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="debtId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="4" labelname="欠款ID" maxlength="30" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="客户编号" maxlength="30" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="客户经理编号" maxlength="22" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="90" formactiveid="18" labelalign="3" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="19" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastModTime" fieldtype="90" formactiveid="20" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="21" labelalign="3" labelcol="1" labelname="客户经理姓名" maxlength="40" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="debtId;" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="43" horVer="1" labelalign="1" labelcol="1" labelname="客户名" maxlength="100" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="haveLoanFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="44" horVer="1" labelalign="1" labelcol="2" labelname="是否有贷款" mustinput="" readonly="" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="loanOverCnt" fieldtype="1" formactiveid="45" horVer="1" labelalign="1" labelcol="3" labelname="贷款累计逾期次数" maxlength="3" mustinput="" readonly="" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="5" fieldname="loanOverTerm" fieldtype="1" formactiveid="46" horVer="1" labelalign="1" labelcol="4" labelname="贷款连续逾期数" maxlength="3" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="haveCreditCardFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="47" horVer="1" labelalign="1" labelcol="1" labelname="是否有信用卡" mustinput="" readonly="" row="3"/>
+<formelement datatype="17" fieldalign="1" fieldcol="3" fieldname="creditCardUseRate" fieldtype="1" formactiveid="48" horVer="1" labelalign="1" labelcol="2" labelname="信用卡近6个月使用率" maxlength="14" mustinput="" readonly="" row="3" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="creditCardOverCnt" fieldtype="1" formactiveid="49" horVer="1" labelalign="1" labelcol="3" labelname="信用卡累计逾期次数" maxlength="3" mustinput="" readonly="" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="5" fieldname="creditCardQueryTerm" fieldtype="1" formactiveid="50" horVer="1" labelalign="1" labelcol="4" labelname="信用卡连续逾期数" maxlength="3" mustinput="" readonly="" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="loanQueryCnt" fieldtype="1" formactiveid="51" horVer="1" labelalign="1" labelcol="1" labelname="近半年贷款查询次数" maxlength="3" mustinput="" readonly="" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="creditQueryCnt" fieldtype="1" formactiveid="52" horVer="1" labelalign="1" labelcol="2" labelname="近半年征信查询次数" mustinput="" readonly="" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="overAmt" fieldtype="1" formactiveid="53" horVer="1" labelalign="1" labelcol="3" labelname="当前逾期金额" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="externalGuaranteeFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="54" horVer="1" labelalign="1" labelcol="4" labelname="对外担保" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaranteeStatus" fieldtype="1" formactiveid="55" horVer="1" labelalign="1" labelcol="1" labelname="担保状态" maxlength="50" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="loanFiveClassify" fieldtype="1" formactiveid="56" horVer="1" labelalign="1" labelcol="2" labelname="贷款五级分类" maxlength="50" mustinput="" readonly="" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="pettyLoanAmt" fieldtype="1" formactiveid="57" horVer="1" labelalign="1" labelcol="4" labelname="小额贷款" maxlength="14" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditCardDebtAmt" fieldtype="1" formactiveid="58" horVer="1" labelalign="1" labelcol="1" labelname="信用卡负债" maxlength="14" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="externalGuaranteeAmt" fieldtype="1" formactiveid="59" horVer="1" labelalign="1" labelcol="2" labelname="对外担保金额" maxlength="14" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="otherDebtAmt" fieldtype="1" formactiveid="60" horVer="1" labelalign="1" labelcol="3" labelname="其他负债" maxlength="14" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="sumAmt" fieldtype="1" formactiveid="61" horVer="1" labelalign="1" labelcol="4" labelname="总计" maxlength="14" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext1" fieldtype="90" formactiveid="62" horVer="0" labelalign="3" labelcol="5" labelname="ext1" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext2" fieldtype="90" formactiveid="63" horVer="0" labelalign="3" labelcol="5" labelname="ext2" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext3" fieldtype="90" formactiveid="64" horVer="0" labelalign="3" labelcol="5" labelname="ext3" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext4" fieldtype="90" formactiveid="65" horVer="0" labelalign="3" labelcol="5" labelname="ext4" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext5" fieldtype="90" formactiveid="66" horVer="0" labelalign="3" labelcol="5" labelname="ext5" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext6" fieldtype="90" formactiveid="67" horVer="0" labelalign="3" labelcol="5" labelname="ext6" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext7" fieldtype="90" formactiveid="68" horVer="0" labelalign="3" labelcol="5" labelname="ext7" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext8" fieldtype="90" formactiveid="69" horVer="0" labelalign="3" labelcol="5" labelname="ext8" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext9" fieldtype="90" formactiveid="70" horVer="0" labelalign="3" labelcol="5" labelname="ext9" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext10" fieldtype="90" formactiveid="71" horVer="0" labelalign="3" labelcol="5" labelname="ext10" mustinput="" readonly="" row="10"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="loanAmt" fieldtype="1" formactiveid="72" horVer="1" labelalign="1" labelcol="3" labelname="银行贷款" maxlength="14" mustinput="" readonly="" row="7" unit="元"/>
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwinvoiceList" para="eadis_page" title="发票列表" type="1">
+<tableitem align="2" filedname="fphm" id="89" indexed="87" label="发票号码" row="1" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="kprq" id="88" indexed="85" label="开票日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="je" id="87" indexed="104" label="金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="jshj" id="112" indexed="107" label="价税合计" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="se" id="111" indexed="106" label="税额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="spmc" id="109" indexed="103" label="费用名称" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="sl" id="110" indexed="105" label="税率" row="1" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="bz" id="108" indexed="102" label="开票备注" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="gfyhzh" id="107" indexed="101" label="开户行及账号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="gfdzdh" id="106" indexed="100" label="地址电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="gfnsrsbh" id="105" indexed="89" label="纳税人识别号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="gfmc" id="104" indexed="88" label="购方名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fplxdm" id="102" indexed="86" label="发票类型" row="1" type="6" typepara="INVOICE_TYPE_CODE" width="6" widthType="0"/>
+<tableitem align="2" filedname="id" id="100" indexed="84" label="选择" row="1" sortType="2" type="2" typepara="id-id" width="3" widthType="0"/>
+</table>

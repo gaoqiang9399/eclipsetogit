@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="houseLoanDetail" title="房贷记录明细表" type="2">
+<tableitem align="2" filedname="balance" id="9" indexed="9" label="余额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdue_amount" id="8" indexed="10" label="逾期金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bank" id="17" indexed="1" label="发卡银行" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="query_id" id="16" indexed="0" label="查询编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="due_date" id="7" indexed="7" label="截至日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="delq_l5y_amt" id="6" indexed="11" label="近五年内逾期数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="release_date" id="15" indexed="2" label="发卡日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="settle_date" id="5" indexed="13" label="结清日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="release_count" id="14" indexed="3" label="发放金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="delq_l5y_90day_amt" id="4" indexed="12" label="近五年内逾期超过90天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="account_type" id="13" indexed="4" label="账户类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="status" id="3" indexed="14" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loan_type" id="12" indexed="5" label="贷款类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="sts_happen_date" id="2" indexed="15" label="状态发生时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="deadline" id="11" indexed="6" label="到期日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="is_delq" id="10" indexed="8" label="是否逾期" row="1" type="0" widthType="0"/>
+</table>

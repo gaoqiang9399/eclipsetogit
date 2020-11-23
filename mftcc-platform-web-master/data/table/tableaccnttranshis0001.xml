@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="accnttranshis0001" para="eadis_page" link="/mfAccntTransferHis/findByPage" title="" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="唯一id" row="1" type="4" typepara="/mfAccntTransferHis/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="transferId" id="2" indexed="2" label="" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="37" indexed="37" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="38" indexed="38" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="39" indexed="39" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="40" indexed="40" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="41" indexed="41" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="49" indexed="49" label="-" row="1" type="5" typepara="/mfAccntTransferHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

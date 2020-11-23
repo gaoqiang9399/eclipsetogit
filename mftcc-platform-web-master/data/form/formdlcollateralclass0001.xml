@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlcollateralclass0001" title="抵质押品类型">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classFirstName" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="上级类别" maxlength="20" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classSecondName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="押品类别" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE_PLEDGE" fieldtype="3" formactiveid="3" labelalign="3" labelcol="1" labelname="担保方式" maxlength="100" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="5" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="motherAddFormId" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="母版新增表单编号" maxlength="50" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="motherDetailFormId" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="母版详情表单编号" maxlength="50" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addFormId" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="新增表单编号" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailFormId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="详情表单编号" maxlength="50" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="登记人" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="修改人" maxlength="20" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billFlag" fieldsize="YES_NO" fieldtype="4" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="是否存在清单" mustinput="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classModel" fieldsize="CLASS_MODEL" fieldtype="3" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classFirstNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="上级父类编号" mustinput="" readonly="" row="16" />
+</form>

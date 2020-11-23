@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="sms0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailNo" fieldtype="1" maxlength="20" formactiveid="1" labelalign="3" labelcol="1" labelname="详情编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="2" labelalign="3" labelcol="1" labelname="客户编号" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" maxlength="20" formactiveid="4" labelalign="3" labelcol="1" labelname="客户手机号码" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msmSendState" fieldtype="1" maxlength="20" formactiveid="6" labelalign="3" labelcol="1" labelname="信息发送状态(1:发送成功;2:发送失败)" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="smsContent" fieldtype="1" maxlength="500" formactiveid="7" labelalign="3" labelcol="1" labelname="短信内容" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="smsTemplate" fieldtype="1" maxlength="100" formactiveid="10" labelalign="3" labelcol="1" labelname="短信模板" mustinput="0" row="10" />
+</form>

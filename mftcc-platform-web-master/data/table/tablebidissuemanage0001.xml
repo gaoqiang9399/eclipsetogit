@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="bidissuemanage0001" link="/p2pBidissueManage/findByPage" para="eadis_page" title="凑标" type="1">
+<tableitem align="2" filedname="issueTime" id="81" indexed="22" label="发布时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="80" indexed="16" label="还款方式" row="1" sortType="2" type="6" typepara="REPAY_TYPE" widthType="0"/>
+<tableitem align="2" filedname="bidProgress" id="91" indexed="18" label="进度" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fkTime" id="90" indexed="21" label="放款时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="releaseArea" id="19" indexed="10" label="发布区域" row="1" sortType="2" type="6" typepara="P2P_RELEASE_AREA" widthType="0"/>
+<tableitem align="2" filedname="opName" id="79" indexed="28" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="78" indexed="91" label="-" row="1" type="99" typepara="P2/pBidissueManage/getById;bidissueId-bidissueId;onClick-P2pBidissueManageList.getDetailPage(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="termMonth" id="13" indexed="19" label="期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bidType" id="44" indexed="9" label="标的类型" row="1" sortType="2" type="6" typepara="P2P_CREDIT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="businessrate" id="12" indexed="17" label="年化收益率" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="applyAmt" id="11" indexed="13" label="发标金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="appName" id="8" indexed="8" label="标的名称" type="4" typepara="P2/pBidissueManage/getById;bidissueId-bidissueId;onlineFlag-onlineFlag;" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="7" indexed="7" label="客户名称" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;bidissueId-bidissueId;subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="flowTime" id="89" indexed="24" label="流标时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="flowTlrname" id="88" indexed="25" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fkOpName" id="87" indexed="26" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="issueTlrname" id="86" indexed="27" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="85" indexed="23" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="bidissueId" id="1" indexed="1" label="标的编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="bidPeopleNum" id="84" indexed="15" label="人数" row="1" type="4" typepara="P2/pInvestResp/getListPage;bidissueId-bidissueId;onClick-P2pBidissueManageList.cusDetail(this)" widthType="0"/>
+<tableitem align="3" filedname="bidAmt" id="83" indexed="14" label="凑标金额(元)" row="1" type="4" typepara="P2/pInvestResp/getListPage;bidissueId-bidissueId;onClick-P2pBidissueManageList.cusDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="tendDeadLi" id="82" indexed="20" label="截止日期" row="1" type="1" widthType="0"/>
+</table>

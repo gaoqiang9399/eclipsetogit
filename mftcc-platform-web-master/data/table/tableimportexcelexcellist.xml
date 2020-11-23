@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelexcellist" para="eadis_page" link="/mfImpotExcelDetail/findByPage" title="历史数据导入明细表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="编号" row="1" type="4" typepara="/mfImpotExcelDetail/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="hisId" id="2" indexed="2" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="importId" id="3" indexed="3" label="历史数据导入临时表编号" row="1" type="0" />
+<tableitem align="2" filedname="dataModel" id="4" indexed="4" label="数据模块1客户信息2授信信息3合同信息4借据信息5还款计划6还款历史7押品信息8担保信息(押品)9担保信息(担保人)" row="1" type="0" />
+<tableitem align="2" filedname="readResult" id="5" indexed="5" label="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" row="1" type="0" />
+<tableitem align="2" filedname="readSts" id="6" indexed="6" label="解析excel数据状态：0失败1成功" row="1" type="0" />
+<tableitem align="2" filedname="readDate" id="7" indexed="7" label="解析excel数据日期" row="1" type="0" />
+<tableitem align="2" filedname="readTime" id="8" indexed="8" label="解析excel数据时间" row="1" type="0" />
+<tableitem align="2" filedname="importSts" id="9" indexed="9" label="数据导入状态：0待导入1已导入" row="1" type="0" />
+<tableitem align="2" filedname="importDate" id="10" indexed="10" label="数据导入日期" row="1" type="0" />
+<tableitem align="2" filedname="importTime" id="11" indexed="11" label="数据导入时间" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="12" indexed="12" label="操作人部门" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="13" indexed="13" label="操作人部门编号" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="14" indexed="14" label="操作人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="15" indexed="15" label="操作人姓名" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="17" indexed="17" label="-" row="1" type="5" typepara="/mfImpotExcelDetail/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

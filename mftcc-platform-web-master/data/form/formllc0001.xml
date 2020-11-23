@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="llc0001" title="租后检查配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="配置编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taskType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="检查任务类型" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="revType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="接收人类型" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="revNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="接收人/角色" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="业务种类" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkRule" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="检查规则" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkFreq" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="检查频率" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="模型编号" maxlength="10" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkObj" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="检查对象" maxlength="1" mustinput="0" row="13"/>
+</form>

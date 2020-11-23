@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dispapprohis0001" para="eadis_page" link="/mfReceivablesDisputedAppHis/findByPage" title="应收账款争议审批历史表" type="1">
+<tableitem align="2" filedname="disputedAppHisId" id="1" indexed="1" label="争议审批历史编号" row="1" type="4" typepara="/mfReceivablesDisputedAppHis/getById;disputedAppHisId-disputedAppHisId;query-'query'"/>
+<tableitem align="2" filedname="disputedAppId" id="2" indexed="2" label="争议申请编号" row="1" type="4" typepara="/mfReceivablesDisputedAppHis/getById;disputedAppHisId-disputedAppHisId;query-'query'"/>
+<tableitem align="2" filedname="disputedInitiatorNo" id="3" indexed="3" label="争议发起方" row="1" type="0" />
+<tableitem align="2" filedname="disputedInitiatorName" id="4" indexed="4" label="争议发起方姓名" row="1" type="0" />
+<tableitem align="2" filedname="disputedType" id="5" indexed="5" label="争议类型1拒绝接受货物;2拒绝接收发票;3提供抗辩、反索或抵销" row="1" type="0" />
+<tableitem align="2" filedname="relInvoiceNum" id="6" indexed="6" label="关联发票号" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="7" indexed="7" label="争议原因" row="1" type="0" />
+<tableitem align="2" filedname="disputedDetail" id="8" indexed="8" label="争议货物明细" row="1" type="0" />
+<tableitem align="2" filedname="disputedResult" id="9" indexed="9" label="争议结果" row="1" type="0" />
+<tableitem align="2" filedname="disputedDate" id="10" indexed="10" label="争议解除时间" row="1" type="0" />
+<tableitem align="2" filedname="appSts" id="11" indexed="11" label="争议申请状态0新增申请1审批中2审批通过3否决" row="1" type="0" />
+<tableitem align="2" filedname="busPleId" id="12" indexed="12" label="押品业务关联编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="13" indexed="13" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="14" indexed="14" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="15" indexed="15" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="16" indexed="16" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="17" indexed="17" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfReceivablesDisputedAppHis/deleteAjax;disputedAppHisId-disputedAppHisId;onClick-ajaxDelete(this)" width="2"/>
+</table>

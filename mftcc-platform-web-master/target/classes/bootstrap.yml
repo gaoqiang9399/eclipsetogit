@@ -1,0 +1,51 @@
+spring: 
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+    multipart:
+      max-file-size: 20Mb
+      maxRequestSize: 1024Mb
+  application:
+    name: mftcc-platform-web
+  view: 
+    prefix: /
+    suffix: .jsp
+  # spring配置服务配置
+  cloud:
+    config:
+      name: ${spring.application.name},redis-common,mftcc-config-default,zipkin-client-cofig,credit-query
+      fail-fast: true         
+      discovery:
+        enabled: true
+        service-id: mftcc-config-server
+      username: config #账号（服务器配置不启用时客户端配置此项也无影响）
+      password: config #密码 
+    
+#注册中心配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://basic:basic@127.0.0.1:8762/eureka}
+  instance: 
+    prefer-ip-address: true
+#日志配置
+logging:
+  #config: ${MFTCC_LOG_CONF:logconf/}/logback-${spring.application.name}.xml
+  config: E:/product-master/product-master/logconf/logback-${spring.application.name}.xml
+
+
+#自定义配置
+mftcc:
+  webservice:
+    #是否启用其他系统，0:禁用 1：启用
+    enable: 0
+    #仓储登录返回页面
+    loginJspPath: entryLease_CC
+    #核心企业登录返回页面
+    coreLoginJsp: entryLease_HXQY
+  ueditor:
+    #富文本图片存放模式
+    UeditorImgUrl: dev
+
+    Html2Img:

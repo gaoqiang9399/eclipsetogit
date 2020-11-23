@@ -1,0 +1,103 @@
+@charset "utf-8";
+html {
+	height: 100%;
+}
+body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-size: 12px;
+	background-color:#5575cc;
+}
+h1, h2,h3,p{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+a{ text-decoration:none;}
+.loginBody {
+ position:absolute;
+ width:100%;
+height: calc(100% - 62px);
+ z-index:10;
+ background-repeat:no-repeat;
+ background-size: 100% auto ;
+}
+.loginContent{ width:100%; overflow:hidden;}
+.loginAll{width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 10%;
+	position:relative;
+	background-color:#5575cc;
+	}
+.loginBody1{background-image: url(../images/login1.jpg);}
+.loginBody2{background-image: url(../images/login2.jpg);}
+.loginBody3{background-image: url(../images/login3.jpg);}
+.loginMain {
+	margin-left: 73px;
+	position:relative;
+	z-index:22;
+	padding-top:120px;
+}
+.loginTitle {
+	overflow: hidden;
+}
+.loginTitle i {
+	display: block;
+	float: left;
+	width:75px;
+	height:75px;
+	background: url(../images/logo.png) no-repeat;
+}
+.loginTitle .loginTitleContent {
+	float: left;
+	color: #fff;
+	margin-left: 16px;
+	padding-top: 4px;
+	line-height: 33px;
+}
+.loginTitle .loginTitleContent h1 {
+	font-size: 24px;
+}
+.loginTitle .loginTitleContent h2 {
+	font-size: 22px;
+	margin-top:6px;
+}
+.loginContent h3{ font-size:30px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:700; color:#fff; margin:80px 0 16px 100%;}
+.loginInput input{ width:198px; height:32px; line-height:30px; border:1px solid #fff; border-radius:4px; box-sizing:border-box; padding-left:32px; background:none; color:#fff; position:absolute;}
+.loginInput{ position:relative; margin-left:91px; opacity:0.8; height:32px;}
+.loginInput .loginInputAdmin{ left:2000px}
+.loginInput .loginInputPawd{ left:2000px;}
+.loginInput i{ position:absolute; top:7px; display:block; width:14px; height:17px;}
+.loginInput i.AdminIcon{ background:url(../images/user.png) no-repeat; left:2010px;}
+.loginInput i.PasswordIcon{ background:url(../images/password.png) no-repeat; left:2228px;}
+.loginContentBottom { padding-top:12px;margin-left:91px; overflow:hidden; }
+.loginContentBottom  a{ display:block; float:left;font-family:"Microsoft Yahei";}
+.loginContentBottom .VerificationCode{ width:64px; line-height:25px;color:#fff; border:1px solid #fff;  opacity:0.5;}
+.loginContentBottom input[type="text"]{ width:64px; line-height:25px; border:1px solid #fff; border-radius:4px; box-sizing:border-box; padding-left:12px; background:none; color:#fff; float:left; display:block;}
+.loginContentBottom .CodeImg{ width:51px; height:23px; background:url(../images/code.png) no-repeat; margin:2px 16px 0 12px;}
+.loginContentBottom .CodeChange{ color:#fff; opacity:0.8; line-height:27px;}
+.loginContentBottom input[type="button"]{ width:132px; height:32px; line-height:30px; border:none; background:#f69545; font-size:13px;font-family:"Microsoft Yahei"; color:#fff; display:block; float:left; margin-top:-3px; border-radius:4px; margin-left:43px;}
+.loginBottom{ line-height:62px; background:#efefef;font-family:"Microsoft Yahei"; position:absolute; bottom:0; width:100%; z-index:20;}
+.loginBottom .copyright{ font-size:14px; color:#4c627a; float:left; margin-left:77px;}
+.loginBottom  i{ display:block; float:right; background:url(../images/logoBottom.png) no-repeat; width:48px; height:19px; margin-top:22px;}
+.loginBottom .system{ font-size:14px; color:#707070; float:right; margin-right:53px; border-left:1px solid #707070; padding-left:12px; margin-left:12px; line-height:24px; margin-top:19px;}
+.falsePro{ position:absolute; bottom:4px; left:140px; color:red;font-family:"Microsoft Yahei"; font-size:18px; display:none;}
+input[type="text"].borderRed{ border-color:red;}
+.falseProText{ position:absolute; bottom:-36px; left:90px; color:red;font-family:"Microsoft Yahei"; font-size:14px; display:none;}
+
+
+.mainCotent{ z-index:20;top:200px }
+.input-group{ top:80px;}
+.col-md-offset-3{ margin-left:73px;}
+.PwdInputDiv{top:32px; left:210px;}
+.input-group .form-control{ width:198px; height:32px; line-height:30px; border:1px solid #fff; border-radius:4px;padding:0; box-sizing:border-box; padding-left:32px; background:none; color:#fff;}
+.validate{ width:64px; line-height:25px; border:1px solid #fff; border-radius:4px; box-sizing:border-box;background:none; color:#fff; float:left; display:block;}
+.changeCodeText{ margin-left:-50px;}
+.changeCode{ color:#fff;text-decoration:none;}
+.btn-primary{ width:132px; height:32px; line-height:30px; border:none; background:#f69545; font-size:13px;font-family:"Microsoft Yahei"; color:#fff; display:block; float:left;padding:0; border-radius:4px;position:relative;top:-49px;left:276px;}
+.btn-primary:hover{background:#faa056;border:none;}
+.no-padding-left{width:100px;float:left;}
+.errorMessageRow{position:relative;top:210px;}
+.changeCode:hover{color:#f69545;}

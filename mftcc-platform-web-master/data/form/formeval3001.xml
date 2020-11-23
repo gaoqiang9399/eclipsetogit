@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="eval3001" title="评级得分级别表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scenceNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="场景编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="level" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="级别" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upperScore" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="分数上限" maxlength="3" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lowerScore" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="分数下限" maxlength="3" mustinput="0" row="2"/>
+</form>

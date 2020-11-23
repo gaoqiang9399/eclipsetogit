@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcvehiclecertificate05" para="eadis_page" title="合格证批量导入列表" type="2">
+<tableitem align="2" filedname="certificateId" id="53" indexed="4" label="ID" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="engineNo" id="52" indexed="10" label="发动机号" sortType="2" type="0" width="13" widthType="0"/>
+<tableitem align="2" filedname="loanVoucherType" id="51" indexed="31" label="放款凭证属性" row="1" sortType="2" type="6" typepara="VC_LOAN_VOUCHER_TYPE" width="8" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="49" indexed="5" label="任务单号" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="regulationPattern" id="50" indexed="32" label="监管方式" row="1" sortType="2" type="6" typepara="VC_REGULATION_PATTERN" width="7" widthType="0"/>
+<tableitem align="2" filedname="colourName" id="48" indexed="29" label="颜色" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="30" label="单价(元)" row="1" sortType="2" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="configurationName" id="47" indexed="28" label="配置" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="8" indexed="8" label="经销商" row="1" sortType="2" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="9" label="车架号" row="1" sortType="2" type="0" width="14" widthType="0"/>
+<tableitem align="2" filedname="base" id="5" indexed="11" label="基地" row="1" sortType="2" type="6" typepara="VC_BASE" width="5" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="10" indexed="20" label="车型" row="1" sortType="2" type="0" width="8" widthType="0"/>
+</table>

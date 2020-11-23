@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="auth0003" para="eadis_page" link="" title="formauth0005" type="2">
+<tableitem align="2" filedname="genNo" id="1" indexed="1" label="场景细分维度编号" row="1" type="4" typepara="/authSceGenEntry/getByIdAjax;entryIndexNo-entryIndexNo;genNo-genNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="entryIndexNo" id="2" indexed="2" label="授信准入指标编号" row="1" type="4" typepara="/authSceGenEntry/getByIdAjax;entryIndexNo-entryIndexNo;genNo-genNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="entryIndexName" id="3" indexed="3" label="授信准入指标名称" row="1" type="0" />
+<tableitem align="2" filedname="ifDeny" id="4" indexed="4" label="是否拒绝指标" row="1" type="0" />
+</table>

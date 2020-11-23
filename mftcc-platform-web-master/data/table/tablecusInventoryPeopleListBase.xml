@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInventoryPeopleListBase" link="/mfCusInventoryPeople/findByPage" para="eadis_page" title="盘库人员信息" type="1">
+<tableitem align="2" filedname="idNum" id="6" indexed="6" label="身份证号" row="1" type="0"/>
+<tableitem align="2" filedname="tel" id="5" indexed="5" label="联系电话" row="1" type="0"/>
+<tableitem align="2" filedname="inventoryPeopleName" id="4" indexed="4" label="盘库人名称" type="4" typepara="/mfCusInventoryPeople/listShowDetailAjax;inventoryId-inventoryId;cusNo-cusNo;relNo-  relNo;oneUrl-'/mfCusInventoryPeople/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/mfCusInventoryPeople/deleteAjax;inventoryId-inventoryId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="commAddress" id="7" indexed="7" label="通讯地址" row="1" type="0"/>
+</table>

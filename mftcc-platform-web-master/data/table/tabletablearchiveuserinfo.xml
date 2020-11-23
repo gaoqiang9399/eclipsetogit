@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablearchiveuserinfo" title="获取人员信息" type="1">
+<tableitem align="2" filedname="选择" id="3" indexed="2" label="操作按钮" type="5" typepara="#;applyUserName-opName;applyUserNo-opNo;onClick-usertinfo" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="2" indexed="1" label="人员编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="1" indexed="0" label="人员名称" row="1" type="0"/>
+</table>

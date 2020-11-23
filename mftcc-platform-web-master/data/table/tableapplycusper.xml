@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="applycusper" title="客户权限申请记录" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfCusCustomer_EntList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="4" indexed="5" label="客户经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="3" indexed="6" label="申请时间" mytitle="客户名称-cusName;" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="applyType" id="11" indexed="8" label="申请类型" sortType="1" type="6" typepara="CUSPER_APPLY" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="10" indexed="9" label="审批状态" row="1" sortType="1" type="6" typepara="APP_STS" widthType="0"/>
+<tableitem align="2" filedname="applyauthMngName" id="9" indexed="7" label="发起申请客户经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="8" indexed="1" label="客户类别" row="1" sortType="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="7" indexed="3" label="证件号码" row="1" sortType="2" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="enterpriseshareholderpersons001" title="高管信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="高管名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="position" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="高管职位" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="性别" mustinput="" readonly="1" row="2"/>
+</form>

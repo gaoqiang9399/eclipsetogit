@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="CusWarehouseOrgDetail" title="仓储机构">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="2" labelname="仓储机构编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="仓储机构名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="仓储机构类型" maxlength="3" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="contactsName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="联系人姓名" maxlength="100" mustinput="0" param="id" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsTel" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="联系人手机号" maxlength="20" mustinput="0" param="id" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="idType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="证件类型" maxlength="2" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="证件号码" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="commAddress" fieldtype="5" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="通讯地址" maxlength="400" mustinput="0" param="id" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="备注" maxlength="200" mustinput="0" param="id" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="仓储机构id" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="id" readonly="" row="4"/>
+</form>

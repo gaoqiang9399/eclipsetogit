@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditreport0001" title="安家授信尽调报告">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="creditAppId" fieldtype="99" formactiveid="1" labelalign="3" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelname="客户编号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="立项客户" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="modelId" fieldtype="99" formactiveid="5" labelalign="3" labelname="模型编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldstyle="half" fieldtype="1" fieldwidth="32" formactiveid="6" labelalign="3" labelcol="1" labelname="授信总额" labelwidth="18" maxlength="14" mustinput="1" onblur="func_uior_valFormat_tips(this, 'nonnegative');mfCusCreditApplyInsert.checkKindCreditSum(this)" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isCeilingLoop" fieldsize="YES_NO" fieldstyle="half" fieldtype="2" fieldwidth="32" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="额度是否可循环" labelwidth="18" maxlength="1" mustinput="0" row="4"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="17" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="kindName" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelname="产品名称" mustinput="" readonly="" row="6" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="creditAmt" fieldstyle="half" fieldtype="1" fieldwidth="32" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="可用信额度" labelwidth="18" maxlength="14" mustinput="" onblur="func_uior_valFormat_tips(this, 'nonnegative');mfCusCreditApplyInsert.checkKindCreditSum(this)" readonly="" row="5" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfAppId" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="2" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="授信类型" mustinput="1" onchange="mfCusCreditApplyInsert.creditTypeChange()" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectType" fieldsize="PROJECT_TYPE" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="业务类型" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guarantyAgencyNo" fieldtype="22" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="担保机构" mustinput="0" param="1-安家世行|2-信诺微" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="responsibleOpNo" fieldtype="2" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="办理人" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="guarantyAgency" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="担保机构" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="responsibleOpName" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="5" labelname="负责人名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="2" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="反担保方式" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="4" formactiveid="40" horVer="0" labelalign="3" labelcol="2" labelname="labelName" mustinput="0" row="7" selrange="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="fieldName" fieldtype="4" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="labelName" mustinput="0" row="7" selrange="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="尽调日期" mustinput="0" row="6"/>
+</form>

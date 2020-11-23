@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pledgetodatewarning0001" title="押品到期预警" type="2">
+<tableitem align="2" filedname="keepStatus" id="6" indexed="4" label="押品状态" row="1" sortType="2" type="6" typepara="KEEP_STATUS" width="8" widthType="0"/>
+<tableitem align="1" filedname="certificateName" id="5" indexed="3" label="所有权人名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="pledgeName" id="4" indexed="0" label="押品名称" sortType="2" type="4" typepara="/pledgeBaseInfo/getById;pledgeNo-pledgeNo;onClick-getById(this);subStringNub-12;" width="18" widthType="0"/>
+<tableitem align="2" filedname="pledgeShowNo" id="3" indexed="1" label="押品编号" row="1" sortType="2" type="0" typepara="165" width="18" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="被担保客户名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="pleExpiryDate" id="1" indexed="6" label="失效日期" row="1" sortType="0" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="importDate" id="7" indexed="5" label="入库日期" row="1" sortType="0" type="1" width="8" widthType="0"/>
+</table>

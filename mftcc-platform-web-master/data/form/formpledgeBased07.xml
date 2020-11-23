@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pledgeBased07" title="电气设备信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="押品名称" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" onclick="prodAutoMenu(this,'MfCusCorpBaseInfoActionAjax_getCusListAjax.action',sysCusCallBack,'cusName');" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classSecondName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="类别名称" maxlength="80" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="担保类别" maxlength="2" mustinput="1" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="抵质押率" maxlength="16" mustinput="0" row="5" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="所有权人名称" mustinput="" readonly="" row="3" writeAuth="Advance"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="extInt01" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="数量" mustinput="" readonly="" row="6" writeAuth="Advance"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="extNum01" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="7" unit="元" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="9" writeAuth="Advance"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="extDstr01" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="到期日" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="8" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="押品类别" mustinput="1" readonly="" row="1" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="押品状态" mustinput="1" readonly="" row="4" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="" readonly="" row="12" writeAuth="Advance"/>
+</form>

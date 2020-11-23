@@ -1,0 +1,160 @@
+/* 右侧滑出样式 */
+input:disabled{
+/* 	background-color: #ffffff; */
+	box-shadow: unset;
+}
+
+.rightForm-body {
+	margin: 0px 0px;
+	position: fixed;
+	top: 0px;
+	right: -1000px;
+	z-index: 1000;
+	height: 100%;
+	background-color: #f7f7f7;
+	display: block;
+	padding:0px 25px;
+	box-shadow: -4px 0px 6px rgba(100, 100, 100, 0.4);
+}
+
+.rightForm-label {
+	height: 50px;
+	line-height: 50px;
+}
+
+.rightForm-label .rightForm-table{position:initial;}
+.rightForm-label .fa-remove {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 13px;
+	color: #ddd;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+.rightForm-label .i-x3 {
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	color: #ddd;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari 和 Chrome */
+	-o-transition: all 1s;
+}
+.rightForm-label .i-x3:HOVER{
+	color:#000000;
+}
+
+.rightForm-table{
+	overflow: auto;
+	position: absolute;
+	top: 51px;
+	bottom: 81px;
+	left: 25px;
+	width:100%;
+}
+
+.rightForm-foot{
+	height: 70px;
+	border-top: 1px solid #dddddd; padding-top:15px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 25px;
+
+
+}
+.rightForm-table .formCol  input[type="text"], .rightForm-table .formCol input[type="password"], .rightForm-table .formCol input[type="email"], .rightForm-table .formCol input[type="number"], .rightForm-table .formCol input[type="tel"], .rightForm-table .formCol input[type="url"], .rightForm-table .formCol select input[type="text"], .rightForm-table .formCol input[type="password"], .rightForm-table .formCol input[type="email"], .rightForm-table .formCol input[type="number"], .rightForm-table .formCol input[type="tel"], .rightForm-table .formCol input[type="url"], .rightForm-table .formCol select{height: 25px;
+  padding: 0 0px 0 3px;
+  box-shadow: none;
+  width: 160px;}
+ .rightForm-table .formCol  textarea{ width:280px;}
+ .rightForm-table table{ overflow:auto;width:96%;}
+ .rightForm-foot  input[type="button"]{ background:#f4f6f6; padding:4px 20px; border-radius:3px; border:1px solid #dddddd; color:#626e82; font-size:14px;}
+  .rightForm-foot  input[type="button"]:hover{ background:#2898e0;border-color:#2898e0; color:#fff;}
+  .rightForm-table .formCol i.unit{ padding-right: 10px;}
+
+  .formLbl {
+    color: #000000;
+    font-size: 14px;
+    line-height: 2em;
+    font-weight: normal;
+}
+
+.formCol div {
+    position: relative;
+    font-size: 12px;
+}
+
+.rightForm-table .formCol i.unit {
+    padding-right: 0px;
+    top: 2px;
+    left: 182px;
+    position: absolute;
+    font-size: 14px;
+	margin-left: 0px;
+	color: #4a4a4a;
+	font-style: normal;
+}
+
+.rightForm-label .i-x5 {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 21px;
+    color: #C6C7CA;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.rightForm-label .i-x5:hover {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #777175;
+    font-size: 21px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+
+
+
+.rightForm-foot {
+    height: 70px;
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 25px;
+}
+
+.rightForm-foot input[type="button"] {
+    background: #32b5cb;
+    padding: 4px 20px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    color: #fff;
+    font-size: 14px;
+}
+
+.rightForm-foot input[type="button"]:hover {
+    background: #009db7;
+    padding: 4px 20px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    color: #fff;
+    font-size: 14px;
+}

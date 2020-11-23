@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlcollateralpledge0001" para="eadis_page" link="" title="抵押品信息" type="2">
+<tableitem align="2" filedname="pledgeId" id="1" indexed="1" label="押品编号" row="1" type="4" typepara="/pledgeBase/getByIdAjax;pledgeId-pledgeId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="authName" id="4" indexed="4" label="所有权人名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="5" indexed="5" label="抵押品名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeType" id="6" indexed="6" label="抵押品类型" row="1" type="0" />
+<tableitem align="2" filedname="keepAddr" id="7" indexed="7" label="存放地址" row="1" type="0" />
+<tableitem align="2" filedname="pledgeDesc" id="8" indexed="8" label="押品描述" row="1" type="0" />
+<tableitem align="2" filedname="keeperNo" id="9" indexed="9" label="保管人" row="1" type="0" />
+<tableitem align="2" filedname="keeperName" id="10" indexed="10" label="保管人名称" row="1" type="0" />
+<tableitem align="2" filedname="keepDate" id="11" indexed="11" label="入库时间" row="1" type="0" />
+<tableitem align="2" filedname="relsDate" id="12" indexed="12" label="出库时间" row="1" type="0" />
+<tableitem align="2" filedname="keepOrgNo" id="13" indexed="13" label="保管机构编号" row="1" type="0" />
+<tableitem align="2" filedname="keepOrgName" id="14" indexed="14" label="保管机构名称" row="1" type="0" />
+<tableitem align="2" filedname="keepStatus" id="15" indexed="15" label="押品状态" row="1" type="0" />
+<tableitem align="2" filedname="refFlag" id="16" indexed="16" label="是否被关联" row="1" type="0" />
+<tableitem align="2" filedname="insNo" id="17" indexed="17" label="保险证编号" row="1" type="0" />
+<tableitem align="2" filedname="insAmount" id="18" indexed="18" label="保险金额" row="1" type="0" />
+<tableitem align="2" filedname="insCrop" id="19" indexed="19" label="保险公司名称" row="1" type="0" />
+<tableitem align="2" filedname="insEnd" id="20" indexed="20" label="保险到日期" row="1" type="0" />
+<tableitem align="2" filedname="fairNo" id="21" indexed="21" label="公证书编号" row="1" type="0" />
+<tableitem align="2" filedname="fairOrg" id="22" indexed="22" label="公证机构" row="1" type="0" />
+<tableitem align="2" filedname="fairDate" id="23" indexed="23" label="公正时间" row="1" type="0" />
+<tableitem align="2" filedname="regOrgNo" id="24" indexed="24" label="登记机构" row="1" type="0" />
+<tableitem align="2" filedname="regOrgName" id="25" indexed="25" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regCusNo" id="26" indexed="26" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="regCusName" id="27" indexed="27" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="lstOrgNo" id="28" indexed="28" label="更新机构编号" row="1" type="0" />
+<tableitem align="2" filedname="lstOrgName" id="29" indexed="29" label="更新机构名称" row="1" type="0" />
+<tableitem align="2" filedname="lstRegNo" id="30" indexed="30" label="更新人" row="1" type="0" />
+<tableitem align="2" filedname="lstRegName" id="31" indexed="31" label="更新人名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="32" indexed="32" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="lstDate" id="33" indexed="33" label="更新日期" row="1" type="0" />
+</table>

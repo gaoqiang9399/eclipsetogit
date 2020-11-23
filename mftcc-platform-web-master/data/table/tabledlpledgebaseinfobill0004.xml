@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlpledgebaseinfobill0004" para="eadis_page" title="押品登记货物明细" trDbClick="/pledgeBaseInfoBill/getById;pledgeBillNo-pledgeBillNo;onDbClick-getCollateralInfoById(this);" type="2">
+<tableitem align="2" filedname="billName" id="4" indexed="3" label="买方名称" row="1" type="4" typepara="/pledgeBaseInfoBill/listShowDetailAjax;pledgeBillNo-pledgeBillNo;oneUrl-'/pledgeBaseInfoBill/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="ascriptionBus" id="3" indexed="5" label="基础合同名称" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="删除" id="9" indexed="10" label="操作" row="1" type="5" typepara="action;pledgeBillNo-pledgeBillNo;pledgeNo-pledgeNo;onclick-deletePledgeBaseInfoBill(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="singleWeight" id="8" indexed="9" label="应收账款余额(元)" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="unitPrice" id="7" indexed="8" label="合同金额(元)" row="1" type="12" width="20" widthType="0"/>
+</table>

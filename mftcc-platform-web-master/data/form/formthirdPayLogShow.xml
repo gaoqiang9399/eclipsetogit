@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="thirdPayLogShow" title="thirdPayLogShow">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankCardNumber" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="银行卡账户" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bankName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="银行名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="持卡人姓名" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kaihuhang" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="开户行名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="province_city" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="开户行城市" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amount" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="放款总额" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="description" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="放款模式" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orderId" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="订单号" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealCharge" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="手续费" mustinput="" param2="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="debitCharge" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="借方收费" mustinput="" param2="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditCharge" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="贷方收费" mustinput="" param2="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="resultFlag" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="放款状态" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="failureCause" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="状态码" mustinput="" param2="1" readonly="" row="9"/>
+</form>

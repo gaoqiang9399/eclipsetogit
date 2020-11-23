@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form id="demo0003" layout="horizontal">
+    <formelement order="0" lv="1" property="tabbar" domclass="tabbar" domid="tabbar" num="4" name="Tabbar" pid="0" id="4" pkno="dhcc-6">
+        <subformelement classtype="css" name="按钮0" click="$.toptip('按钮0', 'success');" classvalue="fa fa-home"/>
+        <subformelement classtype="css" name="按钮1" click="$.toptip('按钮1', 'success');" classvalue="fa fa-car"/>
+        <subformelement classtype="css" name="按钮2" click="$.toptip('按钮2', 'success');" classvalue="fa fa-money"/>
+        <subformelement classtype="css" name="按钮3" click="$.toptip('按钮3', 'success');" classvalue="fa fa-search"/>
+    </formelement>
+</form>

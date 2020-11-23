@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cus0004" title="业务情况">
+<formelement datatype="15" fieldalign="1" fieldcol="3" fieldname="appAmt" fieldsize="STS" fieldtype="1" formactiveid="1" horVer="1" labelalign="3" labelcol="2" labelname="融资额" mustinput="" readonly="" row="1" unit="万元" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="appNum" fieldtype="1" formactiveid="2" horVer="1" labelalign="3" labelcol="1" labelname="在途申请业务" mustinput="" readonly="" row="1" unit="笔" />
+<formelement datatype="15" fieldalign="1" fieldcol="3" fieldname="actualAmtTotal" fieldtype="1" formactiveid="3" horVer="1" labelalign="3" labelcol="2" labelname="融资额" mustinput="" readonly="" row="3" unit="万元" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="validContTimes" fieldtype="1" formactiveid="4" horVer="1" labelalign="3" labelcol="1" labelname="有效合同业务" mustinput="" readonly="" row="3" unit="笔" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="overNum" fieldtype="99" formactiveid="5" horVer="1" labelalign="3" labelcol="1" labelname="逾期业务" mustinput="" readonly="" row="5" unit="笔" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNum" fieldtype="1" formactiveid="6" horVer="1" labelalign="3" labelcol="1" labelname="担保业务" mustinput="" readonly="" row="5" unit="笔" />
+<formelement datatype="15" fieldalign="1" fieldcol="3" fieldname="overAmt" fieldtype="99" formactiveid="7" horVer="1" labelalign="3" labelcol="2" labelname="逾期金额" mustinput="" readonly="" row="5" unit="万元" />
+<formelement datatype="15" fieldalign="1" fieldcol="3" fieldname="vouAmt" fieldtype="1" formactiveid="8" horVer="1" labelalign="3" labelcol="2" labelname="担保金额" mustinput="" readonly="" row="5" unit="万元" />
+</form>

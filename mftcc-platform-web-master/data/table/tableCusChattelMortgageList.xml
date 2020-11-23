@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusChattelMortgageList" link="/mfCusChattelMortgage/findByPage" para="eadis_page" title="动产抵押" type="1">
+<tableitem align="2" filedname="删除" id="36" indexed="36" label="-" row="1" type="5" typepara="/mfCusChattelMortgage/deleteAjax;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+<tableitem align="2" filedname="registerOffice" id="32" indexed="32" label="登记机关" row="1" type="0"/>
+<tableitem align="2" filedname="securedTypeNo" id="30" indexed="30" label="被担保类型数额" row="1" type="0"/>
+<tableitem align="2" filedname="registerNo" id="29" indexed="29" label="登记号" row="1" type="0"/>
+<tableitem align="2" filedname="noticeData" id="28" indexed="28" label="登记日期" row="1" type="4" typepara="/mfCusChattelMortgage/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusChattelMortgage/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+</table>

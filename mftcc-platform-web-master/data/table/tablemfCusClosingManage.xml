@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusClosingManage" link="/mfCusClosingManage/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="2" label="借据号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="appName" id="12" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="compensatoryAmt" id="2" indexed="3" label="代偿金额" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="20" indexed="7" label="cusNo" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="sts" id="19" indexed="4" label="审批状态" row="1" type="6" typepara="APP_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="id" id="18" indexed="5" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="详情" id="17" indexed="6" label="-" type="5" typepara="/mfCusClosingManage/getById;id-id;cusNo-cusNo;onClick-MfCusClosingManage.getInput(this);subStringNub-12;" widthType="0"/>
+</table>

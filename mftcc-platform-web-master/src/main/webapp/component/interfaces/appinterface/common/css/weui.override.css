@@ -1,0 +1,42 @@
+/**
+*重写jquery.weui.css的样式
+*/
+.weui_cells{
+	margin-top: 0px;
+}
+.weui_cells_form{
+	margin-bottom: 40px;
+}
+.weui_cells_form .weui_label{
+	font-size:16px;
+/* 	color: #929292; */
+    margin-right: 15px;
+}
+.weui_cells_form .weui_input {
+    font-size: 13px;
+}
+.weui_cells_form .weui_input {
+    font-size: 13px;
+}
+.weui_cells_form .weui_cell_select{
+	padding:0px 15px;
+}
+.weui_cells_form .weui_cell_select .weui_select {
+	 font-size: 13px;
+	 padding-left: 0px;
+}
+.weui_cells_form .weui_btn_primary {
+	background-color: #38adff;
+}
+.weui_cells_form .weui_btn_primary:link {
+	background-color: #38adff;
+}
+.weui_cells_form .weui_btn_primary:visited {
+	background-color: #38adff;
+}
+.weui_cells_form .weui_btn_primary:hover {
+	background-color: #38adff;
+}
+.weui_cells_form .weui_btn_primary:active {
+	background-color: #38adff;
+}

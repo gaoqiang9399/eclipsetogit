@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusWarehouseList" para="eadis_page" title="仓储机构基础列表" type="1">
+<tableitem align="1" filedname="address" id="5" indexed="11" label="仓库地址" mytitle="仓库地址-address" row="1" sortType="2" type="3" typepara="20" width="25" widthType="0"/>
+<tableitem align="2" filedname="删除" id="21" indexed="12" label="-" sortType="2" type="5" typepara="/mfCusWarehouse/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+<tableitem align="2" filedname="linkman" id="20" indexed="8" label="联系人" mytitle="联系人-linkman" row="1" sortType="2" type="3" typepara="10" width="20" widthType="0"/>
+<tableitem align="2" filedname="name" id="19" indexed="2" label="仓库名称" mytitle="仓库名称-name" row="1" sortType="2" type="4" typepara="/mfCusWarehouse/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusWarehouse/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="phone" id="8" indexed="9" label="联系电话" row="1" sortType="2" type="0" width="20" widthType="0"/>
+</table>

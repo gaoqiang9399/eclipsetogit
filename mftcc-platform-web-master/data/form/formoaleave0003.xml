@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="oaleave0003" title="审批请假表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="申请部门" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="请假人" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaveType" fieldsize="LEAVE_TYPE" fieldstyle="half" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="请假类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="timeSum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="合计" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="leaveReason" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="请假事由" maxlength="400" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldstyle="half" fieldtype="8" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="" readonly="" row="6" rowspan="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="startTime" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="开始时间" mustinput="" readonly="" row="2" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endTime" fieldstyle="half" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="结束时间" mustinput="" readonly="" row="3" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaveNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="请假单编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaveSts" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="状态" mustinput="" readonly="" row="8"/>
+</form>

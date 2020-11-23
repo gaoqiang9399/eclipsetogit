@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_changecertificate0001" title="经销商">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="经销商ID" maxlength="50" mustinput="0" row="2"/>
+<formelement alt="请单击选择经销商" datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商" maxlength="100" mustinput="1" onclick="bindDealer(this);" readonly="1" row="1"/>
+<formelement alt="请输入单价" datatype="12" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="单价" maxlength="20" mustinput="0" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="newCertificateId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="新合格证ID" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="oldCertificateId" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="原合格证ID" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="备注" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="7"/>
+</form>

@@ -1,0 +1,521 @@
+<div class="rep-main">
+	<div class="rep-item" style="letter-spacing:2px">
+		<table class="rep-table border-bot-table" style="width: 100%">
+			<thead>
+				<tr><th colspan="3" class="text-center" style="font-size: 35px;text-align: center">百行征信个人信用报告</th></tr>
+				<tr><input type="button" id="exportToPdf" class="rep-label-2" value="打印结果"/></tr>
+			</thead>
+		</table>
+	</div>
+	<div class="rep-item margintop" style="margin-top: 40px; letter-spacing:2px">
+		<table class="rep-table border-bot-table">
+				<tr>
+					<th class="width-30 vertical-top "><span class="th-block text-left  "  >报告编号：</span></th>
+					<td colspan="2"  class="width-100  "><span class="tr-block text-left  "  style="margin-left:200px;font-size: 20px">${(reportHeader.reportId)!'-'}</span></td>
+				</tr>
+				<tr  style="margin-top: 10px">
+					<th class="width-30 vertical-top  "><span class="th-block text-left "  >报告时间：</span></th>
+					<td colspan="2"  class="width-100  "><span class="tr-block text-left " style="margin-left:200px;font-size: 20px">${(reportHeader.reportTime)!'-'}</span></td>
+				</tr>
+				<tr  style="margin-top: 10px">
+					<th class="width-30 vertical-top  "><span class="th-block text-left "  >查询操作员：</span></th>
+					<td colspan="2"  class="width-100  "><span class="tr-block text-left " style="margin-left:200px;font-size: 20px">-</span></td>
+				</tr>
+				<tr  style="margin-top: 10px">
+					<th class="width-30 vertical-top  "><span class="th-block text-left "  >查询原因：</span></th>
+					<td colspan="2"  class="width-100  "><span class="tr-block text-left " style="margin-left:200px;font-size: 20px">${(reportHeader.queryReslut)!'-'}</span></td>
+				</tr>
+		</table>
+	</div>
+	<div class="rep-item">
+			<table class="rep-table border-bot-table">
+				<thead>
+				<tr><th colspan="3" class="text-center" style="font-size: 25px;letter-spacing:2px">一、个人基本信息</th></tr>
+				</thead>
+			</table>
+	</div>
+	<div class="rep-item">
+		<table class="rep-table border-bot-table">
+			<thead>
+				<tr><th colspan="3" class="text-center">标识信息</th></tr>
+			</thead>
+			<tr  style="margin-top: 10px">
+				<th class="width-30 vertical-top  "><span class="th-block text-left "  >姓名：</span></th>
+				<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(personalProfile.name)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-30 vertical-top  "><span class="th-block text-left "  >身份证号：</span></th>
+				<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(personalProfile.pid)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-30 vertical-top  "><span class="th-block text-left "  >手机号数量：</span></th>
+				<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(personalProfile.mobileCount)!'-'}</span></td>
+			</tr>
+		</table>
+	</div>
+	<div class="rep-item">
+		<table class="rep-table border-table">
+			<thead>
+				<tr><th colspan="3" class="text-center">居住信息</th></tr>
+			</thead>
+			<tr>
+				<th class="text-center height-44" style="width: 10%;">
+					<span class="tr-inline-block">编号</span>
+				</th>
+				<th class="text-center" style="width: 60%;">
+					<span class="tr-inline-block">家庭地址</span>
+				</th>
+				<th class="text-center" style="width: 30%;">
+					<span class="tr-inline-block">更新日期</span>
+				</th>
+			</tr>
+			<#if (homeInfo?size>0) >
+			<#list homeInfo as cb>
+			<tr>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(cb.bianhao)!"-"}</span>
+				</td>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(cb.homeAddress)!"-"}</span>
+				</td>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(cb.date)!"-"}</span>
+				</td>
+			</tr>
+			</#list>
+			<#else>
+			<tr>
+				<td class="text-center height-44" colspan="3">
+					<span class="tr-inline-block">暂无数据</span>
+				</td>
+			</tr>
+		</#if>
+		</table>
+	</div>
+
+	<div class="rep-item">
+		<table class="rep-table border-table">
+			<thead>
+			<tr><th colspan="4" class="text-center">职业信息信息</th></tr>
+			</thead>
+			<tr>
+				<th class="text-center height-44" style="width: 10%;">
+					<span class="tr-inline-block">编号</span>
+				</th>
+				<th class="text-center" style="width: 30%;">
+					<span class="tr-inline-block">工作单位</span>
+				</th>
+				<th class="text-center" style="width: 30%;">
+					<span class="tr-inline-block">单位地址</span>
+				</th>
+				<th class="text-center" style="width: 30%;">
+					<span class="tr-inline-block">更新日期</span>
+				</th>
+			</tr>
+			<#if (workInfo?size>0) >
+			<#list workInfo as wi>
+			<tr>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(wi.bianhao)!"-"}</span>
+				</td>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(wi.workName)!"-"}</span>
+				</td>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(wi.workAddress)!"-"}</span>
+				</td>
+				<td class="text-left height-44" >
+					<span class="tr-inline-block">${(wi.date)!"-"}</span>
+				</td>
+			</tr>
+			</#list>
+			<#else>
+			<tr>
+				<td class="text-center height-44" colspan="4">
+					<span class="tr-inline-block">暂无数据</span>
+				</td>
+			</tr>
+			</#if>
+		</table>
+	</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+		<tr><th colspan="3" class="text-center" style="font-size: 25px;letter-spacing:2px">二、贷款信息</th></tr>
+		</thead>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+		<tr><th colspan="3" class="text-center" style="font-size: 25px;letter-spacing:2px">（一）单笔贷款信息</th></tr>
+		</thead>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr><th colspan="3" class="text-center">※ 单笔贷款信息概要 ※</th></tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >累计贷款笔数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.loanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >未结清贷款笔数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.openLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >未结清总余额：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.remainingOverdueLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前逾期贷款笔数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.remainingOverdueAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前逾期金额：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.remainingOverdueAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前最严重逾期状态：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.remainingMaxOverdueStatus)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >累计逾期次数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.overdueCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >历史最严重逾期状态：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(nonRevolvingLoan.summary.maxOverdueStatus)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr><th colspan="4" class="text-center">※ 近 30 天单笔贷款概要 ※</th></tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.applyTenantCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >最大贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.maxLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款笔数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.loanCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >平均贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.averageLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.loanAmount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期贷款笔数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.overdueLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款机构数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D30.loanTenantCount)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr><th colspan="4" class="text-center">※ 近 90 天单笔贷款概要 ※</th></tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.applyTenantCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >最大贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.maxLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款笔数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.loanCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >平均贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.averageLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.loanAmount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期贷款笔数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.overdueLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款机构数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D90.loanTenantCount)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr><th colspan="4" class="text-center">※ 近 180 天单笔贷款概要 ※</th></tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.applyTenantCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >最大贷款金额：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.maxLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款笔数：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.loanCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >平均贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.averageLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.loanAmount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期贷款笔数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.overdueLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款机构数：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D180.loanTenantCount)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr><th colspan="4" class="text-center">※ 近 360 天单笔贷款概要 ※</th></tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+			<td class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.applyTenantCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >最大贷款金额：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.maxLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款笔数：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.loanCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >平均贷款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.averageLoanAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款金额：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.loanAmount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期贷款笔数：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.overdueLoanCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增贷款机构数：</span></th>
+			<td  class="width-35  "><span class="tr-block text-left " >${(nonRevolvingLoan.D360.loanTenantCount)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+		<tr><th colspan="3" class="text-center" style="font-size: 25px;letter-spacing:2px">（二）循环授信信息</th></tr>
+		</thead>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+		<tr>
+			<th colspan="3" class="text-center">※ 循环授信信息概要 ※</th>
+		</tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >累计循环授信账户数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.accountCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >有效循环授信账户数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.validAccountCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前授信总额：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.creditLimitSum)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >单个机构最高授信额度：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.maxCreditLimitPerTenant)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >未结清总余额：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.remainingAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前逾期循环授信账户数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.remainingOverdueAccountCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前逾期金额：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.remainingOverdueAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >当前最严重逾期状态：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.remainingMaxOverdueStatus)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >累计逾期次数：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.overdueCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-30 vertical-top  "><span class="th-block text-left "  >历史最严重逾期状态：</span></th>
+			<td colspan="2"  class="width-100  "><span class="tr-block text-left " >${(revolvingLoan.summary.maxOverdueStatus)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+<div class="rep-item">
+	<table class="rep-table border-bot-table">
+		<thead>
+			<tr>
+				<th colspan="4" class="text-center">※ 近 30 天循环授信账户概要 ※</th>
+			</tr>
+		</thead>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D30.applyTenantCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增借款金额：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D30.lendingAmount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信账户数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D30.accountCount)!'-'}</span></td>
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期账户数：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D30.overdueAccountCount)!'-'}</span></td>
+		</tr>
+		<tr  style="margin-top: 10px">
+			<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信额度：</span></th>
+			<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D30.creditLimitSum)!'-'}</span></td>
+		</tr>
+	</table>
+</div>
+	<div class="rep-item">
+		<table class="rep-table border-bot-table">
+			<thead>
+			<tr>
+				<th colspan="4" class="text-center">※ 近 90 天循环授信账户概要 ※</th>
+			</tr>
+			</thead>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D90.applyTenantCount)!'-'}</span></td>
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增借款金额：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D90.lendingAmount)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信账户数：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D90.accountCount)!'-'}</span></td>
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期账户数：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D90.overdueAccountCount)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信额度：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D90.creditLimitSum)!'-'}</span></td>
+			</tr>
+		</table>
+	</div>
+	<div class="rep-item">
+		<table class="rep-table border-bot-table">
+			<thead>
+				<tr><th colspan="4" class="text-center">※ 近 180 天循环授信账户概要 ※</th></tr>
+			</thead>
+				<tr  style="margin-top: 10px">
+					<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+					<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D180.applyTenantCount)!'-'}</span></td>
+					<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增借款金额：</span></th>
+					<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D180.lendingAmount)!'-'}</span></td>
+				</tr>
+				<tr  style="margin-top: 10px">
+					<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信账户数：</span></th>
+					<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D180.accountCount)!'-'}</span></td>
+					<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期账户数：</span></th>
+					<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D180.overdueAccountCount)!'-'}</span></td>
+				</tr>
+				<tr  style="margin-top: 10px">
+					<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信额度：</span></th>
+					<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D180.creditLimitSum)!'-'}</span></td>
+				</tr>
+		</table>
+	</div>
+	<div class="rep-item">
+		<table class="rep-table border-bot-table">
+			<thead>
+				<tr><th colspan="4" class="text-center">※ 近 360 天循环授信账户概要 ※</th></tr>
+			</thead>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >申请机构数量：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D360.applyTenantCount)!'-'}</span></td>
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增借款金额：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D360.lendingAmount)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信账户数：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D360.accountCount)!'-'}</span></td>
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >发生逾期账户数：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D360.overdueAccountCount)!'-'}</span></td>
+			</tr>
+			<tr  style="margin-top: 10px">
+				<th class="width-15 vertical-top  "><span class="th-block text-left "  >新增循环授信额度：</span></th>
+				<td   class="width-35  "><span class="tr-block text-left " >${(revolvingLoan.D360.creditLimitSum)!'-'}</span></td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="rep-item">
+		<table class="rep-table border-bot-table">
+			<thead>
+			<tr><th colspan="3" class="text-center" style="font-size: 25px;letter-spacing:2px">（二）查询记录（近 12 个月）</th></tr>
+			</thead>
+		</table>
+	</div>
+	<div class="rep-item">
+		<table class="rep-table border-table">
+			<thead>
+			</thead>
+			<tr>
+				<th class="text-center height-44" style="width: 10%;">
+					<span class="tr-inline-block">编号</span>
+				</th>
+				<th class="text-center" style="width: 30%;">
+					<span class="tr-inline-block">机构名称</span>
+				</th>
+				<th class="text-center" style="width: 20%;">
+					<span class="tr-inline-block">查询用户 ID</span>
+				</th>
+				<th class="text-center" style="width: 20%;">
+					<span class="tr-inline-block">查询日期</span>
+				</th>
+				<th class="text-center" style="width: 20%;">
+					<span class="tr-inline-block">查询原因</span>
+				</th>
+			</tr>
+			<#if (queryHistory?size>0) >
+				<#list queryHistory as qh>
+					<tr>
+						<td class="text-left height-44" >
+							<span class="tr-inline-block">${(qh.bianhao)!"-"}</span>
+						</td>
+						<td class="text-left height-44" >
+							<span class="tr-inline-block">${(qh.tenantName)!"-"}</span>
+						</td>
+						<td class="text-left height-44" >
+							<span class="tr-inline-block">${(qh.userId)!"-"}</span>
+						</td>
+						<td class="text-left height-44" >
+							<span class="tr-inline-block">${(qh.date)!"-"}</span>
+						</td>
+						<td class="text-left height-44" >
+							<span class="tr-inline-block">${(qh.reason)!"-"}</span>
+						</td>
+					</tr>
+				</#list>
+		<#else>
+			<tr>
+				<td class="text-center height-44" colspan="5">
+					<span class="tr-inline-block">暂无数据</span>
+				</td>
+			</tr>
+		</#if>
+	</table>
+	</div>
+</div>

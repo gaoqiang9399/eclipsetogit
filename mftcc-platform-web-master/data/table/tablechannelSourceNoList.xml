@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="channelSourceNoList" para="eadis_page" title="渠道商列表" type="1">
+<tableitem align="2" filedname="trenchUid" id="7" indexed="4" label="选择" row="1" sortType="2" type="2" width="30" widthType="0"/>
+<tableitem align="2" filedname="trenchUid" id="4" indexed="5" label="渠道编号" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="trenchName" id="8" indexed="6" label="渠道名称" row="1" type="0" widthType="0"/>
+</table>

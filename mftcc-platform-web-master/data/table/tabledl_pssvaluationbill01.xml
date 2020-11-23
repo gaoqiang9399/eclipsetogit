@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssvaluationbill01" para="eadis_page" title="估价入库单" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssValuationBill/getDetailPage;valuationBillId-valuationBillId;businessType-businessType;onDbClick-PssValuationBill_List.getValuationBill" type="2">
+<tableitem align="2" authority="auditStsed-0;businessType-02;businessType-03" filedname="冲回" id="22" indexed="18" label="-" row="1" sortType="2" type="5" typepara="/pssBuyBill/getAdd4OffsetPage;valuationBillId-valuationBillId;valuationBillNo-valuationBillNo;onClick-PssValuationBill_List.offsetValuationBill(this)" widthType="0"/>
+<tableitem align="2" authority="auditStsed-0;businessType-02;businessType-03" filedname="退货" id="21" indexed="17" label="-" row="1" sortType="2" type="5" typepara="/pssValuationBill/getAddReturnPage;valuationBillId-valuationBillId;sourceNo-valuationBillNo;onClick-PssValuationBill_List.returnValuationBill(this)" widthType="0"/>
+<tableitem align="2" filedname="sourceNos" id="19" indexed="8" label="源单编号" row="1" sortType="2" type="0" width="11" widthType="0"/>
+<tableitem align="2" authority="auditStsed-1;businessType-03;approvalStatus-02;approvalStatus-03;approvalStatus-05" filedname="删除" id="20" indexed="16" label="-" sortType="2" type="5" typepara="/pssValuationBill/deleteValuationBillAjax;valuationBillId-valuationBillId;onClick-PssValuationBill_List.deleteValuationBill(this)" widthType="0"/>
+<tableitem align="2" filedname="buyOrderNos" id="18" indexed="7" label="关联购货订单号" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="17" indexed="15" label="审批状态" row="1" sortType="1" type="6" typepara="PSS_APPROVAL_STATUS" width="8" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="8" indexed="9" label="数量" row="1" sortType="1" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="amount" id="7" indexed="10" label="金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="businessType" id="5" indexed="4" label="业务类别" row="1" sortType="1" type="6" typepara="PSS_VALUATION_BUSINESS_TYPE" width="8" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="4" indexed="2" label="单据日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="12" indexed="14" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="3" indexed="5" label="供应商" mytitle="模板内容-supplierName;" row="1" sortType="1" type="3" typepara="10" width="12" widthType="0"/>
+<tableitem align="2" filedname="valuationBillNo" id="2" indexed="3" label="单据编号" mytitle="单据编号-valuationBillNo;" row="1" sortType="1" type="4" typepara="/pssValuationBill/getDetailPage;valuationBillId-valuationBillId;businessType-businessType;onClick-PssValuationBill_List.getValuationBill;subStringNub-15;" width="11" widthType="0"/>
+<tableitem align="2" filedname="valuationBillId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="valuationBillId-valuationBillId;businessType-businessType;valuationBillNo-valuationBillNo;buyBillNo-buyBillNo;" width="4" widthType="0"/>
+</table>

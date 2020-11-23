@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditChildPactList" link="/mfCusCreditChildContract/findByPage" para="eadis_page" title="授信子合同信息表" type="2">
+<tableitem align="2" filedname="authBal" id="6" indexed="7" label="合作授信余额" row="1" type="12"/>
+<tableitem align="2" filedname="creditSum" id="5" indexed="6" label="合作额度" row="1" type="12"/>
+<tableitem align="1" filedname="agenciesName" id="4" indexed="5" label="资金机构名称" row="1" type="0"/>
+<tableitem align="2" filedname="pactNo" id="2" indexed="3" label="合同展示号" type="4" typepara="/mfCusCreditChildContract/getById;childPactId-childPactId;onClick-mfCusCreditOpenHisData.showCreditPactDetail(this);"/>
+<tableitem align="2" filedname="endDate" id="10" indexed="11" label="结束日期" row="1" type="1"/>
+<tableitem align="2" filedname="beginDate" id="9" indexed="10" label="开始日期" row="1" type="1"/>
+</table>

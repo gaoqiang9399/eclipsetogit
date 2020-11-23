@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="moderell0001" para="eadis_page" link="/mfTemplateModelRel/findByPage" title="模板保存信息" type="1">
+<tableitem align="2" filedname="删除" id="19" indexed="19" label="-" row="1" type="5" typepara="/mfTemplateModelRel/deleteAjax;serialNo-serialNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

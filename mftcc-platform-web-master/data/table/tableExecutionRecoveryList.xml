@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ExecutionRecoveryList" para="eadis_page" title="法律诉讼执行回收情况列表" type="1">
+<tableitem align="2" filedname="appActDate" id="6" indexed="2" label="申请执行日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="actAmt" id="5" indexed="4" label="执行回收金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="actType" id="4" indexed="3" label="执行类型" row="1" type="6" typepara="ACT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="remark" id="2" indexed="7" label="说明" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="followId" id="7" indexed="1" label="案件编号" type="4" typepara="/mfLawsuit/followListShowDetailAjax;followId-followId;oneUrl-'/mfLawsuitFollow/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

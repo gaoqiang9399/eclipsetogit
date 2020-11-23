@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="commropehis0001" para="eadis_page" link="/mfCommitRepoProvHis/findByPage" title="承购申请审批历史表" type="1">
+<tableitem align="2" filedname="commRopeHistoryId" id="1" indexed="1" label="质押/转让编号" row="1" type="4" typepara="/mfCommitRepoProvHis/getById;commRopeHistoryId-commRopeHistoryId;query-'query'"/>
+<tableitem align="2" filedname="registerProveId" id="2" indexed="2" label="登记证明编号" row="1" type="0" />
+<tableitem align="2" filedname="registerProveTime" id="3" indexed="3" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="registerProveType" id="4" indexed="4" label="登记种类0初始登记" row="1" type="0" />
+<tableitem align="2" filedname="dealType" id="5" indexed="5" label="交易类型1质押2转让" row="1" type="0" />
+<tableitem align="2" filedname="registerEndDate" id="6" indexed="6" label="登记到期日" row="1" type="0" />
+<tableitem align="2" filedname="pledgorNo" id="7" indexed="7" label="出资/出让人编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgorName" id="8" indexed="8" label="出质/出让人名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgorRegisterAddress" id="9" indexed="9" label="出质/出让人注册地址" row="1" type="0" />
+<tableitem align="2" filedname="pledgeeNo" id="10" indexed="10" label="质权/出让人编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeeName" id="11" indexed="11" label="质权/出让人" row="1" type="0" />
+<tableitem align="2" filedname="pledgeeRegisterAddress" id="12" indexed="12" label="质权/出让人注册地址" row="1" type="0" />
+<tableitem align="2" filedname="approveProcessId" id="13" indexed="13" label="审批流程id" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="14" indexed="14" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="15" indexed="15" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="16" indexed="16" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="17" indexed="17" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="18" indexed="18" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="19" indexed="19" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="appSts" id="20" indexed="20" label="承购申请状态0新增申请1审批中2审批通过3否决" row="1" type="0" />
+<tableitem align="2" filedname="busCollateralId" id="21" indexed="21" label="押品业务关联编号" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="22" indexed="22" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="23" indexed="23" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="24" indexed="24" label="登记部门" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="25" indexed="25" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="26" indexed="26" label="信息登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="27" indexed="27" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="29" indexed="29" label="-" row="1" type="5" typepara="/mfCommitRepoProvHis/deleteAjax;commRopeHistoryId-commRopeHistoryId;onClick-ajaxDelete(this)" width="2"/>
+</table>

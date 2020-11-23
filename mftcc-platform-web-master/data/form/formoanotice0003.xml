@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="oanotice0003" title="OA通知公告">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="publishTime" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="发布时间" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeScorpName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="发布范围" maxlength="255" mustinput="1" onclick="selectNoticeScorpDialog(OaNoticeInsert.getNoticeScorpDialog);" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='selectUser(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isTop" fieldsize="YES_NO" fieldtype="4" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="是否重要" mustinput="0" row="3"/>
+<formelement alt="请输入标题（50字以内）" datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeTitle" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="标题" maxlength="100" mustinput="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="通知公告ID" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="发布人" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeContent" fieldtype="5" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="公告内容" maxlength="400" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contentAbstract" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="摘要" maxlength="200" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeSts" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="公告状态" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeType" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="公告类型" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noticeScorp" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="发布范围编号" mustinput="" readonly="" row="5"/>
+</form>

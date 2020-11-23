@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlpledgebaseinfo0001" para="eadis_page" title="押品信息表" type="2">
+<tableitem align="2" filedname="regCusName" id="25" indexed="25" label="资产管理员" row="1" sortType="1" type="30" width="12" widthType="0"/>
+<tableitem align="2" filedname="keepStatus" id="9" indexed="9" label="资产状态" row="1" sortType="1" type="6" typepara="KEEP_STATUS" width="8" widthType="0"/>
+<tableitem align="2" filedname="pledgeMethod" id="8" indexed="8" label="担保方式" row="1" sortType="1" type="6" typepara="VOU_TYPE" width="8" widthType="0"/>
+<tableitem align="2" filedname="importDate" id="15" indexed="11" label="入库日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="certificateName" id="5" indexed="5" label="所有权人" row="1" sortType="2" type="0" width="13" widthType="0"/>
+<tableitem align="2" filedname="exportDate" id="14" indexed="14" label="出库日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="4" indexed="3" label="关联借款客户" row="1" sortType="2" type="0" width="13" widthType="0"/>
+<tableitem align="1" filedname="pledgeName" id="2" indexed="1" label="资产名称" mytitle="押品名称-pledgeName;" sortType="2" type="4" typepara="/pledgeBaseInfo/getById;pledgeNo-pledgeNo;entranceType-'pledge';subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pledgeShowNo" id="1" indexed="2" label="资产编号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+</table>

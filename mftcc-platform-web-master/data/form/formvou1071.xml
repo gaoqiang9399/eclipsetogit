@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou1071" title="207.贵金属  GRT_P_METAL">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantyId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="96" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="metalName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="贵金属名称" maxlength="180" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="metalGram" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="贵金属数量（克）" maxlength="0" mustinput="0" row="2"/>
+</form>

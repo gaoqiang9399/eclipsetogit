@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="corp0024" title="资本信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="curNo" fieldsize="CUR_TYPE" fieldtype="99" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="币种" maxlength="3" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="regFund" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="注册资本" maxlength="8" mustinput="" param="cusNo;" readonly="" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="actRecFund" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="实收资本" maxlength="8" mustinput="" param="cusNo;" readonly="" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="factFund" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="实物资本" maxlength="8" mustinput="" param="cusNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="curFund" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="1" labelname="货币资本" maxlength="8" mustinput="" param="cusNo;" readonly="" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="6" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

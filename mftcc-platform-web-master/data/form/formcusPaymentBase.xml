@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusPaymentBase" title="收支情况基础表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="mainPock" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主要经济来源" maxlength="20" mustinput="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fendNum" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="供养人口数" maxlength="100" mustinput="0" row="8"/>
+<formelement alt="请输入最近6个月的个人平均月收入" datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusIncome" fieldsize="0.00" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="个人月收入" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="otherPock" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="其他经济来源" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="homePeoples" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="家庭人口数" mustinput="0" row="7"/>
+<formelement alt="请输入最近6个月的家庭平均月收入" datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="homeIncome" fieldsize="0.00" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="家庭月收入" maxlength="14" mustinput="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="登记人姓名" maxlength="40" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="登记部门名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="最后修改时间" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="8" />
+<formelement alt="请输入最近6个月的家庭平均月支出" datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="homePay" fieldsize="0.00" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="家庭月支出" maxlength="14" mustinput="" readonly="" row="5" unit="元" />
+<formelement alt="请输入最近6个月的个人平均月支出" datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusPay" fieldsize="0.00" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="个人月支出" maxlength="14" mustinput="" readonly="" row="6" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="90" formactiveid="23" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+</form>

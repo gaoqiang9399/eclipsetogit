@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="whitenamedetail" title="白名单管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="白名单客户序号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tel" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="联系方式" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="证件号码" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="客户分类" maxlength="4" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="loanRate" fieldsize="0.00" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="贷款利率" maxlength="20" mustinput="0" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifLoop" fieldsize="YES_NO" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="额度是否可循环" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="22" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="登记部门编号" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extStr501" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="预留短文本" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr502" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extStr503" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="预留短文本" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr504" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extStr505" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="预留短文本" maxlength="50" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1001" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extStr1002" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="预留常规字段" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1003" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extStr2001" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="预留较长文本字段" maxlength="200" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic1" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extDic2" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="预留数据字典型" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extDouble22" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" labelname="预留数值型_2" maxlength="16" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt1" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="预留整数型" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extInt2" fieldtype="99" formactiveid="30" labelalign="3" labelcol="3" labelname="预留整数型" mustinput="0" row="15"/>
+</form>

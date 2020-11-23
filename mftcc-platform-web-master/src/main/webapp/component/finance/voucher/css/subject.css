@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* subject manage */
+body{font-size:14px; background-color:#fff;}
+.subject-wrap{padding:40px 40px 0;position:relative;zoom:1;}
+.subject-wrap label{line-height:30px;}
+.subject-wrap input{vertical-align:middle;}
+.subject-wrap .add-list li.item{margin-bottom:18px;font-size:14px;}
+.subject-wrap .ui-input{width:230px;font-size:14px;}
+.subject-wrap .radio-wrap{margin-left:5px;}
+.subject-wrap .radio-wrap label{margin-right:15px;}
+.subject-wrap .radio-wrap input{position:relative;top:-2px;}
+.subject-wrap .code-wrap{position: relative;line-height: 1;}
+.subject-wrap .code-wrap .parent-code{position:absolute; top:1px;left:1px; display:inline-block;height:16px;line-height:16px;padding:6px 0 0 5px; z-index: 5;}
+.subject-wrap .code-wrap .parent-code-dis{color: #aaa;}
+#subject-code{ width:230px;}
+
+.subject-wrap .ui-tips{position:absolute;top:10px;box-shadow:none;width:350px;text-align:center;padding:3px 10px; font-size:12px; }
+#link-report-tips{margin-bottom:10px;font-size:12px;}
+
+/*核算*/
+.subject-wrap .adjust-wrap{line-height: 20px}
+.subject-wrap .adjust-wrap-on{background: #f4f4f4;}
+.subject-wrap .adjust-wrap .sub-wrap{display:none;padding:0 0 3px 20px;font-size: 12px;line-height: 20px;}
+.subject-wrap .adjust-wrap-on div.sub-wrap{display:block;}
+.subject-wrap .adjust-wrap-on span.sub-wrap{display:inline-block;}
+.subject-wrap .check-wrap input{margin-top: -2px;}
+.subject-wrap .check-wrap{display:inline-block;margin-right: 8px;}
+.subject-wrap .input-unit{width: 100px;height: 14px;margin-left:8px;padding: 3px 5px;font-size:12px;line-height: 14px;}
+.subject-wrap .adjust-wrap .isRateadj-wrap{padding-bottom: 0;}
+.subject-wrap .disabled{color: #ccc;}
+#itemList label{}
+
+
+
+/*报表类型*/
+.report-type{width:310px;}
+#subject-tree{width:290px;height:230px;border:1px solid #ddd;overflow:auto;}
+#report-type{margin-bottom:10px;}
+#report-type p{margin-left:64px;font-size:12px;margin-top:3px;}
+
+#limited{ display:none; }

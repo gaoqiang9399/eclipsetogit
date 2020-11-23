@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou0028" para="eadis_page" link="/vouMShip/findByPage" title="抵押物-船舶表" type="1">
+<tableitem align="2" filedname="vouNo" id="1" indexed="1" label="担保编号" row="1" type="4" typepara="/vouMShip/getById;vouNo-vouNo;query-'query'"/>
+<tableitem align="2" filedname="shipType" id="2" indexed="2" label="船舶类型" row="1" type="0" />
+<tableitem align="2" filedname="shipBrand" id="3" indexed="3" label="船舶品牌" row="1" type="0" />
+<tableitem align="2" filedname="shipNo" id="4" indexed="4" label="船舶产权登记证编号" row="1" type="0" />
+<tableitem align="2" filedname="shipName" id="5" indexed="5" label="船舶名称" row="1" type="0" />
+<tableitem align="2" filedname="shipCertNo" id="6" indexed="6" label="船舶国籍证书号码" row="1" type="0" />
+<tableitem align="2" filedname="shipTonnage" id="7" indexed="7" label="船舶总吨数" row="1" type="0" />
+<tableitem align="2" filedname="shipFacturer" id="8" indexed="8" label="制造厂家" row="1" type="0" />
+<tableitem align="2" filedname="usedYear" id="9" indexed="9" label="使用到期年限" row="1" type="0" />
+<tableitem align="2" filedname="productionDate" id="11" indexed="11" label="出厂日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="15" indexed="15" label="-" row="1" type="5" typepara="/vouMShip/deleteAjax;vouNo-vouNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

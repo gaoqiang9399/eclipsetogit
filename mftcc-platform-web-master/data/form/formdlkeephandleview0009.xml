@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="true" id="dlkeephandleview0009" title="押品处置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="押品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepAddr" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="存放地址" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepOrgName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="保管机构" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keeperName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="保管人" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="押品编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepOrgId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="保管机构编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dutyCusName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="负责人" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="经办人" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operatorCusId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="经办人编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dutyCusId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="负责人编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="operateDate" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="处置日期" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepMethod" fieldsize="KEEP_METHOD" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="处置手段" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="handleResult" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="处置结果" maxlength="400" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepType" fieldsize="KEEP_TYPE" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="保管类型" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralMethod" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="担保类型" mustinput="" readonly="" row="1"/>
+</form>

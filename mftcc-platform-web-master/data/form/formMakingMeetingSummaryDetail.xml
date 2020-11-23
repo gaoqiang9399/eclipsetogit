@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="MakingMeetingSummaryDetail" title="决策会会议纪要">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="meetingTime" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="上会日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="hostName" fieldtype="5" formactiveid="3" horVer="1" labelalign="1" labelcol="4" labelname="主持" maxlength="2000" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="participantsName" fieldtype="5" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="参会人员" maxlength="2000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="nonvotingDelegatesName" fieldtype="5" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="列席" maxlength="2000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recordName" fieldtype="5" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="记录" maxlength="2000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fileNo" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="报批决策文件号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="创建时间" maxlength="17" mustinput="0" row="1"/>
+</form>

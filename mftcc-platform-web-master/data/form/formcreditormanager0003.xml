@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditormanager0003" title="债权信息展示（标的增加时参考用）">
+<formelement alt="请选择" datatype="0" fieldalign="1" fieldcol="2" fieldname="creditId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="债权编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="债权名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="originalAmt" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="总债权金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="creditAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="可用债权金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showOriginalRateType" fieldsize="RATE_TYPE" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="利率类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="originalRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="还款利率" mustinput="" readonly="1" row="2" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showOriginalRepayType" fieldsize="REPAY_TYPE" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="originalCusName" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="原债权持有人" mustinput="" param2="1" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="originalBeginDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="债权起始日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showCreditType" fieldsize="P2P_CREDIT_TYPE" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="债权类型" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showOriginalVouType" fieldsize="VOU_TYPE" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="担保类型" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showOriginalBaseType" fieldsize="P2P_PERS_TYPE" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="原债权持有人类别" mustinput="" param2="1" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="originalEndDate" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="债权结束日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="登记人员" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="债权类型" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowerName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="借款人姓名" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="showBorrowerType" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="借款人类别" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="originalTermShow" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="债权期限" mustinput="" readonly="1" row="6"/>
+</form>

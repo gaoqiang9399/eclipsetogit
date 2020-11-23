@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="gps0001" para="eadis_page" link="" title="租赁物GPS信息" type="2">
+<tableitem align="2" filedname="leaseNo" id="1" indexed="1" label="租赁物编号" row="1" type="4" typepara="/leaseItemGpsInfo/getByIdAjax;leaseNo-leaseNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="equiNo" id="2" indexed="2" label="设备型号" row="1" type="0" />
+<tableitem align="2" filedname="instaFlag" id="3" indexed="3" label="是否安装" row="1" type="0" />
+<tableitem align="2" filedname="instaDate" id="4" indexed="4" label="安装日期" row="1" type="0" />
+<tableitem align="2" filedname="instaFee" id="5" indexed="5" label=" 安装费用 " row="1" type="0" />
+<tableitem align="2" filedname="equiFee" id="6" indexed="6" label=" 设备费用 " row="1" type="0" />
+<tableitem align="2" filedname="brand" id="8" indexed="8" label="品牌" row="1" type="0" />
+<tableitem align="2" filedname="frameNo" id="13" indexed="13" label="车架号" row="1" type="0" />
+<tableitem align="2" filedname="plateNo" id="14" indexed="14" label="车牌号码" row="1" type="0" />
+</table>

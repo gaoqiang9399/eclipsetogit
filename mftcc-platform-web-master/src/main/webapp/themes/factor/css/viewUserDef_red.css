@@ -1,0 +1,384 @@
+.search-group .filter_in_input{
+			background: #67CCDE;width: 454px;height: 33px;border: none;
+}
+
+
+.outer-north .logo-div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	line-height: 55px;
+	height: 55px;
+}
+
+.logo-div .logoimg {
+	position: absolute;
+	top: 15px;
+	left: 25px;	
+}
+
+.logo-div .logodes {
+	color: white;
+	font-size: 20px;
+	position:absolute;
+	top: 0px;
+	left: 110px;
+}
+
+.outer-north .search-div {
+	position: absolute;
+	left: 400px;
+	top: 0px;
+	line-height: 55px;
+}
+
+.autocompleter {
+/*     width: 455px; */
+    width: 85%;
+    background: #f9f9f9;
+    border:none !important;
+    position: absolute;
+    top: 41px;
+/*     left: 400px; */
+    z-index: 999;
+}
+.search-input{
+	background: #67CCDE;
+	width: 454px;
+	height: 33px;
+	border: none;
+	margin-top: 10px;
+	padding-left: 35px;
+	position:absolute;
+	top: 0px;
+	margin-left:400px;
+}
+
+.search-i {
+	color: white;
+	position: absolute;
+	top: 15px;
+	left: 410px;
+	cursor: pointer;
+	z-index: 1000;
+}
+.search1-i{
+	color: white;
+	position: absolute;
+	top: 18px;
+	left: 410px;
+	cursor: pointer;
+	z-index: 1000;
+	font-size: 16px;
+}
+.outer-north .welcome-div {
+	position: absolute;
+	top: 0px;
+	right: 280px;
+	line-height: 55px;
+	height:55px;
+	color: white;
+	width: 214px;
+	cursor: pointer;
+}
+.image-div{
+	height:100%;
+	padding:10px 0px;
+}
+.user-image {
+ 	float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-right: 12px;
+}
+.user-menu{
+	min-width:200px;
+}
+
+.welcome-span {
+	max-width: 14em;
+	word-break: break-all;
+}
+.welcome-div{
+	height:100%;
+	padding:15px 0px;
+	text-align:center;
+}
+
+.welcome-i {
+	font-size: 17px;
+}
+
+.outer-north .datetime-div {
+	position: absolute;
+	color: white;
+	top: 0px;
+	right: 100px;
+	width: 165px;
+}
+
+.datetime-div .datetime-img {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+
+.datetime-div1 {
+	font-size: 14px;
+	margin-left: 30px;
+	margin-top: 8px;
+}
+
+.datetime-span {
+	color: #fff;
+	line-height: 22px;
+	-moz-line-height: 20px;
+	padding-left: 10px;
+	font-size:14px;
+}
+
+.datetime-div .help-div{
+	position: absolute;top: 15px;right: 0px;
+	cursor: pointer;
+	height:24px;
+	width:24px;
+	background: url("../images/help.png");
+}
+.datetime-div .help-div:hover{
+	background: url("../images/help1.png");
+}
+.datetime-div .help-image{
+	position: absolute;top: 15px;right: 0px;
+	cursor: pointer;
+}
+.datetime-div .help-image:hover{
+	/* background: #018FA7; */
+}
+.more-div {
+	width: 80px;
+	color: white;
+	background: #A52A2A;
+	height: 55px;
+	right: 0px;
+	top: 0px;
+	float:right;
+	cursor: pointer;
+}
+
+.more-div:hover{
+	background: #008FA7;
+}
+
+
+.middle-north-i{
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: 1px;
+	margin-right: 5px;
+	font-size: 24px;
+}
+.menu{
+	font-size: 24px; 
+/* 	position: absolute;  */
+/* 	margin-left:30px; */
+/* 	top: 15px; */
+	color:#fff !important;
+}
+.help{
+	font-size: 24px; 
+	position: absolute; 
+	margin-left: 15px; 
+	top: 24px;
+	cursor: pointer;
+	color:#fff !important;
+}
+
+
+.middle-north-west .logodes {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	padding: 13px 0px 0px 17px;
+}
+.middle-north-east-west {
+	padding: 0px 8px; 
+	color: #fff;
+	font-size: 12px;
+	background-color:#A52A2A;
+	cursor: pointer;
+}
+.messagePage{
+	position: absolute;
+	left:375px;
+	height: 55px;
+	width: 104px;
+	z-index:0;
+	background-color:#A52A2A;
+}
+.messagePageSetView{
+	position: absolute;
+	left:375px;
+	height: 55px;
+	width: 95px;
+	z-index:0;
+	background-color:#A52A2A;
+}
+ .xinxi{
+	top:15px;
+	font-size:24px;
+	color:#fff;
+	left:4px;
+	position:absolute;
+}
+.xinxinfont{
+/* 	top: 19px; */
+/* 	left: 33px; */
+	color: #fff;
+/* 	position:absolute; */
+}
+ .dian{
+	position:absolute;
+	top:12px;
+	right:5px;
+	/* color:red; */
+	width: 6px;
+    height: 6px;
+    border-radius: 4px;
+    background: red;
+    -webkit-animation: shine 1s infinite linear;
+    animation: shine 1s infinite linear ;
+}
+ .task-count{
+    width: 20px; 
+    border-radius: 20px;
+    padding: 4px 1px;  
+    background-color: #fff;
+    color: #000;
+    float: right;
+    font-weight:normal;
+    font-size: 10px;
+   	margin-top:-9px;
+   	margin-right:-9px;
+ }
+ .messagePage:hover{
+	cursor: pointer;
+	background-color:#781F1F;
+}
+ .messagePageSel{
+	background-color:#781F1F !important;
+}
+/* .middle-north-east-center1{ */
+/* 	width: 165px !important; */
+/* } */
+
+@-webkit-keyframes shine{0%{transform:scale(1,1)} 100%{transform:scale(2,2)}}
+@keyframes shine{0%{transform:scale(1,1)} 100%{transform:scale(2,2)}}
+
+
+.middle-north .nav{
+	padding-right: 0px;
+}
+.middle-north .nav-div{
+	height:100%;
+	color:#fff;
+	padding:15px 5px;
+}
+.middle-north .nav-div.time-div{
+	padding:15px 10px;
+}
+.middle-north .time-span{
+	margin-top:-8px;
+	font-size:14px;
+}
+.middle-north .nav > li > a{
+	height:55px;
+	color:#fff;
+}
+.task-msg{
+	padding-left:5px !important;
+}
+
+.toolbox-li{
+	background-color:#CC3637;
+	
+}
+.toolbox-li a{
+	padding: 15px 28px !important;
+}
+
+
+.middle-north .nav > li > a:hover, .nav > li > a:focus{
+	background-color:#781F1F;
+}
+
+.middle-north .nav .open > a, .nav .open > a:hover, .nav .open > a:focus{
+	background-color:#781F1F;
+}
+.middle-north .dropdown-menu{
+	background-color:#A52A2A;
+	color:#fff;
+}
+
+
+/*my-info的 width、right要和welcome的保持一致  */
+.my-info {
+	min-width:200px;
+	width: 200px;
+	height: 190px;
+	background: #008FA7;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	top: 55px;
+	position: absolute;
+	display:none;
+	right: 349px;
+	z-index:999;
+}
+
+.account-img{
+	width: 55px;
+    height: 55px;
+	border-radius: 50%;
+	cursor:pointer;
+}
+.my-line {
+	width: 2px;
+	height: 19px;
+	position: absolute;
+	bottom: 12px;
+	left: 98px;
+	background-color: #fff;
+	z-index: 3;
+}
+
+.my-info-detail{
+	width:100%;
+	height:144px;
+	background-color:#A52A2A;
+	padding:20px;
+	color:#fff;
+	
+}
+.my-info-opt{
+	width:100%;
+	height:45px;
+	background-color:#4D4D4D;
+	font-size:12px;
+	margin-top: 6%;
+}
+.my-info-opt .btn{
+	height:100%;
+	color: #fff;
+}
+.my-info-opt .btn:hover{
+	background-color: #353535;
+}
+.my-info-opt i{
+	margin-right:3px;
+}

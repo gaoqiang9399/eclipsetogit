@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pliwarn0001" para="eadis_page" title="贷后检查预警" type="2">
+<tableitem align="2" filedname="recCusType" id="9" indexed="8" label="接收人" row="1" type="6" typepara="MSG_RECIVER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="flag" id="8" indexed="17" label="是否启用" row="1" type="4" typepara="/pliWarning/updateFlagAjax;pliWarnNo-pliWarnNo;"/>
+<tableitem align="2" filedname="标签配置" id="17" indexed="18" label="-" type="5" typepara="/cuslendWarning/baseTagSet;templateNo-pliWarnNo;onClick-baseTagSet(this);" widthType="0"/>
+<tableitem align="2" filedname="pliWarnLimit" id="16" indexed="12" label="最大预警次数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="15" indexed="19" label="-" row="1" type="5" typepara="/pliWarning/getDetailPage;pliWarnNo-pliWarnNo;onClick-updateVar" widthType="0"/>
+<tableitem align="2" filedname="pliDays" id="4" indexed="4" label="天数/日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pliWarnType" id="3" indexed="3" label="预警类型" row="1" type="6" typepara="MSG_WARN_TYPE" widthType="0"/>
+<tableitem align="2" filedname="pliWarnName" id="2" indexed="2" label="预警名称" row="1" type="0"/>
+<tableitem align="2" filedname="sendType" id="10" indexed="11" label="发送类型" row="1" type="6" typepara="MSG_SEND_TYPE" widthType="0"/>
+</table>

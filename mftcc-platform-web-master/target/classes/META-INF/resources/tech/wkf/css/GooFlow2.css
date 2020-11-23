@@ -1,0 +1,734 @@
+
+v\:group, v\:rect, v\:imagedata, v\:oval, v\:line, v\:polyline, v\:stroke, v\:textbox {
+    background: transparent none repeat scroll 0 0;
+    display: inline-block;
+}
+.GooFlow {
+    -moz-user-select: none;
+    background-color: #f6f6f8;
+    font: 12px Arial,Helvetica,sans-serif;
+    height: calc(100% - 30px);
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+.GooFlow_head label {
+    background-color: #3078c0;
+    display: flex;
+    float: left;
+    font-weight: bold;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 150px;
+}
+.GooFlow_head label div {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    height: 45px;
+    line-height: 45px;
+}
+.GooFlow_head span {
+    border-left: 1px solid #3892d3;
+    float: left;
+    height: 22px;
+    margin: 0 1px;
+    overflow: hidden;
+    width: 0;
+}
+.GooFlow_head_btn {
+    border: 0 none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    float: right;
+    height: 29px;
+    /* margin: 7px 0 8px 6px; */
+    outline: medium none;
+    padding: 5px;
+    height: 100%;
+    align-items:  center;
+    text-decoration: none;
+    padding:  0 20px;
+}
+.GooFlow_head_btn b {
+    border: 0 none;
+    display: inline-block;
+    height: 18px;
+    overflow: hidden;
+    width: 18px;
+}
+.GooFlow_head_btn:hover {
+}
+.GooFlow_model_btn {
+    border: 0 none;
+    border-radius: 3px;
+    color: #929292;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 29px;
+    margin-right: 5px;
+    outline: medium none;
+    padding: 5px;
+    width: auto;
+}
+.GooFlow_model_btn b {
+    border: 0 none;
+    display: inline-block;
+    float: left;
+    height: 18px !important;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 18px !important;
+}
+.GooFlow_model_btn span {
+    font-weight: normal;
+    margin-left: 20px;
+    position: absolute;
+}
+.GooFlow_model_btn:hover {
+}
+.GooFlow_tool {
+    clear: left;
+    float: left;
+    margin: 0 3px;
+    overflow: hidden;
+}
+.GooFlow_tool_div {
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 2px;
+    width: 170px;
+}
+.GooFlow_tool span {
+    border-top: 1px solid #3892d3;
+    clear: both;
+    display: block;
+    height: 0;
+    margin: 1px;
+    overflow: hidden;
+}
+.GooFlow_tool_btn {
+    border: 0 none;
+    cursor: default;
+    display: block;
+    height: 18px;
+    margin: 1px;
+    outline: medium none;
+    padding: 2px;
+    width: 18px;
+}
+.GooFlow_tool_btn b {
+    border: 0 none;
+    display: block;
+    height: 18px;
+    overflow: hidden;
+    width: 18px;
+}
+.GooFlow_tool_btn:hover {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #99b1ce;
+    border-radius: 3px;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+}
+.GooFlow_tool_btn:hover b {
+    border-radius: 2px;
+    margin: 1px;
+}
+.GooFlow_tool_btndown {
+    background: #ffbf00 none repeat scroll 0 0;
+    border-radius: 3px;
+    cursor: default;
+    display: block;
+    margin: 1px;
+    outline: medium none;
+    padding: 2px;
+}
+.GooFlow_tool_btndown b {
+    border-radius: 2px;
+    display: block;
+    height: 18px;
+    overflow: hidden;
+    width: 18px;
+}
+.GooFlow_work .GooFlow_work_inner {
+    border-left: 1px solid #dadada;
+}
+.GooFlow_work .GooFlow_work_group {
+    cursor: default;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.GooFlow_area {
+    cursor: default;
+    overflow: hidden;
+    position: absolute;
+}
+.GooFlow_area .lock {
+    cursor: default;
+}
+.GooFlow_area .bg {
+    cursor: move;
+    opacity: 0.3;
+}
+.GooFlow_work .lock .bg {
+    cursor: default;
+}
+.GooFlow_area label {
+    cursor: text;
+    display: block;
+    font-size: 12px;
+    height: 18px;
+    left: 1px;
+    line-height: 18px;
+    position: absolute;
+    text-indent: 18px;
+    top: 1px;
+}
+.GooFlow_work .lock label {
+    cursor: default;
+}
+.GooFlow_area b {
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.GooFlow_work .area_red .bg {
+    background-color: #ff7865;
+    border: 1px solid red;
+}
+.GooFlow_work .area_red label {
+    background: rgba(0, 0, 0, 0) url("img/gooflow_bullet.png") no-repeat scroll 1px 1px;
+    color: red;
+}
+.GooFlow_work .area_yellow .bg {
+    background-color: #ffd564;
+    border: 1px solid #cd925a;
+}
+.GooFlow_work .area_yellow label {
+    background: rgba(0, 0, 0, 0) url("img/gooflow_bullet.png") no-repeat scroll 1px -16px;
+    color: #ffba1d;
+}
+.GooFlow_work .area_blue .bg {
+    background-color: #549cde;
+    border: 1px solid #347bb1;
+}
+.GooFlow_work .area_blue label {
+    background: rgba(0, 0, 0, 0) url("img/gooflow_bullet.png") no-repeat scroll 1px -33px;
+    color: #347bb1;
+}
+.GooFlow_work .area_green .bg {
+    background-color: #84ca04;
+    border: 1px solid green;
+}
+.GooFlow_work .area_green label {
+    background: rgba(0, 0, 0, 0) url("img/gooflow_bullet.png") no-repeat scroll 1px -50px;
+    color: green;
+}
+.GooFlow_work v\:group {
+    display: block;
+    position: relative;
+}
+.GooFlow_work v\:group v\:line {
+    overflow: visible;
+}
+.GooFlow_work v\:group v\:polyline {
+    overflow: visible;
+}
+.GooFlow_work v\:group div {
+    cursor: text;
+    display: inline;
+    float: left;
+    overflow: visible;
+    position: absolute;
+    white-space: nowrap;
+}
+.GooFlow_work .draw {
+    color: #ff3300;
+}
+.GooFlow_item {
+    color: #15428b;
+    position: absolute;
+}
+.GooFlow_item b {
+    color: #adc7df;
+    font-size: 18px;
+    left: 1px;
+    position: absolute;
+    top: 2px;
+}
+.anPath {
+    fill: transparent;
+}
+.GooFlow table.tcom {
+    border-radius: 5px;
+    bottom: 0;
+    display: block;
+    height: auto !important;
+    left: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: auto !important;
+    z-index: 1;
+}
+.GooFlow .qutton_item {
+    background-color: transparent !important;
+    border-radius: 5px !important;
+    bottom: 0;
+    display: block;
+    left: 0;
+    pointer-events: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+.GooFlow table tbody {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.GooFlow td {
+    cursor: default;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.GooFlow .ico {
+    cursor: move;
+    width: 20px;
+}
+.GooFlow .GooFlow_head b {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    width: 20px;
+    display:  inline-block;
+}
+.GooFlow b {
+    display: block;
+    height: 32px;
+    overflow: hidden;
+    width: 30px;
+}
+.GooFlow .item_round {
+    border-radius: 10px;
+    height: 34px;
+    overflow: visible;
+    width: 34px;
+}
+.GooFlow .item_round table {
+    border: 0 none;
+}
+.GooFlow .item_round table b {
+    margin: 0 0 0 1px;
+}
+.GooFlow .item_round .span {
+    color: #777777;
+    cursor: default;
+    display: block;
+    left: -13px;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    width: 60px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.GooFlow .item_mix {
+    background: #b6f700 none repeat scroll 0 0;
+    border-color: #c2db4e;
+}
+.GooFlow div .rs_right {
+    bottom: 12%;
+    cursor: w-resize;
+    overflow: hidden;
+    position: absolute;
+    right: 13%;
+    top: 11%;
+    width: 6px;
+    z-index: 1;
+}
+.GooFlow div .rs_bottom {
+    bottom: 12%;
+    cursor: n-resize;
+    height: 6px;
+    left: 13%;
+    overflow: hidden;
+    position: absolute;
+    right: 13%;
+    z-index: 1;
+}
+.GooFlow div .rs_rb {
+    bottom: 12%;
+    cursor: nw-resize;
+    height: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 13%;
+    width: 10px;
+    z-index: 1;
+}
+.GooFlow div .rs_close {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -193px -74px;
+    cursor: pointer;
+    height: 12px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+.GooFlow div .rs_direct {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -170px -74px;
+    cursor: pointer;
+    height: 12px;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+.GooFlow .rs_ghost {
+    background: #565876 none repeat scroll 0 0;
+    border: 2px dashed #7d7e95;
+    display: none;
+    opacity: 0.6;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+}
+.GooFlow .item_mark {
+    border: medium none;
+}
+.GooFlow .item_mark td {
+    cursor: crosshair;
+}
+.GooFlow textarea {
+    border: 1px solid #5068ae;
+    display: none;
+    font-size: 12px;
+    overflow-y: visible;
+    position: absolute;
+    width: 100px;
+    z-index: 10001;
+}
+.GooFlow .GooFlow_line_oper {
+    background-color: #d8e8fc;
+    border: 1px solid #7da2ce;
+    height: 15px;
+    opacity: 0.5;
+    position: absolute;
+    width: 70px;
+    z-index: 10000;
+}
+.GooFlow .GooFlow_line_move {
+    background: rgba(0, 0, 0, 0) url("0") no-repeat scroll 0 0;
+    opacity: 0.5;
+    overflow: hidden;
+    position: absolute;
+    z-index: 9999;
+}
+.GooFlow .GooFlow_line_oper b {
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-left: 2px;
+    width: 15px;
+}
+.GooFlow .b_l1 {
+    background: rgba(0, 0, 0, 0) url("img/GooFlow_line_oper.png") no-repeat scroll 1px 1px;
+}
+.GooFlow .b_l2 {
+    background: rgba(0, 0, 0, 0) url("img/GooFlow_line_oper.png") no-repeat scroll 1px -14px;
+}
+.GooFlow .b_l3 {
+    background: rgba(0, 0, 0, 0) url("img/GooFlow_line_oper.png") no-repeat scroll 1px -29px;
+}
+.GooFlow .b_x {
+    background: rgba(0, 0, 0, 0) url("img/GooFlow_line_oper.png") no-repeat scroll 1px -44px;
+    margin-left: 10px;
+}
+.GooFlow .ico_save {
+    background: url("../imgs/save_1.png") no-repeat;
+}
+.GooFlow .ico_saveAndStart {
+    background: url("../imgs/savestart_1.png") no-repeat;
+}
+.GooFlow .ico_undo {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -65px -72px;
+}
+.GooFlow .ico_redo {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -42px -72px;
+}
+.GooFlow .ico_paste {
+    background: rgba(0, 0, 0, 0) url("../imgs/paste.png") no-repeat scroll;
+}
+.GooFlow .ico_copy {
+    background: rgba(0, 0, 0, 0) url("../imgs/copy.png") no-repeat scroll;
+}
+.GooFlow .ico_cut {
+    background: rgba(0, 0, 0, 0) url("../imgs/cut.png") no-repeat scroll;
+}
+.GooFlow .ico_reload {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -88px -71px;
+}
+.GooFlow .ico_download {
+    background: url("../imgs/export_1.png") no-repeat;
+}
+.GooFlow .ico_list {
+    background: url("../imgs/openlist_1.png") no-repeat;
+}
+.GooFlow .ico_open {
+    background: url("../imgs/import_1.png") no-repeat;
+}
+.ztree .ico_task {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -214px -5px;
+}
+.ztree .ico_sign {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -246px -5px;
+}
+.ztree .ico_start {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -155px -5px;
+}
+.ztree .ico_end {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -182px -5px;
+}
+.ztree .ico_fork {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -275px -5px;
+}
+.ztree .ico_foreach {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -301px -5px;
+}
+.ztree .ico_decision {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -334px -5px;
+}
+.ztree .ico_join {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -367px -5px;
+}
+.ztree .ico_sub-process {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -396px -5px;
+}
+.GooFlow_item .ico_task {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -13px -108px;
+}
+.GooFlow_item .ico_node {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -57px -108px;
+}
+.GooFlow_item .ico_start {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -291px -109px;
+}
+.GooFlow_item .ico_end {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -328px -108px;
+}
+.GooFlow_item .ico_fork {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -365px -106px;
+}
+.GooFlow_item .ico_foreach {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -104px -106px;
+}
+.GooFlow_item .ico_decision {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -152px -106px;
+}
+.GooFlow_item .ico_join {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -200px -105px;
+}
+.GooFlow_item .ico_sub-process {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -244px -106px;
+}
+.GooFlow_item .rs_rb {
+}
+.GooFlow_item .rs_close {
+}
+.GooFlow_item .rs_direct {
+}
+.GooFlow_item .rs_rb:hover {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -267px -136px;
+}
+.GooFlow_head_btn:hover{
+	background:#2868a9;
+}
+.GooFlow_head_btn:hover .headBtnsTitle{
+	color:#FFFFFF;
+}
+.GooFlow_head_btn:hover .ico_save {
+    background: url("../imgs/save_2.png") no-repeat;
+}
+.GooFlow_head_btn:hover .ico_saveAndStart {
+    background: url("../imgs/savestart_2.png") no-repeat;
+}
+.GooFlow_head_btn:hover .ico_undo {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -179px 1px;
+}
+.GooFlow_head_btn:hover .ico_redo {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -179px -24px;
+}
+.GooFlow_head_btn:hover .ico_reload {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -179px -48px;
+}
+.GooFlow_head_btn:hover .ico_download {
+    background: url("../imgs/export_2.png") no-repeat;
+}
+.GooFlow_head_btn:hover .ico_list {
+    background: url("../imgs/openlist_2.png") no-repeat;
+}
+.GooFlow_head_btn:hover .ico_open {
+    background: url("../imgs/import_2.png") no-repeat;
+}
+.ztree li a.level1:hover .ico_task {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -214px -34px;
+}
+.ztree li a.level1:hover .ico_sign {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -247px -33px;
+}
+.ztree li a.level1:hover .ico_start {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -155px -34px;
+}
+.ztree li a.level1:hover .ico_end {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -182px -34px;
+}
+.ztree li a.level1:hover .ico_fork {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -276px -31px;
+}
+.ztree li a.level1:hover .ico_foreach {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -302px -33px;
+}
+.ztree li a.level1:hover .ico_decision {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -334px -34px;
+}
+.ztree li a.level1:hover .ico_join {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -368px -32px;
+}
+.ztree li a.level1:hover .ico_sub-process {
+    background: rgba(0, 0, 0, 0) url("../imgs/tt.png") no-repeat scroll -397px -31px;
+}
+.item_focus .qutton_item {
+    background-color: transparent !important;
+}
+.item_focus .anPath {
+    fill: transparent;
+}
+.item_drag .rs_rb {
+    display: none;
+}
+.item_drag .rs_close {
+    display: none;
+}
+.item_drag .rs_direct {
+    display: none;
+}
+.ui-layout-center {
+    border: medium none !important;
+    overflow: hidden !important;
+}
+.item_focus .ico_task {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-task.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_node {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-sign.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_start {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-start.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_end {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-end.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_fork {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-fork.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_foreach {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-foreach.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_decision {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-decision.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_join {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-join.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.item_focus .ico_sub-process {
+    background: rgba(0, 0, 0, 0) url("../imgs/select-sub-process.png") no-repeat scroll 0 0 / 100% 100%;
+    height: 40px;
+    left: -3px;
+    top: -2px;
+    width: 40px;
+}
+.align-top {
+    border-top: 2px dashed #dadada;
+    height: 1px;
+    position: absolute;
+    width: 500%;
+    display: none;
+}
+.align-left {
+    border-left: 2px dashed #dadada;
+    height: 500%;
+    position: absolute;
+    width: 1px;
+    display: none;
+}
+.headBtnsTitle{
+	display: inline-flex;
+	float: right !important;
+	width: auto !important;
+	border: none !important;
+	align-items:  center;
+	margin-top: -1px !important;
+	/* margin-right: 20px !important; */
+	margin-left:  5px !important;
+	color: #7FB3DE;
+}
+.GooFlow_head_img{height: 25px;width: 25px;display: block;background: url(../imgs/process.png) no-repeat;background-size: 100% 100%;margin-top: 10px;margin-right:  10px;margin-left:  10px;}

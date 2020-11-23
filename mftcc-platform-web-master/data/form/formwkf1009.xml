@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="wkf1009" title="家访员调查">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="homeAccessTm" fieldtype="1" fieldwidth="70" formactiveid="1" labelalign="3" labelcol="1" labelname="家访预约时间" labelwidth="30" mustinput="1" onclick="fPopUpCalendarDlg(homeAccessTm);return false" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="homeAccessIdea" fieldsize="60" fieldtype="5" fieldwidth="75" formactiveid="2" labelalign="3" labelcol="1" labelname="家访员意见" labelwidth="25" maxlength="250" mustinput="1" row="3" textAreaFieldRows="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="homeAccessOp" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="家访员" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="homeAccessName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="家访员名称" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="homeAccessEndTm" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="家访完成时间" mustinput="1" onclick="fPopUpCalendarDlg(homeAccessEndTm);return false" readonly="1" row="2"/>
+</form>

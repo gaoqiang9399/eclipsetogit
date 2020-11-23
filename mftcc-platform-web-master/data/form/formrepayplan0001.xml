@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="repayplan0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="支用申请id" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnSum" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="计划应还本金" maxlength="20" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateIncome" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="计划应还利息" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="开始日期" maxlength="8" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="结束日期" maxlength="8" mustinput="0" row="23"/>
+</form>

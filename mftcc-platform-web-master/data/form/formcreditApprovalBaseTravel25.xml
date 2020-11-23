@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditApprovalBaseTravel25" title="工程担保授信审批出差审核">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="产品编号" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldsize="KIND_NO" fieldstyle="half" fieldtype="99" formactiveid="12" labelalign="3" labelcol="5" labelname="产品" maxlength="50" mustinput="0" readonly="1" row="17"/>
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="creditAmt" fieldstyle="half" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="授信额度" maxlength="20" mustinput="0" readonly="1" row="17" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="当前审批节点编号" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeName" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="当前审批节点名称" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="审批角色号/用户号" maxlength="22" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="当前审批角色/用户名称" maxlength="40" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="99" formactiveid="24" initvalue="1" labelalign="3" labelcol="1" labelname="意见类型" maxlength="2" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="1" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="项目说明" mustinput="" readonly="1" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="授信类型" mustinput="0" param="anchors:['anchor1','anchor2']" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="KIND_NO" fieldsize="KIND_NO" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="产品" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustAppId" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="授信调整申请号" mustinput="" readonly="" row="19"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="travelDate" fieldtype="1" formactiveid="178" horVer="0" labelalign="3" labelcol="1" labelname="出差时间" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="travelAdr" fieldtype="1" formactiveid="179" horVer="0" labelalign="3" labelcol="1" labelname="出差地点" maxlength="50" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="travelPer" fieldtype="1" formactiveid="180" horVer="0" labelalign="3" labelcol="1" labelname="考察人员" maxlength="50" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="interviewObj" fieldtype="1" formactiveid="181" horVer="0" labelalign="3" labelcol="1" labelname="访谈对象" maxlength="50" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="investCon" fieldtype="5" formactiveid="182" horVer="0" labelalign="3" labelcol="1" labelname="考察结论" maxlength="200" mustinput="1" readonly="" row="5"/>
+<formelement alt="6000字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="approveRemark" fieldtype="5" formactiveid="183" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="6000" mustinput="1" readonly="" row="6"/>
+</form>

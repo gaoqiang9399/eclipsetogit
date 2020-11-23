@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfReceivablePrincipalInterest" title="应收本息查询" type="1">
+<tableitem align="3" filedname="repayPrcp" id="9" indexed="4" label="应收本金（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="8" indexed="3" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="7" indexed="2" label="项目名称" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getAppDetailPage(this);subStringNub-10;" widthType="0"/>
+<tableitem align="3" filedname="faXi" id="6" indexed="7" label="应收罚息（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="feeSum" id="5" indexed="6" label="应收费用（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="4" indexed="1" label="联系电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="12" indexed="10" label="到期日期" type="1" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="0" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-getDetailPage(this);subStringNub-8;" widthType="0"/>
+<tableitem align="3" filedname="weiYueJin" id="2" indexed="8" label="应收违约金（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="repaySum" id="1" indexed="9" label="应收总额（元）" row="1" sortType="2" type="4" typepara="/mfRepayment/repaymentJsp;fincId-fincId;appId-appId;busEntrance-'3';fincSts-fincSts;onClick-getReplyDetail(this);" widthType="0"/>
+<tableitem align="3" filedname="repayIntst" id="10" indexed="5" label="应收利息（元）" row="1" sortType="2" type="0" widthType="0"/>
+</table>

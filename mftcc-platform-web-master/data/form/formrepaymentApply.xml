@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="repaymentApply" title="还款申请还款">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="企业名称" mustinput="0" readonly="1" row="1" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmtSum" fieldtype="1" formactiveid="202" horVer="0" labelalign="3" labelcol="1" labelname="借据放款总额" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="loanBalSum" fieldtype="1" formactiveid="203" horVer="0" labelalign="3" labelcol="3" labelname="借据余额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="repayAmt" fieldtype="1" formactiveid="204" horVer="0" labelalign="3" labelcol="3" labelname="还款总额" maxlength="20" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="repayDate" fieldtype="1" formactiveid="205" horVer="0" labelalign="3" labelcol="1" labelname="还款日期" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="206" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNum" fieldtype="1" formactiveid="207" horVer="0" labelalign="3" labelcol="1" labelname="借据笔数" mustinput="0" readonly="1" row="2" unit="笔"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fincName" fieldtype="1" formactiveid="208" horVer="0" labelalign="3" labelcol="1" labelname="还款借据" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincNo" fieldtype="99" formactiveid="209" horVer="0" labelalign="3" labelcol="5" labelname="fincNo" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayAppId" fieldtype="1" formactiveid="210" horVer="0" labelalign="3" labelcol="3" labelname="还款申请ID" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="submitExplain" fieldtype="1" formactiveid="211" horVer="0" labelalign="3" labelcol="1" labelname="打回说明" mustinput="" readonly="" row="6"/>
+</form>

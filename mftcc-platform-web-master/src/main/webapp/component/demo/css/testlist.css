@@ -1,0 +1,135 @@
+/* 复选框样式 */
+.checkDiv {
+	cursor: pointer;
+	text-align: center;
+	line-height: 22px;
+	width: 22px;
+	height: 22px;
+	transition: all 0.75s;
+	-moz-transition: all 0.75s; /* Firefox 4 */
+	-webkit-transition: all 0.75s; /* Safari 和 Chrome */
+	-o-transition: all 0.75s;
+}
+/*全选  */
+.checkAllDiv {
+	cursor: pointer;
+	text-align: center;
+	line-height: 22px;
+	width: 22px;
+	height: 22px;
+	transition: all 0.75s;
+	-moz-transition: all 0.75s; /* Firefox 4 */
+	-webkit-transition: all 0.75s; /* Safari 和 Chrome */
+	-o-transition: all 0.75s;
+}
+/*  选中*/
+.xz {
+	color: #67BA2F;
+	font-size: 16px;
+}
+/* 未选中 */
+.wx {
+	color: #ECECEC;
+	font-size: 16px;
+}
+/*  */
+.tddh {
+	transition: all 0.75s;
+	-moz-transition: all 0.75s; /* Firefox 4 */
+	-webkit-transition: all 0.75s; /* Safari 和 Chrome */
+	-o-transition: all 0.75s;
+}
+
+.deltd {
+	width: 0px;
+}
+
+
+/* 筛选下拉列表 */
+.searchBody{
+	right:0px;
+	width: 165px;
+	position: absolute;
+	display: block;
+	height: auto;
+	background-color: #E8EDF6;
+	border: 1px solid #B9C3D5;
+	text-align: left;
+}
+.sysBody{
+	width:auto;
+	height: auto;
+	background-color: #E8EDF6;
+	padding: 10px;
+}
+.sysBody span{
+	display:block;
+	font-size: 16px;
+	color: #2480BA;
+}
+.searchBody ul{
+	padding: 0px;
+}
+
+.mySearchTitle{
+	padding: 0px 10px;
+	width:auto;
+	height: 36px;
+	line-height:36px;
+	background-color: #DFE7F3;
+	border-bottom: 1px solid #B9C3D5;
+	border-top: 1px solid #B9C3D5;
+}
+.mySearchTitle span{
+	padding-left:10px;
+	padding-right:30px;
+	font-size: 16px;
+	color: #2480BA;
+}
+.mySearchTitle i{
+	cursor:pointer;
+	color: #8794A1;
+	margin-left: 10px;
+}
+.mySearchBody{
+	padding: 10px;
+	width:auto;
+	height: auto;
+	background-color: #E8EDF6;
+}
+/*自定义table  */
+.mySearchDiv{
+	top:0px;
+	left:0px;
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	background-color: #EAEFF7;
+}
+.myHeadDiv{
+	width:auto;
+	text-align: center;
+	margin: 5px;
+	border: 1px solid red;
+}
+.myHeadDiv i{
+	color:#B0BBCD;
+	float: right;
+	font-size: 16px;
+}
+.myHeadDiv span{
+	font-size: 18px;
+	color: #3879AB;
+}
+.myCtrlDiv{
+	text-align:right;
+	margin: 5px;
+	border: 1px solid red;
+}
+.myTableDiv{
+	margin: 5px;
+	border: 1px solid red;
+}
+#searchTable{
+	width: 100%;
+}

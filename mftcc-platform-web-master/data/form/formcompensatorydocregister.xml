@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="compensatorydocregister" title="资料清单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="贷款利率" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="当前审批角色/用户名称" maxlength="1000" mustinput="0" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="pactEndDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paymenttype" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="支付方式 1--现金，2--银行转帐" maxlength="2" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="compensatoryNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="代偿主体编号" maxlength="20" mustinput="0" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="compensatoryFeeSum" fieldtype="1" formactiveid="21" labelalign="3" labelcol="3" labelname="代偿金额" maxlength="20" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="compensatoryDate" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="代偿日期" maxlength="8" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="compensatoryVocherNo" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="代偿凭证号" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="31" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="32" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="99" formactiveid="34" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="借款金额" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="99" formactiveid="36" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext6" fieldtype="99" formactiveid="38" labelalign="3" labelcol="3" maxlength="255" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="39" labelalign="3" labelcol="1" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext8" fieldtype="99" formactiveid="40" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="41" labelalign="3" labelcol="1" maxlength="500" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="3" labelname="借款期限" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="44" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" maxlength="30" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactBeginDate" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="PAY_TYPE" fieldsize="PAY_TYPE" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="3" labelname="支付方式" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="49" horVer="0" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="50" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="51" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="compensatoryId" fieldtype="99" formactiveid="52" horVer="0" labelalign="3" labelcol="5" labelname="代偿关联号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="planId" fieldtype="99" formactiveid="53" horVer="0" labelalign="3" labelcol="5" labelname="流水号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="56" horVer="0" labelalign="3" labelcol="1" labelname="登记人" mustinput="" readonly="1" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="57" horVer="0" labelalign="3" labelcol="3" labelname="登记日期" mustinput="" readonly="1" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prcpSum" fieldtype="1" formactiveid="58" horVer="0" labelalign="3" labelcol="1" labelname="实际代偿本金" maxlength="14" mustinput="1" readonly="" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="intstSum" fieldtype="1" formactiveid="59" horVer="0" labelalign="3" labelcol="3" labelname="实际代偿利息" maxlength="14" mustinput="1" readonly="" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="faXiSum" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="实际代偿罚息" maxlength="14" mustinput="1" readonly="" row="7" unit="元"/>
+</form>

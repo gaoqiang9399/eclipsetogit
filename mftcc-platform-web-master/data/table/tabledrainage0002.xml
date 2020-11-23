@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="drainage0002" title="引流方数据导出" type="2">
+<tableitem align="2" filedname="checkAll" id="5" indexed="0" label="全选" row="1" sortType="2" type="2" typepara="planId-planId;" widthType="0"/>
+<tableitem align="2" filedname="appId" id="3" indexed="2" label="业务申请号" row="1" type="0" typepara="/apiRepayPlanRecord/getById;appId-appId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="ext5" id="14" indexed="3" label="项目名称" mytitle="项目名称-ext5;" row="1" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'1';onClick-ApiRepayPlanRecord.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="orderNo" id="8" indexed="4" label="请求订单号" row="1" sortType="2" type="0" typepara="/apiRepayPlanRecord/getById;orderNo-orderNo;" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="12" indexed="5" label="期号" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="repayPrcp" id="13" indexed="6" label="应还本金" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="repayIntst" id="11" indexed="7" label="应还利息" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="repayTotal" id="6" indexed="8" label="应还合计" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="10" indexed="9" label="还款开始日期" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="9" indexed="10" label="还款结束日期" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="4" indexed="11" label="登记时间" row="1" type="30" widthType="0"/>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusbushisBase" title="经营历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="开始日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="结束日期" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectDetail" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="项目明细" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherDetail" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="其他事项明细" maxlength="1000" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startDetail" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="大项开始明细" maxlength="1000" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="profitLoss" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="盈亏明细" maxlength="1000" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="capitalAcc" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="资本积累" maxlength="1000" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="2"/>
+</form>

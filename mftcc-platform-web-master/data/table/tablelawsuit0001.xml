@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="lawsuit0001" link="/mfLawsuit/findByPage" para="eadis_page" title="法律诉讼主体表" type="2">
+<tableitem align="1" filedname="accuserName" id="8" indexed="12" label="原告方" mytitle="原告-accuserName" row="1" sortType="2" type="3" typepara="5" width="13" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="44" indexed="7" label="合同金额(元)" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="pactNo" id="5" indexed="4" label="合同名称" mytitle="项目名称-appName" sortType="2" type="4" typepara="/mfBusPact/getById;pactId-pactId;busEntrance-'5';onClick-lawsuitQueryList.getDetailPage(this);subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="3" filedname="caseAmt" id="13" indexed="8" label="诉讼金额(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="caseState" id="4" indexed="9" label="诉讼阶段" row="1" sortType="1" type="6" typepara="CASE_STATE" width="8" widthType="0"/>
+<tableitem align="2" filedname="caseType" id="3" indexed="5" label="诉讼类型" row="1" sortType="1" type="6" typepara="CASE_TYPE" width="8" widthType="0"/>
+<tableitem align="2" filedname="caseTime" id="12" indexed="6" label="起诉时间" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="caseTitle" id="2" indexed="3" label="案件名称" mytitle="案件名称-caseTitle" row="1" sortType="2" type="4" typepara="/mfLawsuit/getById;caseId-caseId;onClick-getById(this);subStringNub-20;" width="20" widthType="0"/>
+<tableitem align="1" filedname="defendantName" id="10" indexed="14" label="被告方" mytitle="被告-defendantName" row="1" sortType="2" type="3" typepara="5"/>
+</table>

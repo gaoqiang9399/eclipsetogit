@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fincapp003" title="生成计划时展示的信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="放款金额" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" mustinput="" readonly="1" row="2" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="申请利率" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rateType" fieldsize="RATE_TYPE" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="利率类型" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="icType" fieldsize="IC_TYPE" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="计息方式" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="合同ID" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="支用ID" mustinput="" readonly="1" row="1" />
+</form>

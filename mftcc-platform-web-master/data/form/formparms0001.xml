@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="parms0001" title="系统参数设置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uniteShow" fieldtype="1" formactiveid="32" labelalign="3" labelcol="3" labelname="参数单位" maxlength="10" mustinput="0" row="16"/>
+</form>

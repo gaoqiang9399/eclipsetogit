@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0092" title="评级指标项表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="4" />
+</form>

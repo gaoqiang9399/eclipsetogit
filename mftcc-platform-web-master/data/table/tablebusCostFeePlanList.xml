@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busCostFeePlanList" link="/mfBusCostFeePact/findByPage" para="eadis_page" title="费用计划" type="1">
+<tableitem align="2" filedname="termNum" id="6" indexed="0" label="期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeBeginDate" id="5" indexed="1" label="开始日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeEndDate" id="4" indexed="2" label="结束日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeAmt5" id="3" indexed="3" label="核心企业服务费" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeAmt6" id="2" indexed="4" label="平台服务费" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="1" indexed="5" label="状态" type="6" typepara="OUT_FLAG" widthType="0"/>
+</table>

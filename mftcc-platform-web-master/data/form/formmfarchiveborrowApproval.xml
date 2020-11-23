@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfarchiveborrowApproval" title="借阅申请审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="申请档案名称" maxlength="50" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyUserName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="申请人姓名" maxlength="50" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyCause" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="申请原因" maxlength="200" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="applyTime" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="申请时间" mustinput="" readonly="1" row="2" unit="&lt;i&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="" row="3"/>
+</form>

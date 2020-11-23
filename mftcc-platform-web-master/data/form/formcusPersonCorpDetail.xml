@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusPersonCorpDetail" title="个人名下企业表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corpId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="名下企业id" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corpName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="企业名称" maxlength="100" mustinput="0" param="corpId;" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="社会信用代码" maxlength="30" mustinput="0" param="corpId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalRepresName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="法人代表姓名" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="corpNature" fieldsize="CORP_TYPE" fieldtype="2" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="企业性质" maxlength="2" mustinput="0" param="corpId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayClassName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="行业分类" maxlength="5" mustinput="0" onclick="selectwayClassDialog(selectWayClassCallBack)" param="corpId;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayMaxClass" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="大类" maxlength="5" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayMidClass" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="中类" maxlength="5" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayMinClass" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="小类" maxlength="5" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="registeredType" fieldsize="LIC_REG_TYPE" fieldtype="2" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="注册类型" maxlength="2" mustinput="0" param="corpId;" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="beginDate" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="4" labelname="营业开始日期" maxlength="8" mustinput="0" onclick="selectrili(this,null,null,today)" param="corpId;" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="营业结束日期" maxlength="8" mustinput="0" onclick="selectrili(this,null,today,null)" param="corpId;" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="registeredCapital" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="注册资本" maxlength="20" mustinput="0" param="corpId;" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="3" fieldname="address" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelcolspan="3" labelname="注册地址" maxlength="400" mustinput="0" param="corpId;" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="3" fieldname="wayArea" fieldtype="5" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelcolspan="3" labelname="行业经营范围" maxlength="400" mustinput="0" param="corpId;" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="3" fieldname="commAddress" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelcolspan="3" labelname="通讯地址" maxlength="400" mustinput="0" param="corpId;" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelcolspan="3" labelname="备注" maxlength="400" mustinput="0" param="corpId;" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="企业客户号" maxlength="20" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="corpId;" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="wayClass" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="输入框" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="90" formactiveid="22" labelalign="3" labelcol="1" labelname="业务编号" maxlength="30" mustinput="0" row="22"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="validFixedAssets" fieldtype="90" formactiveid="23" labelalign="3" labelcol="1" labelname="经核实的有效固定资产" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="90" formactiveid="24" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayProspect" fieldtype="90" formactiveid="25" labelalign="3" labelcol="1" labelname="行业前景" maxlength="200" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="90" formactiveid="26" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="licenceCheckFlag" fieldtype="90" formactiveid="27" labelalign="3" labelcol="1" labelname="营业执照核实 1-是 0-否" maxlength="1" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="28" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="90" formactiveid="29" labelalign="3" labelcol="1" labelname="ext5" maxlength="100" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marketWayProspect" fieldtype="90" formactiveid="30" labelalign="3" labelcol="1" labelname="产品市场及行业前景" maxlength="200" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="90" formactiveid="31" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="31"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="employeeNum" fieldtype="90" formactiveid="32" labelalign="3" labelcol="1" labelname="员工人数" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="90" formactiveid="33" labelalign="3" labelcol="1" labelname="ext2" maxlength="100" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="90" formactiveid="34" labelalign="3" labelcol="1" labelname="ext3" maxlength="100" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="90" formactiveid="35" labelalign="3" labelcol="1" labelname="ext4" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="90" formactiveid="36" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="90" formactiveid="37" labelalign="3" labelcol="1" labelname="删除位 1 删除 0 默认" maxlength="1" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="commonBusinessMan" fieldtype="90" formactiveid="38" labelalign="3" labelcol="1" labelname="共同经营人" maxlength="100" mustinput="0" row="38"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="capitalAccumulateCondition" fieldtype="90" formactiveid="39" labelalign="3" labelcol="1" labelname="经营历史及资本积累情况" maxlength="200" mustinput="0" row="39"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="yearOutputValue" fieldtype="90" formactiveid="40" labelalign="3" labelcol="1" labelname="年产值" mustinput="0" row="40"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="totalDebt" fieldtype="90" formactiveid="41" labelalign="3" labelcol="1" labelname="总负债" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recentInvestPlan" fieldtype="90" formactiveid="42" labelalign="3" labelcol="1" labelname="近期已投资及投资计划" maxlength="200" mustinput="0" row="42"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="businessYear" fieldtype="90" formactiveid="43" labelalign="3" labelcol="1" labelname="经营年限" mustinput="0" row="43"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="yearIncome" fieldtype="90" formactiveid="44" labelalign="3" labelcol="1" labelname="年收入" mustinput="0" row="44"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="90" formactiveid="45" labelalign="3" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="46" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="46"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="office" fieldtype="1" formactiveid="47" horVer="1" labelalign="1" labelcol="2" labelname="企业任职" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="90" formactiveid="48" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="48"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="90" formactiveid="49" labelalign="3" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corpCusNo" fieldtype="90" formactiveid="50" labelalign="3" labelcol="1" labelname="关联企业客户号" maxlength="30" mustinput="0" row="50"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="shareScale" fieldtype="90" formactiveid="51" labelalign="3" labelcol="1" labelname="股份占比" mustinput="0" row="51"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="totalAssets" fieldtype="90" formactiveid="52" labelalign="3" labelcol="1" labelname="总资产" mustinput="0" row="52"/>
+</form>

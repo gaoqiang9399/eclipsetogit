@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="becomequalified0003" title="部门经理审批页面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="becomeQualifiedId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="转正申请ID" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseId" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="关联基础信息ID" maxlength="30" mustinput="0" param2="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="姓名" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="hireDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="入职日期" maxlength="8" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="部门编号" maxlength="22" mustinput="0" param2="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="position" fieldsize="DUTIES" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="职务" mustinput="0" readonly="1" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="performance" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="试用期间工作/业绩汇报" maxlength="400" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="操作员" mustinput="" onclick="fPopUpCalendarDlg();" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="qualifiedDate" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="转正日期" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="0" readonly="" row="5"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="6"/>
+</form>

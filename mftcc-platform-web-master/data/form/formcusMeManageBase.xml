@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusMeManageBase" title="成员单位">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="meManage" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="关联企业主体名称" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contacts" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="联系人" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsTel" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="联系电话" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scope" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="主营业务" maxlength="400" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="cusNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="meType" fieldsize="ME_TYPE" fieldtype="2" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="关联关系" mustinput="1" readonly="" row="3"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="meRatio" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="持股比例" mustinput="" readonly="" row="4" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="meCapital" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="注册资本" maxlength="20" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="4"/>
+</form>

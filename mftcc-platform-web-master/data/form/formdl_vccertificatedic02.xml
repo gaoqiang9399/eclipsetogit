@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dl_vccertificatedic02" title="合格证属性字典表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicId" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicType" fieldtype="1" maxlength="2" formactiveid="2" labelalign="3" labelcol="1" labelname="类别(01-车型 02-车辆配置 03-车辆颜色)" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicCode" fieldtype="1" maxlength="50" formactiveid="3" labelalign="3" labelcol="1" labelname="编号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicName" fieldtype="1" maxlength="50" formactiveid="4" labelalign="3" labelcol="1" labelname="名称" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isEnabled" fieldtype="1" maxlength="1" formactiveid="5" labelalign="3" labelcol="1" labelname="是否启用(1-是 0-否)" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="1" maxlength="50" formactiveid="6" labelalign="3" labelcol="1" labelname="登记人编号" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" maxlength="100" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="1" maxlength="50" formactiveid="8" labelalign="3" labelcol="1" labelname="登记人机构编号" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="1" maxlength="100" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人机构名称" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="10" labelalign="3" labelcol="1" labelname="登记时间" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="1" maxlength="50" formactiveid="11" labelalign="3" labelcol="1" labelname="最后修改人编号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="1" maxlength="100" formactiveid="12" labelalign="3" labelcol="1" labelname="最后修改人名称" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="1" maxlength="50" formactiveid="13" labelalign="3" labelcol="1" labelname="最后修改人机构编号" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="1" maxlength="100" formactiveid="14" labelalign="3" labelcol="1" labelname="最后修改人机构名称" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改时间" mustinput="0" row="15"/>
+</form>

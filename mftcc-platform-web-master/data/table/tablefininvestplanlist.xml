@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fininvestplanlist" link="/finInvestPlan/findByPage" title="理财收益计划" type="1">
+<tableitem align="2" filedname="gainPrcp" id="6" indexed="3" label="到期本金（元）" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="5" indexed="0" label="期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="3" indexed="2" label="收益结束日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="2" indexed="1" label="收益开始日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="8" indexed="5" label="支付状态" type="6" typepara="PAY_STATUS" widthType="0"/>
+<tableitem align="2" filedname="gainIntst" id="7" indexed="4" label="到期收益（元）" row="1" type="12" widthType="0"/>
+</table>

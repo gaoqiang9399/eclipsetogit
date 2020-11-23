@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivemainquery" para="eadis_page" title="档案查询" type="1">
+<tableitem align="2" filedname="cusArchiveNo" id="22" indexed="6" label="档案号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="confimOpName" id="19" indexed="12" label="确认人" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="archivePactStatus" id="21" indexed="2" label="归档阶段" row="1" type="6" typepara="ARCHIVE_PACT_STATUS" widthType="0"/>
+<tableitem align="2" filedname="借阅/借出记录" id="18" indexed="14" label="-" row="1" type="5" typepara="/archiveInfoBorrow/getBorrowPageForQuery;appId-appId;onClick-getBorrowPageForQuery(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="confimTime" id="20" indexed="13" label="确认时间" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="archiveOpName" id="17" indexed="10" label="归档人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看归档详情" id="16" indexed="15" label="-" row="1" type="5" typepara="/archiveInfoDetail/getDetailPageForQuery;appId-appId;onClick-getDetailPageForQuery(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="archiveDate" id="15" indexed="11" label="归档日期" row="1" type="99" widthType="0"/>
+<tableitem align="3" filedname="creditAppNo" id="6" indexed="3" label="授信编号" row="1" sortType="2" type="0" typepara="/archiveInfoMain/getDetailPage;archiveMainNo-archiveMainNo;onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="archiveStatus" id="14" indexed="9" label="归档状态" row="1" type="99" typepara="ARCHIVE_STATUS" widthType="0"/>
+<tableitem align="2" filedname="borrowInNum" id="12" indexed="8" label="借阅次数" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="archiveNum" id="11" indexed="7" label="归档次数" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="pactNo" id="10" indexed="4" label="委托合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-getDetailPact(this);" widthType="0"/>
+</table>

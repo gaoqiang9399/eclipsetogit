@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pers0002" para="eadis_page" link="" title="个人资产" type="2">
+<tableitem align="2" filedname="assName" id="4" indexed="4" label="资产名称" row="1" type="0" />
+<tableitem align="2" filedname="persAssType" id="5" indexed="5" label="资产类型" row="1" type="0" />
+<tableitem align="2" filedname="assNum" id="6" indexed="6" label="资产数量" row="1" type="0" />
+<tableitem align="2" filedname="assMetric" id="7" indexed="7" label="数量单位" row="1" type="0" />
+<tableitem align="2" filedname="holdDate" id="8" indexed="8" label="取得日期" row="1" type="0" />
+<tableitem align="2" filedname="buyPrice" id="9" indexed="9" label="购置价格" row="1" type="0" />
+<tableitem align="2" filedname="nowVal" id="10" indexed="10" label="现值" row="1" type="0" />
+<tableitem align="2" filedname="ifPledge" id="11" indexed="11" label="是否抵押" row="1" type="0" />
+</table>

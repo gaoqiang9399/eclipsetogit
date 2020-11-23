@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #dddddd;
+}
+
+.view-page {
+	position: absolute;
+	background-color: #FFFFFF;
+	transition: transform 1s;
+	top: 0px;
+	bottom: 0px;
+}
+
+.curr-page {
+}
+.suoxiao-page {
+	transform:scale(0.8,0.8);
+}
+.qiehuan{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 999;
+}

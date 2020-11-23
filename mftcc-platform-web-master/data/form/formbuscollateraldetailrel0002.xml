@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form id="buscollateraldetailrel0002" title="押品清单详情表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busCollateralId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="业务抵质押编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="3"/>
+</form>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs5008" title="财务报表基础元素查询">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportType" fieldsize="REPORT_TYPE" fieldtype="2" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="报表类型" mustinput="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="codeType" fieldsize="FIN_CODE_TYPE" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="字段类型" mustinput="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="codeName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="字段名称" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="codeColumn" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="字段列" mustinput="" readonly="" row="5" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="cnt" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="cnt" mustinput="" readonly="" row="1" />
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1001" para="eadis_page" link="/grtPBasicInfo/findByPage" title="质押物基本信息" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPBasicInfo/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="coreGuarantyNo" id="2" indexed="2" label="核心担保品编号" row="1" type="0" />
+<tableitem align="2" filedname="coreGuarantySeq" id="3" indexed="3" label="核心担保品序号" row="1" type="0" />
+<tableitem align="2" filedname="gageType" id="10" indexed="10" label="抵质押物类型" row="1" type="0" />
+<tableitem align="2" filedname="gageName" id="11" indexed="11" label="抵质押物名称" row="1" type="0" />
+<tableitem align="2" filedname="evalAmt" id="17" indexed="17" label="评估价值" row="1" type="0" />
+<tableitem align="2" filedname="evalDate" id="18" indexed="18" label="评估日期" row="1" type="0" />
+<tableitem align="2" filedname="bookAmt" id="19" indexed="19" label="内部评估确认价值" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="45" indexed="45" label="-" row="1" type="5" typepara="/grtPBasicInfo/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

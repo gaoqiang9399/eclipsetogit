@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="houseeval0002" title="房产评估（房讯通接口）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="city" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="城市" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="project" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="楼盘" mustinput="1" readonly="1" row="2" unit="&lt;span&gt;&lt;/span&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="building" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="楼栋" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="floor" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="楼层" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="house" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="房号" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="备注" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="area" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="面积" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="" row="1"/>
+</form>

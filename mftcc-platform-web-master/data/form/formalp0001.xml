@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="alp0001" title="租后流程表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="业务流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="alpType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="非正常结束类型" maxlength="3" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appSts" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="申请状态" maxlength="1" mustinput="0" row="6"/>
+</form>

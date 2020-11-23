@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssugr01" para="eadis_page" title="单位商品价格关联表" type="2">
+<tableitem align="2" filedname="discountRate2" id="9" indexed="11" label="折扣率二(%)" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="discountRate1" id="8" indexed="10" label="折扣率一(%)" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="vipPrice" id="7" indexed="9" label="VIP会员价" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="wholesalePrice" id="6" indexed="8" label="批发价" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="retailPrice" id="5" indexed="7" label="零售价" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="4" indexed="2" label="商品ID" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="unitName" id="3" indexed="6" label="单位名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="relNum" id="11" indexed="5" label="与基本单位关系" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="unitId" id="2" indexed="3" label="单位ID" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="ugrId" id="1" indexed="4" label="数据ID" row="1" type="99" typepara="/pssUnitGoodsRel/getByIdAjax;ugrId-ugrId;query-'query';onClick-ajaxGetById(this);" widthType="0"/>
+<tableitem align="2" filedname="estimatedPurchasePrice" id="10" indexed="12" label="预计采购价" row="1" type="0" width="15" widthType="0"/>
+</table>

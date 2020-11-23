@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sys1004" title="大区和省关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regionNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="大区编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regionName" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="大区名称" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="provNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="省编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="provName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="省名称" maxlength="30" mustinput="1" onclick="prodAutoMenu(this,'NmdAreaActionAjax_getAllAjax.action;areaName-provName;lev-1;sts-1',areaNameCallBack,'areaName')" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="序号" maxlength="10" mustinput="0" row="3"/>
+</form>

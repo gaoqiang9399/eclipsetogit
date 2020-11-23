@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="feestd0002" title="费用标准表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeStdNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="收费标准编号:" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeStdName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="费用标准名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" mustinput="0" readonly="" row="2" />
+</form>

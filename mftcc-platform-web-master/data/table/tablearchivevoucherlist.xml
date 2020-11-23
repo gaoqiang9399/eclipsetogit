@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivevoucherlist" para="eadis_page" title="凭证退还" type="1">
+<tableitem align="1" filedname="creditAppNo" id="6" indexed="3" label="授信编号" row="1" sortType="2" type="0" typepara="/archiveInfoMain/getDetailPage;archiveMainNo-archiveMainNo;onClick-getDetailPage(this);" width="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="客户名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="docName" id="4" indexed="5" label="凭证名称" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="returnState" id="3" indexed="9" label="状态" row="1" sortType="1" type="6" typepara="RETURN_STATE" width="6" widthType="0"/>
+<tableitem align="2" filedname="archivePactStatus" id="12" indexed="2" label="业务类型" row="1" sortType="2" type="6" typepara="ARCHIVE_PACT_STATUS" width="8" widthType="0"/>
+<tableitem align="2" authority="returnState-01;returnState-02;returnState-03;returnState-04;" filedname="补充资料" id="11" indexed="10" label="-" row="1" type="5" typepara="/archiveInfoVoucherReturn/voucherReturn;id-id;onclick-voucherReturn(this);" width="8" widthType="0"/>
+<tableitem align="2" filedname="returnDate" id="1" indexed="7" label="退还日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="10" indexed="4" label="委托保证合同号" row="1" sortType="2" type="0" width="15" widthType="0"/>
+</table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusstaff00001" para="eadis_page" link="/mfCusStaff/findByPage" title="员工信息" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户ID" row="1" type="4" typepara="/mfCusStaff/getById;cusNo-cusNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名" row="1" type="0" />
+<tableitem align="2" filedname="staffSum" id="3" indexed="3" label="员工总数" row="1" type="0" />
+<tableitem align="2" filedname="ageRange25" id="4" indexed="4" label="25岁以下" row="1" type="0" />
+<tableitem align="2" filedname="ageRange30" id="5" indexed="5" label="25-30岁" row="1" type="0" />
+<tableitem align="2" filedname="ageRange45" id="6" indexed="6" label="30-45岁" row="1" type="0" />
+<tableitem align="2" filedname="ageRange45Up" id="7" indexed="7" label="45岁以上" row="1" type="0" />
+<tableitem align="2" filedname="bachelorDegree" id="8" indexed="8" label="本科以上含本科" row="1" type="0" />
+<tableitem align="2" filedname="juniorDegree" id="9" indexed="9" label="大专学历" row="1" type="0" />
+<tableitem align="2" filedname="seniorDegree" id="10" indexed="10" label="高中和中专学历" row="1" type="0" />
+<tableitem align="2" filedname="otherDegree" id="11" indexed="11" label="其他" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="20" indexed="20" label="-" row="1" type="5" typepara="/mfCusStaff/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

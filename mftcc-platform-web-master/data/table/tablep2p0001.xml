@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="p2p0001" link="/p2pBusinessArea/findByPage" para="eadis_page" title="业务区域维护关系表" type="1">
+<tableitem align="2" filedname="operate" id="14" indexed="11" label="操作" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="lstModeTime" id="13" indexed="9" label="操作时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="assOperName" id="4" indexed="4" label="关联操作员" type="0" widthType="0"/>
+<tableitem align="2" filedname="businessName" id="3" indexed="3" label="区域名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="businessCode" id="2" indexed="2" label="区域编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="businessAreaId" id="1" indexed="1" label="流水号" row="1" type="99" typepara="P2/pBusinessArea/getById;businessAreaId-businessAreaId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="opName" id="9" indexed="10" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="isUse" id="7" indexed="7" label="启用状态" row="1" sortType="2" type="6" typepara="USE_FLAG" widthType="0"/>
+</table>

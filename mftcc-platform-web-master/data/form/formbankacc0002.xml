@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="bankacc0002" title="公司银行账户管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="银行卡账号ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="账号名称" maxlength="50" mustinput="1" onclick="checkOrg(this)" onkeydown="checkOrg(this)" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useType" fieldsize="CW_USE_TYPE" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="账户分类" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accountNo" fieldstyle="bankNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="卡号/折号" maxlength="30" mustinput="1" onblur="getBankByCardNumber(this);" onkeydown="inputAccount(this);" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cardType" fieldsize="CARD_TYPE" fieldtype="2" formactiveid="5" labelalign="3" labelcol="3" labelname="账号类型" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bank" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="开户行" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="启用状态" maxlength="1" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="delFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="9" labelalign="3" labelcol="3" labelname="删除位" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accProperty" fieldsize="PUB_NOT" fieldtype="2" formactiveid="10" labelalign="3" labelcol="1" labelname="账户性质" maxlength="2" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="最后修日期" maxlength="8" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bankNumbei" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="开户行号" mustinput="" readonly="1" row="3"/>
+</form>

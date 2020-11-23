@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vwcont0002" title="前端交易_菜单内容管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="标题" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="描述" maxlength="500" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keywords" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="关键字" maxlength="200" mustinput="0" row="3"/>
+<formelement alt="点此上传图片" datatype="0" fieldalign="1" fieldcol="2" fieldname="showJust" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="展示图片" maxlength="500" mustinput="0" row="5" unit="&lt;a onclick='showImg()'&gt;预览&lt;/a&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="top" fieldsize="YES_NO" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="是否置顶" maxlength="50" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="block" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="所属模块" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isOnline" fieldsize="YES_NO" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="是否发布" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outLink" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="外部链接" mustinput="" readonly="" row="8" />
+<formelement alt="点此上传图片" datatype="0" fieldalign="1" fieldcol="2" fieldname="showJust1" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="外部链接图片" mustinput="" readonly="" row="9" unit="&lt;a onclick='showImg1()'&gt;预览&lt;/a&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileType" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="文件类型" mustinput="" readonly="" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="base64" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="展示图片字符" mustinput="" readonly="" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileType1" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="外部链接文件类型" mustinput="" readonly="" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="base641" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="外部链接图片字符" mustinput="" readonly="" row="14" />
+</form>

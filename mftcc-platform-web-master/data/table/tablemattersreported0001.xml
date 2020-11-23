@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mattersreported0001" link="/mfOaMattersReported/findByPage" para="eadis_page" title="事项呈报表" type="1">
+<tableitem align="2" filedname="reportingTime" id="6" indexed="6" label="呈报日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="submitJobs" id="5" indexed="5" label="呈报岗位/人员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="itemTitle" id="3" indexed="3" label="事项标题" row="1" sortType="2" type="4" typepara="/mfOaMattersReported/getById;mattersReportedId-mattersReportedId;onClick-MfOaMattersReported_List.getByIdThis(this);" widthType="0"/>
+<tableitem align="2" authority="applySts-0;applySts-1;applySts-3;applySts-4;applySts-5;" filedname="打印审批表" id="11" indexed="11" label="-" type="5" typepara=";mattersReportedId-mattersReportedId;onClick-MfOaMattersReported_List.printApproveTable(this);" widthType="0"/>
+<tableitem align="2" filedname="itemCategory" id="2" indexed="2" label="事项类别" row="1" sortType="0" type="6" typepara="ITEM_CATEGORY" widthType="0"/>
+<tableitem align="2" filedname="applySts" id="10" indexed="10" label="申请状态" row="1" sortType="2" type="6" typepara="APP_STS" widthType="0"/>
+</table>

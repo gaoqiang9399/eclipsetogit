@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="kingsoftwhitename" link="/mfKingsoftCusWhitename/findByPage" para="eadis_page" title="金山白名单信息表" type="1">
+<tableitem align="2" filedname="workYear" id="6" indexed="6" label="工作年限" row="1" type="0"/>
+<tableitem align="2" filedname="idCardNo" id="3" indexed="3" label="身份证号" row="1" type="4" typepara="/mfKingsoftCusWhitename/getByIdcardno;idCardNo-idCardNo;onClick-MfKingsoftCusWhitename.getById(this)" widthType="0"/>
+<tableitem align="2" filedname="address" id="11" indexed="11" label="联系地址" row="1" type="0"/>
+<tableitem align="2" filedname="name" id="2" indexed="2" label="姓名" row="1" type="0"/>
+<tableitem align="2" filedname="marriage" id="10" indexed="10" label="婚姻状况" row="1" type="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="17" label="-" type="5" typepara="/mfKingsoftCusWhitename/deleteAjax;id-id;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="salaryLevel" id="7" indexed="7" label="工资级别" row="1" type="0"/>
+</table>

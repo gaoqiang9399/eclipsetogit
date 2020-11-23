@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="querymfiveclasssummaryapply" para="eadis_page" title="批量五级分类结果展示" type="1">
+<tableitem align="2" filedname="applyId" id="33" indexed="16" label="申请id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="sumAmt" id="31" indexed="17" label="汇总金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="30" indexed="18" label="申请人员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="focusCnt" id="27" indexed="8" label="关注类笔数" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="lossCnt" id="25" indexed="14" label="损失类笔数" row="1" sortType="2" type="0" typepara="FIVE_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="normalCnt" id="24" indexed="7" label="正常类笔数" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" colorCol="systemFiveclass" filedname="suspiciousCnt" id="23" indexed="13" label="可疑类笔数" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="secondaryCnt" id="5" indexed="11" label="次级类笔数" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="appDate" id="3" indexed="3" label="分类月份" mytitle="客户名-cusName;" row="1" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="1" filedname="sumCount" id="2" indexed="5" label="汇总笔数" mytitle="项目名称-appName;" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="optType" id="37" indexed="19" label="审批类型" type="6" typepara="FIVE_CLASS_OPT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="详情" id="36" indexed="20" label="-" row="1" type="5" typepara="/mfFiveclassSummaryApply/getById;applyId-applyId;onclick-getById(this);" widthType="0"/>
+</table>

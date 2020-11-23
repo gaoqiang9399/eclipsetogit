@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfRepayFincList" link="/mfRepayFinc/findByPage" para="eadis_page" title="申请借据表" type="1">
+<tableitem align="3" filedname="benJin" id="6" indexed="5" label="本金（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="15" indexed="4" label="借据号" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="3" filedname="yuQiLiXi" id="5" indexed="8" label="逾期利息（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="liXi" id="4" indexed="6" label="利息（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="3" filedname="feiYong" id="7" indexed="7" label="费用（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwpayconfimlist" para="eadis_page" title="支出确认" type="1">
+<tableitem align="2" filedname="regTime" id="88" indexed="100" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="vouAdvanceAmt" id="87" indexed="94" label="担保金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" authority="status-2" filedname="支出确认" id="97" indexed="102" label="-" row="1" type="5" typepara="/cwPayConfim/input;id-id;pactId-pactId;onClick-payConfim(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="status" id="85" indexed="101" label="状态" type="6" typepara="BILL_STS" widthType="0"/>
+<tableitem align="2" filedname="payType" id="96" indexed="95" label="支出类型" row="1" type="6" typepara="PAY_CONFIM_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="84" label="客户名称" row="1" type="0" typepara="/mfBusPact/getById;appId-appId;onClick-enterClick(this);" widthType="0"/>
+<tableitem align="2" filedname="protectContractNo" id="89" indexed="90" label="合同号" row="1" type="0" widthType="0"/>
+</table>

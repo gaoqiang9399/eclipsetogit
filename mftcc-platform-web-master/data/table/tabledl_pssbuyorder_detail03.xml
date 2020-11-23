@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssbuyorder_detail03" para="eadis_page" title="智能补货列表(不统计采购在订量)" type="2">
+<tableitem align="2" filedname="buyOrderQuantity" id="27" indexed="22" label="采购在订量" sortType="2" type="99" width="10" widthType="0"/>
+<tableitem align="2" filedname="goodsModel" id="26" indexed="8" label="型号" row="1" type="0" width="14" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="25" indexed="5" label="商品Id" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="adviseBuyQuantity" id="21" indexed="25" label="建议采购量" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="minimumStockQuantity" id="19" indexed="23" label="最低库存" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="saleOrderQuantity" id="7" indexed="10" label="销售在订量" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="unitName" id="5" indexed="9" label="单位" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="4" indexed="6" label="商品" mytitle="模板内容-goodsName;" row="1" sortType="2" type="3" typepara="20" width="22" widthType="0"/>
+<tableitem align="2" filedname="stockBalanceQuantity" id="13" indexed="19" label="库存余额" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="checkbox" id="3" indexed="2" label="全选" row="1" sortType="2" type="2" width="4" widthType="0"/>
+</table>

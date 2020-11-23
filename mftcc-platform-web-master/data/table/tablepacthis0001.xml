@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pacthis0001" para="eadis_page" link="/mfBusPactHis/findByPage" title="合同审批历史表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="唯一id" row="1" type="4" typepara="/mfBusPactHis/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="pactId" id="2" indexed="2" label="合同号" row="1" type="0" />
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="合同展示号" row="1" type="0" />
+<tableitem align="2" filedname="appId" id="4" indexed="4" label="申请号" row="1" type="0" />
+<tableitem align="2" filedname="isInvestigate" id="5" indexed="5" label="有无追索权 0无追索1有追索" row="1" type="0" />
+<tableitem align="2" filedname="isFinc" id="6" indexed="6" label="有无融资 0无融资1有融资" row="1" type="0" />
+<tableitem align="2" filedname="collSide" id="7" indexed="7" label="催收方 1保理商2卖方" row="1" type="0" />
+<tableitem align="2" filedname="appFeeId" id="8" indexed="8" label="申请—费用关联id" row="1" type="0" />
+<tableitem align="2" filedname="appKindId" id="9" indexed="9" label="申请—产品关联id" row="1" type="0" />
+<tableitem align="2" filedname="cusNoBuy" id="10" indexed="10" label="" row="1" type="0" />
+<tableitem align="2" filedname="cusNameBuy" id="11" indexed="11" label="" row="1" type="0" />
+<tableitem align="2" filedname="cusNoSell" id="12" indexed="12" label="" row="1" type="0" />
+<tableitem align="2" filedname="cusNameSell" id="13" indexed="13" label="" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="14" indexed="14" label="产品种类号" row="1" type="0" />
+<tableitem align="2" filedname="kindName" id="15" indexed="15" label="产品名称" row="1" type="0" />
+<tableitem align="2" filedname="curNo" id="16" indexed="16" label="币种" row="1" type="0" />
+<tableitem align="2" filedname="pactAmt" id="17" indexed="17" label="申请账款总额" row="1" type="0" />
+<tableitem align="2" filedname="appPrepayRate" id="18" indexed="18" label="预付款比例" row="1" type="0" />
+<tableitem align="2" filedname="maxFincAmt" id="19" indexed="19" label="保理预付款最高额度" row="1" type="0" />
+<tableitem align="2" filedname="isTakesellCredit" id="20" indexed="20" label="是否占用卖方授信额度0不占用1占用" row="1" type="0" />
+<tableitem align="2" filedname="creditVouAmt" id="21" indexed="21" label="买方风险担保额度" row="1" type="0" />
+<tableitem align="2" filedname="creditVouRate" id="22" indexed="22" label="买方风险担保比例" row="1" type="0" />
+<tableitem align="2" filedname="isTakebuyCredit" id="23" indexed="23" label="是否占用买方授信额度0不占用1占用" row="1" type="0" />
+<tableitem align="2" filedname="usableFincAmt" id="24" indexed="24" label="可融资上限" row="1" type="0" />
+<tableitem align="2" filedname="changeFincAmt" id="25" indexed="25" label="变化的融资额度；指在发生账款调整或者商纠时，会增加此字段的值，这个值占用可融资上限" row="1" type="0" />
+<tableitem align="2" filedname="loanRate" id="26" indexed="26" label="融资款利率" row="1" type="0" />
+<tableitem align="2" filedname="termMonth" id="27" indexed="27" label="申请期限月" row="1" type="0" />
+<tableitem align="2" filedname="termDay" id="28" indexed="28" label="申请期限日" row="1" type="0" />
+<tableitem align="2" filedname="repayType" id="29" indexed="29" label="还款方式1等额本息2等额本金3利随本清4到期还本按月结息5到期还本按季结息6按计划" row="1" type="0" />
+<tableitem align="2" filedname="normCalcType" id="30" indexed="30" label="利息计算方式 2按月计息 3按日计息" row="1" type="0" />
+<tableitem align="2" filedname="secondNormCalcType" id="31" indexed="31" label="还款计划不足月利息计算方式" row="1" type="0" />
+<tableitem align="2" filedname="icType" id="32" indexed="32" label="计息方式 1为固定利率" row="1" type="0" />
+<tableitem align="2" filedname="rateType" id="33" indexed="33" label="利率类型 1为年利率" row="1" type="0" />
+<tableitem align="2" filedname="overFloat" id="34" indexed="34" label="逾期利率浮动百分比" row="1" type="0" />
+<tableitem align="2" filedname="cmpFltRateShow" id="35" indexed="35" label="复利利率浮动百分比是否显示" row="1" type="0" />
+<tableitem align="2" filedname="cmpFltRateDef" id="36" indexed="36" label="复利利率浮动百分比默认值" row="1" type="0" />
+<tableitem align="2" filedname="cmpFltRateReadonly" id="37" indexed="37" label="复利利率浮动百分比是否只读" row="1" type="0" />
+<tableitem align="2" filedname="ifPenaltyFinc" id="38" indexed="38" label="是否收取融资款逾期违约金0不收取1收取" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalBaseFinc" id="39" indexed="39" label="融资款违约金基数A合同金额B合同余额C借据金额D借据余额K逾期金额" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalRateFinc" id="40" indexed="40" label="融资款违约金比例" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalReadonlyFinc" id="41" indexed="41" label="违约金比例是否可修改0不可修改1可修改" row="1" type="0" />
+<tableitem align="2" filedname="ifPenaltyAccnt" id="42" indexed="42" label="是否收取应收账款逾期违约金0不收取1收取" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalBaseAccnt" id="43" indexed="43" label="应收账款逾期违约金计算基数A合同金额B合同余额C单据金额D单据余额K逾期金额" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalRateAccnt" id="44" indexed="44" label="" row="1" type="0" />
+<tableitem align="2" filedname="penaltyCalReadonlyAccnt" id="45" indexed="45" label="0不可修改1可修改" row="1" type="0" />
+<tableitem align="2" filedname="pactModelNo" id="46" indexed="46" label="合同模板编号" row="1" type="0" />
+<tableitem align="2" filedname="pactModelName" id="47" indexed="47" label="合同模板名称" row="1" type="0" />
+<tableitem align="2" filedname="researchModelNo" id="48" indexed="48" label="贷前调查模板编号" row="1" type="0" />
+<tableitem align="2" filedname="researchModelName" id="49" indexed="49" label="贷前调查模板名称" row="1" type="0" />
+<tableitem align="2" filedname="vouType" id="50" indexed="50" label="主担保方式 1质押2抵押3保证4信用" row="1" type="0" />
+<tableitem align="2" filedname="repayPlanBit" id="51" indexed="51" label="还款计划保留小数位0-不保留1-保留一位2-保留两位" row="1" type="0" />
+<tableitem align="2" filedname="repaySumRound" id="52" indexed="52" label="还款计划舍入方式2四舍五入" row="1" type="0" />
+<tableitem align="2" filedname="repayPlanInstSupp" id="53" indexed="53" label="还款计划每期利息差额是否计入最后一期0不计入1计入" row="1" type="0" />
+<tableitem align="2" filedname="pactSts" id="54" indexed="54" label="申请状态1未提交2审批中3审批通过4已否决" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="55" indexed="55" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="orgNo" id="56" indexed="56" label="主办人员编号" row="1" type="0" />
+<tableitem align="2" filedname="orgName" id="57" indexed="57" label="主办人员名称" row="1" type="0" />
+<tableitem align="2" filedname="cusNoMng" id="58" indexed="58" label="客户经理编号" row="1" type="0" />
+<tableitem align="2" filedname="cusNameMng" id="59" indexed="59" label="客户经理名称" row="1" type="0" />
+<tableitem align="2" filedname="assNo1" id="60" indexed="60" label="协办人员1编号" row="1" type="0" />
+<tableitem align="2" filedname="assName1" id="61" indexed="61" label="协办人员1名称" row="1" type="0" />
+<tableitem align="2" filedname="assNo2" id="62" indexed="62" label="协办人员2编号" row="1" type="0" />
+<tableitem align="2" filedname="assName2" id="63" indexed="63" label="协办人员2名称" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="64" indexed="64" label="登记人号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="65" indexed="65" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="66" indexed="66" label="登记机构号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="67" indexed="67" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="68" indexed="68" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="appTime" id="69" indexed="69" label="提交申请时间" row="1" type="0" />
+<tableitem align="2" filedname="approveProcessId" id="70" indexed="70" label="审批流程id" row="1" type="0" />
+<tableitem align="2" filedname="approveProcess" id="71" indexed="71" label="审批流程" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="72" indexed="72" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="73" indexed="73" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="74" indexed="74" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="75" indexed="75" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="76" indexed="76" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="77" indexed="77" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="putoutSts" id="78" indexed="78" label="放款状态1未提交2审核中3审核通过4放款复核" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="79" indexed="79" label="合同开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="80" indexed="80" label="合同结束日期" row="1" type="0" />
+<tableitem align="2" filedname="signDate" id="81" indexed="81" label="合同签订日期" row="1" type="0" />
+<tableitem align="2" filedname="transferredAccntAmt" id="82" indexed="82" label="已转让应收账款" row="1" type="0" />
+<tableitem align="2" filedname="repayedAccntAmt" id="83" indexed="83" label="已还应收账款" row="1" type="0" />
+<tableitem align="2" filedname="unrepayAccntAmt" id="84" indexed="84" label="未还应收账款" row="1" type="0" />
+<tableitem align="2" filedname="fincedAmt" id="85" indexed="85" label="已融资金额" row="1" type="0" />
+<tableitem align="2" filedname="unrepayFincAmt" id="86" indexed="86" label="融资未还金额" row="1" type="0" />
+<tableitem align="2" filedname="remainAmtAll" id="87" indexed="87" label="产生尾款金额,此值只会增加" row="1" type="0" />
+<tableitem align="2" filedname="remainAmt" id="88" indexed="88" label="已还尾款金额" row="1" type="0" />
+<tableitem align="2" filedname="remainBal" id="89" indexed="89" label="未还尾款" row="1" type="0" />
+<tableitem align="2" filedname="adjustAmt" id="90" indexed="90" label="账款调整金额" row="1" type="0" />
+<tableitem align="2" filedname="disputeAmt" id="91" indexed="91" label="商纠金额" row="1" type="0" />
+<tableitem align="2" filedname="repoAccntAmt" id="92" indexed="92" label="回购应收账款金额" row="1" type="0" />
+<tableitem align="2" filedname="vouAdvanceAmt" id="93" indexed="93" label="担保付款金额" row="1" type="0" />
+<tableitem align="2" filedname="vouAdvancePeriod" id="94" indexed="94" label="担保付款期限(天)" row="1" type="0" />
+<tableitem align="2" filedname="selfPayAmt" id="95" indexed="95" label="自负额" row="1" type="0" />
+<tableitem align="2" filedname="gracePeriodFinc" id="96" indexed="96" label="融资宽限期(天)" row="1" type="0" />
+<tableitem align="2" filedname="gracePeriodRepo" id="97" indexed="97" label="回购宽限期(天)" row="1" type="0" />
+<tableitem align="2" filedname="reminderPeriod" id="98" indexed="98" label="催账期(天)" row="1" type="0" />
+<tableitem align="2" filedname="messType" id="99" indexed="99" label="应收账款转让通知方式1邮件2传真3电话" row="1" type="0" />
+<tableitem align="2" filedname="messPersion" id="100" indexed="100" label="买方通知人" row="1" type="0" />
+<tableitem align="2" filedname="messPhone" id="101" indexed="101" label="买方通知人手机号" row="1" type="0" />
+<tableitem align="2" filedname="messFax" id="102" indexed="102" label="买方通知人传真" row="1" type="0" />
+<tableitem align="2" filedname="messEmail" id="103" indexed="103" label="买方通知人邮箱" row="1" type="0" />
+<tableitem align="2" filedname="isHistory" id="104" indexed="104" label="是否历史补录0不是1是" row="1" type="0" />
+<tableitem align="2" filedname="pactFrom" id="105" indexed="105" label="信息来源1pc2手机" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="106" indexed="106" label="最近修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="107" indexed="107" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="108" indexed="108" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="109" indexed="109" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="110" indexed="110" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="111" indexed="111" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="112" indexed="112" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="113" indexed="113" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="114" indexed="114" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="115" indexed="115" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="116" indexed="116" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="118" indexed="118" label="-" row="1" type="5" typepara="/mfBusPactHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

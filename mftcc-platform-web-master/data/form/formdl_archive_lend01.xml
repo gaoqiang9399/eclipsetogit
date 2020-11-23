@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_archive_lend01" title="归档文件借阅信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="文件名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrower" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="借阅人" maxlength="40" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowerContact" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="借阅人联系方式" maxlength="200" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="4"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowingPurposes" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="借阅用途" maxlength="200" mustinput="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="文件编号" mustinput="" readonly="1" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="borrowingDate" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="借阅时间" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="returnPlanDate" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="计划归还日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="6" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;" />
+</form>

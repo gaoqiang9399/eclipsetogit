@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pactExtendApplyList" para="eadis_page" title="合同详情下的非业务合同" type="2">
+<tableitem align="2" filedname="id" id="12" indexed="4" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="详情" id="11" indexed="11" label="-" type="5" typepara="/mfBusPact/pactExtendView;id-id;onClick-extendDetail(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="templateName" id="2" indexed="0" label="文档名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="client" id="1" indexed="5" label="当事人" mytitle="当事人-client" row="1" type="0" typepara="subStringNub-50;" width="30" widthType="0"/>
+<tableitem align="2" filedname="pactName" id="10" indexed="3" label="合同名称" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="9" indexed="1" label="合作银行" mytitle="合作银行-agenciesName" row="1" type="0" typepara="subStringNub-18;" width="20" widthType="0"/>
+</table>

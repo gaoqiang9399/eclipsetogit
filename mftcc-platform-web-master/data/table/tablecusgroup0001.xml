@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusgroup0001" link="/mfCusGroup/findByPage" para="eadis_page" title="集团客户" type="1">
+<tableitem align="2" buttonMark="选择" filedname="groupName" id="22" indexed="1" label="所属集团名称" row="1" type="4" typepara="/mfCusGroup/cusGroupView;groupNo-groupNo;cusNo-cusNo;busEntrance-'cus_group';onClick-getDetailPage(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="21" indexed="2" label="集团代码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsName" id="23" indexed="3" label="联系人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="24" indexed="4" label="联系电话" row="1" type="0" widthType="0"/>
+</table>

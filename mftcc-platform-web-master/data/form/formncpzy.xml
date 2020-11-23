@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="ncpzy" title="农产品动产质押">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname=" 押品名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="担保类别" maxlength="2" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="抵质押率" maxlength="16" mustinput="0" row="8" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="仓单/存货编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="品质等级" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="数量" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="农产品名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="市场单价" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="国家指导单价" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="账面价值" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="实际质押额" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="质押到期日" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="权属证书编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fieldName" fieldtype="5" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="押品类别" maxlength="30" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="押品状态" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classSecondName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="类别名称" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="" readonly="" row="12"/>
+</form>

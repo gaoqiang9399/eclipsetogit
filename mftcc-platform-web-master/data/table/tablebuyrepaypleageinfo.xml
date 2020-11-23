@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="buyrepaypleageinfo" para="eadis_page" title="买方还款详情应收账款列表" type="1">
+<tableitem align="2" filedname="pleExpiryDate" id="27" indexed="10" label="转让日" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="pleValueDate" id="24" indexed="8" label="合同日/发票日" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="counterparty" id="3" indexed="3" label="买方名称" mytitle="客户名-cusName;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="pleInvoiceNum" id="2" indexed="5" label="合同号/发票号" mytitle="项目名称-appName;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="pledgeNo" id="33" indexed="7" label="押品编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="repayAmtThis" filedname="repayAmtThis" id="31" indexed="14" label="本次付款余额" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="receTransBal" id="30" indexed="12" label="转让余额" type="0" widthType="0"/>
+<tableitem align="2" filedname="pleValue" id="29" indexed="11" label="转让金额" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="applycusper" title="客户权限申请表单">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="1" onclick="mfAppGiveCreditline.selectCus()" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='mfApplyCusPer.selectCus();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyType" fieldtype="22" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="申请类型" mustinput="1" param="1-编辑|2-业务|" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="备注说明" maxlength="200" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusBrName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="客户经理部门" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusBrNo" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="客户经理部门编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyauthMngName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="当前客户经理名称" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyauthBrName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="当前客户经理部门" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="applyauthMngNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="4" labelname="当前客户经理编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="applyauthBrNo" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="4" labelname="当前客户经理部门编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="当前审批人员编号" mustinput="" readonly="" row="3"/>
+</form>

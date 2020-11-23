@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs5009" title="1">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="reportType" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="报表类型" maxlength="1" mustinput="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="codeName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="字段名称" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parentCodeName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="所属父项" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inputType" fieldsize="INPUT_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="运算类型" mustinput="1" onchange="cusFinCommon.inputTypeChange(this)" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fontShowStyle" fieldsize="FONT_SHOW_STYLE" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="字体样式" mustinput="1" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="是否启用" mustinput="1" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="zcfzType" fieldsize="ZCFZ_TYPE" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="所属父项" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="parentCodeColumn" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="5" labelname="所属父项编号" maxlength="50" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="codeColumn" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="报表项编号" maxlength="50" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashDirection" fieldsize="CASH_DIR" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="现金流方向" mustinput="" readonly="" row="4" />
+</form>

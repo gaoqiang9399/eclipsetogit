@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="identitycheck0002" title="身份核查记录表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="checkId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="核查编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="30" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="idNum" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="2" labelname="客户身份证号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="agentNo" fieldtype="1" maxlength="10" formactiveid="5" labelalign="1" labelcol="1" labelname="代理机构编号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="agentName" fieldtype="1" maxlength="10" formactiveid="6" labelalign="1" labelcol="2" labelname="代理机构名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="queryDate" fieldtype="1" maxlength="8" formactiveid="7" labelalign="1" labelcol="1" labelname="查询日期" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="queryTime" fieldtype="1" maxlength="17" formactiveid="8" labelalign="1" labelcol="2" labelname="查询时间" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="requestState" fieldtype="1" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="查询状态0查询失败1查询成功" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="10" labelalign="1" labelcol="2" labelname="登记人编号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="40" formactiveid="11" labelalign="1" labelcol="1" labelname="登记人姓名" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="receptionEquipmentNo" fieldtype="1" maxlength="50" formactiveid="12" labelalign="1" labelcol="2" labelname="前台终端号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="tradeNo" fieldtype="1" maxlength="30" formactiveid="13" labelalign="1" labelcol="1" labelname="交易代码" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="checkReturnCode" fieldtype="1" maxlength="20" formactiveid="14" labelalign="1" labelcol="2" labelname="查询返回码" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="checkReturnRemark" fieldtype="1" maxlength="50" formactiveid="15" labelalign="1" labelcol="1" labelname="查询返回码描述" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="commCode" fieldtype="1" maxlength="20" formactiveid="16" labelalign="1" labelcol="2" labelname="通讯状态码" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="commRemark" fieldtype="1" maxlength="50" formactiveid="17" labelalign="1" labelcol="1" labelname="通讯状态描述" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="checkResult" fieldtype="1" maxlength="50" formactiveid="18" labelalign="1" labelcol="2" labelname="查询返回结果" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="originalCusName" fieldtype="1" maxlength="50" formactiveid="19" labelalign="1" labelcol="1" labelname="原录入的姓名" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="originalIdNum" fieldtype="1" maxlength="30" formactiveid="20" labelalign="1" labelcol="2" labelname="原录入的证件号码" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="issueBrNo" fieldtype="1" maxlength="30" formactiveid="21" labelalign="1" labelcol="1" labelname="签发机关" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="issueBrName" fieldtype="1" maxlength="50" formactiveid="22" labelalign="1" labelcol="2" labelname="签发机关名称" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="checkResultCode" fieldtype="1" maxlength="2" formactiveid="23" labelalign="1" labelcol="1" labelname="核查结果00-公民身份证号码与姓名一致，且存在照片01-公民身份证号码与姓名一致，但不存在照片02-公民身份证号码存在，但与姓名不一致等" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="200" formactiveid="24" labelalign="1" labelcol="2" labelname="备用字段1" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="200" formactiveid="25" labelalign="1" labelcol="1" labelname="备用字段2" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="200" formactiveid="26" labelalign="1" labelcol="2" labelname="备用字段3" mustinput="0" row="25"/>
+</form>

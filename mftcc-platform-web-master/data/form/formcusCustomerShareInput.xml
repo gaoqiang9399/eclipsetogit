@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusCustomerShareInput" title="客户共享新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="shareMngName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="共享项目经理" mustinput="1" onclick="bindDataSource(this,'1','shareMngNo','','','','','1');" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="共享原因" maxlength="200" mustinput="" readonly="" row="3" textAreaFieldRows="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shareMngNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="共享项目经理" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngNo" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="当前项目经理" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="当前项目经理" mustinput="1" readonly="1" row="1"/>
+</form>

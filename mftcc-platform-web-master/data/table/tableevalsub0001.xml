@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="evalsub0001" link="/mfEvalIndexSub/findByPage" para="eadis_page" title="评级指标项子项" type="2">
+<tableitem align="2" fieldStyle="remark" filedname="remark" id="4" indexed="6" label="子项描述" row="1" type="0" typepara="10"/>
+<tableitem align="2" fieldStyle="subName" filedname="subName" id="3" indexed="3" label="子项名称" row="1" type="0" typepara="10"/>
+<tableitem align="2" authority="subType-1;subType-2;subType-3;subType-4;subType-5" fieldStyle="editEvalSub" filedname="编辑" id="11" indexed="8" label="-" row="1" type="5" typepara="subId-subId;onclick-editEvalSub(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="subNo" id="2" indexed="2" label="子项名" type="0" widthType="0"/>
+<tableitem align="2" authority="subType-1;subType-2;subType-3;subType-4;subType-5" filedname="保存" id="9" indexed="12" label="-" row="1" type="5" typepara="/mfEvalIndexSub/insertAjax;subId-subId;onClick-insertEvalSub(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="删除" id="8" indexed="13" label="-" row="1" type="5" typepara="/mfEvalIndexSub/deleteAjax;subId-subId;onClick-deleteEvalSub(this)" width="2"/>
+</table>

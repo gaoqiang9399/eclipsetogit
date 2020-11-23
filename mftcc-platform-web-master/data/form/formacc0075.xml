@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="acc0075" title="首付款确认详情">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="traceNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="交易流水号" maxlength="18" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="atpyType" fieldsize="ATPY_TYPE" fieldtype="21" formactiveid="3" labelalign="3" labelcol="1" labelname="批处理类型" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="客户名称" maxlength="80" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifType" fieldsize="CIF_TYPE" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="客户类型" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payFeeNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="缴费编号" maxlength="30" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="结算账号" maxlength="30" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="结算账号户名" maxlength="80" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prcpAmt" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="首付款金额" maxlength="16" mustinput="0" readonly="1" row="4" unit=" 元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="filler" fieldsize="70" fieldtype="5" formactiveid="17" labelalign="3" labelcol="1" labelname="备注" maxlength="50" mustinput="0" readonly="1" row="9" textAreaFieldRows="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts" fieldsize="STS" fieldtype="21" formactiveid="18" labelalign="3" labelcol="3" labelname="批扣状态" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="createDt" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="创建日期" maxlength="10" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="createTime" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="创建时间" maxlength="14" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="spoolDt" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="生成文件日期" maxlength="10" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="spoolTime" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="生成文件时间" maxlength="14" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="rtnDt" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="处理日期" maxlength="10" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="rtnTime" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="处理时间" maxlength="14" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="errDesc" fieldsize="98" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="失败原因" maxlength="100" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fSeqno" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" labelname="指令包序列号" maxlength="35" mustinput="0" readonly="1" row="10"/>
+</form>

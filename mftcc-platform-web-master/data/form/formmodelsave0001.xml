@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="modelsave0001" title="模板保存信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serialNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="记录编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relserialNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="关联编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="模板文档类型" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="docName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="模板文档名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="登记人姓名" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="登记部门名称" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="最后修改时间" maxlength="17" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docFilePath" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="文档存储路径" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="docFileName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="保存后的文件名称" maxlength="100" mustinput="0" row="6"/>
+</form>

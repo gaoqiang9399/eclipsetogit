@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_pssvaluationbill02" para="eadis_page" title="估价入库单(退货选源单)" trClick=";onClick-Pss.checkCurrentTr(this)" type="2">
+<tableitem align="2" filedname="billDate" id="4" indexed="2" label="单据日期" row="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="12" indexed="14" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="3" indexed="5" label="供应商" mytitle="模板内容-supplierName;" row="1" type="3" typepara="12" width="14" widthType="0"/>
+<tableitem align="2" filedname="valuationBillNo" id="2" indexed="3" label="单据编号" row="1" type="0" width="11" widthType="0"/>
+<tableitem align="2" filedname="valuationBillNo" id="1" indexed="1" label="全选" sortType="2" type="2" typepara="valuationBillNo-valuationBillNo;" width="4" widthType="0"/>
+<tableitem align="2" filedname="auditOpName" id="17" indexed="15" label="审核人" mytitle="模板内容-auditOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="8" indexed="9" label="数量" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="amount" id="7" indexed="10" label="金额" row="1" type="12" width="8" widthType="0"/>
+</table>

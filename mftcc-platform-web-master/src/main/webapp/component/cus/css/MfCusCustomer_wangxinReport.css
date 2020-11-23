@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+.report_content{
+	margin: 0 auto 20px auto;
+   /*  border: 1px solid #edf0f3; */
+   	border: 1px solid #ccc;
+    padding: 4px;
+}
+.report_header{
+	background-color: rgb(50, 181, 203);
+}
+.report_items{
+	 margin-top: 18px;
+    border: 1px solid #edf0f3;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 16px;
+}
+.report_content_box .report_items .item_title{
+	color: rgb(51, 102, 204);
+    font-size: 18px;
+    padding: 15px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #edf0f3;
+}
+.report_items .basicInfo_content{
+	background-color: #fff;
+}
+.basicInfo_content_title{
+	width:33%;
+	display:inline-block;
+	padding-left:15px;
+	height:40px;
+	line-height:40px;
+}
+.report_items .basicInfo_content em{
+	font-style: normal;
+	color: #999;
+}
+.report_items .basicInfo_content span{
+	font-style: normal;
+	color: #333;
+}
+.list-table{
+	margin-top:0px;
+}
+.report_items .list-table .ls_list thead tr th{
+	/* text-align:center; */
+	font-size:16px;
+}
+.report_items .list-table .ls_list tbody tr td{
+	/* text-align:center; */
+	font-size:16px;
+}
+.report_items .list-table .ls_list tbody tr .DhbGetSauron_key{
+	color: #000000;
+}
+
+.blockDian{
+	color: rgb(51, 102, 204);
+}
+#getDhbGetSauronCListContent tr td{
+	text-align:left;
+}
+#getDhbGetSauronCListContent tr td.DhbGetSauron_key{
+	 color: black
+}
+.wx_report_right{
+	padding-left: 20px;
+}
+.wx_report_left{
+	width: 44%;
+}

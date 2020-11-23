@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetapplylist" para="eadis_page" title="诉讼申请信息表" type="1">
+<tableitem align="2" filedname="assetId" id="48" indexed="50" label="申请编号" type="0" widthType="0"/>
+<tableitem align="2" filedname="overduePrincipal" id="47" indexed="51" label="诉讼金额" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="46" indexed="49" label="客户编号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="1" indexed="1" label="客户名称" mytitle="债权编号-creditId;" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="选择" id="45" indexed="52" label="-" row="1" type="5" typepara="#;assetId-assetId;onClick-choseCredit" width="20" widthType="0"/>
+</table>

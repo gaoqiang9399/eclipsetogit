@@ -1,0 +1,53 @@
+.template-config {
+	background-color: #F2F2F2;
+}
+
+.template-config .item-div {
+	padding-top: 30px;
+}
+
+.template-config .block-item {
+	display: inline-block;
+	width: 110px;
+	height: 70px;
+	position: relative;
+	border: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.template-config .block-item:hover {
+	cursor: pointer;
+}
+
+.template-config .block-item .item-title {
+	font-family: Verdana, Arial, Helvetica, AppleGothic, sans-serif, FontAwesome;
+	font-size: 12px;
+	white-space: normal;
+	text-align: center;
+	padding: 10px 0px;
+	float: left;
+}
+
+.template-config .block-item .item-word {
+	width: 100%;
+	height: 68px;
+	background: url("../images/word.png") no-repeat;
+}
+
+.template-config .block-item .item-excel {
+	width: 100%;
+	height: 68px;
+	background: url("../images/excel.png") no-repeat;
+}
+
+.template-download-btn {
+	position: absolute;
+    right: 55px;
+    top: 10px;
+    color: #32b5cb;
+}
+.template-download-btn:hover {
+	cursor: pointer;
+    color: #009db7;
+}

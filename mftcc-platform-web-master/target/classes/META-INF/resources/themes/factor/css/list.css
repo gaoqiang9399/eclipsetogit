@@ -1,0 +1,214 @@
+body {
+    background-color: #ffffff;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 auto;
+	font-size:12px;
+	border:none;
+	
+}
+table th{
+	text-align: center;
+}
+
+/*固定表头,同时该样式与table_content结合作用于table固定表头*/
+.table-float-head {
+	display: block;
+	z-index: 9;
+	position: absolute;
+	background-color: #ffffff;
+	border-top: 1px solid #e9ebf2;
+	border-bottom: 1px solid #e9ebf2;
+	border-right: 1px solid #e9ebf2;
+}
+
+.table-float-th {
+	display: block;
+	color: #000000;
+	text-align: center;
+	font-size: 14px;
+	float: left;
+	border-left: 1px solid #e9ebf2;
+	font-weight: bold;
+	box-sizing: border-box;	
+	padding: 0 5px;
+}
+
+.table-float-th.asc .fa{
+ color:red;
+}
+ .table-float-th.desc .fa{
+ color:red;
+}
+ .table-float-th .i{
+	margin-left:3px;
+}
+
+.table-float-th.asc .i, .table-float-th.desc .i{
+	 color:red;
+}
+
+
+/* 列表样式 */
+.table_content {
+	overflow: hidden;
+	padding: 0px 10px 0px 15px;
+	max-height: calc(100% - 140px);
+}
+
+.table_content .mCSB_container {
+	padding: 0px;
+}
+
+.table_content .ls_list {
+	background: white;
+	border-left: 1px solid #e9ebf2;
+	border-bottom: 1px solid #e9ebf2;
+	border-right: 1px solid #e9ebf2;
+}
+
+.table_content .ls_list tr:nth-child(odd){
+	background:#fff;
+}
+.table_content .ls_list tr:nth-child(even){
+	background:#f1f1f1;
+}
+
+.table_content .ls_list tr td {
+	font-size: 12px;
+	color: #575757;
+	border:0px solid #e9ebf2;
+	padding: 5px;
+}
+
+.table_content .ls_list tr td a {
+	line-height: 30px;
+}
+
+.table_content .ls_list thead th,
+.table_content .ls_list thead th:hover
+	{
+	color: #000000;
+	font-size: 12px;
+	border: none;
+	background: #ffffff;
+	font-weight: normal;
+	border: 1px solid #e9ebf2;
+	line-height: 46px;
+	height: 46px;
+	text-align:center;
+	padding: 0 5px;
+}
+
+.table_content .ls_list  tr {
+	line-height: 30px !important;
+	height: 30px !important;
+	border-bottom: none;
+}
+
+.table_content .ls_list tbody tr:hover {
+	background-color: #d6f0f5 !important;
+}
+
+.listOpStyle {
+    color: #c4c4c4;
+}
+
+/* 分页样式 */
+.footer_loader {
+    bottom: 0px;
+    height: 30px;
+    padding-left: calc(50% - 150px);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+    background: #F0F5FB;
+}
+.multi-select-list .footer_loader{
+	/*bottom: 50px;*/
+	display:none;
+}
+
+.loader {
+    float: left;
+    font-size: 0;
+    height: 25px;
+    padding: 0;
+    position: relative;
+    width: 25px;
+}
+.loader i.fa {
+    font-size: 20px;
+    color: rgba(0, 155, 237, 1);
+    display: none;
+}
+
+.pagerShow {
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.backToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    width: 30px;
+    height: 30px;
+    background: url(../images/backToTop.png) no-repeat 0 0;
+    cursor: pointer;
+    z-index: 1080;
+}
+.multi-select-list .backToTop {
+	bottom: 50px;
+}
+.backToTop:hover{background-position:-34px 0;}
+.backToTop:active{background-position:-68px 0;}
+
+.content_table .page_w {
+    display: none;
+}
+
+.footer_loader table.page_w{
+	position: initial;
+	width: 660px;
+}
+.footer_loader ul{
+	margin:5px 0px 0px 0px;
+}
+.footer_loader li{
+	display:inline;
+	margin-right:10px;
+}
+
+.footer_loader .submitgo {
+	border: none;
+	color: #fff;
+	background-color: #418bac;
+	height: 20px;
+	margin-left: 10px;
+}
+.footer_loader .submitgo:hover {
+	background-color:#33718a;
+}
+
+
+.swraper.lease .stoggler.on{
+	background:#008fa7 !important;
+	color:#fff;
+	text-shadow:none;
+	box-shadow:none;
+}
+
+.change-td-color-loan_refuse{
+    color:red !important;
+}
+
+.change-td-color-7{
+    color:green !important;
+}

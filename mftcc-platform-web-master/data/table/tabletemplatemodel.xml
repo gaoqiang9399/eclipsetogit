@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="templatemodel" para="eadis_page" title="文件打印列表" type="1">
+<tableitem align="2" filedname="opName" id="6" indexed="8" label="创建人" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" fieldStyle="qrCode" filedname="查看二维码" id="13" indexed="11" label="-" type="5" typepara="action;templateBizConfigId-templateBizConfigId;onclick-MfTemplateModelConfig_fileListByPage.produceQRCode(this);" width="8" widthType="0"/>
+<tableitem align="2" filedname="sel_all" id="4" indexed="4" label="全选" row="1" type="2" typepara="templateBizConfigId-templateBizConfigId;" width="10" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="3" indexed="6" label="文档名称" row="1" type="4" typepara="action;templateBizConfigId-templateBizConfigId;onclick-MfTemplateModelConfig_fileListByPage.openTemplate(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="下载" id="11" indexed="13" label="-" row="1" type="5" typepara="/mfToolsDownload/downloadTemplate;ajaxData-templateBizConfigId;templateName-templateNameEn;" width="7" widthType="0"/>
+<tableitem align="2" fieldStyle="docType" filedname="templateNameEn" id="2" indexed="4" label="文档类型" row="1" type="6" width="15" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="10" indexed="10" label="最后修改时间" row="1" type="30" width="15" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="8" indexed="9" label="创建时间" row="1" type="30" width="15" widthType="0"/>
+</table>

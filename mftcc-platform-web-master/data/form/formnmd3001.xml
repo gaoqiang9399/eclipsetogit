@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form id="nmd3001" title="日程管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="makeDate" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="记事日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="makeMan" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="记事人" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="标题" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="eventType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="事件类型" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="eventDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="事件日期" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="eventTime" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="事件时间" maxlength="5" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="eventDesc" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="事件说明" maxlength="2000" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnSetup" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="提醒设置" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="提醒日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnTime" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="提醒时间" maxlength="5" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnStop" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="提醒终止" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endSts" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="完成状态" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="filler" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="备注" maxlength="1001" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="calendarNo" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="日程编号" maxlength="10" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="事件截止日期" maxlength="8" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endTime" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="事件截止时间" maxlength="5" mustinput="0" row="8"/>
+</form>

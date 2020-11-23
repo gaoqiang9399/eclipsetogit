@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusAssetsDebtsDetail" title="资产负债信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID（用作关联客户的编号）" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="monetaryFunds" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="货币资金" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="livestockAssets" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="畜牧（禽）资产" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="accountsReceivable" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="应收帐款" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="agriculSubsidies" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="应收农业补贴" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="materialsInventory" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="原材料存货" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="cropInventory" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="农作物存货" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="totalCurrentAssets" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="流动资产合计" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="houseProperty" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="房产" maxlength="20" mustinput="0" row="8"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="car" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="汽车" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="mechanicalEquipment" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="机械设备" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="totalFixedAssets" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="固定资产合计" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="landTransferPayments" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="预付土地流转金" maxlength="20" mustinput="0" row="12"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="totalOtherAssets" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="其他资产合计" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="totalAssets" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="资产总计" maxlength="20" mustinput="0" row="14"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="personalLoan" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="个人借款" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="accountsPayable" fieldtype="1" formactiveid="19" labelalign="3" labelcol="3" labelname="应付账款" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="wagesPayable" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="应付工资" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="creditCardOverdraft" fieldtype="1" formactiveid="21" labelalign="3" labelcol="3" labelname="信用卡透支" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="totalShortLiabilities" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="短期负债合计" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="businessLoan" fieldtype="1" formactiveid="23" labelalign="3" labelcol="3" labelname="经营贷款" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="housingLoan" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="住房贷款" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="carLoan" fieldtype="1" formactiveid="25" labelalign="3" labelcol="3" labelname="汽车贷款" maxlength="20" mustinput="0" row="8"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="totalLongLiabilities" fieldtype="1" formactiveid="26" labelalign="3" labelcol="3" labelname="长期负债合计" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="totalLiabilities" fieldtype="1" formactiveid="27" labelalign="3" labelcol="3" labelname="负债总计" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="capitalCollection" fieldtype="1" formactiveid="28" labelalign="3" labelcol="3" labelname="实收资本（股本）" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="undistributedProfit" fieldtype="1" formactiveid="29" labelalign="3" labelcol="3" labelname="未分配利润" maxlength="20" mustinput="0" row="12"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="totalOwnersEquity" fieldtype="1" formactiveid="30" labelalign="3" labelcol="3" labelname="所有者权益合计" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="totalLiabilitiesOwnersEquity" fieldtype="1" formactiveid="31" labelalign="3" labelcol="3" labelname="负债与所有者权益总计" maxlength="20" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="90" formactiveid="32" labelalign="3" labelcol="3" labelname="预留字段" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="90" formactiveid="33" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="90" formactiveid="34" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="90" formactiveid="35" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="90" formactiveid="36" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="21"/>
+</form>

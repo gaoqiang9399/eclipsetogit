@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="frontmobilesetting0001" title="移动端基本配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tel" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="400电话" mustinput="" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="serviceQq" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="QQ客服" mustinput="" param="id;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="4" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="id" readonly="" row="1"/>
+</form>

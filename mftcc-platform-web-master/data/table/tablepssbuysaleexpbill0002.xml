@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssbuysaleexpbill0002" title="采购销售费用清单" type="2">
+<tableitem align="2" filedname="supplierId" id="6" indexed="2" label="供应商" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="5" indexed="1" label="供应商" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="4" indexed="0" label="序号" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="saleType" id="3" indexed="3" label="支出类别" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="3" filedname="expAmt" id="2" indexed="4" label="金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="memo" id="1" indexed="5" label="备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="buySaleExpNo" id="7" indexed="6" label="费用清单编号" type="99" widthType="0"/>
+</table>

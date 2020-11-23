@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="infovwproduct" link="/vwProductManage/findByPage" para="eadis_page" title="前端产品列表" type="1">
+<tableitem align="1" filedname="productObejct" id="6" indexed="6" label="申请对象" mytitle="productObejct-productObejct" sortType="2" type="3" typepara="6" width="100" widthType="1"/>
+<tableitem align="2" filedname="sort" id="5" indexed="9" label="排序" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="productName" id="21" indexed="5" label="产品名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="19" indexed="22" label="-" row="1" type="5" typepara="#;productNo-productNo;onClick-VwProductManage_List.deletevmproductmanage" width="2" widthType="0"/>
+<tableitem align="2" filedname="详情" id="20" indexed="11" label="详情" row="1" sortType="2" type="5" typepara="/vwProductManage/getById;productNo-productNo;" widthType="0"/>
+<tableitem align="1" filedname="productFeature" id="8" indexed="8" label="产品特点" mytitle="productFeature-productFeature" row="1" sortType="2" type="3" typepara="10" width="200" widthType="1"/>
+<tableitem align="1" filedname="productDesc" id="7" indexed="7" label="产品描述" mytitle="productDesc-productDesc" row="1" sortType="2" type="3" typepara="10" width="200" widthType="1"/>
+</table>

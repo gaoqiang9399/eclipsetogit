@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receAndFincBase" para="eadis_page" title="账款展示列表" type="1">
+<tableitem align="3" filedname="putoutAmt" id="9" indexed="10" label="融资金额(元)" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="8" indexed="9" label="融资编号" mytitle="融资编号-fincShowId;" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'finc';onClick-getDetailPage(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="7" indexed="8" label="合同展示号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="receEndDate" id="6" indexed="7" label="账款到期日" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="receTransAmt" id="5" indexed="6" label="转让金额(元)" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="receAmt" id="4" indexed="5" label="应收账款金额(元)" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="receInvoiceAmt" id="3" indexed="4" label="发票金额(元)" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="receNo" id="2" indexed="2" label="发票号" mytitle="合同/发票号-receNo;" row="1" sortType="2" type="4" typepara="/mfBusReceBaseInfo/getReceDetailById;receId-receId;fincId-fincId;busEntrance-'rece';subStringNub-20;" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="3" label="客户名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincSts" id="10" indexed="10" label="融资状态" row="1" sortType="1" type="6" typepara="FINC_STS" widthType="0"/>
+</table>

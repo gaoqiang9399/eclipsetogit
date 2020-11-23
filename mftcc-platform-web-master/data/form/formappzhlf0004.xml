@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="appzhlf0004" title="中汇临汾收费">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="22" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="收取方式" mustinput="1" param="-|1-转账|2-微信|3-现金|4-支付宝|5-刷卡|6-其他|" row="7" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fincAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="实收保费" maxlength="14" mustinput="1" readonly="" row="6" unit="元" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="收款日期" maxlength="8" mustinput="1" onfocus="fPopUpCalendarDlg()" readonly="1" row="7" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="2" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="融资金额" mustinput="" readonly="1" row="3" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="融资期限" mustinput="" readonly="1" row="3" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="保费利率" mustinput="" readonly="1" row="4" unit="%" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="应收保费" maxlength="14" mustinput="" readonly="" row="6" unit="元" />
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="querycusmanageList" para="eadis_page" title="查询客户经理列表" type="2">
+<tableitem align="2" filedname="contactsTel" id="15" indexed="5" label="联系电话" row="1" sortType="2" type="0"/>
+<tableitem align="1" filedname="appName" id="5" indexed="8" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="3" typepara="15" width="165" widthType="1"/>
+<tableitem align="2" filedname="manageOpName1" id="13" indexed="9" label="客户经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="12" indexed="20" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="3" typepara="15" width="165" widthType="1"/>
+<tableitem align="2" filedname="idNum" id="18" indexed="4" label="证件号码" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="17" indexed="7" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="16" indexed="6" label="客户登记人" row="1" type="0" widthType="0"/>
+</table>

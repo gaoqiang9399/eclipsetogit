@@ -1,0 +1,56 @@
+
+@font-face {font-family: "dhccwx";
+  src: url('iconfont.eot?t=1480042195809'); /* IE9*/
+  src: url('iconfont.eot?t=1480042195809#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1480042195809') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1480042195809') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1480042195809#dhccwx') format('svg'); /* iOS 4.1- */
+}
+
+.dhccwx {
+  font-family:"dhccwx" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wx-jgg:before { content: "\e64d"; }
+
+.wx-search:before { content: "\e615"; }
+
+.wx-time:before { content: "\e617"; }
+
+.wx-lunbozutu:before { content: "\e63e"; }
+
+.wx-console:before { content: "\e6ad"; }
+
+.wx-console2:before { content: "\e6ae"; }
+
+.wx-tab:before { content: "\e902"; }
+
+.wx-hidden:before { content: "\e68d"; }
+
+.wx-jdt:before { content: "\e655"; }
+
+.wx-tuwenxiaoxi:before { content: "\e612"; }
+
+.wx-textarea:before { content: "\e6e0"; }
+
+.wx-tabbar:before { content: "\e705"; }
+
+.wx-date:before { content: "\e6cd"; }
+
+.wx-checkbox:before { content: "\e600"; }
+
+.wx-orderselect:before { content: "\e77e"; }
+
+.wx-select:before { content: "\e63b"; }
+
+.wx-input:before { content: "\e63c"; }
+
+.wx-radio:before { content: "\e61c"; }
+
+.wx-button:before { content: "\e63d"; }
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincExamineStateForCusList" para="eadis_page" title="客户贷后检查列表" type="1">
+<tableitem align="2" filedname="检查登记" id="18" indexed="17" label="-" row="1" type="5" typepara="/mfExamineHis/examineApplyForCus;cusNo-cusNo;onClick-MfBusFincApp_ExamineStateForCusList.loanAfterExamine(this)" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="17" indexed="0" label="选择" row="1" sortType="2" type="2" typepara="cusNo-cusNo" width="4" widthType="0"/>
+<tableitem align="2" filedname="指派" id="16" indexed="16" label="-" type="5" typepara="action;cusNo-cusNo;fincId-fincId;onClick-MfBusFincApp_ExamineStateForCusList.assignExamineTaskSingle(this)" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusFincApp_ExamineStateForCusList.getDetailPage(this);subStringNub-8;" width="15" widthType="0"/>
+<tableitem align="2" filedname="fincExamineSts" id="15" indexed="15" label="检查状态" row="1" sortType="1" type="6" typepara="FINC_EXAMINE_STATS" width="6" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="4" indexed="3" label="联系方式" row="1" sortType="2" type="0" width="150" widthType="1"/>
+<tableitem align="2" filedname="riskLevel" id="13" indexed="13" label="上次检查结果" row="1" sortType="1" type="6" typepara="EXAM_RISK_LEVEL" width="9" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="12" indexed="2" label="证件号" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="nextExamineEndDate" id="11" indexed="14" label="下次检查截止日期" row="1" sortType="1" type="1" typepara="FINC_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="10" indexed="12" label="上次检查时间" row="1" sortType="1" type="1" width="9" widthType="0"/>
+</table>

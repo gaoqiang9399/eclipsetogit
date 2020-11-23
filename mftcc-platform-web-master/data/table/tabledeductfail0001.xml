@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="deductfail0001" link="/mfBusDeductFail/findByPage" para="eadis_page" title="批量划扣失败信息表" type="1">
+<tableitem align="2" filedname="已还" id="9" indexed="16" label="-" row="1" type="5" typepara="/mfBusDeductFail/deleteFakeAjax;deductId-deductId;onClick-MfBusDeductFail.ajaxRepayment(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="7" indexed="8" label="最后划扣时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="划扣" id="15" indexed="13" label="-" type="5" typepara="/mfBusDeductFail/deductAjax;deductId-deductId;onClick-MfBusDeductFail.ajaxDeduct(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="14" indexed="6" label="借据期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="deductErrorMsg" id="4" indexed="12" label="失败原因" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="13" indexed="5" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="deductAmt" id="3" indexed="7" label="划扣总额(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="12" indexed="9" label="到期日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="11" indexed="3" label="项目名称" mytitle="项目名称-appName" row="1" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getAppDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="2" indexed="4" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="10" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+</table>

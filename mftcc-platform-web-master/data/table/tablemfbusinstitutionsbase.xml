@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="institutionsbase" para="eadis_page" link="/mfBusInstitutions/findByPage" title="合作机构表" type="1">
+<tableitem align="2" filedname="agenciesName" id="3" indexed="3" label="机构名称" row="1" type="0" />
+<tableitem align="2" filedname="insititutionType" id="5" indexed="5" label="机构类型" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="14" indexed="14" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="agenciesButtName" id="25" indexed="25" label="联系人" row="1" type="0" />
+<tableitem align="2" filedname="insititutionStatus" id="28" indexed="28" label="状态" row="1" type="0" />
+</table>

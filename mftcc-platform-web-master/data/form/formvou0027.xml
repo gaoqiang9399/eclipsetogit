@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou0027" title="抵押物-船舶表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shipType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="船舶类型" maxlength="0" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="shipBrand" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="船舶品牌" maxlength="33" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shipNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="船舶产权登记证编号" maxlength="33" mustinput="0" row="2"/>
+</form>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form formId="demo0002" webFormId="asd" desc="asd" css="asd" layout="horizontal">
+    <formelement order="0" lv="1" property="jgg" domclass="jgg" domid="jgg" num="9" name="九宫格" pid="0" id="1" pkno="dhcc-8">
+        <subformelement classtype="css" name="Alert" click="$.alert(0);" classvalue="fa fa-android"/>
+        <subformelement classtype="css" name="Confirm" click="$.confirm(0);" classvalue="fa fa-apple"/>
+        <subformelement classtype="css" name="Prompt" click="$.prompt(&quot;自定义的消息内容&quot;,function(text){},function(){});" classvalue="fa fa-chrome"/>
+        <subformelement classtype="css" name="登陆弹窗" click="$.login(&quot;自定义的消息内容&quot;,function(username,password){},function(){});" classvalue="fa fa-css3"/>
+        <subformelement classtype="css" name="自定义" click="$.modal({title:&quot;Hello&quot;,text:&quot;我是自定义的modal&quot;,buttons:[{text:&quot;支付宝&quot;,onClick:function(){console.log(1)}},{text:&quot;微信支付&quot;,onClick:function(){console.log(2)}},{text:&quot;取消&quot;,className:&quot;default&quot;,onClick:function(){console.log(3)}},]});" classvalue="fa fa-edge"/>
+        <subformelement classtype="css" name="加载..." click="$.showLoading(&quot;不会自动消失，在调试信息中执行方法：$.hideLoading();&quot;);" classvalue="fa fa-firefox"/>
+        <subformelement classtype="css" name="ActionSheet" click="$.actions({actions:[{text:&quot;编辑&quot;,onClick:function(){}},{text:&quot;删除&quot;,onClick:function(){}}]});" classvalue="fa fa-github-alt"/>
+        <subformelement classtype="css" name="toast" click="$.toast(&quot;操作成功&quot;);" classvalue="fa fa-html5"/>
+        <subformelement classtype="css" name="toptip" click="$.toptip('操作成功', 'success');" classvalue="fa fa-qq"/>
+    </formelement>
+</form>

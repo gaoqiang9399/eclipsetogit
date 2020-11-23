@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusIncExpeBase" title="农户收支情况">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomeExpensesId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="收支情况id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="plantIncome" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="种植收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="operateIncome" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="经营收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="feedIncome" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="养殖收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="laborIncome" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="劳务收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="subsidyIncome" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="补贴收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="otherIncome" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="其他收入" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalIncome" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="收入合计" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="plantCost" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="种植成本" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="feedCost" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="养殖成本" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="liveCost" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="生活费用" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="otherCost" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="其他支出" maxlength="20" mustinput="0" onblur="func_uior_valFormat_tips(this, 'nonnegative');" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="3" labelname="注册时间" maxlength="17" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="1"/>
+</form>

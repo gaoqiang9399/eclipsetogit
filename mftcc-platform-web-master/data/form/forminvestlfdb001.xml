@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="investlfdb001" title="临汾-担保-征信">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="产品名称（隐藏）" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincUse" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="融资用途" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="业务主办编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appTime" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="登记日期时分秒" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement alt="请输入备注，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" mustinput="" readonly="1" row="3"/>
+</form>

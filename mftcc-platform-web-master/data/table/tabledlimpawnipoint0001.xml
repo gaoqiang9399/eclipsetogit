@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnipoint0001" para="eadis_page" link="" title="质押上市公司股票" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnIpoInt/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="stockId" id="2" indexed="2" label="股票代码" row="1" type="0" />
+<tableitem align="2" filedname="stockName" id="3" indexed="3" label="股票名称" row="1" type="0" />
+<tableitem align="2" filedname="stockQty" id="4" indexed="4" label="股票数量(股)" row="1" type="0" />
+<tableitem align="2" filedname="stockMandTrader" id="5" indexed="5" label="股票托管券商" row="1" type="0" />
+<tableitem align="2" filedname="price30Avg" id="6" indexed="6" label="股票前30天平均价格" row="1" type="0" />
+<tableitem align="2" filedname="curCapPerShare" id="7" indexed="7" label="最新公布的股票每股净资产" row="1" type="0" />
+<tableitem align="2" filedname="bgain" id="8" indexed="8" label="上市公司是否盈利" row="1" type="0" />
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0026" title="查询已办任务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="1" fieldwidth="15" formactiveid="1" labelalign="3" labelcol="1" labelname="业务申请号" labelwidth="10" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" fieldwidth="15" formactiveid="2" labelalign="3" labelcol="3" labelname="客户名称" labelwidth="10" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="processDefinitionKeys" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="流程key" mustinput="" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="6" fieldname="startDate" fieldtype="1" fieldwidth="15" formactiveid="4" labelalign="3" labelcol="5" labelname="开始时间" labelwidth="10" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="8" fieldname="endDate" fieldtype="1" fieldwidth="15" formactiveid="5" labelalign="3" labelcol="7" labelname="结束时间" labelwidth="10" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="1"/>
+</form>

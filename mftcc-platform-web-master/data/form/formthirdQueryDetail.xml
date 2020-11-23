@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="thirdQueryDetail" title="三方查询详情表单（天易）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="车牌号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="carType" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="车型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="carVin" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="车架号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="imei" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="设备号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lat" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="纬度" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lng" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="经度" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="spd" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="速度" mustinput="" readonly="1" row="5" unit="千米/小时"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dir" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="方向" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="locateType" fieldtype="22" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="定位类型" mustinput="" param="0-基站定位|1-GPS定位|2-未定位|" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="status" fieldtype="22" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="设备状态" mustinput="" param="0-未启用|1-正常|" readonly="1" row="6"/>
+</form>

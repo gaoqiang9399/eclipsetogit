@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="initStampApplyBase" title="用印申请初始化表单">
+<formelement alt="请选择进行授信的客户" datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNoShow" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="选择用印合同" maxlength="100" mustinput="1" onclick="MfStampPact_input.initStamp();" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='MfStampPact_input.initStamp();'&gt;&lt;/i&gt;"/>
+</form>

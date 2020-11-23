@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="highGrtContractList" link="/mfHighGuaranteeContract/findByPage" para="eadis_page" title="最高额担保合同表" type="1">
+<tableitem align="2" filedname="endDate" id="9" indexed="10" label="结束时间" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="startDate" id="8" indexed="9" label="开始时间" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="amt" id="5" indexed="6" label="合同额度" sortType="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="13" indexed="2" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="type" id="4" indexed="5" label="合同类型" row="1" sortType="1" type="6" typepara="HIGH_GRT_CONTRACT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="删除" id="12" indexed="13" label="-" row="1" sortType="2" type="5" typepara="/mfHighGuaranteeContract/deleteAjax;highGrtContractId-highGrtContractId;onClick-MfHighGuaranteeContract.ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="name" id="3" indexed="4" label="合同名称" row="1" sortType="2" type="4" typepara="/mfHighGuaranteeContract/getById;highGrtContractId-highGrtContractId;onClick-MfHighGuaranteeContract.getById(this)" widthType="0"/>
+<tableitem align="1" filedname="showId" id="2" indexed="3" label="展示合同号" row="1" sortType="2" type="0" typepara="/mfCusWhitename/getById;id-id;onClick-MfCusWhitename_List.getByIdThis(this);" widthType="0"/>
+<tableitem align="2" filedname="contractSts" id="11" indexed="12" label="合同状态" row="1" sortType="2" type="6" typepara="HIGH_GRT_CONTRACT_STS" widthType="0"/>
+</table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="recall_list_TJW" para="eadis_page" title="催收历史-铁甲网" type="1">
+<tableitem align="2" filedname="recallResultType" id="32" indexed="13" label="催收结果" sortType="2" type="6" typepara="RECALL_RESULT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="recallCusType" id="30" indexed="5" label="客户分类" row="1" sortType="2" type="6" typepara="RECALL_CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="promiseDate" id="22" indexed="29" label="承诺时间" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="recallWay" id="21" indexed="10" label="催收方式" row="1" sortType="2" type="6" typepara="RECALL_WAY" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名称" mytitle="客户名称-cusName" row="1" sortType="2" type="3" typepara="8" widthType="0"/>
+<tableitem align="2" filedname="详情" id="37" indexed="31" label="-" row="1" sortType="2" type="5" typepara="/recallBase/getRecallArmourBase;taskNo-taskNo;recallSts-recallSts;" widthType="0"/>
+<tableitem align="3" filedname="promiseAmt" id="36" indexed="30" label="承诺金额(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="35" indexed="2" label="任务编号" row="1" sortType="1" type="99" typepara="/recallBase/getById;taskNo-taskNo;recallSts-recallSts;onClick-openDetailInfo(this)" widthType="0"/>
+<tableitem align="2" filedname="recallActionType" id="34" indexed="12" label="催收动作" row="1" sortType="2" type="6" typepara="RECALL_ACTION_TYPE" widthType="0"/>
+</table>

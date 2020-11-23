@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="setreport0001" para="eadis_page" title="设置资产负债表" type="2">
+<tableitem align="2" filedname="itemAAmt" id="6" indexed="7" label="报表项配置" row="1" sortType="2" type="0" width="20"/>
+<tableitem align="1" filedname="showName" id="5" indexed="5" label="资产" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="fzTr" id="12" indexed="10" label="行次" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="zcTr" id="11" indexed="6" label="行次" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="itemAAmt2" id="10" indexed="11" label="报表项配置" row="1" sortType="2" type="0" width="20"/>
+<tableitem align="1" filedname="showName2" id="8" indexed="9" label="负债与所有者权益" row="1" sortType="2" type="0" width="25" widthType="0"/>
+</table>

@@ -1,0 +1,27 @@
+.swraper.light{
+	height:20px;
+	line-height:20px!important;
+	border:none;
+	background:#54aced;
+}
+.swraper.light .stoggler.on{
+	background:#54aced;
+	color:#fff;
+	text-shadow:none;
+	box-shadow:none;
+}
+.swraper.light .stoggler.on .sblob{
+	box-shadow:none;
+	background:#fff;
+}
+.swraper.light .stoggler{
+	background:#e7e7e7;
+}
+.swraper.light .stoggler .sblob{
+	box-shadow:none;
+	background:#fff;
+	
+}
+.stoggler .slabel-off{
+	color:#888;
+}

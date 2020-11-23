@@ -1,0 +1,43 @@
+.btn-top{
+	color: #fff;
+    font-size: 14px;
+    background: #EA8A34;
+}
+.leavetitle{
+	text-align: center; 
+	font-size: 20px;
+}
+.leavetable{
+	padding: 20px 16px; 
+	margin: 0px -15px;
+}
+.leavedetail{
+  	width:100%;
+    border:1;
+  	cellpadding:1;
+	cellspacing:1;
+	margin-left: 0%;
+}
+td{
+	width:50%;
+	font-size:14px;
+}
+.tddiv{
+	width: 19%;
+	padding-top: 6px;
+	float: left;
+}
+.datadiv{
+	width: 81%;
+	float: left;
+	padding-top: 3px;
+}
+.reason{
+	float: left; 
+	width: 9.5%;
+	padding-top: 8px;
+}
+.reasondiv{
+	float: left; 
+	width: 90.5%;
+}

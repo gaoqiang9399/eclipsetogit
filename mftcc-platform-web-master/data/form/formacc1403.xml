@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc1403" title="收益测算">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="instmAmt" fieldtype="99" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="每期租金" labelwidth="20" mustinput="" readonly="" row="16"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="instmTotalAmt" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="3" labelname="租金总额" labelwidth="20" mustinput="" readonly="1" row="13" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="stampDutyRate" fieldtype="99" formactiveid="3" initvalue="0.05" labelalign="3" labelcol="1" labelname="印花税税率" mustinput="" readonly="" row="19" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="stampDuty" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="印花税" mustinput="" readonly="" row="19"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="capital" fieldtype="99" formactiveid="5" labelalign="3" labelcol="3" labelname="收回本金" mustinput="" readonly="" row="20"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="interest" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="利息总额" mustinput="" readonly="1" row="14" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="netFinValue" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="净融资额现值" mustinput="" readonly="" row="20"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="netPreValue" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="净现值" mustinput="" readonly="1" row="15"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="aveAssProRate" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="平均资产收益率" mustinput="" readonly="" row="21"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="preValProRate" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="现值收益率" mustinput="" readonly="" row="21"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="annPreValProRate" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="年化现值收益率" mustinput="" readonly="" row="22"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="netAssProRate" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="净资产收益率" mustinput="" readonly="" row="22"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="iRR" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="内部收益率" mustinput="" readonly="1" row="15" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="profitBITNPV" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="所得税前收益净现值" mustinput="" readonly="" row="23"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="profitAITNPV" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="所得税后收益净现值" mustinput="" readonly="" row="24"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="annualNIBTFR" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="所得税前资金年净收益率" mustinput="" readonly="" row="24"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="annualNIATFR" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="所得税后资金年净收益率" mustinput="" readonly="" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldtype="1" formactiveid="18" labelalign="2" labelcol="1" labelcolspan="4" labelname="收益测算" labelstyle="bartop" mustinput="" readonly="" row="12" selrange="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalAmt" fieldtype="1" fieldwidth="30" formactiveid="19" initvalue="0" labelalign="3" labelcol="1" labelname="租赁本金" labelwidth="20" mustinput="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualAmt" fieldtype="1" fieldwidth="30" formactiveid="20" labelalign="3" labelcol="3" labelname="实际融资额" labelwidth="20" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="secMoneyFlt" fieldtype="1" formactiveid="21" initvalue="0.00" labelalign="3" labelcol="1" labelname="保证金比例" mustinput="1" onblur="calcSecFlt()" row="5" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="termMon" fieldtype="1" formactiveid="23" labelalign="3" labelcol="3" labelname="租赁期限(月)" mustinput="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="24" labelalign="3" labelcol="1" labelname="起租日期" mustinput="1" onclick="fPopUpCalendarDlg(startDate);return false" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="21" fieldtype="99" formactiveid="27" initvalue="固定利率" labelalign="3" labelcol="1" labelname="利率浮动方式" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="12" fieldtype="99" formactiveid="28" initvalue="0" labelalign="3" labelcol="1" labelname="期末残值" mustinput="" readonly="1" row="9"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="appRate" fieldtype="1" formactiveid="32" initvalue="0.00" labelalign="3" labelcol="3" labelname="租赁利率" mustinput="1" onblur="validateAppRate()" row="6" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="11" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" labelname="租金支付方式" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaveCycle" fieldsize="REPAY_TERM_TYPE" fieldtype="2" formactiveid="34" labelalign="3" labelcol="1" labelname="还款周期类型" mustinput="1" row="9"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="downPaymentFlt" fieldtype="1" formactiveid="35" initvalue="0.00" labelalign="3" labelcol="1" labelname="首付比例" mustinput="1" onblur="calcFirstFlt()" row="3" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="downPaymentAmt" fieldtype="1" formactiveid="36" initvalue="0" labelalign="3" labelcol="3" labelname="首付租金" mustinput="1" onblur="calcFirstAmt()" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="1" fieldtype="99" formactiveid="38" initvalue="0" labelalign="3" labelcol="3" labelname="宽限期" mustinput="" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldtype="1" formactiveid="39" labelalign="2" labelcol="1" labelcolspan="4" labelname="产品参数" labelstyle="bartop" mustinput="" readonly="" row="1" selrange="1"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="financingRate" fieldtype="1" formactiveid="40" initvalue="8.0" labelalign="3" labelcol="3" labelname="筹资利率" mustinput="1" row="8" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="endFlt" fieldtype="1" formactiveid="41" initvalue="0.00" labelalign="3" labelcol="1" labelname="尾款比例" mustinput="1" onblur="calcEndFlt()" row="4" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="endAmt" fieldtype="1" formactiveid="42" initvalue="0" labelalign="3" labelcol="3" labelname="尾款金额" mustinput="1" onblur="calcEndAmt()" row="4" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="feeFlt" fieldtype="99" formactiveid="43" initvalue="0.00" labelalign="3" labelcol="1" labelname="手续费率" mustinput="1" onblur="calcFeeFlt()" row="10" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="feeAmt" fieldtype="1" formactiveid="44" initvalue="0" labelalign="3" labelcol="1" labelname="手续费" mustinput="1" onblur="calcFeeAmt()" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="f" fieldtype="99" formactiveid="45" initvalue="一次性支付" labelalign="3" labelcol="1" labelname="手续费支付方式" mustinput="" readonly="1" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalAmt" fieldtype="1" formactiveid="46" labelalign="3" labelcol="1" labelname="租赁物价格" mustinput="" readonly="1" row="13" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="oneYearAmt" fieldtype="1" formactiveid="47" labelalign="3" labelcol="3" labelname="折合占用一年资金" mustinput="" readonly="1" row="14" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="tcr" fieldtype="1" formactiveid="48" labelalign="3" labelcol="3" labelname="资金收益率" mustinput="" readonly="1" row="16" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="bcr" fieldtype="1" formactiveid="49" labelalign="3" labelcol="1" labelname="收益成本比" mustinput="" readonly="1" row="16"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="secMoneyAmt" fieldtype="1" formactiveid="50" initvalue="0" labelalign="3" labelcol="3" labelname="保证金金额" mustinput="1" onblur="calcSecAmt()" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="7" formactiveid="51" labelalign="3" labelcol="1" labelname="还款方式" mustinput="1" param="getShdMtdList" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="frozenPeriod" fieldsize="FROZEN" fieldtype="21" formactiveid="52" labelalign="3" labelcol="1" labelname="跳跃贷开始期" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="glNo" fieldtype="1" formactiveid="53" labelalign="3" labelcol="3" labelname="核算产品号" mustinput="1" onclick="funcAcGlPop('glNo','glNo');" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaveCycleTerm" fieldtype="22" formactiveid="54" labelalign="3" labelcol="3" labelname="还款周期" mustinput="" param="-|1-1|2-2|3-3|4-4|5-5|6-6|" row="9"/>
+</form>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archiveextendpactedit" title="非系统生成合同">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="archiveMainNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="3" labelname="归档编号" maxlength="40" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="archiveStatus" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="归档状态（01-合同签订 02-合同完结）" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="3" labelname="申请号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="项目名称" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="产品号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="产品名称" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveOpNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="归档人编号" maxlength="22" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="archiveBrNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="归档人部门编号" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveBrName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="归档人部门名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="22" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="更新人名称" maxlength="40" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="更新人部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="更新人部门名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="委托保证合同号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="合同ID" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="updateDate" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="更新日期" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="optType" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="5" labelname="操作类型" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="corpNo" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="合同号" mustinput="0" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corpName" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="名称" mustinput="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="档案明细号" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archivePactStatus" fieldsize="ARCHIVE_PACT_STATUS" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="业务类型" mustinput="" param="anchors:['anchor1','anchor2']" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{archivePactStatus:'02'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{archivePactStatus:'01'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="7" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditAppNo" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="授信号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="creditAppId" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="5" labelname="授信id" mustinput="" readonly="" row="2"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mobileinterfacerecommend0002" para="eadis_page" title="客户推荐信息统计" type="1">
+<tableitem align="2" filedname="source" id="5" indexed="6" label="客户来源" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rdCusName" id="4" indexed="4" label="推荐人姓名" row="1" type="0"/>
+<tableitem align="2" filedname="rdCusNo" id="3" indexed="3" label="推荐人客户号" row="1" type="0"/>
+<tableitem align="2" filedname="rdCusTel" id="2" indexed="2" label="推荐人手机号" type="4" typepara="/mfCusRecommend/getListPage;rdCusTel-rdCusTel;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="commend" id="19" indexed="5" label="推荐人数" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fiveclass0003" title="五级分类详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fiveclass" fieldsize="FIVE_STS" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="五级分类" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户经理姓名" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户经理归属部门" mustinput="" readonly="1" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="登记日期" mustinput="" readonly="1" row="5" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="classDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="客户经理调整日期" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeReason" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="调整原因" maxlength="200" mustinput="0" row="6" />
+</form>

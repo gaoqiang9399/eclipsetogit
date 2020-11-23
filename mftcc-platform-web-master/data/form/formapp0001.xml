@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0001" title="业务申请查询">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="1" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="conNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="2" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="3" maxlength="3" mustinput="0" row="2"/>
+</form>

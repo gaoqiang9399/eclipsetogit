@@ -1,0 +1,31 @@
+.initFormSetting {
+  display: none;
+  height: 170px;
+  width: 300px;
+  background: #ffffff;
+  border: 1px solid #eea236;
+  position: relative;
+  border-collapse: collapse;
+  padding: 8px 5px 2px 5px;
+}
+.initFormSetting table {
+  position: relative;
+  margin: 0;
+}
+.initFormSetting table tr,
+.initFormSetting table td,
+.initFormSetting table th {
+  width: 15px;
+  border: 1px solid #e3e3e3;
+  font-size: 5pt;
+  height: 15px;
+  line-height: 15px;
+}
+.btn-yellow {
+  background-color: #ffff00;
+  border-color: #ffff00;
+  color: #fff;
+}
+.selectedTd {
+  background-color: #0000ff;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="highGrtContractSubList_pledge" title="明细记录" type="2">
+<tableitem align="3" filedname="pledgeRate" id="13" indexed="3" label="抵质押率" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="撤销关联" id="12" indexed="13" label="-" row="1" sortType="2" type="5" typepara="/mfHighGuaranteeContract/deleteSubRelAjax;subId-id;onClick-MfHighGuaranteeContract.ajaxDeleteSubRel(this)" widthType="0"/>
+<tableitem align="3" filedname="pleValue" id="3" indexed="4" label="押品价值" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="keepStatus" id="11" indexed="12" label="押品状态" row="1" sortType="2" type="6" typepara="KEEP_STATUS" width="15" widthType="0"/>
+<tableitem align="1" filedname="pledgeName" id="2" indexed="2" label="押品名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="pledgeShowNo" id="1" indexed="1" label="押品编号" row="1" sortType="1" type="0" widthType="0"/>
+</table>

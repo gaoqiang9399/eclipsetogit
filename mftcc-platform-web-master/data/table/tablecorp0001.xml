@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="corp0001" para="eadis_page" link="/cusCorpInfo/findByPage" title="对公客户基本信息" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户号" row="1" type="4" typepara="/cusCorpInfo/getById;cusNo-cusNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="formal" id="3" indexed="3" label="客户标识" row="1" type="0" />
+<tableitem align="2" filedname="idType" id="4" indexed="4" label="证件类型" row="1" type="0" />
+<tableitem align="2" filedname="idNo" id="5" indexed="5" label="证件号" row="1" type="0" />
+<tableitem align="2" filedname="engName" id="6" indexed="6" label="外文名称" row="1" type="0" />
+<tableitem align="2" filedname="certOrgNo" id="7" indexed="7" label="组织机构代码证" row="1" type="0" />
+<tableitem align="2" filedname="certOrgChkDate" id="8" indexed="8" label="组织机构代码年检时间" row="1" type="0" />
+<tableitem align="2" filedname="locTaxNo" id="9" indexed="9" label="地税登记证" row="1" type="0" />
+<tableitem align="2" filedname="cenTaxNo" id="10" indexed="10" label="国税登记证" row="1" type="0" />
+<tableitem align="2" filedname="licRegType" id="11" indexed="11" label="营业执照登记注册类型" row="1" type="0" />
+<tableitem align="2" filedname="licNo" id="12" indexed="12" label="营业执照号" row="1" type="0" />
+<tableitem align="2" filedname="licStartDate" id="13" indexed="13" label="注册登记时间" row="1" type="0" />
+<tableitem align="2" filedname="licEndDate" id="14" indexed="14" label="到期时间" row="1" type="0" />
+<tableitem align="2" filedname="licChkDate" id="15" indexed="15" label="营业执照年检时间" row="1" type="0" />
+<tableitem align="2" filedname="licRegAddr" id="16" indexed="16" label="营业执照注册地址" row="1" type="0" />
+<tableitem align="2" filedname="loanCardNo" id="17" indexed="17" label="贷款卡编码" row="1" type="0" />
+<tableitem align="2" filedname="loanCardChkDate" id="18" indexed="18" label="贷款卡年检时间" row="1" type="0" />
+<tableitem align="2" filedname="country" id="19" indexed="19" label="国别" row="1" type="0" />
+<tableitem align="2" filedname="establishDate" id="20" indexed="20" label="成立时间" row="1" type="0" />
+<tableitem align="2" filedname="tradeNo" id="21" indexed="21" label="行业分类编号" row="1" type="0" />
+<tableitem align="2" filedname="tradeName" id="22" indexed="22" label="行业名称" row="1" type="0" />
+<tableitem align="2" filedname="areaNo" id="23" indexed="23" label="行政区划编号" row="1" type="0" />
+<tableitem align="2" filedname="areaName" id="24" indexed="24" label="行政区划名称" row="1" type="0" />
+<tableitem align="2" filedname="projSize" id="25" indexed="25" label="企业规模" row="1" type="0" />
+<tableitem align="2" filedname="curNo" id="26" indexed="26" label="币种" row="1" type="0" />
+<tableitem align="2" filedname="regFund" id="27" indexed="27" label=" 注册资本" row="1" type="0" />
+<tableitem align="2" filedname="factFund" id="28" indexed="28" label=" 实物资本" row="1" type="0" />
+<tableitem align="2" filedname="curFund" id="29" indexed="29" label=" 货币资本" row="1" type="0" />
+<tableitem align="2" filedname="actRecFund" id="30" indexed="30" label=" 实收资本" row="1" type="0" />
+<tableitem align="2" filedname="runRange" id="31" indexed="31" label="经营范围" row="1" type="0" />
+<tableitem align="2" filedname="mainBus" id="32" indexed="32" label="主营业务" row="1" type="0" />
+<tableitem align="2" filedname="assTot" id="33" indexed="33" label=" 资产总额 " row="1" type="0" />
+<tableitem align="2" filedname="saleTot" id="34" indexed="34" label=" 年销售额 " row="1" type="0" />
+<tableitem align="2" filedname="holdType" id="35" indexed="35" label="控股类型" row="1" type="0" />
+<tableitem align="2" filedname="corpType" id="36" indexed="36" label="公司性质" row="1" type="0" />
+<tableitem align="2" filedname="mailAddr" id="37" indexed="37" label="通讯地址" row="1" type="0" />
+<tableitem align="2" filedname="postCode" id="38" indexed="38" label="邮政编码" row="1" type="0" />
+<tableitem align="2" filedname="email" id="39" indexed="39" label="电子邮件地址" row="1" type="0" />
+<tableitem align="2" filedname="fixedTel" id="40" indexed="40" label="联系电话" row="1" type="0" />
+<tableitem align="2" filedname="fax" id="41" indexed="41" label="传真" row="1" type="0" />
+<tableitem align="2" filedname="webUrl" id="42" indexed="42" label="网络地址" row="1" type="0" />
+<tableitem align="2" filedname="busPerName" id="43" indexed="43" label="业务联系人名称" row="1" type="0" />
+<tableitem align="2" filedname="busMobileTel" id="44" indexed="44" label="业务联系人电话" row="1" type="0" />
+<tableitem align="2" filedname="finaPerName" id="45" indexed="45" label="财务部联系人" row="1" type="0" />
+<tableitem align="2" filedname="finaMobileTel" id="46" indexed="46" label="财务部联系电话" row="1" type="0" />
+<tableitem align="2" filedname="busSts" id="47" indexed="47" label="与公司业务往来关系" row="1" type="0" />
+<tableitem align="2" filedname="ifList" id="48" indexed="48" label="是否上市公司" row="1" type="0" />
+<tableitem align="2" filedname="listAddr" id="49" indexed="49" label="上市地" row="1" type="0" />
+<tableitem align="2" filedname="emplNum" id="50" indexed="50" label=" 从业人数" row="1" type="0" />
+<tableitem align="2" filedname="legalReps" id="51" indexed="51" label="法定代表人" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsIdType" id="52" indexed="52" label="法定代表人证件类型" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsIdNo" id="53" indexed="53" label="法定代表人证件号" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsQualCert" id="54" indexed="54" label="法定代表人任职资格证" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsSex" id="55" indexed="55" label="法定代表人性别" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsMobileTel" id="56" indexed="56" label="法定代表人联系电话" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsCensAddr" id="57" indexed="57" label="法定代表人户籍地址" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsMateName" id="58" indexed="58" label="法定代表人配偶姓名" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsMateIdType" id="59" indexed="59" label="法定代表人配偶证件类型" row="1" type="0" />
+<tableitem align="2" filedname="legalRepsMateIdNo" id="60" indexed="60" label="法定代表人配偶证件号码" row="1" type="0" />
+<tableitem align="2" filedname="outGrade" id="61" indexed="61" label="外部信用等级" row="1" type="0" />
+<tableitem align="2" filedname="outOrgName" id="62" indexed="62" label="外部评级机构" row="1" type="0" />
+<tableitem align="2" filedname="outGradeEndDate" id="63" indexed="63" label="外部信用等级到期日期" row="1" type="0" />
+<tableitem align="2" filedname="ifLoc" id="64" indexed="64" label="是否本地客户" row="1" type="0" />
+<tableitem align="2" filedname="ifReg" id="65" indexed="65" label="是否正式客户" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="66" indexed="66" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="orgNo" id="67" indexed="67" label="登记机构号" row="1" type="0" />
+<tableitem align="2" filedname="orgName" id="68" indexed="68" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regNo" id="69" indexed="69" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="regName" id="70" indexed="70" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="lstOrgNo" id="71" indexed="71" label="最新登记机构号" row="1" type="0" />
+<tableitem align="2" filedname="lstOrgName" id="72" indexed="72" label="最新登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="lstRegNo" id="73" indexed="73" label="最新登记人" row="1" type="0" />
+<tableitem align="2" filedname="lstRegName" id="74" indexed="74" label="最新登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="75" indexed="75" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="lstDate" id="76" indexed="76" label="更新日期" row="1" type="0" />
+<tableitem align="2" filedname="finCusNo" id="77" indexed="77" label="财务客户号" row="1" type="0" />
+<tableitem align="2" filedname="finCusName" id="78" indexed="78" label="财务客户简称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="80" indexed="80" label="-" row="1" type="5" typepara="/cusCorpInfo/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="kqlist0001" link="/apiThirdCheckResult/findByPage" para="eadis_page" title="快钱第三方支付和本地数据对账结果表" type="1">
+<tableitem align="1" filedname="merchantName" id="33" indexed="26" label="商户名称" mytitle="商户名称-merchantName" row="1" sortType="1" type="3" typepara="10" width="140" widthType="1"/>
+<tableitem align="1" filedname="cusName" id="32" indexed="28" label="客户名称" row="1" sortType="2" type="0" width="140" widthType="1"/>
+<tableitem align="3" filedname="thirdLoanAmount" id="29" indexed="32" label="三方总额(元)" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="thirdTransType" id="31" indexed="29" label="交易类型" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="orderResult" id="28" indexed="33" label="交易状态" sortType="2" type="6" typepara="PAY_DEAL_TYPE" widthType="0"/>
+<tableitem align="3" filedname="loanAmount" id="30" indexed="31" label="交易总额(元)" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="thirdOrderResult" id="27" indexed="34" label="三方状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="failReason" id="26" indexed="35" label="原因" mytitle="原因-failReason" row="1" sortType="2" type="3" typepara="10" width="150" widthType="1"/>
+<tableitem align="2" filedname="remark" id="25" indexed="36" label="说明" mytitle="说明-remark" row="1" sortType="2" type="3" typepara="10" width="150" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="35" indexed="27" label="合同号" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestTime" id="34" indexed="30" label="交易时间" row="1" sortType="1" type="30" widthType="0"/>
+</table>

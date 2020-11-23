@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="archiveeducation0001" para="eadis_page" link="/mfOaArchivesEducation/findByPage" title="OA人事档案教育经历表" type="1">
+<tableitem align="2" filedname="educationId" id="1" indexed="1" label="教育情况ID" row="1" type="4" typepara="/mfOaArchivesEducation/getById;educationId-educationId;query-'query'"/>
+<tableitem align="2" filedname="opNo" id="2" indexed="2" label="员工ID" row="1" type="0" />
+<tableitem align="2" filedname="gradSchool" id="3" indexed="3" label="毕业院校" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="4" indexed="4" label="入学时间" row="1" type="0" />
+<tableitem align="2" filedname="gradDate" id="5" indexed="5" label="毕业时间" row="1" type="0" />
+<tableitem align="2" filedname="profassional" id="6" indexed="6" label="专业" row="1" type="0" />
+<tableitem align="2" filedname="education" id="7" indexed="7" label="学历" row="1" type="0" />
+<tableitem align="2" filedname="degree" id="8" indexed="8" label="学位" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="10" indexed="10" label="-" row="1" type="5" typepara="/mfOaArchivesEducation/deleteAjax;educationId-educationId;onClick-ajaxDelete(this)" width="2"/>
+</table>

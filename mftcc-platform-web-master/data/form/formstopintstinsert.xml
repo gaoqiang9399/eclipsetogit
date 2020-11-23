@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="stopintstinsert" title="停息申请新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="借据号" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="20" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="申请编号" maxlength="30" mustinput="0" row="4"/>
+<formelement alt="请选择项目合同" datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" maxlength="50" mustinput="1" onclick="MfBusStopIntstApply.getbusappinfo();" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="合同号" maxlength="50" mustinput="0" readonly="1" row="6"/>
+<formelement alt="请先选择项目" datatype="6" fieldalign="1" fieldcol="2" fieldname="stopPlanDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="计划停息日期" maxlength="8" mustinput="1" onclick="MfBusStopIntstApply.stopPlanDate();" row="9" unit="&lt;i class='i i-rili pointer' onClick='MfBusStopIntstApply.stopPlanDate();'&gt;&lt;/i&gt;"/>
+<formelement datatype="8" fieldalign="1" fieldcol="2" fieldname="loanBal" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="贷款余额" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="applyDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="8"/>
+<formelement alt="请选择申请人" datatype="0" fieldalign="1" fieldcol="2" fieldname="applyName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="申请人" maxlength="30" mustinput="1" onclick="MfBusStopIntstApply.getusertinfo();" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyNo" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="申请人编号" maxlength="30" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="intstEndDate" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="借据到期日期" maxlength="8" mustinput="0" row="8"/>
+<formelement alt="最多可输入200汉字" datatype="0" fieldalign="1" fieldcol="2" fieldname="applyCause" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="申请原因" maxlength="200" mustinput="1" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lastReturnDate" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="上次还款日期" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="借据展示号" mustinput="" readonly="1" row="7"/>
+</form>

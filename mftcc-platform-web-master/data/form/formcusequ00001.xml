@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusequ00001" title="股权投资情况">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="equityInfoId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="投资情况ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="toCorpName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="投向企业名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="组织机构代码" maxlength="30" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="eqCardNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="股权证号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pushCapitalType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="出资方式" maxlength="30" mustinput="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="pushCapitalDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="出资日期" maxlength="10" mustinput="1" onfocus="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="pushCapitalAtm" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="投资金额" maxlength="20" mustinput="0" row="4" unit="万元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="pushCapitalScale" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="股权比例" maxlength="10" mustinput="1" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="11" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="5"/>
+</form>

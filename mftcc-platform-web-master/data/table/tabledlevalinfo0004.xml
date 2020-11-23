@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlevalinfo0004" para="eadis_page" title="押品评估信息" type="2">
+<tableitem align="2" filedname="evalAmount" id="6" indexed="6" label="评估价值(万元)" type="15" width="20" widthType="0"/>
+<tableitem align="2" authority="ext3-1" filedname="查询" id="11" indexed="10" label="-" row="1" type="5" typepara="/mfHouseEval/reEvalHouseInfo;evalId-evalId;onClick-RealEstateAssessment.requesSelect;" width="20" widthType="0"/>
+<tableitem align="2" authority="evalState-2;" filedname="evalDate" id="9" indexed="4" label="评估基准日" row="1" type="4" typepara="/evalInfo/listShowDetailAjax;evalId-evalId;oneUrl-'/evalInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="mortRate" id="8" indexed="8" label="抵质押率(%)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="validTerm" id="7" indexed="7" label="评估有效期(月)" row="1" type="0" width="20" widthType="0"/>
+</table>

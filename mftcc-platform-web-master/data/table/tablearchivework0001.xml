@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="archivework0001" para="eadis_page" link="/mfOaArchivesWork/findByPage" title="OA人事档案工作经历表" type="1">
+<tableitem align="2" filedname="workId" id="1" indexed="1" label="工作经历ID" row="1" type="4" typepara="/mfOaArchivesWork/getById;workId-workId;query-'query'"/>
+<tableitem align="2" filedname="opNo" id="2" indexed="2" label="员工op_no" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="3" indexed="3" label="开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="4" indexed="4" label="结束日期" row="1" type="0" />
+<tableitem align="2" filedname="workContent" id="5" indexed="5" label="工作内容" row="1" type="0" />
+<tableitem align="2" filedname="jobTitle" id="6" indexed="6" label="职位" row="1" type="0" />
+<tableitem align="2" filedname="salaryMonth" id="7" indexed="7" label="月薪" row="1" type="0" />
+<tableitem align="2" filedname="confirmPerson" id="8" indexed="8" label="证明人" row="1" type="0" />
+<tableitem align="2" filedname="comfirmTel" id="9" indexed="9" label="证明人电话" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfOaArchivesWork/deleteAjax;workId-workId;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="wkf0021" link="/processDefinition/findByPage" para="eadis_page" title="流程定义查询列表" type="2">
+<tableitem align="2" authority="state-suspended;state-disabled;" buttonMark="ProcessDefinition001" filedname="暂停" id="9" indexed="12" label="-" row="1" type="5" typepara="/processDefinition/suspend;processDeploymentId-deploymentId" width="2"/>
+<tableitem align="1" filedname="state" id="8" indexed="9" label="状态" row="1" type="6" typepara="PROCESS_STS"/>
+<tableitem align="1" filedname="expire" id="6" indexed="7" label="截止时间" row="1" type="0"/>
+<tableitem align="2" fieldStyle="check" filedname="checkid" id="14" indexed="1" label="复选框" row="1" type="2" typepara="id-deploymentId;" widthType="0"/>
+<tableitem align="1" filedname="create" id="5" indexed="6" label="创建时间" row="1" type="0"/>
+<tableitem align="2" buttonMark="ProcessDefinition004" filedname="删除" id="13" indexed="15" label="-" row="1" type="5" typepara="/processDefinition/delete;processDeploymentId-deploymentId;onClick-lkconfirm" width="2"/>
+<tableitem align="1" filedname="version" id="4" indexed="5" label="流程版本" row="1" type="0"/>
+<tableitem align="2" authority="state-active" buttonMark="ProcessDefinition002" filedname="启用" id="12" indexed="13" label="-" row="1" type="5" typepara="/processDefinition/activate;processDeploymentId-deploymentId" width="2"/>
+<tableitem align="1" filedname="description" id="3" indexed="4" label="流程描述" mytitle="流程描述-description;" row="1" type="3" typepara="15" widthType="0"/>
+<tableitem align="2" buttonMark="ProcessDefinition003" filedname="设计" id="11" indexed="14" label="-" row="1" type="5" typepara="#;objectId-id;onClick-openProcessDesigner" width="2"/>
+<tableitem align="1" filedname="name" id="2" indexed="3" label="流程名称" mytitle="流程名称-name" row="1" type="0" typepara="15" widthType="0"/>
+<tableitem align="1" filedname="author" id="10" indexed="10" label="创建者" mytitle="创建者-author" type="0" typepara="10" widthType="0"/>
+<tableitem align="1" filedname="key" id="1" indexed="2" label="流程标识" mytitle="流程标识-key" row="1" type="0" typepara="20" widthType="0"/>
+</table>

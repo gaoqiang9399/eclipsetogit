@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablereturnfeeplan001" title="返费计划列表" type="2">
+<tableitem align="2" authority="outFlag-1" filedname="返费" id="6" indexed="8" label="-" type="5" typepara="/mfBusFeePlan/returnFeeAjax;feePlanId-feePlanId;appId-appId;onclick-returnFee" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="5" indexed="5" label="返费状态" row="1" type="6" typepara="RETURN_FEE_STS" widthType="0"/>
+<tableitem align="2" filedname="feePlanId" id="4" indexed="0" label="费用计划编号" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="feeAmt14" id="3" indexed="1" label="返费金额(元)" row="1" sortType="0" type="12" widthType="0"/>
+<tableitem align="2" filedname="chargingType" id="1" indexed="4" label="返费方式" row="1" type="6" typepara="FEE_CHARGE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="9" indexed="6" label="实际返费日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="feeEndDate" id="8" indexed="3" label="计划结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="feeBeginDate" id="7" indexed="2" label="计划开始日期" row="1" type="1" widthType="0"/>
+</table>

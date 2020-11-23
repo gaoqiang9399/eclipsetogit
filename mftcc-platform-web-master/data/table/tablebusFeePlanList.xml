@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busFeePlanList" para="eadis_page" title="费用计划列表" type="2">
+<tableitem align="2" filedname="feeAmt3" id="29" indexed="20" label="应收取保证金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="feeAmt2" id="31" indexed="19" label="应缴风险保证金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="28" indexed="22" label="费用总额(元)" row="1" type="99" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="feeAmt5" id="25" indexed="16" label="应收服务费(元)" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="outFlag" id="24" indexed="23" label="状态" row="1" type="6" typepara="OUT_FLAG"/>
+<tableitem align="2" filedname="feeEndDate" id="23" indexed="14" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="feeBeginDate" id="22" indexed="8" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="7" indexed="7" label="期号" row="1" type="0"/>
+<tableitem align="2" filedname="feeAmt1" id="12" indexed="15" label="应收担保费(元)" row="1" type="12" widthType="0"/>
+</table>

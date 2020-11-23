@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psscostadjustbill0001" para="eadis_page" title="成本调整单表" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssCostAdjustBill/getById;costAdjustId-costAdjustId;onDbClick-getCAB" type="2">
+<tableitem align="2" filedname="costAdjustId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="costAdjustId-costAdjustId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="单据日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="costAdjustNo" id="2" indexed="3" label="单据编号" mytitle="模板内容-costAdjustNo;" row="1" sortType="2" type="4" typepara="/pssCostAdjustBill/getById;costAdjustId-costAdjustId;onClick-getCAB;subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="adjustType" id="4" indexed="4" label="业务类别" row="1" sortType="1" type="6" typepara="PSS_ADJUST_TYPE" widthType="0"/>
+<tableitem align="3" filedname="adjustAmt" id="5" indexed="5" label="金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="regOpName" id="9" indexed="6" label="制单人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="memo" id="6" indexed="7" label="备注" mytitle="模板内容-memo;" row="1" sortType="2" type="3" typepara="9" widthType="0"/>
+<tableitem align="2" filedname="删除" id="10" indexed="10" label="-" row="1" sortType="2" type="5" typepara="/pssCostAdjustBill/deleteAjax;costAdjustId-costAdjustId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

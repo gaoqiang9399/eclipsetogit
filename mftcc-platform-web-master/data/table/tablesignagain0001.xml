@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="signagain0001" link="/apiSignStatusRecord/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="againSigner" id="15" indexed="12" label="补签者" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="signStatus-1" filedname="补签" id="14" indexed="16" label="-" row="1" type="5" typepara="/apiSignStatusRecord/getById;serialNo-serialNo;onClick-getById" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fname" id="3" indexed="3" label="合同名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="occDate" id="11" indexed="7" label="签章日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="upDate" id="16" indexed="13" label="补签日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="signStatus" id="7" indexed="8" label="签章状态" row="1" sortType="2" type="6" typepara="SIGN_STATUS" widthType="0"/>
+</table>

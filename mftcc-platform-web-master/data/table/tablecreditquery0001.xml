@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditquery0001" link="/mfCreditQueryRecordInfo/findByPage" para="eadis_page" title="征信查询记录表" type="2">
+<tableitem align="2" filedname="creditOpNo" id="24" indexed="16" label="征信查询账号" type="0" widthType="0"/>
+<tableitem align="2" filedname="authorizeDate" id="23" indexed="15" label="授权时间" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="查看征信" id="19" indexed="24" label="-" row="1" type="5" typepara=".action;queryId-queryId;onClick-MfCreditQueryRecordInfo.showCreditContent(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="queryReasonNo" id="21" indexed="12" label="查询原因" row="1" type="6" typepara="QUERY_REASON" widthType="0"/>
+<tableitem align="2" filedname="queryTime" id="9" indexed="17" label="查询时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="queryCusType" id="20" indexed="11" label="查询客户类型" row="1" type="6" typepara="QUERY_CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0"/>
+<tableitem align="2" filedname="opName" id="12" indexed="14" label="授权客户经理" row="1" type="0" widthType="0"/>
+</table>

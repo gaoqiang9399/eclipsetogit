@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="formzhuanyongbaseinfo0009" title="专用设备信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="押品名称" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="担保类别" maxlength="2" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgNo" fieldtype="1" formactiveid="17" labelalign="3" labelcol="3" labelname="登记机关" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr01" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="抵质押顺位" mustinput="" readonly="" row="14" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr03" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="权属证书编号" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr44" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="生产厂家" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr45" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="品牌" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr46" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="型号" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr47" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="数量" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extDic09" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="出厂编号" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr16" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="在用状态" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="extOstr07" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="存放地点" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr13" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="取得方式" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr04" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="3" labelname="权属证明" mustinput="" readonly="" row="10" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="exportDate" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="取得日期" mustinput="" readonly="" row="10" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr05" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="权属证明编号" mustinput="" readonly="" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr14" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="原始价值" mustinput="" readonly="" row="11" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr31" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="账面价值" mustinput="" readonly="" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr15" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="3" labelname="承载借款余额" mustinput="" readonly="" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr22" fieldsize="YES_NO" fieldtype="2" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="是否可转让" maxlength="2" mustinput="" readonly="" row="13" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="200" mustinput="" readonly="" row="15" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusName" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="5" labelname="客户" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pledgeNo" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="5" labelname="押品编号" mustinput="" readonly="" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="occDate" fieldtype="1" formactiveid="49" horVer="0" labelalign="3" labelcol="1" labelname="出厂日期" mustinput="" readonly="" row="7" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="50" horVer="0" labelalign="3" labelcol="3" labelname="所有权人名称" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="51" horVer="0" labelalign="3" labelcol="3" labelname="押品类别" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="52" horVer="0" labelalign="3" labelcol="1" labelname="押品状态" mustinput="1" readonly="" row="4" />
+</form>

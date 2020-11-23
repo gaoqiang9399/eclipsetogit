@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusDishonestInfoListBase" link="/mfCusDishonestInfo/findByPage" para="eadis_page" title="失信公告 mf_cus_dishonest_info" type="1">
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="40" indexed="12" label="-" row="1" type="5" typepara="/mfCusDishonestInfo/getById;dishonestId-dishonestId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusDishonestInfo/updateAjax';onClick-updateCusTableInfo(this);subStringNub-16;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="38" indexed="41" label="-" row="1" type="5" typepara="/mfCusDishonestInfo/deleteAjax;dishonestId-dishonestId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="dishonestPersonType" id="5" indexed="8" label="失信人类型" row="1" type="99" typepara="DISHONEST_PERSON_TYPE" widthType="0"/>
+<tableitem align="2" filedname="caseNo" id="4" indexed="4" label="案号" row="1" type="4" typepara="/mfCusDishonestInfo/listShowDetailAjax;dishonestId-dishonestId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusDishonestInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" filedname="courtName" id="9" indexed="6" label="执行法院" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="caseDate" id="41" indexed="7" label="立案时间" type="0" widthType="0"/>
+<tableitem align="2" filedname="releaseDate" id="7" indexed="5" label="发布时间" row="1" type="1" widthType="0"/>
+</table>

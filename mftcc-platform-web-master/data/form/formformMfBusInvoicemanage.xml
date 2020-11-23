@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formMfBusInvoicemanage" title="发票申请表单">
+<formelement alt="请选择客户" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick= 'MfBusInvoicemanage_Form .selectLegalPerson();'&gt;&lt;/i&gt;"/>
+<formelement alt="请选择项目名称" datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceFincname" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="开票项目名称" mustinput="1" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick= 'MfBusInvoicemanage_Form .selectLegalpro();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceTermnum" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="开票列表" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceType" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="开具类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceNo" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="发票代码" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceNumber" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="发票号码" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceChecknumber" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="校验码" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="纳税人识别号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="commAddress" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceServicename" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="货物应税劳务/服务名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="specificationType" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="规格型号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceUnit" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="单位" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceTotal" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="数量" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoicePrice" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="单价" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceMoney" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceTax" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="税率" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceTaxprice" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="税额" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceTotaltaxprice" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="价税合计" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invoiceApplyquetion" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="申请原因" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="ext2" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="备注" mustinput="" readonly="" row="11" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="1"/>
+</form>

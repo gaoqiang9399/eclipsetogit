@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawncvrg0001" para="eadis_page" link="" title="质押保函保证" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnCvrg/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="cvrgId" id="2" indexed="2" label="保函号码" row="1" type="0" />
+<tableitem align="2" filedname="cvrgType" id="3" indexed="3" label="保函类型" row="1" type="0" />
+<tableitem align="2" filedname="cvrgAppId" id="4" indexed="4" label="保函申请人代码" row="1" type="0" />
+<tableitem align="2" filedname="cvrgAppName" id="5" indexed="5" label="保函申请人名称" row="1" type="0" />
+<tableitem align="2" filedname="beneficiaryId" id="6" indexed="6" label="受益人代码" row="1" type="0" />
+<tableitem align="2" filedname="beneficiaryName" id="7" indexed="7" label="受益人名称" row="1" type="0" />
+<tableitem align="2" filedname="cvrgCt" id="8" indexed="8" label="保证币种" row="1" type="0" />
+<tableitem align="2" filedname="cvrgAmount" id="9" indexed="9" label="保证金额" row="1" type="0" />
+<tableitem align="2" filedname="issueBankName" id="10" indexed="10" label="签发行名称" row="1" type="0" />
+<tableitem align="2" filedname="issueDate" id="11" indexed="11" label="签发日期" row="1" type="0" />
+<tableitem align="2" filedname="dueDate" id="12" indexed="12" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="unfavorCondition" id="13" indexed="13" label="不利条款" row="1" type="0" />
+</table>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="creditapprinfo0001" para="eadis_page" link="/mfCusCreditApproveInfo/findByPage" title="授信审批信息表" type="1">
+<tableitem align="2" filedname="creditApproveId" id="1" indexed="1" label="" row="1" type="4" typepara="/mfCusCreditApproveInfo/getById;creditApproveId-creditApproveId;query-'query'"/>
+<tableitem align="2" filedname="creditAppId" id="2" indexed="2" label="授信申请编号" row="1" type="0" />
+<tableitem align="2" filedname="adjustAppId" id="3" indexed="3" label="授信调整申请编号" row="1" type="0" />
+<tableitem align="2" filedname="cusType" id="4" indexed="4" label="客户类型" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="5" indexed="5" label="客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="creditSum" id="7" indexed="7" label="授信总额" row="1" type="0" />
+<tableitem align="2" filedname="isCeilingLoop" id="8" indexed="8" label="额度是否可循环" row="1" type="0" />
+<tableitem align="2" filedname="creditTerm" id="9" indexed="9" label="授信期限" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="10" indexed="10" label="授信起日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="11" indexed="11" label="授信止日期" row="1" type="0" />
+<tableitem align="2" filedname="adjCreditSum" id="12" indexed="12" label="授信调整总额" row="1" type="0" />
+<tableitem align="2" filedname="adjIsCeilingLoop" id="13" indexed="13" label="调整额度是否可循环" row="1" type="0" />
+<tableitem align="2" filedname="adjCreditTerm" id="14" indexed="14" label="授信调整期限" row="1" type="0" />
+<tableitem align="2" filedname="adjBeginDate" id="15" indexed="15" label="授信调整起日期" row="1" type="0" />
+<tableitem align="2" filedname="adjEndDate" id="16" indexed="16" label="授信调整止日期" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="17" indexed="17" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="18" indexed="18" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="19" indexed="19" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="20" indexed="20" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="21" indexed="21" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="22" indexed="22" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="creditSts" id="23" indexed="23" label="授信状态1:申请中2:审批中3:审批通过4:已否决5:已签约" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="24" indexed="24" label="登记人号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="25" indexed="25" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="26" indexed="26" label="登记机构号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="27" indexed="27" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="28" indexed="28" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="29" indexed="29" label="最近修改时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="31" indexed="31" label="-" row="1" type="5" typepara="/mfCusCreditApproveInfo/deleteAjax;creditApproveId-creditApproveId;onClick-ajaxDelete(this)" width="2"/>
+</table>

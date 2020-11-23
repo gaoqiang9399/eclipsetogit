@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="includeesignertemplatemodel" para="eadis_page" title="电签模板列表" type="1">
+<tableitem align="2" filedname="ifEsigned" id="12" indexed="7" label="签约状态" sortType="2" type="6" typepara="IF_ESIGNED" width="20" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="3" indexed="6" label="文档名称" mytitle="文档名称-templateNameZh;" row="1" sortType="2" type="4" typepara="/mfTemplateBizConfig/readFile;templateBizConfigId-templateBizConfigId;onclick-esignTemplateList.openFile;" width="40" widthType="0"/>
+<tableitem align="2" authority="ifEsigned-2;" filedname="签约" id="11" indexed="14" label="-" row="1" sortType="2" type="5" typepara="/mfCusCreditApply/DZQY;temBizNo-temBizNo;templateNo-templateNo;onclick-getDZQY;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="docType" filedname="templateNameEn" id="2" indexed="4" label="文档类型" row="1" sortType="2" type="6" width="20" widthType="0"/>
+</table>

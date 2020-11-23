@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivemainconfim" para="eadis_page" title="归档确认" type="1">
+<tableitem align="3" filedname="归档确认" id="9" indexed="10" label="-" row="1" type="5" typepara="/archiveInfoMain/inputConfim;archiveMainNo-archiveMainNo;onClick-inputConfim" width="2" widthType="0"/>
+<tableitem align="3" filedname="creditAppNo" id="6" indexed="4" label="授信编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="客户名称" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="kindName" id="4" indexed="6" label="产品名称" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="optType" id="12" indexed="3" label="归档类型" row="1" type="6" typepara="ARCHIVE_TYPE_SHOW" widthType="0"/>
+<tableitem align="3" filedname="archiveStatus" id="3" indexed="9" label="档案状态" row="1" sortType="2" type="6" typepara="ARCHIVE_STATUS" width="8" widthType="0"/>
+<tableitem align="2" filedname="archivePactStatus" id="11" indexed="2" label="业务类型" type="6" typepara="ARCHIVE_PACT_STATUS" widthType="0"/>
+<tableitem align="3" filedname="pactNo" id="10" indexed="5" label="委托合同编号" row="1" sortType="2" type="4" typepara="/archiveInfoMain/getDetailPage;archiveMainNo-archiveMainNo;onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="archiveDate" id="1" indexed="7" label="归档日期" row="1" sortType="1" type="99" width="10" widthType="0"/>
+</table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssconf0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="confId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="数据主键" maxlength="40" mustinput="0" param2="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="numDecimalDigit" fieldsize="PSS_DECIMAL_DIGIT" fieldtype="2" formactiveid="4" labelalign="3" labelcol="1" labelname="数量小数位" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amtDecimalDigit" fieldsize="PSS_DECIMAL_DIGIT" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="单价小数位" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startNegativeInv" fieldsize="PSS_ENABLED_STATUS" fieldtype="4" formactiveid="6" labelalign="3" labelcol="1" labelname="负库存检查" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startApproval" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="启用审核" maxlength="1" mustinput="0" param2="2" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startDuty" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="启用税金" maxlength="1" mustinput="0" param2="2" row="8"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="dutyRate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="增值税税率(%)" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startPlusDuty" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="商品价格是否含税" maxlength="1" mustinput="0" param2="2" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startPropHelper" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="启用辅助属性" maxlength="1" mustinput="0" param2="2" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startSn" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="启用序列号" maxlength="1" mustinput="0" param2="2" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startExpDate" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="启用批次保质期管理" maxlength="1" mustinput="0" param2="2" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startAutoAmt" fieldsize="PSS_CHECK_ONLY" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="启用自动填充结算金额" maxlength="1" mustinput="0" param2="2" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startAps" fieldsize="PSS_ENABLED_STATUS" fieldtype="4" formactiveid="15" labelalign="3" labelcol="1" labelname="分仓核算" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invPricingMethod" fieldsize="PSS_RATE_METHOD" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="存货计价方法" mustinput="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curType" fieldtype="1" formactiveid="27" horVer="0" initvalue="RMB" labelalign="3" labelcol="1" labelname="本位币" mustinput="" readonly="1" row="1"/>
+</form>

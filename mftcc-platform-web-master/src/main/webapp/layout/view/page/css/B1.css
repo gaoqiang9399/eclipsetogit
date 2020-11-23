@@ -1,0 +1,102 @@
+body {
+  padding: 0px;
+}
+._mCS_B1 .mCSB_scrollTools {
+  width: 10px;
+}
+._mCS_B1 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #a19c9c;
+  background-color: rgba(107, 107, 107, 0.8);
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+  width: 3px;
+  border-radius: 2px;
+}
+._mCS_B1 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background-color: #838383;
+  background-color: rgba(122, 122, 122, 0.9);
+  filter: "alpha(opacity=85)";
+  -ms-filter: "alpha(opacity=85)";
+}
+._mCS_B1 .mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #969292;
+  background-color: rgba(185, 185, 185, 0.4);
+  filter: "alpha(opacity=40)";
+  -ms-filter: "alpha(opacity=40)";
+}
+.work-zone-tree {
+  width: 200px;
+  height: 100%;
+  background-color: #EEF1F7;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.work-zone-tree .ztree {
+  margin: 15px;
+  padding: 0px;
+  color: #333
+}
+.work-zone-tree .ztree li a.level1 span {
+  font-weight: normal;
+}
+.work-zone-tree .ztree li a.level2 span {
+  font-weight: normal;
+}
+.work-zone-tree .ztree li input.level0 {
+  border: 1px solid #c7d2e1;
+  height: 29px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 130px;
+  padding: 3px;
+}
+.work-zone-tree li a.level0 {
+	height: 30px;
+	text-align: left;
+	display: block;
+	background-color: #EEF1F7;
+	padding-left: 30px;
+	letter-spacing: 4px;
+}
+.work-zone-search{
+  position: relative;
+}
+.work-zone-text {
+  margin: 5px;
+  width: 190px;
+}
+.work-zone-search .fa {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	font-size: 16px;
+}
+.work-zone-title{
+  background-color: #DEE4ED;
+  height: 30px;
+  padding: 8px 5px 8px 20px;
+  font-size: 12px;
+  position: relative;
+}
+.work-zone-title i{
+  position: absolute;
+  right: 0px;
+  top:10px;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+.work-zone-title .gray{
+  background-color: #AFB4BB;
+  right: 30px;
+}
+.work-zone-title .blue{
+  background-color: #4FB7B8;
+  right: 18px;
+}
+.work-zone-title .red{
+  background-color: #F8870F;
+  right: 6px;
+}

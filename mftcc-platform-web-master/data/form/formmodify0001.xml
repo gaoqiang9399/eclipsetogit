@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="modify0001" title="动产调价申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="押品名称" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="押品编号" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeWorth" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="押品价值" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="单价" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustedWorth" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="调整后价值" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustedUnitPrice" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="调整后单价" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustedBasis" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="调价依据" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustedReason" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="调价原因" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appSts" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="申请状态0新增申请1审批中2审批通过3否决" maxlength="1" mustinput="0" row="5"/>
+</form>

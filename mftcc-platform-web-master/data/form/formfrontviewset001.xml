@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="frontviewset001" title="前端交易_网站基础设置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="网站名称" mustinput="" param="name;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="licenseName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="营业执照名称" mustinput="" param="name;" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="referInfo" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="备案信息" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="qqServicer" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="QQ在线客服" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="email" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="服务邮箱" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="openTime" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="网站营业时间" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tel" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="400电话" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="copyrightInfo" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="版权信息" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sinaWb" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="新浪微博" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tencentWb" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="腾讯微博" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="countCode" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="站长统计代码" maxlength="400" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="12" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="name" readonly="" row="1"/>
+</form>

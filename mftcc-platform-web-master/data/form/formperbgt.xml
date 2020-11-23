@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="perbgt" title="个人风险信息曝光台">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bgtId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="曝光台ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="body" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="内容" maxlength="400" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pname" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="当事人" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sortTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="时间" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="court" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="法院" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataType" fieldsize="CASE_DATA_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="数据类型" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sortTimeString" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="日期(中文)" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="proposer" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNo" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="案号" mustinput="" readonly="" row="4"/>
+</form>

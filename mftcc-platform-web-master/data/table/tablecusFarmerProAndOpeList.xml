@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusFarmerProAndOpeList" para="eadis_page" title="农户主要生产经营信息列表（吉林金控）" type="1">
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="26" indexed="7" label="-" row="1" type="5" typepara="/mfCusFarmerProAndOpe/getById;id-id;cusNo-cusNo;oneUrl-'/mfCusFarmerProAndOpe/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="opeProjectType" id="5" indexed="5" label="经营项目种类" row="1" type="6" typepara="OPE_PROJECT_TYPE_FG_JLJK" width="30" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="25" indexed="26" label="-" type="5" typepara="/mfCusFarmerProAndOpe/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="unitPro" id="4" indexed="4" label="单位产量" row="1" type="4" typepara="/mfCusFarmerProAndOpe/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusFarmerProAndOpe/updateByOneAjax';onClick-listShowDetail(this);" width="30" widthType="0"/>
+<tableitem align="2" filedname="opeVarieties" id="8" indexed="6" label="经营品种" row="1" type="6" typepara="OPE_VARIETIES" widthType="0"/>
+</table>

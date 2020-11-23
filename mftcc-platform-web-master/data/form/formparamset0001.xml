@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="paramset0001" title="系统参数设置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pcode" fieldtype="1" fieldwidth="20" formactiveid="2" labelalign="3" labelcol="1" labelname="序列号" labelwidth="20" maxlength="8" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pname" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="参数名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pvalue" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="参数化值" maxlength="20" mustinput="0" row="3"/>
+<formelement calculationType="onBlur" datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="1" fieldwidth="10" formactiveid="5" labelalign="3" labelcol="1" labelname="参数描述" labelwidth="10" maxlength="100" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isFlag" fieldtype="99" formactiveid="6" labelalign="3" labelcol="2" labelname="是否启用" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isShow" fieldtype="99" formactiveid="7" labelalign="3" labelcol="2" labelname="是否对外展示" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="ptype" fieldtype="99" formactiveid="8" labelalign="3" labelcol="2" labelname="文本类型" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="params" fieldtype="99" formactiveid="9" labelalign="3" labelcol="2" labelname="类型参数" maxlength="500" mustinput="0" row="5"/>
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="accnttrans0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="合同展示号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDateAccnt" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="单据到期日" maxlength="10" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="transferCount" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="转让笔数" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="paperNo" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="票据号码" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="transferAmt" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="转让金额" maxlength="20" mustinput="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputeSts" fieldsize="YES_NO" fieldtype="2" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="是否有商纠" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="disputeAmt" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="商纠金额" maxlength="20" mustinput="0" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldsize="50" fieldtype="5" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="9" textAreaFieldRows="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pactId" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="2" labelname="合同ID" mustinput="1" readonly="1" row="1" />
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="guaranteeMaintainInfo" para="eadis_page" title="保函信息维护列表" type="1">
+<tableitem align="2" fieldStyle="guarantee" filedname="保函信息维护" id="26" indexed="18" label="-" row="1" type="5" typepara="/mfGuaranteeRegistration/inputMainTainInfo;pactId-pactId;onClick-MfGuaranteeRegistration_MaintainInfoList.update(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="guaranteeEndDate" id="14" indexed="14" label="保函有效期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="5" indexed="6" label="委托保证合同" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfGuaranteeRegistration_MaintainInfoList.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="13" indexed="7" label="保函金额（元）" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="guaranteeNo" id="12" indexed="13" label="保函编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="guaSts" id="16" indexed="16" label="保函状态" row="1" sortType="2" type="6" typepara="GUA_STS" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="7" indexed="5" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfGuaranteeRegistration_MaintainInfoList.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

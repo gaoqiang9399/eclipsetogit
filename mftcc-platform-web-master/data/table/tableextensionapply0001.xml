@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="extensionapply0001" para="eadis_page" link="/mfBusExtensionApply/findByPage" title="展期申请表" type="1">
+<tableitem align="2" filedname="extensionApplyId" id="1" indexed="1" label="展期申请号" row="1" type="4" typepara="/mfBusExtensionApply/getById;extensionApplyId-extensionApplyId;query-'query'"/>
+<tableitem align="2" filedname="appId" id="2" indexed="2" label="业务申请编号" row="1" type="0" />
+<tableitem align="2" filedname="appName" id="3" indexed="3" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="4" indexed="4" label="合同号" row="1" type="0" />
+<tableitem align="2" filedname="fincId" id="5" indexed="5" label="借据号" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="6" indexed="6" label="产品编号" row="1" type="0" />
+<tableitem align="2" filedname="kindName" id="7" indexed="7" label="产品名称" row="1" type="0" />
+<tableitem align="2" filedname="busModel" id="8" indexed="8" label="业务模式" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="9" indexed="9" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="10" indexed="10" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="loanBal" id="11" indexed="11" label="借据余额" row="1" type="0" />
+<tableitem align="2" filedname="repayType" id="12" indexed="12" label="还款方式1等额本息2等额本金3利随本清4到期还本按月结息5到期还本按季结息6按计划" row="1" type="0" />
+<tableitem align="2" filedname="normCalcType" id="13" indexed="13" label="利息计算方式 2按月计息 3按日计息" row="1" type="0" />
+<tableitem align="2" filedname="fincUse" id="14" indexed="14" label="贷款投向" row="1" type="0" />
+<tableitem align="2" filedname="fincUseDes" id="15" indexed="15" label="贷款用途" row="1" type="0" />
+<tableitem align="2" filedname="termType" id="16" indexed="16" label="期限类型1月2天" row="1" type="0" />
+<tableitem align="2" filedname="vouType" id="17" indexed="17" label="担保方式1信用2保证3抵押4质押5转让" row="1" type="0" />
+<tableitem align="2" filedname="fincRate" id="18" indexed="18" label="原业务利率" row="1" type="0" />
+<tableitem align="2" filedname="extenFincRate" id="19" indexed="19" label="展期利率" row="1" type="0" />
+<tableitem align="2" filedname="extenOverFloat" id="20" indexed="20" label="展期逾期利率上浮" row="1" type="0" />
+<tableitem align="2" filedname="extenCmpdFloat" id="21" indexed="21" label="展期复利利率上浮" row="1" type="0" />
+<tableitem align="2" filedname="extenTerm" id="22" indexed="22" label="展期期限" row="1" type="0" />
+<tableitem align="2" filedname="extenBeginDate" id="23" indexed="23" label="展期起始日期" row="1" type="0" />
+<tableitem align="2" filedname="extenEndDate" id="24" indexed="24" label="展期结束日期" row="1" type="0" />
+<tableitem align="2" filedname="extenRemark" id="25" indexed="25" label="项目说明" row="1" type="0" />
+<tableitem align="2" filedname="wkfAppId" id="26" indexed="26" label="展期审批关联编号" row="1" type="0" />
+<tableitem align="2" filedname="extenAppSts" id="27" indexed="27" label="展期申请状态0未提交1流程中2审批完成3发回重审4补充资料5否决" row="1" type="0" />
+<tableitem align="2" filedname="manageOpName" id="35" indexed="35" label="办理人员名称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="45" indexed="45" label="-" row="1" type="5" typepara="/mfBusExtensionApply/deleteAjax;extensionApplyId-extensionApplyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

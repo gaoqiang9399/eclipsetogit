@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="ReportConditionDetail" title="报表查询条件详情表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="报表编号" maxlength="200" mustinput="0" onblur="MfReportQueryConditionConfig.validateReportId();" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="报表名称" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="conditonContent" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="查询条件值" maxlength="5000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sqlJavaFlag" fieldsize="SQL_JAVA_FLAG" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="实现方式" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="jsonFlag" fieldsize="JSON_FLAG" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="返回类型" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="conditonShow" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="查询条件内容" maxlength="1000" mustinput="0" row="7"/>
+</form>

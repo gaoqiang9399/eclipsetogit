@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="movabletransfer0001" para="eadis_page" link="/mfMoveableTransferApply/findByPage" title="动产移库申请表" type="1">
+<tableitem align="2" filedname="cusNoWarehouse" id="2" indexed="2" label="仓储机构" row="1" type="0" />
+<tableitem align="2" filedname="cusNameWarehouse" id="3" indexed="3" label="仓储机构名称" row="1" type="0" />
+<tableitem align="2" filedname="warehouseAddress" id="4" indexed="4" label="仓库地点" row="1" type="0" />
+<tableitem align="2" filedname="pledgeNum" id="5" indexed="5" label="押品数量" row="1" type="0" />
+<tableitem align="2" filedname="pledgeDetail" id="6" indexed="6" label="货物清单" row="1" type="0" />
+<tableitem align="2" filedname="transferReason" id="7" indexed="7" label="移库原因" row="1" type="0" />
+<tableitem align="2" filedname="appSts" id="8" indexed="8" label="申请状态0新增申请1审批中2审批通过3否决" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="17" indexed="17" label="-" row="1" type="5" typepara="/mfMoveableTransferApply/deleteAjax;transferId-transferId;onClick-ajaxDelete(this)" width="2"/>
+</table>

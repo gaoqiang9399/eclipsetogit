@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou0013" title="抵押物-土地表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaCode" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="区域编码" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="区域名称" maxlength="33" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="landType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="土地使用权性质" maxlength="0" mustinput="0" row="2"/>
+</form>

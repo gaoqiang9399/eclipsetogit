@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app0203" title="概况客户信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="cusName" fieldtype="1" fieldwidth="30" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labellink="#;cusNo-cusNo;cusType-cusType;onClick-goToCus" labelname="承租人" labelwidth="20" maxlength="80" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="sex" fieldsize="SEX" fieldtype="21" fieldwidth="30" formactiveid="2" horVer="0" labelalign="1" labelcol="3" labelname="性别" labelwidth="20" mustinput="" readonly="" row="1" />
+<formelement datatype="1" fieldalign="3" fieldcol="2" fieldname="age" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="年龄" maxlength="5" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="marrige" fieldsize="MARRIGE" fieldtype="21" formactiveid="4" horVer="0" labelalign="1" labelcol="3" labelname="婚姻状况" mustinput="" readonly="" row="3" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="income" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="1" labelname="月收入" maxlength="16" mustinput="" readonly="" row="4" unit="元" />
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="monDebtAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="月供" maxlength="16" mustinput="" readonly="" row="5" unit="元" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitName" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="1" labelname="单位名称" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="edu" fieldsize="EDU" fieldtype="21" formactiveid="8" horVer="0" labelalign="1" labelcol="3" labelname="最高学历" maxlength="2" mustinput="" readonly="" row="4" />
+<formelement cutOff="20" datatype="0" fieldalign="3" fieldcol="4" fieldname="unitTrade" fieldsize="WAY_NO" fieldtype="21" formactiveid="11" horVer="0" labelalign="1" labelcol="3" labelname="所属行业" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="duties" fieldsize="DUTIES" fieldtype="99" formactiveid="12" horVer="0" labelalign="1" labelcol="3" labelname="职务" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="feedNum" fieldsize="FEED_NUM" fieldtype="21" formactiveid="13" horVer="0" labelalign="1" labelcol="1" labelname="供养人口" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="healSts" fieldsize="HEAL_STS" fieldtype="21" formactiveid="14" horVer="0" labelalign="1" labelcol="1" labelname="健康状况" mustinput="" readonly="" row="8" />
+<formelement cutOff="20" datatype="0" fieldalign="3" fieldcol="2" fieldname="unitNature" fieldsize="UNIT_NATURE" fieldtype="21" formactiveid="15" horVer="0" labelalign="1" labelcol="1" labelname="单位性质" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitAddrPostCode" fieldtype="99" formactiveid="16" horVer="0" labelalign="1" labelcol="1" labelname="单位邮编" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="resideSts" fieldsize="RESIDE_STS" fieldtype="21" formactiveid="17" horVer="0" labelalign="1" labelcol="3" labelname="居住状况" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="housePropType" fieldsize="HOUSES_PROP_TYPE" fieldtype="21" formactiveid="18" horVer="0" labelalign="1" labelcol="3" labelname="房产类型" mustinput="" readonly="" row="7" />
+<formelement cutOff="20" datatype="0" fieldalign="3" fieldcol="4" fieldname="unitAddr" fieldtype="1" formactiveid="19" horVer="0" labelalign="1" labelcol="3" labelname="单位地址" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="corpFixedTel" fieldtype="1" formactiveid="20" horVer="0" labelalign="1" labelcol="3" labelname="单位电话" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="21" formactiveid="21" horVer="0" labelalign="1" labelcol="1" labelname="证件类型" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="idNo" fieldtype="1" formactiveid="22" horVer="0" labelalign="1" labelcol="3" labelname="证件号码" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="11" />
+</form>

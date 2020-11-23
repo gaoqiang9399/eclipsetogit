@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psscostadjustdetailbill0001" para="eadis_page" title="成本调整单明细表" type="2">
+<tableitem align="2" filedname="goodsId" id="9" indexed="5" label="商品" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="storehouseId" id="8" indexed="10" label="仓库" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="memo" id="7" indexed="12" label="分录备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="adjustDetailAmt" id="6" indexed="11" label="调整金额" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="storehouseName" id="5" indexed="9" label="仓库" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="4" indexed="4" label="商品" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="3" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="unitId" id="12" indexed="7" label="单位" type="99" widthType="0"/>
+<tableitem align="2" filedname="unitName" id="11" indexed="6" label="单位" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="searchFlag" id="10" indexed="8" label="库存查询" row="1" type="0" width="2" widthType="0"/>
+</table>

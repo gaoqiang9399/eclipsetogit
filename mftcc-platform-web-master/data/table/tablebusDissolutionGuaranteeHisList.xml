@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busDissolutionGuaranteeHisList" para="eadis_page" title="解保历史列表" type="2">
+<tableitem align="2" filedname="cusType" id="11" indexed="0" label="客户类别" row="1" sortType="2" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'2';onClick-MfBusDissolutionGuarantee.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="委托合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;" widthType="0"/>
+<tableitem align="2" filedname="amt" id="2" indexed="4" label="担保金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="opName" id="16" indexed="10" label="解保操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="dissolutionType" id="10" indexed="11" label="解保类型" row="1" sortType="1" type="6" typepara="DISSOLUTION_TYPE" widthType="0"/>
+<tableitem align="2" filedname="dissolutionDate" id="19" indexed="17" label="解保日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="详情" id="17" indexed="18" label="-" row="1" type="5" typepara=";id-id;onClick-MfBusDissolutionGuarantee.openDetailPage(this);" widthType="0"/>
+</table>

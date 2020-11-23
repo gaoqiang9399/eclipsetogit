@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="busInterGuaranAdjustDetailBase" title="预收利担费调整记录表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="99" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="主键id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="20" formactiveid="2" labelalign="1" labelcol="2" labelname="客户编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="advanceInterest" fieldtype="1" maxlength="20" formactiveid="4" labelalign="1" labelcol="2" labelname="预收利息" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="advanceGuarantee" fieldtype="1" maxlength="20" formactiveid="5" labelalign="1" labelcol="1" labelname="预收担保费" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="adjustDate" fieldtype="1" maxlength="8" formactiveid="6" labelalign="1" labelcol="2" labelname="调整日期" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="500" formactiveid="7" labelalign="1" labelcol="1" labelname="备注" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="8" labelalign="1" labelcol="2" labelname="登记人编号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="40" formactiveid="9" labelalign="1" labelcol="1" labelname="登记人姓名" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="brNo" fieldtype="1" maxlength="10" formactiveid="10" labelalign="1" labelcol="2" labelname="登记部门编号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="1" maxlength="80" formactiveid="11" labelalign="1" labelcol="1" labelname="登记部门名称" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="regDate" fieldtype="1" maxlength="8" formactiveid="12" labelalign="1" labelcol="2" labelname="登记日期" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModDate" fieldtype="1" maxlength="8" formactiveid="13" labelalign="1" labelcol="1" labelname="最后修改日期" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="14" labelalign="1" labelcol="2" labelname="登记时间" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="15" labelalign="1" labelcol="1" labelname="最后修改时间" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="16" labelalign="1" labelcol="2" labelname="预留字段" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="17" labelalign="1" labelcol="1" labelname="" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="18" labelalign="1" labelcol="2" labelname="" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="extInt" fieldtype="1" maxlength="0" formactiveid="19" labelalign="1" labelcol="1" labelname="" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="extNum" fieldtype="1" maxlength="16" formactiveid="20" labelalign="1" labelcol="2" labelname="" mustinput="0" row="19"/>
+</form>

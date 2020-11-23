@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="teststudent0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="主键 也是学生的学号" maxlength="128" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="学生的姓名" maxlength="128" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentSex" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="学生的性别" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentBirth" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="学生生日 YYYY-MM-DD" maxlength="255" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentCharacter" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="学生的性格 取值需要在词典表中进行查找" maxlength="255" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="studentHobby" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="爱好，可以有多，多个时用逗号隔开" maxlength="255" mustinput="0" row="6"/>
+</form>

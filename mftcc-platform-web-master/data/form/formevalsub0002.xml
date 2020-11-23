@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="evalsub0002" title="评级指标项子项">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="subId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="4" labelname="子项编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="subNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="4" labelname="子项名" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="subName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="子项名称" maxlength="500" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="子项描述" maxlength="1000" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="propertyId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="4" labelname="评级指标编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="propertyNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="4" labelname="评级指标名" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="启用标识" mustinput="" readonly="" row="2" />
+</form>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="credit0001" title="授信申请动态表单信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="表单名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="11" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remak" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="表单说明" maxlength="500" mustinput="0" row="3"/>
+</form>

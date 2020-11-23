@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app3013" title="合同申请其他信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appRegName" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="销售人员名称" maxlength="80" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appRegTel" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="销售人员电话" maxlength="20" mustinput="" readonly="" row="2" />
+</form>

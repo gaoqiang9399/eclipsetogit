@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincApproveBatchListBase" para="eadis_page" title="批量出账申请审批明细基础列表" type="2">
+<tableitem align="2" filedname="fincShowId" id="10" indexed="5" label="借据编号" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="4" indexed="6" label="借据金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="13" indexed="7" label="放款金额（隐藏）" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="11" indexed="8" label="期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="5" indexed="9" label="起息日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="8" indexed="10" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="putoutAppDate" id="6" indexed="11" label="申请日期" row="1" type="1" widthType="0"/>
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="alliancetakeuphis0001" link="/mfBusAllianceTakeupHis/findByPage" para="eadis_page" title="联保体额度占用历史" type="2">
+<tableitem align="2" filedname="regTime" id="14" indexed="13" label="变更时间" row="1" type="30" width="25" widthType="0"/>
+<tableitem align="2" filedname="appendLimit" id="5" indexed="4" label="额度变化(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="availableBalance" id="4" indexed="5" label="可用余额(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loanLimit" id="3" indexed="14" label="授信额度(元)" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="opName" id="11" indexed="10" label="操作人名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="type" id="7" indexed="3" label="变更类型" type="6" typepara="ALLIANCE_TAKEUP_TYPE" width="15" widthType="0"/>
+</table>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssotherstockoutdetailbill0001" para="eadis_page" title="其他出库单明细表" type="2">
+<tableitem align="1" filedname="memo" id="9" indexed="16" label="分录备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="outCost" id="8" indexed="15" label="出库成本" row="1" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="3" filedname="outUnitCost" id="7" indexed="14" label="出库单位成本" row="1" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="freightSpaceNo" id="16" indexed="11" label="仓位" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="3" filedname="otherOutQty" id="6" indexed="13" label="数量" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="freightSpaceId" id="15" indexed="12" label="仓位ID" type="99" widthType="0"/>
+<tableitem align="2" filedname="unitName" id="14" indexed="6" label="单位" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="storehouseName" id="5" indexed="9" label="仓库" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="4" indexed="4" label="商品" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="unitId" id="13" indexed="7" label="单位" row="1" sortType="2" type="99" width="8" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="3" indexed="3" label="序号" row="1" sortType="2" type="0" width="4" widthType="0"/>
+<tableitem align="2" filedname="searchFlag" id="12" indexed="8" label="库存查询" row="1" type="0" width="2" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="11" indexed="5" label="商品" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="storehouseId" id="10" indexed="10" label="仓库" row="1" type="99" widthType="0"/>
+</table>

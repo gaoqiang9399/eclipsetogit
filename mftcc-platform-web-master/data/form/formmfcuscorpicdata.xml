@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcuscorpicdata" title="企业工商数据">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="公司名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="no" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="注册号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belongOrg" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="登记机关" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="法定代表人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="注销/吊销日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="status" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="登记状态" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="province" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="所在省份" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditCode" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="统一社会信用代码" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updatedDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="记录更新时间" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="成立日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="registCapi" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="注册资本" mustinput="" readonly="1" row="6" unit="万"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="econKind" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="类型" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="address" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="住所" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="scope" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="经营范围" maxlength="500" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termStart" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="营业期限自" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="teamEnd" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="营业期限至" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkDate" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="核准日期" mustinput="" readonly="1" row="8"/>
+</form>

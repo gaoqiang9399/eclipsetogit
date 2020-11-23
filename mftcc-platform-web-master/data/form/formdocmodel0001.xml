@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="docmodel0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docModelName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="模型名称" maxlength="30" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTypeDes" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户类别" maxlength="200" mustinput="0" onclick="selectCusTypeMutiDialog1()" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNoDes" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="产品种类" maxlength="400" mustinput="" onclick="selectKindMutiDialog1(this)" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="docModelNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="模型编号" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="5" labelname="输入框" maxlength="100" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusType" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="输入框" maxlength="50" mustinput="" readonly="" row="4" />
+</form>

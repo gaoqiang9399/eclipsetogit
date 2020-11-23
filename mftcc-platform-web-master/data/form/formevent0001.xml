@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="event0001" title="活动模板配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="模板编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelType" fieldsize="EVENT_MODEL_TYPE" fieldtype="21" formactiveid="2" labelalign="3" labelcol="1" labelname="模板类型" maxlength="6" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelCont" fieldsize="100" fieldtype="5" formactiveid="3" labelalign="3" labelcol="1" labelname="模板内容" maxlength="240" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="objName" fieldsize="100" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="对象名称" maxlength="240" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelSts" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="状态" maxlength="3" mustinput="0" row="3"/>
+</form>

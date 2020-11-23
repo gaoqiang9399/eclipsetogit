@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusRiskManageApprovalhisWkf" title="客户风险处置审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="adjustLevel" fieldsize="EXAM_RISK_LEVEL" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="调整等级" mustinput="" readonly="" row="1"/>
+<formelement alt="请点击选择发放日期" datatype="6" fieldalign="1" fieldcol="2" fieldname="putoutDate" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="发放日期" mustinput="1" onfocus="fPopUpCalendarDlg({min: today,choose:updateEndDateFinc})" readonly="1" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null, updateEndDateFinc)'&gt;&lt;/i&gt;" />
+<formelement alt="到期日期自动计算" datatype="6" fieldalign="1" fieldcol="4" fieldname="intstEndDate" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="到期日期" mustinput="1" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="收款帐号" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldstyle="half" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomName" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="收款人" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="5" labelname="申请编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="4" mustinput="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="wkfRepayId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="还款工作流id" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termType" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="期限类型" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="支用日期" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="riskLevel" fieldsize="EXAM_RISK_LEVEL" fieldtype="2" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="风险等级" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="operateType" fieldsize="RISK_LEVEL_ADJUST_TYPE" fieldtype="2" formactiveid="21" horVer="1" labelalign="1" labelcol="3" labelname="调整类型" mustinput="" readonly="" row="1"/>
+</form>

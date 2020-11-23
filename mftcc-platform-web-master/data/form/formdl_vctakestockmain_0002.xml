@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vctakestockmain_0002" title="抽查盘库信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockMode" fieldsize="VC_TAKE_STOCK_MODE" fieldtype="2" formactiveid="2" labelalign="3" labelcol="1" labelname="盘库方式" maxlength="2" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="takeStockOpName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="盘库人" maxlength="50" mustinput="1" onclick="bindDataSource(this,'1','takeStockOpNo','','true','','','0');" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="合格证" maxlength="4000" mustinput="0" onclick=" selectCertification();" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='selectCertification();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockOpNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="盘库人编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="经销商ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealerName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="经销商" mustinput="1" onclick="bindDealer(this);" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeStockMainId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="盘库主表ID" mustinput="" readonly="" row="3"/>
+</form>

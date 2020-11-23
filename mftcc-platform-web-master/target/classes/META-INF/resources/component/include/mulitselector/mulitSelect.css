@@ -1,0 +1,352 @@
+.mulitSelectorDiv {
+	min-height: 34px;
+	border: 1px solid #d2d3d6;
+	border-radius: 3px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 200px;
+}
+
+#mulitSelector {
+	min-width: 200px;
+	background-color: #ffffff;
+	border: 1px solid #d2d3d6;
+}
+
+#mulitSelector .alert_div {
+	
+}
+
+#mulitSelector .box {
+	
+}
+
+#mulitSelector .psHeader {
+	height: 30px;
+	color: #009ce2;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+#mulitSelector .psHeader b {
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#mulitSelector .psSearch {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#mulitSelector .psSearch input {
+	border-radius: 0px;
+	border: 1px solid #d2d3d6;
+	/* border: none; */
+	padding: 5px;
+	margin: 0px;
+	width: 88%;
+}
+
+#mulitSelector .blk {
+	max-height: 240px;
+	overflow: auto;
+	width: 100%;
+}
+
+#mulitSelector .blk .sech_layt {
+	padding: 0px 5px;
+}
+
+#mulitSelector .blk .sech_layt input[type=button] {
+	border: 1px solid #b5b5b5;
+	background-color: #333333;
+	border-radius: 5px;
+	color: #cccccc;
+	font-size: 12px;
+}
+
+#mulitSelector .blk .sech_layb {
+	
+}
+
+#mulitSelector .blk .sech_layb ul {
+	list-style: none;
+	margin: 0px;
+	/* padding: 5px 5px 0px 5px; */
+}
+
+#mulitSelector .blk .sech_layb ul li {
+	list-style: none;
+	color: #ffffff;
+	height: 32px;
+	float: left;
+	margin: 2px;
+	cursor: pointer;
+	background-color: #0d6992;
+	border: 1px solid #0d6992;
+	width: 150px;
+}
+
+#mulitSelector .blk .sech_layb ul li span {
+	display: block;
+	height: 100%;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 14px;
+	width: calc(100% -   30px);
+	background-color: #dddddd;
+	margin: 0px;
+	float: right;
+	color: #0d6992;
+}
+
+#mulitSelector .blk .sech_layb label {
+	display: inline;
+	/* margin-top: 6px; */
+	/* margin-left: 5px; */
+	/* margin-right: 5px; */
+	float: left;
+	margin-left:0px;
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox {
+	display: none;
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox+label {
+	background-color: #fafafa;
+	/* border: 1px solid #cacece; */
+	/* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05); */
+	padding: 8px;
+	/* border-radius: 3px; */
+	display: inline-block;
+	position: relative;
+	width: 30px;
+	height: 30px;
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox+label:active,#mulitSelector .blk .sech_layb .regular-checkbox:checked+label:active
+	{
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px
+		rgba(0, 0, 0, 0.1);
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox:checked+label {
+	/* background-color: #e9ecee; */
+	/* border: 1px solid #adb8c0; */
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px
+		rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	/* color: #99a1a7; */
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox:checked+label+span {
+	background-color: #0d6992;
+	color: #ffffff;
+}
+
+#mulitSelector .blk .sech_layb .regular-checkbox:checked+label:after {
+	content: '\2714';
+	font-size: 26px;
+	position: absolute;
+	top: -4px;
+	left: 4px;
+	color: #99a1a7;
+}
+
+#mulitSelector .btn {
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+#mulitSelector .btn  button {
+	border-radius: 3px;
+	border: none;
+	background-color: #fff;
+	width: 100%;
+	height: 30px;
+}
+.mulitSelector.mulitValLabel {
+	background-color: #009ce2;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 2px 5px;
+	margin: 5px;
+	display: inline-block;
+	font-weight: normal;
+}
+
+.mulitSelector .mulit_del_val {
+	margin-left: 2px;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.mulitSelector .mulit_del_val:after {
+	content: "\2716";
+	font-size: 12px;
+	color: #ffffff;
+	font-style: normal;
+}
+/* ��ѡ��ʽ */
+.singleSelectorDiv {
+	min-height: 25px;
+	border: 1px solid #d2d3d6;
+	border-radius: 5px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 200px;
+}
+
+#singleSelector {
+	min-width: 200px;
+	background-color: #ffffff;
+	border: 1px solid #d2d3d6;
+}
+
+#singleSelector .alert_div {
+	
+}
+
+#singleSelector .box {
+	
+}
+
+#singleSelector .psHeader {
+	height: 30px;
+	color: #009ce2;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+#singleSelector .psHeader b {
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#singleSelector .psSearch {
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#singleSelector .psSearch input {
+	border-radius: 0px;
+	border: 1px solid #d2d3d6;
+	padding: 5px;
+	margin: 0px;
+	width: 88%;
+}
+
+#singleSelector .blk {
+	max-height: 240px;
+	overflow: auto;
+	width: 100%;
+}
+
+#singleSelector .blk .sech_layt {
+	padding: 0px 5px;
+}
+
+#singleSelector .blk .sech_layt input[type=button] {
+	border: 1px solid #b5b5b5;
+	background-color: #333333;
+	border-radius: 5px;
+	color: #cccccc;
+	font-size: 12px;
+}
+
+#singleSelector .blk .sech_layb {
+	
+}
+
+#singleSelector .blk .sech_layb ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#singleSelector .blk .sech_layb ul li {
+	list-style: none;
+	color: #ffffff;
+	height: 32px;
+	float: left;
+	cursor: pointer;
+	background-color: #ffffff;
+	width: 100%;
+}
+#singleSelector .blk .sech_layb ul li:HOVER{
+	background-color: #e3e7eb;
+}
+#singleSelector .blk .sech_layb ul li:first-child {
+}
+
+#singleSelector .blk .sech_layb ul li span {
+	display: block;
+	height: 100%;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 14px;
+	width: 100%;
+	margin: 0px;
+	float: right;
+	color: #000000;
+}
+
+#singleSelector .blk .sech_layb label {
+	display: none;
+}
+
+#singleSelector .blk .sech_layb .regular-checkbox {
+	display: none;
+}
+
+#singleSelector .blk .sech_layb .regular-checkbox:checked+label+span {
+	background-color: #0d6992;
+	color: #ffffff;
+}
+
+#singleSelector .blk .sech_layb .regular-checkbox:checked+label:after {
+	content: '\2714';
+	font-size: 26px;
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	color: #99a1a7;
+}
+
+#singleSelector .btn {
+	width: 100%;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+#singleSelector .btn  button {
+	border-radius: 3px;
+	border: none;
+	background-color: #fff;
+	width: 100%;
+	height: 30px;
+	outline: none;
+}
+
+.singleSelector.mulitValLabel {
+	color: #000000;
+	font-size: 12px;
+	display: block;
+	font-weight: normal;
+	pointer-events: none;
+	height: 23px;
+	vertical-align: middle;
+	line-height: 23px;
+}
+
+.singleSelector .mulit_del_val {
+}
+
+.singleSelector .mulit_del_val:after {
+}

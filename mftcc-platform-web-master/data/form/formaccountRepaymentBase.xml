@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="accountRepaymentBase" title="卖方还款页面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="融资额度" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fincAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="本次融资金额" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fincLoanBal" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="融资余额" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="rateAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="应还利息" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receBuyer" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="买方名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="repayDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="还款日期" mustinput="" onclick="fPopUpCalendarDlg({choose:MfRepaymentJspForAccount.repayDateChange})" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="借据编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receNo" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="合同号/发票号" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receInvoiceAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="合同/发票金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="receAmt" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="应收账款金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receTransAmt" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="转让金额" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receTransBal" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="可融资金额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receTransDate" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="转让日" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="receBeginDate" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="合同/发票日" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receEndDate" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="应收账款到期日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="转让子表Id" mustinput="" readonly="" row="13"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="breakAmt" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="违约金金额" maxlength="15" mustinput="" readonly="" row="13" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="discountAmt" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="优惠金额" maxlength="15" mustinput="" onblur="MfRepaymentJspForAccount.discountAmtChange();" readonly="" row="13" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="benjinAmt" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="还款金额" maxlength="16" mustinput="1" onblur="MfRepaymentJspForAccount.repayAmtChange();" readonly="" row="12" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="shishouLiXi" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="实收利息" mustinput="" readonly="1" row="12" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ticketFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="33" horVer="0" initvalue="0" labelalign="3" labelcol="3" labelname="是否已开普票" mustinput="" readonly="" row="11"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="intstEndDate" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="融资到期日期" mustinput="" readonly="1" row="10"/>
+</form>

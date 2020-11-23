@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="true" id="demo0010" title="大表单新增演示">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoId" fieldstyle="demo222" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="演示编号" maxlength="10" mustinput="1" row="1" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="demoTime" fieldsize="STS" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="时间" labelstyle="startRang" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoPosition" fieldsize="DUTIES" fieldtype="21" formactiveid="4" horVer="0" initvalue="3" labelalign="3" labelcol="1" labelname="职务" mustinput="" readonly="1" row="12" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="demoTel" fieldsize="0.0000" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="电话" maxlength="16" mustinput="" param="bigAmt" row="10" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="年月" mustinput="" onclick="laydatemonth(this);" readonly="1" row="5" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="日期框" labelstyle="endRang" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="11" />
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="testAmt" fieldsize="0.00" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="金额" maxlength="7" mustinput="" onkeyup="toDouble(this);" param="bigAmt" row="8" unit="%" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="showVal" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="列表选择显示" mustinput="" readonly="" row="13" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realVal" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="列表选择真实值" mustinput="" readonly="" row="14" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoPosition" fieldsize="DUTIES" fieldstyle="anchor-ctrl" fieldtype="21" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="锚点控制标签" mustinput="" param="anchors:['anchor1','anchor2']" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="16" horVer="0" labelalign="1" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{demoId:'1|2'},{demoPosition:'1 |4'}]" readonly="" row="3" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="17" horVer="0" labelalign="1" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="anchor2" fieldtype="1" formactiveid="18" horVer="0" labelalign="1" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{demoPosition:'1|2'},{demoId:'3|2'}]" readonly="" row="7" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="anchor2" fieldtype="1" formactiveid="19" horVer="0" labelalign="1" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="9" selrange="1"/>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0011" para="eadis_page" link="/acLnShdMtdHst/findByPage" title="还款方式历史表" type="1">
+<tableitem align="2" filedname="termNo" id="1" indexed="1" label="阶段号" row="1" type="4" typepara="/acLnShdMtdHst/getById;traceNo-traceNo;termNo-termNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="contNo" id="2" indexed="2" label="合同号" row="1" type="4" typepara="/acLnShdMtdHst/getById;traceNo-traceNo;termNo-termNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="traceNo" id="3" indexed="3" label="流水号" row="1" type="4" typepara="/acLnShdMtdHst/getById;traceNo-traceNo;termNo-termNo;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="termAmt" id="5" indexed="5" label="该阶段本金" row="1" type="0" />
+<tableitem align="2" filedname="icDt" id="6" indexed="6" label="起息日" row="1" type="0" />
+<tableitem align="2" filedname="frmPerd" id="7" indexed="7" label="阶段开始期数" row="1" type="0" />
+<tableitem align="2" filedname="toPerd" id="8" indexed="8" label="阶段结束期数" row="1" type="0" />
+<tableitem align="2" filedname="repayTyp" id="10" indexed="10" label="还款方式" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="19" indexed="19" label="-" row="1" type="5" typepara="/acLnShdMtdHst/getById;traceNo-traceNo;termNo-termNo;contNo-contNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="20" indexed="20" label="-" row="1" type="5" typepara="/acLnShdMtdHst/del;traceNo-traceNo;termNo-termNo;contNo-contNo;onClick-lkconfirm" width="2"/>
+</table>

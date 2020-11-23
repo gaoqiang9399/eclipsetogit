@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="EsignHistoryDetail" title="签章历史">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="1" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="客户姓名" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="appId" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="1" labelname="申请id" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="appName" fieldtype="1" maxlength="50" formactiveid="5" labelalign="1" labelcol="1" labelname="申请名称" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" maxlength="30" formactiveid="6" labelalign="1" labelcol="1" labelname="借据展示号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="7" labelalign="1" labelcol="1" labelname="创建时间" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="temBizNo" fieldtype="1" maxlength="30" formactiveid="8" labelalign="1" labelcol="1" labelname="业务主键" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="esignType" fieldtype="1" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="签章类型1-客户签2-贷前签3-合同签4-出账签" mustinput="0" row="15"/>
+</form>

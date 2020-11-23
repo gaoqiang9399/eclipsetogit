@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pmsdatarangadd" title="数据权限新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="url" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="功能对应链接" mustinput="0" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="funDisc" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="业务功能描述" maxlength="400" mustinput="1" readonly="" row="2" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="funMethod" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="业务功能方法" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="funNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="业务功能编号" mustinput="" readonly="" row="1"/>
+</form>

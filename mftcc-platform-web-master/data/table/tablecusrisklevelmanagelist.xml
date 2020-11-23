@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusrisklevelmanagelist" para="eadis_page" title="客户风险管理列表" type="1">
+<tableitem align="2" filedname="lstModTime" id="13" indexed="13" label="处置时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="opName" id="12" indexed="12" label="发现人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" sortType="1" type="4" typepara="/mfRiskLevelManage/getById;riskId-riskId;onClick-MfRiskLevelManage_List.getById;" widthType="0"/>
+<tableitem align="2" filedname="manageSts" id="22" indexed="14" label="处置状态" row="1" sortType="2" type="6" typepara="manage_sts" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="10" label="发现时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" authority="riskLevel-4;manageSts-2;manageSts-3;manageSts-5;manageSts-6;manageSts-7;" filedname="处置" id="21" indexed="22" label="-" type="5" typepara="/mfRiskLevelAdjust/input;riskId-riskId;manageSts-manageSts;onClick-MfRiskLevelManage_List.adjustRiskLevel;" width="2" widthType="0"/>
+<tableitem align="2" colorCol="riskLevel" fieldStyle=" " filedname="riskLevel" id="8" indexed="8" label="风险等级" row="1" sortType="2" type="6" typepara="EXAM_RISK_LEVEL" widthType="0"/>
+</table>

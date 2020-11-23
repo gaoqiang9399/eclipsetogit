@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mobileonlinetime0002" title="手机号在网时长">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobile" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="手机号码" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="onlineTime" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="在网时长" mustinput="" readonly="1" row="1" />
+</form>

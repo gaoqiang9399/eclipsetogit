@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs2001" title="财务指标公式">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="编号" maxlength="10" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="指标名称" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formDesc" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="指标计算公式" maxlength="800" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="formFormula" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="公式" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="是否启用" mustinput="" readonly="" row="4" />
+</form>

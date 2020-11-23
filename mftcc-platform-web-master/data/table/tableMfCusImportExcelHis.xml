@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusImportExcelHis" link="/mfCusAccountDetail/findByPage" para="eadis_page" title="下载记录" type="1">
+<tableitem align="2" filedname="id" id="6" indexed="6" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="重新下载" id="5" indexed="7" label="-" type="5" typepara="/mfCusImportExcel/againDoc;id-id;regTime-regTime;onClick-cusImportExcel.againDoc(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="brName" id="4" indexed="1" label="操作员所在部门" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="3" indexed="2" label="导入时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="2" indexed="0" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="text" id="1" indexed="3" label="导入内容" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="9" indexed="8" label="-" row="1" type="5" typepara="/mfCusImportExcel/updateHis;id-id;onClick-cusImportExcel.updateHis(this);" width="5" widthType="0"/>
+</table>

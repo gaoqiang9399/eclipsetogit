@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusemploy00003" title="法人对外任职(下拉列表详情)">
+<formelement alt="25字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="corpName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="任职企业名称" mustinput="1" readonly="" row="1"/>
+<formelement alt="请输入注册资本" datatype="12" fieldalign="1" fieldcol="3" fieldname="corpRegCapital" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="任职企业注册资本" maxlength="14" mustinput="" readonly="" row="1" unit="元"/>
+<formelement alt="请输入担任职务" datatype="0" fieldalign="1" fieldcol="4" fieldname="job" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="担任职务" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="isLegal" fieldsize="YES_NO" fieldtype="21" formactiveid="4" horVer="1" labelalign="1" labelcol="4" labelname="是否法人代表" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="officeTerm" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="任职年限" mustinput="" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="3" fieldname="remark" fieldtype="5" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="备注" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="4" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusName" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="4" labelname="客户名称" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="5" labelname="唯一编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="id;" readonly="" row="1"/>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busInterGuaranListBase" link="/mfBusInterGuaran/findByPage" para="eadis_page" title="预收利担费新增记录表" type="1">
+<tableitem align="2" filedname="实收详情" id="33" indexed="21" label="实收详情" type="5" typepara=";id-id;cusNo-cusNo;onClick-showMfBusInterGuaranUseDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="调整" id="31" indexed="20" label="调整" row="1" type="5" typepara=";cusNo-cusNo;onClick-toMfBusInterGuaranAdjust(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="advInterestBal" id="9" indexed="7" label="预收利息余额" row="1" type="0"/>
+<tableitem align="2" filedname="realGuarantee" id="18" indexed="11" label="实收确认担保费" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="advanceGuarantee" id="6" indexed="8" label="预收担保费" row="1" type="0"/>
+<tableitem align="2" filedname="advanceInterest" id="5" indexed="5" label="预收利息" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名" row="1" type="0"/>
+<tableitem align="2" filedname="realInterest" id="13" indexed="6" label="实收确认利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="advDate" id="11" indexed="13" label="预收日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="advGuaranteeBal" id="10" indexed="12" label="预收担保费余额" row="1" type="0"/>
+</table>

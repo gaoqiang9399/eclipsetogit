@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="riskAuditAccurateList" para="eadis_page" title="待风控稽核列表" type="1">
+<tableitem align="2" filedname="manageBrName1" id="24" indexed="8" label="事业部" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="23" indexed="6" label="金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="manageOpName1" id="22" indexed="7" label="项目责任人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="21" indexed="5" label="产品种类" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="稽核登记" id="18" indexed="22" label="-" row="1" type="5" typepara="/mfBusRiskAudit/chooseAuditConfig;appId-appId;onClick-MfBusRiskAudit_accurateList.input(this)" width="100" widthType="1"/>
+<tableitem align="2" filedname="bankXiYi" id="20" indexed="4" label="项目名称" mytitle="项目名称-bankXiYi;" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;cusNo-cusNo;busEntrance-'1';onClick-MfBusRiskAudit_accurateList.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="appId" id="17" indexed="0" label="选择" row="1" sortType="2" type="2" typepara="appId-appId" width="4" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="3" indexed="3" label="联系方式" row="1" sortType="2" type="99" width="9" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="11" indexed="16" label="办理阶段" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="2" indexed="2" label="证件号码" row="1" sortType="2" type="99" width="9" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusRiskAudit_accurateList.getDetailPage(this);subStringNub-8;" width="150" widthType="1"/>
+</table>

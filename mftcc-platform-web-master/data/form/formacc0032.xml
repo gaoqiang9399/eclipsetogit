@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc0032" title="批扣明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="traceNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="2" labelname="交易流水号" maxlength="18" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="conNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="4" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="atpyType" fieldtype="2" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="批处理类型" maxlength="10" mustinput="0" param="AC_ATPY_TYPE" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="4" labelname="客户类型" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="payFeeNo" fieldtype="99" formactiveid="7" labelalign="3" labelcol="2" labelname="缴费编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="acNo" fieldtype="99" formactiveid="8" labelalign="3" labelcol="4" labelname="结算账号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="acName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="2" labelname="结算账号户名" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="acBankNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="4" labelname="结算开户行号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="acBankName" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelcolspan="2" labelname="结算开户行名" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="dcFlag" fieldtype="99" formactiveid="12" labelalign="3" labelcol="4" labelname="借贷标志" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="periodNo" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="期号" mustinput="0" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="prcpAmt" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="4" labelname="本金" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="intAmt" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="正常利息" maxlength="16" mustinput="0" row="11" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="odInt" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="逾期利息" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="remark" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="4" labelname="备注" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="sts" fieldtype="2" formactiveid="18" horVer="1" labelalign="1" labelcol="4" labelname="批扣状态" maxlength="10" mustinput="0" param="AC_ATPY_STS" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="createDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="登记日期" maxlength="8" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="createTime" fieldtype="99" formactiveid="20" labelalign="3" labelcol="4" labelname="创建时间" maxlength="14" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="spoolDate" fieldtype="99" formactiveid="21" labelalign="3" labelcol="2" labelname="生成文件日期" maxlength="8" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="spoolTime" fieldtype="99" formactiveid="22" labelalign="3" labelcol="4" labelname="生成文件时间" maxlength="14" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="rtnDate" fieldtype="99" formactiveid="23" labelalign="3" labelcol="2" labelname="扣款返回日期" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="rtnTime" fieldtype="99" formactiveid="24" labelalign="3" labelcol="4" labelname="扣款返回时间" maxlength="14" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="errDesc" fieldtype="99" formactiveid="25" labelalign="3" labelcol="2" labelname="失败原因" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="fSeqno" fieldtype="99" formactiveid="26" labelalign="3" labelcol="4" labelname="指令包序列号" maxlength="35" mustinput="0" row="13"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="ttlAmt" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="4" labelname="总金额" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="txAmt" fieldtype="99" formactiveid="28" labelalign="3" labelcol="4" labelname="交易金额" maxlength="16" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="relNo" fieldtype="99" formactiveid="29" labelalign="3" labelcol="2" labelname="关联号" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="amtSource" fieldtype="99" formactiveid="30" labelalign="3" labelcol="4" labelname="金额来源" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="repayedPrcpAmt" fieldtype="99" formactiveid="31" labelalign="3" labelcol="2" labelname="实扣本金" maxlength="16" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="repayedOdInt" fieldtype="99" formactiveid="32" labelalign="3" labelcol="4" labelname="实扣违约金" maxlength="16" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="repayedIntAmt" fieldtype="99" formactiveid="33" labelalign="3" labelcol="2" labelname="实扣正常利息" maxlength="16" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="freeOverFlag" fieldtype="99" formactiveid="34" labelalign="3" labelcol="4" labelname="免违约金标志" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="feeAmt" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="4" labelname="费用" mustinput="" readonly="" row="11" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="relNo" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="资金关联号" mustinput="" readonly="" row="15" />
+</form>

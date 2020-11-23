@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form id="demo0004" layout="horizontal">
+    <formelement order="0" lv="1" icon="wx-tab" name="导航栏" pid="0" id="5" property="dhl" pkno="dhcc-0" num="3">
+        <subformelement name="选项0" click=""/>
+        <subformelement name="选项1"/>
+        <subformelement name="选项2"/>
+    </formelement>
+</form>

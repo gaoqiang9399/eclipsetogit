@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0042" title="停息登记簿">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="traceNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同号" maxlength="35" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="客户名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="oldStopCumuInd" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="原停罚息标志" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="stopCumuInd" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="停罚息标志" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="状态" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="txDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="登记日期" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="登记机构" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" row="6"/>
+</form>

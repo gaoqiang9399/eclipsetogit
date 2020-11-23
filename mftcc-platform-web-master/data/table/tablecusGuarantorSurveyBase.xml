@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusGuarantorSurveyBase" para="eadis_page" title="担保人调查列表" type="2">
+<tableitem align="2" filedname="educationBackground" id="6" indexed="4" label="学历" row="1" type="6" typepara="EDU" width="20" widthType="0"/>
+<tableitem align="2" filedname="guarantorCusRelation" id="4" indexed="3" label="与客户关系" row="1" type="6" typepara="CUS_PERS_REL" width="20" widthType="0"/>
+<tableitem align="2" filedname="guarantorIdentity" id="3" indexed="2" label="担保人身份" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="guarantorName" id="2" indexed="1" label="担保人" type="4" typepara="/mfCusGuarantorSurvey/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusGuarantorSurvey/updateAjaxByOne';onClick-listShowDetail(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="5" label="-" row="1" type="5" typepara="/mfCusGuarantorSurvey/deleteAjax;surveyId-surveyId;onClick-ajaxDelete(this)" width="20" widthType="0"/>
+</table>

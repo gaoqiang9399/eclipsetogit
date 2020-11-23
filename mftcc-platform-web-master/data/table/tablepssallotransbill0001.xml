@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssallotransbill0001" para="eadis_page" title="调拨单表" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssAlloTransBill/getById;alloTransId-alloTransId;onDbClick-getATB" type="2">
+<tableitem align="2" filedname="删除" id="21" indexed="22" label="-" sortType="2" type="5" typepara="/pssAlloTransBill/deleteAjax;alloTransId-alloTransId;alloTransNo-alloTransNo;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+<tableitem align="1" filedname="sepMemo" id="19" indexed="11" label="分录备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="inStorehouseId" id="18" indexed="10" label="调入仓库" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="outStorehouseId" id="17" indexed="9" label="调出仓库" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="regOpName" id="7" indexed="12" label="制单人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="goodsUnit" id="16" indexed="8" label="单位" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="goodsQty" id="15" indexed="7" label="数量" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="goodsId" id="14" indexed="6" label="商品" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="memo" id="4" indexed="19" label="备注" mytitle="模板内容-memo;" row="1" sortType="2" type="3" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="alloTransId" id="13" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="alloTransId-alloTransId;" width="4" widthType="0"/>
+<tableitem align="1" filedname="auditOpName" id="12" indexed="13" label="审核人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="2" indexed="2" label="单据日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="alloTransNo" id="1" indexed="3" label="单据编号" mytitle="模板内容-alloTransNo;" row="1" sortType="1" type="4" typepara="/pssAlloTransBill/getById;alloTransId-alloTransId;onClick-getATB;subStringNub-20;" widthType="0"/>
+</table>

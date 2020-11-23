@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="nmd0003" title="基准利率">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="rateNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="利率编号" maxlength="4" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="中文说明" maxlength="60" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="curNo" fieldsize="CUR_TYPE" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="币种" mustinput="1" readonly="" row="1" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="begDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="开始日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="结束日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="2" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="minMon" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="期限下限" maxlength="11" mustinput="1" readonly="" row="3" />
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="maxMon" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="期限上限" maxlength="11" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateType" fieldsize="RATE_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="利率类型" mustinput="1" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="机构号" mustinput="" readonly="1" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="操作员号" mustinput="" readonly="1" row="9" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="txDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="登记日期" mustinput="" readonly="1" row="6" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="upDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="" readonly="1" row="6" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="rateUnit" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="利率单位" maxlength="22" mustinput="0" readonly="" row="5" />
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="rateVal" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="基准利率值" maxlength="10" mustinput="1" readonly="" row="5" unit="%" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flRateCde" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="下档利率编号" maxlength="10" mustinput="0" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="refRateCde" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="参考利率编号" maxlength="10" mustinput="0" readonly="" row="6" />
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="refRatio" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="参考比例" maxlength="9" mustinput="0" readonly="" row="6" unit="%" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="RATE_STS" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="状态" mustinput="1" readonly="" row="5" />
+</form>

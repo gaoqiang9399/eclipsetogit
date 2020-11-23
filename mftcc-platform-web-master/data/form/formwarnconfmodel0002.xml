@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="warnconfmodel0002" title="车证预警消息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnContent" fieldsize="100" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="模板信息" maxlength="65535" mustinput="1" row="1" textAreaFieldRows="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="预警ID" mustinput="" readonly="" row="2"/>
+</form>

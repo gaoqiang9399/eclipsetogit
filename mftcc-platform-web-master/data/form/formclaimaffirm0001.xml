@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form id="claimaffirm0001" title="动产提货确认表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="claimId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="提货申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="提货方" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="提货方名称" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claimName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="提货人" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="telephone" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="联系方式 手机号或固定电话" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claimPledge" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="提取押品" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="claimPledgeNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="押品编号" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claimType" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="提货方式0部门1全部" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyGoodsNum" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="申请数量" maxlength="0" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="affirmClaimGoodsBal" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="实际剩余押品价值" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isBelowMinAmt" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="是否低于最低库存价值" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="affirmClaimGoodsAmt" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="实际提取货物总价" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isAccordance" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="是否与提货申请书一致" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="affirmGoodsDetail" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="货物明细" maxlength="200" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="affirmGoodsNum" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="实际货物数量" maxlength="200" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="claimRemark" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="提货说明" maxlength="200" mustinput="0" row="9"/>
+</form>

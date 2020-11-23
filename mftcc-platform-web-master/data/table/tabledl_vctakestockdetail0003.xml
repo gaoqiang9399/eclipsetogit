@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockdetail0003" para="eadis_page" title="盘账查询" type="1">
+<tableitem align="2" filedname="sendTime" id="6" indexed="3" label="最近盘库发起日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feedbackTime" id="5" indexed="4" label="最近盘库反馈日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="certificateState" id="4" indexed="2" label="合格证状态" row="1" type="6" typepara="VC_CERTIFICATE_STATE" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="2" indexed="0" label="经销商" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="vin" id="1" indexed="1" label="车架号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="盘库文件信息" id="8" indexed="6" label="-" row="1" type="5" typepara="/vcTakeStockMain/getTackStockFileList;takeStockDetailId-takeStockDetailId;onClick-openNewDiv(this);" widthType="0"/>
+<tableitem align="2" filedname="affirmResult" id="7" indexed="5" label="盘库结果" row="1" type="6" typepara="VC_AFFIRM_RESULT" widthType="0"/>
+</table>

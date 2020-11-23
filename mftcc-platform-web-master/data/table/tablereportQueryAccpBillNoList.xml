@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reportQueryAccpBillNoList" para="eadis_page" title="选择票据号" type="1">
+<tableitem align="2" filedname="accpBillNo" id="4" indexed="5" label="票据号" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accpStartDate" id="10" indexed="7" label="出票日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="accpEndDate" id="9" indexed="8" label="到期日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="drawerName" id="8" indexed="6" label="出票人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="accpBillNo" id="7" indexed="4" label="选择" row="1" sortType="2" type="2" widthType="0"/>
+</table>

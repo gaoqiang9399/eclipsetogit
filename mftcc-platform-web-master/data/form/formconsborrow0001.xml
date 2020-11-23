@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="consborrow0001" title="低值易耗品借用详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appType" fieldsize="CONS_APP_TYPE" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="申领类型" maxlength="4" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="品名" mustinput="0" onchange="OaConsAppInsert.initCons(this)" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="申领人" maxlength="255" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="className" fieldstyle="half" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="类别" maxlength="255" mustinput="0" onchange="OaConsAppInsert.getCons(this)" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="price" fieldstyle="half" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="单价(元)" maxlength="255" mustinput="" readonly="1" row="5" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="createTime" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="申领日期" mustinput="0" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unit" fieldsize="CONS_UNIT" fieldstyle="half" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="计量单位" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="operateType" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="操作类型" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operateState" fieldstyle="half" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="申领状态" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="operateId" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="操作编号" mustinput="" readonly="" row="4" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldstyle="half" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="归还日期" maxlength="255" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="barCode" fieldstyle="half" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="3" labelname="序列号" mustinput="" readonly="1" row="3" />
+</form>

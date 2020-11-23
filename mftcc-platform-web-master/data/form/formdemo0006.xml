@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="demo0006" title="演示表单">
+<formelement alt="工作单位" datatype="0" fieldalign="1" fieldcol="2" fieldname="demoWork" fieldsize="STS" fieldtype="1" formactiveid="1" horVer="1" labelalign="3" labelcol="1" labelname="工作单位" maxlength="40" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="barttop" fieldtype="1" formactiveid="2" horVer="1" labelalign="3" labelcol="1" labelname="演示编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="demoTime" fieldsize="STS" fieldtype="1" formactiveid="3" horVer="1" labelalign="3" labelcol="3" labelname="时间" mustinput="" onclick="fPopUpCalendarDlg();" readonly="1" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoPosition" fieldsize="STS" fieldtype="21" formactiveid="4" horVer="1" labelalign="3" labelcol="3" labelname="职务" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoTel" fieldtype="1" formactiveid="5" horVer="1" labelalign="3" labelcol="1" labelname="其他" mustinput="" readonly="" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="demoDay" fieldtype="1" formactiveid="6" horVer="1" labelalign="3" labelcol="1" labelname="累计天数" mustinput="" readonly="" row="18" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="demoCount" fieldtype="1" formactiveid="7" horVer="1" labelalign="3" labelcol="3" labelname="累计次数" mustinput="" readonly="" row="18" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="demoMaxDay" fieldtype="1" formactiveid="8" horVer="1" labelalign="3" labelcol="3" labelname="最大天" mustinput="" readonly="" row="20" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoOther" fieldtype="5" formactiveid="9" horVer="1" labelalign="3" labelcol="1" labelname="其他" maxlength="400" mustinput="" readonly="" row="10"/>
+<formelement datatype="16" fieldalign="1" fieldcol="2" fieldname="demoAmt" fieldtype="1" formactiveid="10" horVer="1" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="6" unit="亿元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="demoAmt2" fieldtype="1" formactiveid="11" horVer="1" labelalign="3" labelcol="3" labelname="金额2" mustinput="" readonly="" row="15" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="demoAmt3" fieldtype="1" formactiveid="12" horVer="1" labelalign="3" labelcol="1" labelname="金额3" mustinput="" readonly="" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="demoName" fieldtype="1" formactiveid="13" horVer="1" labelalign="3" labelcol="3" labelname="演示名称" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="formtest-1-1" fieldtype="1" formactiveid="15" horVer="1" labelalign="2" labelcol="1" labelcolspan="4" labelname="工作单位" labelstyle="bartop" mustinput="" readonly="" row="12" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formtest-1-2" fieldtype="1" formactiveid="16" horVer="0" labelalign="2" labelcol="1" labelcolspan="4" labelname="配偶信息" labelstyle="bartop" mustinput="" readonly="" row="17" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formtest-1-0" fieldtype="1" formactiveid="17" horVer="0" labelalign="2" labelcol="1" labelcolspan="4" labelname="个人信息" labelstyle="bartop" mustinput="" readonly="" row="1" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaCode" fieldtype="1" formactiveid="18" horVer="1" labelalign="3" labelcol="3" labelname="行政区划编码" mustinput="" onclick="selectArea(this,'areaName')" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaName" fieldtype="1" formactiveid="19" horVer="1" labelalign="3" labelcol="3" labelname="行政区划" mustinput="" readonly="" row="6"/>
+</form>

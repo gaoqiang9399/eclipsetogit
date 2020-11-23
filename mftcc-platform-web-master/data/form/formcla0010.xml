@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cla0010" title="五级分类任务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="任务编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskType" fieldsize="FIVE_TASK_TYPE" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="任务类型" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="业务种类" maxlength="2" mustinput="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="checkDate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="检查日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="finishDate" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="检查完成日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(this);return false" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskSts" fieldsize="FIVE_TASK_STS" fieldtype="21" formactiveid="6" horVer="1" initvalue="1" labelalign="1" labelcol="1" labelname="任务状态" maxlength="1" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="任务执行人名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="任务执行人编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upRegName" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="更新人名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upRegNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="3" labelname="更新人编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="3" labelname="登记机构" maxlength="10" mustinput="0" row="13"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="examineDetailList" title="贷后检查登记情况详情" type="2">
+<tableitem align="2" filedname="regTime" id="5" indexed="4" label="登记时间" type="0" widthType="0"/>
+<tableitem align="2" filedname="regName" id="4" indexed="3" label="登记人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="riskLevel" id="3" indexed="2" label="风险级别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="indexId" id="2" indexed="0" label="检查指标项" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="indexValue" id="1" indexed="1" label="检查指标值" row="1" type="0" widthType="0"/>
+</table>

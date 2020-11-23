@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlrecallconfignote0006" title="催收短信配置">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="noteNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="3" labelname="短信编号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectionPlanNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="催收方案编号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="startRecallWay" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="发起方式" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exeWay" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="执行方式" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="sendTime" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="短信发送时间" maxlength="8" mustinput="0" param="noteNo;" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="returnBeforeDays" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="还款日前（天）" mustinput="0" param="noteNo;" row="1" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="returnBeforeInteval" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="频率-还款日前每（天）" mustinput="0" param="noteNo;" row="1" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="returnAfterDays" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="还款日后（天）" mustinput="0" param="noteNo;" row="1" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="returnAfterInteval" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="频率-还款日后每（天）" mustinput="0" param="noteNo;" row="1" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="3" fieldname="recallDesc" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelcolspan="2" labelname="短信模板" maxlength="500" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="短信模版名称" mustinput="" onclick="prodAutoMenu(this,'/mfUrgeInfoModel/getUrgeInfoModelListAjax',urgeInfoModelCallBack,'modelName')" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="12" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="noteNo" readonly="" row="1"/>
+</form>

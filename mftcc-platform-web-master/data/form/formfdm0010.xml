@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fdm0010" title="虚拟总账">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="fundTotalNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="序号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="monthBal" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="月初余额" maxlength="16" mustinput="0" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="yearBal" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="年初余额" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="totalBal" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="余额" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="monthAmtB" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="本月发生额借" maxlength="16" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="monthAmtL" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="本月发生额贷" maxlength="16" mustinput="0" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="yearAmtB" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="本年发生额借" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="yearAmtL" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="本年发生额贷" maxlength="10" mustinput="0" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="lstDate" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="更新日期" maxlength="8" mustinput="0" row="9"/>
+</form>

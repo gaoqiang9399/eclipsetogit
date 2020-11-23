@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusecono0001" para="eadis_page" link="/mfCusFarmerEconoInfo/findByPage" title="农户经济情况" type="1">
+<tableitem align="2" filedname="farmerEconoInfoId" id="1" indexed="1" label="农户经济情况id" row="1" type="4" typepara="/mfCusFarmerEconoInfo/getById;farmerEconoInfoId-farmerEconoInfoId;query-'query'"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="yearPlantArea" id="4" indexed="4" label="本年种植面积" row="1" type="0" />
+<tableitem align="2" filedname="ownFarmland" id="5" indexed="5" label="自有耕地" row="1" type="0" />
+<tableitem align="2" filedname="outsourceFarmland" id="6" indexed="6" label="外包耕地" row="1" type="0" />
+<tableitem align="2" filedname="dryFarmlandArea" id="7" indexed="7" label="旱田面积" row="1" type="0" />
+<tableitem align="2" filedname="plantCrop" id="8" indexed="8" label="种植作物" row="1" type="0" />
+<tableitem align="2" filedname="paddyfieldArea" id="9" indexed="9" label="水田面积" row="1" type="0" />
+<tableitem align="2" filedname="contractedLandArea" id="10" indexed="10" label="承包土地面积" row="1" type="0" />
+<tableitem align="2" filedname="contractedValue" id="11" indexed="11" label="承包价值" row="1" type="0" />
+<tableitem align="2" filedname="ownerName" id="12" indexed="12" label="发包人姓名" row="1" type="0" />
+<tableitem align="2" filedname="phoneNumber" id="13" indexed="13" label="电话号" row="1" type="0" />
+<tableitem align="2" filedname="address" id="14" indexed="14" label="住址" row="1" type="0" />
+<tableitem align="2" filedname="marketPrice" id="15" indexed="15" label="种植作物市场价格" row="1" type="0" />
+<tableitem align="2" filedname="vehicle" id="16" indexed="16" label="交通运输工具" row="1" type="0" />
+<tableitem align="2" filedname="farmTools" id="17" indexed="17" label="农用机具" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="18" indexed="18" label="注册时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="19" indexed="19" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="20" indexed="20" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="21" indexed="21" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfCusFarmerEconoInfo/deleteAjax;farmerEconoInfoId-farmerEconoInfoId;onClick-ajaxDelete(this)" width="2"/>
+</table>

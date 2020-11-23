@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="applyapproval" title="依法收贷审批表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loanNum" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="贷款笔数" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="贷款总额" maxlength="30" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="loanBalance" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="贷款余额" maxlength="30" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="overdueInterest" fieldsize="0.00" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="逾期利息" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extInt2" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="2" labelname="预留整数型" mustinput="0" row="29"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="overduePrincipal" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="逾期本金" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="penaltyAmount" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="罚息金额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proposer" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="申请人" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="申请日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="38" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="备注说明" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="当前任务" mustinput="" readonly="" row="8"/>
+</form>

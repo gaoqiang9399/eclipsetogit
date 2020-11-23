@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="BankStatementRegisterbase" title="银行结算单申请">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="保后跟踪ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="委托保证合同编号" maxlength="200" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="产品名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="担保金额" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="guaranteeAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="应收担保费" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="handAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="应收手续费" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="申请人编号" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="客户名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actualReceivedAmt" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="实际到账金额" maxlength="50" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualReceivedBond" fieldtype="1" formactiveid="58" labelalign="3" labelcol="3" labelname="实收保证金" mustinput="0" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="65" labelalign="3" labelcol="1" labelname="更新时间" maxlength="17" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="66" labelalign="3" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="78" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="79" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="81" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="82" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="83" labelalign="3" labelcol="1" maxlength="4" mustinput="0" row="60"/>
+<formelement alt="500字以内" datatype="12" fieldalign="1" fieldcol="2" fieldname="bond" fieldtype="1" formactiveid="90" horVer="0" labelalign="3" labelcol="1" labelname="应收保证金" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actualReceivedHandAmt" fieldtype="1" formactiveid="91" horVer="0" labelalign="3" labelcol="1" labelname="实收手续费" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectBank" fieldtype="1" formactiveid="92" horVer="0" labelalign="3" labelcol="1" labelname="到账银行" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="receviedDate" fieldtype="1" formactiveid="93" horVer="0" labelalign="3" labelcol="3" labelname="到账日期" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="94" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="" readonly="" row="15"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="sumAmt" fieldtype="1" formactiveid="95" horVer="0" labelalign="3" labelcol="3" labelname="应收总额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="collectAccId" fieldtype="99" formactiveid="96" horVer="0" labelalign="3" labelcol="5" labelname="到账账户关联id" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectAccName" fieldtype="1" formactiveid="97" horVer="0" labelalign="3" labelcol="1" labelname="到账账号名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collectAccount" fieldtype="1" formactiveid="98" horVer="0" labelalign="3" labelcol="3" labelname="到账账号" mustinput="" readonly="1" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualReceivedGuaranteeAmt" fieldtype="1" formactiveid="99" horVer="0" labelalign="3" labelcol="3" labelname="实收担保费" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="refundGuaranteeAmt" fieldtype="1" formactiveid="100" horVer="0" labelalign="3" labelcol="1" labelname="应退担保费" maxlength="14" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="refundHandAmt" fieldtype="1" formactiveid="101" horVer="0" labelalign="3" labelcol="3" labelname="应退手续费" maxlength="14" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="refundBond" fieldtype="1" formactiveid="102" horVer="0" labelalign="3" labelcol="1" labelname="应退保证金" maxlength="14" mustinput="" readonly="1" row="10" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settlementMethod" fieldsize="SETTLEMENT_METHOD" fieldtype="21" formactiveid="103" horVer="0" labelalign="3" labelcol="1" labelname="结算方式" mustinput="1" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payee" fieldtype="1" formactiveid="104" horVer="0" labelalign="3" labelcol="3" labelname="收款单位" maxlength="100" mustinput="1" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="issuingBank" fieldtype="1" formactiveid="105" horVer="0" labelalign="3" labelcol="1" labelname="出票银行" maxlength="100" mustinput="1" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useOfFunds" fieldtype="1" formactiveid="106" horVer="0" labelalign="3" labelcol="3" labelname="资金用途" maxlength="100" mustinput="1" readonly="" row="12"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="registerAmt" fieldtype="1" formactiveid="107" horVer="0" labelalign="3" labelcol="1" labelname="金额" maxlength="14" mustinput="1" readonly="" row="13" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyOpName" fieldtype="1" formactiveid="108" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyBrName" fieldtype="1" formactiveid="109" horVer="0" labelalign="3" labelcol="3" labelname="申请人部门" mustinput="" readonly="1" row="14"/>
+</form>

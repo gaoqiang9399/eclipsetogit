@@ -1,0 +1,159 @@
+.baseinf {
+	width: 100%;
+	min-width: 1100px;
+	height:auto;
+	min-height:130px;
+}
+
+.pay-cus {
+	float: left;
+	width: 35%;
+	height: 50px;
+	text-align: left;
+	padding-top: 10px;
+	margin-left: 5%;
+}
+
+.pay-cus-name {
+	font-size: 20px;
+	float: left;
+}
+
+.pay-cus-phone {
+	float: left;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.pay-cus-phone i {
+	font-size: 18px;
+	margin-right: 8px;
+	color: #32b5cb;
+}
+
+.pactinf {
+	float: left;
+	width: 40%;
+	font-size:12px;
+	margin: 0px 50px;
+}
+
+
+.pactinf tbody tr{
+	height:30px;
+	line-height:30px;
+}
+.pactinf tbody tr td{
+	width:25%;
+}
+.pactinf tbody td .fieldShow{
+	border: none;
+	margin:0px 0px 0px 10px !important;
+	background: #ffffff;
+	border: none;
+	word-break: normal;
+	color:#7f7f7f;
+	font-size:12px;
+}
+.pactinf tbody td .font-smallup,.payinf tbody td .font-smallup{
+	color:#7f7f7f;
+}
+
+.payinf {
+	font-size: 12px;
+	background: #F9F9F9;
+	padding-top: 45px;
+	margin-bottom: 5px;
+	padding-bottom: 30px;
+}
+
+.payinf tbody tr{
+	height:40px;
+	line-height:40px;
+}
+.paydetail tbody td .fieldShow {
+	border: none;
+	margin:0px 0px 0px 10px !important;
+/* 	background: #ffffff; */
+	border: none;
+	word-break: normal;
+	color:#7f7f7f;
+	font-size:12px;
+}
+
+
+.paydetail{
+	float: left;
+	width: 45%;
+	margin-left:3%;
+}
+
+.payinf tbody tr td.tdlable{
+	width:15%;
+}
+.payinf tbody tr td.tdvalue{
+	width:35%;
+	padding-left:5px;
+}
+.realpay{
+	float: left;
+	width: 45%;
+}
+
+.realpay tbody tr td{
+	width:15%;
+}
+
+.table_show .title {
+	height: 40px;
+	background: #f8f9fc;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size:14px;
+	color:#32b5cb;
+}
+
+.repay-btn {
+	width: 285px;
+	padding-left:15px;
+}
+
+.repay-btn input[type="submit"], .repay-btn input[type="button"] {
+    background: #32b5cb;
+    border: none;
+    width: 260px;
+    line-height: 35px;
+    font-size: 12px;
+    color: #fff;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.repay-btn input[type="submit"]:hover, .repay-btn input[type="button"]:hover {
+    background: #32b5cb;
+}
+
+.nor-repay{
+	width: 160px !important;
+}
+.per-repay {
+	width: 96px !important;
+	background: #fff !important;
+	color: #000 !important;
+	border: 1px solid #e3e3e3 !important;
+	
+}
+
+.realpay .realvalue{
+	position:relative;
+	padding-left:15px;
+}
+
+.realpay .unit {
+/* 	position: absolute; */
+/* 	right: 150px; */
+/* 	top: 9px; */
+	font-size:14px;
+	font-style:normal;
+	margin-left:-35px;
+}

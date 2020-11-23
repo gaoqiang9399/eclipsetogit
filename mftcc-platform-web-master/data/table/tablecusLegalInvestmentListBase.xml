@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusLegalInvestmentListBase" link="/mfCusLegalEquityInfo/findByPage" para="eadis_page" title="法人对外投资情况" type="1">
+<tableitem align="2" filedname="toCorpName" id="4" indexed="4" label="投向企业名称" mytitle="投向企业名称-toCorpName" row="1" type="4" typepara="/mfCusLegalEquityInfo/listShowDetailAjax;equityInfoId-equityInfoId;cusNo-cusNo;oneUrl-'/mfCusLegalEquityInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalAtm" id="9" indexed="8" label="投资金额(元)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalScale" id="10" indexed="9" label="股权比例(%)" row="1" type="17" width="20" widthType="0"/>
+<tableitem align="2" filedname="pushCapitalDate" id="5" indexed="10" label="出资日期" row="1" type="1" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfCusLegalEquityInfo/deleteAjax;equityInfoId-equityInfoId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+</table>

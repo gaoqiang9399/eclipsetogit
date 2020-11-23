@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="VouAfterRiskLevelAdjustApprove" title="风险调级审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="保后跟踪ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="breedNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="业务品种编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="breedName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="保函类型" maxlength="200" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termShow" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="担保期限" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="担保金额" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="openDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="保函开具日" maxlength="8" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="guaranteeEndDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="保函到期日" maxlength="8" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="申请人编号" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="申请人" maxlength="50" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beneficiary" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="受益人" maxlength="50" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="VOU_AFTER_RISK_LEVEL" fieldtype="21" formactiveid="58" labelalign="3" labelcol="1" labelname="风险级别" maxlength="1" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageOpNo1" fieldtype="99" formactiveid="59" labelalign="3" labelcol="1" labelname="项目责任人编号" maxlength="30" mustinput="0" row="52"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="65" labelalign="3" labelcol="1" labelname="更新时间" maxlength="17" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="66" labelalign="3" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="78" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="79" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="99" formactiveid="80" labelalign="3" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="81" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="82" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="83" labelalign="3" labelcol="1" maxlength="4" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="84" labelalign="3" labelcol="1" maxlength="60" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectName" fieldtype="1" formactiveid="90" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageOpName1" fieldtype="1" formactiveid="91" horVer="0" labelalign="3" labelcol="1" labelname="项目经理" mustinput="" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustRiskLevel" fieldsize="VOU_AFTER_RISK_LEVEL" fieldtype="2" formactiveid="92" horVer="0" labelalign="3" labelcol="1" labelname="调整风险级别" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="adjustDate" fieldtype="1" formactiveid="93" horVer="0" labelalign="3" labelcol="1" labelname="调整日期" maxlength="8" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rollbackName" fieldtype="2" formactiveid="94" horVer="0" labelalign="3" labelcol="1" labelname="发回岗位" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="95" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="14"/>
+<formelement alt="6000字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="96" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="6000" mustinput="1" readonly="" row="15"/>
+</form>

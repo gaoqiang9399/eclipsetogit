@@ -1,0 +1,109 @@
+			.textbox{
+				display: table-cell;
+			}
+			#tablist tr td{
+				border: 1px solid #e9ebf2;
+				height: 40px;
+				padding: 0 5px;
+			}
+			.pad0{
+				padding: 0 !important;
+			}
+			.items-btn{
+				display: inline-block;
+				margin-right: 10px;
+				padding: 0 13px;
+				height: 28px;
+				border: 1px solid #c3c7cb;
+				border-radius: 2px;
+				background: #fafdff;
+/* 				font: 14px/2 \5b8b\4f53; */
+/* 				color: #555; */
+				vertical-align: middle;
+				cursor: pointer;
+			}
+			
+			.editbox {
+				width: 100%;
+				border: 1px solid #ddd;
+				height: 39px;
+				line-height: 39px;
+				padding: 6px 4px;
+			}
+			
+			.editbox:focus {
+				border: 1px solid #00b8ec;
+			}
+			
+			.cw-date-icon{
+			    cursor: auto;
+			    background: url(/factor/component/finance/voucher/images/datepicker_icon.png) right no-repeat #FFF;
+			}
+			.voucherLink{
+			    cursor: pointer;
+			    text-decoration: underline;
+			    margin: 5px;
+			    color: #555;
+			}
+			.voucherLink:hover{
+			    text-decoration: underline;
+			}
+			.pops-select{
+				left: 255px;
+				width: 225px;
+			}
+			.pops-value{
+			    display: inline-block;
+			    margin-right: 10px;
+			    padding: 0 13px;
+			    height: 28px;
+			    border: 1px solid #c3c7cb;
+			    border-radius: 2px;
+			    background: #fafdff;
+			    vertical-align: middle;
+			    cursor: pointer;
+			    width: 169px;
+    			padding-top: 3px;
+			}
+			.pops-select-body>ul>li{
+				 width: 200px;
+			}
+		
+		
+		.ui-icon-plus {
+		    background-position: -80px 0;
+		}
+		.ui-icon-trash {
+		    background-position: -64px 0;
+		}
+		.ui-icon {
+		    display: inline-block;
+		    margin: 0 5px;
+		    cursor: pointer;
+		    color:black;
+		}
+		
+		
+	.ui-label {
+	    font-weight: 600;
+	    font-size: 12px;
+	    padding: 4px 8px;
+	    border: 0;
+	    text-shadow: none;
+	    -webkit-box-sizing: content-box;
+	    -moz-box-sizing: content-box;
+	    box-sizing: content-box;
+	    -webkit-border-radius: 2px;
+	    -moz-border-radius: 2px;
+	    border-radius: 2px;
+	    color: #fff;
+	    cursor: pointer;
+	}
+		
+	.ui-label-success {
+		background: #32b5cb;
+	}
+	.ui-label-success:hover {
+		background: #009db7;
+	}
+

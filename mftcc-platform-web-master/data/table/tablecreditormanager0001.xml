@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditormanager0001" link="/p2pCreditorPoolManage/findByPage" para="eadis_page" title="债权池管理表" trDbClick="P2/pCreditorPoolManage/getById;creditId-creditId;onDbClick-P2pCreditorPoolManageList.getDetailPage(this);" type="1">
+<tableitem align="1" filedname="borrowerName" id="24" indexed="2" label="借款人" mytitle="借款人-borrowerName" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-borrowerNo;creditId-creditId;subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="52" indexed="7" label="原始合同号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="49" indexed="35" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="originalCreditId" id="51" indexed="6" label="原始合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="50" indexed="34" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="originalTermShow" id="48" indexed="9" label="期限" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="creditAmt" id="21" indexed="8" label="可用金额（元）" row="1" type="99" widthType="0"/>
+<tableitem align="3" filedname="originalAmt" id="47" indexed="5" label="债权总额（元）" row="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="creditName" id="46" indexed="3" label="债权名称" mytitle="债权名称-creditName;" type="4" typepara="P2/pCreditorPoolManage/getById;creditId-creditId;query-'';subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="详情" id="45" indexed="52" label="-" row="1" type="99" typepara="P2/pCreditorPoolManage/getById;creditId-creditId;onClick- P2pCreditorPoolManageList.getDetailPage(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="originalEndDate" id="14" indexed="11" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="originalBeginDate" id="13" indexed="10" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="creditType" id="2" indexed="4" label="债权类型" row="1" type="6" typepara="P2P_CREDIT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="creditId" id="1" indexed="1" label="债权编号" row="1" type="99" widthType="0"/>
+</table>

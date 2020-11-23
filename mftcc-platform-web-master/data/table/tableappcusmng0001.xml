@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="appcusmng0001" title="移动端客户经理列表" type="1">
+<tableitem align="2" filedname="删除" id="9" indexed="9" label="-" row="1" type="5" typepara="/mfAppCusMng/deleteAjax;cusMngNo-cusMngNo;onClick-deleteCusMng(this)" widthType="0"/>
+<tableitem align="2" filedname="channelType" id="8" indexed="7" label="渠道类型" row="1" type="6" typepara="CHANNEL_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusMngBrNo" id="7" indexed="3" label="部门编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngBrName" id="6" indexed="4" label="部门名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="5" indexed="1" label="客户经理名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngNo" id="4" indexed="0" label="编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fieldName" id="3" indexed="2" label="手机号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="roleNo" id="2" indexed="6" label="角色名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="opSts" id="1" indexed="8" label="状态" row="1" type="4" typepara="/mfAppCusMng/updateStsNewAjax;cusMngNo-cusMngNo;" widthType="0"/>
+</table>

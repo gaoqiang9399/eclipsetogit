@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivedetaildoclist" para="eadis_page" title="资料列表" type="2">
+<tableitem align="2" filedname="docName" id="5" indexed="5" label="资料名称" mytitle="文件名-docName;" row="1" type="4" typepara="/archiveInfoDetail/getDetailPage;archiveDetailNo-archiveDetailNo;onClick-showDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="archiveDocStatus" id="13" indexed="14" label="状态" row="1" type="6" typepara="ARCHIVE_DOC_STATE" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="预览" id="2" indexed="15" label="-" row="1" type="99" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="downBtn" filedname="下载" id="1" indexed="16" label="-" row="1" type="5" typepara="/archiveInfoDetail/downloadFile;archiveDetailNo-archiveDetailNo;onClick-downloadFile" width="2" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="9" indexed="3" label="资料类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="8" indexed="4" label="编号" row="1" type="99" widthType="0"/>
+</table>

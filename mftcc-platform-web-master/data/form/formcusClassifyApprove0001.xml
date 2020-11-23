@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusClassifyApprove0001" title="客户分类调整审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustHistoryId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="历史ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classifyType" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户分类：1-黑名单/2-优质客户" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beforeRankType" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="调整前等级" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="beforeRankTypeName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="调整前等级" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="afterRankType" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="调整后等级" maxlength="10" mustinput="0" param="anchors:['anchor1']" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="afterRankTypeName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="调整后等级" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="adjustTime" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="调整时间" maxlength="17" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustReason" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="调整原因" maxlength="400" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classifyGrade" fieldsize="CLASSIFY_GARDE" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="黑名单分级" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="blockType" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="黑名单流程类型" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{afterRankType:'1'}]" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="5"/>
+</form>

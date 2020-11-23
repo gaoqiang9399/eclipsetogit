@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vcwarnconf0002" title="车证预警">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="预警ID" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="预警指标" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnName" fieldtype="5" formactiveid="3" labelalign="3" labelcol="1" labelname="预警规则" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnValue" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="阈值" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnContent" fieldtype="5" formactiveid="5" labelalign="3" labelcol="3" labelname="预警信息" maxlength="65535" mustinput="1" onclick="addMsgInfoModel1()" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnContentArgs" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="预警信息参数" maxlength="65535" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flag" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recCusType" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="接收人" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sendType" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="发送类型" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="varUsageRel" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="关联变量类型" maxlength="200" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人机构编号" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记人机构名称" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="最后修改人编号" maxlength="50" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改人名称" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="最后修改人机构编号" maxlength="50" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="最后修改人机构名称" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnLevelId" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="预警级别" mustinput="1" readonly="" row="1"/>
+</form>

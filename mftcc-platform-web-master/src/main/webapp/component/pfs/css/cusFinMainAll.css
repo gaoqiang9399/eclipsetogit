@@ -1,0 +1,448 @@
+body{
+	background-color: #ebebeb;
+	border-top:1px solid #c7c7c7;
+}
+::-moz-focus-inner{border:0px;}
+a,a:hover,a:visited,a:link{
+	text-decoration:none;
+	outline: none;
+}
+.div_role_search{
+	width: 166px;
+	height: 25px;
+	position: absolute;
+	right:0px;
+	margin: 0 7px 0 10px;
+}
+.div_role_search input{
+	display:block;
+	height:25px;
+	margin: 0px;
+	border: none;
+	outline: none;
+}
+.div_role_search i{
+	width:25px;
+	height:25px;
+	margin: 0px;
+	background-color: #ffffff;
+	right: 0px;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.i-x1{
+	font-size: 30px;
+	position: absolute;
+    right: 4px;
+    top: 30px;
+    width: 30px;
+	height: 30px;
+    cursor: pointer;
+    color:#18FF00;
+    color:#ffffff;
+}
+.i-duihaocheckmark17{
+	font-size: 26px;
+	position: absolute;
+    right: 4px;
+    top: 75px;
+    width: 30px;
+	height: 30px;
+    cursor: pointer;
+    /* color:#ff0000; */
+    color:#fff;
+}
+
+.i_role_plus{
+	margin-top: 44px;
+	font-size: 47px;
+	color: #D8CDCD;
+	display:block;
+}
+.div_role_body{
+	background-color: #ebebeb;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.div_role_child{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+	height:100%;
+    border-radius:5px;	
+}
+.div_role_parent{
+	padding:4px;
+	background:#fff;
+	 height:calc(100% - 8px);
+}
+.div_role_rotate{
+	/* -webkit-perspective: 800px;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective: 800px;
+    -moz-perspective-origin: 50% 50%;
+    perspective: 800px;
+    perspective-origin: 50% 50%; */
+    padding-right: 56px;
+    padding-bottom: 10px;
+    width: 224px;
+	height: 135px;
+	display: inline-block;
+}
+.div_role_obj{
+	padding:5px;
+	position:relative;
+	width: 270px;
+	height: 135px;
+	text-align: center;
+	-webkit-transition: -webkit-transform 0.3s linear;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: -moz-transform 0.3s linear;
+    -moz-transform-style: preserve-3d;
+    transition: transform 0.3 linear;
+}
+.div_role_front{
+	position: absolute;
+	width: 270px;
+	height: 135px;
+	border:1px solid #ddd;
+	background-color: #F7F7F7;
+	border-radius:5px;
+	-webkit-transform: translateZ(40px);
+    -moz-transform: translateZ(40px);
+    transform: translateZ(40px);
+    
+    -webkit-transition: -webkit-transform 0.3s linear;
+    -moz-transition: -moz-transform 0.3s linear;
+    transition: transform 0.3s linear;
+}
+.div_role_back{
+	position: absolute;
+	width: 270px;
+	height: 135px;
+	border:1px solid #D7D7D7;
+	background-color: #009DE3;
+	-webkit-transform: rotateX(90deg) translateZ(40px);
+    -moz-transform: rotateX(90deg) translateZ(40px);
+    transform: rotateX(90deg) translateZ(40px);
+    
+     -webkit-transition: -webkit-transform 0.3s linear;
+    -moz-transition: -moz-transform 0.3s linear;
+    transition: transform 0.3s linear;
+}
+.sub_move_back{
+	transform:rotateX(0deg) translateZ(40px);
+	-webkit-transform:rotateX(0deg) translateZ(40px); /* Safari and Chrome */
+	-moz-transform:rotateX(0deg) translateZ(40px); /* Firefox */
+}
+.sub_move_front{
+	transform:rotateX(-90deg) translateZ(40px);
+	-webkit-transform:rotateX(-90deg) translateZ(40px); /* Safari and Chrome */
+	-moz-transform:rotateX(-90deg) translateZ(40px); /* Firefox */
+}
+.i_role_user{
+	z-index: 1;
+	color: #E5E5E5;
+	font-size: 65px;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background-image: url("../imgs/zhanghu.png") ;
+    display: block;
+	width: 60px;
+	height: 60px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+}
+
+.role_dian{
+	position:absolute;
+	width:10px;
+	height:10px;
+	top: 10px;
+	left: 10px;
+	display: block;
+	border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	background-color: #17A3E9;
+	-moz-box-shadow:2px 2px 0px #2B71B0 inset;              
+    -webkit-box-shadow:2px 2px 0px #2B71B0 inset;           
+    box-shadow:2px 2px 0px #2B71B0 inset;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.div_acc_type{
+	height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 30px;
+	font-size:12px;
+	color:#6D96B1;
+}
+
+.div_acc_no{
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 10px;
+}
+
+.finRptSts{
+	height: 26px;
+	float: right;
+	text-align: right;
+	line-height: 26px;
+	margin-top: 16px;
+	color:#808080;
+    font-size:12px;
+    margin-right:10px;
+}
+.div_acc_name{
+	float:right;
+	height: 26px;
+	text-align: right;
+	padding-right:30px;
+	line-height: 26px;
+	margin-top: 26px;
+	font-size:20px;
+	color:#777;
+}
+
+
+.div_acc_bank{
+	height: 26px;
+	text-align: left;
+	padding-left: 75px;
+	line-height: 26px;
+	font-size:12px;
+	margin-top:6px;
+	color:#000;
+}
+
+.div_acc_bank_name{
+	height: 26px;
+	text-align: left;
+	padding-left: 75px;
+	line-height: 22px;
+	font-size:14px;
+	color:#000
+}
+
+.div_role_back_ctrl{
+	text-align:left;
+	width: 221px;
+	height: 100%;
+}
+.div_role_back_ctrl div{
+	border-bottom: 1px solid #D4D4D4;
+}
+.div_role_back_ctrl input{
+	height: 26px;
+	width: 137px;
+	border: none;
+	outline: none;
+	padding: 0px;
+	padding-left: 5px;
+}
+
+.div_select select{
+	position: relative;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display: block;
+	height: 26px;
+	width: 138px;
+	overflow: hidden;
+}
+.div_role_back_ctrl select:active{outline:none;}
+.div_role_back_ctrl label{
+	color: #fff;
+	width: 84px;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+}
+.div_select{
+	height: 26px;
+	width: 137px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	overflow: hidden;
+	border: none;
+	display: inline-block;
+}
+.label_select{
+	top: -10px;
+	left: 0px;
+	position: relative;
+}
+.move_front{
+	transform:rotateX(-90deg);
+	-webkit-transform:rotateX(-90deg); /* Safari and Chrome */
+	-moz-transform:rotateX(-90deg); /* Firefox */
+}
+.move_back{
+	transform:rotateX(0deg);
+	-webkit-transform:rotateX(0deg); /* Safari and Chrome */
+	-moz-transform:rotateX(0deg); /* Firefox */
+}
+/* 锟斤拷锟斤拷锟酵Ｐэ拷锟� */
+.btn26 .ovrly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn26 .buttons {
+	z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.btn26 .buttons .i {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  /*   background-color: rgb(256, 256, 256); */
+ 	 background-color:#53C7A0;;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    /* color: rgba(50, 50, 50, 0.9); */
+    color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -moz-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -o-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+}
+.btn26 .buttons .i-yanjing {
+    background-color: #00D56F;
+}
+.btn26 .buttons .i-lajitong {
+    background-color: #53C7A0;;
+}
+.btn26:hover .buttons .i {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.btn26:hover .ovrly {
+	z-index:10;
+    opacity: 1;
+}
+/* .btn26:hover .i_role_user {
+    color: #009de3;
+}
+.btn26:hover .role_dian {
+    background-color: #40D476;
+	-moz-box-shadow:2px 2px 0px #1AAB50 inset;              
+    -webkit-box-shadow:2px 2px 0px #1AAB50 inset;           
+    box-shadow:2px 2px 0px #1AAB50 inset;
+} */
+/* 锟脚达拷 */
+.div_role_view{
+	background-color: rgba(0,0,0,0.5);
+	/* opacity: 0.5; */
+	position: absolute;
+	z-index: 99;
+}
+
+.div_role_edit{
+	width:248px;
+	height:139px;
+	border:1px solid #D4D4D4;
+	margin:100px auto;
+	background-color: #FFFFFF;
+}
+.div_role_edit .close_btn{
+	position: fixed;
+	right: 0px;
+	top:0px;
+}
+.div_role_edit .edit_input{
+	position:relative;
+	display:block;
+}
+.div_role_edit .edit_tile{
+	height: 30px;
+	background-color: #F5F3F5;
+}
+.edit_input input{
+	position: absolute;
+	right: 0px; 
+}
+.edit_input label{
+	left:0px;
+	display: inline-block;
+	width: 120px;
+	
+}
+.finRptStsFalse{
+	background-image:url(../imgs/finRptStsFalse.png);
+	display: block;
+    float: right;
+    height: 12px;
+    margin-top: 7px;
+    margin-right:2px;
+    width: 12px;
+}
+.finRptStsTrue{
+	background-image:url(../imgs/finRptStsTrue.png);
+	display: block;
+    float: right;
+    height: 12px;
+    margin-top: 7px;
+    margin-right:2px;
+    width: 12px;
+}
+.finRptSts_text{
+	display: block; 
+	float: right;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="GB2312"?><form id="creditapprinfo0002" title="授信审批信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditApproveId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustAppId" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="授信调整申请编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="客户类型" maxlength="4" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="客户编号" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="授信总额" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isCeilingLoop" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="额度是否可循环" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditTerm" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="授信期限" maxlength="2" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="beginDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="授信起日期" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="授信止日期" maxlength="17" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjCreditSum" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="授信调整总额" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjIsCeilingLoop" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="调整额度是否可循环" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjCreditTerm" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="授信调整期限" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjBeginDate" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="授信调整起日期" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjEndDate" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="授信调整止日期" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="当前审批节点编号" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeName" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="当前审批节点名称" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="审批角色号/用户号" maxlength="22" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="当前审批角色/用户名称" maxlength="40" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveRemark" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="审批说明" maxlength="400" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveResult" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="审批意见1同意2否决3退回上一环节4退回初审5不同意" maxlength="2" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditSts" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="授信状态1:申请中2:审批中3:审批通过4:已否决5:已签约" maxlength="2" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="登记人号" maxlength="22" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="登记人名称" maxlength="40" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="登记机构号" maxlength="10" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="最近修改时间" maxlength="17" mustinput="0" row="29"/>
+</form>

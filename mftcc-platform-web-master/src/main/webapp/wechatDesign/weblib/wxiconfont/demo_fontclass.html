@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon dhccwx wx-jgg"></i>
+                    <div class="name">九宫格</div>
+                    <div class="fontclass">.wx-jgg</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-search"></i>
+                    <div class="name">search</div>
+                    <div class="fontclass">.wx-search</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-time"></i>
+                    <div class="name">time</div>
+                    <div class="fontclass">.wx-time</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-lunbozutu"></i>
+                    <div class="name">轮播组图</div>
+                    <div class="fontclass">.wx-lunbozutu</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-console"></i>
+                    <div class="name">console</div>
+                    <div class="fontclass">.wx-console</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-console2"></i>
+                    <div class="name">console2</div>
+                    <div class="fontclass">.wx-console2</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-tab"></i>
+                    <div class="name">tab</div>
+                    <div class="fontclass">.wx-tab</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-hidden"></i>
+                    <div class="name">hidden</div>
+                    <div class="fontclass">.wx-hidden</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-jdt"></i>
+                    <div class="name">合分</div>
+                    <div class="fontclass">.wx-jdt</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-tuwenxiaoxi"></i>
+                    <div class="name">图文消息</div>
+                    <div class="fontclass">.wx-tuwenxiaoxi</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-textarea"></i>
+                    <div class="name">form-textarea</div>
+                    <div class="fontclass">.wx-textarea</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-tabbar"></i>
+                    <div class="name">YDUI-index-tabbar</div>
+                    <div class="fontclass">.wx-tabbar</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-date"></i>
+                    <div class="name">date</div>
+                    <div class="fontclass">.wx-date</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-checkbox"></i>
+                    <div class="name">select</div>
+                    <div class="fontclass">.wx-checkbox</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-orderselect"></i>
+                    <div class="name">order select</div>
+                    <div class="fontclass">.wx-orderselect</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-select"></i>
+                    <div class="name">select</div>
+                    <div class="fontclass">.wx-select</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-input"></i>
+                    <div class="name">input</div>
+                    <div class="fontclass">.wx-input</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-radio"></i>
+                    <div class="name">radio</div>
+                    <div class="fontclass">.wx-radio</div>
+                </li>
+            
+                <li>
+                <i class="icon dhccwx wx-button"></i>
+                    <div class="name">button</div>
+                    <div class="fontclass">.wx-button</div>
+                </li>
+            
+        </ul>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <hr>
+
+        <p>font-class是unicode使用方式的一种变种，主要是解决unicode书写不直观，语意不明确的问题。</p>
+        <p>与unicode使用方式相比，具有如下特点：</p>
+        <ul>
+        <li>兼容性良好，支持ie8+，及所有现代浏览器。</li>
+        <li>相比于unicode语意明确，书写更直观。可以很容易分辨这个icon是什么。</li>
+        <li>因为使用class来定义图标，所以当要替换图标时，只需要修改class里面的unicode引用。</li>
+        <li>不过因为本质上还是使用的字体，所以多色图标还是不支持的。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的fontclass代码：</h3>
+
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./iconfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">dhccwx</span> <span class="hljs-selector-tag">wx-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+        <blockquote>
+        <p>"dhccwx"是你项目下的font-family。可以通过编辑项目查看，默认是"iconfont"。</p>
+        </blockquote>
+    </div>
+</body>
+</html>

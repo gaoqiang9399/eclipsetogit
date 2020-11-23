@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="nmd0001" title="数据字典描述表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keyChnName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="数据字典名称" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keyName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="数据字典名" mustinput="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifEdit" fieldsize="YES_NO" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="是否可编辑" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifSts" fieldsize="YES_NO" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="是否生效" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="键" mustinput="" readonly="" row="3" />
+</form>

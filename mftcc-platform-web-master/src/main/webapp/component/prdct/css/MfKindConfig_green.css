@@ -1,0 +1,366 @@
+.item-checkbox-right{
+	margin-top:-35px;
+	padding-left:175px;
+}
+
+.item-checkbox-right2{
+	margin-top:-35px;
+	padding-left:80px;
+}
+
+.more_hidden_div{
+    width:90px;
+	margin-left:25px;
+}
+
+.kind_input_div{
+    padding-left:30px;
+    margin-top:13px;
+}
+
+.kind_radio_div{
+    padding-left:45px;
+}
+
+.kind_newline_div{
+    margin-left:15px;
+}
+
+.kind_item_checkbox_newline_div{
+    margin-top:65px;
+}
+
+
+
+
+
+/* ====================================================== */
+
+body.modal-open {
+	overflow-y: scroll;
+	padding-right: 0 !important;
+}
+.config-div{
+	padding-bottom:30px;
+}
+
+.config-div .breadcrumb > .active {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.config-div .title-div {
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-left: 16px;
+    padding: 8px 0px;
+}
+
+.config-div .content-div {
+	padding-left:15px;
+	letter-spacing: 1px;
+	color:#666;
+}
+.config-div .sub-title {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #444;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left:0px;
+}
+.config-div .sub-title a{
+	font-weight: normal;
+}
+.config-div .item-div{
+	font-size:12px;
+}
+.config-div .item-title .span-title{
+	padding-right: 15px;
+	position: relative;
+}
+
+.config-div .item-div .item-delete{
+	display:none;
+	color: #32b5cb;
+	position: absolute;
+	top: 3px;
+	right: -3px;
+	cursor: pointer;
+	
+}
+.config-div .item-div .span-title:hover .item-delete{
+	display: inline-block;
+}
+
+.config-div .item-opt{
+	font-size:12px;
+	cursor: pointer;
+	position:relative;
+}
+.config-div .item-opt .item-icon{
+	position:absolute;
+	top:4px;
+	left:30px;
+	font-size:11px;
+}
+/* 更多收起 begin */
+[data-toggle="collapse"] .close-span,
+[data-toggle="collapse"] .i-close-up{
+	display: block !important;
+}
+[data-toggle="collapse"] .more-span,
+[data-toggle="collapse"] .i-open-down {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .close-span,
+[data-toggle="collapse"].collapsed .i-close-up {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .more-span,
+[data-toggle="collapse"].collapsed .i-open-down {
+	display: block !important;
+}
+/* 更多收起  end*/
+
+.config-div .block-item{
+	display: inline-block;
+	width: 110px;
+	height: 70px;
+	position: relative;
+	border:1px solid #ddd;
+	margin-right:20px;
+	margin-bottom: 10px;
+}
+.config-div .block-item .item-title{
+	white-space: normal;
+	text-align: center;
+	padding:10px 0px;
+	float: left;
+}
+
+.template-config .block-item .item-word{
+	width: 100%;
+	height: 68px;
+	background: url("../images/word.png") no-repeat;
+}
+.template-config .block-item .item-excel{
+	width: 100%;
+	height: 68px;
+	background: url("../images/excel.png") no-repeat;
+}
+.template-config .block-item .item-pdf{
+	width: 100%;
+	height: 68px;
+	background: url("../images/pdf.png") no-repeat;
+}
+.template-config .block-item .i {
+	position: absolute;
+	right: -11px;
+	top: -11px;
+	margin-right: 0px;
+	color: #32b5cb;
+	font-size: 20px;
+	display: none;
+}
+
+.template-config .block-item:hover i{
+	display:block;
+}
+.template-config .block-item:hover{
+	cursor: pointer;
+}
+
+
+.bus-config .block-item .item-word{
+	width: 100%;
+	border: none;
+	height: 68px;
+	background: url("../images/word.png");
+	background-color: #fff;
+	white-space: normal;
+	text-align: center;
+	padding:10px 0px;
+	float: left;
+}
+.bus-config .block-item .item-excel{
+	width: 100%;
+	border: none;
+	height: 68px;
+	background: url("../images/excel.png") no-repeat;
+	background-color: #fff;
+	white-space: normal;
+	text-align: center;
+	padding:10px 0px;
+	float: left;
+}
+.bus-config .block-item .item-pdf{
+	width: 100%;
+	border: none;
+	height: 68px;
+	background: url("../images/pdf.png");
+	background-color: #fff;
+	white-space: normal;
+	text-align: center;
+	padding:10px 0px;
+	float: left;
+}
+.bus-config .block-item .item{
+	width: 100%;
+	border: none;
+	height: 70px;
+	background: url("../images/docBg1.png");
+	background-color: #fff;
+	white-space: normal;
+	text-align: center;
+	padding:10px 0px;
+	float: left;
+}
+
+.bus-config .block-item .hover-div{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 110px;
+	height: 70px;
+	background: #7D7D7D;
+	opacity: 0.9;
+}
+.bus-config .block-item:hover .hover-div{
+	display:block;
+}
+
+.bus-config .block-item .hover-info{
+	text-align: center;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+}
+.bus-config .block-item .hover-info span {
+    margin-left: 5px;
+}
+.bus-config .block-item .span-lajitong {
+    color: #32b5cb;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bus-config .block-item .btspan0 {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    font-size: 26px;
+}
+.bus-config .block-item .btspan1 {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    font-size: 12px;
+    color: white;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.bus-config .add-item{
+	display: inline-block;
+	width: 110px;
+	height: 70px;
+	position: relative;
+	border:1px solid #ddd;
+	margin-right:20px;
+	margin-bottom: 10px;
+}
+
+.bus-config .node-doc-config .item-div,
+.bus-config .node-template-config .item-div{
+	position:relative;
+}
+.bus-config .add-div {
+    border: 2px dotted #32b5cb;
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+.bus-config .scroll-div {
+	height:74px;
+	white-space: nowrap;
+}
+
+.bus-config .scroll-div .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{
+	margin:13px 0px;
+}
+.bus-config .scroll-div .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+	margin:13px auto;
+}
+.bus-config .add-div i {
+	width: 100%;
+	height: 70px;
+	line-height: 63px;
+	font-size: 20px;
+	color: #32b5cb;
+}
+
+.bus-config .fixed-add-div{
+	position: absolute;
+	right: 0px;
+	width: 110px;
+	display:none;
+	top:0px;
+}
+
+
+.config-div .item-checkbox .checkbox-span {
+    display: inline-block;
+    background-image: none;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background-color: #EBEBEB;
+    border: 1px solid #CFCECE;
+    border-radius: 4px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.config-div .item-checkbox span {
+    color: #000;
+}
+.config-div .item-checkbox .checkbox-span.curChecked .i {
+    margin: 0px;
+    color: #32b5cb;
+    font-size: 14px;
+    display: block;
+}
+.item-checkbox .checkbox-span .i {
+    display: none;
+}
+
+.config-div .link-disabled,.config-div .link-disabled:hover{
+	color:#666 !important;
+    padding-left: 15px;
+    cursor: default;
+}
+
+.config-div .btn-add {
+	padding: 2px 8px;
+	font-size: 12px;
+	border-radius: 5px;
+	background: #EBEBEB;
+	margin-right: 20px;
+}
+.config-div .btn-add:hover {
+	color:#333;
+}
+.config-div .option-div {
+	overflow:visible;
+}
+.max-width{
+	max-width:75%
+}

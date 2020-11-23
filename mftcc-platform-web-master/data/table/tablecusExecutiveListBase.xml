@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusExecutiveListBase" link="/mfCusHighInfo/findByPage" para="eadis_page" title="高管信息表" type="1">
+<tableitem align="2" filedname="idNum" id="6" indexed="7" label="证件号码" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="highName" id="4" indexed="4" label="高管人名称" mytitle="高管人名称-highName" type="0" typepara="/mfCusHighInfo/listShowDetailAjax;highId-highId;cusNo-cusNo;oneUrl-'/mfCusHighInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="12" indexed="11" label="-" row="1" type="5" typepara="/mfCusHighInfo/getById;highId-highId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusHighInfo/updateAjax';onClick-updateCusTableInfo(this);subStringNub-16;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="11" indexed="12" label="-" row="1" type="5" typepara="/mfCusHighInfo/deleteAjax;highId-highId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="post" id="10" indexed="6" label="现任职务" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="education" id="9" indexed="10" label="最高学历" row="1" type="6" typepara="EDU_ZGC" width="20" widthType="0"/>
+</table>

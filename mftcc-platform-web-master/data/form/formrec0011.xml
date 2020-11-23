@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="rec0011" title="催收详细信息">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" labelstyle="half" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" labelstyle="half" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTel" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="客户联系电话" labelstyle="half" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recallWay" fieldsize="RECALL_WAY" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="催收方式" mustinput="" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recallDate" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="计划开始日期" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="riskLevel" fieldsize="RISK_LEVEL" fieldstyle="half" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="风险级别" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="业务流水号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="returnDesc" fieldstyle="half" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="回执描述" maxlength="400" mustinput="0" readonly="1" row="10" rowspan="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recallAmt" fieldstyle="half" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="应催收金额(元)" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusContactName" fieldstyle="half" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="联系人" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="mustCompleteDate" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="计划完成日期" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldstyle="half" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="recallUnpayAmt1" fieldstyle="half" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="应还本金(元)" mustinput="" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recallUnpayAmt2" fieldstyle="half" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="应还利息(元)" mustinput="" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="brcContAmt" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="违约金(元)" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recallType" fieldsize="RECALL_TYPE" fieldstyle="half" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="催收类型" mustinput="" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recallExeDate" fieldstyle="half" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="催收执行日期" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recallDesc" fieldtype="5" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="催收描述" maxlength="400" mustinput="" readonly="1" row="9"/>
+</form>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="setViewValidate" title="后台设置跳转页面密码验证">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="psword" fieldtype="6" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="密码" mustinput="" readonly="" row="1"/>
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval4002" title="评级场景与业务的关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalType" fieldsize="EVAL_TYPE" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="评级类型" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formal" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodNo" fieldsize="BUS_MODEL" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalScenceNo" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="评级配置场景" maxlength="20" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="登记日期" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalScenceName" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="4" labelname="评级配置场景名称" mustinput="" readonly="" row="1" />
+</form>

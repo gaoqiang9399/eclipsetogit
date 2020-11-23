@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawnother0002" title="质押其他动产权利">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pawnType" fieldtype="1" maxlength="2" formactiveid="2" labelalign="3" labelcol="3" labelname="其他质押类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pawnName" fieldtype="1" maxlength="80" formactiveid="3" labelalign="3" labelcol="1" labelname="质押物名称" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pawnQty" fieldtype="1" maxlength="0" formactiveid="4" labelalign="3" labelcol="3" labelname="质押物数量" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="boughtDate" fieldtype="1" maxlength="8" formactiveid="5" labelalign="3" labelcol="1" labelname="购入/起始日期" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dueDate" fieldtype="1" maxlength="8" formactiveid="6" labelalign="3" labelcol="3" labelname="到期日期" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pawnCt" fieldtype="1" maxlength="2" formactiveid="7" labelalign="3" labelcol="1" labelname="币种" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="oriPawnValue" fieldtype="1" maxlength="16" formactiveid="8" labelalign="3" labelcol="3" labelname="质押物原价值" mustinput="0" row="4"/>
+</form>

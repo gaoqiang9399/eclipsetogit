@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="bankcardportrayal" title="用户银行画像">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankCardNum" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="银行卡号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0469" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="发卡行" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0503" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="各年常住城市枚举" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0483" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="近12月常住城市（交易笔数最多）" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0136" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="近12月，最近一笔交易城市" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0135" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="近12月，最近一笔交易时间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0134" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="近12月，最近一笔交易金额" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0512" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="全部历史交易总笔数（消费类）" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0511" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="全部历史交易总金额（消费类）" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0167" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="夜交易笔数TOP10MTC" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0174" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="夜交易金额占比" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0175" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="夜交易笔数占比" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0259" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="近6月KTV消费金额" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0221" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="近12月加油站消费笔数" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0266" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="近12月大型超市消费金额" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0267" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="近1月大型超市消费笔数" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0636" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="近12月夜交易金额" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0651" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="近12月医院、药店消费笔数" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0644" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="近12月医院单笔大额支出" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0598" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="低额交易占比" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0599" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="中额交易占比" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="S0669" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="MTC金额TOP5" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="S0500" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="品牌次数TOP10" mustinput="" readonly="" row="12"/>
+</form>

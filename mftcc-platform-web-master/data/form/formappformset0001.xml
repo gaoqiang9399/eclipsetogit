@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="appformset0001" title="交易前端申请表单设置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="产品编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="数据库中的字段名称" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldUnit" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="字段单位" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobleShow" fieldsize="YES_NO" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="是否在移动端展示" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pcShow" fieldsize="YES_NO" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="是否在交易端展示" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="defaultVal" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="字段默认值" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobileUse" fieldsize="YES_NO" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="移动端是否使用该字段" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pcUse" fieldsize="YES_NO" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="pc交易端是否使用该字段" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldLabel" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="交易端显示名称" maxlength="50" mustinput="0" row="1"/>
+</form>

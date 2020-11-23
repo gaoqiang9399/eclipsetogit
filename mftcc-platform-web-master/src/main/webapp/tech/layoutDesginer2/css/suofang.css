@@ -1,0 +1,139 @@
+.cell.active {
+	position: fixed;
+	border-radius: 0;
+    transition: transform .6s cubic-bezier(0.5, 1, 0.2, 1) 0s !important;
+    z-index: 100 !important;
+}
+
+.cell.active_reverse {
+  -webkit-transition: -webkit-transform .6s, opacity .4s !important;
+  transition: transform .6s, opacity .4s !important;
+}
+
+
+/******************************
+.overlay anim
+******************************/
+@keyframes fx-overlay {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+  	visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fx-overlay-reverse {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  100% {
+  	visibility: visible;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fx-overlay {
+  0% {
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+  	visibility: visible;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fx-overlay-reverse {
+ 0% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  100% {
+  	visibility: visible;
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fx-overlay {
+  0% {
+  	visibility: visible;
+    opacity: 0;
+  }
+  100% {
+  	visibility: visible;
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fx-overlay-reverse {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  100% {
+  	visibility: visible;
+    opacity: 0;
+  }
+}
+
+.overlay.active {
+  animation: fx-overlay .35s .35s 1 ease-in-out forwards;
+  -webkit-animation: fx-overlay .35s .35s 1 ease-in-out forwards;
+  -moz-animation: fx-overlay .35s .35s 1 ease-in-out forwards;
+}
+
+.overlay.active_reverse {
+  animation: fx-overlay-reverse 0.2s 1 ease-in backwards;
+  -webkit-animation: fx-overlay-reverse 0.2s 1 ease-in backwards;
+  -moz-animation: fx-overlay-reverse 0.2s 1 ease-in backwards;
+}
+.cell.active_reverse {
+  z-index: 11;
+}
+.cell.inactive {
+  pointer-events: none;
+  cursor: default;
+}
+body .cell.active {
+  z-index: 11;
+}
+.noscroll {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.overlay {
+	background-color: #ffffff;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 9999;
+    padding:8px;
+}
+
+.close {
+    font-size: 36px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    color: #20638f;
+    margin: 0;
+    outline: medium none;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

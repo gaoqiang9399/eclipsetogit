@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="examinecard0001" para="eadis_page" link="/mfExamineCard/findByPage" title="贷后检查检查卡表" type="1">
+<tableitem align="2" filedname="examineCardId" id="1" indexed="1" label="检查卡编号" row="1" type="4" typepara="/mfExamineCard/getById;examineCardId-examineCardId;query-'query'"/>
+<tableitem align="2" filedname="examineCardName" id="2" indexed="2" label="检查卡名称" row="1" type="0" />
+<tableitem align="2" filedname="examineCardType" id="3" indexed="3" label="检查卡类型" row="1" type="0" />
+<tableitem align="2" filedname="examineCardTypeName" id="4" indexed="4" label="检查卡类型名称" row="1" type="0" />
+<tableitem align="2" filedname="examTemplateId" id="5" indexed="5" label="贷后检查模型编号" row="1" type="0" />
+<tableitem align="2" filedname="examTemplateName" id="6" indexed="6" label="贷后检查模型名称" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="7" indexed="7" label="检查卡说明" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="9" indexed="9" label="-" row="1" type="5" typepara="/mfExamineCard/deleteAjax;examineCardId-examineCardId;onClick-ajaxDelete(this)" width="2"/>
+</table>

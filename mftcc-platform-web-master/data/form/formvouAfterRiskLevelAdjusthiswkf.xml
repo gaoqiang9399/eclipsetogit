@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vouAfterRiskLevelAdjusthiswkf" title="风险调级审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="VOU_AFTER_RISK_LEVEL" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="风险级别" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustRiskLevel" fieldsize="VOU_AFTER_RISK_LEVEL" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="调整风险级别" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="adjustDate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="调整日期" mustinput="" readonly="1" row="3"/>
+</form>

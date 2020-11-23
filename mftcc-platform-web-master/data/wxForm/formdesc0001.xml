@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root formId="desc0001" desc="描述组件" webFormId="" css="" layout="horizontal">
+    <formelement tagName="DIV" attr-elem-class="weui_panel weui_panel_access desc moveNode" attr-data-titleshow="1" attr-data-grid="1" attr-data-uidraggable="[object Object]" attr-data-icon="wx-tabbar" attr-data-property="panel" attr-data-name="布局" attr-data-lv="2" attr-data-pid="0" attr-data-id="7" attr-data-pkno="dhcc-1" attr-style="border: 1px solid rgb(229, 229, 229); right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-type="1" attr-data-title="申请条件" attr-data-objectname="demo" attr-data-domclass="desc" attr-panellv="0" data-domclass="desc" data-objectname="demo" data-title="申请条件" data-type="1" data-pkno="dhcc-1" data-id="7" data-pid="0" data-lv="2" data-name="布局" data-property="panel" data-icon="wx-tabbar" data-uidraggable="[object Object]" data-grid="1" data-titleshow="1">
+        <formelement tagName="DIV" attr-elem-class="weui_panel_hd" attr-data-title="申请条件" attr-data-titleshow="1" data-titleshow="1" data-title="申请条件" SProp-text="申请条件"/>
+        <formelement tagName="DIV" attr-elem-class="weui_panel_bd column ui-sortable" attr-style="min-height:100px;padding:10px">
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="年龄要求" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-2" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo1" attr-data-readonly="1" data-readonly="1" data-fieldname="demo1" data-pkno="dhcc-2" data-id="14" data-pid="0" data-lv="2" data-name="年龄要求" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="年龄要求"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="工作地点" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-3" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo2" attr-data-readonly="1" data-readonly="1" data-fieldname="demo2" data-pkno="dhcc-3" data-id="14" data-pid="0" data-lv="2" data-name="工作地点" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="工作地点"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="工作年限" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-4" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo3" attr-data-readonly="1" data-readonly="1" data-fieldname="demo3" data-pkno="dhcc-4" data-id="14" data-pid="0" data-lv="2" data-name="工作年限" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="工作年限"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="行业限制" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-5" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo4" attr-data-readonly="1" data-readonly="1" data-fieldname="demo4" data-pkno="dhcc-5" data-id="14" data-pid="0" data-lv="2" data-name="行业限制" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="行业限制"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="收入要求" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-6" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo5" attr-data-readonly="1" data-readonly="1" data-fieldname="demo5" data-pkno="dhcc-6" data-id="14" data-pid="0" data-lv="2" data-name="收入要求" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="收入要求"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode ui-sortable-handle" attr-data-uidraggable="[object Object]" attr-data-icon="wx-input" attr-data-property="text" attr-data-name="信用要求" attr-data-lv="2" attr-data-pid="0" attr-data-id="14" attr-data-pkno="dhcc-7" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-fieldname="demo6" attr-data-readonly="1" data-readonly="1" data-fieldname="demo6" data-pkno="dhcc-7" data-id="14" data-pid="0" data-lv="2" data-name="信用要求" data-property="text" data-icon="wx-input" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="信用要求"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="请输入"/>
+                </formelement>
+            </formelement>
+            <formelement tagName="DIV" attr-data-datatype="0" attr-elem-class="weui_cell moveNode" attr-data-uidraggable="[object Object]" attr-data-icon="wx-orderselect" attr-data-property="picker" attr-data-name="选择器" attr-data-lv="2" attr-data-pid="0" attr-data-id="12" attr-data-pkno="dhcc-1" attr-style="right: auto; bottom: auto; top: 0px; left: 0px; opacity: 1; width: auto; height: auto; position: relative; z-index: 0;" attr-data-parmkey="" attr-data-custom="否-0|是-1" attr-data-fieldname="test" attr-data-change="" attr-data-close="" attr-data-readonly="0" data-readonly="0" data-close="" data-change="" data-fieldname="test" data-custom="否-0|是-1" data-parmkey="" data-pkno="dhcc-1" data-id="12" data-pid="0" data-lv="2" data-name="选择器" data-property="picker" data-icon="wx-orderselect" data-uidraggable="[object Object]" data-datatype="0">
+                <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+                    <formelement tagName="LABEL" attr-elem-class="weui_label" SProp-text="选择器"/>
+                </formelement>
+                <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+                    <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="text" attr-placeholder="选择器"/>
+                </formelement>
+            </formelement>
+        </formelement>
+    </formelement>
+</root>

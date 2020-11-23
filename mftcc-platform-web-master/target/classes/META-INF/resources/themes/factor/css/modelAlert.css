@@ -1,0 +1,27 @@
+.cd-popup-container .warning .submitBtn{
+	background-color: #32b5cb;
+	border: 1px solid #32b5cb;
+	border-radius: 0px;
+	color: #fff;
+	height: 27px;
+	margin: 0 5px 0;
+	width: 65px;
+	cursor: pointer;
+}
+.cd-popup-container .warning .cancelBtn{
+	background-color: #ffffff;
+	border: 1px solid #d2d3d6 !important;
+	border-radius: 0px;
+	color: #000000;
+	height: 27px;
+	margin: 0px 5px 0;
+	width: 65px;
+	cursor: pointer;
+}
+.cd-popup-container .warning .submitBtn:hover{
+	background-color: #009db7;
+}
+.cd-popup-container .warning .cancelBtn:hover{
+	background-color: #e7e7e7;
+	color: #000000;
+}

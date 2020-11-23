@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="exchangerate0001" title="汇率表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curno" fieldsize="CUR_TYPE" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="币种" maxlength="10" mustinput="1" readonly="1" row="1"/>
+<formelement calculationType="onBlur" datatype="0" fieldalign="1" fieldcol="2" fieldname="exchangeRate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="汇率" maxlength="9" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateno" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curshot" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="缩写" mustinput="1" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="edituser" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="更新人员" mustinput="" readonly="1" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="editdate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="更新日期" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="edittime" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="更新时间" mustinput="" readonly="1" row="2" />
+</form>

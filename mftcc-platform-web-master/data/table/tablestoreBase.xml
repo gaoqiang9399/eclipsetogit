@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="storeBase" link="/mfBusStore/findByPage" para="eadis_page" title="门店表" type="1">
+<tableitem align="2" filedname="regTime" id="6" indexed="6" label="登记时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="indStoreFlag" id="4" indexed="4" label="门店类型" row="1" type="6" typepara="STORE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="brNo" id="3" indexed="3" label="部门编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="brName" id="2" indexed="2" label="部门名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="8" label="最后操作人员" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="19" indexed="7" label="修改时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="更改门店类型" id="18" indexed="9" label="更改门店类型" row="1" type="5" typepara="/mfBusStore/changeTypeAjax;brNo-brNo;onClick-MfBusStore.changeTypeAjax(this)" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="19" label="-" row="1" type="5" typepara="/mfBusStore/deleteAjax;id-id;brNo-brNo;onClick-MfBusStore.ajaxDelete(this)" width="2" widthType="0"/>
+</table>

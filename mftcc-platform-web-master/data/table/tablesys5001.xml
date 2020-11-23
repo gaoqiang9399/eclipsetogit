@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sys5001" link="/sysUser/findByPage" para="eadis_page" title="用户表" trDbClick="/sysUser/getById;opNo-opNo;onDbClick-getSysUserInfo" type="1">
+<tableitem align="2" buttonMark="SysUser002" filedname="账户解锁" id="25" indexed="29" label="-" row="1" type="5" typepara="/secUserMarkInfo/unlockAccountAjax;opNo-opNo;onClick-unlockAccount(this);" widthType="0"/>
+<tableitem align="2" authority="resetPWDFlag-0" filedname="重置密码" id="24" indexed="28" label="-" row="1" type="5" typepara="/sysUser/resetPasswordAjax;opNo-opNo;onClick-resetPassword(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="brName" id="22" indexed="4" label="部门" mytitle="部门-brName;" type="3" typepara="12" width="15" widthType="0"/>
+<tableitem align="2" buttonMark="SysUser002" filedname="修改" id="19" indexed="27" label="-" row="1" type="5" typepara="/sysUser/getById;opNo-opNo;onClick-getSysUserInfo" width="5" widthType="0"/>
+<tableitem align="2" filedname="loginUser" id="21" indexed="6" label="登陆账号" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="roleName" id="16" indexed="8" label="角色" mytitle="角色-roleName" row="1" sortType="2" type="4" typepara="action;roleNo-roleNo;onClick-roleConfig;subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="mobile" id="7" indexed="12" label="手机" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="opSts" id="14" indexed="13" label="状态" row="1" sortType="2" type="4" typepara="/sysUser/updateStsNewAjax;opNo-opNo;" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="2" indexed="3" label="用户名称" row="1" type="0" width="15" widthType="0"/>
+</table>

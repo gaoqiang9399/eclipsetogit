@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vccertificatepost_address01" para="eadis_page" title="合格证邮寄地址表" trClick=";onClick-Vcms.checkCurrentTr(this)" type="1">
+<tableitem align="2" filedname="修改" id="18" indexed="17" label="-" row="1" sortType="2" type="5" typepara="/vcCertificatePostAddress/getUpdatePage;addressId-addressId;onClick-VcCertificatePostAddress_List.getUpdatePage;" widthType="0"/>
+<tableitem align="2" filedname="abbreviatedAddress" id="9" indexed="9" label="地址简称" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="18" label="-" row="1" sortType="2" type="5" typepara="/vcCertificatePostAddress/deleteAjax;addressId-addressId;onClick-VcCertificatePostAddress_List.deleteCertificatePostAddress(this)" widthType="0"/>
+<tableitem align="2" filedname="detailedAddress" id="8" indexed="8" label="接收详细地址" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="16" indexed="16" label="最后修改人" row="1" sortType="1" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="phoneNumber" id="7" indexed="7" label="手机号码" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="telephoneNumber" id="6" indexed="6" label="电话号码" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="addresseeIdCardNo" id="5" indexed="5" label="接收人身份证号" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="addresseeName" id="4" indexed="4" label="接收人姓名" row="1" sortType="1" type="0" width="9" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="3" indexed="3" label="经销商全称" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="12" width="14" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="11" indexed="11" label="登记人" row="1" sortType="1" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="addressId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="addressId-addressId;" width="4" widthType="0"/>
+</table>

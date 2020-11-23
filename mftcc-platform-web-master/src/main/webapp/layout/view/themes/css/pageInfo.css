@@ -1,0 +1,89 @@
+::-ms-clear{display: none;}
+::-ms-reveal{display: none;}
+.pageInfo {
+    color: #fff;
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+     position: relative;
+         font-weight: 300;
+    letter-spacing: 1px;     
+}
+.pageInfo i {
+    font-size: 1.6em;
+    left: 9px;
+    position: relative;
+    top: 7px;
+}
+.pageInfo i.i-4sdian, .pageInfo i.i-gongchang, .pageInfo i.i-wenjian4,.pageInfo i.i-fangkuai1,.pageInfo i.i-tongji{font-size:16px;}
+.pageInfo i.i-4sdian, .pageInfo i.i-gongchang{font-size:18px;}
+.pageInfo i.i-wenjian4{left:16px;top:9px;}
+.pageInfo i.i-wnejian1{left:16px;top:6px;}
+.pageInfo i.i-fangkuai1{top:9px;}
+.pageInfo i.i-qian1{top:6px;}
+.pageInfo i.i-tongji {
+    left: 16px;
+    top: 9px;
+}
+.pageInfo span {
+    font-size: 12px;
+    margin-left: 10px;
+    position: absolute;
+    top: 8px;
+    left:14px;
+}
+.improSpan{
+	font-size: 16px !important; 
+	margin: 0px 15px 0px 0px !important; 
+	top: 0px !important;
+	position: relative!important;
+}
+.pageInfo .name {
+    font-size: 18px;
+}
+.middle-north-center .i-fangdajing {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1em;
+    position: relative;
+    right: 10px;
+    top: 32%;
+}
+#nope {
+    background-color: #1e94cc;
+    border: 0 none;
+    box-sizing: border-box;
+    color: #fff;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: 18px;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    height: 100%;
+    line-height: inherit;
+    margin: 0;
+    padding: 0 12px;
+    width: 90%;
+    font-size:14px;
+}
+.TopBar-user {
+    border-left: medium none;
+}
+.TopBar-user .icon-user {
+    font-size: 16px;
+}
+.TopBar-chevron a {
+    padding-top: 0px;
+    width:40px;
+}
+.TopBar-chevron a i.i{ 
+	top:12px;
+	font-size:12px;
+	position:absolute;
+}

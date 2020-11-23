@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="prerepayapplylist" link="/mfPreRepayApply/findByPage" para="eadis_page" title="提前还款申请表" type="1">
+<tableitem align="2" filedname="fincId" id="9" indexed="2" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="penaltyAmt" id="8" indexed="4" label="违约金(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="deductAmt" id="7" indexed="5" label="优惠金额(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="appName" id="6" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-MfPreRepayApplyList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="opName" id="5" indexed="8" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="preRepayAppSts" id="13" indexed="11" label="申请状态" row="1" type="6" typepara="PRE_REPAY_APP_STS" widthType="0"/>
+<tableitem align="2" authority="preRepayAppSts-4;preRepayAppSts-5;" filedname="详情" id="12" indexed="12" label="-" type="5" typepara="/mfPreRepayApply/getById;preRepayAppId-preRepayAppId;onclick-MfPreRepayApplyList.getPreRepayDetialPage(this);" widthType="0"/>
+<tableitem align="2" filedname="appTime" id="3" indexed="7" label="申请时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName" row="1" sortType="2" type="3" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="planRepayDate" id="11" indexed="6" label="计划还款日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="10" indexed="3" label="提前还款金额(元)" row="1" sortType="2" type="12" widthType="0"/>
+</table>

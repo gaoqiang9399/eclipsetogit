@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+.repay{
+		border:1px solid #ccc;
+		background-color:#F8F9FC;
+		margin:20px 50px 0px 50px;
+		
+	}
+	.repayleft{
+		border-right:1px solid #ccc;
+		padding:20px 0px 20px 0px;
+	}
+	.repayright{
+		border-left:1px solid #ccc;
+		padding:20px 20px 20px 20px;
+	}
+	.repayright .input-group-addon{
+		position: relative;
+		top: -6px;
+	}
+	.repayright .input-group .form-control{
+		position: relative;
+		top: -6px;
+	}
+	.repayright .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+		padding: 8px 0px 0px 8px!important;
+		border: 0px!important;
+	}
+	.repayright .tdlable label{
+		font-weight:400;
+	}
+	.mCustomScrollbar .table-bordered{
+		border: 0px;
+	}
+	.repay .repayleft table tr{
+		height:30px;
+		line-height:30px;
+		font-size:14px!important;
+	}
+	.repay .repayright table tr{
+		height:40px;
+		line-height:40px;
+		font-size:14px!important;
+	}
+	.repay table tr .font-smallup{
+		margin-left:20px;
+		margin-bottom:10px;
+		display:inline-block;
+	}
+	.repayInput{
+		border-style:none;
+		display:none;
+		width:100%;
+		height:100%;
+		text-align:center;
+	}
+	.realvalue{
+		margin-left:20px;
+	}
+	.realvalue select,.realvalue input{
+		height:30px;
+		line-height:30px;
+		width:150px;
+	}
+	.tab_span{
+		width:100%;
+		height:100%;
+		display:inline-block;
+		text-align: center;
+	}
+	.list-table .ls_list tbody tr:nth-child(even){
+		background:#F8F9FC!important;
+	}
+	.list-table .ls_list thead tr th{
+		text-align: center;
+		font-size: 14px!important;
+		 color: #666;
+	}
+	.money_right{
+		text-align: right;
+	}
+	.list-table{
+		margin-right:50px;
+	}
+	.list-table .ls_list tbody tr td{
+		font-size:14px!important;
+		width:130px!important;
+		color: #000000;
+	}
+	.scroll-content{
+		padding-bottom:60px;
+	}
+	.tdlable{
+		color: #666;
+	}
+	.font-small .theader{
+		color: #666;
+	}
+	.templateInfo{
+		margin: 20px 50px 0px 30px;
+	}
+	.templateInfo .list-table .ls_list tbody tr td{
+		text-align:center;
+	}
+	
+	
+	.repayfee{
+		border:1px solid #ccc;
+		background-color:#F8F9FC;	
+		padding-left: 30px;
+		
+	}
+	.repayfee .list-table .ls_list tbody tr td{
+    	text-align: center !important; 
+    	color: #7f7f7f  !important;
+    	
+	}
+	   

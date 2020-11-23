@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="consapp0002" title="低值易耗品申领登记">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="consClass" fieldstyle="half" fieldtype="21" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="品名" mustinput="1" onchange="OaConsAppInsert.initCons(this)" readonly="" row="2" />
+<formelement alt="请输入申领备注，不超过200字" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateNum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="数量" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="申领人" maxlength="40" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="operateType" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="操作类型" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="consNo" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="5" labelname="耗品编号" mustinput="" readonly="" row="3" />
+<formelement alt="请选择类别" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="className" fieldstyle="half" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="类别" mustinput="1" onclick="selectConsClassDialog(OaConsAppInsert.getConsClassDialog)" readonly="" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='selectConsClassDialog(OaConsAppInsert.getConsClassDialog)'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="classNo" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="5" labelname="类别编号" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="36" horVer="0" labelalign="3" labelcol="5" labelname="申领人编号" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appType" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="5" labelname="申领类型" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="consName" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="5" labelname="资产名" mustinput="" readonly="" row="3" />
+</form>

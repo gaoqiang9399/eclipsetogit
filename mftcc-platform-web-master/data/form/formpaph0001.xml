@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="true" id="paph0001" title="引流接口数据查询">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orderNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="请求订单号" mustinput="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqTime" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="请求时间" mustinput="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqPacketEncrypt" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="请求报文密文" maxlength="400" mustinput="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqPacket" fieldtype="5" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="请求报文明文" maxlength="400" mustinput="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqApiType" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="请求接口类型" mustinput="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchNo" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="渠道编号" mustinput="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="渠道名称" mustinput="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqStatus" fieldsize="REQ_STATUS" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="请求状态" mustinput="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqStatusRemark" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="请求状态说明" mustinput="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busStatus" fieldsize="BUS_STATUS" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="业务处理状态" mustinput="" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busRecordId" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="系统流水号" mustinput="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busTime" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="业务处理时间" mustinput="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="imageName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="影像文件名称" mustinput="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="imageFilepath" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="影像文件路径" mustinput="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnId" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="系统流水号" mustinput="" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="txTime" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occTime" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="返回时间" mustinput="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repStatus" fieldsize="REP_STATUS" fieldtype="2" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="返回状态" mustinput="" readonly="1" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repStatusRemark" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="返回信息" mustinput="" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repCount" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="请求次数" mustinput="" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repUrl" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="接收地址" mustinput="" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appStatus" fieldsize="APP_STATUS" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="申请处理状态" mustinput="" readonly="1" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqPacketEncrypt1" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="返回报文明文" maxlength="400" mustinput="" readonly="" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reqPacket1" fieldtype="5" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="返回报文密文" maxlength="400" mustinput="" readonly="" row="21"/>
+</form>

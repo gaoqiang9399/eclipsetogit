@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval2008" title="客户经理调整分数详情">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="manAdjustScore" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="调整分数" maxlength="16" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manAdjustCause" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="调整得分理由" maxlength="500" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="restrictLevel" fieldsize="EVAL_LEVEL" fieldtype="2" formactiveid="13" labelalign="3" labelcol="1" labelname="约束级别" maxlength="1" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fieldName" fieldtype="99" formactiveid="16" horVer="0" labelalign="2" labelcol="4" labelcolspan="2" labelname="调整得分规则：调整得分应在-5~5之间" labelstyle="redlable" mustinput="0" row="3" selrange="1" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="adjustScore" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="调整指标得分" maxlength="16" mustinput="0" readonly="1" row="5"/>
+</form>

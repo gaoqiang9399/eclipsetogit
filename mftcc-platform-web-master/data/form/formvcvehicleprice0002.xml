@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vcvehicleprice0002" title="机动车价格表(新增)">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="priceId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="价格ID" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleConfName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="车辆配置" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vehiclePrice" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="车辆单价" maxlength="18" mustinput="1" readonly="" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulavalidate" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="车辆单价&gt;0车辆单价" mustinput="0" readonly="" row="5"/>
+</form>

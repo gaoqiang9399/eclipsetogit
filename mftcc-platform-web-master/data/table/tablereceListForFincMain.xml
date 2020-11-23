@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receListForFincMain" para="eadis_page" title="融资详情下账款列表" type="2">
+<tableitem align="2" filedname="receEndDate" id="6" indexed="7" label="账款到期日" row="1" sortType="1" type="1" typepara="mfCusBankAccManage/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusBankAccManage/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="15" widthType="0"/>
+<tableitem align="2" filedname="receTransAmt" id="5" indexed="6" label="转让金额" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="receAmt" id="4" indexed="5" label="应收账款金额" row="1" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="receInvoiceAmt" id="3" indexed="4" label="发票金额" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="receNo" id="2" indexed="2" label="发票号" row="1" sortType="2" type="4" typepara="mfBusReceBaseInfo/listShowDetailAjax;receId-receId;oneUrl-'/mfCusBankAccManage/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="12" widthType="0"/>
+<tableitem align="2" filedname="receCounterparty" id="9" indexed="3" label="买方" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="8" indexed="8" label="融资到期日" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="7" indexed="9" label="融资金额(元)" row="1" sortType="2" type="0" widthType="0"/>
+</table>

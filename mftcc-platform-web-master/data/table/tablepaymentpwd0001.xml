@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="paymentpwd0001" link="/mfKingsoftPaymentPassword/findByPage" para="eadis_page" title="支付密码" type="1">
+<tableitem align="2" filedname="cusTel" id="4" indexed="4" label="手机号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="重置密码" id="7" indexed="8" label="-" type="5" typepara="/mfKingsoftPaymentPassword/updatePwdAjax;id-id;onClick-updatePwd(this)" width="2" widthType="0"/>
+</table>

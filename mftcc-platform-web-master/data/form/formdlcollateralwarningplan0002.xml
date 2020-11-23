@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlcollateralwarningplan0002" title="押品预警方案">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="方案编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="方案名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnDesc" fieldtype="5" formactiveid="3" labelalign="3" labelcol="1" labelname="方案描述" maxlength="200" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isStart" fieldsize="YES_NO" fieldtype="2" formactiveid="4" labelalign="3" labelcol="1" labelname="是否启用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="建立日期" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updDate" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="更新日期" maxlength="10" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="登记人" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人机构编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="登记人机构" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateCusId" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateCusName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="更新人姓名" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOrgId" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="更新人机构编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOrgName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="更新人机构" maxlength="80" mustinput="0" row="4"/>
+</form>

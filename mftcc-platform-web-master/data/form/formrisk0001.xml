@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="risk0001" title="预警方案详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="方案名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="itemType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="方案类型" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="usedInd" fieldtype="1" formactiveid="5" labelalign="3" labelcol="5" labelname="是否启用" maxlength="1" mustinput="0" row="1"/>
+</form>

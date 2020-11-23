@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="examapprove0001" para="eadis_page" link="/mfExamineApprove/findByPage" title="检查审批主表" type="1">
+<tableitem align="2" filedname="approveId" id="1" indexed="1" label="检查审批编号" row="1" type="4" typepara="/mfExamineApprove/getById;approveId-approveId;query-'query'"/>
+<tableitem align="2" filedname="examHisId" id="2" indexed="2" label="检查历史编号" row="1" type="0" />
+<tableitem align="2" filedname="appName" id="3" indexed="3" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="4" indexed="4" label="合同编号" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="5" indexed="5" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="templateId" id="7" indexed="7" label="检查模板编号" row="1" type="0" />
+<tableitem align="2" filedname="templateName" id="8" indexed="8" label="检查模板" row="1" type="0" />
+<tableitem align="2" filedname="docuTemplate" id="9" indexed="9" label="文档模板" row="1" type="0" />
+<tableitem align="2" filedname="formTemplate" id="10" indexed="10" label="表单模板" row="1" type="0" />
+<tableitem align="2" filedname="riskLevel" id="11" indexed="11" label="风险级别" row="1" type="0" />
+<tableitem align="2" filedname="examOpNo" id="12" indexed="12" label="检查人" row="1" type="0" />
+<tableitem align="2" filedname="examOpName" id="13" indexed="13" label="检查人姓名" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="14" indexed="14" label="检查开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="15" indexed="15" label="检查完成日期" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="16" indexed="16" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="examProcessId" id="17" indexed="17" label="检查审批流程编号" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="18" indexed="18" label="登记人" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="19" indexed="19" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="20" indexed="20" label="登记部门" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="21" indexed="21" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="22" indexed="22" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="23" indexed="23" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="fincId" id="24" indexed="24" label="借据号" row="1" type="0" />
+<tableitem align="2" filedname="examineScore" id="25" indexed="25" label="检查得分" row="1" type="0" />
+<tableitem align="2" filedname="adjFiveClass" id="26" indexed="26" label="调整五级分类" row="1" type="0" />
+<tableitem align="2" filedname="adjRiskLevel" id="27" indexed="27" label="调整风险级别" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="29" indexed="29" label="-" row="1" type="5" typepara="/mfExamineApprove/deleteAjax;approveId-approveId;onClick-ajaxDelete(this)" width="2"/>
+</table>

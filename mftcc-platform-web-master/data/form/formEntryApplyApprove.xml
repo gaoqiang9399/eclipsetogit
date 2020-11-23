@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="EntryApplyApprove" title="审批页面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="姓名" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="部门名称" maxlength="80" mustinput="0" onclick="selectOrgSelectDialog(OaArchivesFind.setSysOrgInfo);" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opSts" fieldsize="JOB_STS" fieldstyle="half" fieldtype="2" formactiveid="5" labelalign="3" labelcol="3" labelname="申请在职状态" maxlength="1" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="birthday" fieldstyle="half" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="出生日期" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sex" fieldsize="SEX" fieldstyle="half" fieldtype="2" formactiveid="12" labelalign="3" labelcol="3" labelname="性别" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldstyle="half" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="身份证号" maxlength="18" mustinput="0" onblur="StringUtil.setBirthyAndSexByID(this,'sex','birthday');func_uior_valFormat_tips(this, 'idnum');" readonly="1" row="2"/>
+<formelement alt="请输入11位正确的手机号码" datatype="0" fieldalign="1" fieldcol="4" fieldname="tel" fieldstyle="half" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="手机" maxlength="11" mustinput="0" onblur="func_uior_valFormat_tips(this, 'mobile');" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="50" labelalign="3" labelcol="1" labelname="最后一次修改时间" maxlength="17" mustinput="0" row="32"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="wage" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="薪资待遇" maxlength="14" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="probationaryWage" fieldtype="1" formactiveid="64" horVer="0" labelalign="3" labelcol="3" labelname="试用期待遇" maxlength="14" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fatherCondition" fieldtype="90" formactiveid="78" labelalign="3" labelcol="1" labelname="父亲情况" maxlength="100" mustinput="0" row="50"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="single" fieldtype="90" formactiveid="79" labelalign="3" labelcol="1" labelname="是否单身" maxlength="1" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="localPurchase" fieldtype="90" formactiveid="80" labelalign="3" labelcol="1" labelname="是否有意在本地买房" maxlength="1" mustinput="0" row="52"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationBrNo" fieldtype="90" formactiveid="81" labelalign="3" labelcol="1" labelname="在我司任职的亲戚或者朋友的部门编号" maxlength="10" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="90" formactiveid="82" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="54"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="healthSts" fieldtype="90" formactiveid="83" labelalign="3" labelcol="1" labelname="身体状况（数据字典）" maxlength="1" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nowSalary" fieldtype="90" formactiveid="84" labelalign="3" labelcol="1" labelname="目前薪水" maxlength="10" mustinput="0" row="56"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="motherCondition" fieldtype="90" formactiveid="85" labelalign="3" labelcol="1" labelname="母亲情况" maxlength="100" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="socialSecurity" fieldtype="90" formactiveid="87" labelalign="3" labelcol="1" labelname="是否交过社保" maxlength="1" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insuranceAddr" fieldtype="90" formactiveid="88" labelalign="3" labelcol="1" labelname="insuranceAddr" maxlength="40" mustinput="0" row="60"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loverName" fieldtype="90" formactiveid="90" labelalign="3" labelcol="1" labelname="恋人姓名" maxlength="10" mustinput="0" row="62"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workCartificate" fieldtype="90" formactiveid="91" labelalign="3" labelcol="1" labelname="是否有就业证" maxlength="1" mustinput="0" row="63"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="90" formactiveid="92" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="64"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inseranceFund" fieldtype="90" formactiveid="93" labelalign="3" labelcol="1" labelname="是否缴纳五险一金" maxlength="1" mustinput="0" row="65"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="englishName" fieldtype="90" formactiveid="94" labelalign="3" labelcol="1" labelname="英文名" maxlength="40" mustinput="0" row="66"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loverRemark" fieldtype="90" formactiveid="96" labelalign="3" labelcol="1" labelname="恋人备注" maxlength="100" mustinput="0" row="68"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updalaryDate" fieldtype="90" formactiveid="97" labelalign="3" labelcol="1" labelname="上次调薪时间" maxlength="8" mustinput="0" row="69"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveAddr" fieldtype="90" formactiveid="98" labelalign="3" labelcol="1" labelname="archiveAddr" maxlength="40" mustinput="0" row="70"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseAddr" fieldtype="90" formactiveid="99" labelalign="3" labelcol="1" labelname="地址" maxlength="40" mustinput="0" row="71"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="90" formactiveid="103" labelalign="3" labelcol="1" labelname="部门编号" maxlength="22" mustinput="0" row="75"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loverAddr" fieldtype="90" formactiveid="104" labelalign="3" labelcol="1" labelname="恋人地址" maxlength="40" mustinput="0" row="76"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="liveCartificate" fieldtype="90" formactiveid="105" labelalign="3" labelcol="1" labelname="是否有居住证" maxlength="1" mustinput="0" row="77"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="loverIncome" fieldtype="90" formactiveid="107" labelalign="3" labelcol="1" labelname="恋人收入" mustinput="0" row="79"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="homeCondition" fieldtype="90" formactiveid="108" labelalign="3" labelcol="1" labelname="家庭情况" maxlength="100" mustinput="0" row="80"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="liveCondition" fieldtype="90" formactiveid="109" labelalign="3" labelcol="1" labelname="目前居住情况" maxlength="40" mustinput="0" row="81"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="baseId" fieldtype="99" formactiveid="112" horVer="0" labelalign="3" labelcol="5" labelname="基础信息ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="position" fieldsize="DUTIES" fieldtype="2" formactiveid="113" horVer="0" labelalign="3" labelcol="1" labelname="职务" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="115" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="116" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="117" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entryManagementId" fieldtype="99" formactiveid="118" horVer="0" labelalign="3" labelcol="5" labelname="入职申请id" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="state" fieldtype="5" formactiveid="119" horVer="0" labelalign="3" labelcol="1" labelname="入职说明" maxlength="400" mustinput="" readonly="1" row="6"/>
+</form>

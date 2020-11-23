@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body{
+	height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.layout-north{
+	
+}
+.layout-west{
+	background-color: #f1f1f1;
+    bottom: 0;
+    position: absolute;
+    top: -25px;
+    width: 150px;
+    pointer-events: auto;
+}
+.layout-east{
+	bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 250px;
+}
+.layout-center{
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    -webkit-filter: url("#goo");
+	filter: url("../drag.html#goo");
+	pointer-events:none;
+}
+.workspace{
+	background-color: transparent;
+    bottom: 0;
+    left: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    pointer-events: auto;
+}
+.modelspace{
+	bottom: 0;
+    filter: none;
+    left: 150px;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+}
+.leftForFilter{
+	background-color: #f1f1f1;
+    bottom: -20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 150px;
+}
+.task-node{
+	height: 100px;
+    width: 200px;
+    position: absolute !important;
+    pointer-events: none;
+    z-index: 10001;
+}
+.node-content{
+	bottom: 12%;
+    left: 13%;
+    pointer-events: auto;
+    position: absolute;
+    right: 13%;
+    text-align: center;
+    top: 11%;
+}
+.task-node .rs_content{
+	height: 100%;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 10px;
+    pointer-events: auto;
+    
+}
+.task-node .rs_content .rs_close{
+	background: rgba(0, 0, 0, 0) url("img/gooflow_tip.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 10px;
+}
+.task-node .rs_content .rs_direct{
+	background: rgba(0, 0, 0, 0) url("img/direct.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 10px;
+}
+.task-node.dragging .node-content,
+.task-node.dragging .rs_content {
+	-webkit-transform: scale3d(1.2, 1.2, 1);
+	transform: scale3d(1.2, 1.2, 1);
+}
+#direct_svg,#markerEndArrow{
+	pointer-events: none;
+}
+/*path{
+    fill  : #c1dcfc;
+    stroke: royalblue;
+}*/
+#modeler{
+	border: none !important;
+}
+.ui-layout-south{
+	border:none !important;
+}
+.ui-layout-north{
+	border:none !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4) !important;
+}

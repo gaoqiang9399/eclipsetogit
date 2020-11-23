@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="templatemodel0002" title="模版模型表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="modelNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="模型编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="模型名称" maxlength="400" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelRemark" fieldtype="5" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="模型描述" maxlength="400" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" mustinput="1" readonly="" row="3"/>
+</form>

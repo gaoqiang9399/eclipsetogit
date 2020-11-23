@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou1111" title="203.保单 GRT_P_POLICY">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantyId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="96" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="policyType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="保险种类" maxlength="15" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="policyNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="保单编号" maxlength="300" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="policyHolder" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="投保人" maxlength="180" mustinput="0" row="3"/>
+</form>

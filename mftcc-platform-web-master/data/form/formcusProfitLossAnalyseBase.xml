@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusProfitLossAnalyseBase" title="登记损益分析">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proName" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="项目" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="38"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="40"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="42"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="44"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="46"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="netProfit" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="净利润(5)=(3)-(4)" maxlength="14" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="otherIncome" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="其他收入(6)" maxlength="14" mustinput="" readonly="" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="variableCostTotal" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="可变成本合计(2)" maxlength="14" mustinput="" readonly="" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="incomeTotal" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="收入合计(1)" maxlength="14" mustinput="" readonly="" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="grossProfit" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="毛利(3)=(1)-(2)" maxlength="14" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fixFeePay" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="固定费用支出(4)" maxlength="14" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="otherOftenFeePay" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="其它经常性费用支出(7)" maxlength="14" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="disposableIncome" fieldtype="1" formactiveid="44" horVer="0" labelalign="3" labelcol="3" labelname="可支配收入(5)+(6)-(7)" maxlength="14" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+</form>

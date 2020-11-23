@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="compensatorydocregister" para="eadis_page" title="资料清单" type="2">
+<tableitem align="2" filedname="docCode" id="9" indexed="2" label="序号" row="1" type="0" typepara="subStringNub-18;" width="20" widthType="0"/>
+<tableitem align="2" filedname="docName" id="2" indexed="3" label="文档名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="isProvide" id="10" indexed="5" label="是否提供" row="1" type="6" typepara="YES_NO" width="10" widthType="0"/>
+<tableitem align="2" filedname="docCode" id="11" indexed="7" label="docCode" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="remark" id="1" indexed="8" label="备注" mytitle="当事人-client" row="1" type="0" typepara="subStringNub-50;" width="30" widthType="0"/>
+</table>

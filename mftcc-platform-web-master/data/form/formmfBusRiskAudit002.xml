@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfBusRiskAudit002" title="稽核项目">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="65" horVer="0" labelalign="3" labelcol="3" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chargeName" fieldtype="1" formactiveid="66" horVer="0" labelalign="3" labelcol="1" labelname="评审责任人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaScheme" fieldtype="1" formactiveid="67" horVer="0" labelalign="3" labelcol="1" labelname="担保方案" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaSchemeBack" fieldtype="1" formactiveid="68" horVer="0" labelalign="3" labelcol="3" labelname="反担保方案" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageMeasures" fieldtype="1" formactiveid="69" horVer="0" labelalign="3" labelcol="1" labelname="管理措施" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workNo" fieldsize="WORK_NO_TYPE" fieldtype="21" formactiveid="70" horVer="0" labelalign="3" labelcol="1" labelname="工作底稿" mustinput="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="workShow" fieldtype="5" formactiveid="71" horVer="0" labelalign="3" labelcol="1" labelname="工作底稿说明" mustinput="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportNo" fieldsize="WORK_NO_TYPE" fieldtype="21" formactiveid="72" horVer="0" labelalign="3" labelcol="1" labelname="评审报告" mustinput="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="reportShow" fieldtype="5" formactiveid="73" horVer="0" labelalign="3" labelcol="1" labelname="评审报告说明" mustinput="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskNo" fieldsize="RISK_NO_TYPE" fieldtype="21" formactiveid="74" horVer="0" labelalign="3" labelcol="1" labelname="评级" mustinput="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="riskShow" fieldtype="5" formactiveid="75" horVer="0" labelalign="3" labelcol="1" labelname="评级说明" mustinput="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="processNo" fieldsize="WORK_NO_TYPE" fieldtype="21" formactiveid="76" horVer="0" labelalign="3" labelcol="1" labelname="决策流程" mustinput="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="processShow" fieldtype="5" formactiveid="77" horVer="0" labelalign="3" labelcol="1" labelname="决策流程说明" mustinput="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="basisNo" fieldsize="RISK_NO_TYPE" fieldtype="21" formactiveid="78" horVer="0" labelalign="3" labelcol="1" labelname="决策依据" mustinput="" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="81" horVer="0" labelalign="3" labelcol="1" labelname="稽核人" mustinput="" readonly="1" row="19"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="auditDate" fieldtype="1" formactiveid="82" horVer="0" labelalign="3" labelcol="3" labelname="稽核日期" mustinput="" readonly="1" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="auditOpinion" fieldtype="5" formactiveid="83" horVer="0" labelalign="3" labelcol="1" labelname="风险部稽核意见" mustinput="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="basisShow" fieldtype="5" formactiveid="84" horVer="0" labelalign="3" labelcol="1" labelname="决策依据说明" mustinput="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="85" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="86" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="1" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateId" fieldtype="99" formactiveid="87" horVer="0" labelalign="3" labelcol="1" labelname="模板编号" mustinput="" readonly="" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="88" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="89" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" mustinput="1" readonly="" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditType" fieldsize="AUDIT_TYPE" fieldtype="2" formactiveid="90" horVer="0" labelalign="3" labelcol="1" labelname="稽核类型" mustinput="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditId" fieldtype="99" formactiveid="91" horVer="0" labelalign="3" labelcol="3" labelname="稽核ID" mustinput="" readonly="" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="92" horVer="0" labelalign="3" labelcol="1" labelname="业务类型" mustinput="" param="anchors:['anchor1']" readonly="" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="93" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{busModel:'10'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="94" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="7" selrange="1"/>
+</form>

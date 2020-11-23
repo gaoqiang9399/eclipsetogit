@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveborrowout" para="eadis_page" title="借出列表" type="1">
+<tableitem align="2" filedname="借出详情" id="29" indexed="28" label="-" row="1" type="5" typepara="/archiveInfoBorrow/getOutDetail;borrowId-borrowId;onClick-getOutDetail(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="docType" id="28" indexed="11" label="资料类型" row="1" type="6" typepara="BORROW_OUT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="archivePactStatus" id="30" indexed="6" label="业务类型" sortType="2" type="6" typepara="ARCHIVE_PACT_STATUS" widthType="0"/>
+<tableitem align="2" filedname="status" id="24" indexed="27" label="状态" row="1" type="6" typepara="borrow_sts" widthType="0"/>
+<tableitem align="2" filedname="revertPlanDate" id="19" indexed="22" label="计划归还日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="8" indexed="9" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="borrowingDate" id="17" indexed="20" label="借阅日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="creditAppNo" id="6" indexed="7" label="内部授信号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名称" row="1" type="0" widthType="0"/>
+</table>

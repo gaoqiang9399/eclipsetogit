@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="highGrtContractSubList_assure" para="eadis_page" title="明细记录" type="2">
+<tableitem align="3" filedname="assureAmount" id="13" indexed="3" label="保证金额" row="1" sortType="2" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="撤销关联" id="12" indexed="13" label="-" row="1" sortType="2" type="5" typepara="/mfHighGuaranteeContract/deleteSubRelAjax;subId-id;onClick-MfHighGuaranteeContract.ajaxDeleteSubRel(this)" width="2" widthType="0"/>
+<tableitem align="1" filedname="assureName" id="2" indexed="2" label="保证人名称" sortType="2" type="0" typepara="/mfCusWhitename/getById;id-id;onClick-MfCusWhitename_List.getByIdThis(this);" widthType="0"/>
+<tableitem align="1" filedname="assureNo" id="1" indexed="1" label="保证人编号" row="1" sortType="1" type="0" widthType="0"/>
+</table>

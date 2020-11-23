@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="commissionchangedetail" title="佣金变更记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="commissionChangeId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="佣金变更记录表" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="分润时间" maxlength="17" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="changeAmt" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="分润金额" maxlength="20" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="opName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="操作员" maxlength="20" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="confirmNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="确认人" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="grantCount" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="分润个/笔数" mustinput="" readonly="1" row="3"/>
+</form>

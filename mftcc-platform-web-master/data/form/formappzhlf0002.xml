@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="appzhlf0002" title="中汇临汾尽职调查">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="备注" mustinput="" readonly="" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="1" row="1" writeAuth="0"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="申请额度" mustinput="1" readonly="" row="2" unit="元" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="反担保方案" maxlength="400" mustinput="" readonly="" row="3" writeAuth="0"/>
+</form>

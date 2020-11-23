@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfThirdRepayRespLogShow" title="三方还款响应日志展示">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memberCode" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="会员编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="merchantAcctId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="收款账号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contractId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="合同号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="requestId" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="请求批次号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="requestTime" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="请求时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="numTotal" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="总笔数" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amountTotal" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="总金额" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receiveTime" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="受理时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="batchId" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="批量号" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealResult" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="处理结果" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="batchErr" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="批量错误" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="batchErrMessage" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="批量错误信息" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="备注1" maxlength="400" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="备注2" maxlength="400" mustinput="" readonly="1" row="7"/>
+</form>

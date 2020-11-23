@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditContract00001" para="eadis_page" title="客户授信合同" type="1">
+<tableitem align="2" filedname="authBal" id="6" indexed="8" label="授信余额" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="选择" id="5" indexed="13" label="-" row="1" type="5" typepara="#;id-id;onClick-choseCus" width="10" widthType="0"/>
+<tableitem align="2" filedname="creditSum" id="4" indexed="5" label="授信总额" row="1" type="12" typepara="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="creditName" id="3" indexed="4" label="授信流程" row="1" type="6" typepara="CREDIT_MODEL" width="10" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="7" indexed="8" label="授信合同号" row="1" type="0" width="20" widthType="0"/>
+</table>

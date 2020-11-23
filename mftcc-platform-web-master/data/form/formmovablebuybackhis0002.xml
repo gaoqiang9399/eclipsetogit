@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form id="movablebuybackhis0002" title="回购申请历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buybackApproHisId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="回购审批历史编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="backId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="回购编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="300" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="押品名称" maxlength="300" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeBillNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="货物明细" maxlength="300" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeWorth" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="押品价值" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyBackPrice" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="回购意向价" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buyBackReason" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="回购原因" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="申请状态0新增申请1审批中2审批通过3否决" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busPleId" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="押品业务关联编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="当前审批节点编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="审批角色号/用户号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="当前审批角色/用户名称" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveRemark" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="审批说明" maxlength="40" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveResult" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="审批意见1同意2否决3退回上一环节4退回初审5不同意" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="登记人" maxlength="30" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="登记人姓名" maxlength="50" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记部门" maxlength="30" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="登记部门名称" maxlength="50" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="信息登记时间" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="最后修改时间" maxlength="17" mustinput="0" row="21"/>
+</form>

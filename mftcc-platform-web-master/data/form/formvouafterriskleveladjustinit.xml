@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vouafterriskleveladjustinit" title="风险调级初始化">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="委托担保合同编号" mustinput="1" onclick="selectVouAfterRiskLevelAdjustDialog(MfVouAfterRiskLevelAdjust_InitBusInfo.vouAfterRiskLevelAdjust)" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="hetongID" mustinput="" readonly="" row="2"/>
+</form>

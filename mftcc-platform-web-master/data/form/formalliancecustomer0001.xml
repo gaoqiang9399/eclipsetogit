@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="alliancecustomer0001" title="联保体客户">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="联保体id" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户id" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="1" onclick="memberList.selectPersonalCus(this,'B','cusId','选择客户',false,'2','','','','',true);" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allowLoan" fieldsize="YES_NO" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="是否允许借款" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCode" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="行政区划" mustinput="" readonly="" row="3"/>
+</form>

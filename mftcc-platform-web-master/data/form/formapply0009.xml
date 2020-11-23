@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="apply0009" title="分单表单">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="brNo" fieldsize="FACTOR_CORP" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="2" labelname="保理商" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="brName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="2" labelname="保理商名称" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="业务编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="2" />
+</form>

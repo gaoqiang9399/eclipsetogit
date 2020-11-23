@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busfee0004" para="eadis_page" title="下挂费用标准" type="2">
+<tableitem align="2" filedname="feeAmt" id="33" indexed="34" label="应收费用" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="itemNo" id="31" indexed="33" label="费用编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="feeId" id="28" indexed="31" label="编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="standard" id="27" indexed="23" label="费用基数" row="1" type="6" typepara="FEE_STANDARD"/>
+<tableitem align="2" filedname="takeType" id="26" indexed="28" label="类型" row="1" type="10" typepara="FEE_TAKE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="24" indexed="22" label="费用名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rateScale" id="23" indexed="29" label="费率值" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="itemType" id="36" indexed="26" label="费用类型" row="1" type="6" typepara="FEE_ITEM_TYPE" widthType="0"/>
+<tableitem align="2" filedname="optPower" id="35" indexed="32" label="操作权限" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="feeType" id="34" indexed="27" label="收取方式" type="10" typepara="FEE_COLLECT_TYPE" width="145" widthType="1"/>
+</table>

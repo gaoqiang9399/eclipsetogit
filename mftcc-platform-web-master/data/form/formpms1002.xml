@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pms1002" title="自定义筛选关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="3" labelname="编号" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="actionJspSour" fieldtype="5" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="源请求" maxlength="300" mustinput="1" row="3" textAreaFieldRows="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="actionJspComp" fieldtype="5" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="关联请求" maxlength="300" mustinput="1" row="5" textAreaFieldRows="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="5" horVer="0" labelalign="2" labelcol="1" labelcolspan="6" labelname="格式：Action+Jsp 例：/demo/getById+demo_detail.jsp" labelstyle="bartop" mustinput="" readonly="" row="1" selrange="1" />
+</form>

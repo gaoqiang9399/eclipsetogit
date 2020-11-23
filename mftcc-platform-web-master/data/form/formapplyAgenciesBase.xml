@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="applyAgenciesBase" title="进件时选择合作银行">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="bankNo" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="5" labelname="银行" mustinput="0" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankNo" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="银行名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agenciesName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="银行支行" maxlength="25" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="address" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="areaNo" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="5" labelname="地区" mustinput="0" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="地区名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="agenciesId" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="5" labelname="agenciesId" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agenciesPhone" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="联系电话" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="creditAppId" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="5" labelname="creditAppId" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="5" labelname="id" mustinput="" readonly="" row="7"/>
+</form>

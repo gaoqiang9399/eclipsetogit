@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pssstorestockdetail0001" para="eadis_page" link="" title="仓库出入库明细表" type="2">
+<tableitem align="2" filedname="inOutId" id="1" indexed="1" label="出入库明细ID" row="1" type="4" typepara="/pssStoreStockDetail/getByIdAjax;inOutId-inOutId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="stockId" id="2" indexed="2" label="库存ID" row="1" type="0" />
+<tableitem align="2" filedname="storehouseId" id="3" indexed="3" label="仓库编号" row="1" type="0" />
+<tableitem align="2" filedname="goodsId" id="4" indexed="4" label="商品编号" row="1" type="0" />
+<tableitem align="2" filedname="billDate" id="5" indexed="5" label="单据日期" row="1" type="0" />
+<tableitem align="2" filedname="billId" id="6" indexed="6" label="业务操作ID(单据号)" row="1" type="0" />
+<tableitem align="2" filedname="billType" id="7" indexed="7" label="业务类别" row="1" type="0" />
+<tableitem align="2" filedname="billDetailId" id="8" indexed="8" label="业务操作明细ID(单据明细号)" row="1" type="0" />
+<tableitem align="2" filedname="sequence" id="9" indexed="9" label="业务序号" row="1" type="0" />
+<tableitem align="2" filedname="contactId" id="10" indexed="10" label="往来单位编号" row="1" type="0" />
+<tableitem align="2" filedname="contactName" id="11" indexed="11" label="往来单位名称" row="1" type="0" />
+<tableitem align="2" filedname="inOutType" id="12" indexed="12" label="出入库标识" row="1" type="0" />
+<tableitem align="2" filedname="memo" id="13" indexed="13" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="inQty" id="14" indexed="14" label="入库数量" row="1" type="0" />
+<tableitem align="2" filedname="inBaseUnitQty" id="15" indexed="15" label="入库基本单位数量" row="1" type="0" />
+<tableitem align="2" filedname="inUnitCost" id="16" indexed="16" label="入库单位成本" row="1" type="0" />
+<tableitem align="2" filedname="inCost" id="17" indexed="17" label="入库成本" row="1" type="0" />
+<tableitem align="2" filedname="outQty" id="18" indexed="18" label="出库数量" row="1" type="0" />
+<tableitem align="2" filedname="outBaseUnitQty" id="19" indexed="19" label="出库基本单位数量" row="1" type="0" />
+<tableitem align="2" filedname="outUnitCost" id="20" indexed="20" label="出库单位成本" row="1" type="0" />
+<tableitem align="2" filedname="outCost" id="21" indexed="21" label="出库成本" row="1" type="0" />
+<tableitem align="2" filedname="balanUnitQty" id="22" indexed="22" label="结存单位数量" row="1" type="0" />
+<tableitem align="2" filedname="balanUnitCost" id="23" indexed="23" label="结存单位成本" row="1" type="0" />
+<tableitem align="2" filedname="balanCost" id="24" indexed="24" label="结存成本" row="1" type="0" />
+</table>

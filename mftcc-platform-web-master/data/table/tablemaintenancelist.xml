@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="maintenancelist" link="/mfMaintenance/findByPage" para="eadis_page" title="押品维护/保养信息" type="2">
+<tableitem align="1" filedname="maintenanceResult" id="6" indexed="7" label="保养/维修结论" mytitle="保养维修结论-maintenanceResult;" row="1" sortType="2" type="3" typepara="9" width="10" widthType="0"/>
+<tableitem align="1" filedname="maintenanceType" id="3" indexed="4" label="养护类型" row="1" sortType="2" type="6" typepara="MAINTENANCE_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="maintenanceTime" id="10" indexed="10" label="保养/维修时间" row="1" sortType="1" type="1" typepara="   /mfMaintenance/listShowDetailAjax;maintenanceId-maintenanceId;oneUrl-'/mfMaintenance/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12; 列顺序" width="10" widthType="0"/>
+<tableitem align="3" filedname="maintenanceAmount" id="9" indexed="9" label="保养/维修费用（元）" row="1" sortType="2" type="12" width="10" widthType="0"/>
+<tableitem align="1" filedname="maintenancePerson" id="8" indexed="3" label="保养/维修人" mytitle="保养/维修人-maintenancePerson;" row="1" sortType="2" type="4" typepara="/mfMaintenance/listShowDetailAjax;maintenanceId-maintenanceId;oneUrl-'/mfMaintenance/updateByOneAjax';onClick-listShowDetail(this);subStringNub-9;" width="10" widthType="0"/>
+<tableitem align="1" filedname="maintenanceUnit" id="7" indexed="8" label="保养/维修单位" mytitle="保养/维修单位-maintenanceUnit;" sortType="2" type="3" typepara="9" width="10" widthType="0"/>
+</table>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cla0008" title="风险分类任务配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="序号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkPeriod" fieldsize="FIVE_CHECK_PERIOD" fieldtype="21" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="检查频率" maxlength="1" mustinput="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="revType" fieldsize="REV_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="接收人类型" maxlength="1" mustinput="1" onchange="clearRevNo(this)" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="revName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="接收人/角色" maxlength="10" mustinput="0" onclick="getRevNo(this);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskType" fieldsize="FIVE_TASK_TYPE" fieldtype="21" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="检查类型" maxlength="1" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="业务种类" maxlength="20" mustinput="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isFixedDate" fieldsize="YES_NO" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="是否固定日期检查" maxlength="1" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkDate" fieldsize="FIVE_CHECK_DATE" fieldtype="21" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="检查日期" maxlength="8" mustinput="1" row="9" unit="日"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="timeLimit" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="要求完成期限" maxlength="30" mustinput="1" row="15" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="初分模型" maxlength="30" mustinput="1" onclick="prodAutoMenu(this,'/claModelBase/getListByAjax',claModelBaseCallBack,'modelName');" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="11" horVer="1" initvalue="1" labelalign="1" labelcol="1" labelname="启用标志" maxlength="1" mustinput="1" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记机构" maxlength="30" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkRule" fieldsize="FIVE_CHECK_RULE" fieldtype="2" formactiveid="16" horVer="1" initvalue="1" labelalign="1" labelcol="1" labelname="检查规则" mustinput="1" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="revNo" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="接收人/角色编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="初分模型编号" mustinput="" readonly="" row="1" />
+</form>

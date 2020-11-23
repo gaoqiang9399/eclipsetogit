@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="advances0012" title="垫款审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="advancesId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="垫款编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="收款方" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="payAmt" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="收款金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payAccount" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outAccount" fieldtype="1" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="出款账号" mustinput="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="outAmt" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="3" labelname="出款金额" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="advancesDesc" fieldtype="5" formactiveid="49" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="50" horVer="0" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="51" horVer="0" labelalign="3" labelcol="3" labelname="登记部门" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="52" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appTime" fieldtype="1" formactiveid="53" horVer="0" labelalign="3" labelcol="3" labelname="申请提交时间" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="54" horVer="0" labelalign="3" labelcol="3" labelname="最近修改时间" mustinput="" param2="1" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskId" fieldtype="99" formactiveid="55" horVer="0" labelalign="3" labelcol="1" labelname="任务id" mustinput="" readonly="" row="12"/>
+<formelement alt="请选择意见类型" datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="56" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="57" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="11"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="outDate" fieldtype="1" formactiveid="58" horVer="0" labelalign="3" labelcol="1" labelname="出款日期" mustinput="1" onclick="fPopUpCalendarDlg({max: today})" row="5" unit="&lt;i class='i i-rili pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="59" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="10"/>
+</form>

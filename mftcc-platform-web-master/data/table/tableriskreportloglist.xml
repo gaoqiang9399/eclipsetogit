@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="riskreportloglist" title="风控尽调三方数据查询日志列表" type="2">
+<tableitem align="2" filedname="statusShow" id="5" indexed="1" label="查询状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="4" indexed="2" label="查询时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="thirdName" id="3" indexed="0" label="服务名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看报告" id="2" indexed="3" label="--" row="1" type="5" typepara=" /mfThirdServiceRecord/getQueryHtmlById;id-id;thirdName-thirdName;ifHoneybee-ifHoneybee;onClick-MfBusApply_RiskReport.queryHtml" widthType="0"/>
+<tableitem align="2" filedname="重新查询" id="1" indexed="5" label="--" type="5" typepara="/mfBusApply/thirdInput;id-id;thirdName-thirdName;ifHoneybee-ifHoneybee;onClick-MfBusApply_RiskReport.againQueryThirdData" widthType="0"/>
+</table>

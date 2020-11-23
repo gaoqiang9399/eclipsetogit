@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="apply0006jg" title="资金机构展示详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="kindName" fieldsize="KIND_NO" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="产品种类" mustinput="" row="1" />
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="fincRate" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="申请利率" mustinput="" param="appId;" row="3" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="appAmt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="申请金额" maxlength="14" mustinput="" param="appId;" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="3" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="担保方式" mustinput="" param="appId;" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="申请期限" mustinput="" param="appId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="5" labelname="申请编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busModel" fieldsize="BUS_MODEL" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="3" labelname="业务模式" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="appTime" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="6" labelname="申请日期时分秒" mustinput="" param="appId;" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="3" labelname="客户经理" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="assName1" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="协办人员" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busStage" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="办理阶段" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincUse" fieldsize="TRADE" fieldtype="2" formactiveid="17" horVer="1" labelalign="1" labelcol="3" labelname="贷款投向" mustinput="" param="appId;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="overRate" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="3" labelname="逾期利率" mustinput="" param="appId;" readonly="" row="3" unit="%"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="appTime" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="4" labelname="申请日期" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="termType" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="期限类型" mustinput="" readonly="" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="manageOpName1" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="2" labelname="办理人员" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="coborrName" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="4" labelname="共同借款人" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="25" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="appId" readonly="" row="1"/>
+</form>

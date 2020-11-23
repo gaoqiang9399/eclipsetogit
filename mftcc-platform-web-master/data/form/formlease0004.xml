@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form id="lease0004" title="租赁物配件信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaseNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="租赁物编号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="partsNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="配件编号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts01" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="预留字符串1" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts02" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="预留字符串2" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts03" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="预留字符串3" maxlength="60" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts04" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="预留字符串4" maxlength="60" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts05" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="预留字符串5" maxlength="60" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts06" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="预留字符串6" maxlength="60" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts07" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="预留字符串7" maxlength="60" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts08" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="预留字符串8" maxlength="60" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts09" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="预留字符串9" maxlength="60" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sts10" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="预留字符串10" maxlength="60" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amt01" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="预留金额1" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amt02" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="预留金额2" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amt03" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="预留金额3" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amt04" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="预留金额4" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amt05" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="预留金额5" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="flt01" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="预留比例1" maxlength="10" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flt02" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="预留比例2" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="flt03" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="预留比例3" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flt04" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="预留比例4" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="flt05" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="预留比例5" maxlength="10" mustinput="0" row="11"/>
+</form>

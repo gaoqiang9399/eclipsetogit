@@ -1,0 +1,227 @@
+[
+	{
+		"id": "start",
+		"name": "开始",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "node8537817943",
+		"type": "start"
+	}, {
+		"id": "end7114364935",
+		"name": "结束",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "",
+		"type": "end"
+	}, {
+		"id": "apply_approval",
+		"name": "业务审批",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "contract_sign",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "node8537817943",
+		"name": "业务申请",
+		"group": "",
+		"groupName": "",
+		"user": "1009",
+		"userName": "",
+		"nextName": "buyinfo_reg",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "buyinfo_reg",
+		"name": "登记买方信息",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "pledge_reg",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "pledge_reg",
+		"name": "账款登记",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "investigation",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "investigation",
+		"name": "尽调报告",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "apply_approval",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "storage_confirm",
+		"name": "账款质押",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "putout_apply",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "contract_sign",
+		"name": "合同签约",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "contract_approval",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "contract_approval",
+		"name": "合同审批",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "storage_confirm",
+		"type": "task",
+		"state": "completed",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "putout_approval",
+		"name": "支用审批",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "review_finc",
+		"type": "task"
+	}, {
+		"id": "putout_apply",
+		"name": "支用申请",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "putout_approval",
+		"type": "task",
+		"state": "open",
+		"create": "2017-04-28 15:21:03",
+		"end": "2017-04-28 15:21:04",
+		"result": "pass",
+		"approveIdea": "同意",
+		"appValue": {
+			"appId": "app17042815184380821",
+			"busModel": "5",
+			"cusNo": "cus17042814553614898",
+			"vouType": "5",
+			"wkfAppId": "WKF17042815210383422"
+		}
+	}, {
+		"id": "review_finc",
+		"name": "支用复核",
+		"group": "",
+		"groupName": "",
+		"user": "",
+		"userName": "",
+		"nextName": "end7114364935",
+		"type": "task"
+	}
+]

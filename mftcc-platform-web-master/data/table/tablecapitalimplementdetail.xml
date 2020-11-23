@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="capitalimplementdetail" para="eadis_page" title="资金落实详情列表" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="???????-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="3" label="借据展示号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="委托保证合同号" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;pactId-pactId;appId-appId;busEntrance-'3';onClick-MfCapitalImplementDetail_Insert.getPactDetailPage(this);" widthType="0"/>
+<tableitem align="3" filedname="guaranteAmt" id="2" indexed="4" label="到期担保金额（元）" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="1" indexed="10" label="到期日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="otherLoanBal" id="18" indexed="11" label="其他账号余额（元）" row="1" type="15" widthType="0"/>
+<tableitem align="2" filedname="bankLoanBal" id="17" indexed="12" label="贷款账号余额元" type="15" widthType="0"/>
+<tableitem align="2" authority="warningSts-0;" filedname="落实详情" id="16" indexed="17" label="-" row="1" type="5" typepara="/mfBusFincApp/capitalDetail;warningId-warningId;onClick-MfCapitalImplementDetail_Insert.capitalDetail(this);" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcscanfiledownloadapply_detail01" para="eadis_page" title="合格证扫描件下载申请明细表" type="2">
+<tableitem align="1" filedname="dealerName" id="6" indexed="3" label="经销商" mytitle="模板内容-dealerName" row="1" type="3" typepara="17" width="30" widthType="0"/>
+<tableitem align="2" filedname="engineNo" id="5" indexed="5" label="发动机号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="certificateNo" id="4" indexed="6" label="合格证编号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="vin" id="3" indexed="4" label="车架号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="downloadCount" id="7" indexed="7" label="已下载次数" type="0" width="10" widthType="0"/>
+</table>

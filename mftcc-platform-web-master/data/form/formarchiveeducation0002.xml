@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archiveeducation0002" title="OA人事档案教育经历表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="educationId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="教育情况ID" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="员工ID" maxlength="22" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradSchool" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="毕业院校" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="regDate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="入学时间" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="gradDate" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="毕业时间" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="profassional" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="专业" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="education" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="学历" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="degree" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="4" labelname="学位" maxlength="1" mustinput="0" row="1"/>
+</form>

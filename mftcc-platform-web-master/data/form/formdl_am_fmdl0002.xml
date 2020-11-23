@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dl_am_fmdl0002" title="归档文件日志表">
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileManageDetailLogId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="日志id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileManageNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="1" labelname="归档编号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileMergeDetailNo" fieldtype="1" maxlength="40" formactiveid="3" labelalign="3" labelcol="1" labelname="归档明细编号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileOperateStatus" fieldtype="1" maxlength="2" formactiveid="4" labelalign="3" labelcol="1" labelname="文档操作类型" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docLogAddr" fieldtype="1" maxlength="1000" formactiveid="5" labelalign="3" labelcol="1" labelname="文档操作后路径" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="logReason" fieldtype="1" maxlength="100" formactiveid="6" labelalign="3" labelcol="1" labelname="操作原因" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="borrowId" fieldtype="1" maxlength="22" formactiveid="7" labelalign="3" labelcol="1" labelname="借阅人ID" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="borrowName" fieldtype="1" maxlength="30" formactiveid="8" labelalign="3" labelcol="1" labelname="借阅人名称" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="borrowRel" fieldtype="1" maxlength="2" formactiveid="9" labelalign="3" labelcol="1" labelname="借阅人与借款客户关系" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="returnPlanDate" fieldtype="1" maxlength="8" formactiveid="10" labelalign="3" labelcol="1" labelname="应归还时间" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="returnDate" fieldtype="1" maxlength="8" formactiveid="11" labelalign="3" labelcol="1" labelname="归还时间" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="borrowUse" fieldtype="1" maxlength="1000" formactiveid="12" labelalign="3" labelcol="1" labelname="借阅用途" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="replacePfileManageDetailNo" fieldtype="1" maxlength="40" formactiveid="13" labelalign="3" labelcol="1" labelname="替换文件明细编号" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="replaceDocName" fieldtype="1" maxlength="50" formactiveid="14" labelalign="3" labelcol="1" labelname="替换文件名称" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="replaceDocAddr" fieldtype="1" maxlength="1000" formactiveid="15" labelalign="3" labelcol="1" labelname="替换文件路径" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="replaceReason" fieldtype="1" maxlength="500" formactiveid="16" labelalign="3" labelcol="1" labelname="替换原因" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="deleteReason" fieldtype="1" maxlength="500" formactiveid="17" labelalign="3" labelcol="1" labelname="删除原因" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="regNo" fieldtype="1" maxlength="22" formactiveid="18" labelalign="3" labelcol="1" labelname="登记人" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="regDate" fieldtype="1" maxlength="8" formactiveid="19" labelalign="3" labelcol="1" labelname="登记日期" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="20" labelalign="3" labelcol="1" labelname="备用字段1" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="21" labelalign="3" labelcol="1" labelname="备用字段2" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="22" labelalign="3" labelcol="1" labelname="备用字段3" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="23" labelalign="3" labelcol="1" labelname="备用字段4" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="24" labelalign="3" labelcol="1" labelname="备用字段5" mustinput="0" row="24"/>
+</form>

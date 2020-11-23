@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="supplier0002" title="供货商信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" fieldwidth="50" formactiveid="2" labelalign="3" labelcol="1" labelname="供货商名称" labelwidth="50" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="证件类型" maxlength="2" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="证件号码" maxlength="30" mustinput="1" onblur="idNoCheck(idType,idNo)" row="3"/>
+</form>

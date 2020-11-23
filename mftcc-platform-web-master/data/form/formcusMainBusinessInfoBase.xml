@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusMainBusinessInfoBase" title="上下游信息及政策">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusName" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="cusNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mainId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="id" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="供应商名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serviceContent" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="供应产品或服务内容" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountPeriod" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="结算账期" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cooperateYears" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="合作年限" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mainType" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="信息类型" mustinput="" readonly="" row="2"/>
+</form>

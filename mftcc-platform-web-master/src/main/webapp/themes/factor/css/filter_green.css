@@ -1,0 +1,1069 @@
+/* 导航相关 修改 bootstrap中的面包屑导航样式 斜杠改成箭头 去掉背景色等 */
+.breadcrumb {
+    padding: 6px 15px;
+    background-color: #fff;
+    margin-bottom:0px;
+}
+.breadcrumb > li + li:before {
+  color: #666;
+  content: "\003E";
+  
+}
+.ztree * {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: "Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* 列表页面头部操作按钮及筛选相关 */
+.top-title{
+	color: #32b5cb;
+	font-size: 18px;
+	text-align:center;
+	line-height: 30px;
+}
+.btn-div {
+	height: 50px;
+	padding: 8px 0px 8px 15px;
+	border-bottom: 1px solid #e3e3e3;
+	position: relative;
+}
+.btn-div button, .search-div button{
+	padding:6px 18px;
+}
+
+.search-div{
+	height: 50px;
+	padding: 8px 0px 8px 15px;
+}
+
+
+.mysearch-div ul{
+	float:left;
+	padding:5px 0px;
+}
+.mysearch-div ul li{
+	float:left;
+	margin-right:20px;
+}
+.mysearch-div ul li .diyBtn{
+    position: absolute;
+    top:0px;
+   	right: -16px;
+    height:26px;
+    line-height:26px;
+}
+
+#my_filter li{
+	position: relative;
+}
+
+
+.mysearch-div .ztree li a {
+    padding-right: 0px;
+    margin: 0;
+    cursor: pointer; 
+    height: 28px;
+    color: #cacaca;
+    background-color: #fff;
+    text-decoration: none;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+.mysearch-div .ztree li span.button{
+	width: 23px;
+	height: 26px;
+	background-color: #fff;	
+	vertical-align: top;
+	background-image: none;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #e9ebf2;
+	
+}
+.mysearch-div .ztree li a:hover .i {
+	color:#adadad;
+}
+.mysearch-div .ztree li a .i-radio1 {
+	display: none;
+}
+.mysearch-div .ztree li a .i-radio2 {
+	display: block;
+}
+.mysearch-div .ztree li a:hover .i-radio1 {
+	display: block;
+}
+.mysearch-div .ztree li a:hover .i-radio2 {
+	display: none;
+}
+
+/* .mysearch-div .ztree li a .filter_option { */
+/* 	text-align: center; */
+/* 	min-width: 4em; */
+/* 	display: inherit; */
+/* 	background-color: #cacaca; */
+/* 	border: 1px solid #cacaca; */
+/* 	height:26px; */
+/* } */
+
+.mysearch-div .ztree li a:hover .filter_option{
+    background-color: #adadad;
+    border: 1px solid #adadad;
+}
+/* 样式改版 begin*/
+.mysearch-div .ztree li a .filter_option {
+	text-align: center;
+	min-width: 4em;
+	display: inherit;
+	background-color: #fff;
+	border: 1px solid #fff;
+	height:26px;
+}
+.mysearch-div .ztree li a:hover .filter_option{
+    background-color: #32B5CB;
+    border: 1px solid #32B5CB;
+}
+.mysearch-div .ztree li a:hover span.node_name{
+	color:#fff;
+}
+/* 样式改版 end*/
+
+.mysearch-div .ztree li.mySelectedNode a:hover span.button{
+	background-color: #fff;	
+	border: 1px solid #32b5cb;
+	
+}
+.mysearch-div .ztree li.mySelectedNode a:hover .filter_option{
+    background-color: #009db7;
+    border: 1px solid #009db7;
+}
+.mysearch-div .ztree li.mySelectedNode:hover .i{
+  color: #009db7;
+}
+.mysearch-div .ztree li.mySelectedNode .i-radio1 {
+	display: block;
+}
+.mysearch-div .ztree li.mySelectedNode .i-radio2 {
+	display: none;
+}
+.mysearch-div .ztree li.mySelectedNode span.button  {
+	border: 1px solid #32b5cb;
+}
+.mysearch-div .ztree li.mySelectedNode span.button i {
+    color:#32b5cb;
+}
+.mysearch-div .ztree li.mySelectedNode .filter_option {
+    background-color: #009db7;
+    border: 1px solid #009db7;
+}
+.mysearch-div .ztree li.mySelectedNode span.node_name {
+   color:#fff;
+}
+
+/* .mysearch-div .ztree li span.node_name{ */
+/* 	color: #ffffff; */
+/* 	height: 24px; */
+/* 	line-height: 24px; */
+/* 	margin: 0px 5px; */
+/* } */
+/* 样式改版 begin */
+.mysearch-div .ztree li span.node_name{
+	color: #333;
+	height: 24px;
+	line-height: 24px;
+	margin: 0px 5px;
+}
+/* 样式改版 end*/
+
+.mysearch-div .ztree li a span.button i {
+    font-size:14px;
+    color:#cacaca;
+    margin-top:5px;
+}
+
+.mysearch-div .filter_lst ul li{
+	margin-right:25px;
+}
+
+.add-filter {
+	position: relative;
+	font-size: 12px;
+	margin-top: 4px;
+	color:#32b5cb;
+}
+.add-filter:hover {
+	color:#009db7;
+}
+
+.add-filter i {
+	font-size: 16px;
+	position: absolute;
+	top: 7px;
+	left: 0px;
+}
+
+.add-filter span {
+	position: absolute;
+	left: 20px;
+}
+
+.znsearch-div{
+	padding: 0px 12px;
+	min-width:260px;
+}
+
+.znsearch-div .form-control{
+	border: 1px solid #32b5cb;
+	border-radius: 0px;
+	padding: 6px 12px 6px 24px;
+	font-size:12px;
+}
+.znsearch-div .input-group-addon{
+	border: 1px solid #32b5cb;
+	background-color: #32b5cb;
+	border-radius: 0px;
+	color: #fff;
+	padding: 6px 20px;
+	cursor: pointer;
+}
+.znsearch-div .input-group{
+	width:85%;
+}
+.znsearch-div i {
+	font-size: 14px;
+	color: #D5D9E2;
+	position: absolute;
+	top: 11px;
+	left: 7px;
+	z-index: 10;
+}
+
+/* 自定义筛选弹层相关 */
+#pills .label {
+    background-color: #ffffff;
+    border: 1px solid #e9ebf2;
+    color: #808080;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 10px 2px 2px 5px;
+    opacity: 0.6;
+    padding: 6px 8px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	height: 30px;
+}
+
+
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.dropdown-toggle.btn-primary
+	{
+	color: #fff;
+	background-color: #009db7;
+	border-color: #009db7
+}
+
+
+
+.my-filter-box .modal-title {
+    font-size:16px;
+}
+
+.my-filter-box .modal-body .btn {
+    background-color: #32B5CB;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    height: 25px;
+    margin: 1px -2px;
+    outline: medium none;
+    padding: 0 10px;
+    width: auto;
+}
+
+
+#ckl {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0px;
+    display: none;
+    max-height: 80%;
+    position: absolute;
+    top: 41px;
+    right:10px;
+    width: 215px;
+    z-index: 1040;
+}
+
+#ckl .my_filter_title h4, #ckl .def_filter_title h4 {
+	color:#7f7f7f;
+    display: inline-block;
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+#ckl .my_filter_add {
+    border-top: none;
+    box-sizing: content-box;
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    background: #F0F5FB;
+    cursor: pointer;
+}
+
+#ckl .my_filter_add h4 {
+	color:#adadad;
+    display: inline-block;
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size:14px;
+}
+#ckl .my_filter_add i {
+    color: #adadad;
+    cursor: pointer;
+    float:none;
+    margin-top: 0px;
+    font-size:14px;
+}
+
+
+#ckl .def_filter_title h4{
+	color:#7f7f7f;
+}
+#my_filter {
+	padding:5px 0px;
+	width: auto;
+}
+
+#filter_list i.i-bi {
+	margin-left: 5px;
+	font-size: 12px;
+	position:absolute;
+	top: 11px;
+	color:#32b5cb;
+	margin-top: 5px;
+   cursor: pointer;
+}
+
+#filter_list i.i-bi:hover{
+	color:#418fe7;
+}
+
+#filter_list i.i-x3 {
+	font-size: 10px;
+}
+
+#my_filter_group .btn-group.filter_del_btn {
+    position: absolute;
+    right: 20px;
+    width: 24px;
+}
+#my_filter_group li {
+	padding-bottom:10px;
+}
+
+#my_filter_group  li span {
+    line-height: 30px;
+}
+
+.btn-group.filter_del_btn .i-x1{
+	font-size:16px;
+	line-height:36px;
+}
+
+#ckl .my_filter_title,#ckl .def_filter_title {
+    border-top: none;
+    box-sizing: content-box;
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    width: 90%;
+    bottom: 0px;
+    left: 0px;
+    background: #F0F5FB;
+    cursor: pointer;
+}
+#ckl .mCSB_inside > .mCSB_container {
+    margin-right: 0px;
+}
+#ckl .level0 a {
+	margin-top: 5px;
+}
+#ckl li {
+    height: 25px;
+    line-height: 25px;
+}
+
+#filter_list i.i-lajitong1,
+#filter_list i.i-duihao1,
+#filter_list i.i-x2{
+	font-size:14px;
+	color:#acacac;
+	margin-left: 3px;
+	margin-top:5px;
+	font-weight:700;
+	cursor:pointer;
+	color:#32b5cb;
+}
+#filter_list i.i-lajitong1:hover,
+#filter_list i.i-duihao1:hover,
+#filter_list i.i-x2:hover{
+	color:#32b5cb;
+}
+
+
+#my_filter_group {
+    box-sizing: unset;
+    padding:0px
+}
+
+#my_filter_group .btn-group {
+    margin: 5px 10px;
+    width: 150px;
+}
+#my_filter_group .btn-group .form-control {
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    padding: 0 3px;
+    width: 330px;
+}
+#my_filter_group .btn-group .form-control.short-width {
+    width: 150px;
+}
+
+
+#my_filter_group .swraper {
+    border: 1px solid #32b5cb;
+}
+
+#my_filter_group .swraper .stoggler.off .sblob {
+    background: rgba(0, 0, 0, 0) linear-gradient(#32b5cb, #32b5cb) repeat scroll 0 0;
+}
+
+
+#my_filter_group .btn-group .select3-single-select {
+    border: none;
+    background: #fff;
+	height: 30px;
+}
+#my_filter_group .btn-group.filter_del_btn .i:hover {
+	color: #32B5CB;
+	cursor: pointer;
+}
+
+#my_filter_group .select3-single-result-container {
+    top: 0;
+}
+
+.select3-single-result-container {
+    left: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    text-overflow: ellipsis;
+    top: 0.8em;
+    white-space: nowrap;
+}
+
+
+#my_filter_group .select3-caret {
+    top: 10px;
+}
+
+.select3-caret {
+    position: absolute;
+    right: 5px;
+    top: 0.7em;
+}
+
+@media only screen and (max-device-width: 480px) {
+.select3-single-select {
+    background: #eee none repeat scroll 0 0;
+    border-radius: 2px;
+}
+.select3-single-result-container {
+    right: 5px;
+}
+.select3-caret {
+    display: none;
+}
+}
+
+.select3-single-select {
+    border-radius: 2px;
+    cursor: pointer;
+    min-height: 2em;
+    padding: 5px;
+    position: relative;
+}
+.select3-single-select:hover {
+    background: #32b5cb none repeat scroll 0 0;
+}
+
+.select3-load-more, .select3-result-item {
+    cursor: pointer;
+    font-size: 12px;
+    padding: 3px 7px;
+}
+
+
+.select3-load-more.highlight, .select3-result-item.highlight {
+    background: #32b5cb none repeat scroll 0 0;
+    color: white;
+}
+
+
+.select3-dropdown {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #32b5cb;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.15), 0 10px 16px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 9999;
+}
+
+.select3-results-container {
+    max-height: 15em;
+    overflow: auto;
+}
+
+.myselect-div ul{
+	float:left;
+	padding:5px 0px;
+}
+.myselect-div ul li{
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.myselect-div ul li .diyBtn{
+    position: absolute;
+    top:0px;
+   	right: -16px;
+    height:26px;
+    line-height:26px;
+}
+
+
+.myselect-div .ztree li a {
+    padding-right: 0px;
+    margin: 0;
+    cursor: pointer; 
+    height: 28px;
+    color: #fff;
+    background-color: #fff;
+    text-decoration: none;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+
+.myselect-div .ztree li span.button{
+	width: 26px;
+	height: 26px;
+	background-color: #fff;	
+	vertical-align: top;
+	background-image: none;
+	text-align: center;
+	line-height: 26px;
+	border: 1px solid #54D2E8;
+	
+}
+.myselect-div .ztree li a:hover .i {
+	color:#32b5cb;
+}
+
+
+.myselect-div .ztree li a .filter_option {
+	text-align: center;
+	min-width: 4em;
+	display: inherit;
+	background-color: #54D2E8;
+	border: 1px solid #54D2E8;
+	height:26px;
+}
+
+.myselect-div .ztree li a:hover .filter_option{
+    background-color: #32b5cb;
+    border: 1px solid #32b5cb;
+}
+
+.myselect-div .ztree li.mySelectedNode a:hover span.button{
+	background-color: #fff;	
+	border: 1px solid #54D2E8;
+	
+}
+.myselect-div .ztree li.mySelectedNode a:hover .filter_option{
+    background-color: #009db7;
+    border: 1px solid #009db7;
+}
+.myselect-div .ztree li.mySelectedNode  a:hover .i{
+  color: #009db7;
+}
+.myselect-div .ztree li.mySelectedNode .i-radio1 {
+	display: block;
+}
+.myselect-div .ztree li.mySelectedNode .i-radio2 {
+	display: none;
+}
+.myselect-div .ztree li.mySelectedNode span.button  {
+	border: 1px solid #32b5cb;
+}
+.myselect-div .ztree li.mySelectedNode span.button i {
+    color:#32b5cb;
+}
+.myselect-div .ztree li.mySelectedNode .filter_option {
+    background-color: #009db7;
+    border: 1px solid #009db7;
+}
+
+.myselect-div .ztree li span.node_name{
+	color: #ffffff;
+	height: 24px;
+	line-height: 24px;
+	margin: 0px 5px;
+}
+
+.myselect-div .ztree li a span.button i {
+    font-size:18px;
+    color:#54D2E8;
+    margin-top:4px;
+}
+
+.myselect-div .filter_lst ul li{
+	margin-right:25px;
+}
+
+
+.ztree li span.button {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 0 none;
+	cursor: pointer;
+	outline: none;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background: url("../images/metro1.png") no-repeat;
+}
+
+
+
+
+#my_filter_group .btn-andor{
+	width: 70px;
+	border: 1px solid #C6C7CA;
+}
+.ztree li .btn-andor .btn-status{
+	float:left;
+	width: 34px;
+	height: 22px;
+	line-height:24px;
+	text-align: center;
+}
+.ztree li .btn-andor .btn-status:HOVER{
+	background-color: #32B5CB;
+	color: #fff;
+	cursor:pointer;
+}
+.ztree li .btn-andor .btn-status.correct{
+	background-color: #32B5CB;
+	color: #fff;
+}
+
+.select3-placeholder{
+	line-height: 30px;
+	color:#999;
+}
+.handle-btn{
+	width: 70px;
+	height: 31px;
+	background: rgb(50, 181, 203) none repeat scroll 0% 0%;
+	border-radius: 0px;
+	border: medium none;
+	color: rgb(255, 255, 255);
+}
+
+
+#filter_name_box {
+    margin-top: 10%;
+}
+#filter_name_box .modal-footer {
+    padding: 5px 15px;
+}
+#filter_name_box .modal-footer .btn {
+    height: 25px;
+    padding: 0;
+    width: 53px;
+    border:1px solid #e6e6e6;
+}
+#filter_name_box .modal-header .close {
+    margin-top: -12px;
+}
+#filter_name_box .modal-body label {
+    font-weight: 100;
+}
+
+
+
+.filterName-div{
+	padding-left: 20px;
+}
+.filterName-div label {
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 7px;
+}
+.filterName-div .form-control{
+	width: 670px;
+    height:30px;
+    border: none;
+    border-radius: 2px;
+    font-size:12px;
+    margin-left: 10px;
+}
+
+.my-filter-box .modal-header {
+    height: 36px;
+    margin-bottom: 3px;
+    padding: 5px 15px;
+}
+
+.my-filter-box .close {
+    border-radius: 30px;
+    height: 30px;
+    line-height: 10px;
+    width: 30px;
+}
+.my-filter-box .close span {
+    color: #000;
+}
+.my-filter-box .modal-footer {
+    border-top: medium none;
+    max-height: 75vh;
+    min-height: 75vh;
+    padding: 5px 15px;
+    text-align: left;
+    background: #f3f3f3;
+    padding: 0;
+}
+.my-filter-box .modal-footer .row-div {
+	height: auto;
+	padding: 15px 15px 0px 15px;
+	background: #fff;
+}
+
+/* 列表弹层页面筛选相关 */
+.searchCont {
+	height:50px;
+}
+.search-input-dialog {
+    margin: 0px 10px;
+    position: absolute;
+	right: 10px;
+}
+.search-input-dialog input[type="button"] {
+    background-color: #32B5CB;
+    border: medium none;
+    color: #fff;
+    height: 30px;
+    margin: 9px 5px 0;
+    padding: 0 10px;
+    width: auto;
+    display:block;
+    float:left;	
+}
+.search-input-dialog input[type="button"]:active {
+    background-color: #009ce2;
+}
+.search-input-dialog .filter_in_input {
+    height: 30px;
+    margin-right: -34px;
+    margin-top: 0px;
+    padding: 4px 53px 4px 10px;
+    width: 187px;
+}
+.search-input-dialog .filter_btn_search {
+    background-color: #ffffff;
+    border:none;
+    color: gray;
+    font-size: 14px;
+    height: 22px;
+    line-height: 18px;
+    padding: 0 4px;
+    vertical-align: middle;
+    width:46px;
+    text-align:right;
+}
+.search-input-dialog .filter-btn-group .filter-sub-group {
+    display: inline-block;
+    height: 21px;
+    line-height: 100%;
+    margin-left: -18px;
+    margin-top: -1px;
+    vertical-align: middle;
+    width: 46px;
+}
+
+
+.search-tab {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+.search-tab li {
+	float: left;
+	line-height: 29px;
+	list-style-type: none;
+	min-width: 80px;
+	text-align: center;
+	border: 1px solid #e9ebf2;
+	margin-right: -1px;
+	cursor: pointer;
+}
+
+.search-tab li a {
+    color: #6d6d6d;
+    font-size: 12px;
+    font-variant: small-caps;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+
+.search-tab li.current {
+	background-color:#EFEFEF;
+}
+
+/* 筛选项管理弹层相关 */
+
+#my_more {
+	margin-top: 2px;
+	padding: 0px;
+	min-width: 170px;
+}
+
+.my_filter_group_div{
+	margin-top:30px;
+}
+
+.addItemBtn{
+	color:#32b5cb;
+	margin-top:2px !important;
+}
+.addItemBtn:hover{
+	color:#009db7;
+	cursor: pointer;
+}
+.add-ico {
+	border-radius: 3px;
+	margin-right: 10px !important;
+	height:24px;
+	width:24px;
+	text-align:center;
+	display:inline-block;
+	border: 1px solid #009db7;
+	vertical-align: top;
+}
+.add-ico i {
+	margin: 0;
+	font-size: 16px;
+	line-height:24px;
+}
+
+
+
+/* 自定义筛选更多下拉样式相关 */
+.mysearch-div .dropdown .moreCurr{
+	background:#32b5cb;
+	color:#fff;
+}
+.mysearch-div .dropdown .moreCurr:hover{
+	background:#009db7;
+}
+
+.mysearch-div .dropdown{
+	margin-top: 4px;
+}
+/* .mysearch-div .dropdown button{ */
+/* 	background:#CACACA; */
+/* 	color:#fff; */
+/* 	padding: 4px 10px;  */
+/* 	margin-right: 15px; */
+/* 	font-size:12px; */
+/* 	margin-top:1px; */
+/* } */
+/* .mysearch-div .dropdown button:hover{ */
+/* 	background:#adadad; */
+/* } */
+/* 样式改版 begin */
+.mysearch-div .dropdown button{
+	background-color:#fff;
+	color:#333;
+	padding: 4px 10px; 
+	margin-right: 15px;
+	font-size:12px;
+	margin-top:1px;
+}
+.mysearch-div .dropdown button:hover{
+	background-color:#32b5cb;
+	color:#fff;
+}
+/* 样式改版 end */
+
+.dropdown .ztree li{
+	width: 100%;
+	margin-right: 0px;
+	padding:5px 12px;
+}
+
+.dropdown ul li .diyBtn{
+    position: absolute;
+    top:0px;
+   	right: -12px;
+    height:26px;
+    line-height:26px;
+}
+
+.dropdown .ztree li a {
+	position: relative;
+	padding-left: 12px;
+	padding:0px;
+	height:26px;
+	width: 100%;
+	
+}
+
+.dropdown .ztree li span.button{
+	border: none;
+	
+}
+.dropdown .ztree li a .filter_option{
+	border: none;
+	background:#fff;
+	width: 100%;
+	text-align: left;
+}
+
+.dropdown .ztree li span.node_name{
+	color:#333;
+}
+
+.dropdown .ztree li:hover{
+	background:#009db7;
+	width: 100%;
+}
+
+.dropdown .ztree li:hover .filter_option,
+.dropdown .ztree li a:hover .filter_option,
+.dropdown .ztree li:hover  span.button,
+.dropdown .ztree li a:hover  span.button{
+	background:#009db7;
+	border:none;
+}
+.dropdown .ztree li:hover span.node_name,
+.dropdown .ztree li a:hover span.node_name{
+	color:#fff;
+}
+.dropdown .ztree li  i.i-lajitong1,
+.dropdown .ztree li  i.i-duihao1,
+.dropdown .ztree li  i.i-x2,
+.dropdown .ztree li  i.i-bi {
+    color:#fff !important;
+}
+
+.dropdown .ztree li .i-radio1,
+.dropdown .ztree li a .i-radio1 {
+	display: none;
+}
+.dropdown .ztree li .i-radio2,
+.dropdown .ztree li a .i-radio2 {
+	display: block;
+}
+.dropdown .ztree li:hover .i-radio1,
+.dropdown .ztree li a:hover .i-radio1{
+	display: block;
+	color:#fff;
+}
+.dropdown .ztree li:hover .i-radio2,
+.dropdown .ztree li a:hover .i-radio2 {
+	display: none;
+}
+
+.dropdown .ztree li.mySelectedNode{
+	background-color: #32b5cb;	
+}
+.dropdown .ztree li.mySelectedNode:hover{
+	background-color: #009db7;	
+}
+.dropdown .ztree li.mySelectedNode span.button,
+.dropdown .ztree li.mySelectedNode .filter_option{
+	background-color: #32b5cb;	
+	border: none;
+	
+}
+.dropdown .ztree li.mySelectedNode span.button .i,
+.dropdown .ztree li.mySelectedNode  i.i-lajitong1,
+.dropdown .ztree li.mySelectedNode  i.i-duihao1,
+.dropdown .ztree li.mySelectedNode  i.i-x2,
+.dropdown .ztree li.mySelectedNode  i.i-bi {
+    color:#fff !important;
+}
+
+.dropdown .ztree li.mySelectedNode span.node_name{
+	color:#fff;
+}
+.dropdown .ztree li.mySelectedNode:hover span.button,
+.dropdown .ztree li.mySelectedNode a:hover span.button,
+.dropdown .ztree li.mySelectedNode:hover .filter_option,
+.dropdown .ztree li.mySelectedNode  a:hover .filter_option{
+	background-color: #009db7;	
+	border: none;
+	
+}
+.dropdown.ztree li.mySelectedNode:hover .i,
+.dropdown.ztree li.mySelectedNode a:hover .i{
+  color: #fff;
+}
+.dropdown .ztree li.mySelectedNode  .i-radio1,
+.dropdown .ztree li.mySelectedNode:hover  .i-radio1 {
+	display: block;
+	color:#fff;
+	
+}
+.dropdown .ztree li.mySelectedNode .i-radio2 {
+	display: none;
+}
+
+.default-tip {
+	font-size: 12px;
+	color: red;
+	padding-left: 100px;
+	display:none;
+}

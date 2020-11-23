@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="adjustmentapprovehiswkf" title="审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="姓名" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="hireDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="入职日期" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="3" labelname="原任部门" maxlength="80" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="positionShow" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="4" labelname="原任职务" maxlength="40" mustinput="0" readonly="1" row="1"/>
+</form>

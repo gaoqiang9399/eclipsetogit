@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfBusAgenciesDetail" para="eadis_page" title="资金机构-存出保证金明细" type="1">
+<tableitem align="2" authority="approvalStatus-01;approvalStatus-02;approvalStatus-04;bondReleaseStatus-1;relaseConfirmSts-1;" filedname="释放保证金确认" id="24" indexed="15" label="-" row="1" type="99" typepara="/mfBusAgencies/getAgenciesDetailReleaseConfirmById;id-id;onClick-getAgenciesDetailReleaseConfirmById;" width="2" widthType="0"/>
+<tableitem align="2" filedname="放款确认" id="23" indexed="13" label="-" row="1" type="99" typepara="/mfBusAgencies/inputAgenciesDetailConfirm;id-id;onClick-inputAgenciesDetailConfirm;" width="2" widthType="0"/>
+<tableitem align="2" filedname="angencyBal" id="22" indexed="5" label="在保余额(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" authority="approvalStatus-01;approvalStatus-02;approvalStatus-04;bondReleaseStatus-1" filedname="释放保证金" id="19" indexed="13" label="-" type="99" typepara="/mfBusAgencies/getAgenciesDetailReleaseById;id-id;onClick-getAgenciesDetailReleaseById;" width="2" widthType="0"/>
+<tableitem align="3" filedname="enableBondAmount" id="18" indexed="7" label="可用保证金" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="20" indexed="12" label="状态" row="1" type="99" typepara="VC_APPROVAL_STATUS" widthType="0"/>
+<tableitem align="3" filedname="largeMulti" id="17" indexed="6" label="协议放大倍数" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="realDepositBond" id="16" indexed="4" label="存出保证金(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" authority="approvalStatus-02;approvalStatus-03;approvalStatus-04;" filedname="删除" id="15" indexed="24" label="-" row="1" type="5" typepara="/mfBusAgencies/deleteDetailAjax;id-id;onClick-ajaxTrDeleteDetail" width="2" widthType="0"/>
+<tableitem align="3" filedname="realCreditRate" id="5" indexed="12" label="贷款利率（‰）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="agenciesDetailName" id="3" indexed="3" label="资金机构" mytitle="机构名称-agenciesDetailName" row="1" sortType="2" type="4" typepara="/mfBusAgencies/getAgenciesDetailById;id-id;onClick-getAgenciesDetailById;" widthType="0"/>
+</table>

@@ -1,0 +1,1032 @@
+{
+	"properyPackages": {
+		"processbase" :[
+			{
+				"title": "",
+				"data": [
+					{
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "author",
+						"type": "String",
+						"title": "作者",
+						"value": "",
+						"description": "作者",
+						"visibility": true
+					}, {
+						"id": "create",
+						"type": "String",
+						"title": "创建日期",
+						"value": "",
+						"description": "创建日期",
+						"visibility": true
+					}, {
+						"id": "expire",
+						"type": "String",
+						"title": "过期日期",
+						"value": "9999-12-30 00:00:00",
+						"description": "过期日期",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"elementbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"signtbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}, {
+				"title": "执行者",
+				"data": [
+					{
+						"id": "appType",
+						"type": "Tab",
+						"title": "审批人类型",
+						"value": "",
+						"description": "审批人类型.",
+						"visibility": true,
+						"items": [
+							{
+								"id": "role",
+								"title": "角色",
+								"items": [
+									{
+										"id": "chooseRole",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "角色",
+										"value": "",
+										"description": "选择角色.",
+										"url": "wkfDesgin/getRoles.action",
+										"visibility": true
+									}, {
+										"id": "chooseBr",
+										"type": "Tree",
+										"title": "机构",
+										"value": "",
+										"description": "选择机构.",
+										"url": "wkfDesgin/getBranchs.action",
+										"visibility": true
+									}, {
+										"id": "candidate-level",
+										"type": "Radio",
+										"title": "相对执行机构级别",
+										"value": "",
+										"description": "相对上一任务执行机构的级别选择机构.",
+										"items": [
+											{
+												"id": "self",
+												"title": "同级"
+											}, {
+												"id": "up_1",
+												"title": "上级"
+											}, {
+												"id": "up_2",
+												"title": "上上级"
+											}, {
+												"id": "all",
+												"title": "所有"
+											}
+										],
+										"visibility": true
+									}, {
+										"id": "strategy-type",
+										"type": "Radio",
+										"title": "会签策略",
+										"value": "",
+										"description": "会签策略",
+										"items": [
+											{
+												"id": "all",
+												"title": "全部通过"
+											}, {
+												"id": "one_pass",
+												"title": "一票通过"
+											}, {
+												"id": "one_refuse",
+												"title": "一票否决"
+											}, {
+												"id": "pass_number",
+												"title": "按人数"
+											}, {
+												"id": "pass_ratio",
+												"title": "按比率"
+											}
+										],
+										"visibility": true
+									}
+								]
+							}, {
+								"id": "user",
+								"title": "用户",
+								"items": [
+									{
+										"id": "chooseUser",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "用户",
+										"value": "",
+										"description": "选择用户.",
+										"url": "wkfDesgin/getUsers.action",
+										"visibility": true
+									}, {
+										"id": "strategy-type",
+										"type": "Radio",
+										"title": "会签策略",
+										"value": "",
+										"description": "会签策略",
+										"items": [
+											{
+												"id": "all",
+												"title": "全部通过"
+											}, {
+												"id": "one_pass",
+												"title": "一票通过"
+											}, {
+												"id": "one_refuse",
+												"title": "一票否决"
+											}, {
+												"id": "pass_number",
+												"title": "按人数",
+												"item": {
+													"id": "strategy-value",
+													"type": "String",
+													"title": "人数值"
+												}
+											}, {
+												"id": "pass_ratio",
+												"title": "按比率",
+												"item": {
+													"id": "strategy-value",
+													"type": "String",
+													"title": "比例值"
+												}
+											}
+										],
+										"visibility": true
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"taskbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}, {
+				"title": "执行者",
+				"data": [
+					{
+						"id": "appType",
+						"type": "Tab",
+						"title": "审批人类型",
+						"value": "",
+						"description": "审批人类型.",
+						"visibility": true,
+						"items": [
+							{
+								"id": "role",
+								"title": "角色",
+								"items": [
+									{
+										"id": "chooseRole",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "角色",
+										"value": "",
+										"description": "选择角色.",
+										"url": "wkfDesgin/getRoles.action",
+										"visibility": true
+									}, {
+										"id": "chooseBr",
+										"type": "Tree",
+										"title": "机构",
+										"value": "",
+										"description": "选择机构.",
+										"url": "wkfDesgin/getBranchs.action",
+										"visibility": true
+									}, {
+										"id": "candidate-level",
+										"type": "Radio",
+										"title": "相对执行机构级别",
+										"value": "",
+										"description": "相对上一任务执行机构的级别选择机构.",
+										"items": [
+											{
+												"id": "self",
+												"title": "同级"
+											}, {
+												"id": "up_1",
+												"title": "上级"
+											}, {
+												"id": "up_2",
+												"title": "上上级"
+											}, {
+												"id": "all",
+												"title": "所有"
+											}
+										],
+										"visibility": true
+									}, {
+										"id": "is-assign-next",
+										"type": "Radio",
+										"title": "分派下一执行人",
+										"value": "",
+										"description": "分派下一执行人",
+										"items": [
+											{
+												"id": "0",
+												"title": "禁止"
+											}, {
+												"id": "1",
+												"title": "可选"
+											}, {
+												"id": "2",
+												"title": "必须"
+											}
+										],
+										"visibility": true
+									}
+								]
+							}, {
+								"id": "user",
+								"title": "用户",
+								"items": [
+									{
+										"id": "chooseUser",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "用户",
+										"value": "",
+										"description": "选择用户.",
+										"url": "wkfDesgin/getUsers.action",
+										"visibility": true
+									}, {
+										"id": "is-assign-next",
+										"type": "Radio",
+										"title": "分派下一执行人",
+										"value": "",
+										"description": "分派下一执行人",
+										"items": [
+											{
+												"id": "0",
+												"title": "禁止"
+											}, {
+												"id": "1",
+												"title": "可选"
+											}, {
+												"id": "2",
+												"title": "必须"
+											}
+										],
+										"visibility": true
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"formbase": [
+			{
+				"title": "",
+				"data": [
+					{
+						"id": "forms",
+						"type": "Form",
+						"title": "表单",
+						"value": [],
+						"description": "表单",
+						"visibility": true,
+						"complexItems": [
+							{
+								"id": "name",
+								"title": "表单名称",
+								"type": "String",
+								"value": ""
+							}, {
+								"id": "url",
+								"title": "链接地址描述",
+								"type": "String",
+								"value": ""
+							}, {
+								"id": "description",
+								"title": "表单描述",
+								"type": "String",
+								"value": ""
+							}
+						]
+					}
+				]
+			}
+		],
+		"varbase": [
+			{
+				"title": "",
+				"data": [
+					{
+						"id": "vars",
+						"type": "Form",
+						"title": "任务变量",
+						"value": [],
+						"description": "任务变量",
+						"visibility": true,
+						"complexItems": [
+							{
+								"id": "name",
+								"title": "变量名称",
+								"type": "String",
+								"value": ""
+							}, {
+								"id": "description",
+								"title": "变量描述",
+								"type": "String",
+								"value": ""
+							}, {
+								"id": "type",
+								"title": "变量类型",
+								"type": "Choice",
+								"value": "",
+								"items": [
+									{
+										"id": "java.lang.Boolean",
+										"title": "布尔型"
+									}, {
+										"id": "java.lang.String",
+										"title": "字符型"
+									}, {
+										"id": "java.lang.Integer",
+										"title": "数值型"
+									}, {
+										"id": "java.lang.Double",
+										"title": "金额型"
+									}, {
+										"id": "java.lang.Byte",
+										"title": "字节型"
+									}
+								]
+							}, {
+								"id": "defaultValue",
+								"title": "默认值",
+								"type": "String",
+								"value": ""
+							}
+						]
+					}
+				]
+			}
+		],
+		"eventbase": [
+			{
+				"title": "",
+				"data": [
+					{
+						"id": "start",
+						"type": "Select",
+						"parm": "",
+						"title": "开始事件监听器",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					}, {
+						"id": "end",
+						"type": "Select",
+						"parm": "",
+						"title": "结束事件监听器",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					},
+					{
+						"id": "notice-listener",
+						"type": "Select",
+						"parm": "",
+						"title": "任务通知监听器",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					}, {
+						"id": "app-listener",
+						"type": "Select",
+						"parm": "",
+						"title": "业务判定监听器",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"appbase": [
+			{
+				"title": "流程审批",
+				"data": [
+					{
+						"id": "approve",
+						"type": "Select",
+						"parm": "",
+						"title": "流程审批路径",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					}, {
+						"id": "viewhistory",
+						"type": "Radio",
+						"title": "是否允许查看已审批信息",
+						"value": "",
+						"description": "是否允许查看已审批信息",
+						"items": [
+							{
+								"id": "Y",
+								"title": "允许"
+							}, {
+								"id": "N",
+								"title": "禁止"
+							}
+						],
+						"visibility": true
+					}, {
+						"id": "couldRollback",
+						"type": "Radio",
+						"title": "是否允许退回操作",
+						"value": "",
+						"description": "是否允许退回操作",
+						"items": [
+							{
+								"id": "Y",
+								"title": "允许"
+							}, {
+								"id": "N",
+								"title": "禁止"
+							}
+						],
+						"visibility": true
+					}, {
+						"id": "defaultRollbackNode",
+						"type": "Choice",
+						"title": "回退节点",
+						"value": {},
+						"description": "默认回退节点名称",
+						"visibility": true
+					}
+				]
+			},
+			{
+				"title": "审批时效设置",
+				"data": [
+					{
+						"id": "time-type",
+						"title": "时间类型",
+						"type": "Choice",
+						"value": "",
+						"items": [
+							{
+								"id": "1",
+								"title": "工作时间"
+							}, {
+								"id": "2",
+								"title": "自然时间"
+							}
+						],
+						"visibility": true
+					}, {
+						"id": "time-value",
+						"type": "String",
+						"title": "最大审批时间",
+						"value": "",
+						"description": "最大审批时间",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"signappbase": [
+			{
+				"title": "流程审批",
+				"data": [
+					{
+						"id": "approve",
+						"type": "Select",
+						"parm": "",
+						"title": "流程审批路径",
+						"value": "",
+						"description": "请选择.",
+						"visibility": true
+					}, {
+						"id": "viewhistory",
+						"type": "Radio",
+						"title": "是否允许查看已审批信息",
+						"value": "",
+						"description": "是否允许查看已审批信息",
+						"items": [
+							{
+								"id": "Y",
+								"title": "允许"
+							}, {
+								"id": "N",
+								"title": "禁止"
+							}
+						],
+						"visibility": true
+					}, {
+						"id": "defaultRollbackNode",
+						"type": "Choice",
+						"title": "回退节点",
+						"value": {},
+						"description": "默认回退节点名称",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"copytobase": [
+			{
+				"title": "抄送对象",
+				"data": [
+					{
+						"id": "copytoType",
+						"type": "Tab",
+						"title": "抄送对象类型",
+						"value": "",
+						"description": "抄送对象类型.",
+						"visibility": true,
+						"items": [
+							{
+								"id": "role",
+								"title": "角色",
+								"items": [
+									{
+										"id": "chooseRole",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "角色",
+										"value": "",
+										"description": "选择角色.",
+										"url": "wkfDesgin/getRoles.action",
+										"visibility": true
+									}, {
+										"id": "chooseBr",
+										"type": "Tree",
+										"title": "机构",
+										"value": "",
+										"description": "选择机构.",
+										"url": "wkfDesgin/getBranchs.action",
+										"visibility": true
+									}
+								]
+							}, {
+								"id": "user",
+								"title": "用户",
+								"items": [
+									{
+										"id": "chooseUser",
+										"type": "Select",
+										"parm": "multiple",
+										"title": "用户",
+										"value": "",
+										"description": "选择用户.",
+										"url": "wkfDesgin/getUsers.action",
+										"visibility": true
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"forkbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}, {
+				"title": "判定条件",
+				"data": [
+					{
+						"id": "forkType",
+						"type": "Tab",
+						"title": "判定类型",
+						"value": "",
+						"description": "判定类型.",
+						"visibility": true,
+						"items": [
+							{
+								"id": "expr",
+								"title": "表达式",
+								"items": [
+									{
+										"id": "expr",
+										"type": "Select",
+										"title": "判定表达式",
+										"value": "",
+										"description": "请选择.",
+										"visibility": true
+									}
+								]
+							}, {
+								"id": "handler",
+								"title": "实现类",
+								"items": [
+									{
+										"id": "handler",
+										"type": "Select",
+										"title": "判定实现类",
+										"value": "",
+										"description": "请选择.",
+										"visibility": true
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		],
+		"foreachbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}, {
+				"title": "循环属性设置",
+				"data": [
+					{
+						"id": "var",
+						"type": "String",
+						"title": "循环条件变量",
+						"value": "",
+						"description": "循环条件变量名称。",
+						"visibility": true
+					}, {
+						"id": "in",
+						"type": "String",
+						"title": "循环条件集合",
+						"value": "",
+						"description": "循环条件集合",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"joinbase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}
+				]
+			}, {
+				"title": "其他属性",
+				"data": [
+					{
+						"id": "multiplicity",
+						"type": "String",
+						"title": "聚合最小分支数",
+						"value": "",
+						"description": "聚合最小分支数。",
+						"visibility": true
+					}
+				]
+			}
+		],
+		"linebase": [
+			{
+				"title": "常规",
+				"data": [
+					{
+						"id": "overrideid",
+						"type": "String",
+						"title": "编号",
+						"value": "",
+						"description": "节点的唯一标示。",
+						"visibility": false
+					}, {
+						"id": "basename",
+						"type": "String",
+						"title": "名称",
+						"value": "",
+						"description": "节点的描述性名称",
+						"visibility": true
+					}, {
+						"id": "basedescription",
+						"type": "String",
+						"title": "描述",
+						"value": "",
+						"description": "描述",
+						"visibility": true
+					}, {
+						"id": "expr",
+						"type": "String",
+						"title": "执行条件",
+						"value": "",
+						"description": "执行条件",
+						"visibility": true
+					}
+				]
+			}
+		]
+	},
+	"stencils": [
+		{
+			"type": "start",
+			"title": "开始",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "elementbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}, {
+			"type": "task",
+			"title": "用户任务",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "taskbase"
+				}, {
+					"title": "流程审批",
+					"href": "appbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}, {
+			"type": "node",
+			"title": "多人任务",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "signtbase"
+				}, {
+					"title": "流程审批",
+					"href": "signappbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}, {
+			"type": "fork",
+			"title": "判断",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "forkbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		},{
+			"type": "foreach",
+			"title": "循环",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "foreachbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		},{
+			"type": "decision",
+			"title": "分支",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "elementbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		},{
+			"type": "join",
+			"title": "聚合",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "joinbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		},{
+			"type": "sub-process",
+			"title": "子流程",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "elementbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}, {
+			"type": "end",
+			"title": "结束",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "elementbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}, {
+			"type": "line",
+			"title": "连接线",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "linebase"
+				}
+			]
+		}, {
+			"type": "process",
+			"title": "流程",
+			"properPackages": [
+				{
+					"title": "基本属性",
+					"href": "processbase"
+				}, {
+					"title": "表单",
+					"href": "formbase"
+				}, {
+					"title": "任务变量",
+					"href": "varbase"
+				}, {
+					"title": "流程审批",
+					"href": "signappbase"
+				}, {
+					"title": "事件",
+					"href": "eventbase"
+				}
+			]
+		}
+	]
+}

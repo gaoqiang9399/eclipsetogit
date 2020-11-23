@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="accLength0001" title="科目编号长度设置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accLength" fieldsize="CW_ACC_LENGTH" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="科目编码长" labelwidth="8" maxlength="4" mustinput="1" row="1" rowspan="2" />
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1021" para="eadis_page" link="/grtPDepositRec/findByPage" title="201.存单 GRT_P_DEPOSIT_REC" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPDepositRec/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="ifOurself" id="2" indexed="2" label="是否本行" row="1" type="0" />
+<tableitem align="2" filedname="depositName" id="3" indexed="3" label="存单帐号/户名" row="1" type="0" />
+<tableitem align="2" filedname="bankName" id="4" indexed="4" label="存单开出银行" row="1" type="0" />
+<tableitem align="2" filedname="depositNo" id="5" indexed="5" label="存单号码" row="1" type="0" />
+<tableitem align="2" filedname="depositAmt" id="7" indexed="7" label="金额" row="1" type="0" />
+<tableitem align="2" filedname="openDate" id="8" indexed="8" label="开户日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="9" indexed="9" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="stopPaymentNo" id="10" indexed="10" label="止付通知书编号" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="13" indexed="13" label="-" row="1" type="5" typepara="/grtPDepositRec/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

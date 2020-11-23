@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pact0001" link="/mfBusPact/findByPage" title="保理合同表" trDbClick="/mfBusPact/getById.action;appId-appId;busEntrance-'2';onDbClick-getDetailPage(this);" type="1">
+<tableitem align="2" filedname="fincShowId" id="16" indexed="12" label="借据编号" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'pact';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="3" filedname="usableFincAmt" id="15" indexed="11" label="可支用金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="14" indexed="11" label="本次放款金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="fincRateStr" id="13" indexed="14" label="合同利率" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="合同编号" row="1" sortType="2" type="0" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="1" filedname="appName" id="12" indexed="1" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;fincId-fincId;busEntrance-'pact';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="busStage" id="11" indexed="15" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="3" label="合同金额(元)" row="1" sortType="1" type="12"/>
+<tableitem align="2" filedname="putoutAppDate" id="1" indexed="13" label="放款申请日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="10" indexed="9" label="合同期限" row="1" sortType="2" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="lnvoice0003" title="租赁物发票（大表单）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serno" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaseNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="租赁物编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lnvoiceNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="发票号" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="saleName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="销货单位名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="lnvoiceDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="开票日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="consumer" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="购货单位/人" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="lnvoiceAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="发票金额" maxlength="16" mustinput="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="8" labelalign="3" labelcol="1" labelname="特殊说明" maxlength="300" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaseName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="3" labelname="租赁物名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+</form>

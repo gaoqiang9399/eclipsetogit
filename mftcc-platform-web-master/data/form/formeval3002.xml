@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form id="eval3002" title="场景与数据字典对应表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scenceNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="场景编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optCode" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="对应数据字典编号" maxlength="1" mustinput="0" row="2"/>
+</form>

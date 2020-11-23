@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayRecheckList" para="eadis_page" title="还款复核列表" type="1">
+<tableitem align="2" filedname="明细" id="53" indexed="15" label="-" type="5" typepara="/mfRepayHistory/getRepayHisDetailList;repayId-repayId;onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="2" authority="recheckSts-1" filedname="复核" id="52" indexed="14" label="-" row="1" type="5" typepara="/mfRepayHistory/busRecheckAjax;repayId-repayId;onClick-singleRecheck(this);" widthType="0"/>
+<tableitem align="2" authority="recheckSts-1" filedname="checkAll" id="49" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="repayId-repayId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="51" indexed="8" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="还款撤销" id="48" indexed="13" label="-" row="1" type="5" typepara="/mfBusUndoRecordApply/getMfBusUndoRecord;fincId-fincId;repayId-repayId;onClick-mfBusUndoRecordJsp" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="9" indexed="4" label="客户名称" row="1" sortType="0" type="0" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="43" indexed="12" label="日期" row="1" sortType="0" type="1" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="3" indexed="5" label="产品名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="recvAmt" id="12" indexed="11" label="总金额" row="1" sortType="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="includetemplatemodel" para="eadis_page" title="挂载的文档模板列表" type="2">
+<tableitem align="2" filedname="ifEsigned" id="6" indexed="12" label="签约状态" row="1" type="6" typepara="IF_ESIGNED" width="22" widthType="0"/>
+<tableitem align="2" filedname="预览" id="14" indexed="17" label="-" row="1" type="5" typepara="/mfTemplateBizConfig/previewTagValue;templateBizConfigId-templateBizConfigId;onClick-templateIncludePage.previewTagValue(this)" width="11" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="3" indexed="6" label="文档名称" mytitle="文档名称-templateNameZh;" type="4" typepara="/mfTemplateBizConfig/getOfficeUrlAjax;templateBizConfigId-templateBizConfigId;onclick-templateIncludePage.openTemplateTmp(this);" width="43" widthType="0"/>
+<tableitem align="2" filedname="下载" id="11" indexed="18" label="-" row="1" type="5" typepara="/mfToolsDownload/downloadTemplate;ajaxData-templateBizConfigId;" width="11" widthType="0"/>
+<tableitem align="2" filedname="sel_all" id="20" indexed="4" label="全选" row="1" type="2" typepara="templateBizConfigId-templateBizConfigId;" width="13" widthType="0"/>
+</table>

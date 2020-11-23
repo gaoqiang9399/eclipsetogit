@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="evaldetail1003" title="详情">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="0" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalScenceNo" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="评分模型" mustinput="0" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rptDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="财务报表" mustinput="1" onclick="selectFinMain()" readonly="1" row="5" unit="&lt;i class='i i-fangdajing pointer' onclick='selectFinMain();'&gt;&lt;/i&gt;" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="evalEndDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="评级到期日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="rptType" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="报表类型" maxlength="2" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalAppNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="4" labelname="评级申请号" mustinput="" readonly="" row="4" />
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="wkf4001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="视角编号" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="视角名称" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpMenuNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="菜单号（或按钮编号）" maxlength="5" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfVpMenuName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="菜单名称（或按钮名称）" maxlength="20" mustinput="0" row="4"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reassignment" link="/reassignment/findByPageAjax;flowApprovalNo-flowApprovalNo;" para="eadis_page" title="审批改派" type="1">
+<tableitem align="2" filedname="opName" id="5" indexed="11" label="当前审批人" row="1" type="0" widthType="0"/>
+<tableitem align="2" authority="state-completed;state-suspended;" buttonMark="改派" filedname="改派" id="12" indexed="19" label="-" type="5" typepara="#;wkfTaskNo-wkfTaskNo;bizPkNo-bizPkNo;pasNo-pasNo;onclick-Reassignment_List.reAssign" width="2" widthType="0"/>
+<tableitem align="2" filedname="description" id="3" indexed="8" label="当前审批岗位" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="pasMinNo" id="1" indexed="1" label="任务类型" row="1" type="6" typepara="PAS_SUB_TYPE" widthType="0"/>
+<tableitem align="2" filedname="createDate" id="20" indexed="12" label="日期" row="1" type="1" typepara="yyyy-MM-dd" widthType="0"/>
+<tableitem align="1" filedname="pasContent" id="18" indexed="4" label="内容" mytitle="内容-pasContent;" row="1" type="3" typepara="35" widthType="0"/>
+<tableitem align="1" filedname="pasTitle" id="16" indexed="2" label="任务" mytitle="任务-pasTitle;" row="1" type="3" typepara="25" widthType="0"/>
+</table>

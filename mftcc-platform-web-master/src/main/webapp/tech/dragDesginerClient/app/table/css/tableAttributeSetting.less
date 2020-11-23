@@ -1,0 +1,100 @@
+@import "./tableVariable.less";
+@import "../../common/css/select.less";
+/*tableSetting*/
+#tableDataSetting{
+  position:absolute;
+//  background: none repeat scroll 0 0 #f1f4f9;
+  border:1px solid @blue;
+  width: 75%;
+  height: 225px;
+  bottom: 1px;
+  left: 20%;
+  display: none;
+  background:@white;
+
+  .row{
+    margin: 0;
+  }
+  #settingTitle{
+    height: 100%;
+    float: left;
+    width: 10%;
+    //    background-color:#ffff00;
+  }
+  #settingContent{
+    margin-top: 10px;
+    float: right;
+    width: 90%;
+  }
+  #settingButton{
+    height: 30px;
+    //    background-color:#ffff00
+  }
+  .form-group{
+    margin-bottom: 5px;
+
+    .input-group-addon{
+      padding:3px 10px;
+      height:25px;
+      border-radius:0px;
+    }
+
+    .form-control{
+      height: 25px;
+      padding:0px 5px;
+    }
+  }
+  .input-group .form-control {
+    z-index: 0;
+  }
+  .nav_left{
+    width:100px;
+    float:left;
+    margin-top:5px;
+
+    .nav > li > a{
+      padding:8px 15px;
+    }
+
+  }
+
+  .nav_content{
+    margin-top:5px;
+    float:right;
+
+    //改变自定义下拉框样式
+    .dropdown{
+      width:100%;
+      z-index:3;
+      height:25px;
+    }
+
+    .dropdown.open{
+      z-index:10;
+    }
+    .open{
+      div{
+        height: 160px;
+      }
+    }
+  }
+  .dropdown{
+    width:100%;
+    z-index:3;
+    height:25px;
+  }
+
+  .dropdown .open{
+    z-index:10;
+    max-height: 160px;
+  }
+  .nav_button{
+    .btn{
+      float: right;
+      margin-right: 15px;
+      padding:3px 12px;
+      outline:0;
+      zoom:1;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="EsignHistoryList" link="/mfEsignHistory/findByPage" para="eadis_page" title="签章历史" type="1">
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看文档" id="11" indexed="11" label="-" row="1" sortType="2" type="5" typepara="/mfEsignHistory/getById;id-id;onClick-MfEsignHistory_List.getByIdAjax;" width="2" widthType="0"/>
+<tableitem align="2" filedname="esignType" id="9" indexed="5" label="签章节点" sortType="2" type="6" typepara="ESIGN_TYPE" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="7" indexed="8" label="签约时间" row="1" sortType="2" type="30" widthType="0"/>
+</table>

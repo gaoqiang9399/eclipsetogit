@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="modelconfig0002" title="模版模型配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="templateNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="4" labelname="模板名称" maxlength="50" mustinput="0" onchange="selectTemplateName()" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="启用/禁用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createTime" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="最后一次修改时间" maxlength="17" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="操作员编号" maxlength="22" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="备注说明" maxlength="400" mustinput="" readonly="" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="modelNo" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="4" labelname="模型编号" mustinput="" readonly="" row="2"/>
+<formelement alt="新增新模板或选择已有模板" datatype="0" fieldalign="1" fieldcol="2" fieldname="templateNameZh" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="模板名称" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="4" labelname="唯一id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="templateNameEn" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="模板英文名" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateType" fieldsize="TEMPLATE_TYPE" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="模板类型" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="nodeNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="5" labelname="节点编号" mustinput="" readonly="" row="1"/>
+</form>

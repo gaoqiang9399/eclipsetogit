@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="desctemp0001" title="业务描述表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="desctempName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="模板名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="desctempContent" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="模板公式" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelcolspan="2" labelname="模板公式" mustinput="" readonly="" row="3" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="2" labelname="labelName" mustinput="" readonly="" row="4" rowspan="3" selrange="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="desctempSts" fieldtype="41" formactiveid="6" horVer="0" initvalue="0" labelalign="3" labelcol="1" labelname="是否启用" mustinput="" param="1-|" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="viewpointNo" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="视角对象" mustinput="" readonly="" row="1"/>
+</form>

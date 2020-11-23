@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_am_fmdi0003" title="归档文件借阅信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileManageDetailNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="文档名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="借阅人" maxlength="16" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowContact" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="借阅人联系方式" maxlength="1000" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowRel" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="与借款客户关系" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="returnPlanDate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="应归还时间" maxlength="1000" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowUse" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="借阅用途" maxlength="400" mustinput="" readonly="" row="8" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileManageNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="归档编号" mustinput="" readonly="" row="1" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperAddr" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="纸质存放路径" mustinput="" readonly="1" row="3" writeAuth="0"/>
+</form>

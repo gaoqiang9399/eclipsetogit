@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusclassify0001" title="客户分类信息">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="classifyType" fieldsize="CLASSIFY_TYPE" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户分类" mustinput="1" onchange="clearMergerReason();" param="anchors:['anchor1']" readonly="" row="3" unit="&lt;span class='advice'&gt;建议您将其归为&lt;span id='3' class='adviceinfo'&gt;普通客户&lt;/span&gt;&lt;/span&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="classifyInfoId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="classifyInfoId" maxlength="30" mustinput="" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="mergerReason" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="归入原因" maxlength="200" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusLevelName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="客户信用等级" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusLevelId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="信用等级id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{classifyType:'1'}]" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classifyGrade" fieldsize="CLASSIFY_GARDE" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="黑名单分级" mustinput="" readonly="" row="5"/>
+</form>

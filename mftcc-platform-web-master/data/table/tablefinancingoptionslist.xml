@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="financingoptionslist" link="/mfFinancingOptions/findByPage" para="eadis_page" title="金融方案" type="1">
+<tableitem align="2" filedname="docBizNo" id="29" indexed="16" label="场景号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docNo" id="28" indexed="15" label="文件号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="fieldName" id="30" indexed="18" label="图片" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="27" indexed="26" label="-" row="1" type="5" typepara="/mfFinancingOptions/deleteAjax;financingOptionsId-financingOptionsId;onClick-MfFinancingOptions_List.deleteOptions;" widthType="0"/>
+<tableitem align="2" filedname="repayType" id="26" indexed="25" label="还款方式" row="1" sortType="2" type="6" typepara="REPAY_TYPE" widthType="0"/>
+<tableitem align="2" filedname="applicableProductsName" id="24" indexed="17" label="适用产品" row="1" sortType="2" type="4" typepara="/mfFinancingOptions/getById;financingOptionsId-financingOptionsId;onClick-MfFinancingOptions_List.getById;subStringNub-20;" widthType="0"/>
+<tableitem align="3" filedname="deposit" id="23" indexed="20" label="定金（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="financingRate" id="17" indexed="23" label="融资利率（%）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="financingTermShow" id="16" indexed="22" label="融资期限（月）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="downPaymentRatioShow" id="15" indexed="21" label="首付比例（%）" row="1" sortType="2" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form id="doc0009" title="业务文档类别管理详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docBizNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dogType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dime1" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="" maxlength="3" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isUp" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="" maxlength="2" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="" maxlength="10" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSizeLimit" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="" maxlength="0" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifMustRead" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifMustInput" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="" maxlength="1" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="" maxlength="50" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docTypeName" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="" maxlength="50" mustinput="0" row="17"/>
+</form>

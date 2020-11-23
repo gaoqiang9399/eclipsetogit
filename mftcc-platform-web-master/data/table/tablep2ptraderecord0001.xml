@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="p2ptraderecord0001" para="eadis_page" link="/p2pTradeRecord/findByPage" title="交易记录表" type="1">
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="P2/pTradeRecord/deleteAjax;serialno-serialno;onClick-ajaxDelete(this)" width="2"/>
+</table>

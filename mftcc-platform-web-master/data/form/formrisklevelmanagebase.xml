@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="risklevelmanagebase" title="风险等级新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="风险ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="EXAM_RISK_LEVEL" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="风险等级" maxlength="2" mustinput="1" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="riskLevelReason" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="风险等级认定理由" maxlength="200" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="21" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="证件类型" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="证件号码" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="manageType" fieldsize="manage_type" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="处置方案" maxlength="2" mustinput="1" readonly="" row="5"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="manageContent" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="处置内容" maxlength="200" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="风险处置ID" maxlength="20" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operateType" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="调整类型" mustinput="" readonly="" row="7"/>
+</form>

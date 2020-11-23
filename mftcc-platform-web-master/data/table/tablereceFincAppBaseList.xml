@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receFincAppBaseList" para="eadis_page" title="账款融资申请列表" type="2">
+<tableitem align="2" filedname="receBeginDate" id="9" indexed="8" label="发票日" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="receBuyer" id="17" indexed="7" label="买方" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkbox" id="16" indexed="4" label="选择" row="1" type="2" typepara="checkbox-transId;" widthType="0"/>
+<tableitem align="2" fieldStyle="receEndDate" filedname="receEndDate" id="7" indexed="10" label="账款到期日" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="receTransAmt" id="6" indexed="11" label="转让金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="usableFincAmt" id="15" indexed="13" label="可融资金额(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="usableFincAmt" id="14" indexed="16" label="可融资金额" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="receTransDate" id="5" indexed="9" label="转让日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="13" indexed="14" label="融资到期日" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="fincAmt" id="12" indexed="15" label="融资金额(元)" row="1" sortType="2" type="9" widthType="0"/>
+<tableitem align="2" filedname="receNo" id="3" indexed="5" label="发票号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="transId" id="11" indexed="18" label="转让子表id" row="1" type="99" widthType="0"/>
+</table>

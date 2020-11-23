@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockmain0002" para="eadis_page" title="合格证信息" type="2">
+<tableitem align="2" filedname="storageTime" id="14" indexed="21" label="入库时间" type="0" widthType="0"/>
+<tableitem align="2" filedname="vin" id="5" indexed="7" label="车架号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="base" id="13" indexed="20" label="基地" row="1" type="6" typepara="VC_BASE" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="10" indexed="16" label="经销商" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feedbackOpName" id="21" indexed="22" label="盘库人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="20" indexed="33" label="-" row="1" type="5" typepara="action;certificateId-certificateId;onclick-delRows(this);" widthType="0"/>
+<tableitem align="2" filedname="certificateId" id="19" indexed="3" label="合格证ID" row="1" type="99" widthType="0"/>
+</table>

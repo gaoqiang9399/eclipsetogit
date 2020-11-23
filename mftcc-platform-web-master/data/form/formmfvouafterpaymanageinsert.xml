@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfvouafterpaymanageinsert" title="支出管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="pactNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="委托合同号" mustinput="1" onclick="MfVouAfterPayManage_Insert.selectPact();" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actualBankChargeAmt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="已收银行手续费" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="合同编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualBankDepositAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="已收银行保证金" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payType" fieldsize="PAY_MANAGE_TYPE" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="支出类型" mustinput="1" param="anchors:['anchor1','anchor2']" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="payBankChargeAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="支出银行手续费" maxlength="14" mustinput="1" readonly="" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="payBankDepositAmt" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="支出银行保证金" maxlength="14" mustinput="1" readonly="" row="9" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="payDate" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="支出日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{payType:'1'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{payType:'2'}]" readonly="" row="8" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="7" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="10" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="主键ID" mustinput="" readonly="" row="2"/>
+</form>

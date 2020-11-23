@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincExamineStateList" para="eadis_page" title="在履行借据贷后检查状态列表" type="1">
+<tableitem align="2" filedname="fincId" id="17" indexed="0" label="选择" row="1" sortType="2" type="2" typepara="fincId-fincId" width="4" widthType="0"/>
+<tableitem align="2" filedname="指派" id="16" indexed="16" label="-" row="1" type="5" typepara="action;fincId-fincId;onClick-MfBusFincApp_ExamineStateList.assignExamineTaskSingle(this)" widthType="0"/>
+<tableitem align="2" defaultShow="--" filedname="fincExamineSts" id="15" indexed="15" label="检查状态" row="1" sortType="1" type="6" typepara="FINC_EXAMINE_STATS" width="6" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusFincApp_ExamineStateList.getDetailPage(this);subStringNub-8;" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="4" label="借据号" row="1" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="合同编号" row="1" sortType="2" type="0" width="150" widthType="1"/>
+<tableitem align="2" defaultShow="--" filedname="riskLevel" id="13" indexed="13" label="上次检查结果" row="1" sortType="1" type="6" typepara="EXAM_RISK_LEVEL" width="9" widthType="0"/>
+<tableitem align="1" filedname="appName" id="12" indexed="2" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-MfBusFincApp_ExamineStateList.getDetailPage(this);subStringNub-12;" width="13" widthType="0"/>
+<tableitem align="2" defaultShow="--" filedname="nextExamineEndDate" id="11" indexed="14" label="下次检查截止日期" sortType="1" type="1" typepara="FINC_STS" width="10" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="5" label="借据金额(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" defaultShow="--" filedname="endDate" id="10" indexed="12" label="上次检查时间" row="1" sortType="1" type="1" width="9" widthType="0"/>
+</table>

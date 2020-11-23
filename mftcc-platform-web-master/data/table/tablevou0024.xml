@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou0024" para="eadis_page" link="/vouMSea/findByPage" title="抵押物-海域权表" type="1">
+<tableitem align="2" filedname="vouNo" id="1" indexed="1" label="担保编号" row="1" type="4" typepara="/vouMSea/getById;vouNo-vouNo;query-'query'"/>
+<tableitem align="2" filedname="seaUseNo" id="2" indexed="2" label="海域使用权证号" row="1" type="0" />
+<tableitem align="2" filedname="useNo" id="3" indexed="3" label="水域滩涂养殖使用证号" row="1" type="0" />
+<tableitem align="2" filedname="seaUseReceiptNo" id="4" indexed="4" label="缴纳海域使用金专用收据编号" row="1" type="0" />
+<tableitem align="2" filedname="corporate" id="5" indexed="5" label="法人代表" row="1" type="0" />
+<tableitem align="2" filedname="seaType" id="6" indexed="6" label="用海类型" row="1" type="0" />
+<tableitem align="2" filedname="seaUsedHa" id="7" indexed="7" label="用海面积（公顷）" row="1" type="0" />
+<tableitem align="2" filedname="startDate" id="8" indexed="8" label="批准使用起始日期" row="1" type="0" />
+<tableitem align="2" filedname="ednDate" id="9" indexed="9" label="批准使用终止日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/vouMSea/deleteAjax;vouNo-vouNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

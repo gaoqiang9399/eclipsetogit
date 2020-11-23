@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusveh00001" title="车辆资产表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleInfoId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="车辆资产信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="carType" fieldsize="VCH_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="3" labelname="车辆种类" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="licenseNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="车辆牌号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brand" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="车辆品牌" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="model" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="型号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shelfNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="车架号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="engineNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="发动机号" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="roadHaulKm" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="车辆行驶公里数" maxlength="20" mustinput="0" row="4" unit="公里"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="price" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="购买金额" maxlength="20" mustinput="0" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="purchase" fieldsize="USE_STA" fieldtype="21" formactiveid="12" labelalign="3" labelcol="3" labelname="购买情况" maxlength="1" mustinput="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanSum" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="贷款或欠款金额" maxlength="20" mustinput="0" row="6" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="holdDate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="买入日期" maxlength="8" mustinput="0" onfocus="fPopUpCalendarDlg()" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldsize="USE_STA" fieldtype="21" formactiveid="15" labelalign="3" labelcol="1" labelname="使用状态" maxlength="1" mustinput="1" row="7"/>
+</form>

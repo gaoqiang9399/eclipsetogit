@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assetdizhai" title="抵债">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protectId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="资产保全编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseId" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="案件编号" maxlength="100" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appName" fieldtype="99" formactiveid="4" labelalign="3" labelcol="5" labelname="项目名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="案件名称" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="资产名称" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="5" labelname="资产名称" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetType" fieldtype="99" formactiveid="9" labelalign="3" labelcol="5" labelname="资产类别" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="protectApplyState" fieldtype="99" formactiveid="12" labelalign="3" labelcol="5" labelname="资产保全申请状态" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="assetState" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="资产状态" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seizureFlag" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="是否查封" mustinput="0" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="seizureBeginDate" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="查封开始时间" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="pgDate" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="评估日期" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chaFengRemark" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="1000" mustinput="" readonly="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="cusName" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="pactId" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactName" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="pactName" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="合同编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dzType" fieldsize="DZ_TYPE" fieldtype="21" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="抵债方式" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="drzcsx" fieldsize="DZZC_TYPE" fieldtype="21" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="抵入资产属性" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dzr" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="抵债人" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pgjg" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="评估机构" mustinput="" readonly="" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="pgDate" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="评估日期" mustinput="" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pgAmt" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="评估价值" maxlength="20" mustinput="" readonly="" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="dzqPrcp" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="抵债前本金" maxlength="20" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="dzqIntst" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="抵债前利息" maxlength="20" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="dzDate" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="抵债日期" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="dzPrcp" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="抵债本金" maxlength="20" mustinput="" readonly="" row="8" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="dzIntst" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="抵债利息" maxlength="20" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="dzFee" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="3" labelname="抵债费用" maxlength="20" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="dzAmt" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="抵债金额" maxlength="20" mustinput="" readonly="" row="10" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="dzhPrcp" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="3" labelname="抵债后本金" maxlength="20" mustinput="" readonly="" row="10" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="dzhIntst" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="抵债后利息" maxlength="20" mustinput="" readonly="" row="11" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sfwsdyw" fieldsize="YES_NO" fieldtype="21" formactiveid="40" horVer="0" labelalign="3" labelcol="3" labelname="是否我公司抵质押物" mustinput="" readonly="" row="11"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="zcjsDate" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="资产接收日期" mustinput="" onclick="fPopUpCalendarDlg()" readonly="" row="12"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="drdj" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="3" labelname="抵入单价" maxlength="20" mustinput="" readonly="" row="12" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="zcwz" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="资产所属位置" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sfzy" fieldsize="YES_NO" fieldtype="21" formactiveid="44" horVer="0" labelalign="3" labelcol="3" labelname="是否转移" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="15"/>
+</form>

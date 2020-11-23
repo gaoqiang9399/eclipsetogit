@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbusredeemcertificatewkf0003" title="赎证申请审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="redeemId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="赎证申请ID" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户ID" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfAppId" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="流程ID" maxlength="50" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="redeemReqType" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="赎证请求方" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appStationId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="经销商申请岗ID" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appStationName" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="经销商申请岗名称" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkStationId" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="经销商复核岗ID" maxlength="50" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkStationName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="经销商复核岗名称" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="chkTime" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="复核时间" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="repayAmount" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="还款金额" maxlength="20" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="申请状态" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="memo" fieldtype="5" formactiveid="13" labelalign="3" labelcol="1" labelname="赎证说明" maxlength="500" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="4"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="5"/>
+</form>

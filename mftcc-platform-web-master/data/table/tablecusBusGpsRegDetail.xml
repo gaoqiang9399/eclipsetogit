@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusBusGpsRegDetail" para="eadis_page" title="gps安装信息" type="2">
+<tableitem align="2" filedname="installDate" id="5" indexed="4" label="安装时间" type="1" widthType="0"/>
+<tableitem align="2" filedname="gpsBrand" id="4" indexed="1" label="GPS品牌" row="1" type="4" typepara="/mfBusGpsReg/listCarShowDetailAjax;gpsId-gpsId;oneUrl-'/mfBusGpsReg/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="gpsType" id="3" indexed="2" label="GPS型号" row="1" type="6" widthType="0"/>
+<tableitem align="2" filedname="installer" id="11" indexed="3" label="安装人" row="1" type="6" widthType="0"/>
+</table>

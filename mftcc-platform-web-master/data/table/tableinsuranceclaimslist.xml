@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="insuranceclaimslist" link="/mfCollateralInsuranceClaims/findByPage" para="eadis_page" title="押品/出险理赔信息表" type="1">
+<tableitem align="2" filedname="accidentDate" id="6" indexed="6" label="出险时间" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="policyMoney" id="5" indexed="5" label="保险金额（元）" row="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="policyNo" id="3" indexed="3" label="保单编号" row="1" type="4" typepara="/mfCollateralInsuranceClaims/listShowDetailAjax;id-id;oneUrl-'/mfCollateralInsuranceClaims/updateByOneAjax';onClick-listShowDetail(this);subStringNub-9;" width="10" widthType="0"/>
+<tableitem align="2" filedname="compensationDate" id="10" indexed="10" label="赔付时间" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="compensationMoney" id="9" indexed="9" label="赔付金额（元）" row="1" type="12" width="10" widthType="0"/>
+</table>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cus0013" title="挂靠公司新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" fieldwidth="60" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" labelwidth="40" maxlength="80" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="CORP_ID_TYPE" fieldtype="21" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="证件类型" maxlength="2" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNo" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="证件号码" maxlength="20" mustinput="1" onblur="idNoCheck(idType,idNo)" readonly="" row="3" />
+</form>

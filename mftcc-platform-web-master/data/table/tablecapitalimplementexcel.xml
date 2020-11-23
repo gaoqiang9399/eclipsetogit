@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="capitalimplementexcel" para="eadis_page" title="资金落实详情导出" type="1">
+<tableitem align="2" filedname="remark" id="24" indexed="21" label="落实情况（已落实/未落实原因）" type="0" widthType="0"/>
+<tableitem align="2" filedname="sybOpName" id="23" indexed="19" label="事业部" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusMngName" id="22" indexed="20" label="项目经理A角" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="19" indexed="2" label="到期日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="21" indexed="6" label="业务品种" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="otherLoanBal" id="18" indexed="14" label="其他账号余额(万)" row="1" type="15" widthType="0"/>
+<tableitem align="2" filedname="xuHao" id="20" indexed="0" label="序号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bankLoanBal" id="17" indexed="15" label="贷款账号余额(万)" row="1" type="15" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="???????-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="term" id="14" indexed="5" label="期限(月)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="委托保证合同号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="guaranteAmt" id="2" indexed="7" label="到期担保金额(万)" row="1" sortType="1" type="12" widthType="0"/>
+</table>

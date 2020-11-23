@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="merchant0001" para="eadis_page" link="/mfAbutmentMerchantInfo/findByPage" title="系统对接商户信息表" type="1">
+<tableitem align="2" filedname="serialId" id="1" indexed="1" label="唯一编号" row="1" type="4" typepara="/mfAbutmentMerchantInfo/getById;serialId-serialId;query-'query'"/>
+<tableitem align="2" filedname="merchantNo" id="2" indexed="2" label="商户编号自动生成或手动填写" row="1" type="0" />
+<tableitem align="2" filedname="merchantName" id="3" indexed="3" label="商户名称" row="1" type="0" />
+<tableitem align="2" filedname="publicKey" id="4" indexed="4" label="公钥" row="1" type="0" />
+<tableitem align="2" filedname="privateKey" id="5" indexed="5" label="私钥" row="1" type="0" />
+<tableitem align="2" filedname="secretKey" id="6" indexed="6" label="秘钥" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="7" indexed="7" label="商户说明" row="1" type="0" />
+<tableitem align="2" filedname="useFlag" id="8" indexed="8" label="是否启用" row="1" type="0" />
+<tableitem align="2" filedname="useBeginDate" id="9" indexed="9" label="启用日期" row="1" type="0" />
+<tableitem align="2" filedname="useBeginTime" id="10" indexed="10" label="启用时间" row="1" type="0" />
+<tableitem align="2" filedname="useEndDate" id="11" indexed="11" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="useEndTime" id="12" indexed="12" label="到期时间" row="1" type="0" />
+<tableitem align="2" filedname="abutmentName" id="13" indexed="13" label="对接人名称" row="1" type="0" />
+<tableitem align="2" filedname="abutmentTel" id="14" indexed="14" label="对接人联系方式" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="15" indexed="15" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="16" indexed="16" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="17" indexed="17" label="登记部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="18" indexed="18" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="19" indexed="19" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="20" indexed="20" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="21" indexed="21" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="lstModDate" id="22" indexed="22" label="最后修改日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="24" indexed="24" label="-" row="1" type="5" typepara="/mfAbutmentMerchantInfo/deleteAjax;serialId-serialId;onClick-ajaxDelete(this)" width="2"/>
+</table>

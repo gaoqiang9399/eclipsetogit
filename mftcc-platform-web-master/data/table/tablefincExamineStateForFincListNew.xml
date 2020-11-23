@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincExamineStateForCusList" para="eadis_page" title="客户贷后检查列表" type="1">
+<tableitem align="2" filedname="检查登记" id="16" indexed="16" label="-" row="1" type="5" typepara="/mfExamineHis/examineApplyNew;pasNo-pasNo;onClick-MfBusFincApp_NewExamineStateList.loanAfterExamine(this)" widthType="0" authority="pasStsVal-1;pasStsVal-2"/>
+<tableitem align="2" filedname="pasNo" id="17" indexed="0" label="选择" row="1" sortType="2" type="2" typepara="pasNo-pasNo" width="4" widthType="0"/>
+<tableitem align="2" filedname="指派" id="18" indexed="17" label="-" type="5" typepara="action;pasNo-pasNo;onClick-MfBusFincApp_NewExamineStateList.assignExamineTaskSingle(this)" widthType="0" authority="pasStsVal-1;pasStsVal-2"/>
+<tableitem align="2" filedname="忽略" id="19" indexed="18" label="-" type="5" typepara="/mfExamineHis/ignoreExamineTask;pasNo-pasNo;onClick-MfBusFincApp_NewExamineStateList.ignoreExamineTaskSingle(this)" widthType="0" authority="pasStsVal-1;pasStsVal-2"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusFincApp_NewExamineStateList.getDetailPage(this);subStringNub-8;" width="9" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="2" indexed="2" label="证件号码" row="1" sortType="2" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="3" indexed="3" label="联系方式" row="1" sortType="2" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="合同号" row="1" sortType="2" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="5" indexed="5" label="借据号" row="1" sortType="2" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="loanBal" id="6" indexed="6" label="借据余额" row="1" sortType="1" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="createDate" id="7" indexed="7" label="创建日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="regName" id="8" indexed="8" label="创建人" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="opName" id="9" indexed="9" label="检查人" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="dueDate" id="10" indexed="10" label="最晚检查日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="pasSts" id="11" indexed="11" label="任务状态" row="1" sortType="2" type="0" width="7" widthType="0" colorCol="pasStsVal"/>
+<tableitem align="2" filedname="详情" id="12" indexed="12" label="-" row="1" sortType="2" type="5" widthType="0" typepara="/mfExamineHis/examineDetailNew;pasNo-pasNo;pasSts-pasStsVal;onClick-MfBusFincApp_NewExamineStateList.loanAfterExamineDetailNew(this);" authority="pasStsVal-0"/>
+</table>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lawsuitfollowcaseenddetail" title="法律诉讼跟进结案详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="followId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="跟进事件编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="案件编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="followType" fieldsize="FOLLOW_TYPE" fieldstyle="half" fieldtype="2" formactiveid="20" horVer="1" initvalue="1" labelalign="1" labelcol="1" labelname="跟进类型" mustinput="0" onchange="MfLawsuitFollow_Insert.followTypeChange();" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="followDate" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="日期" mustinput="" onclick="fPopUpCalendarDlg()" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseState" fieldsize="CASE_STATE" fieldtype="2" formactiveid="37" horVer="1" labelalign="1" labelcol="3" labelname="案件状态" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="lawFileNo" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="2" labelname="法律文书号" mustinput="" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="repayPrcp" fieldtype="1" formactiveid="39" horVer="1" labelalign="1" labelcol="1" labelname="应还本金" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="repayIntst" fieldtype="99" formactiveid="40" horVer="1" labelalign="1" labelcol="2" labelname="申报利息" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="factRepayIntst" fieldtype="99" formactiveid="43" horVer="1" labelalign="1" labelcol="3" labelname="申报利息" mustinput="" readonly="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="factRepayExpenses" fieldtype="1" formactiveid="44" horVer="1" labelalign="1" labelcol="4" labelname="实还费用" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="lawFileDate" fieldtype="99" formactiveid="45" horVer="1" labelalign="1" labelcol="4" labelname="破产裁定日期" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="factRepayPrcp" fieldtype="1" formactiveid="46" horVer="1" labelalign="1" labelcol="1" labelname="实还本金" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="factPenaltySum" fieldtype="1" formactiveid="47" horVer="1" labelalign="1" labelcol="3" labelname="实还罚息" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="48" horVer="1" labelalign="1" labelcol="1" labelcolspan="3" labelname="跟进备注" maxlength="400" mustinput="" readonly="" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="lawFileDate" fieldtype="1" formactiveid="49" horVer="1" labelalign="1" labelcol="1" labelname="法律文书生效日期" mustinput="" readonly="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="lawFileDate" fieldtype="1" formactiveid="50" horVer="0" labelalign="3" labelcol="1" labelname="法律文书生效日期" mustinput="" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="repayIntst" fieldtype="1" formactiveid="51" horVer="1" labelalign="1" labelcol="2" labelname="应还利息" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="penaltySum" fieldtype="1" formactiveid="52" horVer="1" labelalign="1" labelcol="3" labelname="应还罚息" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="factRepayIntst" fieldtype="1" formactiveid="53" horVer="1" labelalign="1" labelcol="2" labelname="实还利息" mustinput="" readonly="" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="repayExpenses" fieldtype="1" formactiveid="54" horVer="1" labelalign="1" labelcol="4" labelname="应还费用" mustinput="" readonly="" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="closingState" fieldsize="CLOSING_STATE" fieldtype="2" formactiveid="55" horVer="1" labelalign="1" labelcol="4" labelname="结案状态" mustinput="" readonly="" row="1"/>
+</form>

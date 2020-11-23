@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="passSignInputList" para="eadis_page" title="传签新增列表表单" type="2">
+<tableitem align="2" filedname="passSignReason" id="5" indexed="9" label="传签意见" type="0"/>
+<tableitem align="2" filedname="opinionType" id="4" indexed="8" label="传签意见类型" row="1" type="6" typepara="DIS_OR_AGREE"/>
+<tableitem align="2" filedname="passSignId" id="1" indexed="1" label="传签编号" row="1" type="99" typepara="/mfCreditProjectPassSign/getById;passSignId-passSignId;query-'query'"/>
+<tableitem align="2" filedname="contactsOpNo" id="19" indexed="6" label="负责人编号" row="1" type="99"/>
+<tableitem align="2" filedname="passSignBrNo" id="18" indexed="4" label="部门编号" row="1" type="99"/>
+<tableitem align="2" filedname="contactsOpName" id="17" indexed="7" label="负责人" row="1" type="0"/>
+<tableitem align="2" filedname="passSignBrName" id="16" indexed="5" label="部门" row="1" type="0"/>
+</table>

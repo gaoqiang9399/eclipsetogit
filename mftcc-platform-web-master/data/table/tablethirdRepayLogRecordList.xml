@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="thirdRepayLogRecordList" title="第三方还款日志列表" type="1">
+<tableitem align="2" filedname="remark" id="6" indexed="3" label="第三方返回消息" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="redTime" id="5" indexed="4" label="记录时间" row="1" sortType="0" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="4" indexed="1" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="planId" id="3" indexed="2" label="还款计划号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="orderNo" id="2" indexed="0" label="订单号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="报文详情" id="1" indexed="5" label="报文" row="1" type="5" typepara="/apiThirdServiceOrder/openThirdPayLogPageAjax;orderId-orderNo;onClick-openThirdPayLogPage(this)" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="collateraleval0003" para="eadis_page" title="评估历史" type="2">
+<tableitem align="2" filedname="totalPrice" id="6" indexed="8" label="评估总价" row="1" sortType="2" type="12" width="23" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="19" indexed="11" label="评估日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="id" id="20" indexed="6" label="唯一编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="opName" id="18" indexed="9" label="评估人员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="nodeName" id="17" indexed="10" label="评估阶段" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="16" indexed="12" label="操作" type="5" typepara="/mfPledgeEvalInfo/getById;id-id;onClick-pledgeEvalDetail" width="8" widthType="0"/>
+<tableitem align="2" filedname="unitPrice" id="7" indexed="7" label="评估单价" row="1" sortType="2" type="12" width="15" widthType="0"/>
+</table>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="alp0014" title="回购文档上传">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="业务流水号" maxlength="90" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="合同号" maxlength="90" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="客户号" maxlength="90" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="240" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="alpAmt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="结清本金" maxlength="16" mustinput="1" onblur="changePayPln();calRepayAmt();" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="conBal" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="本金余额" maxlength="16" mustinput="1" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appFlowNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="申请流程编号" maxlength="90" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="alpStatus" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="状态" maxlength="3" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appEndDate" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="终审时间" maxlength="24" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="belongCusName" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="产权归属方" maxlength="240" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="登记机构号" maxlength="90" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="240" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="登记人" maxlength="90" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="240" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgNo" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="最新登记机构号" maxlength="90" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="最新登记机构名称" maxlength="240" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="最新登记人" maxlength="90" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="最新登记人名称" maxlength="240" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" labelname="登记日期" maxlength="24" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="更新日期" maxlength="24" mustinput="0" row="18"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="brcContAmt" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="2" labelname="违约金" mustinput="1" onblur="calRepayAmt();" readonly="" row="5" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="serviceAmt" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="1" labelname="手续费" mustinput="1" onblur="calRepayAmt();" readonly="" row="7" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="repayAmt" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="2" labelname="回购金额" mustinput="1" readonly="1" row="7" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="alpBalance" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="余额" mustinput="" readonly="" row="3" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="alpType" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="非正常结束类型" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finishDate" fieldtype="99" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="l完成时间" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belongCusNo" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="产权归属方" mustinput="" readonly="" row="1" />
+</form>

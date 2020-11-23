@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="credittuningList4" title="工程担保授信尽调列表4" type="2">
+<tableitem align="2" filedname="tradeTime" id="33" indexed="13" label="往来时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="21" label="-" type="5" typepara="/mfCusCreditTuningDetail/deleteAjax;id-id;onClick-mfCusCreditApplyDetail.tuningDelete(this)" widthType="0"/>
+<tableitem align="2" filedname="busRemark" id="29" indexed="14" label="业务情况" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="busScale" id="30" indexed="12" label="业务比例" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="tradeRemark" id="27" indexed="10" label="主要交易对手情况" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="tradeName" id="15" indexed="11" label="名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="settlementAccount" id="37" indexed="17" label="结算账期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="settlementMethod" id="35" indexed="16" label="结算方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="isRelation" id="34" indexed="15" label="是否关联企业" row="1" type="0" widthType="0"/>
+</table>

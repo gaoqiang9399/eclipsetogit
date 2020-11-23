@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="creditorrecords0001" para="eadis_page" link="/p2pCreditorIntoRecords/findByPage" title="业务数据转债权记录表" type="1">
+<tableitem align="2" filedname="serialno" id="1" indexed="1" label="流水号 流水号" row="1" type="4" typepara="P2/pCreditorIntoRecords/getById;serialno-serialno;query-'query'"/>
+<tableitem align="2" filedname="pactId" id="2" indexed="2" label="合同号 " row="1" type="0" />
+<tableitem align="2" filedname="remark" id="3" indexed="3" label="转债权说明 " row="1" type="0" />
+<tableitem align="2" filedname="creditSts" id="4" indexed="4" label="债权状态 （0未使用；1已使用；2已撤销）" row="1" type="0" />
+<tableitem align="2" filedname="intoOpNo" id="5" indexed="5" label="转债人号 " row="1" type="0" />
+<tableitem align="2" filedname="intoOpName" id="6" indexed="6" label="转债人名称 " row="1" type="0" />
+<tableitem align="2" filedname="intoBrNo" id="7" indexed="7" label="转债机构号 " row="1" type="0" />
+<tableitem align="2" filedname="intoBrName" id="8" indexed="8" label="转债机构名称 " row="1" type="0" />
+<tableitem align="2" filedname="intoTime" id="9" indexed="9" label="转债时间 " row="1" type="0" />
+<tableitem align="2" filedname="undoOpNo" id="10" indexed="10" label="撤销人号 " row="1" type="0" />
+<tableitem align="2" filedname="undoOpName" id="11" indexed="11" label="撤销人名称 " row="1" type="0" />
+<tableitem align="2" filedname="undoBrNo" id="12" indexed="12" label="撤销机构号 " row="1" type="0" />
+<tableitem align="2" filedname="undoBrName" id="13" indexed="13" label="撤销机构名称 " row="1" type="0" />
+<tableitem align="2" filedname="undoTime" id="14" indexed="14" label="撤销时间 " row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="15" indexed="15" label="登记时间 " row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="16" indexed="16" label="最近修改时间 " row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="17" indexed="17" label="ext1 " row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="18" indexed="18" label="ext2 " row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="19" indexed="19" label="ext3 " row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="20" indexed="20" label="ext4 " row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="21" indexed="21" label="ext5 " row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="22" indexed="22" label="ext6 " row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="23" indexed="23" label="ext7 " row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="24" indexed="24" label="ext8 " row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="25" indexed="25" label="ext9 " row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="26" indexed="26" label="ext10 " row="1" type="0" />
+<tableitem align="2" filedname="删除" id="28" indexed="28" label="-" row="1" type="5" typepara="P2/pCreditorIntoRecords/deleteAjax;serialno-serialno;onClick-ajaxDelete(this)" width="2"/>
+</table>

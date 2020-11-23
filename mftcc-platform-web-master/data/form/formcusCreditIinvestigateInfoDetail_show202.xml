@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusCreditIinvestigateInfoDetail_show202" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cashId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="现金流ID" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assurerBankAssureBal" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="担保人行内担保余额" maxlength="14" mustinput="0" param="cusNo;" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="cusCompanyAssureBal" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="借款人公司内担保余额" maxlength="14" mustinput="0" param="cusNo;" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cashFlowMatchBus" fieldsize="AC_YES_NO" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="现金流量与经营规模是否匹配" maxlength="1" mustinput="0" param="cusNo;" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="blacklistFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="是否黑名单客户" maxlength="1" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="15" fieldalign="1" fieldcol="2" fieldname="avgMonthCashFlow" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="近6月平均每月现金流出量" maxlength="14" mustinput="" param="cusNo;" readonly="" row="5" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cashFlowNormalFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="现金流入、流出对象是否正常" mustinput="" param="cusNo;" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="关联编号" maxlength="30" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusLoanFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="2" labelname="借款人在我司信贷记录" mustinput="" param="cusNo;" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="assurerCompanyLoanBal" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="4" labelname="担保人公司内借款余额" maxlength="14" mustinput="" param="cusNo;" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="assureMutualFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="17" horVer="1" labelalign="1" labelcol="2" labelname="是否存在互保现象" mustinput="" param="cusNo;" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="spouseNoteFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="18" horVer="1" labelalign="1" labelcol="4" labelname="配偶和共同经营人在我行记录" mustinput="" param="cusNo;" readonly="" row="3"/>
+</form>

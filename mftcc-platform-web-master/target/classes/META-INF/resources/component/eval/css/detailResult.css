@@ -1,0 +1,209 @@
+.totalLable {
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 40px !important;
+}
+.scoreLable {
+    font-size: 13px;
+    padding-left: 40px !important;
+}
+.totalScore input {
+    background-color: #00cf39;
+    border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color #73688b;
+    border-radius: 1px;
+    border-style: none none none solid;
+    border-width: medium medium medium 2px;
+    box-shadow: unset;
+    height: 23px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+}
+.score > input {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    box-shadow: unset;
+    height: 20px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+}
+.scoreInfo table tr:first-child {
+    border-bottom: 2px solid #d4d4d4;
+}
+.scoreInfo table tr:first-child td {
+    padding-bottom: 5px;
+}
+.levels{
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: 90px;
+}
+.level_1{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll 3px 207px;
+}
+.level_2{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll 3px 317px;
+}
+.level_3{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll 0 0;
+}
+.level_4{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll 3px 100px;
+}
+.level_5{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll -140px -106px;
+}
+.level_6{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll -140px 0;
+}
+.level_7{
+	background: rgba(0, 0, 0, 0) url("../image/eval_level.png") repeat scroll -279px 0;
+}
+
+.evel_title {
+    color: #8e969c;
+    font-size: 15px;
+}
+.evaluation {
+    color: #8e969c;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+    /*padding-bottom: 10px;
+     //width: 200px; */
+}
+.evel_table {
+    margin: 5px 50px;
+    width: calc(100% - 100px);
+}
+.evel_title_tr {
+    border-bottom: 1px solid #8e969c;
+}
+.evaluation_tr td {
+    margin-top: 5px;
+}
+.bar_outter {
+    background-color: #d9dee0;
+    border-radius: 2px;
+    display: block;
+    height: 18px;
+}
+.bar_inner {
+    background-color: #3c9adc;
+    border-radius: 2px 0 0 2px;
+    display: block;
+    height: 18px;
+    width: 0%;
+}
+.radio_span {
+    border-radius: 15px;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 15px;
+}
+.radio_span_inner {
+    background-color: rgb(235, 235, 235);
+    border-radius: 9px;
+    display: block;
+    height: 9px;
+    left: 3px;
+    position: relative;
+    top: 3px;
+    width: 9px;
+}
+.div_line {
+    margin: 4px 8px;
+}
+.bar_div{
+	margin-bottom: 10px;
+}
+.score_lable {
+    color: #707a8b;
+    font-size: 14px;
+}
+.count_score {
+    color: #40b741;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.radio_lable {
+    display: block;
+    font-size: 12px;
+    left: 5px;
+    position: relative;
+    top: -5px;
+    height: 20px;
+}
+.radio_filed {
+    display: block;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: -26px;
+    height: 20px;
+}
+.show_0 .radio_filed{
+	color: #3c9adc ;
+}
+.show_1 .radio_filed{
+	color: #eac549 ;
+}
+.show_2 .radio_filed{
+	color: #5fdac7 ;
+}
+.show_3 .radio_filed{
+	color: #fa8080 ;
+}
+.show_4 .radio_filed{
+	color:  #707a8b ;
+}
+.show_0 .radio_span{
+	background-color: #3c9adc ;
+}
+.show_1 .radio_span{
+	background-color: #eac549 ;
+}
+.show_2 .radio_span{
+	background-color: #5fdac7 ;
+}
+.show_3 .radio_span{
+	background-color: #fa8080 ;
+}
+.show_4 .radio_span{
+	background-color:  #707a8b;
+}
+.radio_lable{
+	color:  #707a8b ;
+}
+
+.ls_list_a tbody tr td.border_left {
+    border-bottom: 1px solid  #ddd;
+    border-right: 1px solid  #ddd;
+     font-size: 12px;
+}
+.ls_list_a table.ls_list td:first-child {
+    text-align: left;
+}
+
+.ls_list_a>thead>tr>th {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.ls_list_b td {
+    font-size: 12px;
+}
+
+.ls_list_b tbody tr td input[type="radio"] {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}

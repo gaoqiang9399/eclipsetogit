@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusContractBase" title="合同订单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contractId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="15" fieldalign="1" fieldcol="4" fieldname="contractAmt" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="合同额" maxlength="12" mustinput="1" onblur="MfCusContract.calcGrowthRate('#cusContractBase');" row="1" unit="万元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="signYear" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="签约年份" maxlength="4" mustinput="1" onchange="MfCusContract.calcGrowthRate('#cusContractBase');" onclick="laydateYear();return false" readonly="1" row="1"/>
+<formelement alt="请输入200以内的字数" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="3"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="growthRate" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="合同额增长率" maxlength="12" mustinput="" readonly="1" row="2" unit="%"/>
+</form>

@@ -1,0 +1,129 @@
+.body_bg{
+	background-color: #F4F4F4;
+}
+
+.monthed_div {
+	padding: 18px;
+}
+.monthed_div .month_wrap {
+	width: 860px;
+}
+.monthed_div .month_summary {
+	margin-bottom: 5px;
+}
+
+.monthed_div .month_tit{ 
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.monthed_div .txt {
+	display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.monthed_div .mgr {
+	margin-right: 15px;
+}
+
+.monthed_div .vch_item{
+	margin-bottom: 20px;
+	line-height:30px;
+	zoom:1;
+}
+
+.monthed_div .vch_item .vch-date{
+	width: 110px;
+	padding: 6px;
+	display: inline;
+	background-color: #FFF;
+	cursor:auto;
+	background: url(../../voucher/images/datepicker_icon.png) right 0 no-repeat #FFF;
+}
+.monthed_div .vch_item .vch-select{
+	width: 60px;
+	padding:6px 0 6px 6px;
+	display: inline;
+}
+.monthed_div .vch_item .vch-summary{
+	width: 300px;
+	display: inline;
+}
+
+.monthed_div .set_item{
+	margin-bottom: 15px;
+	line-height:30px;
+	zoom:1;
+}
+
+
+.monthed_div .set_item .label_account{
+	width: 235px;
+	display: inline-block;
+}
+.monthed_div .set_item .vch-account{
+	width: 330px;
+	display: inline;
+}
+
+.monthed_div .month_step{
+	margin-top: 10px;
+	margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.11);
+    font-size: 14px;
+    zoom: 1;
+}
+
+.search-addon{
+	left: -25px !important;
+	cursor: pointer;
+}
+
+
+.monthed_div .span_left{ 
+	margin-right: 5px; 
+}
+
+.more a{
+	font-size: 12px;
+    color: #888;
+    padding-right: 16px;
+}
+.more i{
+	margin-top: -5px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('/factor/themes/factor/images/page_spr_icons.png') no-repeat -192px -96px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.more .show i{
+	background-position: -208px -96px;
+}
+
+.monthed_div .month_btn{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+}
+
+
+#vchNotJZ{
+	margin-top: 20px;
+}
+#vchNotJZ li{
+	margin-bottom: 10px;
+}	
+#vchNotJZ .vchShow {
+	padding: 5px 0;
+}	
+#vchNotJZ .vchShow a{
+	margin-right: 5px;
+}
+
+

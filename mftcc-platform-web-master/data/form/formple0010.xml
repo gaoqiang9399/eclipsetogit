@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="ple0010" title="押品基本信息（母版）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNoShow" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pledgeName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="押品名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="classNo" fieldsize="GAGE_TYPE" fieldtype="21" formactiveid="8" horVer="1" labelalign="1" labelcol="4" labelname="所属类别名称" maxlength="100" mustinput="0" onchange="dealClassName()" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="21" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="担保类型" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="totalPrice" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="质押金额" maxlength="20" mustinput="0" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="envalueDate" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="评估日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(this);return false" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="envalueCrop" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="评估公司" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="disabledDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="4" labelname="押品的失效日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(this);return false" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="3" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeAddress" fieldtype="1" formactiveid="37" horVer="1" labelalign="1" labelcol="4" labelname="押品地点" maxlength="200" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldsize="100" fieldtype="5" formactiveid="38" horVer="1" labelalign="1" labelcol="1" labelname="押品简要说明" maxlength="400" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="申请编号" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleId" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="唯一编号" mustinput="" readonly="" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="className" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="类别名称" mustinput="" readonly="" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="合同号（隐）" maxlength="30" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pledgeAmount" fieldtype="1" formactiveid="43" horVer="1" labelalign="1" labelcol="2" labelname="押品数量" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amountUnit" fieldsize="ASS_METRIC" fieldtype="2" formactiveid="44" horVer="1" labelalign="1" labelcol="3" labelname="数量单位" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relatePleId" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="5" labelname="押品主信息和清单关联编号" mustinput="" readonly="" row="9"/>
+</form>

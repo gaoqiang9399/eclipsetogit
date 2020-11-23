@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcuscorplawsuitsallclass01" title="企业涉诉高法全类-基础">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="enterpriseName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="企业名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="enterpriseNumber" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="企业社会信用代码" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="traceNo" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="查询号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serialno" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="序列号" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportType" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="报告类型" mustinput="" readonly="1" row="5"/>
+</form>

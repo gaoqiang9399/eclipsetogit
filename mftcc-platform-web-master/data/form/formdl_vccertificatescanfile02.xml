@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatescanfile02" title="机动车合格证扫描件信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scanfileId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="合格证序号" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vin" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="车架号(VIN码)" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="文件编号" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSize" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="文件大小(KB)" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fileName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="文件名称" maxlength="50" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="filePath" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="文件路径" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="上传人编号" maxlength="50" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="上传人名称" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="上传人机构编号" maxlength="50" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="上传人机构名称" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="上传时间" maxlength="17" mustinput="0" row="12"/>
+</form>

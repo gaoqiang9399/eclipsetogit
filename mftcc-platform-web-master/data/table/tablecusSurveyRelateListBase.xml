@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusSurveyRelateListBase" para="eadis_page" title="非现场调查" type="1">
+<tableitem align="2" filedname="cusName" id="14" indexed="1" label="客户姓名" row="1" sortType="2" type="4" typepara="/mfCusSurveyRelate/listShowDetailAjax;serialNo-serialNo;cusNo-cusNo;oneUrl-'/mfCusSurveyRelate/updateAjaxByOne';onClick-listShowDetail(this);" width="24" widthType="0"/>
+<tableitem align="2" filedname="surveyObj" id="12" indexed="2" label="调查对象" row="1" sortType="2" type="0" width="24" widthType="0"/>
+<tableitem align="2" filedname="surveyDate" id="11" indexed="3" label="调查日期" row="1" sortType="2" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="relativeCus" id="10" indexed="4" label="与借款人关系" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="7" indexed="13" label="-" row="1" type="5" typepara="/mfCusSurveyRelate/deleteAjax;serialNo-serialNo;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+</table>

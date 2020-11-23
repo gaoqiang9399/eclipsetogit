@@ -1,0 +1,27 @@
+{
+  "form":[
+    {"dragFormName":"formCif2001","dragFormDesc":"客户经理查询表单"},
+    {"dragFormName":"formCif2002","dragFormDesc":"机构查询表单"},
+    {"dragFormName":"formCif2003","dragFormDesc":"个人开户基本信息"},
+    {"dragFormName":"formCif2004","dragFormDesc":"客户重大事件信息"},
+    {"dragFormName":"formCif2005","dragFormDesc":"客户经理客户关联表查询表单"},
+    {"dragFormName":"formCif2006","dragFormDesc":"客户基本信息"},
+    {"dragFormName":"formCif2007","dragFormDesc":"客户隐藏查询"},
+    {"dragFormName":"formCif2008","dragFormDesc":"客户隐藏查询"},
+    {"dragFormName":"formCif2009","dragFormDesc":"客户隐藏查询"},
+    {"dragFormName":"formCif2010","dragFormDesc":"客户隐藏查询"},
+    {"dragFormName":"formCif2011","dragFormDesc":"客户隐藏查询"}
+  ],
+  "table":[
+    {"dragTableName":"tableCif2001","dragTableDesc":"客户经理查询列表"},
+    {"dragTableName":"tableCif2002","dragTableDesc":"机构查询列表"},
+    {"dragTableName":"tableCif2003","dragTableDesc":"个人开户基本信息列表"},
+    {"dragTableName":"tableCif2004","dragTableDesc":"客户重大事件信息列表"},
+    {"dragTableName":"tableCif2005","dragTableDesc":"客户经理客户关联表查询列表"},
+    {"dragTableName":"tableCif2006","dragTableDesc":"客户基本信息列表"},
+    {"dragTableName":"tableCif2007","dragTableDesc":"客户隐藏查询列表"},
+    {"dragTableName":"tableCif2008","dragTableDesc":"客户隐藏查询列表"},
+    {"dragTableName":"tableCif2009","dragTableDesc":"客户隐藏查询列表"},
+    {"dragTableName":"tableCif2010","dragTableDesc":"客户隐藏查询列表"}
+  ]
+}

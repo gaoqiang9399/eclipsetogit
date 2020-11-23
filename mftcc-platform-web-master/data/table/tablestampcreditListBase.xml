@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="stampcreditListBase" para="eadis_page" title="授信合同列表" type="1">
+<tableitem align="2" authority="creditSts-3;creditSts-9;creditSts-11;creditSts-12;creditSts-13;" filedname="盖章" id="19" indexed="21" label="-" row="1" type="5" typepara="/mfStampSealCredit/input;id-id;onClick-sealApply(this)" width="2" widthType="0"/>
+<tableitem align="2" authority="creditSts-3;creditSts-9;creditSts-10;creditSts-11;creditSts-13;" filedname="合同登记" id="20" indexed="22" label="-" type="5" typepara="/mfStampCreditRegist/input;id-id;onClick-registApply(this)" width="2" widthType="0"/>
+<tableitem align="2" authority="creditSts-9;creditSts-10;creditSts-12;creditSts-13;" filedname="用印申请" id="18" indexed="20" label="-" row="1" type="5" typepara="/mfStampCredit/input;id-id;onClick-stampApply(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="creditModel" id="17" indexed="5" label="授信模式" row="1" sortType="2" type="6" typepara="CREDIT_MODEL" widthType="0"/>
+<tableitem align="2" filedname="creditTerm" id="7" indexed="8" label="授信期限（个月）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="16" indexed="10" label="授信结束日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="6" indexed="9" label="授信开始日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="opName" id="13" indexed="19" label="办理人员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditSts" id="12" indexed="18" label="授信状态" row="1" sortType="2" type="6" typepara="CREDIT_STS" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCreditApply/getCusCreditView;cusNo-cusNo;creditAppId-creditAppId;busEntrance-'credit';onClick-MfCusCredit_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="creditSum" id="1" indexed="6" label="授信总额(元)" row="1" sortType="2" type="12" widthType="0"/>
+</table>

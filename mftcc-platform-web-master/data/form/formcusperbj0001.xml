@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusperbj0001" title="北京个人客户">
+<formelement alt="50字以内" datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="2" labelcol="3" labelname="客户名称" maxlength="100" mustinput="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="4" horVer="0" initvalue="2" labelalign="2" labelcol="1" labelname="客户类型" maxlength="2" mustinput="1" onblur="getIdType()" onchange="chooseCusType(this);" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="2" labelname="客户号" maxlength="30" mustinput="" readonly="" row="12" />
+<formelement alt="请输入渠道来源" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="channelSource" fieldtype="1" formactiveid="44" horVer="0" labelalign="2" labelcol="1" labelname="渠道来源" maxlength="50" mustinput="1" readonly="" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="appTimeShow" fieldtype="99" formactiveid="55" horVer="0" labelalign="2" labelcol="3" labelname="登记日期" mustinput="" readonly="1" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="type" fieldtype="99" formactiveid="58" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="channelSourceNo" fieldtype="99" formactiveid="59" horVer="0" labelalign="3" labelcol="3" labelname="渠道来源编号" mustinput="" readonly="" row="2"/>
+</form>

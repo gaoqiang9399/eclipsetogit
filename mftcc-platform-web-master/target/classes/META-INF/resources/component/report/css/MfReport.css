@@ -1,0 +1,206 @@
+.search-div{
+	margin-top:65px;
+}
+
+.search-input-div {
+	border: 1px solid #32b5cb;
+	border-radius: 0px;
+}
+
+.search-input {
+	border-radius: 0px !important;
+	border: 1px solid #32b5cb;
+}
+
+.search-input-div span {
+	background-color: #32b5cb;
+	border: 1px solid #32b5cb;
+	color: #fff;
+	border-radius: 0px !important;
+}
+
+.search-tip {
+	color: #969696;
+	margin-top:  5px;
+	font-size:  12px;
+}
+
+.content-boxes {
+	padding-left: 6%;
+	padding-right: 6%;
+	margin-top: 80px;
+}
+
+.info-box {
+	position: relative;
+	height: 332px;
+	width: 86%;
+	border-radius: 5px;
+}
+
+.info-box+.info-box {
+	padding-left: 20px;
+}
+
+
+.box-title {
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	border-radius: 5px;
+}
+
+.box-content-bg {
+	max-height: 250px;
+/* 	margin-top: 40px; */
+}
+
+.box-content-sm {
+	height: auto;
+}
+
+.box-content-sm:hover {
+	background-color:#F5F3F5;
+	cursor: pointer;
+}
+.box-content-sm i {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 2px;
+	display: block;
+	float: left;
+/* 	height: 60px; */
+	width: 50px;
+	text-align: center;
+/* 	line-height: 60px; */
+	font-size: 30px;
+	margin-top:20px;
+}
+
+i {
+	margin-right: 5px;
+}
+
+.info-box-content {
+	margin-left: 50px;
+	padding-top: 15px;
+}
+
+
+
+.box-footer {
+	line-height: 40px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+
+.content-des {
+	color: #969696;
+	font-size: 12px;
+}
+
+
+.border-purple{
+	border: 1px solid #8689CE;
+}
+
+.border-gold {
+	border: 1px solid #E9B758;
+}
+
+.border-seagreen{
+	border: 1px solid #439177;
+}
+
+.border-lightseagreen {
+	border: 1px solid #3DA2B4;
+}
+
+.color-purple {
+	color: #8689CE;
+}
+
+.color-gold {
+	color: #E9B758
+}
+
+.color-seagreen {
+	color: #439177;
+}
+
+.color-lightseagreen {
+	color: #3DA2B4;
+}
+
+.background1 {
+	background: #8689CE;
+}
+
+.background2 {
+	background: #E9B758
+}
+
+.background3 {
+	background: #439177;
+}
+
+.background4 {
+	background: #3DA2B4;
+}
+
+.background11 {
+	background: #EDEDF9;
+}
+
+.background21 {
+	background: #FCF4E7
+}
+
+.background31 {
+	background: #E3EFEB;
+}
+
+.background41 {
+	background: #E2F1F4;
+}
+
+.border-bottom1 {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.border-bottom2 {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.border-bottom3 {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.border-bottom4 {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.box-content-lg .mCSB_draggerRail {
+    position: absolute;
+    right: 0px;
+}
+
+/* 改写滚动条的宽度 */
+.mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:2px;
+}
+.tubiao{
+		height:34px;
+		padding:6px 12px;
+}
+/* 去掉条件页面下方的滚动条  */
+.form-horizontal .form-group{
+	margin-right:0px;
+}

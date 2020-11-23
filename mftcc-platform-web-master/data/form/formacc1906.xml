@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc1906" title="核算参数表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="glNo" fieldtype="1" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="核算设置编号" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dealMode" fieldsize="AC_REPAY_DEAL_MODE" fieldtype="21" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="3" labelname="扣款处理方式" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parNames" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="popNames" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" mustinput="" readonly="" row="2"/>
+</form>

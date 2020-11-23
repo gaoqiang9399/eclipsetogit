@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc0601" title="核算纠错登记簿">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" formactiveid="1" labelalign="3" labelcol="3" labelname="客户名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="rectType" fieldsize="RECT_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="5" labelname="纠错类型" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="rectSts" fieldsize="ALP_STATUS" fieldtype="21" formactiveid="7" labelalign="3" labelcol="5" labelname="状态" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="1"/>
+</form>

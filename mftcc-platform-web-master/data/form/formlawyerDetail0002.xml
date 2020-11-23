@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lawyerDetail0002" title="律师详情界面">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lawyerName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="律师名称" mustinput="1" readonly="" row="1"/>
+<formelement alt="请输入11位正确的手机号码" calculationType="onBlur" datatype="0" fieldalign="1" fieldcol="3" fieldname="cusTel" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="手机号" maxlength="11" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" readonly="" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="premises" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="律师事务所名称" mustinput="1" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="hireEndTime" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="聘用结束日期" mustinput="1" onclick="fPopUpCalendarDlg({min:new Date().toLocaleDateString(),choose:MfOaLawyer_Insert.judgeHireStartEndDate});" readonly="1" row="5" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="hireEndTime" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="聘用结束日期" mustinput="1" onclick="fPopUpCalendarDlg({min:new Date().toLocaleDateString(),choose:MfOaLawyer_Insert.judgeHireStartEndDate});" readonly="1" row="5" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="0" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="身份证号" mustinput="" readonly="" row="3"/>
+</form>

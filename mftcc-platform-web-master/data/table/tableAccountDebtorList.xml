@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AccountDebtorList" link="/mfCusAccountDebtor/findByPage" para="eadis_page" title="主要应收账款债务人表" type="2">
+<tableitem align="2" filedname="contactPerson" id="6" indexed="6" label="联系人" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="14" indexed="13" label="-" row="1" type="5" typepara="/mfCusAccountDebtor/getById;id-id;cusNo-cusNo;oneUrl-'/mfCusAccountDebtor/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" filedname="debtorName" id="4" indexed="4" label="债务人全称" row="1" type="4" typepara="/mfCusAccountDebtor/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusAccountDebtor/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="id" id="13" indexed="15" label="主键" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="reconciliationContacts" id="12" indexed="11" label="对账联系人" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="reconciliationMonthDate" id="10" indexed="10" label="每月对账日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="accountNumber" id="9" indexed="9" label="账号" row="1" type="0"/>
+</table>

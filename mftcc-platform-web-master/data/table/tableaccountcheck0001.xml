@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="accountcheck0001" link="/mfMoveableAccountCheckInfo/findByPage" para="eadis_page" title="动产对账结果登记表" type="1">
+<tableitem align="2" authority="checkResultType-1" filedname="异常跟踪" id="15" indexed="19" label="-" row="1" type="5" typepara="/mfMoveableUnusualTailInfo/input;accountCheckId-accountCheckId;onClick-MfMoveableAccountCheckInfoList.unusualTailInput(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="unusualRemark" id="6" indexed="8" label="异常情况" mytitle="异常情况-unusualRemark" row="1" sortType="2" type="3" typepara="25" widthType="0"/>
+<tableitem align="2" filedname="checkResultType" id="5" indexed="6" label="对账结果" row="1" sortType="2" type="6" typepara="ACCOUNT_CHECK_TYPE" widthType="0"/>
+<tableitem align="2" filedname="checkOpName" id="4" indexed="5" label="对账人名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkDate" id="2" indexed="3" label="对账时间" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="unusualDealType" id="17" indexed="9" label="异常处理情况" sortType="2" type="6" typepara="UNUSUAL_DEAL_TYPE" widthType="0"/>
+<tableitem align="2" filedname="查看" id="16" indexed="10" label="-" row="1" type="5" typepara="/mfMoveableAccountCheckInfo/getById;accountCheckId-accountCheckId;onClick-MfMoveableAccountCheckInfoList.accountCheckDeatil(this)" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_changecertificate0003" para="eadis_page" title="合格证信息(带选择)" type="4">
+<tableitem align="2" filedname="sequence" id="19" indexed="2" label="全选" sortType="2" type="2" typepara="sendCertificateDate-sendCertificateDate;sendCertificateDept-sendCertificateDept;dealerName-dealerName;vin-vin;vehicleTypeCode-vehicleTypeCode;configurationCode-configurationCode;coloueCode-coloueCode;base-base;storageTime-storageTime;unitPrice-unitPrice;certificateId-certificateId;" width="3" widthType="0"/>
+<tableitem align="2" filedname="unitPrice" id="18" indexed="26" label="单价" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="sendCertificateDept" id="20" indexed="5" label="发证单位" row="1" type="6" typepara="VC_SEND_CERTIFICATE_DEPT" width="5" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeCode" id="17" indexed="12" label="车型" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="coloueCode" id="16" indexed="16" label="颜色" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="configurationCode" id="15" indexed="14" label="配置" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="storageTime" id="14" indexed="22" label="入库时间" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="vin" id="5" indexed="10" label="车架号" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="base" id="13" indexed="21" label="基地" row="1" type="6" typepara="VC_BASE" width="5" widthType="0"/>
+<tableitem align="2" filedname="sendCertificateDate" id="2" indexed="4" label="发证时间" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="10" indexed="9" label="经销商" row="1" type="0" width="10" widthType="0"/>
+</table>

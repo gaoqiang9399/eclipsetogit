@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dl_archive_config02" title="归档配置信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" initvalue="0" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="cacheCleanDays" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="缓存文件清理周期" mustinput="1" row="1" unit="天"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="docLendMaxDays" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="文档借阅最大天数" mustinput="1" row="2" unit="天"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactSignFilesOfSceneNos" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="合同签订归档文件适用场景" maxlength="400" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactOverFilesOfSceneNos" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="合同完结归档文件适用场景" maxlength="400" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="22" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="更新人名称" maxlength="40" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="更新人部门编号" maxlength="10" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="更新人部门名称" maxlength="80" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="updateDate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" readonly="1" row="5"/>
+</form>

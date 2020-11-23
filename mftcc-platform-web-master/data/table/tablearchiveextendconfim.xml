@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveextendconfim" para="eadis_page" title="非系统合同" type="2">
+<tableitem align="2" filedname="详情" id="14" indexed="7" label="-" type="5" typepara="/archiveInfoMain/pactExtendDetail;archiveDetailNo-archiveDetailNo;onClick-pactDetail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="corpNo" id="13" indexed="2" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docName" id="12" indexed="6" label="文档名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="11" indexed="13" label="-" row="1" type="99" typepara="/archiveInfoDetail/deletePaperAjax;archiveDetailNo-archiveDetailNo;onclick-ajaxTrDelete(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="2" indexed="1" label="文档类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="corpName" id="10" indexed="5" label="合同名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="archiveDetailNo" id="1" indexed="0" label="选择" mytitle="当事人-client" row="1" type="2" typepara="archiveDetailNo-archiveDetailNo" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="9" indexed="3" label="合作银行" mytitle="合作银行-agenciesName" row="1" type="99" typepara="subStringNub-18;" widthType="0"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="prd4002" title="产品细化配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="金融产品号" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="termMin" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="最小期限（月）" maxlength="8" mustinput="0" row="1" unit="[月]"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="termMax" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="最大期限（月）" maxlength="8" mustinput="0" row="1" unit="[月]"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="depositMinFlt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="保证金比例下限" maxlength="10" mustinput="0" row="5" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="3" fieldname="depositMaxFlt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="保证金比例上限" maxlength="10" mustinput="0" row="5" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="3" fieldname="fstPayMaxFlt" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="首付比例上限" maxlength="10" mustinput="0" row="3" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="fstPayMinFlt" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="首付比例下限" maxlength="10" mustinput="0" row="3" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="3" fieldname="finalMaxFlt" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="尾款比例上限" maxlength="10" mustinput="0" row="7" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="finalMinFlt" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="尾款比例下限" maxlength="10" mustinput="0" row="7" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="floatType" fieldsize="FLOAT_TYPE" fieldtype="2" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="利率浮动类型" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="floatVal" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="利率浮动值" maxlength="10" mustinput="0" row="9" unit="例：比例:120%=1.2;数值:1=1"/>
+</form>

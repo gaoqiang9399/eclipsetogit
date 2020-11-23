@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="trainingneedsapprovehiswkf" title="审批历史页面">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyDate" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="申请日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="申请人" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="title" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="培训标题" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trainingNeedsType" fieldsize="TRAINING_NEEDS_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="培训类型" mustinput="" readonly="" row="2"/>
+</form>

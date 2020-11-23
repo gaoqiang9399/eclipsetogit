@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CoreCompany0001" link="/mfCusCoreCompany/findByPage.action" para="eadis_page" title="核心企业信息表" type="1">
+<tableitem align="2" filedname="coreCompanyButtPhone" id="6" indexed="6" label="接人联系方式" row="1" type="0"/>
+<tableitem align="2" filedname="coreCompanyButtName" id="5" indexed="5" label="对接人" row="1" type="0"/>
+<tableitem align="2" filedname="coreCompanyName" id="3" indexed="3" label="核心企业名称" type="4" typepara="/mfCusCoreCompany/getCoreCompanyView;coreCompanyUid-coreCompanyUid;onClick-getViewCommon;subStringNub-13;" widthType="0"/>
+<tableitem align="2" filedname="infIntegrity" id="11" indexed="11" label="资料完整度" row="1" type="0"/>
+<tableitem align="2" filedname="coreCompanyBrName" id="10" indexed="10" label="关联操作员部门" row="1" type="0"/>
+<tableitem align="2" filedname="coreCompanyOpName" id="8" indexed="8" label="关联操作员" row="1" type="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusCorpBaseInfo0001" para="eadis_page" title="对公客户信息" type="1">
+<tableitem align="1" filedname="cusNameShort" id="3" indexed="4" label="客户简称1" row="1" sortType="2" type="6" width="15" widthType="0"/>
+<tableitem align="2" filedname="closedCapitalOpFlag" id="35" indexed="14" label="允许资金封闭运行" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCorpBaseInfo/getByIdForShort;cusNo-cusNo;onClick-MfCusCorpBaseInfo.getMfCusCorpBaseInfo;subStringNub-20;" width="20" widthType="0"/>
+<tableitem align="1" filedname="cusNameShort4" id="34" indexed="8" label="客户简称4" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="cusNameShort3" id="33" indexed="7" label="客户简称3" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="cusNameShort2" id="32" indexed="6" label="客户简称2" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="superviseType" id="29" indexed="9" label="监管方式" row="1" sortType="2" type="6" typepara="SUPERVISE_TYPE" width="10" widthType="0"/>
+</table>

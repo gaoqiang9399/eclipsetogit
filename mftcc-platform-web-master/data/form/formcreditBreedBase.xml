@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditBreedBase" title="授信业务品种授信">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="breedNo" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="业务品种" mustinput="1" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="breedCreditAmt" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="授信额度" maxlength="20" mustinput="1" readonly="" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="breedName" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="5" labelname="breedName" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="breedAgenciesId" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="合作银行" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="breedAgenciesName" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="3" labelname="合作银行" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="agenciesCreditAmt" fieldtype="1" formactiveid="47" horVer="0" labelalign="3" labelcol="1" labelname="合作银行授信额度" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="3" labelname="creditAppId" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="49" horVer="0" labelalign="3" labelcol="3" labelname="cusNo" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="99" formactiveid="50" horVer="0" labelalign="3" labelcol="3" labelname="cusName" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="51" horVer="0" labelalign="3" labelcol="4" labelname="id" mustinput="" readonly="" row="4"/>
+</form>

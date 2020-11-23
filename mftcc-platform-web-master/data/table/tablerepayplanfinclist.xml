@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplanfinclist" para="eadis_page" title="保理还款计划下挂列表" type="1">
+<tableitem align="2" filedname="receEndDate" id="27" indexed="10" label="账款到期日" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="receBeginDate" id="24" indexed="8" label="发票日" type="1" width="20" widthType="0"/>
+<tableitem align="1" filedname="receNo" id="2" indexed="5" label="发票号" mytitle="项目名称-appName;" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="还款计划" id="34" indexed="14" label="-" row="1" type="5" typepara="/mfRepayPlan/getPlanListForAccountByFincId.action;fincId-fincId;onClick-repayPlan_ListForAccount.repayPlanDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="33" indexed="7" label="借据编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="repayAmtThis" filedname="putoutAmt" id="31" indexed="12" label="本次融资金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receTransAmt" id="30" indexed="13" label="转让金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receAmt" id="29" indexed="11" label="账款金额" row="1" type="12" widthType="0"/>
+</table>

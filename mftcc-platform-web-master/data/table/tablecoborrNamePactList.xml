@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="coborrNamePactList" para="eadis_page" title="合同共借人列表" type="2">
+<tableitem align="1" filedname="contactsTel" id="15" indexed="12" label="联系电话" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="5" label="联系人" mytitle="联系人-contactsName;" row="1" type="0" typepara="6" widthType="0"/>
+<tableitem align="2" filedname="删除" id="13" indexed="15" label="-" type="5" typepara="/mfBusPact/deleteCoborr;cusNo-cusNo;onClick-MfBusCoborrList.deleteCoborrPact" width="15" widthType="0"/>
+<tableitem align="1" filedname="idNum" id="12" indexed="4" label="共借人证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="1" label="共借人名称" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusType" id="1" indexed="2" label="客户类别" row="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+</table>

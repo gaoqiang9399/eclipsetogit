@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusAssOutsideList" link="/mfCusAssureOutside/findByPage" para="eadis_page" title="外访-保证人信息" type="1">
+<tableitem align="2" filedname="assureName" id="5" indexed="4" label="保证人姓名" type="4" typepara="/mfCusAssureOutside/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusAssureOutside/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="4" indexed="5" label="保证人证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regBookInfo" id="34" indexed="7" label="户口本是否一致" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="idCardInfo" id="33" indexed="6" label="身份证是否一致" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="34" label="-" row="1" type="5" typepara="/mfCusAssureOutside/deleteAjax;id-id;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssbuysaleexpbill0001" para="eadis_page" title="采购销售费用清单" trClick=";onClick-Pss.checkCurrentTr(this)" type="2">
+<tableitem align="2" filedname="buySaleExpId" id="16" indexed="4" label="全选" row="1" sortType="2" type="2" typepara="buySaleExpId-buySaleExpId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="supplierId" id="18" indexed="5" label="供应商ID" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="4" indexed="6" label="供应商" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="saleType" id="5" indexed="7" label="支出类别" row="1" type="6" typepara="PSS_SALE_TYPE" widthType="0"/>
+<tableitem align="3" filedname="expAmt" id="6" indexed="8" label="金额" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="unpaidAmt" id="7" indexed="9" label="未付费用" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="sourceBillNo" id="8" indexed="10" label="源单号" row="1" type="0"/>
+<tableitem align="1" filedname="sourceContactName" id="11" indexed="13" label="源单往来单位" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="otherPayNo" id="12" indexed="14" label="其他支出单编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="sourceBillDate" id="13" indexed="15" label="源单日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="isApportion" id="17" indexed="16" label="分摊" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="paidState" id="15" indexed="18" label="付款状态" row="1" type="6" typepara="PSS_PAID_STATE" widthType="0"/>
+</table>

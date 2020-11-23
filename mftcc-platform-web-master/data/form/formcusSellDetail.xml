@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusSellDetail" title="销售情况(列表下拉详情)">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sellId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="销售情况id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sellBand" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="经销品牌" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="sellArea" fieldsize="SALE_AREA" fieldtype="2" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="经销区域" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sellWayclass" fieldsize="TRADE" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="经销行业" maxlength="5" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="5" fieldname="sellTerm" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="经销期限" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termUnit" fieldsize="TERM_TYPE" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="期限单位" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="dealerLevel" fieldsize="DEALER_LEVEL" fieldtype="2" formactiveid="9" horVer="1" labelalign="1" labelcol="2" labelname="经销商级别" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="annualSales" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="年均销售额(元)" maxlength="20" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="400" mustinput="0" row="5" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="sellId;" readonly="" row="1"/>
+</form>

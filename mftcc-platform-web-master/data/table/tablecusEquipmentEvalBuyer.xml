@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusEquipmentEvalBuyer" link="/mfCusEquipmentEvalBuyer/findByPage" para="eadis_page" title="设备评估-买家类型" type="1">
+<tableitem align="2" filedname="dealPrice" id="40" indexed="7" label="购买价格" row="1" type="12" width="17" widthType="0"/>
+<tableitem align="2" filedname="equipmentBrand" id="39" indexed="5" label="购买品牌" row="1" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="buyCnt" id="38" indexed="4" label="购买数量" row="1" type="0" width="18" widthType="0"/>
+<tableitem align="2" filedname="删除" id="37" indexed="42" label="-" row="1" type="5" typepara="/mfCusEquipmentEvalBuyer/deleteAjax;cusNo-cusNo;relNo-relNo;uuid-uuid;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" type="4" typepara="/mfCusEquipmentEvalBuyer/listShowDetailAjax;uuid-uuid;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusEquipmentEvalBuyer/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="dealTime" id="41" indexed="8" label="购买时间" row="1" type="1" width="14" widthType="0"/>
+</table>

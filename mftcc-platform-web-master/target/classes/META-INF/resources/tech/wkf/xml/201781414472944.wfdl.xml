@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process xmlns="http://www.dhcc.com/workflow/1.0/wfdl" key="201781414472944" name="资产保全审批" description="资产保全审批" author="" create="2018-11-22 14:08:42" expire="9999-12-30 00:00:00">
+    <approve viewhistory="Y" defaultRollbackNode=""/>
+    <start name="start" description="开始" g="107,153">
+        <transition id="flow7899938539" name="flow7899938539" description="业务流转" type="forward" from="start" to="node3383785611" g="{141,171},{401,171}:{0,0}"/>
+    </start>
+    <end name="end1124664213" description="结束" g="691,146"/>
+    <task name="node3383785611" description="初审" candidate-groups="A001" candidate-groups-desc="业务初审" app-type="role" candidate-level="self" is-assign-next="0" g="403,153">
+        <approve url="/mfAssetProtectRecord/getViewApprove?protectId=#{protectId}" couldRollback="N" time-type="" time-value="" viewhistory="Y" defaultRollbackNode=""/>
+        <copyto/>
+        <transition id="flow9179855813" name="flow9179855813" description="业务流转" type="forward" from="node3383785611" to="node4596463489" g="{437,171},{533,171}:{0,0}"/>
+    </task>
+    <task name="node4596463489" description="终审" candidate-groups="A003" candidate-groups-desc="总经理" app-type="role" candidate-level="self" is-assign-next="0" g="535,153">
+        <approve url="/mfAssetProtectRecord/getViewApprove?protectId=#{protectId}" couldRollback="Y" time-type="" time-value="" viewhistory="Y" defaultRollbackNode="node3383785611"/>
+        <copyto/>
+        <transition id="flow8693226183" name="flow8693226183" description="业务流转" type="forward" from="node4596463489" to="end1124664213" g="{569,167.5},{689,167.5}:{0,0}"/>
+    </task>
+</process>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cla0007" title="风险分类任务配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="序号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prodType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="业务种类" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="模型编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="6"/>
+</form>

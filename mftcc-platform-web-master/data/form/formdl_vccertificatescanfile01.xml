@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatescanfile01" title="合格证扫描件新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="合格证ID" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="经销商全称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="engineNo" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="发动机号" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="合格证序号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="单价" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement alt="请单击选择车架号" datatype="0" fieldalign="1" fieldcol="2" fieldname="vin" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="车架号" mustinput="1" onclick="VcCertificateScanfile_Insert.bindCertificate(this)" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GB2312"?><form id="pledgedetail0002" title="押品信息清单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="押品的唯一标示" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNoShow" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="押品名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relatePledgeNo" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="关联押品编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classNo" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="所属类别编号，可以通过选择的方式录入" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="className" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="所属类别名称" maxlength="100" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeSts" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="1 新登记、2 已引用。3  已入库 4 已出库、5押品处置" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delflag" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="该押品是否已经被删除（0：没有；1：有）" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addFlag" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="追加标志：0-不是追加的押品 1-追加的押品" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeAmount" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="押品数量" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="amountUnit" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="数量单位" maxlength="2" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="担保时实际价值=评估价值*抵质押率" maxlength="10" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="envalue" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="押品的首次评估价值" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="envalueDate" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="押品的最初评估日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="envalueCrop" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="评估公司" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belongRegister" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="0：否；1：是。" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="canExport" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="出库标志:0：否，1：是。" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exportDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="出库日期" maxlength="8" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disabledDate" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="押品的失效日期" maxlength="8" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="canImport" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="入库标志：0：否，1：是" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="importDate" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="入库日期" maxlength="8" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="65535" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="登记人名字" maxlength="40" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="2" labelname="登记日期" maxlength="8" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="押品所有者客户编号" maxlength="30" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="2" labelname="押品所有者客户名称" maxlength="100" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="项目名称" maxlength="200" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="envalueCropCode" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="2" labelname="评估公司组织机构代码" maxlength="50" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateNo" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="1" labelname="权属证书编号" maxlength="50" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNoGua" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="2" labelname="担保客户编号" maxlength="20" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameGua" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="1" labelname="担保客户姓名" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaAmt" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="担保金额" maxlength="20" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaRate" fieldtype="1" formactiveid="37" horVer="1" labelalign="1" labelcol="1" labelname="担保比例" maxlength="10" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeAddress" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="2" labelname="押品地点" maxlength="200" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ifWriteWarrant" fieldtype="1" formactiveid="39" horVer="1" labelalign="1" labelcol="1" labelname="是否可以录权证 0否 1是" maxlength="2" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="40" horVer="1" labelalign="1" labelcol="2" labelname="最后一次修改时间" maxlength="17" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="41" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="1" formactiveid="42" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="43" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="1" formactiveid="44" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="1" formactiveid="45" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext6" fieldtype="1" formactiveid="46" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="1" formactiveid="47" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext8" fieldtype="1" formactiveid="48" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="1" formactiveid="49" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext10" fieldtype="1" formactiveid="50" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="100" mustinput="0" row="49"/>
+</form>

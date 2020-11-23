@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcdealersupervisor_rel01" para="eadis_page" title="经销商监管员关系表" trClick=";onClick-Vcms.checkCurrentTr(this)" type="1">
+<tableitem align="2" filedname="supervisorIdNo" id="19" indexed="6" label="监管员身份证号" sortType="2" type="0" width="12" widthType="0"/>
+<tableitem align="1" filedname="supervisorBrName" id="21" indexed="8" label="监管员所属部门" mytitle="模板内容-supervisorBrName" row="1" sortType="2" type="3" typepara="12" width="14" widthType="0"/>
+<tableitem align="2" filedname="修改" id="18" indexed="20" label="-" row="1" sortType="2" type="5" typepara="/vcDealerSupervisorRel/getUpdatePage;relId-relId;onClick-VcDealerSupervisorRel_List.getUpdatePage;" widthType="0"/>
+<tableitem align="2" filedname="supervisorMobile" id="20" indexed="7" label="监管员手机号码" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="21" label="-" row="1" sortType="2" type="5" typepara="/vcDealerSupervisorRel/deleteAjax;relId-relId;onClick-VcDealerSupervisorRel_List.deleteDealerSupervisorRel(this)" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="8" indexed="11" label="登记人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="isEnabled" id="6" indexed="9" label="启用" row="1" sortType="2" type="4" typepara="/vcDealerSupervisorRel/updateIsEnabledAjax;relId-relId;" width="8" widthType="0"/>
+<tableitem align="2" filedname="supervisorOpName" id="5" indexed="5" label="监管员" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="3" indexed="3" label="经销商全称" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="16" width="18" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="11" indexed="14" label="登记时间" row="1" sortType="1" type="30" width="12" widthType="0"/>
+<tableitem align="2" filedname="relId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="relId-relId;" width="4" widthType="0"/>
+</table>

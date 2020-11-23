@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusgroup0002" title="集团客户">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="groupNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="集团编号唯一编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="groupName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="集团名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="机构代码类型" maxlength="2" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="集团代码" maxlength="30" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="setupDate" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="成立日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="regFund" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="注册资金" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regAddr" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="注册地址" maxlength="200" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="phone" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="联系电话 固话" maxlength="20" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mainOper" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="主营业务" maxlength="200" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="groupInfo" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="集团概况" maxlength="200" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="删除标识 0未删除1删除" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="联系人" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactsTel" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="联系电话" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uplncardno" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="贷款卡编码" maxlength="16" mustinput="" readonly="" row="7" rowspan="2"/>
+</form>

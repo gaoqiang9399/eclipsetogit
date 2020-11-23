@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="rec0009" title="人工催收任务表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="99" fieldwidth="30" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="业务流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recallSts" fieldsize="RECALL_STS" fieldtype="99" formactiveid="51" horVer="0" labelalign="3" labelcol="1" labelname="状态" mustinput="" readonly="" row="28" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="conNo" fieldtype="99" formactiveid="52" horVer="0" labelalign="3" labelcol="5" labelname="合同号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appName" fieldtype="99" formactiveid="53" horVer="0" labelalign="3" labelcol="5" labelname="项目名称" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusName" fieldtype="99" formactiveid="54" horVer="0" labelalign="3" labelcol="5" labelname="客户名称" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="55" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusContactName" fieldtype="99" formactiveid="56" horVer="0" labelalign="3" labelcol="5" labelname="联系人" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusTel" fieldtype="99" formactiveid="57" horVer="0" labelalign="3" labelcol="5" labelname="联系电话" mustinput="" readonly="1" row="5" />
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="recallUnpayAmt1" fieldtype="99" formactiveid="58" horVer="0" labelalign="3" labelcol="5" labelname="应还本金" mustinput="" readonly="1" row="6" />
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="recallUnpayAmt2" fieldtype="99" formactiveid="59" horVer="0" labelalign="3" labelcol="5" labelname="应还利息" mustinput="" readonly="1" row="7" />
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="brcContAmt" fieldtype="99" formactiveid="60" horVer="0" labelalign="3" labelcol="5" labelname="违约金" mustinput="" readonly="1" row="8" />
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="recallAmt" fieldtype="99" formactiveid="61" horVer="0" labelalign="3" labelcol="5" labelname="催收总金额" mustinput="" readonly="1" row="9" />
+<formelement alt="请输入开始日期" datatype="6" fieldalign="1" fieldcol="2" fieldname="recallDate" fieldtype="1" formactiveid="62" horVer="0" labelalign="3" labelcol="1" labelname="计划开始日期" labelstyle="startRang" mustinput="1" onclick="fPopUpCalendarDlg({min: today})" readonly="1" row="1" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,today);'&gt;&lt;/i&gt;"/>
+<formelement alt="请输入开始日期" datatype="6" fieldalign="1" fieldcol="4" fieldname="recallEndDate" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="3" labelname="计划结束日期" labelstyle="startRang" mustinput="1" onclick="fPopUpCalendarDlg({min: today})" readonly="1" row="1" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recallWay" fieldsize="RECALL_WAY" fieldtype="3" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="催收方式" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="mgrName" fieldtype="1" formactiveid="65" horVer="0" labelalign="3" labelcol="1" labelname="催收人" mustinput="1" onclick="bindDataSource(this,'1','mgrNo','选择催收人员',true)" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recallDesc" fieldtype="5" formactiveid="66" horVer="0" labelalign="3" labelcol="1" labelname="催收描述" maxlength="500" mustinput="1" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="mgrNo" fieldtype="99" formactiveid="67" horVer="0" labelalign="3" labelcol="5" labelname="催收人号" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincShowId" fieldtype="99" formactiveid="68" horVer="0" labelalign="3" labelcol="5" labelname="借据展示号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="69" horVer="0" labelalign="3" labelcol="5" labelname="借据号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="70" horVer="0" labelalign="3" labelcol="5" labelname="合同编号" mustinput="" readonly="" row="1"/>
+</form>

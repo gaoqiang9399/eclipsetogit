@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busInterGuaranUseListBase" link="/mfBusInterGuaranUse/findByPage" para="eadis_page" title="预收利担费使用记录表" type="1">
+<tableitem align="2" filedname="fincNo" id="6" indexed="6" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名" row="1" type="0"/>
+<tableitem align="2" filedname="realDate" id="11" indexed="11" label="实收日期" row="1" type="0"/>
+<tableitem align="2" filedname="realGuarantee" id="10" indexed="10" label="实收确认担保费" row="1" type="0"/>
+<tableitem align="2" filedname="realInterest" id="9" indexed="9" label="实收确认利息" row="1" type="0"/>
+<tableitem align="2" filedname="pactNo" id="8" indexed="8" label="合同号" row="1" type="0" widthType="0"/>
+</table>

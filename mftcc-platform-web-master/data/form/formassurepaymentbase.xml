@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="assurepaymentbase" title="担保代偿新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paymentId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="担保方编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="担保方名称" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户号（债务人）" maxlength="50" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="客户名称（债务人）" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="prcpAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="代偿本金" maxlength="20" mustinput="0" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="intstAmt" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="代偿正常利息" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="overdueIntst" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="代偿逾期利息" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="compoundIntst" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="代偿复利利息" maxlength="20" mustinput="0" row="15"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="intstSum" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="代偿利息合计" maxlength="20" mustinput="0" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr501" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr502" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr503" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr504" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr505" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="预留短文本" maxlength="50" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1001" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1002" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr1003" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="预留常规字段" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extStr2001" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="预留较长文本字段" maxlength="200" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic1" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDic2" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="预留数据字典型" maxlength="2" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble21" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extDouble22" fieldtype="99" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="预留数值型_2" maxlength="16" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt1" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt2" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="预留整数型" mustinput="0" row="59"/>
+</form>

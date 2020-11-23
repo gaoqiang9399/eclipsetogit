@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="sys5003_lf" title="临汾小贷分单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="2" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nextOpNo" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="下一岗位" maxlength="120" mustinput="1" readonly="" row="3" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="分单人员姓名" mustinput="" readonly="" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="申请号" mustinput="" readonly="" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="部门编号" mustinput="" readonly="" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="" readonly="1" row="3" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngNo" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="客户经理编号" mustinput="" readonly="" row="3" writeAuth="0"/>
+<formelement alt="请输入备注，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="4" writeAuth="0"/>
+</form>

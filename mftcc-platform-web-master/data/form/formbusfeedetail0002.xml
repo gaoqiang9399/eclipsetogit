@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312"?><form id="busfeedetail0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="申请id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="合同id" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNo" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="费用项编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="费用项名称" maxlength="50" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeType" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="1：百分比； 2：固额；" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateScale" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="固额值或百分比值" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeNode" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="收取节点 1合同签订2应收账款转让3应收账款还款4融资款放款5融资款还款" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="standard" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="基准类型 1应收账款总额2转让应收账款金额3应收账款还款金额4融资款放款金额5融资款还款金额" maxlength="2" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="预留字段客户类型  1：买方  2：卖方" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeType" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="收费方式： 0：一次性 1：分期 2：按次" maxlength="1" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="shouldFee" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="应收金额" maxlength="20" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realFee" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="实收金额" maxlength="20" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reviewDate" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="复核人员" maxlength="8" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNoReg" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="登记人" maxlength="22" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNameReg" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="40" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNoReivew" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="复核人" maxlength="22" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNameReview" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="40" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="45"/>
+</form>

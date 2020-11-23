@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusPublicVoiceList" link="/mfCusPublicVoice/findByPage" para="eadis_page" title="舆情" type="1">
+<tableitem align="2" filedname="删除" id="38" indexed="38" label="-" row="1" type="5" typepara="/mfCusPublicVoice/deleteAjax.action;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+<tableitem align="2" filedname="inquirer" id="37" indexed="29" label="调查人" row="1" type="0"/>
+<tableitem align="2" filedname="paymentDays" id="35" indexed="30" label="账期" row="1" type="0"/>
+<tableitem align="2" filedname="surveyData" id="28" indexed="28" label="调查时间" row="1" type="4" typepara="/mfCusPublicVoice/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusPublicVoice/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+</table>

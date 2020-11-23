@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="requestpayoutdetaillist" link="/mfRequestPayoutDetail/findByPage" para="eadis_page" title="请款申请明细表" type="1">
+<tableitem align="2" filedname="collectRemark" id="9" indexed="9" label="收款方说明" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" authority="requestState-1;requestState-2;requestState-3;requestState-4;requestState-5" fieldStyle="btnshow" filedname="编辑" id="17" indexed="11" label="-" type="5" typepara="/mfRequestPayoutBill/inputDetail;requestId-requestId;id-id;onClick-mfRequestPayoutDetail.fundsadd;" width="5" widthType="0"/>
+<tableitem align="2" filedname="collectAccNo" id="8" indexed="8" label="收款账号" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="requestState-1;requestState-2;requestState-3;requestState-4;requestState-5" fieldStyle="btnshow" filedname="删除" id="16" indexed="12" label="-" row="1" type="5" typepara="/mfRequestPayoutBill/deleteDetailAjax;requestId-requestId;id-id;onClick-mfRequestPayoutDetail.fundsdelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="collectBank" id="7" indexed="7" label="收款开户行" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="collectAccName" id="6" indexed="6" label="收款账号名称" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="costAmount" id="5" indexed="4" label="费用金额" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="costName" id="4" indexed="3" label="费用名称" row="1" type="0" typepara="/mfOaArchivesFamily/input;baseId-baseId;familyId-familyId;onClick-OaArchivesDetail.familyadd;" width="10" widthType="0"/>
+<tableitem align="2" filedname="collectType" id="3" indexed="5" label="收款类型" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="remark" id="10" indexed="10" label="备注" row="1" type="0" width="15" widthType="0"/>
+</table>

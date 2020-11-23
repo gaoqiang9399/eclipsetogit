@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pssotherrecbill0002" title="其他收入单表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherRecId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="其他收入单据ID" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="otherRecNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="其他收入单据编号" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="客户ID" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="3" fieldcol="4" fieldname="recAmt" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="收款金额" maxlength="18" mustinput="0" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="clearanceAccountName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="结算账户名称" maxlength="80" mustinput="0" param2="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="printTimes" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="打印次数" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditSts" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="审核状态" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="制单人编号" maxlength="40" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOpName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="制单人名称" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="制单人机构编号" maxlength="40" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regBrName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="制单人机构名称" maxlength="80" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="制单时间" maxlength="17" mustinput="0" param2="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditOpNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="审核人编号" maxlength="40" mustinput="0" param2="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditOpName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="审核人名称" maxlength="80" mustinput="0" param2="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditBrNo" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="审核人机构编号" maxlength="40" mustinput="0" param2="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditBrName" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="审核人机构名称" maxlength="80" mustinput="0" param2="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditTime" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="审核时间" maxlength="17" mustinput="0" param2="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="最后修改人编号" maxlength="40" mustinput="0" param2="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModOpName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="最后修改人名称" maxlength="80" mustinput="0" param2="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModBrNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="最后修改人机构编号" maxlength="40" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModBrName" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="最后修改人机构名称" maxlength="80" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" param2="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="clearanceAccountId" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="结算账户" maxlength="40" mustinput="1" readonly="" row="1"/>
+</form>

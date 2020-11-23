@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="accntRepayDetailList" para="eadis_page" title="账款详情下的买方还款及解付历史" type="1">
+<tableitem align="2" filedname="optType" id="6" indexed="6" label="操作类型" row="1" sortType="1" type="6" typepara="ACCNT_OPT_TYPE" width="15" widthType="0"/>
+<tableitem align="2" filedname="accntBal" id="5" indexed="5" label="转让金额" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="returnAccntAmt" id="4" indexed="4" label="还款/解付金额" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="3" indexed="3" label="还款日期" row="1" sortType="2" type="1" width="15" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="还款/解付方" sortType="2" type="4" typepara="mfBusReceBaseInfo/listShowDetailAjaxForRepay;repayDetailId-repayDetailId;oneUrl-'/mfCusBankAccManage/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="16" widthType="0"/>
+</table>

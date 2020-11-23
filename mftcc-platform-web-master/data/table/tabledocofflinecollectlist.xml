@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="docofflinecollectlist" link="/docOfflineCollect/findByPage" para="eadis_page" title="要件线下收集情况表" type="1">
+<tableitem align="2" filedname="docTypeName" id="6" indexed="4" label="文档分类名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docType" id="4" indexed="2" label="文档分类" row="1" type="6" typepara="DOC_TYPE" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="3" indexed="1" label="文档名称" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="id" id="2" indexed="0" label="选择" row="1" type="2" widthType="0"/>
+<tableitem align="2" filedname="docType" id="10" indexed="3" label="分类" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="9" indexed="7" label="文档名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docSplitNo" id="8" indexed="6" label="文档编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="scNo" id="7" indexed="8" label="场景编号" row="1" type="99" widthType="0"/>
+</table>

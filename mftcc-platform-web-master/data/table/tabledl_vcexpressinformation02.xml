@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcexpressinformation02" para="eadis_page" title="快递信息列表（导入页面）" type="2">
+<tableitem align="2" filedname="outStorageDate" id="5" indexed="5" label="出库日期" row="1" sortType="2" type="1" width="9" widthType="0"/>
+<tableitem align="2" filedname="expressCompany" id="4" indexed="4" label="快递公司" row="1" sortType="2" type="6" typepara="VC_EXPRESS_COMPANY" width="10" widthType="0"/>
+<tableitem align="1" filedname="receivingCompany" id="3" indexed="3" label="收方公司" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="expressNo" id="2" indexed="2" label="运单号" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="expressId" id="1" indexed="1" label="ID" row="1" sortType="2" type="99" width="4" widthType="0"/>
+</table>

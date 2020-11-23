@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+input:disabled{
+	background-color: #ffffff;
+	box-shadow: unset;
+}
+
+.sys-user-body {
+	margin: 0px 0px;
+	position: fixed;
+	top: 0px;
+	right: -1000px;
+	z-index: 1000;
+	height: 100%;
+	background-color: #fff;
+	display: block;
+	padding: 0px 25px;
+	box-shadow: -4px 0px 6px rgba(100, 100, 100, 0.4);
+}
+
+.sys-user-model {
+	/* display: block;
+	width: 100%;
+	margin: 0px auto;
+	background-color: #ffffff;
+	height: 100%; */
+}
+
+.sys-user-label {
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 30px;
+}
+
+.sys-user-label .fa-remove {
+	position: absolute;
+	right: 10px;
+	top: 13px;
+	color: #ddd;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari �� Chrome */
+	-o-transition: all 1s;
+}
+.sys-user-label .fa-remove:HOVER{
+	color:#000000;
+}
+.sys-user-label .i-x5 {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size:20px;
+	cursor:pointer;
+	color: #C6C7CA;
+	transition: all 1s;
+	-moz-transition: all 1s;	/* Firefox 4 */
+	-webkit-transition: all 1s;	/* Safari �� Chrome */
+	-o-transition: all 1s;
+}
+.sys-user-label .i-x5:HOVER{
+	color:#777175;
+}
+
+.sys-user-edit {
+	height: 100%;
+}
+
+.sys-user-edit table {
+	font-size: 12px;
+	width: 100%;
+	height: calc(100% - 75px);
+	padding: 0px;
+	margin: 15px 0px;
+}
+
+.sys-user-edit  table tr {
+	line-height: 16px;
+	vertical-align: top;
+}
+
+.sys-user-edit  table tr td:nth-child(2n+1) {
+	width: 85px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.sys-user-edit  table tr td:nth-child(2n) {
+	width: 172px;
+	vertical-align: middle;
+}
+
+.sys-user-edit  table input {
+	border: 1px solid #DDDDDD;
+	width: 150px;
+	height: 24px;
+	padding: 0px 8px;
+}
+
+.sys-user-edit .sys-user-save {
+	margin: 0px 20px;
+	background-color: #32b5cb;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	border-radius: 0px;
+	border: none;
+	height: 30px;
+	width: 80px;
+	float: left;
+}
+
+.sys-user-edit .sys-user-save:hover {
+	background-color: #009db7;
+}
+
+.sys-user-edit .sys-user-roles {
+	
+}
+
+#userOrg {
+	width: 150px;
+}
+
+#userSts {
+	width: 150px;
+}
+#userSex{
+	width: 150px;
+}
+
+.sys-user-edit .select3-single-select {
+	border: 1px solid #ddd;
+	padding: 0px;
+	height: 24px;
+}
+.sys-user-edit .select3-single-select:hover {
+	background-color: #00AAF1;
+}
+
+.sys-user-edit .select3-single-result-container {
+	top: 4px;
+}
+
+.sys-user-edit .select3-caret {
+	top: 5px;
+}
+
+.sys-user-dropdown .select3-error,.select3-loading,.select3-search-input-container,.select3-result-label
+	{
+	padding: 2px;
+}
+
+.sys-user-dropdown .select3-load-more,.select3-result-item {
+	padding: 4px 10px;
+	font-size: 12px;
+	color: #545668;
+}
+
+#userRole {
+	min-width: 150px;
+	max-width: 405px;
+	min-height: 24px;
+}
+
+#userRole .select3-multiple-input-container {
+	min-height: 22px;
+	max-height: calc(10em + 4px);
+	padding: 0px;
+	min-width: 132px;
+	max-width: 450px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+#userRole .select3-multiple-selected-item-remove{
+	padding: 0px;
+}
+#userRole .select3-multiple-input-container:hover {
+	background: #eee;
+}
+
+#userRole .select3-multiple-input,input.select3-multiple-input[type="text"]
+	{
+	font-size: 12px;
+}
+
+#userRole .select3-multiple-selected-item {
+	background: #32b5cb;
+	padding: 0px 5px;
+}
+
+#lastModDate{
+	border: none;
+}
+#pwdInvalDate{
+	border: none;
+}

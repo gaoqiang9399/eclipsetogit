@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="hzey0002" link="/mfAppGiveCreditline/findByPage" para="eadis_page" title="额度提升表" type="1">
+<tableitem align="2" authority="flag-2;flag-3;flag-4;flag-5" filedname="提交" id="15" indexed="11" label="-" row="1" type="5" typepara="/mfAppGiveCreditline/submitAjax;id-id;onClick-mfAppGiveCreditline.ajaxSubmit(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="16" label="-" row="1" type="5" typepara="/mfAppGiveCreditline/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+<tableitem align="2" filedname="giveAmt" id="5" indexed="6" label="提额金额（元）" row="1" type="0"/>
+<tableitem align="2" filedname="giveType" id="4" indexed="4" label="提额类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;onClick-getDetailCus(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="createTime" id="9" indexed="9" label="创建时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="flagShow" id="8" indexed="9" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="flag" id="16" indexed="10" label="状态隐藏" row="1" type="99" widthType="0"/>
+</table>

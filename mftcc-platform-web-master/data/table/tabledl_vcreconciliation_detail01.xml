@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcreconciliation_detail01" para="eadis_page" title="对账信息明细表" type="2">
+<tableitem align="2" filedname="reconciliationDate" id="5" indexed="3" label="对账日期" row="1" sortType="1" type="1" width="7" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="3" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="7" width="9" widthType="0"/>
+<tableitem align="2" filedname="base" id="4" indexed="5" label="基地" row="1" sortType="1" type="6" typepara="VC_BASE" width="5" widthType="0"/>
+<tableitem align="2" filedname="reconciliationMode" id="6" indexed="6" label="方式" row="1" sortType="1" type="6" typepara="VC_RECONCILIATION_MODE" width="5" widthType="0"/>
+<tableitem align="3" filedname="loanBalance" id="8" indexed="7" label="贷款余额" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="3" filedname="instockAmt" id="9" indexed="8" label="在库合格证" row="1" sortType="1" type="12" width="9" widthType="0"/>
+<tableitem align="3" filedname="notInstockAmt" id="10" indexed="9" label="未入库合格证" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="3" filedname="deductAuditAmt" id="11" indexed="10" label="扣款审核" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="3" filedname="freezeAmt" id="12" indexed="11" label="冻结金额" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="3" filedname="availableBalance" id="13" indexed="12" label="可用余额" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="3" filedname="paidNotAuditAmt" id="14" indexed="13" label="已付未审" row="1" sortType="1" type="12" width="7" widthType="0"/>
+<tableitem align="3" filedname="difference" id="20" indexed="14" label="差额" row="1" sortType="1" type="12" width="6" widthType="0"/>
+<tableitem align="2" filedname="status" id="7" indexed="15" label="状态" row="1" sortType="1" type="6" typepara="VC_RECONCILIATION_STATUS" width="5" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="16" indexed="17" label="登记人" mytitle="模板内容-regOpName" row="1" sortType="1" type="3" typepara="4" width="6" widthType="0"/>
+</table>

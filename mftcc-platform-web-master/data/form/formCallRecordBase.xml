@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="CallRecordBase" title="通话记录表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callRecordId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="通话记录id" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="1" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusTel" fieldtype="1" maxlength="20" formactiveid="4" labelalign="1" labelcol="1" labelname="手机号码" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callType" fieldtype="1" maxlength="1" formactiveid="5" labelalign="1" labelcol="1" labelname="通话类型：1-呼入；2-呼出；" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callPersonnel" fieldtype="1" maxlength="30" formactiveid="6" labelalign="1" labelcol="1" labelname="通话人员" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callPersonnelNo" fieldtype="1" maxlength="30" formactiveid="7" labelalign="1" labelcol="1" labelname="通话人员编号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callPersonnelExtension" fieldtype="1" maxlength="30" formactiveid="8" labelalign="1" labelcol="1" labelname="通话人员分机" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callPurpose" fieldtype="1" maxlength="1" formactiveid="9" labelalign="1" labelcol="1" labelname="通话类型：1-咨询；2-风控；3-催收；" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callDate" fieldtype="1" maxlength="8" formactiveid="10" labelalign="1" labelcol="1" labelname="通话日期" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callTime" fieldtype="1" maxlength="8" formactiveid="11" labelalign="1" labelcol="1" labelname="通话时间" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callDuration" fieldtype="1" maxlength="8" formactiveid="12" labelalign="1" labelcol="1" labelname="通话时长" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callSts" fieldtype="1" maxlength="1" formactiveid="13" labelalign="1" labelcol="1" labelname="通话状态：1-正常；2-未接听；" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callRemark" fieldtype="1" maxlength="200" formactiveid="14" labelalign="1" labelcol="1" labelname="备注" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callRecordUrl" fieldtype="1" maxlength="200" formactiveid="15" labelalign="1" labelcol="1" labelname="录音地址" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="callLocation" fieldtype="1" maxlength="200" formactiveid="16" labelalign="1" labelcol="1" labelname="通话所在地" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ifRegisterCus" fieldtype="1" maxlength="1" formactiveid="17" labelalign="1" labelcol="1" labelname="是否注册客户：1-是；0-否；" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="30" formactiveid="18" labelalign="1" labelcol="1" labelname="操作员" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="30" formactiveid="19" labelalign="1" labelcol="1" labelname="操作员姓名" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="20" labelalign="1" labelcol="1" labelname="创建时间" mustinput="0" row="37"/>
+</form>

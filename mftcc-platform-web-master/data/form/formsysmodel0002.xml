@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sysmodel0002" title="模板表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="模板编号" maxlength="5" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNameZh" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="模板中文名" maxlength="50" mustinput="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNameEn" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="模板英文名" maxlength="20" mustinput="1" row="2" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createTime" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="创建时间" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modifyTime" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="修改时间" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="modelTypeName" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="模板类型" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="删除标志" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelType" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="模板类型" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelTypeFlag" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="二级分类标示" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="是否启用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="systemFlag" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="系统标示" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cellAddr" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="标签位置" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upload" fieldtype="9" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="上传模板" mustinput="0" onchange="checkFileEnd()" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="uploadFileName" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="输入框" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="primaryKey" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="输入框" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="filePath" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="模板保存路径" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="formNote" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="上传节点" mustinput="" readonly="" row="5" />
+</form>

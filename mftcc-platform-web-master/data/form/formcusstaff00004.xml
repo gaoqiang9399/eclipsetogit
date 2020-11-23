@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusstaff00004" title="员工信息（详情页面 修改横向）">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="staffSum" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="员工总数" mustinput="" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange25" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="25岁以下" maxlength="10" mustinput="1" param="&gt;0" readonly="" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange30" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="25-30岁" maxlength="10" mustinput="1" readonly="" row="2" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange45" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="30-45岁" maxlength="10" mustinput="1" readonly="" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange45Up" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="45岁以上" maxlength="10" mustinput="1" readonly="" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="bachelorDegree" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="本科以上含本科" maxlength="10" mustinput="1" readonly="" row="5" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="juniorDegree" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="大专学历" maxlength="10" mustinput="1" readonly="" row="6" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="seniorDegree" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="高中和中专学历" maxlength="10" mustinput="1" readonly="" row="7" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="otherDegree" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="其他" maxlength="10" mustinput="1" readonly="" row="8" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="9"/>
+</form>

@@ -1,0 +1,35 @@
+{
+	"Result" : {
+		"Node" : [
+ 			{ "Category" : 1,"id":1, "pId":0, "name":"父节点1"},
+ 			{ "Category" : 2,"id":11, "pId":1, "name":"父节点11","open":true},
+ 			{ "Category" : 2,"id":111, "pId":11, "name":"叶子节点111"},
+ 			{ "Category" : 2,"id":112, "pId":11, "name":"叶子节点112"},
+ 			{ "Category" : 2,"id":113, "pId":11, "name":"叶子节点113"},
+ 			{ "Category" : 2,"id":114, "pId":11, "name":"叶子节点114"},
+ 			{ "Category" : 3,"id":12, "pId":1, "name":"父节点12"},
+ 			{ "Category" : 3,"id":121, "pId":12, "name":"叶子节点121"},
+ 			{ "Category" : 3,"id":122, "pId":12, "name":"叶子节点122"},
+ 			{ "Category" : 3,"id":123, "pId":12, "name":"叶子节点123"},
+ 			{ "Category" : 3,"id":124, "pId":12, "name":"叶子节点124"},
+ 			{ "Category" : 4,"id":13, "pId":1, "name":"父节点13"},
+ 			{ "Category" : 5,"id":21, "pId":1, "name":"父节点21"},
+ 			{ "Category" : 5,"id":211, "pId":21, "name":"叶子节点211"},
+ 			{ "Category" : 5,"id":212, "pId":21, "name":"叶子节点212"},
+ 			{ "Category" : 5,"id":213, "pId":21, "name":"叶子节点213"},
+ 			{ "Category" : 5,"id":214, "pId":21, "name":"叶子节点214"},
+ 			{ "Category" : 6,"id":22, "pId":1, "name":"父节点22"},
+ 			{ "Category" : 6,"id":221, "pId":22, "name":"叶子节点221"},
+ 			{ "Category" : 6,"id":222, "pId":22, "name":"叶子节点222"},
+ 			{ "Category" : 6,"id":223, "pId":22, "name":"叶子节点223"},
+ 			{ "Category" : 6,"id":224, "pId":22, "name":"叶子节点224"},
+ 			{ "Category" : 7,"id":23, "pId":1, "name":"父节点23"},
+ 			{ "Category" : 8,"id":231, "pId":23, "name":"叶子节点231"},
+ 			{ "Category" : 8,"id":232, "pId":23, "name":"叶子节点232"},
+ 			{ "Category" : 8,"id":233, "pId":23, "name":"叶子节点233"},
+ 			{ "Category" : 8,"id":234, "pId":23, "name":"叶子节点234"}
+ 		]
+	},
+	"Status" : 200,
+	"Message" : null
+}

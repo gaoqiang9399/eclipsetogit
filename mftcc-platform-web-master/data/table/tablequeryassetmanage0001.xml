@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryassetmanage0001" para="eadis_page" title="资产管理信息表" type="1">
+<tableitem align="2" filedname="cusNo" id="28" indexed="4" label="客户编号" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="assetId" id="27" indexed="3" label="申请编号" row="1" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="applyStatus" id="26" indexed="33" label="申请状态（数字）" type="99" width="5" widthType="0"/>
+<tableitem align="2" filedname="sts" id="25" indexed="32" label="申请状态" row="1" sortType="2" type="4" typepara="/mfAssetManage/showInfo;applyStatus-applyStatus;assetId-assetId;onClick-thisShowById" width="10" widthType="0"/>
+<tableitem align="3" filedname="loanBalance" id="24" indexed="8" label="贷款余额（元）" row="1" type="12" width="10" widthType="0"/>
+<tableitem align="3" filedname="penaltyAmount" id="23" indexed="13" label="罚息金额（元）" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="22" indexed="23" label="申请日期" row="1" sortType="2" type="1" width="10" widthType="0"/>
+<tableitem align="3" filedname="overduePrincipal" id="5" indexed="9" label="逾期本金（元）" row="1" sortType="1" type="12" typepara="/mfPactFiveclass/fiveclassView;fiveclassId-fiveclassId;pactId-pactId;onclick-fiveclassView(this);" width="10" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="5" label="客户名称" mytitle="客户名-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-12;" width="10" widthType="0"/>
+<tableitem align="2" filedname="loanNum" id="2" indexed="7" label="贷款笔数" mytitle="项目名称-appName;" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="3" filedname="overdueInterest" id="11" indexed="10" label="逾期利息（元）" row="1" sortType="1" type="12" typepara="CLASS_METHOD" width="10" widthType="0"/>
+<tableitem align="2" filedname="proposer" id="10" indexed="21" label="申请人" row="1" sortType="2" type="1" width="10" widthType="0"/>
+</table>

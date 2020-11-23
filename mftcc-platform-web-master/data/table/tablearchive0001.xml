@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="archive0001" para="eadis_page" link="/mfOaArchivesBase/findByPage" title="OA人事档案基本信息表" type="1">
+<tableitem align="2" filedname="opNo" id="1" indexed="1" label="员工编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="2" indexed="2" label="姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="3" indexed="3" label="部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="4" indexed="4" label="部门名称" row="1" type="0" />
+<tableitem align="2" filedname="opSts" id="5" indexed="5" label="在职状态" row="1" type="0" />
+<tableitem align="2" filedname="position" id="6" indexed="6" label="职级（经理，主任等）" row="1" type="0" />
+<tableitem align="2" filedname="registerName" id="7" indexed="7" label="登记此员工信息的管理员" row="1" type="0" />
+<tableitem align="2" filedname="registerNo" id="8" indexed="8" label="添加此人员操作员编号" row="1" type="0" />
+<tableitem align="2" filedname="birthday" id="9" indexed="9" label="出生日期" row="1" type="0" />
+<tableitem align="2" filedname="healthSts" id="10" indexed="10" label="身体状况（数据字典）" row="1" type="0" />
+<tableitem align="2" filedname="marriageSts" id="11" indexed="11" label="婚姻状态" row="1" type="0" />
+<tableitem align="2" filedname="sex" id="12" indexed="12" label="性别" row="1" type="0" />
+<tableitem align="2" filedname="nation" id="13" indexed="13" label="民族" row="1" type="0" />
+<tableitem align="2" filedname="englishName" id="14" indexed="14" label="英文名" row="1" type="0" />
+<tableitem align="2" filedname="nativePlace" id="15" indexed="15" label="籍贯" row="1" type="0" />
+<tableitem align="2" filedname="jobTitle" id="16" indexed="16" label="职称" row="1" type="0" />
+<tableitem align="2" filedname="ifParty" id="17" indexed="17" label="政治面貌(团员党员群众)" row="1" type="0" />
+<tableitem align="2" filedname="workDate" id="18" indexed="18" label="参加工作时间" row="1" type="0" />
+<tableitem align="2" filedname="education" id="19" indexed="19" label="文化程度" row="1" type="0" />
+<tableitem align="2" filedname="registeredAddr" id="20" indexed="20" label="户口地址" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="21" indexed="21" label="身份证号" row="1" type="0" />
+<tableitem align="2" filedname="socialSecurity" id="22" indexed="22" label="是否交过社保" row="1" type="0" />
+<tableitem align="2" filedname="homeTel" id="23" indexed="23" label="家庭电话" row="1" type="0" />
+<tableitem align="2" filedname="tel" id="24" indexed="24" label="手机" row="1" type="0" />
+<tableitem align="2" filedname="insuranceAddr" id="25" indexed="25" label="保险所在地" row="1" type="0" />
+<tableitem align="2" filedname="archiveAddr" id="26" indexed="26" label="档案所在地" row="1" type="0" />
+<tableitem align="2" filedname="workCartificate" id="27" indexed="27" label="是否有就业证" row="1" type="0" />
+<tableitem align="2" filedname="liveCartificate" id="28" indexed="28" label="是否有居住证" row="1" type="0" />
+<tableitem align="2" filedname="emergencyContacts" id="29" indexed="29" label="紧急联系人" row="1" type="0" />
+<tableitem align="2" filedname="emergencyContactsPlane" id="30" indexed="30" label="紧急联系人电话" row="1" type="0" />
+<tableitem align="2" filedname="emergencyContactsTel" id="31" indexed="31" label="紧急联系人手机" row="1" type="0" />
+<tableitem align="2" filedname="hireDate" id="32" indexed="32" label="入职时间" row="1" type="0" />
+<tableitem align="2" filedname="inseranceFund" id="33" indexed="33" label="是否缴纳五险一金" row="1" type="0" />
+<tableitem align="2" filedname="liveCondition" id="34" indexed="34" label="目前居住情况" row="1" type="0" />
+<tableitem align="2" filedname="addr" id="35" indexed="35" label="地址" row="1" type="0" />
+<tableitem align="2" filedname="nowSalary" id="36" indexed="36" label="目前薪水" row="1" type="0" />
+<tableitem align="2" filedname="updalaryDate" id="37" indexed="37" label="上次调薪时间" row="1" type="0" />
+<tableitem align="2" filedname="localPurchase" id="38" indexed="38" label="是否有意在本地买房" row="1" type="0" />
+<tableitem align="2" filedname="houseAddr" id="39" indexed="39" label="地址" row="1" type="0" />
+<tableitem align="2" filedname="single" id="40" indexed="40" label="是否单身" row="1" type="0" />
+<tableitem align="2" filedname="loverName" id="41" indexed="41" label="恋人姓名" row="1" type="0" />
+<tableitem align="2" filedname="loverIncome" id="42" indexed="42" label="恋人收入" row="1" type="0" />
+<tableitem align="2" filedname="loverAddr" id="43" indexed="43" label="恋人地址" row="1" type="0" />
+<tableitem align="2" filedname="loverRemark" id="44" indexed="44" label="恋人备注" row="1" type="0" />
+<tableitem align="2" filedname="fatherCondition" id="45" indexed="45" label="父亲情况" row="1" type="0" />
+<tableitem align="2" filedname="motherCondition" id="46" indexed="46" label="母亲情况" row="1" type="0" />
+<tableitem align="2" filedname="homeCondition" id="47" indexed="47" label="家庭情况" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="48" indexed="48" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="49" indexed="49" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="50" indexed="50" label="最后一次修改时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="52" indexed="52" label="-" row="1" type="5" typepara="/mfOaArchivesBase/deleteAjax;opNo-opNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

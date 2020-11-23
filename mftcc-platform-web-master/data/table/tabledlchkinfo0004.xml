@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlchkinfo0004" para="eadis_page" title="押品检查" trDbClick="ChkInfoAction_getById.action;chkId-chkId;onDbClick-getCollateralInfoById(this);" type="5">
+<tableitem align="2" filedname="chkType" id="6" indexed="6" label="检查方式" row="1" type="6" typepara="CHK_TYPE" widthType="0"/>
+<tableitem align="2" filedname="regCusName" id="4" indexed="8" label="登记人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="chkDate" id="2" indexed="4" label="检查时间" type="4" typepara="/chkInfo/listShowDetailAjax;chkId-chkId;oneUrl-'/chkInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="pledgeSts" id="7" indexed="7" label="押品状态" row="1" type="6" typepara="PLEDGE_STS" widthType="0"/>
+</table>

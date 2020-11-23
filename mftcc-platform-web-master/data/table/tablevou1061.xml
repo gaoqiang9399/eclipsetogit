@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1061" para="eadis_page" link="/grtPFinancing/findByPage" title="201.本外币理财产品收益权 GRT_P_FINANCING" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPFinancing/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="cusType" id="2" indexed="2" label="客户类型" row="1" type="0" />
+<tableitem align="2" filedname="conNo" id="3" indexed="3" label="协议编号" row="1" type="0" />
+<tableitem align="2" filedname="prdType" id="4" indexed="4" label="产品种类" row="1" type="0" />
+<tableitem align="2" filedname="investorName" id="5" indexed="5" label="投资者名称" row="1" type="0" />
+<tableitem align="2" filedname="account" id="6" indexed="6" label="帐号" row="1" type="0" />
+<tableitem align="2" filedname="idNo" id="8" indexed="8" label="证件号码" row="1" type="0" />
+<tableitem align="2" filedname="startDate" id="9" indexed="9" label="理财起始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="10" indexed="10" label="理财到期日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="15" indexed="15" label="-" row="1" type="5" typepara="/grtPFinancing/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

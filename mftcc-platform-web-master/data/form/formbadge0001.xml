@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="badge0001" title="用章申请流程">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="badageName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="用章名称" maxlength="80" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busiType" fieldsize="BADGE_STYLE" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="用章方式" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remarks" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cust" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="申请人" maxlength="40" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="badgeSts" fieldsize="BADGE_TYPE" fieldtype="2" formactiveid="6" labelalign="3" labelcol="3" labelname="状态" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applyTime" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="申请时间" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outTime" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="出章时间" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="revertTime" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="归还时间" mustinput="" readonly="1" row="3" />
+</form>

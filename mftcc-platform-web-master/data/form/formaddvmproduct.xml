@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="addvmproduct" title="前端产品新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="名称" maxlength="100" mustinput="0" onclick="VwProductManage.getsyskindtable();" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productFile" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="展示图片" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="对应产品表的产品号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="5" initvalue="0" labelalign="3" labelcol="1" labelname="排序" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productObejct" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="申请对象" maxlength="65535" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productDesc" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="产品描述" maxlength="65535" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productFeature" fieldtype="5" formactiveid="8" labelalign="3" labelcol="1" labelname="产品特点" maxlength="65535" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="productFlow" fieldtype="5" formactiveid="9" labelalign="3" labelcol="1" labelname="申请流程" maxlength="65535" mustinput="0" row="4"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vwmenu0002" title="前端交易_菜单管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="菜单名称" maxlength="200" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="排序" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="menuType" fieldsize="MENU_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="类型" maxlength="10" mustinput="0" onchange="showFileInput();" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="USE_FLAG" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="状态" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="hideFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="数据展示" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pId" fieldsize="MENU_ROOT" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="所属模块" mustinput="" onchange="getMaxSort(this);" readonly="" row="2" />
+</form>

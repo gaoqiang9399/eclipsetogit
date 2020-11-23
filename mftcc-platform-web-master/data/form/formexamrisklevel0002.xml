@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="examrisklevel0002" title="贷后风险级别配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="configId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="配置编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opSymbol1" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="操作符1" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opSymbol2" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="操作符2" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opScore1" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="区间分数1" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opScore2" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="区间分数2" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examRiskLevel" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="级别" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="贷后风险级别说明" maxlength="200" mustinput="0" row="7"/>
+</form>

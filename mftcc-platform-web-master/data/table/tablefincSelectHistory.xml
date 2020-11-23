@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincSelectHistory" para="eadis_page" title="业务选择" type="1">
+<tableitem align="2" filedname="lstModDate" id="4" indexed="17" label="修改日期" row="1" sortType="2" type="1" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="repayAccIdNew" id="3" indexed="5" label="修改前还款账号" row="1" sortType="2" type="4" typepara="/mfBusFincApp/getHistoryDetails;id-id;cusNo-cusNo;onClick-getHistoryDetails(this);" widthType="0"/>
+<tableitem align="2" filedname="collectAccIdNew" id="11" indexed="14" label="修改前收款账号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="collectAccId" id="10" indexed="15" label="修改后收款账号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="bankAccId" id="9" indexed="13" label="修改后借款账号" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="bankAccIdNew" id="8" indexed="13" label="修改前借款账号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayAccId" id="7" indexed="12" label="修改后还款账号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

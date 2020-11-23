@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MakingMeetingSummaryList" link="/mfMakingMeetingSummary/findByPage" para="eadis_page" title="决策会会议纪要" type="1">
+<tableitem align="2" filedname="regTime" id="9" indexed="9" label="创建时间" row="1" sortType="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="详情" id="17" indexed="10" label="-" row="1" type="5" typepara="/mfMakingMeetingSummary/getById;id-id;onClick-MfMakingMeetingSummary_List.detail" width="5" widthType="0"/>
+<tableitem align="2" filedname="删除" id="16" indexed="17" label="-" type="5" typepara="/mfMakingMeetingSummary/deleteAjax;id-id;onClick-MfMakingMeetingSummary_List.ajaxDelete" width="5" widthType="0"/>
+<tableitem align="2" filedname="fileNo" id="7" indexed="7" label="报批决策文件号" mytitle="报批决策文件号-fileNo" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="recordName" id="6" indexed="6" label="记录" mytitle="记录-record" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="nonvotingDelegatesName" id="5" indexed="5" label="列席" mytitle="列席-nonvotingDelegates" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="participantsName" id="4" indexed="4" label="参会人员" mytitle="参会人员-participants" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="hostName" id="3" indexed="3" label="主持" mytitle="主持-host" row="1" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="meetingTime" id="2" indexed="2" label="上会日期" row="1" sortType="1" type="1" widthType="0"/>
+</table>

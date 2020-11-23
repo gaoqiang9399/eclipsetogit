@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dlcollateralchk0002" title="押品检查">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="检查编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="chkCusId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="检查人" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="chkCusName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="检查人名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="chkDesc" fieldtype="5" formactiveid="8" labelalign="3" labelcol="1" labelname="检查描述" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="chkOrgName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="检查机构" mustinput="" readonly="" row="1" />
+<formelement calculationType="onClick" datatype="6" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="chkDate" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="检查日期" mustinput="" onclick="fPopUpCalendarDlg();" readonly="" row="7" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="isLegality" fieldsize="YES_NO" fieldtype="2" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="是否合法" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="isSuff" fieldsize="YES_NO" fieldtype="2" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="是否重组" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="liquidate" fieldsize="CHARGE_LEVEL" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="变现能力" mustinput="" readonly="" row="5" />
+</form>

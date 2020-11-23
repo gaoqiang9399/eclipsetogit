@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwbillmanageList" para="eadis_page" title="开票管理" type="1">
+<tableitem align="2" filedname="pactNo" id="89" indexed="92" label="合同号" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="collectTime" id="88" indexed="111" label="费用确认日期" row="1" sortType="2" type="1" width="7" widthType="0"/>
+<tableitem align="3" filedname="actualGuaranteeAmt" id="87" indexed="101" label="担保费" row="1" sortType="2" type="12" width="4" widthType="0"/>
+<tableitem align="2" filedname="remark" id="109" indexed="105" label="备注" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="bankAccount" id="111" indexed="99" label="开户行账号" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="actualBankChargeAmt" id="108" indexed="103" label="手续费" row="1" sortType="2" type="12" width="6" widthType="0"/>
+<tableitem align="2" filedname="address" id="110" indexed="98" label="地址电话" row="1" sortType="2" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="guaranteeRate" id="107" indexed="104" label="担保费税率" row="1" sortType="2" type="17" width="6" widthType="0"/>
+<tableitem align="2" filedname="taxpayerNum" id="105" indexed="97" label="税号" row="1" sortType="2" type="0" width="6" widthType="0"/>
+<tableitem align="3" filedname="actualAssessAmt" id="104" indexed="102" label="评审费" row="1" sortType="2" type="12" width="4" widthType="0"/>
+<tableitem align="2" filedname="goodsType" id="102" indexed="96" label="收费种类" row="1" sortType="2" type="6" typepara="BILL_KIND" width="5" widthType="0"/>
+<tableitem align="2" authority="billSts-1;billSts-3;billSts-4;billSts-5;billSts-6;" filedname="费用开票" id="97" indexed="115" label="-" row="1" type="5" typepara="/cwBillManage/input;id-id;pactId-pactId;onClick-cwBillApply(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="billSts" id="96" indexed="106" label="前台判断-必须有" row="1" type="99" width="1" widthType="0"/>
+<tableitem align="2" filedname="billSts" id="101" indexed="112" label="状态" row="1" sortType="2" type="6" typepara="BILL_STS" width="4" widthType="0"/>
+<tableitem align="2" filedname="id" id="100" indexed="84" label="选择" row="1" sortType="2" type="2" typepara="id-id" width="3" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="85" label="客户名称" row="1" type="0" typepara="/mfBusPact/getById;appId-appId;onClick-enterClick(this);" width="8" widthType="0"/>
+</table>

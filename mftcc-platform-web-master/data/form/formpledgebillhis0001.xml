@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="pledgebillhis0001" title="货物明细调价历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeBillHisNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="历史清单ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modifyId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="调价申请ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeBillNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="清单ID" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="担保资料编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billOrder" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="序号" maxlength="0" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="billName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billBrand" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="型号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="billKind" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="品种代码" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="单价" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustedUnitPrice" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="调整后单价" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="count" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="数量" maxlength="0" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="信息登记时间" maxlength="17" mustinput="0" row="6"/>
+</form>

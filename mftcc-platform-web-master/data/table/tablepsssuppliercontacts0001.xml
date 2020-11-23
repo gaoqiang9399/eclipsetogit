@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psssuppliercontacts0001" para="eadis_page" title="进销存-供应商联系人表" type="2">
+<tableitem align="2" filedname="telePhone" id="6" indexed="6" label="座机" row="1" type="0" width="100" widthType="1"/>
+<tableitem align="2" filedname="mobilePhone" id="5" indexed="5" label="手机" row="1" type="0" width="100" widthType="1"/>
+<tableitem align="1" filedname="contactsName" id="4" indexed="4" label="联系人名称" mytitle="模板内容-contactsName;" row="1" type="3" typepara="10" width="80" widthType="1"/>
+<tableitem align="2" filedname="isfirstContactManName" id="11" indexed="9" label="首要联系人" row="1" type="4" width="80" widthType="1"/>
+<tableitem align="2" filedname="isfirstContactMan" id="10" indexed="12" label="首要联系人ID" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="1" indexed="1" label="-" row="1" type="0" width="30" widthType="1"/>
+<tableitem align="1" filedname="contactsAddress" id="9" indexed="8" label="联系人地址" mytitle="模板内容-contactsAddress;" type="3" typepara="10" width="200" widthType="1"/>
+<tableitem align="2" filedname="otherContactMode" id="7" indexed="7" label="QQ/微信/EMAIL" row="1" type="0" width="150" widthType="1"/>
+</table>

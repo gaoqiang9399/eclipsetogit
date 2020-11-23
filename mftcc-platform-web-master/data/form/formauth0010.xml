@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form id="auth0010" title="授信详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authAccNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="授信台账编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="authMode" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="授信类型" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="授信金额" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useAmt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="使用金额" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authBal" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="授信余额" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="授信到期日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="authSts" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="台账状态" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="登记机构" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="登记人" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="机构名称" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgNo" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="更新机构号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="更新机构名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="更新人" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="更新人名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="登记日期" maxlength="8" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="客户类型" maxlength="1" mustinput="0" row="19"/>
+</form>

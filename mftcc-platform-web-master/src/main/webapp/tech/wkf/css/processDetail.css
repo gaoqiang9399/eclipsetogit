@@ -1,0 +1,332 @@
+html,body {
+    font-family: Microsoft YaHei;
+    font-size: 12px;
+    margin: 0;
+}
+.double-bounce {
+    left: 50%;
+    margin: 0 auto;
+    min-height: 60px;
+    min-width: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.double-bounce1, .double-bounce2 {
+   animation: bounce 2s infinite ease-in-out; 
+    -webkit-animation: bounce 2s infinite ease-in-out;
+    background-color: #a4a4a5;
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.double-bounce2 {
+	webkit-animation-delay: -1s;
+    animation-delay: -1s;
+}
+@keyframes bounce {
+	0%, 100% {
+		-webkit-transform: scale(0);     /* for Chrome || Safari */
+	    -moz-transform: scale(0);        /* for Firefox */
+	    -ms-transform: scale(0);         /* for IE */
+	    -o-transform: scale(0);          /* for Opera */
+	    transform: scale(0);
+	}
+	50% {
+		-webkit-transform: scale(1);     /* for Chrome || Safari */
+	    -moz-transform: scale(1);        /* for Firefox */
+	    -ms-transform: scale(1);         /* for IE */
+	    -o-transform: scale(1);          /* for Opera */
+	    transform: scale(1);
+	}
+}
+@-webkit-keyframes bounce {
+	0%, 100% {
+	    -webkit-transform: scale(0);     /* for Chrome || Safari */
+	    -moz-transform: scale(0);        /* for Firefox */
+	    -ms-transform: scale(0);         /* for IE */
+	    -o-transform: scale(0);          /* for Opera */
+	    transform: scale(0);
+	}
+	50% {
+	    -webkit-transform: scale(1);     /* for Chrome || Safari */
+	    -moz-transform: scale(1);        /* for Firefox */
+	    -ms-transform: scale(1);         /* for IE */
+	    -o-transform: scale(1);          /* for Opera */
+	    transform: scale(1);
+	}
+}
+#modeler {
+	left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#modeler .item {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	color: #AFAFAF;
+	cursor: default;
+}
+#modeler .item .span {
+	top: 35px;
+	left: -32px;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	cursor: default;
+	pointer-events: none;
+}
+#modeler .default.line-default{ background: url(../imgs/baicon/j4.png) repeat-x scroll;}
+#modeler .default.line-complete{ background: url(../imgs/baicon/j1.png) repeat-x scroll;}
+#modeler .default.line-rollback{ background: url(../imgs/baicon/j2.png) repeat-x scroll;}
+#modeler .default.item.start.activity {
+	background: url("../imgs/baicon/be03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #06C25E;
+}
+#modeler .default.item.start.complete {
+	background: url("../imgs/baicon/be01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #018FDD;
+}
+#modeler .default.item.start.refused {
+	background: url("../imgs/baicon/be05.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #F34E30;
+}
+#modeler .default.item.end.activity {
+	background: url("../imgs/baicon/bi03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #06C25E;
+}
+#modeler .default.item.end.complete {
+	background: url("../imgs/baicon/bi01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #018FDD;
+}
+#modeler .default.item.end.refused {
+	background: url("../imgs/baicon/bi05.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #F34E30;
+}
+#modeler .default.item.task.activity {
+	background: url("../imgs/baicon/bf03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #06C25E;
+}
+#modeler .default.item.task.complete {
+	background: url("../imgs/baicon/bf01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #018FDD;
+}
+#modeler .default.item.task.rollback {
+	background: url("../imgs/baicon/bf02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #9ED7EC;
+}
+#modeler .default.item.task.refused {
+	background: url("../imgs/baicon/bf05.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #F34E30;
+}
+#modeler .default.item.node.activity {
+	background: url("../imgs/baicon/bh03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #06C25E;
+}
+#modeler .default.item.node.complete {
+	background: url("../imgs/baicon/bh01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #018FDD;
+}
+#modeler .default.item.node.rollback {
+	background: url("../imgs/baicon/bh02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #9ED7EC;
+}
+#modeler .default.item.node.refused {
+	background: url("../imgs/baicon/bh05.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #F34E30;
+}
+#modeler .default.item.fork.activity {
+	background: url("../imgs/baicon/pd03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #06C25E;
+}
+#modeler .default.item.fork.complete {
+	background: url("../imgs/baicon/pd01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #018FDD;
+}
+#modeler .default.item.fork.rollback {
+	background: url("../imgs/baicon/pd02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #9ED7EC;
+}
+#modeler .default.item.start {
+    background: url("../imgs/baicon/be04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .default.item.end {
+    background: url("../imgs/baicon/bi04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .default.item.task {
+    background: url("../imgs/baicon/bf04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .default.item.node {
+    background: url("../imgs/baicon/bh04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .default.item.fork {
+    background: url("../imgs/baicon/pd04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .circle.line-default{ background: url(../imgs/wjline/j4.png) repeat-x scroll;}
+#modeler .circle.line-complete{ background: url(../imgs/wjline/j1.png) repeat-x scroll;}
+#modeler .circle.line-rollback{ background: url(../imgs/wjline/j2.png) repeat-x scroll;}
+#modeler .circle.item.start.activity {
+	background: url("../imgs/wjline/be03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E14A47;
+}
+#modeler .circle.item.start.complete {
+	background: url("../imgs/wjline/be01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.start.refused {
+	background: url("../imgs/wjline/be01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.end.activity {
+	background: url("../imgs/wjline/bi03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E14A47;
+}
+#modeler .circle.item.end.complete {
+	background: url("../imgs/wjline/bi01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.end.refused {
+	background: url("../imgs/wjline/bi01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.task.activity {
+	background: url("../imgs/wjline/bf03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E14A47;
+}
+#modeler .circle.item.task.complete {
+	background: url("../imgs/wjline/bf01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.task.rollback {
+	background: url("../imgs/wjline/bf02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E4BA58;
+}
+#modeler .circle.item.task.refused {
+	background: url("../imgs/wjline/bf01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.node.activity {
+	background: url("../imgs/wjline/bh03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E14A47;
+}
+#modeler .circle.item.node.complete {
+	background: url("../imgs/wjline/bh01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.node.rollback {
+	background: url("../imgs/wjline/bh02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E4BA58;
+}
+#modeler .circle.item.node.refused {
+	background: url("../imgs/wjline/bh01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.fork.activity {
+	background: url("../imgs/wjline/pd03.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E14A47;
+}
+#modeler .circle.item.fork.complete {
+	background: url("../imgs/wjline/pd01.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #4ABAC5;
+}
+#modeler .circle.item.fork.rollback {
+	background: url("../imgs/wjline/pd02.png") no-repeat scroll;
+    background-size: 100%,100%;
+    color: #E4BA58;
+}
+#modeler .circle.item.start {
+    background: url("../imgs/wjline/be04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .circle.item.end {
+    background: url("../imgs/wjline/bi04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .circle.item.task {
+    background: url("../imgs/wjline/bf04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .circle.item.node {
+    background: url("../imgs/wjline/bh04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+#modeler .circle.item.fork {
+    background: url("../imgs/wjline/pd04.png") no-repeat scroll;
+    background-size: 100%,100%;
+}
+
+.return {
+	border: 1px solid #4887c6;
+    color: #4887c6;
+    font-size: 13px;
+    padding: 3px 15px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    cursor: pointer;
+}
+.modelAlert{
+	background: url("../imgs/p-ful.png") no-repeat scroll;
+    background-size: 100%,100%;
+    height: 25px;
+    position: absolute;
+    right: 12px;
+    top: 20;
+    width: 25px;
+    cursor: pointer;
+}
+.modelAlert:hover{
+	background: url("../imgs/p-fulA.png") no-repeat scroll;
+	background-size: 100%,100%;
+}
+.grab { /* ץץץ */  
+    cursor:url("./tech/wkf/css/imgs/openhand.cur"),auto;
+}   
+.grabbing { /* ץסץס */  
+    cursor:url("./tech/wkf/css/imgs/closedhand.cur"),auto; 
+}  

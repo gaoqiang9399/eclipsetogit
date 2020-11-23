@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCertificationList" para="eadis_page" title="共有人列表" type="1">
+<tableitem align="2" filedname="contractSex" id="5" indexed="5" label="性别" row="1" type="6" typepara="SEX" widthType="0"/>
+<tableitem align="2" filedname="删除" id="25" indexed="25" label="-" row="1" type="5" typepara="/mfCusCertification/deleteAjax;id-id;collateralId-collateralId;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="contractName" id="4" indexed="4" label="姓名" type="4" typepara="/mfCusCertification/listShowDetailAjax;id-id;collateralId-collateralId;oneUrl-'/mfCusCertification/updateByOneAjax';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="contractAge" id="8" indexed="8" label="年龄" row="1" type="6" typepara="CREDIT_RATING_FG_JLJK" widthType="0"/>
+</table>

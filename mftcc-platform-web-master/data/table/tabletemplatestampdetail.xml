@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="templatestampdetail" para="eadis_page" title="用印文档列表" type="1">
+<tableitem align="2" filedname="预览" id="14" indexed="19" label="-" type="99" typepara="/mfTemplateBizConfig/previewTagValue;templateBizConfigId-templateBizConfigId;onClick-templateIncludePage.previewTagValue(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="templateNameZh" id="3" indexed="8" label="文档名称" mytitle="文档名称-templateNameZh;" row="1" type="4" typepara="/mfTemplateBizConfig/getOfficeUrlAjax;templateBizConfigId-templateBizConfigId;onclick-templateIncludePage.openTemplateTmp(this);" width="50" widthType="0"/>
+<tableitem align="2" filedname="下载" id="11" indexed="20" label="-" row="1" type="5" typepara="/mfToolsDownload/downloadTemplate;ajaxData-templateBizConfigId;" width="5" widthType="0"/>
+<tableitem align="2" fieldStyle="docType" filedname="templateSuffix" id="2" indexed="6" label="文档类型" row="1" type="6" width="15" widthType="0"/>
+<tableitem align="2" filedname="ext10" id="21" indexed="5" label="份数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="sel_all" id="20" indexed="6" label="全选" row="1" type="2" typepara="templateBizConfigId-templateBizConfigId;" width="10" widthType="0"/>
+<tableitem align="2" filedname="templateBizConfigId" id="18" indexed="11" label="业务模板id" row="1" type="99" widthType="0"/>
+</table>

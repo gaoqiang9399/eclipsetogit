@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="trackBase" title="新增客户跟进">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trackType" fieldsize="TRACK_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="拜访主题" mustinput="0" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="1" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="trackId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="trackId" mustinput="" readonly="" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="visitEndDate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="拜访结束时间" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="5" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="visitBeginDate" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="拜访开始时间" mustinput="" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="4" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="attendant" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="随行人员" mustinput="" onclick="assignExamineTaskSingle();" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="visitAddress" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="拜访地" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="visitors" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="拜访人员" mustinput="" onclick="bindDataSource(this,'1','cusMngNo','','','','','0');" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="attendantNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="随行人员编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="visitorsNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="拜访人员编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="trackContent" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="跟踪内容" maxlength="400" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="parentId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="4" labelname="父级ID" mustinput="" readonly="" row="3"/>
+</form>

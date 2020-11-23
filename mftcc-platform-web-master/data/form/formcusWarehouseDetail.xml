@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusWarehouseDetail" title="仓库信息(列表下拉详情)">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="id" maxlength="30" mustinput="0" row="8"/>
+<formelement alt="请输入仓库面积" datatype="0" fieldalign="1" fieldcol="4" fieldname="area" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="3" labelname="占地面积" maxlength="10" mustinput="1" row="1" unit="&#13217;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="style" fieldsize="WAREHOUSE_STYLE" fieldtype="2" formactiveid="3" horVer="1" labelalign="1" labelcol="4" labelname="建筑样式" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="autoDegree" fieldsize="WAREHOUSE_AUTO" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="自动化程度" maxlength="1" mustinput="0" row="3"/>
+<formelement alt="输入仓库准确地址" datatype="0" fieldalign="1" fieldcol="3" fieldname="address" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="仓库地址" maxlength="100" mustinput="1" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="200" mustinput="0" row="6"/>
+<formelement alt="请输入联系人" datatype="0" fieldalign="1" fieldcol="3" fieldname="linkman" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="联系人" maxlength="25" mustinput="0" row="3"/>
+<formelement alt="请输入正确的电话号码" datatype="0" fieldalign="1" fieldcol="4" fieldname="phone" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="联系电话" maxlength="11" mustinput="0" row="3"/>
+<formelement alt="50字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="仓库名称" maxlength="50" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="客户号" maxlength="30" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="entityPrimarykeys" mustinput="" param="id;" readonly="" row="2" rowspan="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="brName" fieldtype="90" formactiveid="12" labelalign="3" labelcol="1" labelname="brName" maxlength="80" row="9" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="opNo" fieldtype="90" formactiveid="13" labelalign="3" labelcol="1" labelname="opNo" maxlength="22" row="10" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext1" fieldtype="90" formactiveid="14" labelalign="3" labelcol="1" labelname="ext1" maxlength="100" row="11" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext2" fieldtype="90" formactiveid="15" labelalign="3" labelcol="1" labelname="ext2" maxlength="100" row="12" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="ext3" fieldtype="90" formactiveid="16" labelalign="3" labelcol="1" labelname="ext3" maxlength="100" row="13" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="opName" fieldtype="90" formactiveid="17" labelalign="3" labelcol="1" labelname="opName" maxlength="40" row="14" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="cusName" fieldtype="90" formactiveid="18" labelalign="3" labelcol="1" labelname="cusName" maxlength="100" row="15" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="brNo" fieldtype="90" formactiveid="19" labelalign="3" labelcol="1" labelname="brNo" maxlength="20" row="16" selrange="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="1" fieldname="lstModTime" fieldtype="90" formactiveid="20" labelalign="3" labelcol="1" labelname="lstModTime" maxlength="17" row="17" selrange="0"/>
+</form>

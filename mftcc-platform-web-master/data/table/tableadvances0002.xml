@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="advances0002" para="eadis_page" title="垫款情况展示" type="2">
+<tableitem align="2" filedname="payAmt" id="46" indexed="42" label="垫款金额" type="12" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="45" indexed="43" label="垫款状态" row="1" sortType="2" type="6" typepara="ADVANCES_STS" widthType="0"/>
+<tableitem align="1" filedname="appName" id="44" indexed="5" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="42" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="0" widthType="0"/>
+</table>

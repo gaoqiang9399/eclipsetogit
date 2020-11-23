@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cuspersassets0002" title="个人客户资产信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="个人资产ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsType" fieldsize="PERS_ASSETS_TYPE" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="资产类型" mustinput="1" onchange="changeAssets(this);" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="所有权人" mustinput="1" readonly="1" row="2" />
+<formelement alt="请输入资产名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="资产名称" maxlength="100" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsNo" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="资产证号" mustinput="0" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsPlace" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="资产归属地" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsArea" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="排量" mustinput="" readonly="" row="8" unit="L" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assetsValue" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="市值" maxlength="10" mustinput="0" readonly="" row="9" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isMortgage" fieldsize="AC_YES_NO" fieldtype="2" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="是否按揭" mustinput="" onchange="changeMortgage(this)" readonly="" row="12" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="15" />
+<formelement alt="请输入按揭贷款余额" datatype="12" fieldalign="1" fieldcol="2" fieldname="loanBalance" fieldsize="0.00" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="按揭贷款余额" maxlength="14" mustinput="" readonly="" row="13" unit="元" />
+<formelement alt="请输入按揭贷款剩余期限" datatype="1" fieldalign="1" fieldcol="2" fieldname="loanPeriod" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="按揭剩余期限" maxlength="4" mustinput="" readonly="" row="14" unit="个月" />
+<formelement alt="请输入车牌号" datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleBrand" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="车辆品牌" maxlength="25" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseType" fieldsize="PER_HOUSE_TYPE" fieldtype="2" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="房产类型" maxlength="1" mustinput="" readonly="" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="buyValue" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="购买价值" maxlength="14" mustinput="" readonly="" row="10" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="buyDate" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="购买日期" maxlength="17" mustinput="" onclick="fPopUpCalendarDlg({max:today})" readonly="" row="11" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+</form>

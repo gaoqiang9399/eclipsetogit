@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcuscensusdata" title="户籍信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="身份证姓名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idCardNum" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="身份证号码" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="address" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="地址" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="birthday" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="生日" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="birthplace" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="出生地" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="company" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="所在公司" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="education" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="最高学历" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="usedname" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="曾用名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="maritalstatus" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="婚姻状态" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nation" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="民族" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nativeplace" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="籍贯" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="性别" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="message" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="描述信息" mustinput="" readonly="1" row="7"/>
+</form>

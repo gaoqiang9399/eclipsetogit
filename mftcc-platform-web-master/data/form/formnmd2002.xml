@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="nmd2002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="6" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lev" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uplev" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="6" mustinput="0" row="3"/>
+</form>

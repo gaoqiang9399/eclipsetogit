@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusDocKingYf" link="/mfCusAccountDetail/findByPage" para="eadis_page" title="下载记录" type="1">
+<tableitem align="2" filedname="brName" id="4" indexed="1" label="操作人部门" type="0" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="3" indexed="2" label="下载时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="2" indexed="0" label="操作人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docText" id="1" indexed="3" label="下载内容" row="1" type="0" widthType="0"/>
+</table>

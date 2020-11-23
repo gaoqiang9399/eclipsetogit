@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="examDocuTemp" title="文档检查模板表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docuTemplate" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="检查内容" mustinput="" onclick="openDocuTemplate()" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="examHisId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="4" labelname="检查登记历史编号" mustinput="" readonly="" row="1" />
+</form>

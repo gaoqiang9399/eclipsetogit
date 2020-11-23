@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="psssaleoriginalpic0001" para="eadis_page" link="" title="销售原始图片信息表" type="2">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="主键" row="1" type="4" typepara="/pssSaleOriginalPic/getByIdAjax;id-id;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="picId" id="2" indexed="2" label="图片ID" row="1" type="0" />
+<tableitem align="2" filedname="picName" id="3" indexed="3" label="图片名称" row="1" type="0" />
+<tableitem align="2" filedname="saleBill" id="4" indexed="4" label="销货单编号" row="1" type="0" />
+<tableitem align="2" filedname="flag" id="5" indexed="5" label="是否生成销货单" row="1" type="0" />
+<tableitem align="2" filedname="picPath" id="6" indexed="6" label="图片存放路径" row="1" type="0" />
+<tableitem align="2" filedname="uploadDate" id="7" indexed="7" label="上传日期" row="1" type="0" />
+</table>

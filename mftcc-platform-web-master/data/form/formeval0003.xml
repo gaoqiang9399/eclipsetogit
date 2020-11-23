@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval0003" title="评级定性评分指标项关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scenceNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="评级场景编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="指标编号" maxlength="15" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="指标名称" maxlength="300" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexDesc" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="指标描述" maxlength="600" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="stdCore" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="指标得分" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="level" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="指标级别" maxlength="3" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upIndexNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="上级指标编号" maxlength="15" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeCardId" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="评分卡" mustinput="" readonly="" row="8" />
+</form>

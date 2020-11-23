@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_pssbuyorder02" title="购货订单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyOrderId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyOrderNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="购货订单号" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="supplierId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="供应商ID" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="orderDate" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="单据日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="deliveryDate" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="交货日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessType" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="业务类别(01-购货 02-退货)" maxlength="2" mustinput="0" row="6"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="discountRate" fieldtype="1" fieldwidth="20" formactiveid="13" initvalue="0" labelalign="3" labelcol="1" labelname="优惠率" labelwidth="13" maxlength="12" mustinput="0" onblur="PssBuyOrder_Detail.discountRateBlur();" onkeyup="PssBuyOrder_Detail.discountRateKeyup();" row="2" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="discountAmount" fieldtype="1" fieldwidth="20" formactiveid="14" initvalue="0" labelalign="3" labelcol="3" labelname="优惠金额" labelwidth="13" maxlength="18" mustinput="0" onblur="PssBuyOrder_Detail.discountAmountBlur();" onkeyup="PssBuyOrder_Detail.discountAmountKeyup();" row="2" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="discountAfterAmount" fieldtype="1" fieldwidth="20" formactiveid="15" initvalue="0" labelalign="3" labelcol="5" labelname="优惠后金额" labelwidth="13" maxlength="18" mustinput="0" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="5" fieldname="memo" fieldtype="1" fieldwidth="86" formactiveid="17" labelalign="3" labelcol="1" labelname="备注" labelwidth="13" maxlength="400" mustinput="0" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="amount" fieldtype="99" formactiveid="18" horVer="0" initvalue="0" labelalign="3" labelcol="1" labelname="购货金额" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="quantity" fieldtype="99" formactiveid="19" horVer="0" initvalue="0" labelalign="3" labelcol="1" labelname="数量" mustinput="" readonly="" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="taxRate" fieldtype="99" formactiveid="20" horVer="0" initvalue="0" labelalign="3" labelcol="1" labelname="税率" mustinput="" readonly="" row="1" unit="%"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwrecourseconfimList" para="eadis_page" title="追偿到账确认" type="1">
+<tableitem align="2" filedname="regTime" id="88" indexed="100" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="87" indexed="94" label="项目金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="追偿到账确认" id="97" indexed="102" label="-" type="5" typepara="/cwRecourseConfim/input;recourseId-recourseId;onClick-payConfim(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactSts" id="85" indexed="101" label="合同状态" row="1" type="6" typepara="PACT_STS" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="96" indexed="95" label="项目期限" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="92" indexed="84" label="项目名称" row="1" type="0" typepara="/mfBusPact/getById;appId-appId;onClick-enterClick(this);" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="89" indexed="90" label="合同号" row="1" type="0" widthType="0"/>
+</table>

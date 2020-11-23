@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="billpaymentregpage" title="付款登记">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="paymentDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="付款日期" maxlength="17" mustinput="1" onclick="selectrili(this,null,null,today);" row="1" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="requestId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="请款编号" mustinput="" readonly="" row="1" selrange="1"/>
+</form>

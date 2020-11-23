@@ -1,0 +1,375 @@
+.showprogress {
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+
+.showprogress-content ul, .showprogress ul {
+    list-style: outside none none;
+    padding: 0;
+    margin: 0;
+}
+.showprogress li {
+    float: left;
+    margin-right: 4px;
+    position: relative;
+}
+.showprogress .span_btn {
+    display: block;
+    height: 39px;
+    width: 90px;
+    cursor: pointer;
+}
+.showprogress .selected .lable {
+    color: #32b5cb;
+}
+.showprogress .lable {
+    color: #a9a9a9;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+.showprogress .selected .span_btn {
+    border-bottom: 2px solid #32b5cb;
+}
+.showprogress .span_btn {
+    display: block;
+    height: 39px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.mCSB_container{
+	height: 100%;
+}
+.showprogress-content .content_show {
+    overflow: hidden;
+	height: -webkit-calc(100% - 40px);
+	height: -moz-calc(100% - 40px);
+	height: calc(100% - 40px);
+}
+
+.showprogress-content .content_ul {
+    display: block;
+    width: 100%;
+}
+
+
+.form-container{
+    height: 100%;
+    position: relative;
+}
+.showprogress-content .content_ul>li {
+    float: left;
+    display: block;
+   position: relative;
+}
+.valuation-box {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    margin:  -275px 0px 0px -400px;
+    width: 800px;
+    height: 550px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 3px solid #d8dde5;
+    font-family: microsoft yahei;
+}
+
+.search-div {
+    height: 50px;
+    padding: 8px 0px 8px 15px;
+}
+.valuation-cont {
+    padding-left: 80px;
+}
+.valuation-cont li {
+    height: 54px;
+}
+.item-select, .item-title {
+    float: left;
+    position: relative;
+}
+.item-title {
+    width: 112px;
+    font-size: 18px;
+    line-height: 42px;
+    color: #495056;
+}
+.mright-7 {
+    margin-right: 7px;
+}
+.item-input {
+	box-sizing: content-box;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 38px 10px 14px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-family: microsoft yahei;
+    font-size: 14px;
+    color: #333;
+    letter-spacing:0.1em;
+    cursor: pointer;
+    background: url("../images/car-001.png") no-repeat right 0;
+}
+.item-select.active .item-input {
+    background-position: right -40px;
+    border: 1px solid #009db7;
+    border-radius: 3px 3px 0 0;
+}
+.down-out {
+    display: none;
+}
+.down-cont {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    border: 1px solid #009db7;
+    background: #fff;
+    z-index: 1;
+}
+.down-ul-288 {
+    max-height: 288px;
+}
+.down-ul {
+    padding: 10px !important;
+    overflow: auto;
+    width: 302px;
+    max-height: 248px;
+}
+.down-ul .down-li {
+    height: 24px;
+    line-height: 24px;
+    color: #495056;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-indent: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.down-ul .down-li:hover {
+    background: #009db7;
+    color: #fff;
+}
+.valuation-cont li {
+    height: 54px;
+}
+
+.mright-6 {
+    margin-right: 6px;
+}
+.item-input-95 {
+    width: 95px;
+}
+.brand-box {
+    padding: 10px;
+    overflow: auto;
+    width: 302px;
+    height: 396px;
+}
+.s-tt {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background: #f8f8f8;
+    font-size: 14px;
+    color: #a5abb2;
+    text-indent: 10px;
+    margin-bottom: 8px;
+}
+.s-tt a, .s-tt a:hover {
+    color: #a5abb2;
+    text-decoration: none;
+}
+.hot-car li {
+    float: left;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    color: #495056;
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.all-brand li {
+    height: 24px;
+    line-height: 24px;
+    color: #495056;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-indent: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.hot-car li:hover,.all-brand li:hover {
+    background: #009db7;
+    color: #fff;
+}
+.down-cont ul{
+	margin: 0px;
+	padding: 0px;
+}
+.letter-sel {
+    position: absolute;
+    top: 0;
+    left: 258px;
+    padding: 10px 0 10px !important;
+    width: 18px;
+    background: #fff;
+    margin: 0px;
+}
+
+.letter-sel li {
+    width: 18px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 0;
+    text-align: center;
+    list-style-type: none;
+}
+.letter-sel li a {
+    display: block;
+    font-size: 12px;
+    color: #a5abb2;
+    cursor: pointer;
+}
+.item-input.disabled {
+    background-color: #f8f8f8;
+}
+.down-ul-147 {
+    width: 147px;
+}
+
+.active .down-out {
+    display: block;
+    position: relative;
+}
+
+.odo-box {
+    float: left;
+    position: relative;
+}
+.odo-input {
+	box-sizing: content-box;
+    width: 519px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 79px 10px 14px;
+    border: 1px solid #bec6ce;
+    border-radius: 3px;
+    font-family: microsoft yahei;
+    font-size: 16px;
+    color: #495056;
+    background: url("../images/car-001.png") no-repeat right -80px;
+}
+.p-error {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff7e00;
+}
+
+.bootstarpTag .error{
+	top:2px !important;
+	left: auto;
+	right: -105px;
+}
+
+.report-cont{
+	width: 800px;
+	overflow: auto;
+	margin: 0 auto;
+}
+.report-title{
+	font-size: 24px;
+	color: #333;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin: 0px;
+	line-height: 40px;
+}
+.report-time{
+	font-size: 14px;
+	color: #333;
+	letter-spacing: 0.1em;
+	text-align: right;
+	margin: 0px;
+	line-height: 32px;
+}
+.report-item{
+	
+}
+.report-item table{
+	width: 100%;
+}
+.report-item table thead th{
+	text-align: center;
+}
+.report-item table tbody th{
+	text-align: right;
+}
+
+.report-basic{}
+.report-basic th{
+	width: 20%;
+	height: 44px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: 0.1em;
+}
+.report-basic td{
+	font-size: 14px;
+    color: #333;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.report-basic td img.logo{
+	height: 60px;
+}
+.report-four{
+	padding-top: 20px;
+}
+.report-four th{
+	border: 1px solid #333;
+	height: 32px;
+	font-size: 16px;
+	color: #333;
+	letter-spacing: 0.1em;
+}
+.colorred{
+	color:red;
+}
+.colorgreen{
+	color:green;
+}
+.textcenter{
+	text-align: center !important;
+}
+.report-four tbody th{
+	width: 20%;
+}
+.report-four td{
+	border: 1px solid #333;
+	height: 32px;
+	font-size: 14px;
+	color: #333;
+	letter-spacing: 0.1em;
+	text-align: center;
+	
+}
+
+#moreBar {
+	display: none !important;
+}

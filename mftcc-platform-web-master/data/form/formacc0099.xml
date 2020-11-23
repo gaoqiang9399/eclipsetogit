@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="acc0099" title="还租计划测算信息">
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="downPaymentFlt" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="首付比例" mustinput="1" row="1" unit="%"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="appRate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="申请利率" mustinput="1" row="4" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="termMon" fieldtype="1" fieldwidth="20" formactiveid="6" labelalign="3" labelcol="3" labelname="期限月" labelwidth="10" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldtype="7" formactiveid="7" labelalign="3" labelcol="1" labelname="还款方式" mustinput="1" param="getShdMtdList" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="totalAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="总价款" labelwidth="10" mustinput="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulavalidate" fieldtype="99" formactiveid="9" initvalue="downPaymentFlt+endFlt&lt;=100;" labelalign="3" labelcol="1" labelname="公式" mustinput="0" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="glNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="5" labelname="核算产品号" mustinput="1" onclick="funcAcGlPop('glNo','glNo');" readonly="1" row="4" unit="选择"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="payDate" fieldsize="PAY_DAY" fieldtype="21" formactiveid="11" labelalign="3" labelcol="5" labelname="还款日" mustinput="1" row="2" unit="日"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="起租日期" mustinput="1" onclick="fPopUpCalendarDlg(startDate);return false" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaveCycle" fieldsize="REPAY_TERM_TYPE" fieldtype="21" formactiveid="13" labelalign="3" labelcol="3" labelname="还款周期类型" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="leaveCycleTerm" fieldtype="22" formactiveid="14" labelalign="3" labelcol="5" labelname="还款周期" mustinput="1" param="-|1-1|2-2|3-3|4-4|5-5|6-6|" row="3"/>
+<formelement alt="FROZEN_PERIOD" datatype="0" fieldalign="1" fieldcol="4" fieldname="frozenPeriod" fieldsize="FROZEN" fieldtype="21" formactiveid="15" labelalign="3" labelcol="3" labelname="跳跃贷开始期" mustinput="0" row="4"/>
+<formelement datatype="17" fieldalign="1" fieldcol="6" fieldname="endFlt" fieldtype="1" formactiveid="16" labelalign="3" labelcol="5" labelname="尾款比例" mustinput="1" readonly="" row="1" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="flag" fieldtype="99" formactiveid="17" initvalue="false" labelalign="3" labelcol="1" labelname="flag" mustinput="" readonly="" row="1"/>
+</form>

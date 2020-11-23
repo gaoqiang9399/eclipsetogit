@@ -1,0 +1,184 @@
+.ui-monthpicker {
+	font-size:100%;
+	font-family:"Î¢ÈíÑÅºÚ";
+	width: 250px;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-monthpicker .ui-monthpicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-monthpicker .ui-monthpicker-prev,
+.ui-monthpicker .ui-monthpicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-monthpicker .ui-monthpicker-prev-hover,
+.ui-monthpicker .ui-monthpicker-next-hover {
+	top: 1px;
+}
+.ui-monthpicker .ui-monthpicker-prev {
+	left: 2px;
+}
+.ui-monthpicker .ui-monthpicker-next {
+	right: 2px;
+}
+.ui-monthpicker .ui-monthpicker-prev-hover {
+	left: 1px;
+}
+.ui-monthpicker .ui-monthpicker-next-hover {
+	right: 1px;
+}
+.ui-monthpicker .ui-monthpicker-prev span,
+.ui-monthpicker .ui-monthpicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-monthpicker .ui-monthpicker-title {
+	margin: 0 1.5em;
+	line-height: 10px;
+	text-align: center;
+}
+.ui-monthpicker .ui-monthpicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-monthpicker select.ui-monthpicker-month-year {
+	width: 100%;
+}
+/*
+.ui-monthpicker select.ui-monthpicker-month,.ui-monthpicker select.ui-monthpicker-year {
+	width:43%;
+}
+*/
+.ui-monthpicker select.ui-monthpicker-year { margin-right:3px;}
+.ui-monthpicker select.ui-monthpicker-month {}
+
+.ui-monthpicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-monthpicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 10px;
+	border: 0;
+}
+.ui-monthpicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-monthpicker td span,
+.ui-monthpicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	line-height: 15px;
+	text-decoration: none;
+}
+.ui-monthpicker .ui-monthpicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	line-height: 10px;
+	border-bottom: 0;
+}
+.ui-monthpicker .ui-monthpicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .3em .6em .1em .6em;
+	width: auto;
+	overflow: visible;
+	line-height: 10px;
+}
+.ui-monthpicker .ui-monthpicker-buttonpane button.ui-monthpicker-clean {
+	float: left;
+	line-height: 10px;
+}
+.ui-monthpicker .ui-monthpicker-buttonpane button.ui-monthpicker-current {
+	float: left;
+	line-height: 10px;
+	margin-left:31px;
+}
+
+/* with multiple calendars */
+.ui-monthpicker.ui-monthpicker-multi {
+	width: auto;
+}
+.ui-monthpicker-multi .ui-monthpicker-group {
+	float: left;
+}
+.ui-monthpicker-multi .ui-monthpicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-monthpicker-multi-2 .ui-monthpicker-group {
+	width: 50%;
+}
+.ui-monthpicker-multi-3 .ui-monthpicker-group {
+	width: 33.3%;
+}
+.ui-monthpicker-multi-4 .ui-monthpicker-group {
+	width: 25%;
+}
+.ui-monthpicker-multi .ui-monthpicker-group-last .ui-monthpicker-header,
+.ui-monthpicker-multi .ui-monthpicker-group-middle .ui-monthpicker-header {
+	border-left-width: 0;
+}
+.ui-monthpicker-multi .ui-monthpicker-buttonpane {
+	clear: left;
+}
+.ui-monthpicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-monthpicker-rtl {
+	direction: rtl;
+}
+.ui-monthpicker-rtl .ui-monthpicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-monthpicker-rtl .ui-monthpicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-monthpicker-rtl .ui-monthpicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-monthpicker-rtl .ui-monthpicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-monthpicker-rtl .ui-monthpicker-buttonpane {
+	clear: right;
+}
+.ui-monthpicker-rtl .ui-monthpicker-buttonpane button {
+	float: left;
+}
+.ui-monthpicker-rtl .ui-monthpicker-buttonpane button.ui-monthpicker-current,
+.ui-monthpicker-rtl .ui-monthpicker-group {
+	float: right;
+}
+.ui-monthpicker-rtl .ui-monthpicker-group-last .ui-monthpicker-header,
+.ui-monthpicker-rtl .ui-monthpicker-group-middle .ui-monthpicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}

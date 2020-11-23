@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="true" id="cus0011" title="系统评价">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="demoMaxDay" fieldtype="5" formactiveid="3" horVer="0" initvalue="300" labelalign="3" labelname="可用额度" maxlength="400" mustinput="" readonly="" row="1" selrange="2"/>
+</form>

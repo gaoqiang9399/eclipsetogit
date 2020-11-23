@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="plPledgeList" para="eadis_page" title="押品明细货物清单" type="1">
+<tableitem align="2" filedname="fieldName" id="5" indexed="4" label="操作按钮" row="1" type="5" width="20" widthType="0"/>
+<tableitem align="2" filedname="billName" id="4" indexed="0" label="名称" row="1" type="0" typepara="/pledgeBaseInfoBill/listShowDetailAjax;pledgeBillNo-pledgeBillNo;oneUrl-'/pledgeBaseInfoBill/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="count" id="3" indexed="3" label="数量" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="billBrand" id="2" indexed="1" label="型号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="unitPrice" id="1" indexed="2" label="单价（元）" type="0" typepara="action;pledgeBillNo-pledgeBillNo;pledgeNo-pledgeNo;onclick-deletePledgeBaseInfoBill(this);" width="20" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInsuranceList" link="/mfCusInsurance/findByPage" para="eadis_page" title="保险信息" type="1">
+<tableitem align="2" filedname="insurancePactNo" id="5" indexed="5" label="保险合同编号" row="1" type="4" typepara="/mfCusInsurance/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusInsurance/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="insuranceCompany" id="4" indexed="4" label="保险公司" row="1" type="0"/>
+<tableitem align="2" filedname="insuranceTerm" id="12" indexed="12" label="保险期限(月)" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名" row="1" type="0"/>
+<tableitem align="2" filedname="beneficiary" id="10" indexed="10" label="受益人" row="1" type="0"/>
+<tableitem align="2" filedname="insuranceMan" id="8" indexed="8" label="投保人" row="1" type="0"/>
+<tableitem align="2" filedname="endTime" id="13" indexed="13" label="保险到期日" row="1" type="0"/>
+<tableitem align="2" filedname="insuranceAmt" id="7" indexed="7" label="投保金额(元)" row="1" type="0" widthType="0"/>
+</table>

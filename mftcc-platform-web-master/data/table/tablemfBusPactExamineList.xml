@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfBusPactExamineList" title="保后跟踪在保业务" type="2">
+<tableitem align="2" filedname="beginDate" id="6" indexed="5" label="主债权起始日" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="5" indexed="4" label="金额（万）" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="breed" id="4" indexed="3" label="业务品种" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="num" id="3" indexed="0" label="序号" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="2" indexed="1" label="合作金融机构" row="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="1" indexed="2" label="委托保证合同号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="7" indexed="6" label="主债权结束日" type="1" widthType="0"/>
+</table>

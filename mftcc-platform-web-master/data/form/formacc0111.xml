@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="acc0111" title="还款方式参数详情表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmNo" fieldtype="99" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="3" labelname="还款方式编号" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="mo" fieldsize="60" fieldtype="5" formactiveid="4" labelalign="3" labelcol="1" labelname="描述" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" fieldwidth="30" formactiveid="5" labelalign="3" labelcol="1" labelname="还款方式名称" labelwidth="20" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayTermType" fieldsize="AC_TERM_TYPE" fieldtype="21" fieldwidth="30" formactiveid="6" labelalign="3" labelcol="3" labelname="还款频率" labelwidth="20" mustinput="1" readonly="" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="repayTerm" fieldtype="1" fieldwidth="30" formactiveid="7" initvalue="1" labelalign="3" labelcol="1" labelname="还款周期" labelwidth="20" mustinput="1" readonly="" row="2"/>
+</form>

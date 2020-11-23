@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="rong360creditReport" para="eadis_page" title="征信报告" type="2">
+<tableitem align="2" filedname="idNum" id="6" indexed="3" label="证件编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="征信报告" id="5" indexed="6" label="-" type="5" typepara="/rong360/getCreditReportAjax;cusNo-id;idNum-idNum;relative-relative;onClick-rong360.openCreditReport(this)" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="pledgeShowNo" filedname="id" id="4" indexed="0" label="编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="name" id="3" indexed="1" label="名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="idType" id="2" indexed="2" label="证件类型" row="1" type="6" typepara="ID_TYPE" widthType="0"/>
+<tableitem align="2" filedname="数据采集" id="8" indexed="5" label="-" row="1" type="5" typepara="/rong360/checkCreditReportAjax;cusNo-id;idNum-idNum;relative-relative;onClick-rong360.checkCreditReport(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="relativeShow" id="7" indexed="4" label="关系" row="1" type="0" widthType="0"/>
+</table>

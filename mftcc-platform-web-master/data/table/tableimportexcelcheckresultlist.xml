@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelcheckresultlist" para="eadis_page" link="/mfImpotCheckResult/findByPage" title="历史数据导入校验配置表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="编号" row="1" type="4" typepara="/mfImpotCheckResult/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="configId" id="2" indexed="2" label="校验配置编号" row="1" type="0" />
+<tableitem align="2" filedname="hisId" id="3" indexed="3" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="importId" id="4" indexed="4" label="历史数据导入临时表编号" row="1" type="0" />
+<tableitem align="2" filedname="dataModel" id="5" indexed="5" label="数据模块1客户信息2授信信息3合同信息4借据信息5还款计划6还款历史7押品信息8担保信息(押品)9担保信息(担保人)" row="1" type="0" />
+<tableitem align="2" filedname="columnZh" id="6" indexed="6" label="字段中文名称" row="1" type="0" />
+<tableitem align="2" filedname="columnEn" id="7" indexed="7" label="字段属性名称" row="1" type="0" />
+<tableitem align="2" filedname="checkSts" id="8" indexed="8" label="校验是否通过0否1是" row="1" type="0" />
+<tableitem align="2" filedname="checkResult" id="9" indexed="9" label="校验结果" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfImpotCheckResult/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

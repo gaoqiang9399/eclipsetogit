@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="affiliate0001" para="eadis_page" link="/cusAffiliate/findByPage" title="挂靠公司信息" type="1">
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="idType" id="3" indexed="3" label="证件类型" row="1" type="0" />
+<tableitem align="2" filedname="idNo" id="4" indexed="4" label="证件号码" row="1" type="0" />
+<tableitem align="2" filedname="orgName" id="6" indexed="6" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regName" id="8" indexed="8" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="lstOrgName" id="10" indexed="10" label="最新登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="lstRegName" id="12" indexed="12" label="最新登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="13" indexed="13" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="lstDate" id="14" indexed="14" label="更新日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="16" indexed="16" label="-" row="1" type="5" typepara="/cusAffiliate/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

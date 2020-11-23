@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app1003" title="合同基本信息表">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="业务申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="2" labelalign="1" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户类型" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="1" labelcol="1" labelname="承租人客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="1" labelcol="1" labelname="承租人名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNo" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="证件号码" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="证件类型" maxlength="2" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="8" labelalign="1" labelcol="1" labelname="产品类别" maxlength="2" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="销售产品号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="prodName" fieldtype="1" formactiveid="10" labelalign="1" labelcol="1" labelname="业务品种" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="金融产品编号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="finaName" fieldtype="1" formactiveid="12" labelalign="1" labelcol="1" labelname="金融方案" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="leaseType" fieldsize="LEASE_TYPE" fieldtype="21" formactiveid="13" labelalign="1" labelcol="1" labelname="租赁方式" maxlength="2" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="supplierNo" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="供货商客户号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="supplierName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="供货商名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proxyNo" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="经销商" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="proxyName" fieldtype="1" formactiveid="17" labelalign="1" labelcol="1" labelname="经销商名称" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="21" formactiveid="18" horVer="0" labelalign="1" labelcol="1" labelname="担保方式" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="glNo" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="核算产品编号" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="icType" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="计息方式" maxlength="10" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="leaveCycleTerm" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="还款周期" maxlength="2" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustIntstMode" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="调息方式" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="adjustIntstCycle" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="调息周期" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calDateNum" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="年计算天数" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="frozenPeriod" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="冻土期开始月份" maxlength="2" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaveCycle" fieldtype="99" formactiveid="27" labelalign="3" labelcol="3" labelname="还款频率" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="depositRio" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" labelname="保证金比例" maxlength="10" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finalRio" fieldtype="99" formactiveid="35" labelalign="3" labelcol="1" labelname="尾款比例" maxlength="10" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receivableAmt" fieldtype="99" formactiveid="37" labelalign="3" labelcol="1" labelname="预收租金" maxlength="16" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseRate" fieldtype="99" formactiveid="39" labelalign="3" labelcol="1" labelname="基准利率" maxlength="10" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="floatType" fieldtype="99" formactiveid="40" labelalign="3" labelcol="3" labelname="浮动方式" maxlength="1" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="floatFlt" fieldtype="99" formactiveid="41" labelalign="3" labelcol="1" labelname="浮动值" maxlength="10" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="overRate" fieldtype="99" formactiveid="42" labelalign="3" labelcol="1" labelname="逾期利率" maxlength="10" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="fineRate" fieldtype="99" formactiveid="43" labelalign="3" labelcol="1" labelname="罚息利率" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serviceAmt" fieldtype="99" formactiveid="45" labelalign="3" labelcol="1" labelname="服务费" maxlength="16" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nameAmt" fieldtype="99" formactiveid="46" labelalign="3" labelcol="3" labelname="留购价款" maxlength="16" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="authFlag" fieldsize="AUTH_FLAG" fieldtype="21" formactiveid="47" labelalign="1" labelcol="1" labelname="使用授信额度标志" maxlength="1" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appDate" fieldtype="99" formactiveid="48" labelalign="3" labelcol="3" labelname="提报日期" maxlength="8" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="curType" fieldsize="CUR_TYPE" fieldtype="21" formactiveid="49" labelalign="1" labelcol="1" labelname="币种" maxlength="3" mustinput="0" row="10"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="50" labelalign="1" labelcol="1" labelname="起租日期" maxlength="8" mustinput="0" readonly="1" row="14"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="endDate" fieldtype="1" formactiveid="51" labelalign="1" labelcol="1" labelname="到期日期" maxlength="8" mustinput="0" readonly="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payDay" fieldtype="99" formactiveid="52" labelalign="3" labelcol="3" labelname="租金支付日" maxlength="2" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="conSts" fieldsize="CON_STS" fieldtype="21" formactiveid="53" labelalign="1" labelcol="1" labelname="合同状态" maxlength="2" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appRegTel" fieldtype="99" formactiveid="54" labelalign="3" labelcol="3" labelname="业务受理人电话" maxlength="20" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="appRegName" fieldtype="99" formactiveid="55" labelalign="3" labelcol="1" labelname="业务受理人名称" maxlength="80" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="grade" fieldtype="99" formactiveid="56" labelalign="3" labelcol="3" labelname="项目评级结果" maxlength="3" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeScore" fieldtype="99" formactiveid="57" labelalign="3" labelcol="1" labelname="项目评级得分" maxlength="16" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelNo" fieldtype="99" formactiveid="58" labelalign="3" labelcol="3" labelname="评级模型编号" maxlength="10" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appForm" fieldtype="99" formactiveid="59" labelalign="3" labelcol="1" labelname="申请表单ID" maxlength="60" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appEndDate" fieldtype="99" formactiveid="60" labelalign="3" labelcol="3" labelname="终审日期" maxlength="8" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payFeeNo" fieldtype="99" formactiveid="61" labelalign="3" labelcol="1" labelname="缴费编号" maxlength="30" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="acNo" fieldtype="99" formactiveid="62" labelalign="3" labelcol="3" labelname="结算账号" maxlength="30" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acName" fieldtype="99" formactiveid="63" labelalign="3" labelcol="1" labelname="结算账号户名" maxlength="80" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="acBank" fieldtype="99" formactiveid="64" labelalign="3" labelcol="3" labelname="结算账号开户行号" maxlength="30" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="acBankName" fieldtype="99" formactiveid="65" labelalign="3" labelcol="1" labelname="结算账号开户行名称" maxlength="80" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="oldEndDate" fieldtype="99" formactiveid="66" labelalign="3" labelcol="3" labelname="原到期日期" maxlength="8" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stopCumuInd" fieldtype="99" formactiveid="67" labelalign="3" labelcol="1" labelname="停息标志" maxlength="1" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termLimit" fieldtype="99" formactiveid="68" labelalign="3" labelcol="3" labelname="剩余期限" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docFinishFlag" fieldtype="99" formactiveid="69" labelalign="3" labelcol="1" labelname="归档状态" maxlength="1" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="proName" fieldtype="1" formactiveid="70" labelalign="1" labelcol="1" labelname="批次" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="loanObj" fieldsize="LOAN_OBJ" fieldtype="21" formactiveid="71" labelalign="1" labelcol="1" labelname="放款对象" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loanBank" fieldtype="99" formactiveid="72" labelalign="3" labelcol="3" labelname="还款银行" maxlength="1" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="areaId" fieldtype="1" formactiveid="73" labelalign="1" labelcol="1" labelname="区域编号" maxlength="10" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaNo" fieldtype="99" formactiveid="74" labelalign="3" labelcol="3" labelname="省市代码" maxlength="6" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="99" formactiveid="75" labelalign="3" labelcol="1" labelname="备注" maxlength="250" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="manageNo" fieldtype="99" formactiveid="76" labelalign="3" labelcol="3" labelname="客户经理编号" maxlength="30" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageName" fieldtype="99" formactiveid="77" labelalign="3" labelcol="1" labelname="客户经理名称" maxlength="80" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="78" labelalign="3" labelcol="3" labelname="登记人" maxlength="30" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="79" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upRegNo" fieldtype="99" formactiveid="80" labelalign="3" labelcol="3" labelname="最后更新操作员" maxlength="30" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upRegName" fieldtype="99" formactiveid="81" labelalign="3" labelcol="1" labelname="最后更新操作员名称" maxlength="80" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="82" labelalign="3" labelcol="3" labelname="登记机构" maxlength="10" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="83" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="upOrgNo" fieldtype="99" formactiveid="84" labelalign="3" labelcol="3" labelname="最后更新登记机构" maxlength="10" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upOrgName" fieldtype="99" formactiveid="85" labelalign="3" labelcol="1" labelname="最后更新登记机构名称" maxlength="80" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="86" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="87" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="33"/>
+<formelement datatype="1" fieldalign="3" fieldcol="2" fieldname="leaseNum" fieldtype="1" formactiveid="88" horVer="0" labelalign="1" labelcol="1" labelname="租赁物数量" mustinput="" readonly="" row="11" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="cla" fieldsize="FIVE_STS" fieldtype="21" formactiveid="89" horVer="0" labelalign="1" labelcol="1" labelname="五级分类" mustinput="" readonly="" row="19" />
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="appDate" fieldtype="1" formactiveid="90" horVer="0" labelalign="1" labelcol="1" labelname="提报日期" mustinput="" readonly="1" row="20" />
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="appEndDate" fieldtype="1" formactiveid="91" horVer="0" labelalign="1" labelcol="1" labelname="终审日期" mustinput="" readonly="1" row="21" />
+</form>

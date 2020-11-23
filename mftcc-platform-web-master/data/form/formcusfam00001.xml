@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusfam00001" title="社会关系">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relative" fieldsize="CUS_PERS_REL" fieldtype="21" formactiveid="4" labelalign="3" labelcol="1" labelname="与客户关系" maxlength="2" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="PERS_ID_TYPE" fieldtype="21" formactiveid="5" labelalign="3" labelcol="1" labelname="证件类型" maxlength="1" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="证件号码" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="姓名" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldsize="SEX" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="性别" maxlength="1" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relTel" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="联系电话" maxlength="20" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="workUnit" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="工作单位" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="12" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="社管关系id" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="postalAddress" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="联系地址" mustinput="" readonly="" row="5"/>
+</form>

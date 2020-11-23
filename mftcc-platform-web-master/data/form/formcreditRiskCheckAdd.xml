@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditRiskCheckAdd" title="授信风险检查申请">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalScenceNo" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="风险模型" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="rptType" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="4" labelname="报表类型" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalAppNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="4" labelname="评级申请号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="appId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="4" labelname="申请号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="creditAppId" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="4" labelname="授信申请id" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="useType" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="4" labelname="使用类型即入口类型" mustinput="" readonly="" row="8"/>
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="vou1141" title="211.商标使用权 GRT_P_TRADEMARK">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guarantyId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="96" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="trademarkRegNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="商标注册证号" maxlength="240" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="signOrg" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="签发单位" maxlength="240" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="signDate" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="签发日期" maxlength="24" mustinput="0" row="2"/>
+</form>

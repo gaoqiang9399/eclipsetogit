@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfBusFeePlanHistoryDetail0001_GCDB" para="eadis_page" title="工程担保" type="1">
+<tableitem align="3" filedname="feeAmtSum" id="6" indexed="10" label="费用合计（元）" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="feeAmt1" id="10" indexed="8" label="担保费（元）" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="feeAmt3" id="9" indexed="9" label="手续费（元）" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="8" indexed="7" label="收费日期" type="1" widthType="0"/>
+</table>

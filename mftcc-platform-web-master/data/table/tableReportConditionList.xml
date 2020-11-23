@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ReportConditionList" link="MfReportQueryConditionConfigAction_findByPage.action" para="eadis_page" title="报表查询条件展示列表" type="1">
+<tableitem align="2" filedname="conditonShow" id="8" indexed="7" label="查询条件" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="jsonFlag" id="7" indexed="5" label="返回类型" row="1" type="6" typepara="JSON_FLAG" widthType="0"/>
+<tableitem align="2" filedname="sqlJavaFlag" id="6" indexed="4" label="实现方式" row="1" type="6" typepara="SQL_JAVA_FLAG" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="5" indexed="8" label="启用标志" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="reportName" id="3" indexed="2" label="报表名称" row="1" type="0"/>
+<tableitem align="2" filedname="详情" id="12" indexed="9" label="-" type="5" typepara="/mfReportQueryConditionConfigSet/getById;id-id;onClick-MfReportQueryConditionConfig.getDetailPage(this)" widthType="0"/>
+<tableitem align="2" filedname="reportId" id="2" indexed="3" label="报表编号" row="1" type="0"/>
+<tableitem align="2" filedname="配置条件" id="11" indexed="10" label="-" row="1" type="5" widthType="0"/>
+<tableitem align="2" filedname="删除" id="10" indexed="12" label="-" row="1" type="5" typepara="/mfReportQueryConditionConfigSet/deleteAjax;id-id;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

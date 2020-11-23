@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0020" title="历史任务查询">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" formactiveid="1" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="业务申请号" mustinput="" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="6" fieldname="createTime" fieldtype="1" formactiveid="3" labelalign="3" labelcol="5" labelname="开始时间" mustinput="" onclick="fPopUpCalendarDlg(createTime)" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="8" fieldname="endTime" fieldtype="1" formactiveid="4" labelalign="3" labelcol="7" labelname="结束时间" mustinput="" onclick="fPopUpCalendarDlg(endTime)" readonly="1" row="1"/>
+</form>

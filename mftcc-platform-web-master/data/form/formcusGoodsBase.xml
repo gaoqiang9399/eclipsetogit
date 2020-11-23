@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusGoodsBase" title="产品产能基础表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="产品号" maxlength="20" mustinput="0" row="1"/>
+<formelement alt="请输入产品名称" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="goodsName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="goodsIntroduce" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="产品简介" maxlength="200" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="saleArea" fieldsize="SALE_AREA" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="销售区域" maxlength="1" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="goodsRule" fieldsize="GOODS_RULE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="产品遵守规则" maxlength="1" mustinput="1" row="5"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="goodsEqupment" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="主要设备及生产线" maxlength="200" mustinput="0" row="6"/>
+<formelement alt="请输入一定时间内一般能生产的产品数量" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="normalGoodsAbility" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="正常生产能力" maxlength="50" mustinput="0" row="7"/>
+<formelement alt="请输入一定时间内的最大生产数量" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="maxGoodsPotential" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="最大生产潜力" maxlength="50" mustinput="0" row="8"/>
+<formelement alt="请输入正常情况下交货所需时间" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="normalDeliveryCycle" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="正常交货周期" maxlength="20" mustinput="0" row="9"/>
+<formelement alt="请输入交货所需的最短时间" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="minDeliverryCycle" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="最短交货周期" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cycleUnit" fieldsize="TERM_TYPE" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="周期单位" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="developmentAbility" fieldsize="DEVELOPMENT_ABILITY" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="设计开发能力" maxlength="1" mustinput="1" row="11"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="22" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="注册时间" maxlength="17" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastModTime" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="90" formactiveid="23" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+</form>

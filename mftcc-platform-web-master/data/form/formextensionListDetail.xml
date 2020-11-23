@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="extensionListDetail" title="展期详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extenFincRate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="展期利率" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="extenCmpdFloat" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="展期复利利率上浮" mustinput="0" readonly="1" row="3" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="5" fieldname="extenCmpdRate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="展期复利利率" mustinput="" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="extenOverFloat" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="展期逾期利率上浮" mustinput="" readonly="1" row="3" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="extenOverRate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="展期逾期利率" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="extenBeginDate" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="展期起始日期" mustinput="" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="extenEndDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="4" labelname="展期结束日期" mustinput="" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="extenTerm" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="展期期限" mustinput="" readonly="1" row="1" unit="个月"/>
+</form>

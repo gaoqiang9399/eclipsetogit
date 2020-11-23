@@ -1,0 +1,244 @@
+@import "./formVariable.less";
+@import "./console.less";
+@import "./formAttributeSetting.less";
+@import "./validate.less";
+@import "./rightClick.less";
+@borderPx:2px;
+.left-nav {
+  width: @left_nav_width;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  background: @left_nav_background;
+  overflow: hidden;
+  .drag {
+    cursor: move;
+    margin: auto;
+  }
+}
+
+.cloneDisplayObj {
+  .fa {
+    width: 20px;
+    font-size: 14px;
+    margin-right: 25px;
+  }
+}
+
+.mainContent {
+  width: @mainContent_width;
+  float: right;
+  position: relative;
+  height: 3000px;
+  overflow: hidden;
+  .setProperties {
+    //    width: 85%;
+    //    height: @mainTool_height+20;
+    //    position: fixed;
+    //    left: @mainTool_left;
+    //    z-index: 3;
+    //    background: @white;
+    border-bottom: solid 1px #ccc;
+
+    #drag-calculator, #drag-fromData, #initFormButton {
+      position: relative;
+      .arrow-down {
+        left: 45%;
+      }
+    }
+
+    .btn-group {
+      .caret {
+        margin-left: 5px;
+      }
+    }
+
+    .fa {
+      margin-right: 5px;
+    }
+
+    .arrow-down {
+      display: none;
+      position: absolute;
+      bottom: -@arrowWidth;
+      width: 0px;
+      height: 0px;
+      border-left: @arrowWidth solid transparent;
+      border-right: @arrowWidth solid transparent;
+
+      font-size: 0px;
+      line-height: 0px;
+      z-index: 10;
+    }
+
+    .arrow-down-red {
+      border-top: @arrowWidth solid @validateRedBorder;
+    }
+
+    .arrow-down-green {
+      border-top: @arrowWidth solid @validateGreenBorder;
+    }
+    .arrow-down-yellow {
+      border-top: @arrowWidth solid @validateYellowBorder;
+    }
+    .arrow-down-orange {
+      border-top: @arrowWidth solid @validateOrangeBorder;
+    }
+
+  }
+
+  table {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: @mainTool_height + 20;
+    table-layout: fixed;
+    td {
+      border: 1px @th_border_color solid;
+      height: @td_height;
+      line-height: @td_height;
+      font-size: 12pt;
+      position: relative;
+      transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    }
+
+    .dbClickTd {
+      border:  @borderPx solid @td_green;
+    }
+    .clickTdSelect {
+      border:  @borderPx solid @td_green;
+    }
+    .clickTdSelectR {
+      border:  @borderPx solid @td_green;
+      border-width:  @borderPx  @borderPx  @borderPx 0;
+    }
+    .clickTdSelectL {
+      border:  @borderPx solid @td_green;
+      border-width:  @borderPx 0  @borderPx  @borderPx;
+    }
+  }
+}
+
+.whowContent {
+  box-shadow: 5px 5px 3px #c3c5c7;
+  margin-top: 20px;
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 10px;
+  .showHead {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: none;
+    padding-bottom: 10px;
+    h1 {
+      padding-left: 30px;
+      font-size: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      width: 230px;
+    }
+  }
+}
+
+.tableShow {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding-bottom: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: none;
+  padding-bottom: 20px;
+  overflow: auto;
+  margin-top: -10px;
+}
+
+#delColCtrl {
+  height: 10px;
+  margin-top: 50px;
+  margin-left: 4.2%;
+  margin-right: 4.5%;
+  position: fixed;
+  z-index: 3;
+}
+
+#table2 {
+  table-layout: fixed;
+  margin-left: 1%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  tbody tr {
+    .addRowCol {
+      position: absolute;
+      span {
+        position: absolute;
+        z-index: 2;
+        width: 6px;
+        height: 6px;
+        color: #428bca;
+        font-size: 18px;
+        cursor: pointer;
+        opacity: 0.5
+        //      display: none;
+      }
+      span:hover {
+        opacity: 1;
+      }
+    ;
+      span:active {
+        color: red;
+      }
+    }
+  }
+}
+
+.delColCtrl {
+  float: left;
+  text-align: center;
+  height: 10px;
+  span {
+    color: #428bca;
+    position: relative;
+    top: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+    opacity: 0.5;
+    //    display: none;
+    float: left;
+  }
+  .delFlag {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+  }
+  span:hover {
+    opacity: 1;
+  }
+;
+  span:active {
+    color: red;
+  }
+}
+
+.delRowCtrl {
+  text-align: center;
+  span {
+    float: left;
+    color: #428bca;
+    cursor: pointer;
+    position: relative;
+    display: none;
+    opacity: 0.5;
+  }
+  span:hover {
+    opacity: 1;
+  }
+;
+  span:active {
+    color: red;
+  }
+}
+
+.displayNone {
+  display: none;
+}

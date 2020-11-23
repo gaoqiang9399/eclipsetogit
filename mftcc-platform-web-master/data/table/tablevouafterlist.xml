@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vouafterlist" link="/mfVouAfterTrack/findByPage" para="eadis_page" title="工程担保保后跟踪" type="1">
+<tableitem align="2" filedname="详情" id="86" indexed="86" label="-" row="1" type="5" typepara="/mfVouAfterTrack/getById;id-id;onClick-MfVouAfterTrack_List.detail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="80" indexed="3" label="委托担保合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfVouAfterTrack_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="projectName" id="9" indexed="11" label="项目名称" mytitle="项目名称-projectName" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="6" indexed="8" label="担保金额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="5" indexed="7" label="担保期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="breedName" id="3" indexed="5" label="业务品种" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="beneficiary" id="12" indexed="13" label="受益人" mytitle="受益人-beneficiary" row="1" sortType="2" type="3" typepara="15" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="4" label="申请人" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfVouAfterTrack_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

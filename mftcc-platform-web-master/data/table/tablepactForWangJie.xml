@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pactForWangJie" para="eadis_page" title="历史完结业务列表" type="1">
+<tableitem align="1" filedname="cusName" id="6" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;busEntrance-'pact';onClick-getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="0" label="合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;pactId-pactId;appId-appId;fincId-fincId;busEntrance-'pact';onClick-getDetailPage(this);subStringNub-16;" width="20" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="12" indexed="1" label="产品种类" row="1" sortType="2" type="0" width="165" widthType="1"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="3" label="放款完结金额(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="10" indexed="9" label="合同期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactFinishDate" id="16" indexed="12" label="合同完结日期" mytitle="借据编号-fincShowId;" type="1" widthType="0"/>
+</table>

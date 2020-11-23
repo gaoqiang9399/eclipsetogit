@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="capitalimplentmentwarning" para="eadis_page" title="资金落实预警列表" type="1">
+<tableitem align="2" authority="warningSts-1;" filedname="登记" id="15" indexed="14" label="-" row="1" type="5" typepara="/mfBusFincApp/capitalInput;warningId-warningId;entrance-0;onClick-MfCapitalImplementDetail_Insert.capitalInput(this);" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="6" indexed="0" label="客户名称" mytitle="???????-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;fincId-fincId;cusType-'1';busEntrance-'3';onClick-MfCapitalImplementDetail_Insert.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="3" label="借据展示号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="委托保证合同号" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;pactId-pactId;appId-appId;busEntrance-'3';onClick-MfCapitalImplementDetail_Insert.getPactDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="warningSts" id="11" indexed="13" label="登记状态" row="1" sortType="2" type="6" typepara="WARNING_STS" widthType="0"/>
+<tableitem align="3" filedname="warningAmt" id="2" indexed="4" label="到期担保金额（元）" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="1" indexed="10" label="到期日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" authority="warningSts-0;" filedname="落实详情" id="16" indexed="15" label="-" row="1" type="5" typepara="/mfBusFincApp/capitalDetail;warningId-warningId;onClick-MfCapitalImplementDetail_Insert.capitalDetail(this);" widthType="0"/>
+</table>

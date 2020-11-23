@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="lawsuitperformregdetail" title="执行金额情况登记详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="performId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="执行登记编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="performPrcp" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="执行本金" maxlength="20" mustinput="1" param="performId;" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="performIntst" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="执行利息" maxlength="20" mustinput="1" param="performId;" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="performCost" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="执行费用" maxlength="20" mustinput="1" param="performId;" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="unallocatedAmtStr" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="4" labelname="待分配金额" maxlength="20" mustinput="0" param="performId;" readonly="1" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="6" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extInt2" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" labelname="预留整数型" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="caseId" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="4" labelname="案件编号" mustinput="" readonly="" row="1"/>
+</form>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dlcollateralformconfig0001" para="eadis_page" title="押品表单配置" type="5">
+<tableitem align="2" authority="useFlag-0" filedname="表单重置" id="6" indexed="12" label="-" type="99" typepara="MfCollateralFormConfigActionAjax_resetFormAjax.action;id-id;onclick-resetForm" width="2" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="5" indexed="6" label="是否启用" row="1" type="4" typepara="/mfCollateralFormConfig/updateStsAjax.action;id-id;"/>
+<tableitem align="2" filedname="isBase" id="3" indexed="5" label="是否基础表单" row="1" type="99" typepara="/mfCollateralFormConfig/updateStsAjax;id-id;"/>
+<tableitem align="2" filedname="tableDes" id="2" indexed="2" label="表单名称" row="1" type="0"/>
+<tableitem align="2" authority="showType-1" filedname="列表详情表单" id="10" indexed="10" label="-" row="1" type="99" typepara="/mfCollateralFormConfig/checkAndCreateFormAjax.action;id-id;onclick-formDesignThis('3')" widthType="0"/>
+<tableitem align="2" filedname="新增表单" id="9" indexed="8" label="-" row="1" type="99" typepara="/mfCollateralFormConfig/checkAndCreateFormAjax.action;id-id;onclick-formDesignThis('1')" widthType="0"/>
+<tableitem align="2" filedname="isMust" id="8" indexed="7" label="是否必填" row="1" type="4" typepara="/mfCollateralFormConfig/updateStsAjax.action;id-id;"/>
+<tableitem align="2" authority="showType-2" filedname="展示表单" id="7" indexed="9" label="-" row="1" type="99" typepara="/mfCollateralFormConfig/checkAndCreateFormAjax.action;id-id;onclick-formDesignThis('2')" width="2" widthType="0"/>
+</table>

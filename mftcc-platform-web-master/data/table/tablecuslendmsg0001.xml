@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cuslendmsg0001" para="eadis_page" title="消息模板" type="1">
+<tableitem align="2" filedname="cuslendWarnNo" id="12" indexed="2" label="模板ID" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recCusType" id="11" indexed="6" label="接收人" row="1" type="6" typepara="MSG_RECIVER_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cuslendWarnName" id="2" indexed="3" label="消息模板名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="sendType" id="10" indexed="7" label="发送类型" row="1" type="6" typepara="MSG_SEND_TYPE" widthType="0"/>
+<tableitem align="2" filedname="详情" id="9" indexed="15" label="-" row="1" type="5" typepara="/cuslendWarning/getMsgModleDetailPage;cuslendWarnNo-cuslendWarnNo;onClick-updateVar" widthType="0"/>
+<tableitem align="2" filedname="flag" id="8" indexed="8" label="是否启用" row="1" type="4" typepara="/cuslendWarning/updateFlagAjax;cuslendWarnNo-cuslendWarnNo;" widthType="0"/>
+</table>

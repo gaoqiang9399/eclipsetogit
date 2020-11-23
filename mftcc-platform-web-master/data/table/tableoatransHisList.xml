@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="oatransHisList" para="eadis_page" title="移交实例列表" type="1">
+<tableitem align="2" filedname="idNum" id="22" indexed="2" label="证件号码" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="transBrName" id="19" indexed="10" label="移交人所属区域" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="transReason" id="21" indexed="8" label="移交原因" mytitle="移交原因-transReason" row="1" sortType="2" type="3" typepara="50" width="10" widthType="0"/>
+<tableitem align="2" filedname="recBrName" id="20" indexed="12" label="接收人所属区域" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="18" indexed="5" label="用款申请号" mytitle="用款申请号-fincShowId" sortType="2" type="3" typepara="50" width="10" widthType="0"/>
+<tableitem align="2" filedname="recOpName" id="8" indexed="11" label="接收人" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="16" indexed="1" label="客户名称" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="15" indexed="4" label="银行合同号" mytitle="银行合同号-pactNo" row="1" type="3" typepara="50" width="10" widthType="0"/>
+<tableitem align="2" filedname="creditPactNo" id="14" indexed="3" label="授信合同号" mytitle="授信合同号-creditPactNo" row="1" type="3" typepara="50" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="13" indexed="19" label="申请人" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="transTime" id="4" indexed="13" label="移交时间" row="1" sortType="2" type="1" width="5" widthType="0"/>
+<tableitem align="2" filedname="transOpName" id="12" indexed="9" label="移交人" row="1" sortType="2" type="0" width="5" widthType="0"/>
+</table>

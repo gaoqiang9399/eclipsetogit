@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusAssetValueAnalyseBase" para="eadis_page" title="客户权益分析" type="1">
+<tableitem align="2" filedname="initialCapital" id="14" indexed="1" label="启动资本(元)" row="1" type="4" typepara="/mfCusAssetValueAnalyse/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusAssetValueAnalyse/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="3" filedname="durateDisposableIncomeTotal" id="12" indexed="2" label="期间可支配收入合计(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="durateOutNotOftenPay" id="11" indexed="3" label="期间表外非经常性支出(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="assetDepreciate" id="10" indexed="4" label="资产折旧(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="durateAssetInject" id="19" indexed="5" label="期间注资" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="ownerAssetValue" id="18" indexed="7" label="所有者权益(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="13" label="-" type="5" typepara="/mfCusAssetValueAnalyse/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+</table>

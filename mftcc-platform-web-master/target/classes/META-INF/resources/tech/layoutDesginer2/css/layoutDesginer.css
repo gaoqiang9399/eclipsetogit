@@ -1,0 +1,152 @@
+html,body{
+	height: 100%;
+	overflow: hidden;
+}
+.cell-config{
+	width:100%;
+	height:100%;
+	background-color: #ebebeb;
+	border-radius: 5px;
+}
+.layout{
+	bottom: 0;
+	padding: 8px;
+    position: absolute;
+    top: 48px;
+    overflow-y: auto;
+    width: 100%;
+}
+.cell-config .modal-body .btn {
+    background-color: #e6edf7;
+    border: 1px solid #c4cede;
+    border-radius: 0;
+    float: left;
+    text-align: left;
+}
+.cell-config .modal-content {
+    background-color: #eaeff7;
+    border: 1px solid #c8c8c8;
+}
+.cell-config .modal-header {
+    background-color: #e1e1e1;
+    border-bottom: 1px solid #d7d7d7;
+    height: 56px;
+    margin-bottom: 3px;
+}
+.cell-config .close {
+	width: 30px;
+	height: 30px;
+	background-color: #C0C0C0;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+}
+.cell-config .close span {
+    color: #ffffff;
+}
+.form-control {
+    background-color: #d4deec;
+    height: 25px;
+    padding: 0 6px;
+}
+.filter_col_input input {
+    display: inline-block;
+}
+.cell-config .table-hover>tbody>tr:hover>td,
+.cell-config .table-hover>tbody>tr:hover>th {
+	background-color: #E0E6F2;
+}
+.cell-config .table{
+	margin: 0;
+}
+.cell-config .table tbody{
+	width: 100%;
+}
+.cell-config .table td{
+	border: 0 none;
+	text-align: right;
+}
+.cell-config .table .filter_col_input{
+	border: 0 none;
+	text-align: left;
+}		
+.row.clearfix{
+	float: right;
+}
+/*.tab-content{
+	padding: 10px;
+}*/
+.cell-config .dropdown-toggle {
+    background-color: #d4deec;
+    padding: 1px 12px 2px;
+}
+.info_hover {
+    border-color: #8E8E8E;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(142, 142, 142, 0.6);
+    outline: 0 none;
+}
+.pluginBorder .btn{
+	background-color: #999999;
+    color: #ffffff;
+    font-size: 10px;
+    margin: 3px 3px 0 0;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+}
+.plugin-query {
+	width: 100%;
+	height: auto;
+	display: none;
+}
+.nui-ico-smartTrash-head,
+.sr1 {
+  transform-origin: right bottom 0;
+  transition: transform 150ms ease-in-out 0s;
+}
+.nui-ico-smartTrash:hover .nui-ico-smartTrash-head,
+.mu1:hover .sr1 {
+  transform: rotate(25deg);
+}
+.nui-ico-smartTrash {
+  height: 13px;
+  overflow: visible;
+  position: relative;
+  width: 11px;
+}
+.nui-ico-smartTrash:hover {
+  cursor: pointer;
+}
+.console .nui-ico-smartTrash {
+  margin-right: 10px;
+}
+.nui-ico-smartTrash-body {
+  background:url("../imgs/smartTrash-body.png");
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+.nui-ico-smartTrash-head {
+  background:url("../imgs/smartTrash-head.png");
+  height: 3px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  width: 11px;
+}
+.nui-ico-smartTrash:hover .nui-ico-smartTrash-body {
+  background:url("../imgs/smartTrash-body.png");
+ }
+.nui-ico-smartTrash:hover .nui-ico-smartTrash-head {
+  background:url("../imgs/smartTrash-head.png");
+ }
+.tableTrash {
+  float: right;
+}
+.cell-config td{
+	text-align: right;
+}

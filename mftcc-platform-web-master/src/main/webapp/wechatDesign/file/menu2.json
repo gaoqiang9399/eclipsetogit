@@ -1,0 +1,304 @@
+{
+	"zNodes":[
+		{"id":1, 	"pId":0, "lv":1, "name": "九宫格",	"property":"jgg" ,"icon":"wx-jgg"},
+		{"id":4, 	"pId":0, "lv":1, "name": "Tabbar",	"property":"tabbar","icon":"wx-tabbar"},
+		{"id":5, 	"pId":0, "lv":1, "name": "导航栏",	"property":"dhl","icon":"wx-tab"},
+		{"id":7, 	"pId":0, "lv":2, "name": "布局",		"property":"panel" ,"icon":"wx-tabbar"},
+		{"id":8, 	"pId":0, "lv":2, "name": "按钮",		"property":"btn" ,"icon":"wx-button"},
+		{"id":9, 	"pId":0, "lv":2, "name": "提交按钮",		"property":"submit" ,"icon":"wx-button"},
+		{"id":11, 	"pId":0, "lv":2, "name": "日期",		"property":"datepicker" ,"icon":"wx-date"},
+		{"id":12, 	"pId":0, "lv":2, "name": "选择器",	"property":"picker" ,"icon":"wx-orderselect"},
+		{"id":13, 	"pId":0, "lv":2, "name": "日期时间","property":"timepicker" ,"icon":"wx-time"},
+		{"id":14, 	"pId":0, "lv":2, "name": "输入框","property":"text" ,"icon":"wx-input"},
+		{"id":14, 	"pId":0, "lv":2, "name": "密码域","property":"password" ,"icon":"wx-input"},
+		{"id":15, 	"pId":0, "lv":2, "name": "文本域","property":"textarea" ,"icon":"wx-textarea"},
+		{"id":16, 	"pId":0, "lv":2, "name": "下拉选择","property":"select" ,"icon":"wx-select"},
+		{"id":17, 	"pId":0, "lv":2, "name": "隐藏域","property":"hidden" ,"icon":"wx-hidden"},
+		{"id":18, 	"pId":0, "lv":2, "name": "单选","property":"radio" ,"icon":"wx-radio"},
+		{"id":19, 	"pId":0, "lv":2, "name": "复选","property":"checkbox" ,"icon":"wx-checkbox"}
+	],
+	"property":{
+		"jgg":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"数量","name":"num","type":"value"}
+		],
+		"bd":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"}
+		],
+		"xxy":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"点击确定事件","name":"onOk","type":"value"},
+			{"disName":"点击取消事件","name":"onCancel","type":"value"},
+			{"disName":"图标","name":"icon","type":"selectValue",
+				"opt":[
+				{"key":"图标","val":"css"},
+				{"key":"图片","val":"img"}
+				]
+			},
+			{"disName":"标题","name":"title","type":"value"},
+			{"disName":"内容","name":"content","type":"value"}
+		],
+		"tabbar":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"数量","name":"num","type":"value"}
+		],
+		"dhl":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"数量","name":"num","type":"value"}
+		],
+		"panel":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标题名称","name":"title","type":"value"},
+			{"disName":"是否显示标题","name":"titleshow","type":"select",
+				"opt":[
+					{"key":"否","val":"0"},
+					{"key":"是","val":"1"}
+				]
+			},
+			{"disName":"类型","name":"type","type":"select",
+				"opt":[
+					{"key":"正常","val":"0"},
+					{"key":"表单","val":"1"},
+					{"key":"列表","val":"2"}
+				]
+			},
+			{"disName":"布局","name":"grid","type":"select",
+				"opt":[
+					{"key":"1x1","val":"1"},
+					{"key":"1x2","val":"2"},
+					{"key":"1x3","val":"3"}
+				]
+			}
+		],
+		"swiper":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"数量","name":"num","type":"value"},
+			{"disName":"点击事件","name":"click","type":"value"},
+			{"disName":"图片地址","name":"imgUrl","type":"value"},
+			{"disName":"名称","name":"name","type":"value"}
+		],
+		"btn":[
+			{"disName":"pkno",			"name":"pkno",		"type":"hidden" ,"prop":""},
+			{"disName":"order",			"name":"order",		"type":"hidden" ,"prop":""},
+			{"disName":"ID",			"name":"domid",		"type":"value" ,"prop":""},
+			{"disName":"Class",			"name":"domclass",	"type":"value" ,"prop":""},
+			{"disName":"点击事件",		"name":"click",		"type":"value" ,"prop":""},
+			{"disName":"名称",			"name":"name",		"type":"value" ,"prop":""},
+			{"disName":"不可操作条件",	"name":"disabled",	"type":"value" ,"prop":""},
+			{"disName":"基本类型",			"name":"css",		"type":"select","prop":"",
+				"opt":[
+				{"key":"默认按钮","val":"weui_btn_default"},
+				{"key":"主显按钮","val":"weui_btn_primary"},
+				{"key":"警告按钮","val":"weui_btn_warn"}
+				]
+			}
+		],
+		"submit":[
+			{"disName":"pkno",			"name":"pkno",		"type":"hidden" ,"prop":""},
+			{"disName":"order",			"name":"order",		"type":"hidden" ,"prop":""},
+			{"disName":"ID",			"name":"domid",		"type":"value" ,"prop":""},
+			{"disName":"Class",			"name":"domclass",	"type":"value" ,"prop":""},
+			{"disName":"AJAX_URL",		"name":"click",		"type":"value" ,"prop":""},
+			{"disName":"名称",			"name":"name",		"type":"value" ,"prop":""},
+			{"disName":"不可操作条件",	"name":"disabled",	"type":"value" ,"prop":""},
+			{"disName":"基本类型",			"name":"css",		"type":"select","prop":"",
+				"opt":[
+				{"key":"默认按钮","val":"weui_btn_default"},
+				{"key":"主显按钮","val":"weui_btn_primary"},
+				{"key":"警告按钮","val":"weui_btn_warn"}
+				]
+			}
+		],
+		"jdt":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"进度（%）","name":"num","type":"value"}
+		],
+		"search":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"Class","name":"domclass","type":"value"}
+		],
+		"text":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"长度","name":"maxlength","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"获取焦点事件",		"name":"focus",		"type":"value"},
+			{"disName":"点击事件",			"name":"click",		"type":"value"},
+			{"disName":"失去焦点事件",		"name":"blur",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"password":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"长度","name":"maxlength","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"获取焦点事件",		"name":"focus",		"type":"value"},
+			{"disName":"点击事件",			"name":"click",		"type":"value"},
+			{"disName":"失去焦点事件",		"name":"blur",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"textarea":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"长度","name":"maxlength","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"获取焦点事件",		"name":"focus",		"type":"value"},
+			{"disName":"点击事件",			"name":"click",		"type":"value"},
+			{"disName":"失去焦点事件",		"name":"blur",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"select":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"字典项名称","name":"parmkey","type":"value"},
+			{"disName":"自定义参数","name":"custom","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"点击事件",			"name":"click",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"checkbox":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"字典项名称","name":"parmkey","type":"value"},
+			{"disName":"自定义参数","name":"custom","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"picker打开事件",		"name":"open",		"type":"value"},
+			{"disName":"picker关闭事件",		"name":"close",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"radio":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"字典项名称","name":"parmkey","type":"value"},
+			{"disName":"自定义参数","name":"custom","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"picker打开事件",		"name":"open",		"type":"value"},
+			{"disName":"picker关闭事件",		"name":"close",		"type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		],
+		"picker":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"字典项名称","name":"parmkey","type":"value"},
+			{"disName":"自定义参数","name":"custom","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"},
+			{"disName":"picker关闭事件",		"name":"close",		"type":"value"}
+		],
+		"datepicker":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"picker打开事件",		"name":"open",		"type":"value"},
+			{"disName":"picker关闭事件",		"name":"close",		"type":"value"},
+			{"disName":"改变事件",				"name":"change",	"type":"value"}
+		],
+		"timepicker":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"Class","name":"domclass","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"标签名称","name":"name","type":"value"},
+			{"disName":"提示信息","name":"placeholder","type":"value"},
+			{"disName":"必填","name":"mustinput","type":"switch"},
+			{"disName":"只读","name":"readonly","type":"switch"},
+			{"disName":"确认选择",			"name":"close",		"type":"value"}
+		],
+		"hidden":[
+			{"disName":"pkno","name":"pkno","type":"hidden"},
+			{"disName":"order","name":"order","type":"hidden"},
+			{"disName":"ID","name":"domid","type":"value"},
+			{"disName":"字段名称","name":"fieldname","type":"value"},
+			{"disName":"改变事件",			"name":"change",		"type":"value"}
+		]
+	},
+	"datatype":[
+		{"optcode":"0","optname":"String"},
+		{"optcode":"1","optname":"Int"},
+		{"optcode":"2","optname":"Long"},
+		{"optcode":"3","optname":"Double"},
+		{"optcode":"4","optname":"Float"},
+		{"optcode":"5","optname":"Date"},
+		{"optcode":"6","optname":"Time"},
+		{"optcode":"7","optname":"金额(元)"},
+		{"optcode":"8","optname":"金额(万元)"},
+		{"optcode":"9","optname":"金额(亿元)"},
+		{"optcode":"10","optname":"百分号%"},
+		{"optcode":"11","optname":"千分号‰"},
+		{"optcode":"12","optname":"时间戳"}
+	]
+}

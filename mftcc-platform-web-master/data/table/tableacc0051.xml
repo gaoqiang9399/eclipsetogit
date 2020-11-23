@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0051" para="eadis_page" link="/acComCurNoCde/findByPage" title="公共币种表" type="1">
+<tableitem align="2" filedname="curNo" id="1" indexed="1" label="币种" row="1" type="4" typepara="/acComCurNoCde/getById;curNo-curNo;query-'query'"/>
+<tableitem align="2" filedname="curNoName" id="2" indexed="2" label="币种名称" row="1" type="0" />
+<tableitem align="2" filedname="curBase" id="3" indexed="3" label="计算基础" row="1" type="0" />
+<tableitem align="2" filedname="useInd" id="4" indexed="4" label="是否启用" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="5" indexed="5" label="-" row="1" type="5" typepara="/acComCurNoCde/getById;curNo-curNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="6" indexed="6" label="-" row="1" type="5" typepara="/acComCurNoCde/del;curNo-curNo;onClick-lkconfirm" width="2"/>
+</table>

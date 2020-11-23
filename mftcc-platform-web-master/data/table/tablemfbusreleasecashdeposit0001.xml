@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusreleasecashdeposit0001" para="eadis_page" title="保证金释放申请表" type="2">
+<tableitem align="2" filedname="appTime" id="8" indexed="10" label="申请时间" row="1" sortType="1" type="1" typepara="/mfBusReleaseCashDeposit/getById;releaseId-releaseId;" widthType="0"/>
+<tableitem align="1" filedname="appStationName" id="7" indexed="7" label="申请岗" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="appSts-1;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;reqType-02;" filedname="申请" id="15" indexed="13" label="-" row="1" sortType="2" type="99" typepara="/mfBusReleaseCashDeposit/submitAppAjax;releaseId-releaseId;appSts-appSts;onClick-MfBusReleaseCashDeposit.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="3" filedname="releaseAmount" id="5" indexed="3" label="释放金额" sortType="2" type="4" typepara="/mfBusReleaseCashDeposit/getById;releaseId-releaseId;cusNo-cusNo;onClick-MfBusReleaseCashDeposit.getById" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;reqType-02;" filedname="复核" id="14" indexed="14" label="-" row="1" sortType="2" type="99" typepara="/mfBusReleaseCashDeposit/submitChkAjax;releaseId-releaseId;appSts-appSts;onClick-MfBusReleaseCashDeposit.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-1;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;" filedname="提交" id="13" indexed="15" label="-" row="1" sortType="2" type="99" typepara="/mfBusReleaseCashDepositWkf/processSubmitAjax;wkfAppId-wkfAppId;onClick-MfBusReleaseCashDeposit.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="12" indexed="12" label="申请状态" row="1" type="6" typepara="HM_APP_STS" widthType="0"/>
+<tableitem align="2" filedname="chkTime" id="11" indexed="11" label="复核时间" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="chkStationName" id="10" indexed="9" label="复核岗" row="1" sortType="2" type="0" widthType="0"/>
+</table>

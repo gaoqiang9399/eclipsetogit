@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cushou00002" title="房屋土地信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="houseInfoId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="房屋土地信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="area" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="房屋面积" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="struct" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="房屋结构" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="type" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="资产类型" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="place" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="位置" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="value" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="价值" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="purchase" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="购置情况" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buildDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="建设日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="holdDate" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="取得日期" maxlength="8" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="realtyNo" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="房产证号" maxlength="40" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certifAuthName" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="发证机构名称" maxlength="60" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="state" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="使用状态" maxlength="1" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="登记人编号" maxlength="22" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="登记部门编号" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="21"/>
+</form>

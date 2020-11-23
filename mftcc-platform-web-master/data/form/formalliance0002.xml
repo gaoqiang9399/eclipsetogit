@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="alliance0002" title="联保体">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="allianceName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="联保体名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanLimit" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="授信额度" maxlength="10" mustinput="0" param="bigAmt" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loopFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="额度是否可循环" mustinput="0" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceLeaderId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="组长id" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="信用村" mustinput="" onclick="selectAreaByStepLoadingDialog(MfBusAllianceInsert.selectAreaCallBack);" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="validBeginDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="有效开始日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="validEndDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="有效结束日期" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCode" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="信用村id" mustinput="" readonly="" row="13"/>
+</form>

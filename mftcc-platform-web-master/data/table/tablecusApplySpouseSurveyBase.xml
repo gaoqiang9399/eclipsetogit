@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusApplySpouseSurveyBase" para="eadis_page" link="/mfCusApplySpouseSurvey/findByPage" title="申请人配偶调查表" type="1">
+<tableitem align="2" filedname="删除" id="38" indexed="38" label="-" row="1" type="5" typepara="/mfCusApplySpouseSurvey/deleteAjax;surveyId-surveyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

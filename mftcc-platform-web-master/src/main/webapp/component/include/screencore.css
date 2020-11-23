@@ -1,0 +1,205 @@
+/**
+  *页面提交时，锁屏效果
+  */
+#screenLockDiv {
+	display: none;
+	z-index: 180;
+	background: url(loading.gif) no-repeat center;
+	background-color: #ddd;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/**
+  *页面select框长度控制
+  */
+.form_select {
+	width:130px;
+}
+/**
+  *文本输入域显示剩余字数的DIV样式
+  */
+.chars-info {
+	position:absolute;
+	right:24px;
+	bottom:4px;
+	line-height:15px;
+	background:#FFF;
+	display:none;
+	font-family:Georgia, Tahoma, Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#666666;
+}
+/**
+  *文本输入域外层DIV的样式，用这个样式嵌套之后，才能使用文本输入域显示剩余字数的效果
+  */
+.textarea-div {
+	padding:0px;
+	margin:0px;
+	position:relative;
+	float:left;
+	zoom:1;
+}
+/**
+  *文本输入域，文本框，悬浮时变色的
+  */
+.text-border {
+  	cursor: text;
+  	/*
+  	border: #F60 solid 1px;
+  	*/
+}
+/**
+  *文本输入域，文本框，获取焦点时候变色的
+  */
+.text-border2 {
+  	/*
+  	border: #F60 solid 1px;
+  	*/
+  	background-color: #EDFFB8;
+}
+/**
+  *select 框外层span获取焦点时候变色的
+  */
+.select-span {
+	border:1px solid #F60;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:0px;
+	margin-right:0px;
+	
+}
+/**
+  *因要控制select 框悬浮时，框变色效果，所以需要将本身样式进行修改
+  */
+.select-border {
+	position:relative;
+	margin-left:-1px;
+	margin-top:-1px;
+	margin-bottom:-1px;
+	left:-1px;
+}
+/**
+  *表单题头的样式
+  background: url(logotitle.jpg) no-repeat;
+  
+  .bartitle{
+	background-position: 0px -12px;
+  	font-family: "microsoft yahei", "宋体";
+	font-size: 20px;
+	font-weight: bold;
+	padding: 8px; 
+	background:#E2F2E9;
+}
+
+
+
+.bartop{
+	background-color: #C1F4BE;
+	line-height: 26px;
+	color:#348639;
+	font-weight: bold;
+}
+.bartopnoheigh{
+	background-color: #C1F4BE;
+	color:#000000
+}
+
+  */
+
+
+/**
+  *列表 表头鼠标放上去的时候，变成可点击手势
+  */
+table.bartable thead tr .header {cursor: pointer;}/*表头鼠标手势*/
+
+/**
+  *表单 中金额类型 靠右显示的样式(未使用)。
+  */
+.amounttype{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+
+/**
+  * TABLE配置文件中按钮的样式
+  */
+.ico_button2All{
+	/*
+	font-size:12px;
+	color:#0000FF;
+	text-align:center;
+    width:28px;
+    height:21px;
+    background:#DDF2E3;
+    border:1px;
+    border-style:solid;
+    border-color:#44BB6B  #44BB6B #44BB6B #44BB6B;
+    */
+    height:26px;
+    padding-top:0px; padding-bottom:2px; margin:0px 0px;
+}
+.ico_button3All{
+	/*
+	font-size:12px;
+	color:#0000FF;
+	text-align:center;
+    width:40px;
+    height:21px;
+    background:#DDF2E3;
+    border:1px;
+    border-style:solid;
+    border-color:#44BB6B  #44BB6B #44BB6B #44BB6B;
+    */
+    height:26px;
+    padding-top:0px; padding-bottom:2px; margin:0px 0px;
+}
+.ico_button4All{
+	/*
+	font-size:12px;
+	color:#0000FF;
+	text-align:center;
+    width:50px;
+   
+    background:#DDF2E3;
+    border:1px;
+    border-style:solid;
+    border-color:#44BB6B  #44BB6B #44BB6B #44BB6B;
+    */
+    height:26px;
+    padding-top:0px; padding-bottom:2px; margin:0px 0px;
+}
+/**
+  * 分页中超链接不可点的样式
+  */
+.pageli{
+	color:#AAAAAA; 
+}
+/*
+.BOTTOM_LINE
+{
+	FONT-WEIGHT: normal;
+	FONT-COLOR: black; 
+	COLOR: #666666; 	
+    	BACKGROUND-COLOR: #FFFFFF;
+    	BORDER-BOTTOM: #dddddd 1px solid;
+    	BORDER-LEFT: #dddddd 0px solid; 
+	BORDER-RIGHT: #dddddd 0px solid; 
+	BORDER-TOP: #dddddd 0px solid
+}
+*/
+.barvalue{
+	margin: 5px;
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+/**
+  * 分页中超链接不可点的样式
+  */
+.listOpStyle{
+	text-align:center;
+	color:#AAAAAA; 
+}
+.qujianchaxun {padding:0;margin:0;width:40px;}

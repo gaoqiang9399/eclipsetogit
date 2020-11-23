@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlcollateralcerti0001" para="eadis_page" link="" title="权证信息" type="2">
+<tableitem align="2" filedname="certiId" id="1" indexed="1" label="数据ID" row="1" type="4" typepara="/certiInfo/getByIdAjax;certiId-certiId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="certiNo" id="2" indexed="2" label="权证编号" row="1" type="0" />
+<tableitem align="2" filedname="certiOrg" id="3" indexed="3" label="发证机构" row="1" type="0" />
+<tableitem align="2" filedname="certiAmount" id="4" indexed="4" label="权证价值" row="1" type="0" />
+<tableitem align="2" filedname="certiStartDate" id="5" indexed="5" label="权证发放日期" row="1" type="0" />
+<tableitem align="2" filedname="certiDueDate" id="6" indexed="6" label="权证到期日期" row="1" type="0" />
+<tableitem align="2" filedname="recDate" id="7" indexed="7" label="接收时间" row="1" type="0" />
+<tableitem align="2" filedname="recCusId" id="8" indexed="8" label="接收人编号" row="1" type="0" />
+<tableitem align="2" filedname="recCusName" id="9" indexed="9" label="接收人名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeId" id="10" indexed="10" label="押品编号" row="1" type="0" />
+</table>

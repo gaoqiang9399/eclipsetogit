@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssstorehouse0001" para="eadis_page" title="仓库信息表" trDbClick="/pssStorehouse/getDetailPage;storehouseId-storehouseId;onDbClick-getDetailPage;" type="2">
+<tableitem align="2" filedname="storehouseMobile" id="6" indexed="8" label="联系人电话" row="1" sortType="2" type="0" width="13" widthType="0"/>
+<tableitem align="1" filedname="storehouseAddr" id="5" indexed="5" label="仓库地址" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="storehouseKeeper" id="4" indexed="7" label="联系人" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="flag" id="3" indexed="9" label="使用状态" row="1" sortType="1" type="4" typepara="/pssStorehouse/updateFlagAjax;storehouseId-storehouseId;" width="10" widthType="0"/>
+<tableitem align="1" filedname="storehouseName" id="2" indexed="2" label="仓库名称" row="1" sortType="1" type="4" typepara="/pssStorehouse/getDetailPage;storehouseId-storehouseId;onClick-getDetailPage;" width="15" widthType="0"/>
+<tableitem align="1" filedname="brName" id="8" indexed="4" label="所属机构" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="storehousePhone" id="7" indexed="6" label="固定电话" row="1" sortType="2" type="0" width="12" widthType="0"/>
+</table>

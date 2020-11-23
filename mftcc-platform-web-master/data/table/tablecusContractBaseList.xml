@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusContractBaseList" para="eadis_page" title="合同订单列表" type="1">
+<tableitem align="2" filedname="growthRate" id="6" indexed="8" label="合同额增长率(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="signYear" id="4" indexed="3" label="签约年份" row="1" type="4" typepara="/mfCusContract/getDetailByAjax;contractId-contractId;cusNo-cusNo;oneUrl-'/mfCusContract/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="contractAmt" id="3" indexed="4" label="合同额(万元)" row="1" type="15" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="21" indexed="23" label="-" row="1" type="5" typepara="/mfCusContract/getById;contractId-contractId;cusNo-cusNo;oneUrl-'/mfCusStaff/updateAjax';onClick-updateCusTableInfo(this);" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="20" indexed="24" label="-" type="5" typepara="/mfCusContract/deleteAjax.action;contractId-contractId;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" width="20" widthType="0"/>
+</table>

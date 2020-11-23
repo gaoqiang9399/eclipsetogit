@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="fiveclassapplyDetail" title="五级分类批量详情">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="sumCount" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="汇总笔数" mustinput="" readonly="1" row="1" unit="笔"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="sumAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="汇总金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="normalCnt" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="正常类" mustinput="" readonly="1" row="2" unit="笔"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="focusCnt" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="关注类" mustinput="" readonly="1" row="2" unit="笔"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="secondaryCnt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="次级类" mustinput="" readonly="1" row="3" unit="笔"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="suspiciousCnt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="可疑类" mustinput="" readonly="1" row="3" unit="笔"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="lossCnt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="损失类" mustinput="" readonly="1" row="4" unit="笔"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="1" row="5"/>
+</form>

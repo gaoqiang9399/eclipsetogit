@@ -1,0 +1,244 @@
+.queryTiaoJian{
+		/* display:none; */
+		margin-top:30px;
+	}
+	.i-jia1{
+		background-color:#31B6CE;
+		color:white;
+	}
+	.addQuery .i-jia1{
+		background-color:#fff;
+		color:#5AC3DE;
+		font-size:45px;
+	}
+	.query-condtion{
+		background:#F3F3F3;
+	}
+	
+	.title{
+		color:#31B6CE;
+		margin-top:5px;
+	}
+	.btn-lg3{
+		margin-top:10px;
+		width:178;
+		height:45;
+	}
+	.mysearch-div{
+		margin-top:15px;
+	}
+	.save{
+		background-color:#5AC3DE;
+		width:170px;
+		height:45px;
+		color:white;
+	}
+	.cancle{
+		width:170px;
+		height:45px;
+	}
+	
+	
+<!-- xinjia -->
+
+.rotate-title{
+	color: #32b5cb;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.rotate-div{
+	display: inline-block;
+	height: 110px;
+	padding: 20px;
+	width: 320px;
+	padding-left: 25px;
+	padding-right: 25px;
+	cursor: pointer;
+}
+.rotate-obj{
+	height: 70px;
+	border: 2px solid #FCB865;
+	text-align: center;
+	position: relative;
+}
+.rotate-obj1{
+	height: 70px;
+	border: none;
+	text-align: center;
+	position: relative;
+	background: #D1D1D1;
+}
+.rotate-des{
+	height: 68px;
+	color: #FCB865;
+	font-size: 16px;
+	font-weight: bold;
+}
+.rotate-des1{
+	height: 70px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+.rotate-formName{
+	border: none;
+	margin-top: 20px;
+}
+.rotate-opre{
+	display:none;
+	height: 67px;
+	width:100%;
+	text-align: center;
+	background: #7D7D7D;
+	opacity: 0.7;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+.rotate-opre1{
+	display:none;
+	height: 70px;
+	width:100%;
+	text-align: center;
+	background: #81C3CF;
+	opacity: 0.7;
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+.rotate-obj:hover .rotate-opre{
+	display: block;
+}
+.rotate-obj1:hover .rotate-opre1{
+	display: block;
+}
+
+.rotate-sanjiao {
+	position: absolute;
+	right: 0;
+	font-size: 40px;
+}
+
+.rotate-bitian{
+	position: absolute;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	top: 2px;
+	right: -1px;
+	color:#fff;
+}
+.rotate-bitian1{
+	position: absolute;
+	color: #FCB865;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	top: 2px;
+	right: -1px;
+	color:red;
+}
+.rotate-add{
+	color: #32b5cb;
+	font-size: 18px;
+	cursor: pointer;
+	background: white;
+	border: none;
+	height: 35px;
+	width: 35px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.rotate-xiexian{
+	border: 1px solid red;
+	transform: rotate(45deg);
+	position: absolute;
+	width: 55px;
+	right: -8px;
+	top: 18px;
+}
+.rotate-del{
+	color: #32b5cb;
+	font-size: 18px;
+	cursor: pointer;
+	background: white;
+	border: none;
+	height: 35px;
+	width: 35px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#rotate-body{
+}
+.rotate-tubiao{
+	border: none;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	background: url("/factor/component/cus/images/xiaotubiao1.png");
+	margin-right: 15px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+.rotate-tubiaoBac1{
+	background: url("/factor/component/cus/images/xiaotubiao1.png");
+}
+.rotate-tubiaoBac2{
+	background: url("/factor/component/cus/images/xiaotubiao2.png");
+}
+.rotate-tubiaoBac3{
+	background: url("/factor/component/cus/images/xiaotubiao3.png");
+}
+.rotate-tubiaoBac4{
+	background: url("/factor/component/cus/images/xiaotubiao4.png");
+}
+.rotate-tubiaoBacH1{
+	background: url("/factor/component/cus/images/huixiaotubiao1.png");
+}
+.rotate-tubiaoBacH2{
+	background: url("/factor/component/cus/images/huixiaotubiao2.png");
+}
+.rotate-tubiaoBacH3{
+	background: url("/factor/component/cus/images/huixiaotubiao3.png");
+}
+.rotate-tubiaoBacH4{
+	background: url("/factor/component/cus/images/huixiaotubiao4.png");
+}
+.rotate-color1{
+	color: #FCB865;
+}
+.rotate-color2{
+	color: #5FC8DB;
+}
+.rotate-color3{
+	color: #81B960;
+}
+.rotate-color4{
+	color: #8EAFE4;
+}
+.rotate-borderColor1{
+	border-color: #FCB865;
+}
+.rotate-borderColor2{
+	border-color: #5FC8DB;
+}
+.rotate-borderColor3{
+	border-color: #81B960;
+}
+.rotate-borderColor4{
+	border-color: #8EAFE4;
+}
+.rotate-bac1{
+	background: #D1D1D1;
+}
+.rotate-bac2{
+	background: #81C3CF;
+}
+.rotate-bordernone{
+	border: none;
+}

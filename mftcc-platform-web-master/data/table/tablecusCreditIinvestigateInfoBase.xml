@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCreditIinvestigateInfoBase" para="eadis_page" title="客户征信信息" type="1">
+<tableitem align="2" filedname="cusName" id="14" indexed="1" label="客户名称" row="1" type="4" typepara="/mfCusAssetValueAnalyse/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusAssetValueAnalyse/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+<tableitem align="2" filedname="cusLoanFlag" id="12" indexed="2" label="借款人在我司信贷记录" type="0" widthType="0"/>
+<tableitem align="3" filedname="cusCompanyAssureBal" id="11" indexed="3" label="借款人公司内担保余额" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="assurerCompanyLoanBal" id="10" indexed="4" label="担保人公司内借款余额" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="assurerBankAssureBal" id="19" indexed="5" label="担保人行内担保余额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="13" label="-" row="1" type="5" typepara="/mfCusCreditInvestigateInfo/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" widthType="0"/>
+</table>

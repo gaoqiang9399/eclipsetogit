@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="expense0004" title="报销审批">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldsize="OPINION_TYPE_FIRST" fieldtype="4" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="审批意见类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transition" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="跳转路径" mustinput="" readonly="" row="4"/>
+</form>

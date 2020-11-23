@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archives00001" title="人事档案列表" type="1">
+<tableitem align="2" filedname="brName" id="5" indexed="7" label="部门" mytitle="部门-brName;" sortType="2" type="3" typepara="25" widthType="0"/>
+<tableitem align="2" filedname="opName" id="3" indexed="1" label="姓名" row="1" sortType="2" type="4" typepara="/mfOaArchivesBase/getById;baseId-baseId;onClick-OaArchivesList.ajaxGetById(this)" widthType="0"/>
+<tableitem align="2" filedname="position" id="2" indexed="8" label="职务" row="1" sortType="2" type="6" typepara="DUTIES" widthType="0"/>
+<tableitem align="2" filedname="opSts" id="10" indexed="9" label="在职状态" row="1" sortType="2" type="6" typepara="JOB_STS" widthType="0"/>
+<tableitem align="2" filedname="education" id="1" indexed="6" label="学历" row="1" sortType="2" type="6" typepara="EDU" widthType="0"/>
+<tableitem align="2" filedname="sex" id="9" indexed="2" label="性别" row="1" sortType="1" type="6" typepara="SEX"/>
+<tableitem align="2" filedname="tel" id="8" indexed="5" label="手机号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="7" indexed="3" label="身份证号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

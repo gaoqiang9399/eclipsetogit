@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditAgenciesList" para="eadis_page" title="授信合作银行额度" type="2">
+<tableitem align="2" filedname="extendTerm" id="32" indexed="14" label="延长期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="agenciesId" id="29" indexed="17" label="agenciesId" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="putoutTerm" id="31" indexed="13" label="提款期" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="areaNo" id="30" indexed="16" label="areaNo" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="banklNo" id="28" indexed="15" label="banklNo" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="27" indexed="12" label="授信额度" row="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="25" indexed="19" label="-" row="1" sortType="2" type="5" typepara="/mfCusHighChildInfo/getByIdAjax;highChildId-highChildId;oneUrl-'/mfCusHighChildInfo/updateAjax';onClick-MfCusHighInfo.updateHighChild(this);" width="3" widthType="0"/>
+<tableitem align="1" filedname="address" id="15" indexed="11" label="地址" row="1" sortType="2" type="0" width="30" widthType="0"/>
+<tableitem align="1" filedname="agenciesPhone" id="5" indexed="6" label="联系电话" row="1" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="agenciesName" id="4" indexed="3" label="支行" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="bankName" id="2" indexed="1" label="银行" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="1" filedname="areaName" id="1" indexed="2" label="地区" row="1" sortType="2" type="0" width="10" widthType="0"/>
+</table>

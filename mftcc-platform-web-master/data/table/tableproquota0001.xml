@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="proquota0001" para="eadis_page" link="/mfAppGiveCreditlineSum/findByPage" title="客户授信额度提升总汇表" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户号" row="1" type="4" typepara="/mfAppGiveCreditlineSum/getById;cusNo-cusNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="giveAmt" id="3" indexed="3" label="授信额度提升" row="1" type="0" />
+<tableitem align="2" filedname="restAmt" id="4" indexed="4" label="剩余额度" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="5" indexed="5" label="最后修改时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="7" indexed="7" label="-" row="1" type="5" typepara="/mfAppGiveCreditlineSum/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

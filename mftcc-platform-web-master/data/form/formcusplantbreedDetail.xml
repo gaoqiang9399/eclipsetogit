@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="cusplantbreedDetail" title="种植养殖信息">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="99" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="主键" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="99" maxlength="20" formactiveid="2" labelalign="1" labelcol="1" labelname="客户ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="infoType" fieldtype="1" maxlength="2" formactiveid="4" labelalign="1" labelcol="1" labelname="种养殖类型1种植2养殖" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="varieties" fieldtype="1" maxlength="100" formactiveid="5" labelalign="1" labelcol="1" labelname="品种" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="num" fieldtype="1" maxlength="20" formactiveid="6" labelalign="1" labelcol="1" labelname="亩数/出栏数" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="yield" fieldtype="1" maxlength="20" formactiveid="7" labelalign="1" labelcol="1" labelname="亩产/单个重量" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="price" fieldtype="1" maxlength="20" formactiveid="8" labelalign="1" labelcol="1" labelname="单价" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="income" fieldtype="1" maxlength="20" formactiveid="9" labelalign="1" labelcol="1" labelname="收入" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="seedPup" fieldtype="1" maxlength="20" formactiveid="10" labelalign="1" labelcol="1" labelname="种子/幼畜" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="feiFeed" fieldtype="1" maxlength="20" formactiveid="11" labelalign="1" labelcol="1" labelname="种子/幼畜" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pesticideCorn" fieldtype="1" maxlength="20" formactiveid="12" labelalign="1" labelcol="1" labelname="农药/玉米" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="dripSoybean" fieldtype="1" maxlength="20" formactiveid="13" labelalign="1" labelcol="1" labelname="滴灌费用/豆粕" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="laborCost" fieldtype="1" maxlength="20" formactiveid="14" labelalign="1" labelcol="1" labelname="劳务成本" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="otherFee" fieldtype="1" maxlength="20" formactiveid="15" labelalign="1" labelcol="1" labelname="其他费用" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="totalCost" fieldtype="1" maxlength="20" formactiveid="16" labelalign="1" labelcol="1" labelname="种植/养殖成本" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="profit" fieldtype="1" maxlength="20" formactiveid="17" labelalign="1" labelcol="1" labelname="种植/养殖毛收" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="premisesRental" fieldtype="1" maxlength="20" formactiveid="18" labelalign="1" labelcol="1" labelname="经营场地租金" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="wages" fieldtype="1" maxlength="20" formactiveid="19" labelalign="1" labelcol="1" labelname="人员工资" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="waterElec" fieldtype="1" maxlength="20" formactiveid="20" labelalign="1" labelcol="1" labelname="水、电、气费用" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="fixedExp" fieldtype="1" maxlength="20" formactiveid="21" labelalign="1" labelcol="1" labelname="固定支出" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="totalProfit" fieldtype="1" maxlength="20" formactiveid="22" labelalign="1" labelcol="1" labelname="养殖/种植净利润" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="500" formactiveid="23" labelalign="1" labelcol="1" labelname="说明" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="99" maxlength="22" formactiveid="24" labelalign="1" labelcol="1" labelname="登记人编号" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="99" maxlength="40" formactiveid="25" labelalign="1" labelcol="1" labelname="登记人姓名" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="99" maxlength="30" formactiveid="26" labelalign="1" labelcol="1" labelname="" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="99" maxlength="80" formactiveid="27" labelalign="1" labelcol="1" labelname="登记部门名称" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="99" maxlength="17" formactiveid="28" labelalign="1" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" maxlength="17" formactiveid="29" labelalign="1" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="delFlag" fieldtype="99" maxlength="1" formactiveid="30" labelalign="1" labelcol="1" labelname="删除位 1 删除 0 默认" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regDate" fieldtype="99" maxlength="8" formactiveid="31" labelalign="1" labelcol="1" labelname="登记日期 格式：20170619" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" maxlength="8" formactiveid="32" labelalign="1" labelcol="1" labelname="最后修改日期 格式：20170619" mustinput="0" row="61"/>
+</form>

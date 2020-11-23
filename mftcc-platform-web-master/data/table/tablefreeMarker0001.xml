@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="freeMarker0001" para="eadis_page" title="freemaker列表" type="1">
+<tableitem align="2" filedname="详情" id="15" indexed="19" label="-" row="1" type="5" typepara="/freeMarkerDownloadModel/getDetailPage;templateNo-templateNo;onClick-updateVar" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="4" indexed="4" label="操作员号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="downloadName" id="3" indexed="3" label="下载模板名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="modelName" id="2" indexed="2" label="模板名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="9" indexed="8" label="操作员名" row="1" type="6" typepara="MSG_RECIVER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="标签配置" id="17" indexed="18" label="-" row="1" type="5" typepara="/cuslendWarning/baseTagSet;templateNo-pliWarnNo;onClick-baseTagSet(this);" widthType="0"/>
+<tableitem align="2" filedname="flag" id="8" indexed="17" label="是否启用" type="4" typepara="/freeMarkerDownloadModel/updateFlagAjax;templateNo-templateNo;" widthType="0"/>
+<tableitem align="2" filedname="createTime" id="16" indexed="12" label="创建日期" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="loanpaymentbusmapinfolist" title="正在放款还款的业务" type="2">
+    <tableitem align="2" filedname="解除业务" id="6" indexed="5" label="操作" type="5"
+               typepara="/mfRepayment/doRemoveBusMapByFincIdAjax;busNo-busNo;fincId-fincId;onClick-doRemoveBusMapByFincId(this);"
+               widthType="0"/>
+    <tableitem align="2" filedname="busNo" id="5" indexed="1" label="业务编号" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="cusName" id="4" indexed="2" label="客户名称" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="appName" id="3" indexed="3" label="项目名称" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="busType" id="2" indexed="4" label="业务类型" row="1" type="0" widthType="0"/>
+    <tableitem align="2" filedname="fincId" id="7" indexed="0" label="fincId" row="1" type="99" widthType="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="bankStatementRegisterhiswkf" title="银行结算单审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="settlementMethod" fieldsize="SETTLEMENT_METHOD" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="结算方式" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payee" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="收款单位" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="issuingBank" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="出票银行" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useOfFunds" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="资金用途" mustinput="" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="registerAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="5" unit="元"/>
+</form>

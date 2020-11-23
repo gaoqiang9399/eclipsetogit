@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="returndebt0001" title="借款归还历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="部门" mustinput="" readonly="1" row="1" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="sumApplyAmt" fieldstyle="half" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="借款总额" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sumApplyAmt" fieldstyle="half" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="最后一次还款时间" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="申请人" mustinput="" readonly="1" row="1" />
+</form>

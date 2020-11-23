@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcCertificateDic002" para="eadis_page" title="车型字典项列表" type="2">
+<tableitem align="2" buttonMark="vc-vcCertificateDic-list-delete" filedname="删除" id="6" indexed="12" label="-" row="1" type="5" typepara="/vcCertificateDic/deleteAjax;dicId-dicId;onClick-ajaxDelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="dicName" id="5" indexed="2" label="车型名称" row="1" sortType="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="修改" id="12" indexed="10" label="-" row="1" type="5" typepara="/vcCertificateDic/getUpdatePage;dicId-dicId;onClick-openNewDiv(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="11" indexed="10" label="修改时间" sortType="1" type="30" width="16" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="10" indexed="9" label="修改人" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="9" indexed="8" label="登记时间" row="1" sortType="1" type="30" width="16" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="8" indexed="6" label="登记人" row="1" sortType="1" type="0" width="12" widthType="0"/>
+</table>

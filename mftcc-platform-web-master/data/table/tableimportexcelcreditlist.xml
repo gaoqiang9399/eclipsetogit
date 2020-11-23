@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelcreditlist" para="eadis_page" link="/mfImportCusCreditContract/findByPage" title="历史数据导入授信签约信息表" type="1">
+<tableitem align="2" filedname="importId" id="1" indexed="1" label="历史数据导入临时表编号" row="1" type="4" typepara="/mfImportCusCreditContract/getById;importId-importId;query-'query'"/>
+<tableitem align="2" filedname="pactNo" id="2" indexed="2" label="合同展示号" row="1" type="0" />
+<tableitem align="2" filedname="creditSum" id="3" indexed="3" label="授信总额(合同金额)" row="1" type="0" />
+<tableitem align="2" filedname="creditTerm" id="4" indexed="4" label="授信期限" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="5" indexed="5" label="开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="6" indexed="6" label="结束日期" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="7" indexed="7" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="8" indexed="8" label="客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="9" indexed="9" label="证件号码" row="1" type="0" />
+<tableitem align="2" filedname="pactSignDate" id="10" indexed="10" label="签约日期" row="1" type="0" />
+<tableitem align="2" filedname="isCeilingLoop" id="11" indexed="11" label="额度是否可循环" row="1" type="0" />
+<tableitem align="2" filedname="creditSts" id="12" indexed="12" label="授信审批状态0：未提交  1:已签约  2:审批中  3:审批通过  4:已否决" row="1" type="0" />
+<tableitem align="2" filedname="projectNo" id="13" indexed="13" label="项目编号" row="1" type="0" />
+<tableitem align="2" filedname="projectName" id="14" indexed="14" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="creditModel" id="15" indexed="15" label="授信模式。数据字典CREDIT_MODEL1客户授信2项目授信" row="1" type="0" />
+<tableitem align="2" filedname="signDate" id="16" indexed="16" label="合同签订日期" row="1" type="0" />
+<tableitem align="2" filedname="creditTermType" id="17" indexed="17" label="期限类型：1-月，2-天" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="18" indexed="18" label="登记人号" row="1" type="0" />
+<tableitem align="2" filedname="hisId" id="19" indexed="19" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="readResult" id="20" indexed="20" label="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" row="1" type="0" />
+<tableitem align="2" filedname="readSts" id="21" indexed="21" label="解析excel数据状态：0失败1成功" row="1" type="0" />
+<tableitem align="2" filedname="importSts" id="22" indexed="22" label="数据导入状态：0待导入1已导入" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="23" indexed="23" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="25" indexed="25" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="26" indexed="26" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="27" indexed="27" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="28" indexed="28" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="29" indexed="29" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="30" indexed="30" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="31" indexed="31" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="32" indexed="32" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="34" indexed="34" label="-" row="1" type="5" typepara="/mfImportCusCreditContract/deleteAjax;importId-importId;onClick-ajaxDelete(this)" width="2"/>
+</table>

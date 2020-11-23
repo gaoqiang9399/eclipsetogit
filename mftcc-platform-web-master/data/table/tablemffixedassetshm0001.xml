@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mffixedassetshm0001" para="eadis_page" title="固定资产贷款项目信息mf_fixed_assets_hm" type="2">
+<tableitem align="2" filedname="proOpenNo" id="15" indexed="15" label="建设工程开工许可证" row="1" type="0"/>
+<tableitem align="2" filedname="proPlanNo" id="14" indexed="14" label="建设工程规划许可证" row="1" type="0"/>
+<tableitem align="2" filedname="proLandNo" id="13" indexed="13" label="建设用地规划许可证" row="1" type="0"/>
+<tableitem align="2" filedname="proUsedNo" id="12" indexed="12" label="国有土地使用证" row="1" type="0"/>
+<tableitem align="2" filedname="proRate" id="10" indexed="10" label="投资比例" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="id" id="1" indexed="1" label="流水号" type="4" typepara="/mfFixedAssetsHm/getById;id-id;onClick-MfFixedAssetsHm.getById;" widthType="0"/>
+<tableitem align="2" filedname="proTotalAmt" id="8" indexed="8" label="投资总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="proName" id="7" indexed="7" label="项目名称" row="1" type="0"/>
+</table>

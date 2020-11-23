@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="finpaymanage0002" title="理财收益计划表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="planId" fieldtype="1" maxlength="50" formactiveid="1" labelalign="1" labelcol="1" labelname="流水号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busPactNo" fieldtype="1" maxlength="50" formactiveid="2" labelalign="1" labelcol="1" labelname="理财合同号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="客户号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="100" formactiveid="4" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="termNum" fieldtype="1" maxlength="50" formactiveid="5" labelalign="1" labelcol="1" labelname="收益期号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="showTermNum" fieldtype="1" maxlength="50" formactiveid="6" labelalign="1" labelcol="1" labelname="对外展示期号" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="planBeginDate" fieldtype="1" maxlength="17" formactiveid="7" labelalign="1" labelcol="1" labelname="本期收益开始日期" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="planEndDate" fieldtype="1" maxlength="17" formactiveid="8" labelalign="1" labelcol="1" labelname="本期计划还款日期(本期结束日期)" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" maxlength="20" formactiveid="9" labelalign="1" labelcol="1" labelname="合同金额" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="bidAmt" fieldtype="1" maxlength="20" formactiveid="10" labelalign="1" labelcol="1" labelname="投标金额" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="gainPrcp" fieldtype="1" maxlength="20" formactiveid="11" labelalign="1" labelcol="1" labelname="应收本金" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="gainIntst" fieldtype="1" maxlength="20" formactiveid="12" labelalign="1" labelcol="1" labelname="应收利息" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="serviceFee" fieldtype="1" maxlength="20" formactiveid="13" labelalign="1" labelcol="1" labelname="服务费" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="gainSum" fieldtype="1" maxlength="20" formactiveid="14" labelalign="1" labelcol="1" labelname="应收总金额" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="repayDate" fieldtype="1" maxlength="30" formactiveid="15" labelalign="1" labelcol="1" labelname="真实收益日期" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="outFlag" fieldtype="1" maxlength="2" formactiveid="16" labelalign="1" labelcol="1" labelname="收益计划状态 0-未还款 1-审批中 2-逾期 9-已还款" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="17" labelalign="1" labelcol="1" labelname="登记人号" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="40" formactiveid="18" labelalign="1" labelcol="1" labelname="登记人名称" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="10" formactiveid="19" labelalign="1" labelcol="1" labelname="登记机构号" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="brName" fieldtype="1" maxlength="80" formactiveid="20" labelalign="1" labelcol="1" labelname="登记机构名称" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="21" labelalign="1" labelcol="1" labelname="登记时间" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="22" labelalign="1" labelcol="1" labelname="最近修改时间" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="23" labelalign="1" labelcol="1" labelname="" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="24" labelalign="1" labelcol="1" labelname="" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="25" labelalign="1" labelcol="1" labelname="" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="26" labelalign="1" labelcol="1" labelname="" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="27" labelalign="1" labelcol="1" labelname="" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext6" fieldtype="1" maxlength="100" formactiveid="28" labelalign="1" labelcol="1" labelname="" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext7" fieldtype="1" maxlength="100" formactiveid="29" labelalign="1" labelcol="1" labelname="" mustinput="0" row="55"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext8" fieldtype="1" maxlength="100" formactiveid="30" labelalign="1" labelcol="1" labelname="" mustinput="0" row="57"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext9" fieldtype="1" maxlength="100" formactiveid="31" labelalign="1" labelcol="1" labelname="" mustinput="0" row="59"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext10" fieldtype="1" maxlength="100" formactiveid="32" labelalign="1" labelcol="1" labelname="" mustinput="0" row="61"/>
+</form>

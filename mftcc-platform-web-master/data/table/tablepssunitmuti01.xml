@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssunitmuti01" para="eadis_page" title="多单位信息表" trDbClick="/pssUnit/getDetailMutiPage;relId-relId;onDbClick-PssUnit_List.updateMutiUnit" type="1">
+<tableitem align="2" filedname="groupName" id="6" indexed="2" label="多单位组名称" row="1" type="4" typepara="/pssUnit/getDetailMutiPage;relId-relId;onClick-PssUnit_List.updateMutiUnit" width="70" widthType="0"/>
+<tableitem align="2" filedname="invalidFlag" id="8" indexed="8" label="启用标志" type="4" typepara="/pssUnit/updateMutiFlagAjax;unitId-unitId;" width="30" widthType="0"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cusfcon00002" title="客户表单配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nameZn" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="表单中文名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nameEn" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="表单英文名" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="formType" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="配置表单类型" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formBaseType" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="基础表单类型" maxlength="50" mustinput="0" row="5"/>
+</form>

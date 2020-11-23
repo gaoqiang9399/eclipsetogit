@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="apphis0001" para="eadis_page" link="/mfBusApplyHis/findByPage" title="保理申请审批历史表" type="1">
+<tableitem align="2" filedname="删除" id="87" indexed="87" label="-" row="1" type="5" typepara="/mfBusApplyHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

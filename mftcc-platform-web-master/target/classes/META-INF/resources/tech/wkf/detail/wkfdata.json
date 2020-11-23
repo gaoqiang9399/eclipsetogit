@@ -1,0 +1,157 @@
+[
+    {
+        "id": "start",
+        "name": "开始\\",
+        "group": "",
+        "groupName": "",
+        "user": "",
+        "userName": "",
+        "nextName": "node5431446925",
+        "type": "start"
+    },
+    {
+        "id": "node5431446925",
+        "name": "申请",
+        "group": "OA101",
+        "groupName": "",
+        "user": "FZRX036",
+        "userName": "陈文熖",
+        "nextName": "node5431442645",
+        "type": "task",
+        "state": "completed",
+        "create": "2017-03-08 09:17:26",
+        "end": "2017-03-08 09:27:26",
+        "result": "pass",
+        "approveIdea": "同意",
+        "appValue": {
+            "appVacationNo": "OA-AV-1000000016",
+            "nodeId": null,
+            "vacationHours": "14.0",
+            "wkfRoleNo": "OA101"
+        }
+    },
+    {
+        "id": "end1278798655",
+        "name": "结束",
+        "group": "",
+        "groupName": "",
+        "user": "",
+        "userName": "",
+        "nextName": "",
+        "type": "end"
+    },
+    {
+        "id": "node1613858124",
+        "name": "综合部人资\\",
+        "group": "OA103",
+        "groupName": "综合部人资(OA)",
+        "user": "FZRX036",
+        "userName": "张超",
+        "nextName": "node1613858126",
+        "type": "task",
+        "state": "open",
+        "create": "2017-05-02 04:13:26",
+        "end": "",
+        "result": "",
+        "approveIdea": "",
+        "appValue": {
+            "appVacationNo": "OA-AV-1000000016",
+            "nodeId": null,
+            "vacationHours": "14.0",
+            "wkfRoleNo": "OA101"
+        }
+    },
+    {
+        "id": "node1613858126",
+        "name": "综合部管理\\",
+        "group": "OA103",
+        "groupName": "综合部人资(OA)",
+        "user": "FZRX037",
+        "userName": "王超",
+        "nextName": "end1278798655",
+        "type": "task"
+    },
+    {
+        "id": "node5431442645",
+        "name": "员工",
+        "group": "OA101",
+        "groupName": "",
+        "user": "FZRX036",
+        "userName": "陈文熖",
+        "nextName": "node7774296857",
+        "type": "task",
+        "state": "completed",
+        "create": "2017-03-08 07:17:26",
+        "end": "2017-03-08 09:37:36",
+        "result": "pass",
+        "approveIdea": "信息以上无误,填写详细些以备后续可以更好的操作,希望下次改进.",
+        "appValue": {
+            "appVacationNo": "OA-AV-1000000016",
+            "nodeId": null,
+            "vacationHours": "14.0",
+            "wkfRoleNo": "OA101"
+        }
+    },
+    {
+        "id": "node4837853371",
+        "name": "总裁",
+        "group": "OA801",
+        "groupName": "总裁(OA)",
+        "user": "FZRX054",
+        "userName": "王希",
+        "nextName": "node6564288654",
+        "type": "task",
+        "state": "completed",
+        "create": "2017-03-08 09:17:26",
+        "end": "2017-03-08 09:17:26",
+        "result": "pass",
+        "approveIdea": "同意同意",
+        "appValue": {
+            "appVacationNo": "OA-AV-1000000016",
+            "nodeId": null,
+            "vacationHours": "14.0",
+            "wkfRoleNo": "OA101"
+        }
+    },
+    {
+        "id": "node7723447884",
+        "name": "部门负责人\\",
+        "group": "OA201,OA202OA202,OA201,OA201,OA201,OA201,OA201,OA201,OA201,OA201,OA202,OA201,OA202,OA201,OA201,OA201,OA201,OA201,OA201,OA201,OA201",
+        "groupName": "",
+        "user": "FZRX013,FZRX006",
+        "userName": "张林晶,黄航",
+        "nextName": "node6564288654",
+        "type": "task",
+        "state": "refused",
+        "create": "2017-03-08 09:17:26",
+        "end": "2017-03-08 09:17:26",
+        "result": "pass",
+        "approveIdea": "信息填写错误,不符合条件,后续会出现问题.希望申请的信息在完整些,保证人的信息也要填写完整.",
+        "appValue": {
+            "appVacationNo": "OA-AV-1000000016",
+            "nodeId": null,
+            "vacationHours": "14.0",
+            "wkfRoleNo": "OA101"
+        }
+    },
+    {
+        "id": "node7774296857",
+        "name": "分支",
+        "group": "",
+        "groupName": "",
+        "user": "",
+        "userName": "",
+        "nextName": "node4837853371,node7723447884",
+        "type": "decision"
+    },
+    {
+        "id": "node6564288654",
+        "name": "聚合",
+        "group": "",
+        "groupName": "",
+        "user": "",
+        "userName": "",
+        "nextName": "node1613858124",
+        "type": "join"
+    }
+]

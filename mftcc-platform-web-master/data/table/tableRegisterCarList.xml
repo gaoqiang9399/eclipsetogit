@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="RegisterCarList" link="/mfRegisterCarDetail/findByPage" para="eadis_page" title="登记提车地点" type="2">
+<tableitem align="2" filedname="pledgeName" id="11" indexed="8" label="租赁物名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="carArea" id="10" indexed="11" label="发货地址" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="9" indexed="10" label="联系电话" row="1" type="0"/>
+<tableitem align="2" filedname="contactsName" id="8" indexed="9" label="联系人" row="1" type="0"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CusSurveySpotBase" link="/mfCusSurveySpot/findByPage" para="eadis_page" title="现场调查-列表" type="1">
+<tableitem align="2" filedname="surveyDate" id="5" indexed="5" label="调查日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="surveyObj" id="4" indexed="4" label="调查对象" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" row="1" type="4" typepara="/mfCusSurveySpot/listShowDetailAjax;serialNo-serialNo;cusNo-cusNo;oneUrl-'/mfCusSurveySpot/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="29" indexed="29" label="-" type="5" typepara="/mfCusSurveySpot/deleteAjax;serialNo-serialNo;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+</table>

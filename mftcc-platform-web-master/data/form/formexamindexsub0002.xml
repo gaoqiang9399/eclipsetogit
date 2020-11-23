@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="examindexsub0002" title="贷后检查指标子项表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="subId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="子项编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="subNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="子项关联检查指标名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="subName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="子项名称" maxlength="500" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="子项说明" maxlength="1000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="启用标识" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="indexId" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="贷后检查指标编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexName" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="贷后检查评级指标名" maxlength="30" mustinput="0" row="7"/>
+</form>

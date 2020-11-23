@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="examrisk0002" title="风险模型配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="模型编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelName" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="模型名称" maxlength="50" mustinput="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="indexNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="检查指标" maxlength="1000" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="检查指标" maxlength="1000" mustinput="1" onclick="selectExamIndex()" readonly="1" row="2" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="YES_NO" fieldstyle="half" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="启用标识" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rulesNo" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="风险规则" maxlength="30" mustinput="1" row="3" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="模型说明" maxlength="400" mustinput="1" row="4" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" row="7"/>
+</form>

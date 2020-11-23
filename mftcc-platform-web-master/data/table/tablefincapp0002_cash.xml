@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincapp0002_cash" para="eadis_page" title="逾期金额列表" type="1">
+<tableitem align="2" filedname="intstEndDate" id="51" indexed="17" label="还款日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="putoutDate" id="11" indexed="16" label="放款日期" row="1" type="1"/>
+<tableitem align="2" filedname="loanBal" id="10" indexed="19" label="逾期金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="57" indexed="12" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overDays" id="56" indexed="20" label="逾期天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="55" indexed="9" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="53" indexed="11" label="项目名称" row="1" type="0" widthType="0"/>
+</table>

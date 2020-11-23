@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="DocManageAdd" title="要件列表新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="文件类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upload" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="选择文件" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="relNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="docType" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docBizNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="docBizNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="scNo" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="cusNo" mustinput="" readonly="" row="1"/>
+</form>

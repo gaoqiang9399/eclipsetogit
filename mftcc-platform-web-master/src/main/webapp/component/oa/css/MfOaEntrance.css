@@ -1,0 +1,319 @@
+body{
+	background: #F9F9F9;
+}
+.box {
+	position: relative;
+	background: #F9F9F9;
+	width: 100%;
+	min-height: 100%;
+	padding:15px 30px 0px;
+	margin-bottom:20px;
+}
+
+.btn-app {
+	border-radius: 5px;
+	position: relative;
+	padding: 25px 5px;
+	margin: 50px 0 0 50px;
+	min-width: 190px;
+	height: 132px;
+	text-align: center;
+	color: #666;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	font-size: 12px;
+	-webkit-box-shadow: -2px 4px 8px #ccc;
+	-moz-box-shadow: -2px 4px 8px #ccc;
+	box-shadow: -2px 4px 8px #ccc;
+}
+
+.btn-app:hover {
+	background: #f4f4f4;
+	color: #333;
+	border-color: #ccc;
+}
+
+
+.btn-app>.badge {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 20px;
+	padding: 3px;
+	min-width : 26px;
+}
+
+.badge i {
+	margin-right: 0px;
+}
+
+.btn-app div {
+	margin-top: 10px;
+}
+
+.btn-app .i {
+	margin-top: 10px;
+	font-size: 48px;
+	margin-right: 0px;
+}
+
+#notice span {
+	background-color: #EB7F7E;
+}
+
+#schedule span {
+	background-color: #43ADBD;
+}
+
+#trans span {
+	background-color: #3DB599;
+}
+
+#leave span {
+	background-color: #64A0EA;
+}
+
+#borrow span {
+	background-color: #9E7EF0;
+}
+
+#reimbursement span {
+	background-color: #EC7EB8;
+}
+
+#consumable span {
+	background-color: #EC9B80;
+}
+#consumableManage span {
+	background-color: #E35554;
+}
+
+#hosting span {
+	background-color: #9E7EF0;
+}
+
+#frontview span {
+	background-color: #EFAD5E;
+}
+
+#bbs span {
+	background-color: #91B16C;
+}
+
+#personnel span{
+	background-color: #53B5C7;
+}
+#personnel .i{
+	color: #53B5C7;
+}
+#mattersreported span{
+	background-color: #3826af;
+}
+#mattersreported .i{
+	color: #3826af;
+}
+#humanresources span{
+	background-color: #289dae;
+}
+#humanresources .i{
+	color: #289dae;
+}
+#trainingNeeds span{
+	background-color: #1e2ca0;
+}
+#trainingNeeds .i{
+	color: #1e2ca0;
+}
+#fullToPart span{
+	background-color: #94902d;
+}
+#fullToPart .i{
+	color: #94902d;
+}
+#dimission span{
+	background-color: #e006a6;
+}
+#dimission .i{
+	color: #e006a6;
+}
+#adjustment span{
+	background-color: #bd8cbb;
+}
+#adjustment .i{
+	color: #bd8cbb;
+}
+#becomeQualified span{
+	background-color: #1296db;
+}
+#becomeQualified .i{
+	color: #1296db;
+}
+#entryManagement span{
+	background-color: #5cc921;
+}
+#entryManagement .i{
+	color: #5cc921;
+}
+#stiff span {
+	background-color: #43ADBD;
+}
+
+#chapter_apply span {
+	background-color: #9E7EF0;
+}
+
+#chapter span {
+	background-color: #EC9B80;
+}
+
+#budget span {
+	background-color: #EB7F7E;
+}
+
+#fileCountersign span {
+	background-color: #E35554;
+}
+
+#openAccount span {
+	background-color: #3DB599;
+}
+
+#turnParagraph span {
+	background-color: #EFAD5E;
+}
+
+
+#stiff .i {
+	color: #43ADBD;
+}
+
+#chapter_apply .i {
+	color: #9E7EF0;
+}
+
+#chapter .i {
+	color: #EC9B80;
+}
+
+#budget .i {
+	color: #EB7F7E;
+}
+
+#fileCountersign .i {
+	color: #E35554;
+}
+
+#openAccount .i {
+	color: #3DB599;
+}
+
+#turnParagraph .i {
+	color: #EFAD5E;
+}
+
+
+
+#notice .i {
+	color: #EB7F7E;
+}
+
+#schedule .i {
+	color: #43ADBD;
+}
+
+#trans .i {
+	color: #3DB599;
+}
+
+#lawyer .i {
+	color: #3DB599;
+}
+
+#leave .i {
+	color: #64A0EA;
+}
+
+#borrow .i {
+	color: #9E7EF0;
+}
+
+#reimbursement .i {
+	color: #EC7EB8;
+}
+
+#consumable .i {
+	color: #EC9B80;
+}
+#consumableManage .i {
+	color: #E35554;
+}
+
+#hosting .i {
+	color: #9E7EF0;
+}
+
+#frontview .i {
+	color: #EFAD5E;
+}
+
+#bbs .i {
+	color: #91B16C;
+}
+
+#communication span {
+	background-color: #3DB599;
+}
+#communication .i {
+	color: #3DB599;
+}
+/* 关注相关 */
+.attention-link {
+	text-align: right;
+	margin-top: 0px !important;
+	color: #32b5cb;
+	display: none;
+}
+.btn-app:hover .attention-link{
+	display: inline;
+	float: right;
+}
+
+
+#applyMoney .i {
+	color: #EB7F7E;
+}
+
+#assetsManage .i, #accountManage .i ,#leaseManage .i{
+	color: #43ADBD;
+}
+
+#assetsQuery .i,#accountQuery .i, #leaseQuery .i {
+	color: #3DB599;
+}
+
+#assetsAccount .i {
+	color: #64A0EA;
+}
+
+#assetsProtect .i {
+	color: #9E7EF0;
+}
+
+#financingPlan .i {
+	color: #EC7EB8;
+}
+
+#assetsCategory .i,#accountCategory .i,#leaseCategory .i {
+	color: #EC9B80;
+}
+#assetsWarning .i,#accountWarning .i,#leaseWarning .i {
+	color: #E35554;
+}
+#blankTemplatePrint span{
+	background-color: #53B5C7;
+}
+#blankTemplatePrint .i{
+	color: #53B5C7;
+}

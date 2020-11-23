@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayhis0001" para="eadis_page" title="还款历史列表" type="2">
+<tableitem align="2" filedname="还款撤销" id="24" indexed="18" label="-" row="1" type="99" typepara="/mfBusUndoRecordApply/getMfBusUndoRecord;fincId-fincId;repayId-repayId;onClick-mfBusUndoRecordJsp" width="2" widthType="0"/>
+<tableitem align="2" filedname="againstAmt" id="23" indexed="16" label="冲抵金额" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="balAmt" id="22" indexed="15" label="结余金额" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="打印回执" id="19" indexed="19" label="-" row="1" type="99" typepara="/cwPrintTmplItem/choosePrintType;repayId-repayId;onClick-doTaoDaPrintByAppId" width="2" widthType="0"/>
+<tableitem align="2" filedname="cmpdIntstSum" id="21" indexed="10" label="复利利息" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="recvAmtSys" id="20" indexed="17" label="还款金额" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="8" indexed="6" label="还款日期" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="overIntstSum" id="17" indexed="9" label="逾期利息" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="normIntstSum" id="7" indexed="8" label="正常利息" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="penaltySum" id="16" indexed="12" label="违约金" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="prcpSum" id="6" indexed="7" label="本金" row="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="15" indexed="13" label="费用" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="deductNormIntstSum" id="14" indexed="14" label="减免金额" row="1" type="99" widthType="0"/>
+</table>

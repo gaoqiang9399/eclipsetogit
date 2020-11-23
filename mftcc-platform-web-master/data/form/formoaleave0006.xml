@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="oaleave0006" title="第一节点">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldsize="OPINION_TYPE_FIRST" fieldtype="4" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="审批意见类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="3" rowspan="2"/>
+</form>

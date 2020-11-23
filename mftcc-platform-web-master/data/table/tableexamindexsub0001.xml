@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="examindexsub0001" para="eadis_page" link="/mfExamineIndexSub/findByPage" title="贷后检查指标子项表" type="1">
+<tableitem align="2" filedname="subId" id="1" indexed="1" label="子项编号" row="1" type="4" typepara="/mfExamineIndexSub/getById;subId-subId;query-'query'"/>
+<tableitem align="2" filedname="subNo" id="2" indexed="2" label="子项关联检查指标名" row="1" type="0" />
+<tableitem align="2" filedname="subName" id="3" indexed="3" label="子项名称" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="4" indexed="4" label="子项说明" row="1" type="0" />
+<tableitem align="2" filedname="useFlag" id="5" indexed="5" label="启用标识" row="1" type="0" />
+<tableitem align="2" filedname="indexId" id="6" indexed="6" label="贷后检查指标编号" row="1" type="0" />
+<tableitem align="2" filedname="indexName" id="7" indexed="7" label="贷后检查评级指标名" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="9" indexed="9" label="-" row="1" type="5" typepara="/mfExamineIndexSub/deleteAjax;subId-subId;onClick-ajaxDelete(this)" width="2"/>
+</table>

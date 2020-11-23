@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?>
+<form formTitleShowFlag="false" id="ignoreExamineTask" title="被动任务忽略表">
+<formelement alt="请输入忽略原因，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="ignoreReasion" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="忽略原因" maxlength="200" mustinput="1" readonly="" row="1" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pasNos" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="被动任务的主键id" maxlength="20000" mustinput="0" row="1"/>
+</form>

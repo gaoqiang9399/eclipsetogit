@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryrepaytodate0001" para="eadis_page" title="银行合同到期" type="1">
+<tableitem align="3" filedname="repayPrcp" id="9" indexed="7" label="应还本金(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="repayIntst" id="8" indexed="8" label="应还利息(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="repayPrcpIntstSum" id="7" indexed="9" label="还款总额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="6" indexed="4" label="合同号" mytitle="合同号-pactId" row="1" type="3" typepara="17" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="2" indexed="6" label="应还期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="1" indexed="10" label="到期日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="10" indexed="5" label="借据号" mytitle="借据号-fincId" row="1" sortType="0" type="3" typepara="24" widthType="0"/>
+</table>

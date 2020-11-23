@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfoadimissionbase" title="离职申请新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dimissionId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="离职申请申请ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="baseId" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="关联基础信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="姓名" maxlength="30" mustinput="1" onclick="MfOaDimission_Insert.selectName(MfOaDimission_Insert.changeBaseInfo);" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="hireDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="入职日期" maxlength="8" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sex" fieldsize="SEX" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="性别" maxlength="1" mustinput="0" param2="2" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="applyDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="申请离职日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="22" mustinput="0" param2="1" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="部门" maxlength="80" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="position" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="职务" maxlength="40" mustinput="0" param2="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="positionShow" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="职务" maxlength="40" mustinput="1" readonly="1" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dimissionReason" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="离职原因" maxlength="200" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dimissionType" fieldsize="DIMISSION_TYPE" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="离职类别" maxlength="1" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="informBr" fieldsize="INFORM_BR" fieldtype="3" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="离职需知会相关部门" maxlength="50" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="当前审批人员编号" maxlength="50" mustinput="0" param2="1" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="选择审批人员" maxlength="200" mustinput="0" onclick="WkfApprove.getNextUserByNodePage(this,'brManager')" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sexShow" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="性别" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="申请时间" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="申请人编号" mustinput="" param2="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="" readonly="" row="7"/>
+</form>

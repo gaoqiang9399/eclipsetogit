@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCreditAgenciesList" para="eadis_page" title="授信合作银行" type="1">
+<tableitem align="2" filedname="extendTerm" id="33" indexed="16" label="延长期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="putoutTerm" id="32" indexed="15" label="提款期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="29" indexed="18" label="-" row="1" type="5" typepara="mfCusCreditApply/deleteAgencies;id-id;breedAgenciesId-breedAgenciesId;onClick-deleteAgencies(this)" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="31" indexed="17" label="-" row="1" type="5" typepara="mfCusCreditApply/agenciesDetailView;id-id;onClick-agenciesDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="id" id="30" indexed="13" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="26" indexed="14" label="授信额度" row="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="address" id="25" indexed="12" label="地址" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="agenciesPhone" id="24" indexed="11" label="联系电话" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="7" indexed="10" label="支行" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="bankPactNo" id="34" indexed="9" label="委托保证合同号" row="1" type="0" width="20" widthType="0"/>
+</table>

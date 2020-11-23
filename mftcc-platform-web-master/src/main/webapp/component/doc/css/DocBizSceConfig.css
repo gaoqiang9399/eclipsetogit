@@ -1,0 +1,13 @@
+body{
+	background-color: #EBEBEB;
+}
+table td{
+	padding:5px;
+	width: 200px;
+	border: 1px #059CED solid;
+	font-size:16px;
+}
+table td label {
+	font-size:13px;
+	font-weight: 0;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusTwoNetworkInfoListBase" link="/mfCusTwoNetworkInfo/findByPage" para="eadis_page" title="二网信息 mf_cus_two_network_info" type="1">
+<tableitem align="2" filedname="principal" id="5" indexed="6" label="负责人姓名" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="37" indexed="37" label="-" row="1" type="5" typepara="/mfCusTwoNetworkInfo/deleteAjax;towId-towId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="marginAmount" id="11" indexed="11" label="保证金金额" row="1" type="0"/>
+<tableitem align="2" filedname="cooperationYear" id="9" indexed="9" label="与海马合作年限" row="1" type="0"/>
+<tableitem align="2" filedname="cusTel" id="8" indexed="8" label="联系电话" row="1" type="0"/>
+<tableitem align="2" filedname="cusShort" id="7" indexed="5" label="客户简称" row="1" type="4" typepara="/mfCusTwoNetworkInfo/listShowDetailAjax;towId-towId;cusNo-cusNo;relNo-  relNo;oneUrl-'/mfCusTwoNetworkInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" widthType="0"/>
+</table>

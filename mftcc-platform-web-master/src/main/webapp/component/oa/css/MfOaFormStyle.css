@@ -1,0 +1,340 @@
+.mainTd_2_1 * {
+	font-weight: 100;
+	color: #4e5252 !important;
+	font-size: 20pt !important;
+}
+input[type="text"] ,input[type="textarea"]{ 
+	box-shadow: none;
+	height: 30px;
+	font-size: large;
+	color: black;
+}
+td{
+	height: 40px;
+	width:50%;
+}
+.table-div{
+	padding: 20px 0px;
+}
+input:focus {
+	/*outline: 5px solid white;*/
+	background-color: white;
+}
+.dropdown .ztree li {
+    width: 85%;
+}
+.dropdown .ztree li:hover {
+    background: none;
+    width: 85%;
+}
+.dropdown .ztree li.mySelectedNode:hover {
+    background-color: #ffffff;
+}
+.dropdown .ztree li.mySelectedNode {
+    background-color: #ffffff;
+}
+a {
+	color: #32b5cb;
+	text-decoration: none;
+}
+
+#search-div {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	height: 40px
+}
+
+.filter_option {
+	margin-left: -4px;	
+	/* detial中没有 */
+	border:1px solid #c5c5c5 !important;
+	border-left:none !important;
+	background-color: white !important;
+}
+
+.mySelectedNode span#my_filter_1_span{
+	color:#32b5cb !important;
+}
+.mysearch-div .ztree li a:hover .button {
+    border: 1px solid #c5c5c5;
+}
+.node_name {
+	color: black !important;
+}
+.borderR-N {
+	border-right:none  !important;
+}
+.mysearch-div .ztree li.mySelectedNode span.button {
+    border: 1px solid #32b5cb;
+    border-right: none;
+}
+.mysearch-div .ztree li span.button {
+    border: 1px solid #c5c5c5;
+}
+.dropdown .ztree li:hover .i-radio1, .dropdown .ztree li a:hover .i-radio1 {
+    display: block;
+    color: #c5c5c5;
+}
+.dropdown .ztree li:hover .filter_option, .dropdown .ztree li a:hover .filter_option, .dropdown .ztree li:hover span.button, .dropdown .ztree li a:hover span.button {
+    background: #ffffff;
+    border: 1px solid #c5c5c5;
+}
+.dropdown .ztree li.mySelectedNode span.button .i {
+    color: #32b5cb !important;
+}
+
+.dropdown .ztree li.mySelectedNode:hover span.button, .dropdown .ztree li.mySelectedNode a:hover span.button, .dropdown .ztree li.mySelectedNode:hover .filter_option, .dropdown .ztree li.mySelectedNode a:hover .filter_option {
+    background-color: #ffffff;
+    border: 1px solid #32b5cb;
+}
+.mySelectedNode{
+	color:red;
+}
+.mysearch-div .ztree li.mySelectedNode .filter_option{
+	border:1px solid #32b5cb !important;
+	border-left:none !important;
+}
+.mysearch-div .ztree li.mySelectedNode a:hover span.button {
+    background-color: #fff;
+    border: 1px solid #32b5cb !important;
+    border-right: none !important;
+}
+.dropdown .ztree li.mySelectedNode span.button, .dropdown .ztree li.mySelectedNode .filter_option {
+    background-color: #ffffff;
+    border: 1px solid #32b5cb;
+}
+.td_bottom {
+	padding-bottom: 7px;
+}
+.leftBorder {
+	float: left; 
+	border-bottom: solid 1px #949191;
+	position:relative;
+	width:845px;
+} 
+
+.label {
+	padding-top:9px;
+	color: #191818;
+    text-align: left;
+    font-weight: 500;
+    font-size: 14px;
+    float:left;
+    height:40px;
+}
+.width_22{
+	width:22%;
+}
+.width_11{
+	width:11%;
+}
+.width_73{
+	width:73%;
+	 border-bottom: solid 1px #949191;
+}
+.width_78{
+	width:78%;
+	 border-bottom: solid 1px #949191;
+}
+.input-style{
+	outline: none; 
+	width: 100%;
+	border: 0;
+	height: 30px;
+    font-size: 14px !important;
+}
+.position_relative{
+	position:relative;
+}
+.pointer {
+	position: absolute;
+    top: 11px;
+    right: 0px;
+    color: #32B5CB;
+    font-size: 20px;
+}
+.fifteen {
+	width: 15%;
+}
+.hundred {
+	width: 100%;
+}
+.tdhw{
+	height:40px;
+	width: 48%;
+}
+/* .tdleft{
+	height:40px;
+	width: 52%;
+} */
+.eight-three{
+	width: 83%;
+}
+.width_30{
+	width:30%;
+}
+.capidal_title{
+	float:left;
+	padding-top: 7px;
+	padding-right: 20px;
+	font-size:14px;
+}
+.text {
+	height: 30px;
+    font-size: 14px !important;
+    outline: none !important; 
+    border: 0 !important;
+}
+
+.filter_option1 {
+	background-color: white !important;
+	border: 0px solid #cacaca !important;
+}
+.tab-content .rows .error {
+    max-width: 500px;
+    min-height: 20px;
+    top: inherit;
+    left: 62%;
+    background-color: #D2EFF5;
+    padding: 10px 18px;
+    z-index: 10;
+    border-radius: 5px;
+    color: #32b5cb;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 0px;
+    margin-top: -30px
+}
+.divform {
+    margin: 0px -100px;
+    padding: 37px 100px;
+    padding-bottom: 66px;
+    background-color: white;
+    border: 1px solid #cacaca;
+}
+.border-textarea{
+	border: 1px solid #949191 !important;
+	width:500px;
+}
+.content-box {
+    width: 73%;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], input[type="tel"], input[type="url"], select , textarea{
+    box-sizing: border-box;
+    padding: 0px 0px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+textarea {
+     padding: 9px !important; 
+    border-radius: 0px !important;
+    margin: 0px 10px 0px 0px;
+    height: 100px !important;
+    width: 100% !important;
+    border: 1px solid #949191 !important;
+    width: 100%;
+}  
+#debtFind .mysearch-div .ztree li a:hover .button {
+    border: 1px solid #adadad;
+}
+#debtFind .divform {
+    margin: 0px -100px;
+    padding: 30px 100px;
+    background-color: white;
+    border: 1px solid #cacaca;
+    padding-bottom: 60;
+}
+#debtFind .mysearch-div .ztree li a:hover .i-radio1 {
+    display: none;
+}
+#debtFind .mysearch-div .ztree li a:hover .i-radio2 {
+    display: block;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode a:hover .i-radio1 {
+    display: block;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode a:hover .i-radio2 {
+    display: none;
+}
+#debtFind .mysearch-div .ztree li a:hover .filter_option {
+    border: 1px solid #cacaca;
+}
+#debtFind .mysearch-div .ztree li a:hover .button {
+    border: 1px solid #cacaca;
+}
+#debtFind .mysearch-div .ztree li a:hover .i {
+    color: #CACACA;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode:hover .i {
+    color: #32b5cb;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode a:hover .filter_option {
+    border: 1px solid #32b5cb;
+    border-left: none !important;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode .filter_option{
+	border:1px solid #32b5cb !important;
+	border-left:none !important;
+}
+#debtFind .mysearch-div .ztree li span.button {
+    border: 1px solid #c5c5c5;
+}
+#debtFind .mysearch-div .ztree li.mySelectedNode span.button {
+    border: 1px solid #32b5cb !important;
+    border-right: 0 !important;
+}
+
+#expenseDetail .mysearch-div .ztree li a:hover .i-radio1 {
+    display: none;
+}
+#expenseDetail .mysearch-div .ztree li a:hover .i-radio2 {
+    display: block;
+}
+#expenseDetail .mysearch-div .ztree li.mySelectedNode a:hover .i-radio1 {
+    display: block;
+}
+#expenseDetail .mysearch-div .ztree li.mySelectedNode a:hover .i-radio2 {
+    display: none;
+}
+#expenseDetail .mysearch-div .ztree li a:hover .filter_option {
+    border: 1px solid #cacaca;
+}
+#expenseDetail .mysearch-div .ztree li a:hover .button {
+    border: 1px solid #cacaca;
+}
+#expenseDetail .mysearch-div .ztree li a:hover .i {
+    color: #CACACA;
+}
+#expenseDetail .mysearch-div .ztree li.mySelectedNode:hover .i {
+    color: #32b5cb;
+}
+#expenseDetail .mysearch-div .ztree li.mySelectedNode a:hover .filter_option {
+    border: 1px solid #32b5cb;
+}
+
+
+#expenseDetail .tab-content .rows .error , #expenseInsert .tab-content .rows .error {
+    position: absolute;
+}
+#expenseFind .divform ,#expenseInsert .divform {
+    padding: 37px 100px;
+    padding-bottom: 40px;
+}
+
+#expenseInsert .content-box {
+    margin: 0px auto;
+}
+
+#expenseDetail .divform {
+    padding: 30px 100px;
+    padding-bottom: 40px;
+}
+
+.mf_content {
+	width: 100%; 
+	height: 100%; 
+	margin-top: 0px;
+	padding: 30px 0px 60px 0px;
+}

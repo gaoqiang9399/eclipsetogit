@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="recoverpactamt0001" title="合同金额恢复历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recoverHisId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="恢复历史编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="项目名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="借据编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recoverAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="恢复额度" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recoverType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="恢复类型1还款恢复" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="上次修改日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="最近修改时间" maxlength="17" mustinput="0" row="5"/>
+</form>

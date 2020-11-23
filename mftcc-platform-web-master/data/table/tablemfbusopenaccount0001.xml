@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusopenaccount0001" para="eadis_page" title="开户申请表" type="2">
+<tableitem align="2" authority="appSts-0;appSts-1;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;" filedname="提交" id="19" indexed="20" label="-" row="1" sortType="2" type="5" typepara="/mfBusOpenAccountWkf/processSubmitAjax;wkfAppId-wkfAppId;onClick-MfBusOpenAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;openReqType-02;" filedname="复核" id="18" indexed="19" label="-" row="1" type="5" typepara="/mfBusOpenAccount/submitChkAjax;openId-openId;appSts-appSts;onClick-MfBusOpenAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="openTime" id="9" indexed="3" label="申请时间" sortType="2" type="4" typepara="/mfBusOpenAccount/getById;openId-openId;wkfAppId-wkfAppId;cusNo-cusNo;onClick-MfBusOpenAccount.getById" widthType="0"/>
+<tableitem align="1" filedname="appStationName" id="20" indexed="8" label="申请岗" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="appSts-1;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;openReqType-02;" filedname="申请" id="17" indexed="18" label="-" row="1" sortType="2" type="5" typepara="/mfBusOpenAccount/submitAppAjax;openId-openId;appSts-appSts;onClick-MfBusOpenAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="16" indexed="17" label="申请状态" row="1" type="6" typepara="HM_APP_STS" widthType="0"/>
+<tableitem align="1" filedname="financeContactTel" id="7" indexed="5" label="财务人员电话" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="chkTime" id="15" indexed="16" label="复核时间" row="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="financeContactName" id="5" indexed="4" label="财务人员姓名" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="savingKind" id="12" indexed="7" label="存款种类" row="1" type="6" typepara="SAVING_KIND" widthType="0"/>
+<tableitem align="1" filedname="chkStationName" id="3" indexed="9" label="复核岗" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accountNature" id="10" indexed="6" label="账户性质" row="1" type="6" typepara="ACCOUNT_NATURE" widthType="0"/>
+</table>

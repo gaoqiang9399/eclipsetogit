@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="plPledgeBase_addbase" title="title">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeBillNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="清单ID" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="担保资料编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billOrder" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billBrand" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="型号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billKind" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="品种代码" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="单价" maxlength="16" mustinput="0" row="4" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="count" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="数量" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="押品类别编号" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="weight" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="重量" maxlength="20" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prtSupply" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="生产厂家" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storeNum" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="仓凭证号" mustinput="" readonly="" row="8"/>
+</form>

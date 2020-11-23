@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="lawenforcementDetail" title="法执情况详情信息表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="业务系统中的主键：客户号、担保人号、社会关系主键等" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busType" fieldtype="1" maxlength="1" formactiveid="2" labelalign="1" labelcol="1" labelname="业务主键的类型：1：客户、2：担保人、3：社会关系、" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busName" fieldtype="1" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="被查询人名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="busNumber" fieldtype="1" maxlength="255" formactiveid="4" labelalign="1" labelcol="1" labelname="被查询人号码：身份证号、社会信用代码等" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="relId" fieldtype="1" maxlength="30" formactiveid="5" labelalign="1" labelcol="1" labelname="关联id：关联的客户号或申请号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="relType" fieldtype="1" maxlength="1" formactiveid="6" labelalign="1" labelcol="1" labelname="关联类型：0:客户本人、1：保证人、2：社会关系" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="requestParam" fieldtype="1" maxlength="255" formactiveid="7" labelalign="1" labelcol="1" labelname="请求报文" mustinput="0" row="11"/>
+</form>

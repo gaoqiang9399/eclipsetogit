@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusBorrowerList" link="/mfCusBorrowerInfo/findByPage" para="eadis_page" title="共同借款人信息" type="1">
+<tableitem align="2" filedname="borrowTel" id="6" indexed="6" label="共借人手机号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="borrowIdNum" id="5" indexed="5" label="共借人证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="borrowName" id="4" indexed="4" label="共借人名称" row="1" type="4" typepara="/mfCusBorrowerInfo/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusBorrowerInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="36" indexed="36" label="-" type="5" typepara="/mfCusBorrowerInfo/deleteAjax;id-id;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="查看要件" id="37" indexed="9" label="-" type="5" typepara="/mfCusBorrowerInfo/getDocById;id-id;cusNo-cusNo;onClick-MfCusBorrowerInfo_Insert.getDocById(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="borrowBirth" id="8" indexed="8" label="共借人出生日期" row="1" type="0"/>
+<tableitem align="2" filedname="borrowIncome" id="7" indexed="7" label="共借人月收入" row="1" type="0"/>
+</table>

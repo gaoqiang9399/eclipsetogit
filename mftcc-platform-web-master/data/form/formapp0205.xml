@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="app0205" title="单位信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitName" fieldtype="1" fieldwidth="60" formactiveid="32" labelalign="1" labelcol="1" labelname="单位名称" labelwidth="40" maxlength="180" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitTrade" fieldsize="TRADE" fieldtype="2" formactiveid="33" labelalign="1" labelcol="1" labelname="单位所属行业" maxlength="180" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitNature" fieldsize="UNIT_NATURE" fieldtype="2" formactiveid="34" labelalign="1" labelcol="1" labelname="单位性质" maxlength="9" mustinput="0" param="cusNo;" row="4"/>
+<formelement cutOff="30" datatype="0" fieldalign="3" fieldcol="2" fieldname="unitAddr" fieldtype="1" formactiveid="35" labelalign="1" labelcol="1" labelname="单位地址" maxlength="180" mustinput="0" param="cusNo;" row="12"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="unitAddrPostCode" fieldtype="1" formactiveid="36" labelalign="1" labelcol="1" labelname="单位邮编" maxlength="18" mustinput="0" param="cusNo;" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="corpFixedTel" fieldtype="1" formactiveid="37" labelalign="1" labelcol="1" labelname="单位电话" maxlength="45" mustinput="0" param="cusNo;" row="6"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="duties" fieldsize="DUTIES" fieldtype="2" formactiveid="38" labelalign="1" labelcol="1" labelname="职务" maxlength="3" mustinput="0" param="cusNo;" row="7"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="title" fieldsize="TITLE" fieldtype="2" formactiveid="39" horVer="0" labelalign="1" labelcol="1" labelname="职称" mustinput="" param="cusNo;" readonly="" row="8"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="unitStartDate" fieldtype="1" formactiveid="40" horVer="0" labelalign="1" labelcol="1" labelname="本单位工作起始时间" mustinput="" param="cusNo;" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="9" />
+<formelement datatype="3" fieldalign="3" fieldcol="2" fieldname="workLifetime" fieldtype="1" formactiveid="42" horVer="0" labelalign="1" labelcol="1" labelname="工作年限" mustinput="" param="cusNo;" readonly="" row="10" unit="月"/>
+<formelement datatype="12" fieldalign="3" fieldcol="2" fieldname="income" fieldtype="1" formactiveid="43" horVer="0" labelalign="1" labelcol="1" labelname="收入" mustinput="" param="cusNo;" readonly="" row="11" unit="元"/>
+<formelement cutOff="30" datatype="0" fieldalign="3" fieldcol="2" fieldname="vocation" fieldsize="VOCATION" fieldtype="2" formactiveid="44" horVer="0" labelalign="1" labelcol="1" labelname="职业" mustinput="" param="cusNo;" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="45" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="fdm0001" title="明细项维护">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="明细编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="名称" maxlength="40" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="种类" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dicSts" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="状态" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="faccountId" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="科目内码" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="6"/>
+</form>

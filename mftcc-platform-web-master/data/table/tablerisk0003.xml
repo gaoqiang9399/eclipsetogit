@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="risk0003" para="eadis_page" link="" title="风险拦截场景维度定义列表" type="2">
+<tableitem align="2" filedname="scNo" id="1" indexed="1" label="业务场景编号" row="1" type="4" typepara="/riskPreventSceConfig/getByIdAjax;dime-dime;scNo-scNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="dime" id="2" indexed="2" label="维度" row="1" type="4" typepara="/riskPreventSceConfig/getByIdAjax;dime-dime;scNo-scNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="dimeJavaFieldName" id="3" indexed="3" label="" row="1" type="0" />
+<tableitem align="2" filedname="useFlag" id="4" indexed="4" label="是否启用" row="1" type="0" />
+</table>

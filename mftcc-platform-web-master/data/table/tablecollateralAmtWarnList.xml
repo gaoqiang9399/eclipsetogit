@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="collateralAmtWarnList" para="eadis_page" title="货值预警" type="1">
+<tableitem align="2" filedname="unrepayFincAmt" id="6" indexed="5" label="贷款余额" type="12" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="2" label="合同编号" row="1" type="4" typepara="/mfBusPact/getById;pactId-pactId;appId-appId;fincId-fincId;busEntrance-'pact';onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="3" indexed="3" label="产品种类" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="2" indexed="4" label="合同金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="receAmt" id="1" indexed="12" label="库存金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="receTransAmt" id="8" indexed="8" label="货值线金额" row="1" type="12" widthType="0"/>
+</table>

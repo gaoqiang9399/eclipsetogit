@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivereward0001" title="OA人事档案奖惩记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="rewardId" fieldtype="99" formactiveid="1" labelalign="3" labelname="奖惩记录id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldname="baseId" fieldtype="99" formactiveid="2" labelalign="3" labelname="基础信息ID" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="adwardDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="日期" maxlength="8" mustinput="1" onfocus="fPopUpCalendarDlg({max: today})" readonly="1" row="1" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adwards" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="奖项" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="grade" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="成绩" maxlength="30" mustinput="0" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="adwardRemark" fieldtype="5" formactiveid="6" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rewardOrPunishment" fieldsize="REWARD_PUNISHMNET" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="7" horVer="0" initvalue="1" labelalign="3" labelcol="3" labelname="惩罚或者奖励" mustinput="1" param="anchors:['anchor1','anchor2']" readonly="" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="reason" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="惩罚原因" maxlength="200" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{rewardOrPunishment:'1'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{rewardOrPunishment:'2'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="7" selrange="1"/>
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dl_archive_main03" title="归档补充信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperAddr" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="纸质文件存储位置" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="纸质文件编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paperKeeperName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="保管人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="paperKeeperNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="保管人" mustinput="" readonly="" row="2" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+</form>

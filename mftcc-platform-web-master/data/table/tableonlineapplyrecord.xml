@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="onlineapplyrecord" link="/p2pOnlineApplyRecord/findByPage" para="eadis_page" title="网贷-线上融资申请跟踪记录列表" type="1">
+<tableitem align="2" filedname="opName" id="5" indexed="3" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="recordRemark" id="3" indexed="5" label="操作说明" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recordType" id="2" indexed="4" label="操作类型" type="6" typepara="P2P_APPLY_STS" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="8" indexed="2" label="操作时间" row="1" type="30" widthType="0"/>
+</table>

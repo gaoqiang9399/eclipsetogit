@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="che300eval0001" title="che300商用车">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brand" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="品牌" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="series" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="车系" mustinput="1" readonly="1" row="2"/>
+</form>

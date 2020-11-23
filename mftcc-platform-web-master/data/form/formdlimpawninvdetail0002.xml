@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawninvdetail0002" title="质押仓单明细">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="3" labelcol="3" labelname="仓单编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invDetailNo" fieldtype="1" maxlength="30" formactiveid="3" labelalign="3" labelcol="1" labelname="仓单明细编号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invName" fieldtype="1" maxlength="80" formactiveid="4" labelalign="3" labelcol="3" labelname="存储物名称" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invCusName" fieldtype="1" maxlength="80" formactiveid="5" labelalign="3" labelcol="1" labelname="存货人名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invComName" fieldtype="1" maxlength="80" formactiveid="6" labelalign="3" labelcol="3" labelname="监管方/仓储方" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invLocation" fieldtype="1" maxlength="200" formactiveid="7" labelalign="3" labelcol="1" labelname="存储场所" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invTerm" fieldtype="1" maxlength="0" formactiveid="8" labelalign="3" labelcol="3" labelname="储期(月)" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invBrand" fieldtype="1" maxlength="80" formactiveid="9" labelalign="3" labelcol="1" labelname="品牌/型号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invSpec" fieldtype="1" maxlength="80" formactiveid="10" labelalign="3" labelcol="3" labelname="品种/规格" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="produPlace" fieldtype="1" maxlength="200" formactiveid="11" labelalign="3" labelcol="1" labelname="产地" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="count" fieldtype="1" maxlength="0" formactiveid="12" labelalign="3" labelcol="3" labelname="数量" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="weight" fieldtype="1" maxlength="0" formactiveid="13" labelalign="3" labelcol="1" labelname="重量" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="unitPrice" fieldtype="1" maxlength="16" formactiveid="14" labelalign="3" labelcol="3" labelname="单价" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="totalPrice" fieldtype="1" maxlength="16" formactiveid="15" labelalign="3" labelcol="1" labelname="总值" mustinput="0" row="8"/>
+</form>

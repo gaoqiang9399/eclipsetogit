@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formpactrepayinfo0002" title="还款表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="requestResult" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="结果报文" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="param" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="请求报文" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="qiHao" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="还款期号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="daoQiRiQi" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="到期日期" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="还款总额" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repaySts" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="还款状态" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayErrorMsg" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="还款失败原因" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="最后操作时间" mustinput="" readonly="" row="10"/>
+</form>

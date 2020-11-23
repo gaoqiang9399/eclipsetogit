@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusdoor00001" title="经营信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="经营信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="runScale" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="经营规模" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operUnit" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="经营单位" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taxNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="税务登记号码" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="checkDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="最新年检日期" maxlength="8" mustinput="0" onfocus="fPopUpCalendarDlg()" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wageacNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="基本账号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wageBank" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="基本账号开户行" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bussLic" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="营业执照号码" maxlength="30" mustinput="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="regFund" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="注册资本" maxlength="20" mustinput="1" row="5" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="注册时间" maxlength="8" mustinput="0" onfocus="fPopUpCalendarDlg()" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayClass" fieldsize="TRADE" fieldtype="21" formactiveid="13" labelalign="3" labelcol="1" labelname="行业分类" maxlength="6" mustinput="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayMaxClass" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="大类" maxlength="6" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayMidClass" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="中类" maxlength="6" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayMinClass" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="小类" maxlength="6" mustinput="0" row="7"/>
+</form>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="entrustedpayment0002" title="受托登记">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payMethod" fieldsize="PAY_METHOD" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="支付方式" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectBank" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="收款账号开户行" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="客户证件号码" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="putoutAmtReal" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="借据金额" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="借款帐号" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomAccountName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="借款账号名称" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="借款账号开户行" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collectAccount" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="1" onclick="MfBusBankAccCom.bindAccIdDataSource('collectAcc')" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collectAccName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="收款账号名称" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="bankAccId" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="5" labelname="借款帐号ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="collectAccId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="5" labelname="收款账号ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="借据编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="epAmt" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="受托金额" maxlength="999" mustinput="1" onblur="func_uior_valueFormatEpAmt(this);" row="5" unit="元"/>
+</form>

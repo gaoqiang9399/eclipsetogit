@@ -1,0 +1,113 @@
+.clean-div{
+	margin:8px;
+	padding:5px;
+}
+
+.head-div {
+	padding: 10px 0px;
+	background: #F8F9FD;
+	border-bottom: 2px solid #32b5cb;
+}
+.head-img img{
+	width:120px;
+	height:120px;
+}
+
+.data-sum{
+	margin-top:30px;
+}
+
+.data-sum .sum-count{
+	color:#f00;
+	font-size:25px;
+	margin:0px 5px;
+}
+
+.checkbox-span{
+	display: inline-block;
+	background-image: none;
+	width: 20px;
+	height:20px;
+	margin-right: 10px;
+	border: 1px solid #A19C9C;
+	border-radius: 2px;
+	vertical-align: top;
+	cursor: pointer;
+	margin-top: 2px;
+}
+.checkbox-span i{
+	display: none;
+
+}
+.checkbox-span.curChecked {
+	border: 1px solid #32b5cb;
+}
+.checkbox-span.curChecked i{
+	display: block;
+	color:#32b5cb;
+	margin-top:3px;
+	margin-left:1px;
+
+}
+
+/* .bus-list table{ */
+/* 	width:100%; */
+/* } */
+/* .bus-list table tr:nth-child(2n){ */
+/* 	background:#F5F5F5; */
+/* } */
+
+.bus-list .even-div{
+	background:#F5F5F5;
+}
+
+
+.info-td{
+	width:86%;
+	padding:10px 0px
+}
+.info-title {
+	padding-left: 40px;
+	margin-bottom: 18px;
+	margin-top:15px;
+	font-size:16px;
+	color:#32b5cb;
+}
+.info-cont {
+	padding-left: 40px;
+}
+.info-cont table{
+	width:100%;
+}
+
+.item-div {
+	display: inline-block;
+	width: 12%;
+	padding-right: 10px;
+}
+.item-div2 {
+	display: inline-block;
+	width: 16%;
+	padding-right: 10px;
+}
+.item-title {
+	font-size:14px;
+	margin-bottom: 5px;
+}
+.item-value {
+	color:#666;
+}
+
+
+.check-td{
+	width:14%;
+	text-align: center;
+}
+
+.fengdang {
+	background: url('../images/fengdang.png');
+	width: 101px;
+	height: 65px;
+	margin-left: 65px;
+	margin-top: -20px;
+}

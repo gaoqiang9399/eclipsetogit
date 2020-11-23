@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312"?><form id="mobileinterface0001" title="InnoDB free: 17408 kB">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="16" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openid" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="微信账户标识" maxlength="16" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户号" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifAccount" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="账号" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户手机号" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifEmail" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="email" maxlength="16" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNickname" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="昵称" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="客户类型" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="activeFlag" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="激活标志：1激活，0未激活" maxlength="0" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifPassword" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="登陆密码" maxlength="16" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tradersPassword" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="交易密码" maxlength="16" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifSalt" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="密钥 用于登录验证" maxlength="16" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrigin" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="注册来源 0 手机 1  pc 2 微信" maxlength="0" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifOrigin" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="客户来源 默认1" maxlength="16" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="onlineFlag" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="线上/线下标记 0 线上 1 线下" maxlength="0" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountFlag" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="开户标记 0 未开户 1 开户 默认1" maxlength="0" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifHead" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="客户头像" maxlength="16" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastIp" fieldtype="1" formactiveid="18" labelalign="3" labelcol="1" labelname="最后登陆ip" maxlength="16" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastTime" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="最近登陆时间" maxlength="16" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="20" labelalign="3" labelcol="1" labelname="注册时间" maxlength="10" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regIp" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="注册ip" maxlength="16" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occTime" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="时间戳" maxlength="10" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recommender" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="推荐人" maxlength="16" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recommendedCode" fieldtype="1" formactiveid="24" labelalign="3" labelcol="1" labelname="推荐码(用于推荐他人的)" maxlength="16" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="registrationCode" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="注册码（注册时填写的）" maxlength="16" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="integral" fieldtype="1" formactiveid="26" labelalign="3" labelcol="1" labelname="剩余积分" maxlength="10" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usedIntegral" fieldtype="1" formactiveid="27" labelalign="3" labelcol="1" labelname="已用积分" maxlength="10" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="1" formactiveid="28" labelalign="3" labelcol="1" labelname="预留字段" maxlength="33" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="29" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="30" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="1" formactiveid="31" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="1" formactiveid="32" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="1" formactiveid="33" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="1" formactiveid="34" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="1" formactiveid="35" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="1" formactiveid="36" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="1" formactiveid="37" labelalign="3" labelcol="1" labelname="" maxlength="33" mustinput="0" row="37"/>
+</form>

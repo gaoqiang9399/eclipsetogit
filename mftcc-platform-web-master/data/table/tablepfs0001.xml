@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pfs0001" link="/cusFinMain/findByPage" para="eadis_page" title="客户财报主表（选择使用）" type="2">
+<tableitem align="2" filedname="accRule" id="5" indexed="4" label="报表类型" row="1" type="99" typepara="ACC_RULE" widthType="0"/>
+<tableitem align="2" filedname="weeks" id="4" indexed="3" label="报表日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="reportType" id="3" indexed="2" label="会计准则" row="1" type="6" typepara="RPT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="accountId" id="23" indexed="1" label="唯一编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="选择" id="22" indexed="5" label="-" type="5" typepara="#;finRptType-reportType;finRptDate-weeks;accountId-accountId;onClick-enterClick;" width="2" widthType="0"/>
+</table>

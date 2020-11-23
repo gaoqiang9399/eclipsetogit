@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="fin0010" para="eadis_page" link="" title="融资支付表" type="2">
+<tableitem align="2" filedname="contNo" id="1" indexed="1" label="合同号" row="1" type="4" typepara="/finLnAccPln/getByIdAjax;contNo-contNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="accNo" id="2" indexed="2" label="台账号" row="1" type="0" />
+<tableitem align="2" filedname="perdNo" id="3" indexed="3" label="期号" row="1" type="0" />
+<tableitem align="2" filedname="payDate" id="4" indexed="4" label="租金支付日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="5" indexed="5" label="租金结算日期" row="1" type="0" />
+<tableitem align="2" filedname="instmAmt" id="6" indexed="6" label="本期支付租金" row="1" type="0" />
+<tableitem align="2" filedname="prcpAmt" id="7" indexed="7" label="本期支付本金" row="1" type="0" />
+<tableitem align="2" filedname="normInt" id="8" indexed="8" label="本期支付利息" row="1" type="0" />
+</table>

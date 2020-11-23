@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou1062" title="201.本外币理财产品收益权 GRT_P_FINANCING">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="担保_ID" maxlength="32" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" fieldwidth="30" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" labelwidth="20" maxlength="1" mustinput="1" onblur="getIdType()" onchange="getIdType()" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" fieldwidth="30" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="协议编号" labelwidth="20" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prdType" fieldsize="PRD_TYPE" fieldtype="21" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="产品种类" maxlength="60" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="investorName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="投资者名称" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="account" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="帐号" maxlength="40" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="21" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="证件类型" maxlength="2" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNo" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="证件号码" maxlength="30" mustinput="1" onblur="idNoCheck(idType,idNo)" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="理财起始日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="理财到期日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="entrustType" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="委托外汇品种" maxlength="3" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="moneyRemitType" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="3" labelname="钞汇种类" maxlength="3" mustinput="0" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="entrustMoney" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="委托金额" maxlength="16" mustinput="1" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="申请号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="担保类型" mustinput="" readonly="" row="9" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="vouAmt" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="担保金额" mustinput="" readonly="" row="10" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="抵质押物类型" mustinput="" readonly="" row="8" />
+</form>

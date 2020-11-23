@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="approvalcensorshow" para="eadis_page" title="业务审查表展示" type="2">
+<tableitem align="2" filedname="censorName" id="9" indexed="6" label="名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="censorDesc" id="8" indexed="3" label="说明" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="censorAgree" id="5" indexed="2" label="意见" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="4" indexed="1" label="审查项" mytitle="itemName-itemName;" type="3" typepara="25" widthType="0"/>
+<tableitem align="2" filedname="censorType" id="3" indexed="4" label="文件类型" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="censorName" id="2" indexed="0" label="分类名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="itemNo" id="11" indexed="7" label="项编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="10" indexed="8" label="项名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="censorNo" id="1" indexed="5" label="分类编号" row="1" type="99" widthType="0"/>
+</table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="coupon0002" title="额度提升表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="赠送客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="giveType" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="提额类别1：客户申请提额 2平台赠送额度 " maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="giveAmt" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="提额金额（元）" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="startTime" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="提额生效时间" maxlength="17" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endTime" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="提额到期时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="flag" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="状态 0、不可用 1、申请未提交 2、审批中 3、审批通过" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createTime" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="添加时间" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="最近修改时间" maxlength="17" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="操作员编号" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="操作员名称" maxlength="40" mustinput="0" row="11"/>
+</form>

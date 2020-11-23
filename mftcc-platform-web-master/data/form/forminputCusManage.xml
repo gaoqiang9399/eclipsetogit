@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="inputCusManage" title="客户经理查询表单">
+<formelement alt="请填写查询客户名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" onclick="MfBrClealInfo.selectOpByBr();" row="3"/>
+<formelement alt="请选择部门" datatype="0" fieldalign="1" fieldcol="2" fieldname="queryType" fieldsize="CUS_MANAGE_TYPE" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="查询类型" mustinput="1" param="anchors:['anchorFieldName1','anchorFieldName2']" row="1"/>
+<formelement alt="请选择查询客户经理" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="68" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="1" onclick="bindDataSource(this,'1','cusMngNo','','','','','0')" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchorFieldName1" fieldtype="1" formactiveid="69" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{queryType:'1'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchorFieldName1" fieldtype="2" formactiveid="70" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchorFieldName2" fieldtype="1" formactiveid="71" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{queryType:'2'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchorFieldName2" fieldtype="2" formactiveid="72" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="7" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusMngNo" fieldtype="99" formactiveid="73" horVer="0" labelalign="3" labelcol="5" labelname="输入框" mustinput="" readonly="" row="3"/>
+</form>

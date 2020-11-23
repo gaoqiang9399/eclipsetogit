@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfBusAgenciesPledgeRel0001" title="合作银行押品关联新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="押品名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="银行支行" mustinput="1" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="合作银行" mustinput="0" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldstyle="anchor-ctrl" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="担保方式" mustinput="1" onchange="MfBusAgenciesPledgeRel_Insert.vouTypeChange()" param="anchors:['anchor1','anchor2']" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="银行名称" mustinput="" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="地区名称" mustinput="" readonly="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="" readonly="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesPhone" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="联系电话" mustinput="" readonly="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assureName" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="保证人" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="证件号码" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{vouType:'3|4'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="6" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" param="[{vouType:'2'}]" readonly="" row="7" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="10" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="押品编号" mustinput="0" readonly="" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classSecondName" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="类别名称" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralName" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="押品名称/保证人名称" mustinput="" readonly="" row="16"/>
+</form>

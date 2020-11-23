@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="busbase001" title="中汇业务表单">
+<formelement alt="50字以内" datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="99" formactiveid="3" horVer="0" labelalign="2" labelcol="3" labelname="客户名称" maxlength="100" mustinput="0" onkeyup="showcheckinfo(this);" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="2" labelname="客户号" maxlength="30" mustinput="" readonly="" row="12" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldsize="KIND_NO" fieldtype="2" formactiveid="45" horVer="0" labelalign="2" labelcol="1" labelname="产品名称" mustinput="1" onchange="chooseKindType(this)" row="1" writeAuth="0"/>
+<formelement alt="请输入项目名称" datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="46" horVer="0" labelalign="2" labelcol="3" labelname="项目名称" maxlength="50" mustinput="1" readonly="" row="1" writeAuth="0"/>
+<formelement alt="请输入月息利率" datatype="3" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="1" formactiveid="50" horVer="0" labelalign="2" labelcol="3" labelname="月利率(%)" mustinput="1" onblur="checkRate(this)" readonly="" row="2" writeAuth="0"/>
+<formelement alt="请输入服务费率" datatype="3" fieldalign="1" fieldcol="4" fieldname="serviceFeeRate" fieldtype="99" formactiveid="52" horVer="0" labelalign="2" labelcol="3" labelname="服务费率(%)" mustinput="0" onblur="checkRate(this)" row="3" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="56" horVer="0" labelalign="3" labelcol="3" labelname="申请号" mustinput="" readonly="" row="10" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appTime" fieldtype="99" formactiveid="57" horVer="0" labelalign="3" labelcol="3" labelname="申请日期" mustinput="" readonly="" row="10" writeAuth="0"/>
+<formelement alt="请输入申请金额" datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="58" horVer="0" labelalign="2" labelcol="1" labelname="申请金额(元)" mustinput="1" row="2" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" writeAuth="0"/>
+<formelement alt="请输入备注，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="60" horVer="0" labelalign="2" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="5" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="61" horVer="0" labelalign="2" labelcol="1" labelname="客户经理" mustinput="1" onclick="selectUserDialog(getCusMngNameDialog)" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngNo" fieldtype="99" formactiveid="62" horVer="0" labelalign="3" labelcol="3" labelname="客户经理编号" mustinput="" readonly="" row="4" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appTimeShow" fieldtype="1" formactiveid="63" horVer="0" labelalign="2" labelcol="3" labelname="登记日期" mustinput="" readonly="1" row="4" writeAuth="0"/>
+<formelement alt="请输入配资金额" datatype="12" fieldalign="1" fieldcol="2" fieldname="capitalAmt" fieldtype="1" formactiveid="64" horVer="0" labelalign="2" labelcol="1" labelname="配资金额(元)" mustinput="" readonly="" row="3" writeAuth="0"/>
+</form>

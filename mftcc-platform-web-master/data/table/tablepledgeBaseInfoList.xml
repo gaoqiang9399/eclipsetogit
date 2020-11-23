@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pledgeBaseInfoList" para="eadis_page" title="抵质押登记(押品信息)" type="2">
+<tableitem align="2" filedname="pledgeMethod" id="2" indexed="0" label="反担保类型" row="1" type="6" typepara="VOU_TYPE" width="10" widthType="0"/>
+<tableitem align="2" filedname="pledgeInfo" id="1" indexed="4" label="抵押信息" row="1" type="0" width="55" widthType="0"/>
+<tableitem align="2" filedname="certificateName" id="10" indexed="3" label="所属权人" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="classSecondName" id="9" indexed="1" label="押品类型" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="extDic20-1" filedname="受理" id="8" indexed="10" label="-" type="5" typepara="/certiInfo/shouLiAjax;pledgeNo-pledgeNo;onclick-CertiInfo_InputList.shouLiAjax(this);" widthType="0"/>
+</table>

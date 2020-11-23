@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0071" para="eadis_page" link="/acLmAtpyDtl/findByPage" title="批扣明细表" type="1">
+<tableitem align="2" filedname="contNo" id="1" indexed="1" label="合同号" row="1" type="4" typepara="/acLmAtpyDtl/getById;contNo-contNo;traceNo-traceNo;query-'query'"/>
+<tableitem align="2" filedname="traceNo" id="2" indexed="2" label="交易流水号" row="1" type="4" typepara="/acLmAtpyDtl/getById;contNo-contNo;traceNo-traceNo;query-'query'"/>
+<tableitem align="2" filedname="atpyType" id="3" indexed="3" label="批处理类型" row="1" type="0" />
+<tableitem align="2" filedname="cifNo" id="4" indexed="4" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cifName" id="5" indexed="5" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="cifType" id="6" indexed="6" label="客户类型" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="29" indexed="29" label="-" row="1" type="5" typepara="/acLmAtpyDtl/getById;contNo-contNo;traceNo-traceNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="30" indexed="30" label="-" row="1" type="5" typepara="/acLmAtpyDtl/del;contNo-contNo;traceNo-traceNo;onClick-lkconfirm" width="2"/>
+</table>

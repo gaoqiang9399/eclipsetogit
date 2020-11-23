@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="wkfcertiinfo" para="eadis_page" title="权证信息审批" type="2">
+<tableitem align="2" filedname="recCusName" id="9" indexed="11" label="操作员名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recCusId" id="8" indexed="10" label="操作员编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recDate" id="7" indexed="9" label="入库时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="certiDueDate" id="6" indexed="8" label="权证到期日期" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="certiAmount" id="4" indexed="3" label="权证价值(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="certiOrg" id="3" indexed="4" label="发证机构" row="1" type="0"/>
+<tableitem align="2" filedname="certiNo" id="2" indexed="2" label="权证编号" row="1" type="0"/>
+<tableitem align="2" filedname="dealType" id="11" indexed="5" label="交易类型" type="6" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" filedname="remark" id="10" indexed="6" label="押品名称" row="1" type="0" widthType="0"/>
+</table>

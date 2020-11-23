@@ -1,0 +1,71 @@
+.pact-fiveclass, .pact-fiveclass:hover, .pact-fiveclass:focus {
+	color : #fff;
+}
+.pact-fiveclass[level=L1] {
+	background-color : #D3D3D3;
+}
+.pact-fiveclass[level=L1]:hover , .pact-fiveclass[level=L1]:focus{
+	background-color : #C0C0C0;
+}
+.pact-fiveclass[level=L2] {
+	background-color : #E14A47;
+}
+.pact-fiveclass[level=L2]:hover , .pact-fiveclass[level=L3]:focus{
+	background-color : #C9302C;
+}
+.pact-fiveclass[level=L3] {
+	background-color : #FCB865;
+}
+.pact-fiveclass[level=L3]:hover , .pact-fiveclass[level=L3]:focus{
+	background-color : #E9AA64;
+}
+.pact-fiveclass[level=L4] {
+	background-color : #00AA00;
+}
+.pact-fiveclass[level=L4]:hover , .pact-fiveclass[level=L4]:focus{
+	background-color : #228B22;
+}
+
+/*贷后还款计划和还款计划历史列表金额类型居右显示  */
+.list-table-replan .ls_list thead tr th{
+	text-align:center;
+}
+.list-table-replan .ls_list tbody tr td{
+	text-align:center;
+}
+#mfRepayPlanList table tbody tr td:nth-child(4){
+	text-align:right;
+}
+#mfRepayPlanList table tbody tr td:nth-child(5){
+	text-align:right;
+}
+#mfRepayPlanList table tbody tr td:nth-child(6){
+	text-align:right;
+}
+#mfRepayPlanList table tbody tr td:nth-child(7){
+	text-align:right;
+}
+#mfRepayPlanList table tbody tr td:nth-child(8){
+	text-align:center;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(2){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(3){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(4){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(5){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(6){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(7){
+	text-align:right;
+}
+#mfRepayHistoryList table tbody tr td:nth-child(8){
+	text-align:right;
+}

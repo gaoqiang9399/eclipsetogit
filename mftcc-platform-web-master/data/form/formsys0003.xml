@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sys0003" title="消息模板修改">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msgNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="模版编号" maxlength="10" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msgContent" fieldtype="5" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="消息内容" maxlength="200" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="msgTemp" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="2" labelname="预留字段" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msgType" fieldsize="MSG_CONFIG_TYPE" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="消息类型" mustinput="" readonly="" row="3" />
+</form>

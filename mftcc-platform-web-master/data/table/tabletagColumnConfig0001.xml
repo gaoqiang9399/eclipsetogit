@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tagColumnConfig0001" link="/mfTagColumnConfig/findByPage" para="eadis_page" title="标签表格列对应字段配置表" type="1">
+<tableitem align="2" filedname="sysDictionryVal" id="15" indexed="15" label="字典项编号" row="1" type="0"/>
+<tableitem align="2" filedname="columnName" id="4" indexed="4" label="对应字段名称" row="1" type="0"/>
+<tableitem align="2" filedname="columnId" id="3" indexed="3" label="对应字段" type="4" typepara="/mfTagColumnConfig/getById;configId-configId;onClick-MfTagColumnConfig_List.editTagColumnConfig(this)" widthType="0"/>
+<tableitem align="2" filedname="groupId" id="18" indexed="16" label="分组标记" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="18" label="-" row="1" type="5" typepara="/mfTagColumnConfig/deleteAjax;configId-configId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

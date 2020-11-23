@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook>
+	<worksheet idx="0">
+		<section startRow="0" endRow="31"><!-- 开始行数，和结束行数-->
+			<mapping cell="B3">cusFinMain.cusName</mapping>
+			<mapping cell="B4">cusFinMain.finRptType</mapping>
+			<mapping cell="B5">cusFinMain.finRptDate</mapping>
+			<mapping cell="B6">profitsReportMap.PFaa</mapping>
+			<mapping cell="B7">profitsReportMap.PFaaaa</mapping>
+			<mapping cell="B8">profitsReportMap.PFaaab</mapping>
+			<mapping cell="B9">profitsReportMap.PFaaac</mapping>
+			<mapping cell="B10">profitsReportMap.PFaaad</mapping>
+			<mapping cell="B11">profitsReportMap.PFaaae</mapping>
+			<mapping cell="B12">profitsReportMap.PFaaaf</mapping>
+			<mapping cell="B13">profitsReportMap.PFaaag</mapping>
+			<mapping cell="B14">profitsReportMap.PFaaah</mapping>
+			<mapping cell="B15">profitsReportMap.PFaaai</mapping>
+			<mapping cell="B16">profitsReportMap.PFab</mapping>
+			<mapping cell="B17">profitsReportMap.PFabaa</mapping>
+			<mapping cell="B18">profitsReportMap.PFabab</mapping>
+			<mapping cell="B19">profitsReportMap.PFabac</mapping>
+			<mapping cell="B20">profitsReportMap.PFac</mapping>
+			<mapping cell="B21">profitsReportMap.PFacaa</mapping>
+			<mapping cell="B22">profitsReportMap.PFad</mapping>
+			<mapping cell="B23">profitsReportMap.PFae</mapping>
+			<mapping cell="B24">profitsReportMap.PFaeaa</mapping>
+			<mapping cell="B25">profitsReportMap.PFaeab</mapping>
+			<mapping cell="B26">profitsReportMap.PFaf</mapping>
+			<mapping cell="B27">profitsReportMap.PFag</mapping>
+			<mapping cell="B28">cusFinMain.ifAud</mapping>
+			<mapping cell="B29">cusFinMain.audOrg</mapping>
+			<mapping cell="B30">cusFinMain.audIdea</mapping>
+			<mapping cell="B31">cusFinMain.audDate</mapping>
+		</section>
+	</worksheet>
+</workbook>

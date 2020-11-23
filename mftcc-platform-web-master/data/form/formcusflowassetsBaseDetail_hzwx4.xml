@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusflowassetsBaseDetail_hzwx4" title="个人流动资产-存货详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsType" fieldsize="ASSETS_TYPE" fieldtype="2" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="资产类型" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="assetsName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="存货分类" maxlength="100" mustinput="0" param="assetsId;" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="purchasePrice" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="购入价" maxlength="14" mustinput="" param="assetsId;" readonly="" row="1" unit="元"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="200" mustinput="" param="assetsId;" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="nowPrice" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="4" labelname="现价" maxlength="14" mustinput="" param="assetsId;" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="资产id" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="16" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="assetsId" readonly="" row="1"/>
+</form>

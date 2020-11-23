@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusper00001" para="eadis_page" link="/mfCusPersBaseInfo/findByPage" title="个人客户基本信息表" type="1">
+<tableitem align="2" filedname="cusNo" id="1" indexed="1" label="客户ID" row="1" type="4" typepara="/mfCusPersBaseInfo/getById;cusNo-cusNo;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="idType" id="3" indexed="3" label="证件类型" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="证件号码" row="1" type="0" />
+<tableitem align="2" filedname="sex" id="5" indexed="5" label="性别" row="1" type="0" />
+<tableitem align="2" filedname="brithday" id="6" indexed="6" label="出生日期" row="1" type="0" />
+<tableitem align="2" filedname="gradeModel" id="7" indexed="7" label="评分模型" row="1" type="0" />
+<tableitem align="2" filedname="nationality" id="8" indexed="8" label="民族" row="1" type="0" />
+<tableitem align="2" filedname="ifParty" id="9" indexed="9" label="政治面貌" row="1" type="0" />
+<tableitem align="2" filedname="resideSta" id="10" indexed="10" label="居住状况" row="1" type="0" />
+<tableitem align="2" filedname="regHome" id="11" indexed="11" label="户口性质" row="1" type="0" />
+<tableitem align="2" filedname="marrige" id="12" indexed="12" label="婚姻状况" row="1" type="0" />
+<tableitem align="2" filedname="education" id="13" indexed="13" label="最高学历" row="1" type="0" />
+<tableitem align="2" filedname="healthStat" id="14" indexed="14" label="个人健康状况" row="1" type="0" />
+<tableitem align="2" filedname="cusTel" id="15" indexed="15" label="手机号码" row="1" type="0" />
+<tableitem align="2" filedname="addreTel" id="16" indexed="16" label="住址电话" row="1" type="0" />
+<tableitem align="2" filedname="postalCode" id="17" indexed="17" label="邮政编号" row="1" type="0" />
+<tableitem align="2" filedname="email" id="18" indexed="18" label="邮箱地址" row="1" type="0" />
+<tableitem align="2" filedname="companyTel" id="19" indexed="19" label="单位电话" row="1" type="0" />
+<tableitem align="2" filedname="careaProvice" id="20" indexed="20" label="客户所属地区" row="1" type="0" />
+<tableitem align="2" filedname="careaCity" id="21" indexed="21" label="客户所属市" row="1" type="0" />
+<tableitem align="2" filedname="careaCounty" id="22" indexed="22" label="客户所属县" row="1" type="0" />
+<tableitem align="2" filedname="mailingAddress" id="23" indexed="23" label="通讯地址" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="24" indexed="24" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="cusMngNo" id="25" indexed="25" label="客户经理编号" row="1" type="0" />
+<tableitem align="2" filedname="cusMngName" id="26" indexed="26" label="客户经理姓名" row="1" type="0" />
+<tableitem align="2" filedname="recommenderName" id="27" indexed="27" label="推荐人姓名" row="1" type="0" />
+<tableitem align="2" filedname="recommenderIdNum" id="28" indexed="28" label="推荐人证件号码" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="46" indexed="46" label="-" row="1" type="5" typepara="/mfCusPersBaseInfo/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

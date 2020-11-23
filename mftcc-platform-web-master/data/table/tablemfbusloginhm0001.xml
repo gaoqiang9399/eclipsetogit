@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusloginhm0001" link="/mfBusLoginHm/findByPage" para="eadis_page" title="App白名单列表" type="1">
+<tableitem align="2" filedname="opNo" id="6" indexed="7" label="操作员编号" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="5" indexed="6" label="经销商名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="4" indexed="5" label="经销商编号" row="1" type="0"/>
+<tableitem align="2" filedname="cusType" id="3" indexed="4" label="角色" row="1" type="6" typepara="APP_CUS_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="2" indexed="3" label="手机号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="id" id="9" indexed="2" label="唯一编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="activeFlag" id="8" indexed="9" label="是否启用" sortType="1" type="4" typepara="/mfBusLoginHm/updateActiveFlagAjax;id-id;activeFlag-activeFlag;" widthType="0"/>
+<tableitem align="2" filedname="opName" id="7" indexed="8" label="操作员名称" row="1" sortType="2" type="0" widthType="0"/>
+</table>

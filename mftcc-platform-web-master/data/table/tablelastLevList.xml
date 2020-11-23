@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="lastLevList" para="eadis_page" title="重点关注科目详情列表" type="2">
+<tableitem align="2" filedname="amtProperties" id="6" indexed="3" label="客户名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="subjectRate" id="5" indexed="5" label="百分比(%)" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="subjectAmt" id="4" indexed="4" label="末级科目余额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="subjectCusName" id="3" indexed="6" label="款项性质" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="subjectName" id="2" indexed="2" label="末级科目名称" row="1" type="4" typepara="/acLnPaySeq/getById;paySeq-paySeq;paySeqCde-paySeqCde;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="subjectFirstName" id="1" indexed="1" label="一级科目名称" row="1" type="4" typepara="/acLnPaySeq/getById;paySeq-paySeq;paySeqCde-paySeqCde;query-'query'" widthType="0"/>
+</table>

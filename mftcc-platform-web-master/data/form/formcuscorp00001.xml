@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cuscorp00001" title="企业客户基本信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="企业客户号" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="legalRepresName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="法人代表姓名" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="legalIdType" fieldsize="PERS_ID_TYPE" fieldtype="21" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="法人代表证件类型" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalIdNum" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="法人代表证件号码" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="setupDate" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="成立年份" maxlength="4" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="careaProvice" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="行政区划" maxlength="6" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="careaCity" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="4" labelname="客户所属市" maxlength="6" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="careaCounty" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="客户所属县" maxlength="6" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="postalCode" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="邮政编号" maxlength="6" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="corpNature" fieldsize="CORP_TYPE" fieldtype="21" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="企业性质" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayClass" fieldsize="TRADE" fieldtype="21" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="行业分类" maxlength="5" mustinput="0" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="5" fieldname="empCnt" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="4" labelname="从业人数" mustinput="0" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="assetSum" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="资产总额" maxlength="20" mustinput="0" onblur="num_validate(assetSum)" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="bussIncome" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="营业收入" maxlength="20" mustinput="0" onblur="num_validate(bussIncome)" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gradeModel" fieldsize="GREDE_MODEL_CORP" fieldtype="21" formactiveid="22" horVer="1" labelalign="1" labelcol="3" labelname="评分模型" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusBussType" fieldsize="BUSINESS_TYPE" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="2" labelname="客户业务类型" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="belongWay" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="6" labelname="行业分类(隐藏 同小类)" maxlength="5" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="infoOffer" fieldsize="INFO_OFFER" fieldtype="21" formactiveid="27" horVer="1" labelalign="1" labelcol="4" labelname="信息来源" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="cusMngNo" fieldtype="99" formactiveid="30" horVer="1" labelalign="1" labelcol="6" labelname="客户经理编号" maxlength="22" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="regTime" fieldtype="99" formactiveid="36" horVer="1" labelalign="1" labelcol="6" labelname="登记时间" maxlength="17" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="lstModTime" fieldtype="99" formactiveid="37" horVer="1" labelalign="1" labelcol="5" labelname="最后修改时间" maxlength="17" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="ext1" fieldtype="99" formactiveid="38" horVer="1" labelalign="1" labelcol="6" labelname="预留字段" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext2" fieldtype="99" formactiveid="39" horVer="1" labelalign="1" labelcol="5" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="ext3" fieldtype="99" formactiveid="40" horVer="1" labelalign="1" labelcol="6" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext4" fieldtype="99" formactiveid="41" horVer="1" labelalign="1" labelcol="5" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="ext5" fieldtype="99" formactiveid="42" horVer="1" labelalign="1" labelcol="6" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext6" fieldtype="99" formactiveid="43" horVer="1" labelalign="1" labelcol="5" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="ext7" fieldtype="99" formactiveid="44" horVer="1" labelalign="1" labelcol="6" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext8" fieldtype="99" formactiveid="45" horVer="1" labelalign="1" labelcol="5" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="8" fieldname="ext9" fieldtype="99" formactiveid="46" horVer="1" labelalign="1" labelcol="6" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="ext10" fieldtype="99" formactiveid="47" horVer="1" labelalign="1" labelcol="5" maxlength="100" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="48" horVer="1" labelalign="1" labelcol="1" labelname="客户经理" mustinput="" row="9"/>
+</form>

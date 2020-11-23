@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfcuscorplawsuitsallclass02" title="企业涉诉高法全类-详情报告">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="enterpriseName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="企业名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caseNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="案号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseType" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="案件类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recordTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="立案时间" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="content" fieldtype="5" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="内容" maxlength="800" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="标题" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="简述" maxlength="100" mustinput="" readonly="1" row="4"/>
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusplantbreedBase" link="/mfCusPlantBreed/findByPage" para="eadis_page" title="种植养殖信息" type="1">
+<tableitem align="2" filedname="income" id="9" indexed="6" label="年收入（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="num" id="6" indexed="9" label="亩数/出栏数" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="varieties" id="5" indexed="5" label="品种" row="1" type="4" typepara="/mfCusPlantBreed/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusPlantBreed/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="infoType" id="4" indexed="4" label="经营类型" row="1" type="6" typepara="PLANT_BREED_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="37" indexed="10" label="-" row="1" type="5" typepara="/mfCusPlantBreed/getById;id-id;cusNo-cusNo;oneUrl-'/mfCusPlantBreed/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);" width="5" widthType="0"/>
+<tableitem align="2" filedname="totalCost" id="36" indexed="7" label="年支出（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="totalProfit" id="35" indexed="8" label="经营净利润（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="34" indexed="37" label="-" type="5" typepara="/mfCusPlantBreed/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+</table>

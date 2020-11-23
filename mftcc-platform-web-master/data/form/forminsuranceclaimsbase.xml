@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="insuranceclaimsbase" title="押品/出险理赔信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="collateralId" fieldtype="99" fieldwidth="50" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="押品编号" labelwidth="50" maxlength="30" mustinput="0" onblur="func_onBlur_getInsInfo(this);" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="policyNo" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="保单编号" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="policyStartEndDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="保险起止日期" labelstyle="form-money" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="policyMoney" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="保险金额" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="accidentDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="出险时间" labelstyle="startRang" maxlength="17" mustinput="1" onclick="selectrili(this,null,null,today);" row="4" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accidentLocation" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="出险地点" maxlength="200" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accidentCondition" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="出险情况" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="compensationMoney" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="赔付金额" maxlength="14" mustinput="1" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="compensationMoney" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="赔付金额" maxlength="20" mustinput="1" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="responsiblePerson" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="经办人" labelstyle="startRang" maxlength="40" mustinput="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人" maxlength="20" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="50" mustinput="0" row="23"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="修改时间" maxlength="17" mustinput="0" row="27"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="compensationDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="赔付时间" maxlength="17" mustinput="1" onclick="selectrili(this,null,null,today);" readonly="" row="8" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="labelName" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="表单id" mustinput="" readonly="" row="11"/>
+</form>

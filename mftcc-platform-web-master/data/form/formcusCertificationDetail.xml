@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusCertificationDetail" title="共有人情况（吉林金控）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="押品编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contractName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="姓名" maxlength="50" mustinput="1" param="id;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contractAge" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="年龄" maxlength="3" mustinput="1" param="id;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusId" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regCusName" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="登记人姓名" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgId" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人机构" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="登记人机构名称" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateCusId" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="更新人编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateCusName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="更新人姓名" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateOrgId" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="更新人机构" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOrgName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="更新人机构名称" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateDate" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="更新日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="17" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="insId" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="contractSex" fieldsize="SEX" fieldtype="2" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="性别" mustinput="1" readonly="1" row="1"/>
+</form>

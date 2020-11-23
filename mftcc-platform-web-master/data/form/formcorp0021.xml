@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="corp0021" title="登记信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="orgName" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="登记机构" maxlength="160" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="lstOrgName" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="3" labelname="最后修改机构" maxlength="160" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="登记人" maxlength="160" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="lstRegName" fieldtype="1" formactiveid="5" horVer="0" labelalign="1" labelcol="3" labelname="最后修改人" maxlength="160" mustinput="" readonly="" row="2" />
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="1" labelcol="1" labelname="登记日期" mustinput="" readonly="" row="3" />
+<formelement datatype="6" fieldalign="3" fieldcol="4" fieldname="lstDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="1" labelcol="3" labelname="更新日期" mustinput="" readonly="" row="3" />
+</form>

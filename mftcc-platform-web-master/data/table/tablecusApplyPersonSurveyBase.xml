@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusApplyPersonSurveyBase" para="eadis_page" link="/mfCusApplyPersonSurvey/findByPage" title="申请人调查表" type="1">
+<tableitem align="2" filedname="删除" id="54" indexed="54" label="-" row="1" type="5" typepara="/mfCusApplyPersonSurvey/deleteAjax;surveyId-surveyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

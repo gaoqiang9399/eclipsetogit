@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="tagset0002" title="标签配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="seriaNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="唯一号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="templateNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="模板编号" maxlength="5" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateCnName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="模板中文名称" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="templateEnName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="模板英文名称" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templatePath" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="模板存储路径" maxlength="255" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tagKeyNo" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="标签key编号" maxlength="1000" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tagKeyName" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="标签key名称" maxlength="2000" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="templateEditFlag" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="模板是否允许编辑" maxlength="1" mustinput="0" row="7"/>
+</form>

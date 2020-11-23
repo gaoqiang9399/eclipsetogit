@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="demo0003" title="演示业务">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoWork" fieldsize="STS" fieldtype="3" formactiveid="1" horVer="1" labelalign="3" labelcol="2" labelname="单位" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoId" fieldtype="1" formactiveid="2" horVer="1" labelalign="3" labelcol="1" labelname="演示编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoTime" fieldsize="STS" fieldtype="4" formactiveid="3" horVer="1" labelalign="3" labelcol="2" labelname="时间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoPosition" fieldsize="STS" fieldtype="21" formactiveid="4" horVer="1" labelalign="3" labelcol="1" labelname="职务" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoTel" fieldtype="1" formactiveid="5" horVer="1" labelalign="3" labelcol="1" labelname="其他" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoDay" fieldtype="1" formactiveid="6" horVer="1" labelalign="3" labelcol="1" labellink="/demo/getById" labelname="累计天数" mustinput="" readonly="1" row="7" unit="笔乘用车业务"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoCount" fieldtype="1" formactiveid="7" horVer="1" labelalign="3" labelcol="2" labelname="累计次数" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="demoMaxDay" fieldtype="1" formactiveid="8" horVer="1" labelalign="3" labelcol="2" labelname="最大天" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="demoOther" fieldtype="5" formactiveid="9" horVer="1" labelalign="3" labelcol="1" labelname="其他" maxlength="400" mustinput="" readonly="" row="9"/>
+</form>

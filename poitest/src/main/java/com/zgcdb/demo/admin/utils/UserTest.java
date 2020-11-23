@@ -19,6 +19,7 @@ public class UserTest {
     public static void main(String[] args) throws Exception {
         File file = new File("E:\\users.xlsx");
         List<ExcelUserEntity> excelUserEntities = ExcelReaderUtil.readExcel2Bean(new FileInputStream(file), ExcelUserEntity.class);
+        
         for (ExcelUserEntity excelUserEntity : excelUserEntities) {
             System.out.println(excelUserEntity);
         }

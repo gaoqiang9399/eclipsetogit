@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vcwarnconf0001" para="eadis_page" title="车证预警" type="2">
+<tableitem align="2" filedname="修改" id="21" indexed="20" label="-" row="1" type="5" typepara="action;warnId-warnId;onClick-vcWarnConfList.getById;" width="6" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="20" indexed="19" label="修改时间" row="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="sendType" id="9" indexed="7" label="发送类型" row="1" type="6" typepara="MSG_SEND_TYPE" width="7" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="17" indexed="18" label="修改人" row="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="recCusType" id="8" indexed="6" label="接收人" row="1" type="6" typepara="MSG_RECIVER_TYPE" width="6" widthType="0"/>
+<tableitem align="2" filedname="flag" id="7" indexed="9" label="启用" row="1" type="4" typepara="/vcWarnConf/updateFlagAjax;warnId-warnId;" width="5" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="15" indexed="16" label="登记时间" row="1" type="30" width="8" widthType="0"/>
+<tableitem align="2" filedname="warnContent" id="5" indexed="10" label="预警消息" row="1" type="0" width="24" widthType="0"/>
+<tableitem align="2" filedname="warnValue" id="4" indexed="5" label="阈值" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="warnName" id="3" indexed="4" label="指标规则" type="0" width="14" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="12" indexed="13" label="登记人" row="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="warnNo" id="2" indexed="2" label="预警指标" row="1" type="0" width="7" widthType="0"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnstub0001" para="eadis_page" link="" title="质押存单" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnStub/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="stubIssueType" id="2" indexed="2" label="存单归属类型" row="1" type="0" />
+<tableitem align="2" filedname="stubType" id="3" indexed="3" label="存单类型" row="1" type="0" />
+<tableitem align="2" filedname="stubCt" id="4" indexed="4" label="存单币种" row="1" type="0" />
+<tableitem align="2" filedname="stubAmount" id="5" indexed="5" label="存单金额(折人民币)" row="1" type="0" />
+<tableitem align="2" filedname="exchangeRate" id="6" indexed="6" label="汇率" row="1" type="0" />
+<tableitem align="2" filedname="stubNo" id="7" indexed="7" label="存单号码" row="1" type="0" />
+<tableitem align="2" filedname="interestBegDate" id="8" indexed="8" label="起息日期" row="1" type="0" />
+<tableitem align="2" filedname="dueDate" id="9" indexed="9" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="payMethodType" id="10" indexed="10" label="支取方式" row="1" type="0" />
+</table>

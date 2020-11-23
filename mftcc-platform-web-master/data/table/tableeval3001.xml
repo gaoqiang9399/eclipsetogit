@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="eval3001" para="eadis_page" link="" title="评级得分级别表" type="2">
+<tableitem align="2" filedname="scenceNo" id="1" indexed="1" label="场景编号" row="1" type="4" typepara="/evalSceScoreLevel/getByIdAjax;scenceNo-scenceNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="level" id="2" indexed="2" label="级别" row="1" type="0" />
+<tableitem align="2" filedname="upperScore" id="3" indexed="3" label="分数上限" row="1" type="0" />
+<tableitem align="2" filedname="lowerScore" id="4" indexed="4" label="分数下限" row="1" type="0" />
+</table>

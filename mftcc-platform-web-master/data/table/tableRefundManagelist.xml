@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="RefundManagelist" para="eadis_page" title="退费申请列表" type="1">
+<tableitem align="2" filedname="pactAmt" id="6" indexed="5" label="保函金额（元）" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="refundHandAmt" id="5" indexed="8" label="应退手续费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="详情" id="86" indexed="86" label="-" row="1" type="5" typepara="/mfRefundManage/getById;id-id;onClick-MfRefundManage_List.detail(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="refundGuaranteeAmt" id="3" indexed="6" label="应退担保费（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="4" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;pactId-pactId;busEntrance-'pact';onClick-MfRefundManage_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="refundAmt" id="82" indexed="82" label="应退费总额（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="refundBond" id="9" indexed="11" label="应退保证金（元）" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="80" indexed="3" label="委托担保合同编号" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfRefundManage_List.getDetailPage(this);" widthType="0"/>
+</table>

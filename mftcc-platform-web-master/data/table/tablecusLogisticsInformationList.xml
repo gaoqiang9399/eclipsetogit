@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusLogisticsInformationList" link="/mfCusLogisticsInformation/findByPage" para="eadis_page" title="物流信息" type="1">
+<tableitem align="2" filedname="删除" id="35" indexed="35" label="-" row="1" type="5" typepara="/mfCusLogisticsInformation/deleteAjax.action;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+<tableitem align="2" filedname="purchasePrice" id="32" indexed="32" label="采购价格" row="1" type="0"/>
+<tableitem align="2" filedname="purchaseQuantity" id="31" indexed="31" label="采购数量" row="1" type="0"/>
+<tableitem align="2" filedname="rawMaterialType" id="30" indexed="30" label="原料种类" row="1" type="0"/>
+<tableitem align="2" filedname="rawMaterialBrand" id="29" indexed="29" label="原料品牌" row="1" type="0"/>
+<tableitem align="2" filedname="purchaseData" id="28" indexed="28" label="采购日期" row="1" type="4" typepara="/mfCusLogisticsInformation/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusLogisticsInformation/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+</table>

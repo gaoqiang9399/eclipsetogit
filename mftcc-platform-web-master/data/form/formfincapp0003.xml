@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fincapp0003" title="放款申请（纵向）">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fincAppAmt" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="申请金额" maxlength="20" mustinput="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="开户行" mustinput="0" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="incomName" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="收款人" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="收款账号" mustinput="1" onclick="selectBankAcc()" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="opName" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="登记人" mustinput="" readonly="1" row="7" />
+<formelement datatype="9" fieldalign="1" fieldcol="3" fieldname="fincRate" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="合同利率" mustinput="1" readonly="1" row="3" unit="%" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusName" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="客户号" mustinput="" readonly="" row="9" />
+</form>

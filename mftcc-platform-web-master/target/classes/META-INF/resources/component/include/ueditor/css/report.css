@@ -1,0 +1,130 @@
+#tableData td {
+    text-align: center;
+}
+
+.headerSearch span {
+    display: inline-block;
+    line-height: 30px;
+    float: left;
+    padding: 0 20px;
+}
+
+/*.headerSearch select {
+    width: 200px;
+    border-radius: 3px;
+    float: left;
+    height: 31px;
+    margin-right: 10px;
+}
+
+select {
+    width: 200px;
+    border-radius: 3px;
+    float: left;
+    height: 31px;
+    margin-right: 10px;
+}*/
+
+#loutinav {
+    width: 30%;
+}
+
+#loutinav ul {
+    top: 70px;
+}
+
+#loutinav ul li {
+    text-align: left;
+}
+
+#formDiv2 .layui-input-block2 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#formDiv2 .layui-tab.layui-tab-brief{
+    margin: 0px;
+}
+#formDiv2 form#form .jbitem{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#formDiv2 form#form .jbitem ul.layui-tab-title {
+    position: fixed;
+    background: #ffffff;
+    left: inherit !important;
+    z-index: 9999;
+}
+
+#formDiv2 form#form .jbitem .layui-tab-content {
+    padding-top: 33px;
+    z-index: 9998;
+}
+#formDiv4 .layui-input-block2 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#formDiv4 .layui-tab.layui-tab-brief{
+    margin: 0px;
+}
+#formDiv4 form#form .jbitem{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+#formDiv4 form#form .jbitem ul.layui-tab-title {
+    position: fixed;
+    background: #ffffff;
+    left: inherit !important;
+    z-index: 9999;
+}
+
+#formDiv4 form#form .jbitem .layui-tab-content {
+    padding-top: 33px;
+    z-index: 9998;
+}
+
+
+/* 企业工商信息 */
+
+.business_Info {
+    width: 82%;
+    float: left;
+}
+
+.business_Info .layui-col-xs12 {
+    margin-bottom: 5px;
+}
+
+.layui-form-item .layui-inline {
+    margin-right: 0px;
+    width: 49%;
+}
+
+.layui-form-item .layui-inline .layui-form-label2 {
+    margin-right: 10px;
+    padding: 9px 0px;
+    max-width: 200px;
+}
+
+/*.layui-form-item .layui-inline .layui-input-inline {
+    width: calc(100% - 200px);
+}*/
+
+.layui-form-item .layui-upload-drag {
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.layui-form-item .layui-input-block {
+    margin-left: 0px;
+    width: calc(100% - 180px);
+    float: left;
+}
+
+.layui-form-item textarea {
+    height: 180px;
+}
+
+/*申请人财务状态*/

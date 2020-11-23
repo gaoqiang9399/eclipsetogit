@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="examrem0001" title="检查提醒配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="remindId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="检查提醒编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remindName" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="检查提醒名称" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busModel" fieldsize="BUS_MODEL" fieldstyle="half" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="业务模式" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examObj" fieldsize="EXAM_OBJ" fieldstyle="half" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="检查对象" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examType" fieldsize="EXAM_TYPE" fieldstyle="half" fieldtype="2" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="检查类型" maxlength="1" mustinput="0" onchange="examTypeChange()" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="aheadWarnTime" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="提前预警天数" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examDate" fieldsize="FIVE_CHECK_DATE" fieldstyle="half" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="检查日期" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="laonAfterTime" fieldstyle="half" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="放款后天数" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pattern" fieldsize="PATTERN" fieldstyle="half" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="模式" maxlength="1" mustinput="0" onchange="patternChange()" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="remindTime" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="提醒天数(天)" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="YES_NO" fieldstyle="half" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="启用标识" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="检查提醒说明" maxlength="400" mustinput="0" row="8"/>
+</form>

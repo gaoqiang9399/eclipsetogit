@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusuploadhead0001" title="上传客户头像表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upload" fieldtype="9" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户头像" mustinput="0" onchange="checkFileEnd(this)" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uploadFileName" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="文件名" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="primaryKey" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="输入框" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="filePath" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="文件路径" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="客户号" mustinput="" readonly="" row="4" />
+</form>

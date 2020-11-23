@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pact0003" para="eadis_page" title="在履行合同列表" type="2">
+<tableitem align="2" filedname="regTime" id="88" indexed="100" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="87" indexed="95" label="放款金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="85" indexed="101" label="办理阶段" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="96" indexed="94" label="放款期限" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="89" indexed="84" label="委托保证合同" row="1" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;pactId-pactId;appId-appId;busEntrance-'3';enterClick-getDetailPage(this);" widthType="0"/>
+</table>

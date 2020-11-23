@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="EncryptFieldsList" para="eadis_page" title="加密字段列表" type="1">
+<tableitem align="2" filedname="createTime" id="15" indexed="5" label="创建时间" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="14" indexed="6" label="创建人" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="columnName" id="4" indexed="1" label="加密字段" row="1" sortType="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="tableName" id="2" indexed="0" label="加密表名" row="1" sortType="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" authority="isUsed-0" filedname="数据解密" id="19" indexed="8" label="-" sortType="2" type="99" typepara="/mfEncryptFields/dencryptHistoryData;fieldId-fieldId;onClick-MfEncryptFields_List.dencryptHistoryData(this)" width="5" widthType="0"/>
+<tableitem align="2" authority="isUsed-0" filedname="数据加密" id="18" indexed="9" label="-" row="1" sortType="2" type="5" typepara="/mfEncryptFields/encryptHistoryData;fieldId-fieldId;onClick-MfEncryptFields_List.encryptHistoryData(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="isUsed" id="17" indexed="2" label="是否启用" row="1" type="4" typepara="/mfEncryptFields/updateIsUsedAjax;fieldId-fieldId;isUsed-isUsed" width="5" widthType="0"/>
+<tableitem align="2" filedname="修改" id="16" indexed="7" label="-" row="1" sortType="2" type="5" typepara="/mfEncryptFields/input;fieldId-fieldId;flag-'update';onClick-MfEncryptFields_List.getDetail(this)" width="5" widthType="0"/>
+</table>

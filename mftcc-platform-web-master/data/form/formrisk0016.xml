@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form id="risk0016" title="风险拦截业务关联">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="业务关联号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="方案编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="方案名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemType" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="方案类型" maxlength="2" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemDesc" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="方案描述" maxlength="1000" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemHelp" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="方案预警/拦截帮助" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemSql" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="方案SQL语句" maxlength="2000" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemSqlDesc" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="方案SQL语句描述" maxlength="1000" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemJavaClass" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="方案JAVA类" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemJavaDesc" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="方案JAVA类描述" maxlength="1000" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemFormula" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="方案公式" maxlength="1000" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemFormulaDesc" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="方案公式描述" maxlength="1000" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="风险级别" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sqlPassFlag" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="SQL是否通过" maxlength="1" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="javaClassPassFlag" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="java类是否通过" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulaPassFlag" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="公式是否通过" maxlength="1" mustinput="0" row="16"/>
+</form>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formtudibaseinfo0004" title="土地使用信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="4" labelname="押品名称" maxlength="80" mustinput="0" param="pledgeNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" onclick="prodAutoMenu(this,'/mfCusCorpBaseInfo/getCusListAjax',sysCusCallBack,'cusName');" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="69" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pledgeNo" fieldtype="99" formactiveid="71" horVer="0" labelalign="3" labelcol="5" labelname="押品编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr01" fieldtype="1" formactiveid="72" horVer="1" labelalign="1" labelcol="2" labelname="抵质押顺位" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr02" fieldtype="1" formactiveid="73" horVer="1" labelalign="1" labelcol="4" labelname="共有人" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr29" fieldtype="1" formactiveid="74" horVer="1" labelalign="1" labelcol="1" labelname="土地性质" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr29" fieldtype="1" formactiveid="75" horVer="1" labelalign="1" labelcol="2" labelname="权属证明类型" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr05" fieldtype="1" formactiveid="76" horVer="1" labelalign="1" labelcol="3" labelname="权属证书编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr11" fieldtype="1" formactiveid="77" horVer="1" labelalign="1" labelcol="4" labelname="规划用途" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="extOstr07" fieldtype="1" formactiveid="78" horVer="1" labelalign="1" labelcol="1" labelname="坐落地址" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr08" fieldtype="1" formactiveid="79" horVer="1" labelalign="1" labelcol="1" labelname="使用面积" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr12" fieldtype="1" formactiveid="80" horVer="1" labelalign="1" labelcol="2" labelname="取得年月" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr18" fieldtype="1" formactiveid="81" horVer="1" labelalign="1" labelcol="3" labelname="产权期限" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr13" fieldtype="1" formactiveid="82" horVer="1" labelalign="1" labelcol="4" labelname="取得方式" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr31" fieldtype="1" formactiveid="83" horVer="1" labelalign="1" labelcol="1" labelname="取得成本" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr28" fieldtype="1" formactiveid="84" horVer="1" labelalign="1" labelcol="2" labelname="已支付土地价款" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="extOstr30" fieldtype="1" formactiveid="85" horVer="1" labelalign="1" labelcol="3" labelname="剩余应付土地价款" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr15" fieldtype="1" formactiveid="86" horVer="1" labelalign="1" labelcol="4" labelname="按揭/抵押借款余额" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr14" fieldtype="1" formactiveid="87" horVer="1" labelalign="1" labelcol="1" labelname="净现金" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="extOstr16" fieldtype="1" formactiveid="88" horVer="1" labelalign="1" labelcol="2" labelname="使用状态" mustinput="" readonly="" row="13"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="extOstr21" fieldtype="1" formactiveid="89" horVer="1" labelalign="1" labelcol="3" labelname="预计开发时间" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="extOstr27" fieldtype="1" formactiveid="90" horVer="1" labelalign="1" labelcol="4" labelname="其他相关开发证件" mustinput="" readonly="" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="extOstr22" fieldsize="YES_NO" fieldtype="2" formactiveid="91" horVer="1" labelalign="1" labelcol="1" labelname="是否有地上附着物" mustinput="" readonly="" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="92" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="说明" maxlength="400" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="classSecondName" fieldtype="1" formactiveid="93" horVer="1" labelalign="1" labelcol="2" labelname="押品类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="94" horVer="1" labelalign="1" labelcol="3" labelname="担保类别" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="certificateName" fieldtype="1" formactiveid="95" horVer="1" labelalign="1" labelcol="2" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="96" horVer="1" labelalign="1" labelcol="3" labelname="押品状态" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="97" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+</form>

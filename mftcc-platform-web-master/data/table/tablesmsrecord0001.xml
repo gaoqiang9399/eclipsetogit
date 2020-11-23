@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="smsrecord0001" link="/mfSmsRecord/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" filedname="详情" id="18" indexed="11" label="-" type="5" typepara="/mfSmsRecord/getById;recordNo-recordNo;" widthType="0"/>
+<tableitem align="2" filedname="smsTemplate" id="9" indexed="10" label="短信模板" row="1" type="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="18" label="-" row="1" type="5" typepara="/mfSmsRecord/deleteUpdateSmsAjax;recordNo-recordNo;onClick-deleteUpdateSms" width="2" widthType="0"/>
+<tableitem align="2" filedname="createTime" id="8" indexed="8" label="创建时间" row="1" type="0"/>
+<tableitem align="2" filedname="undeliveredNo" id="5" indexed="5" label="未发送条数" row="1" type="0"/>
+<tableitem align="2" filedname="sendNo" id="4" indexed="4" label="发送条数" row="1" type="0"/>
+<tableitem align="2" filedname="infSendMode" id="3" indexed="3" label="信息发送方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recordName" id="2" indexed="2" label="记录名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="recordNo" id="1" indexed="1" label="记录编号" row="1" type="99" typepara="/mfSmsRecord/getById;recordNo-recordNo;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="recordStatue" id="10" indexed="9" label="记录状态" row="1" type="0" widthType="0"/>
+</table>

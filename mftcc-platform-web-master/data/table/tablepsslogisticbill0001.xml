@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psslogisticbill0001" para="eadis_page" title="进销存物流单" type="2">
+<tableitem align="2" filedname="logisticCompany" id="29" indexed="21" label="物流公司" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="删除" id="28" indexed="28" label="-" row="1" sortType="2" type="5" typepara="/pssLogisticBill/deleteLogisticBillAjax;logisticBillId-logisticBillId;onClick-PssLogisticBill_List.deleteLogisticBill(this)" widthType="0"/>
+<tableitem align="3" filedname="productCost" id="26" indexed="27" label="费用(元)" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="3" filedname="productNu" id="24" indexed="26" label="数量(件)" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="productName" id="23" indexed="25" label="品名" mytitle="模板内容-productName;" row="1" sortType="2" type="3" typepara="10" width="8" widthType="0"/>
+<tableitem align="1" filedname="expressBillNo" id="22" indexed="23" label="快递单号" mytitle="模板内容-expressBillNo;" row="1" sortType="2" type="3" typepara="10" width="8" widthType="0"/>
+<tableitem align="1" filedname="logisticCompany" id="21" indexed="22" label="物流公司" mytitle="模板内容-logisticCompany;" row="1" sortType="2" type="6" typepara="PSS_LOGISTIC_COMPANY" width="10" widthType="0"/>
+<tableitem align="2" filedname="recMobile" id="6" indexed="6" label="收件人电话" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="recName" id="5" indexed="5" label="收件人" mytitle="模板内容-recName;" row="1" sortType="2" type="3" typepara="10" width="8" widthType="0"/>
+<tableitem align="2" filedname="billNo" id="4" indexed="4" label="单据编号" mytitle="模板内容-billNo;" row="1" sortType="2" type="3" typepara="10" width="8" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="日期" row="1" sortType="2" type="1" width="8" widthType="0"/>
+<tableitem align="1" filedname="recDetailAddress" id="12" indexed="12" label="收件人地址" mytitle="模板内容-recDetailAddress;" row="1" sortType="2" type="3" typepara="10" width="8" widthType="0"/>
+<tableitem align="2" filedname="logisticBillNo" id="2" indexed="3" label="物流单编号" mytitle="模板内容-logisticBillNo;" row="1" sortType="2" type="4" typepara="/pssLogisticBill/getDetailPage;logisticBillId-logisticBillId;saveOrEditFlag-'2';onClick-PssLogisticBill_List.getLogisticBill;" width="8" widthType="0"/>
+<tableitem align="2" filedname="logisticBillId" id="1" indexed="1" label="全选" sortType="2" type="2" typepara="logisticBillId-logisticBillId;logisticCompany-logisticCompany;" width="4" widthType="0"/>
+</table>

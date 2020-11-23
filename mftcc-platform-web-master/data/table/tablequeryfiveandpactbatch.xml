@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryfiveandpactbatch" para="eadis_page" title="人工认定五级分类" type="1">
+<tableitem align="2" filedname="fiveclassId" id="33" indexed="18" label="五级分类id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="nowRegTime" id="31" indexed="20" label="本次认定时间" row="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="nowChangeReason" id="30" indexed="24" label="认定原因" row="1" sortType="2" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="27" indexed="10" label="借据金额(元)" row="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="nowFiveclass" id="25" indexed="16" label="客户经理认定" row="1" sortType="2" type="10" typepara="FIVE_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="24" indexed="9" label="借据号" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" colorCol="systemFiveclass" filedname="systemFiveclass" id="23" indexed="15" label="本次自动结果" row="1" sortType="1" type="6" typepara="FIVE_STS" width="8" widthType="0"/>
+<tableitem align="2" filedname="lastFiveclass" id="5" indexed="13" label="上次结果" row="1" sortType="1" type="6" typepara="FIVE_STS" width="8" widthType="0"/>
+<tableitem align="2" filedname="appName" id="42" indexed="8" label="项目申请号" type="4" typepara="/mfBusApply/getSummary;appId-appId;busEntrance-'apply';onClick-getDetailApply(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="fiveclassSts" id="41" indexed="19" label="状态code" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="fiveclassSts" id="37" indexed="28" label="状态" row="1" type="6" typepara="FIVE_CLASS_STS" width="8" widthType="0"/>
+<tableitem align="2" filedname="changeReason" id="35" indexed="27" label="备注" row="1" sortType="2" type="9" width="7" widthType="0"/>
+</table>

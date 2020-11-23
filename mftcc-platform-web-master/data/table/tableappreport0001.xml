@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="appreport0001" para="eadis_page" link="/mfTuningReport/findByPage" title="尽调报告" type="1">
+<tableitem align="2" filedname="reportId" id="1" indexed="1" label="唯一编号" row="1" type="4" typepara="/mfTuningReport/getById;reportId-reportId;query-'query'"/>
+<tableitem align="2" filedname="appId" id="2" indexed="2" label="申请号" row="1" type="0" />
+<tableitem align="2" filedname="pactId" id="3" indexed="3" label="合同号" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="4" indexed="4" label="客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="humanLaw" id="6" indexed="6" label="人法查询" row="1" type="0" />
+<tableitem align="2" filedname="dishonest" id="7" indexed="7" label="失信查询" row="1" type="0" />
+<tableitem align="2" filedname="threeParty" id="8" indexed="8" label="三方征信查询" row="1" type="0" />
+<tableitem align="2" filedname="houseConditions" id="9" indexed="9" label="下户房屋情况" row="1" type="0" />
+<tableitem align="2" filedname="paymentFrom" id="10" indexed="10" label="还款来源" row="1" type="0" />
+<tableitem align="2" filedname="suppData" id="11" indexed="11" label="补充资料" row="1" type="0" />
+<tableitem align="2" filedname="reminder" id="12" indexed="12" label="提醒" row="1" type="0" />
+<tableitem align="2" filedname="summary" id="13" indexed="13" label="总结" row="1" type="0" />
+<tableitem align="2" filedname="opinion" id="14" indexed="14" label="意见" row="1" type="0" />
+<tableitem align="2" filedname="guarantee" id="15" indexed="15" label="担保信息" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="16" indexed="16" label="登记人号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="17" indexed="17" label="登记人名称" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="18" indexed="18" label="登记机构号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="19" indexed="19" label="登记机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="20" indexed="20" label="登记时间" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="21" indexed="21" label="最近修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="26" indexed="26" label="-" row="1" type="5" typepara="/mfTuningReport/deleteAjax;reportId-reportId;onClick-ajaxDelete(this)" width="2"/>
+</table>

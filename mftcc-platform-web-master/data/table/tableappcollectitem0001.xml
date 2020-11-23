@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="appcollectitem0001" link="/mfAppCollectItem/findByPage" para="eadis_page" title="app信息采集项" type="1">
+<tableitem align="2" filedname="itemType" id="6" indexed="6" label="信息类型" type="6" typepara="APP_COLLECT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="itemUrl" id="5" indexed="5" label="链接" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="itemUseFlag" id="4" indexed="4" label="是否启用" row="1" sortType="2" type="4" typepara="/mfAppCollectItem/updateStsAjax;id-id;" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="3" indexed="3" label="采集信息名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="modelType" id="2" indexed="2" label="信息编号" row="1" type="0"/>
+<tableitem align="2" filedname="itemModelUrl" id="7" indexed="7" label="表单模板路径" row="1" sortType="2" type="0" widthType="0"/>
+</table>

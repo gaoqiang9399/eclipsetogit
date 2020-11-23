@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vccertificatescanfile01" para="eadis_page" title="机动车合格证扫描件信息表" trClick=";onClick-Vcms.checkCurrentTr(this)" trDbClick="/vcCertificateScanfile/previewFile;scanfileId-scanfileId;certificateId-certificateId;fileName-fileName;onDbClick-VcCertificateScanfile_List.previewFile(this)" type="1">
+<tableitem align="2" filedname="scanfileId" id="50" indexed="18" label="全选" row="1" sortType="2" type="2" typepara="scanfileId-scanfileId;certificateId-certificateId;" width="4" widthType="0"/>
+<tableitem align="1" filedname="dealerName" id="51" indexed="19" label="经销商" mytitle="模板内容-dealerName" row="1" type="3" typepara="14" width="16" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="2" indexed="20" label="合格证序号" row="1" sortType="1" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="21" label="车架号" row="1" sortType="1" type="4" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-VcCertificateScanfile_List.getCertificateDetailPage(this);" width="14" widthType="0"/>
+<tableitem align="2" filedname="engineNo" id="47" indexed="22" label="发动机号" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="1" filedname="fileName" id="20" indexed="23" label="文件名称" row="1" sortType="1" type="4" typepara="/vcCertificateScanfile/previewFile;scanfileId-scanfileId;fileName-fileName;onClick-VcCertificateScanfile_List.previewFile(this);" width="14" widthType="0"/>
+<tableitem align="3" filedname="docSize" id="48" indexed="24" label="大小(KB)" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="43" indexed="28" label="上传人" mytitle="模板内容-regOpName" row="1" sortType="1" type="3" typepara="5" width="7" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="49" indexed="31" label="上传时间" row="1" sortType="1" type="30" width="11" widthType="0"/>
+<tableitem align="2" filedname="删除" id="46" indexed="32" label="-" row="1" sortType="2" type="5" typepara="/vcCertificateScanfile/deleteAjax;scanfileId-scanfileId;certificateId-certificateId;onClick-VcCertificateScanfile_List.deleteScanfile(this)" widthType="0"/>
+</table>

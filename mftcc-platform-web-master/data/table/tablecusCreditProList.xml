@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCreditProList" para="eadis_page" title="客户授信产品列表" type="3">
+<tableitem align="2" filedname="creditTerm" id="25" indexed="9" label="授信期限(月)" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditSum" id="24" indexed="8" label="授信总额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="creditBal" id="23" indexed="16" label="产品剩余额度(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="22" indexed="10" label="产品额度(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="7" indexed="7" label="产品名称" row="1" type="0" widthType="0"/>
+</table>

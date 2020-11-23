@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbusredeemcertificate0001" para="eadis_page" title="赎证申请表" type="2">
+<tableitem align="1" filedname="chkStationName" id="9" indexed="5" label="经销商复核岗" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="redeemTime" id="17" indexed="10" label="申请时间" row="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="appStationName" id="7" indexed="4" label="经销商申请岗" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;appSts-PS;appSts-AF;redeemReqType-02;" filedname="复核" id="16" indexed="16" label="-" row="1" sortType="2" type="5" typepara="/mfBusRedeemCertificate/submitChkAjax;redeemId-redeemId;appSts-appSts;onClick-MfBusRedeemCertificate.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" authority="appSts-1;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;appSts-PS;appSts-AF;redeemReqType-02;" filedname="申请" id="15" indexed="15" label="-" row="1" sortType="2" type="5" typepara="/mfBusRedeemCertificate/submitAppAjax;redeemId-redeemId;appSts-appSts;onClick-MfBusRedeemCertificate.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-1;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;appSts-PS;appSts-AF;redeemReqType-01;" filedname="提交" id="14" indexed="17" label="-" sortType="2" type="5" typepara="/mfBusRedeemCertificateWkf/processSubmitAjax;wkfAppId-wkfAppId;onClick-MfBusRedeemCertificate.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="12" indexed="14" label="申请状态" row="1" type="6" typepara="HM_APP_STS" widthType="0"/>
+<tableitem align="3" filedname="repayAmount" id="11" indexed="3" label="还款金额" row="1" sortType="2" type="4" typepara="/mfBusRedeemCertificate/getById;redeemId-redeemId;wkfAppId-wkfAppId;cusNo-cusNo;onClick-MfBusRedeemCertificate.getById" widthType="0"/>
+<tableitem align="2" filedname="chkTime" id="10" indexed="12" label="复核时间" row="1" type="1" widthType="0"/>
+</table>

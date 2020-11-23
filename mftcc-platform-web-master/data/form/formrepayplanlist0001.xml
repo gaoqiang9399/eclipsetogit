@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="repayplanlist0001" title="还款计划中合同信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="产品名称" mustinput="" readonly="1" row="2" />
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="合同利率" mustinput="" readonly="1" row="4" unit="%" />
+<formelement alt="请点击选择发放日期" datatype="6" fieldalign="1" fieldcol="2" fieldname="putoutDate" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="发放日期" mustinput="1" onfocus="fPopUpCalendarDlg({min: today,choose:updateEndDateFinc})" row="6" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null, updateEndDateFinc)'&gt;&lt;/i&gt;" />
+<formelement alt="到期日期自动计算" datatype="6" fieldalign="1" fieldcol="4" fieldname="endDateFinc" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="到期日期" mustinput="1" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldstyle="half" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="5" labelname="申请编号" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pactAmt" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="合同金额" maxlength="4" mustinput="" readonly="1" row="2" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="wkfRepayId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="还款工作流id" mustinput="" readonly="" row="3" />
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="term" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="支用日期" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termType" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="期限类型" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="6" labelname="合同号" mustinput="" readonly="" row="6" selrange="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="icType" fieldsize="IC_TYPE" fieldtype="2" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="计息方式" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateType" fieldsize="RATE_TYPE" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="利率类型" mustinput="" row="4" />
+</form>

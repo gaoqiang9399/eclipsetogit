@@ -1,0 +1,691 @@
+/* 产品配置导航样式 begin */
+body{
+	background:#F1F1F1;
+}
+.nav-content{
+	max-height:550px;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus{
+	color:#32b5cb;
+	cursor:pointer;
+	border:none;
+}
+.nav-tabs>li>a{
+	border:none;
+}
+.nav-tabs>li{
+	margin-bottom:0px;
+}
+.nav>li>a:hover, 
+.nav>li>a:focus{
+	color:#009db7;
+}
+.set-div .nav-tabs a{
+	color:#212121;
+	font-size:16px;
+}
+
+.set-div .nav_dropdown{
+	z-index:2000;
+	position:absolute;
+	top:43px;
+	right:19px;
+	overflow: hidden;
+	box-shadow: 0 0 20px #666;
+	width:300px;
+	border-color: #ddd;
+	border-radius: 6px;
+}
+
+.set-div .panel-head{
+	color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding:0px 10px;
+}
+.set-div .panel-head i{
+	font-size: 20px;
+}
+.set-div .panel-head {
+	display: block;
+    padding: 10px;
+    position: relative; 
+}
+.set-div .panel-body{
+	max-height:370px;
+	padding:15px 5px
+}
+.set-div .panel-body .box-header{
+	padding:10px 0px;
+}
+.set-div .panel-body .box-tools{
+	margin-top:-5px;
+}
+.set-div .panel-body .box-title{
+	display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;
+    color:#32b5cb;
+}
+.set-div .panel-body .btn-box-tool{
+	padding: 5px;
+    font-size: 12px;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.set-div .panel-body .box-body .body-item{
+	height:34px;
+	line-height:32px;
+	border:1px solid #ddd;
+	border-radius: 4px;
+	padding:0px 5px;
+	margin-bottom:5px;
+	cursor: pointer;
+}
+
+.set-div .panel-footer{
+	background-color: #f5f5f5;
+	padding:10px;
+}
+
+.set-div .panel-body .kind-search{
+	position:relative;
+}
+.set-div .panel-body .kind-search i{
+	position: absolute;
+	top: 10px;
+	right: 2px;
+	color: #ccc;
+}
+
+/* 产品列表 展开 收起 begin */
+[data-toggle="collapse"] .fa-minus{
+	display: block !important;
+}
+[data-toggle="collapse"] .fa-plus {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .fa-minus {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .fa-plus {
+	display: block !important;
+}
+/* 产品列表 展开 收起  end*/
+
+/* 产品配置导航样式 end */
+
+.set-div .kind-list{
+	width: 100%;
+	padding:5px;
+}
+.set-div .list-div{
+	padding-bottom:50px;
+	height: 100%;
+}
+.set-div .list-item{
+	position: relative;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 50px 0 0 50px;
+	width: 275px;
+	height: 178px;
+	float:left;
+	color:#212121;
+	padding:15px;
+	cursor: pointer;
+}
+.set-div .list-item:hover {
+	 box-shadow: 0px 0px 10px #b2e5ec;
+}
+.set-div .list-item:hover .list-mask{
+	  display:block;
+}
+.set-div .list-item.disabled{
+	background:#D9D9D9;
+	cursor: default;
+}
+.set-div .list-item.disabled .del-icon{
+	color:#CFCFCF;
+}
+.set-div .list-item.disabled .block-footer i{
+	color:#B7C0C9;
+}
+
+.set-div .list-mask{
+	position: absolute;
+    width: 275px;
+    height: 178px;
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+    background: #fff;
+    opacity: 0.4;
+    display:none;
+}
+
+.stoggler .slabel-on{
+	padding-left:5px;
+}
+.swraper.lease .stoggler{
+	background:#32b5cb;
+}
+.swraper.lease .stoggler{
+	color:#fff;
+}
+
+.set-div  .block-header{
+	padding:0px 0px 15px 0px;
+	font-size: 18px;
+	text-align: center;
+}
+.set-div  .block-body {
+	font-size: 12px;
+	color:#616161;
+	height:37px;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+	 padding: 0px 5px;
+}
+.set-div  .block-footer{
+	font-size: 13px;
+	padding:10px 0px 0px 0px;
+}
+.set-div  .block-footer .full-div{
+	text-overflow: ellipsis;    
+	overflow: hidden; 
+	white-space: nowrap;
+}
+.set-div  .block-footer .half-div{
+	text-overflow: ellipsis;    
+	overflow: hidden; 
+	white-space: nowrap;
+}
+.set-div .block-header i{
+	font-size: 30px;
+	color:#32b5cb;
+}
+.set-div  .block-footer i{
+	color:#D9E2ED;
+	margin:0px;
+}
+
+
+.set-div .list-item:hover .use-link,
+.set-div .list-item:hover .del-icon
+{
+	display:block;
+	z-index:1;
+}
+
+.set-div .use-link{
+	position:absolute;
+	display:none;
+	cursor: pointer;
+    right: 5px;
+    bottom: 5px;
+}
+.set-div .del-icon{
+	color:#CECECE;
+	position:absolute;
+	top: -9px;
+	right: -14px;
+	display:none;
+	cursor: pointer;
+	font-size: 20px !important;
+}
+
+.set-div .list-item .add-item{
+	text-align: center;
+    font-size: 60px;
+    color: #32b5cb;
+    padding: 45px;
+}
+
+.set-div .nav-head .set-btn{
+	height:28px;
+	line-height:28px;
+}
+.set-div .nav-head .set-btn.prdct-set{
+	border-bottom:1px solid #ddd;
+}
+
+.set-div .nav-div{
+	height:42px;
+	padding-left:10px;
+}
+.set-div .nav-div-li{
+	margin-top:8px;
+	font-size:16px;
+}
+.set-div .nav-title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+
+.config-div .breadcrumb > .active{
+	font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+.config-div{
+	max-height:550px;
+}
+
+.config-div .sub-title {
+   	margin-top:20px;
+	margin-bottom: 10px;
+    color: #616161;
+    font-size: 14px;
+    padding-left:0px;
+    position: relative;
+}
+.config-div .pub-config .sub-title{
+   font-size:16px;
+   border-bottom:1px solid #ddd;
+}
+.config-div .pub-config .sub-title span{
+   font-size:16px;
+   color:#333;
+}
+.config-div .pub-config .item-checkbox span{
+   color:#333;
+}
+
+.config-div .span-read{
+	display:inline-block;
+}
+.config-div .span-read .i-editable{
+	color:#32b5cb;
+}
+.config-div .span-text{
+	border-bottom:1px dashed #888;
+	margin-right:10px;
+	padding: 0px 5px;
+	cursor: pointer;
+}
+.config-div .span-edit{
+	display:none;
+	vertical-align: middle;
+}
+.config-div .span-edit input{
+	float:left;
+	max-width:645px;
+}
+.config-div .span-edit .error{
+	float:left;
+	color:red;
+	margin-left:5px;
+}
+.config-div .span-edit .ok{
+	font-size: 24px;
+	color: #32b5cb;
+	margin-left: -1px;
+	float: left;
+	cursor: pointer;
+}
+
+.config-div .content-div{
+    color: #212121;
+    padding-bottom: 50px;
+	padding-top: 10px;
+	margin-bottom:20px;
+}
+.config-div .item-content{
+/* 	min-height:65px; */
+	background:#fff;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+/* 	padding-bottom:15px; */
+    border-radius: 3px;
+	
+}
+.config-div .pub-config .item-content{
+	box-shadow: none;
+}
+.config-div .main-content-div{
+	padding:16px 20px;
+}
+.config-div  .main-content-div.second{
+    border-top: 1px solid #eae9e9;
+}
+.config-div  .main-content-div .main-content{
+   margin-top:15px;
+}
+.config-div  .main-content-div .main-content.first{
+   margin-top:0px;
+}
+.config-div  .main-content-desc{
+	color: #757575;
+    border-bottom: 1px solid #eae9e9;
+ 	padding:9px 0px 9px 20px;
+}
+.config-div  .content-desc,
+.config-div  .unregistered{
+	color: #757575;
+}
+
+.config-div .item-div{
+	font-size: 14px;
+/* 	margin-bottom:15px; */
+}
+
+.config-div .item-title {
+	margin-top:20px;
+	margin-bottom: 10px;
+    color: #616161;
+/*     font-weight: bold; */
+    font-size: 14px;
+}
+.config-div .item-title-desc {
+	color: #666;
+	font-weight: normal;
+}
+
+.config-div .item-title a {
+	font-weight: normal;
+}
+
+.config-div .item-checkbox .checkbox-span {
+    display: inline-block;
+    background-image: none;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background-color: #EBEBEB;
+    border: 1px solid #CFCECE;
+    border-radius: 4px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.config-div .item-checkbox .checkbox-span.curChecked .i {
+    margin: 0px;
+    color: #32b5cb;
+    font-size: 14px;
+    display: block;
+}
+.item-checkbox .checkbox-span .i {
+    display: none;
+}
+
+.config-div .item-opt{
+	font-size:12px;
+	cursor: pointer;
+	position:relative;
+}
+.config-div .item-opt .item-icon{
+	position:absolute;
+	top:4px;
+	left:30px;
+	font-size:11px;
+}
+/* 更多收起 begin */
+[data-toggle="collapse"] .close-span,
+[data-toggle="collapse"] .i-close-up{
+	display: block !important;
+}
+[data-toggle="collapse"] .more-span,
+[data-toggle="collapse"] .i-open-down {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .close-span,
+[data-toggle="collapse"].collapsed .i-close-up {
+	display: none !important;
+}
+[data-toggle="collapse"].collapsed .more-span,
+[data-toggle="collapse"].collapsed .i-open-down {
+	display: block !important;
+}
+/* 更多收起  end*/
+
+.config-div .link-disabled,.config-div .link-disabled:hover{
+	color:#666 !important;
+    padding-left: 15px;
+    cursor: default;
+}
+
+.config-div .btn-add {
+	padding: 6px 8px;
+	font-size: 12px;
+	border-radius: 5px;
+	background: #EBEBEB;
+	margin-right: 20px;
+	margin-top: -4px;
+}
+.config-div .btn-add:hover {
+	color:#333;
+}
+.config-div .option-div{
+	overflow:visible;
+}
+
+.config-div .process-item-desc{
+	color:#888;
+}
+
+/* 风控、费用配置相关样式 begin */
+.config-div .item-content-span{
+	position: relative;
+}
+.config-div .item-content-span i{
+	color: #FF9B04;
+	display:none;
+	position: absolute;
+	right: -15px;
+	top: 3px;
+}
+.config-div .item-content-span:hover{
+	color: #FF9B04;
+}
+.config-div .item-content-span:hover i{
+	display:inline-block;
+}
+/* 风控、费用配置相关样式 end */
+
+
+/* 影像配置相关样式 begin */
+.config-div .block-item,
+.config-div .add-item-div{
+	width: 145px;
+	height: 97px;
+	margin-right:20px;
+	margin-bottom: 10px;
+	position:relative;
+	display:inline-block;
+}
+
+.config-div .block-item .checkbox-div span{
+	width: 45px;
+	height: 18px;
+	color: #fff;
+	font-size: 10px;
+	padding: 1px 6px 1px 5px;
+}
+.config-div .block-item .checkbox-div span input{
+	margin: 0px;
+	vertical-align: -3px;
+}
+
+.config-div .block-item .item,
+.config-div .add-item-div .item{
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0px 12px;
+	border:1px solid #ddd;
+}
+.config-div .block-item .item-icon{
+	font-size:28px;
+	color:#D0D0D0;
+}
+
+.config-div .block-item .hover-div{
+	display: none;
+	position: absolute;
+	bottom: 6px;
+	left: 0px;
+	width: 100%;
+	height: 25px;
+	background: #000;
+	opacity: 0.4;
+	text-align:center;
+}
+.config-div .block-item .hover-div .hover-info{
+	color:#fff;
+	height: inherit;
+	line-height: 25px;
+	letter-spacing:2px;
+}
+.config-div .block-item .hover-div .hover-info a{
+	color:#fff;
+}
+
+.config-div .block-item .btspan0 {
+    position: absolute;
+	top: 2px;
+	right: -1px;
+	font-size: 40px;
+	color: #79BBED;
+}
+.config-div .block-item .btspan1 {
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    font-size: 12px;
+    color: white;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.config-div .add-item-div .add-item{
+	background: url("../images/addBg.png") no-repeat;
+	background-size: 145px 75px;
+	width: 100%;
+	height: 100%;
+	margin-top: 2px;
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+.config-div .block-item .item-del{
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: -12px;
+	font-size: 18px;
+	color: #000;
+	opacity: 0.4;
+}
+.config-div .block-item:hover .item-del,
+.config-div .block-item:hover .hover-div{
+	display:block;
+}
+
+/* 影像配置相关样式 end */
+
+.pops-tree-body  .ztree li{
+	float:none;
+}
+
+.btn-config-div{
+	width:730px;
+	margin:0px auto;
+}
+
+.btn.btn-config{
+	border:none;
+	background:none;
+	color:#222;
+	box-shadow:none;
+	padding:6px 11px;
+}
+.btn-config:hover{
+	color:#222;
+}
+.btn-config.active{
+	font-size:20px;
+	box-shadow:none;
+	border-bottom:2px solid #222;
+	font-weight:bold;
+}
+
+.add-node{
+	padding: 3px 12px;
+    border: 1px solid #A5B5C8;
+    box-shadow: none;
+    background: #F0F4FA;
+    font-size: 12px;
+    color: #212121;
+}
+
+.vertical-bar{
+    border-left: 1px solid #A5B5C8;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+}
+.vertical-bar i{
+	position: absolute;
+    top: -15px;
+    left: -10px;
+    font-size: 20px;
+    color: #A5B5C8;
+}
+
+.horizontal-bar{
+	position: absolute;
+    left: -59px;
+    top: 8px;
+    font-size: 20px;
+    color: #A5B5C8;
+    height: 1px;
+    border-top: 1px dashed #A5B5C8;
+    width: 30px;
+}
+.horizontal-bar i{
+	position: absolute;
+    top: -9px;
+    left: 26px;
+}
+
+.special-config .item-content {
+	background: none;
+    border: none;
+    box-shadow: none;
+}
+.special-config  .sub-title {
+	color:#212121;
+}
+.special-config  .content-desc {
+	color:#616161;
+	font-size:12px;
+}
+.special-config .main-content-div{
+	padding-left:0px;
+	padding-right:0px;
+	font-size:12px;
+}
+.special-config .node-name{
+	color:#616161;
+}
+.divider{
+	margin:0px 10px;
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlimpawnbond0001" para="eadis_page" link="" title="质押企业债券" type="2">
+<tableitem align="2" filedname="impawnId" id="1" indexed="1" label="担保资料编号" row="1" type="4" typepara="/impawnBond/getByIdAjax;impawnId-impawnId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="bondIssueBy" id="2" indexed="2" label="债券发行单位" row="1" type="0" />
+<tableitem align="2" filedname="bondAgentIssueBy" id="3" indexed="3" label="债券代理发行机构" row="1" type="0" />
+<tableitem align="2" filedname="bondName" id="4" indexed="4" label="债券名称" row="1" type="0" />
+<tableitem align="2" filedname="bondQty" id="5" indexed="5" label="债券数量" row="1" type="0" />
+<tableitem align="2" filedname="bondNo" id="6" indexed="6" label="债券号码" row="1" type="0" />
+<tableitem align="2" filedname="bondCt" id="7" indexed="7" label="债券币种" row="1" type="0" />
+<tableitem align="2" filedname="bondAmount" id="8" indexed="8" label="债券金额" row="1" type="0" />
+<tableitem align="2" filedname="issueDate" id="9" indexed="9" label="发行日期" row="1" type="0" />
+<tableitem align="2" filedname="dueDate" id="10" indexed="10" label="最近到期日" row="1" type="0" />
+<tableitem align="2" filedname="bregBond" id="11" indexed="11" label="是否记名债券" row="1" type="0" />
+</table>

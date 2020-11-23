@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fundplan0001" link="/mfFundPlan/findByPage" para="eadis_page" title="资金计划列表" type="1">
+<tableitem align="2" filedname="fundPlanSts" id="7" indexed="6" label="状态" row="1" type="6" typepara="FUND_PLAN_STS" widthType="0"/>
+<tableitem align="3" filedname="fundPlanAmt" id="6" indexed="5" label="金额" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="project" id="5" indexed="2" label="项目" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="unit" id="4" indexed="1" label="单位" row="1" type="6" typepara="FUND_PLAN_UNIT" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="13" indexed="9" label="登记人编号" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="opBtn" filedname="编辑" id="12" indexed="11" label="操作按钮" row="1" sortType="2" type="5" typepara="/mfFundPlan/getById;opNo-opNo;id-id;onclick-MfFundPlan_List.applyUpdate(this);" widthType="0"/>
+<tableitem align="2" filedname="fundPlanType" id="3" indexed="4" label="类型" row="1" sortType="2" type="6" typepara="FUND_PLAN_TYPE" widthType="0"/>
+<tableitem align="2" filedname="date" id="2" indexed="7" label="日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="8" label="登记人" row="1" sortType="2" type="0" widthType="0"/>
+</table>

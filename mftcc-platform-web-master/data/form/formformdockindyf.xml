@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="formdockindyf" title="打包下载">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="minRecallAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="起催金额" maxlength="16" mustinput="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recType" fieldsize="REC_TYPE" fieldtype="21" formactiveid="10" labelalign="3" labelcol="1" labelname="接收人类型" maxlength="1" mustinput="1" onchange="clearRevNo(this);" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="角色编号" maxlength="10" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleName" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="角色名称" maxlength="80" mustinput="0" onclick="selectRoleDialog1(this)" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="接收人编号" maxlength="30" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="接收人名称" maxlength="80" mustinput="0" onclick="selectUserDialog1(this)" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recallDesc" fieldtype="5" formactiveid="15" labelalign="3" labelcol="1" labelname="催收内容描述" maxlength="500" mustinput="1" onclick="addUrgeInfoModel1()" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="1"/>
+</form>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="litigationexpenseapplyapproval" title="诉讼费用申请审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="litigationAmount" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="诉讼金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="filingFee" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="立案费" maxlength="10" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="saveCost" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="保全费" maxlength="10" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="securityPremium" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="保全保险费" maxlength="10" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="appraisalCost" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="鉴定费" maxlength="10" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="announcementFee" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="公告费" maxlength="10" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="executionFee" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="执行费" maxlength="10" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="postFee" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="邮寄费" maxlength="10" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="barFee" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="律师费" maxlength="10" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="otherCharges" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="其他费用" maxlength="10" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="totalExpenses" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="费用总额" maxlength="10" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applicant" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="申请日期" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="litigationId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="申请ID" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="客户号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="taskId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="当前任务id" mustinput="" readonly="" row="1"/>
+</form>

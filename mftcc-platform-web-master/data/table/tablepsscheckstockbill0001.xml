@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psscheckstockbill0001" para="eadis_page" title="盘点表" trDbClick="/pssCheckStockBill/getById;checkStockId-checkStockId;onDbClick-getCKB" type="2">
+<tableitem align="2" filedname="checkStockDate" id="3" indexed="2" label="盘点日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="checkStockNo" id="2" indexed="3" label="盘点编号" mytitle="模板内容-checkStockNo;" row="1" sortType="2" type="4" typepara="/pssCheckStockBill/getById;checkStockId-checkStockId;onClick-getCKB;subStringNub-20;" width="20" widthType="0"/>
+<tableitem align="1" filedname="storehouseId" id="4" indexed="4" label="盘点仓库" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="otherStockInNo" id="5" indexed="5" label="盘盈结果" row="1" sortType="2" type="4" typepara="/pssOtherStockInBill/getById;otherStockInNo-otherStockInNo;onClick-getCKBOther" width="20" widthType="0"/>
+<tableitem align="2" filedname="otherStockOutNo" id="6" indexed="6" label="盘亏结果" row="1" sortType="2" type="4" typepara="/pssOtherStockOutBill/getById;otherStockOutNo-otherStockOutNo;onClick-getCKBOther" width="20" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="9" label="-" row="1" sortType="2" type="5" typepara="/pssCheckStockBill/deleteAjax;checkStockId-checkStockId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

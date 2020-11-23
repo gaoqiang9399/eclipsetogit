@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dl_pssbuyreturnbill_detail02" title="购货退货单明细">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyReturBillDetailId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyReturBillNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="1" labelname="购货退货单号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" maxlength="0" formactiveid="3" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsId" fieldtype="1" maxlength="40" formactiveid="4" labelalign="3" labelcol="1" labelname="商品ID" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitId" fieldtype="1" maxlength="40" formactiveid="5" labelalign="3" labelcol="1" labelname="单位ID" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storehouseId" fieldtype="1" maxlength="40" formactiveid="6" labelalign="3" labelcol="1" labelname="仓库ID" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="quantity" fieldtype="1" maxlength="18" formactiveid="7" labelalign="3" labelcol="1" labelname="数量" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="1" maxlength="18" formactiveid="8" labelalign="3" labelcol="1" labelname="购货退货单价" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taxUnitPrice" fieldtype="1" maxlength="18" formactiveid="9" labelalign="3" labelcol="1" labelname="含税单价" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="discountRate" fieldtype="1" maxlength="12" formactiveid="10" labelalign="3" labelcol="1" labelname="折扣率(%)" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="discountAmount" fieldtype="1" maxlength="18" formactiveid="11" labelalign="3" labelcol="1" labelname="折扣额" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amount" fieldtype="1" maxlength="18" formactiveid="12" labelalign="3" labelcol="1" labelname="金额" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taxRate" fieldtype="1" maxlength="12" formactiveid="13" labelalign="3" labelcol="1" labelname="税率(%)" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taxAmount" fieldtype="1" maxlength="18" formactiveid="14" labelalign="3" labelcol="1" labelname="税额" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="totalPriceWithTax" fieldtype="1" maxlength="18" formactiveid="15" labelalign="3" labelcol="1" labelname="价税合计" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyRefundExpense" fieldtype="1" maxlength="18" formactiveid="16" labelalign="3" labelcol="1" labelname="采购退货费用" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="1" maxlength="400" formactiveid="17" labelalign="3" labelcol="1" labelname="备注" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="buyOrderNo" fieldtype="1" maxlength="40" formactiveid="18" labelalign="3" labelcol="1" labelname="购货订单号" mustinput="0" row="18"/>
+</form>

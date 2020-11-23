@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="advanceCollectFee" title="预收费用信息登记">
+<formelement alt="请输入费用项名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="费用项名称" maxlength="50" mustinput="0" readonly="1" row="1" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeType" fieldsize="FEE_TAKE_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="费率类型" maxlength="1" mustinput="0" readonly="1" row="6"/>
+<formelement alt="请输入费率值" datatype="3" fieldalign="1" fieldcol="2" fieldname="rateScale" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="费率值" maxlength="20" mustinput="0" onblur="controlFeeRate();" readonly="1" row="7" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="takeNode" fieldsize="FEE_TAKE_NODE" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="收取节点" maxlength="2" mustinput="0" onblur="getStandard()" onchange="getStandard()" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="standard" fieldsize="FEE_STANDARD" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="费用基数" maxlength="2" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="feeStdNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="5" labelname="费用标准号" maxlength="30" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="5" labelname="费用项ID" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="业务申请编号" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeMainNo" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="费用主体" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeAccountId" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="费用账号" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="feeVoucherNo" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="收费凭证号" mustinput="0" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="feeMainName" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="收费主体" mustinput="" readonly="" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="6" fieldname="advanceCollectTime" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="5" labelname="收取时间" mustinput="0" onclick="fPopUpCalendarDlg(this);return false" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeType" fieldsize="FEE_COLLECT_TYPE" fieldtype="2" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="收取方式" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relationPactNo1" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="5" labelname="关联合同" mustinput="0" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="itemNo" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="4" labelname="费用基准编号" mustinput="" readonly="" row="5"/>
+</form>

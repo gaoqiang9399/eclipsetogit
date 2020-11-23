@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="docmodeluser0001" title="操作员要件配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="启用标志" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docModelNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="模型编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="输入框" maxlength="100" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optCode" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="客户类型号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTypeDes" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="操作员类型" mustinput="" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="accntadjust0002" title="账款调整记录">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="adjustId" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="5" labelname="编号" mustinput="0" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transferId" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="应收账款转让编号" mustinput="1" readonly="1" row="1" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="beforeAdjustAmt" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="当前金额" mustinput="1" readonly="1" row="3" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="adjustDate" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="调整日期" mustinput="1" onblur="fPopUpCalendarDlg()" onclick="fPopUpCalendarDlg()" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustReason" fieldsize="100" fieldtype="5" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="调整原因" maxlength="400" mustinput="1" readonly="" row="7" textAreaFieldRows="4" />
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="afterAdjustAmt" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="调整后金额" mustinput="" readonly="" row="3" />
+</form>

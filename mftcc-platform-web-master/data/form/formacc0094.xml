@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GBK"?><form id="acc0094" title="还款计划申请表">
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="perdNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="期号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payDate" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="租金支付日期" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="租金结算日期" maxlength="10" mustinput="0" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="instmAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="本期支付租金" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="prcpAmt" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="本期支付本金" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="normInt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="本期支付利息" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="bal" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="未偿还本金" maxlength="16" mustinput="0" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="rate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="租赁利率" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="overRate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="租赁逾期利率" maxlength="10" mustinput="0" row="5"/>
+</form>

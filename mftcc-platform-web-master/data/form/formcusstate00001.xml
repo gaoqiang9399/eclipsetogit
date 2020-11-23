@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusstate00001" title="公司概况">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户姓名" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="employeeNum" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="员工人数" mustinput="0" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="unindustyNum" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="安置下岗失业人数" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaOwner" fieldsize="AREA_OWNER" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="经营场地所有权" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifGroup" fieldsize="YES_NO" fieldtype="2" formactiveid="6" labelalign="3" labelcol="3" labelname="是否集团客户" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entranFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="7" labelalign="3" labelcol="1" labelname="是否有进出口权" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifMarket" fieldsize="YES_NO" fieldtype="2" formactiveid="8" labelalign="3" labelcol="3" labelname="是否上市公司" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="manageArea" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="经营场地面积" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="6"/>
+</form>

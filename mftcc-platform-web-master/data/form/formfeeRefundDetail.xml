@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="feeRefundDetail" title="退费详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="申请号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" readonly="1" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="15" labelalign="3" labelcol="3" labelname="客户名称" maxlength="60" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="unprotectDate" fieldtype="1" formactiveid="56" labelalign="3" labelcol="1" labelname="解保日期" maxlength="8" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="1" formactiveid="57" labelalign="3" labelcol="3" labelname="合同到期日" maxlength="8" mustinput="0" readonly="1" row="4"/>
+<formelement alt="请输入200字以内的内容" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="95" labelalign="3" labelcol="1" labelname="原因说明" maxlength="200" mustinput="0" readonly="1" row="13"/>
+<formelement alt="请选择合同" datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="96" horVer="0" labelalign="3" labelcol="1" labelname="委托合同编号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="feeAmt" fieldtype="1" formactiveid="109" horVer="0" initvalue="0" labelalign="3" labelcol="3" labelname="已收担保费" mustinput="0" readonly="1" row="5" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="110" horVer="0" labelalign="3" labelcol="1" labelname="应退担保费" mustinput="0" readonly="1" row="11" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="111" horVer="0" labelalign="3" labelcol="1" labelname="客户类别" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTypeName" fieldtype="99" formactiveid="112" horVer="0" labelalign="3" labelcol="1" labelname="客户类型名称" mustinput="" readonly="" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="assureAmt" fieldtype="1" formactiveid="113" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invoiceNo" fieldtype="1" formactiveid="114" horVer="0" labelalign="3" labelcol="1" labelname="发票号" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reasion" fieldsize="FEE_REFUND_REASION" fieldtype="2" formactiveid="115" horVer="0" labelalign="3" labelcol="3" labelname="退费原因" mustinput="0" onchange="MfBusFeeRefund_Insert.changeType()" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifDeduction" fieldsize="YES_NO" fieldtype="2" formactiveid="116" horVer="0" labelalign="3" labelcol="3" labelname="是否已经抵扣" mustinput="0" readonly="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="deductionNo" fieldtype="1" formactiveid="117" horVer="0" labelalign="3" labelcol="1" labelname="抵扣号" mustinput="0" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="118" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="12"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="appAmtTmp" fieldtype="99" formactiveid="119" horVer="0" labelalign="3" labelcol="3" labelname="提前解保退费金额" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taxpayerIdentityNumber" fieldtype="1" formactiveid="120" horVer="0" labelalign="3" labelcol="3" labelname="纳税人识别号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termShow" fieldtype="1" formactiveid="121" horVer="0" labelalign="3" labelcol="3" labelname="合同用款期限" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="122" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="feeRate" fieldtype="1" formactiveid="123" horVer="0" labelalign="3" labelcol="1" labelname="担保费率" mustinput="" readonly="1" row="5" unit="%"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="124" horVer="0" labelalign="3" labelcol="1" labelname="实际担保金额" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termMonth" fieldtype="1" formactiveid="125" horVer="0" labelalign="3" labelcol="3" labelname="实际用款时间" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="instsBeginDate" fieldtype="1" formactiveid="126" horVer="0" labelalign="3" labelcol="1" labelname="实际担保开始日" mustinput="" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="instsEndDate" fieldtype="1" formactiveid="127" horVer="0" labelalign="3" labelcol="3" labelname="实际担保结束日" mustinput="" readonly="1" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="dissAmt" fieldtype="1" formactiveid="128" horVer="0" labelalign="3" labelcol="1" labelname="退费担保金额" mustinput="" readonly="1" row="8" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="refundTerm" fieldtype="1" formactiveid="129" horVer="0" labelalign="3" labelcol="3" labelname="退费期限" mustinput="" readonly="1" row="8" unit="月"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="reguaranteeAmt" fieldtype="1" formactiveid="130" horVer="0" labelalign="3" labelcol="3" labelname="应收担保费" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="guaranteeAmt" fieldtype="99" formactiveid="131" horVer="0" labelalign="3" labelcol="3" labelname="不含税应收担保费" mustinput="" readonly="" row="12"/>
+</form>

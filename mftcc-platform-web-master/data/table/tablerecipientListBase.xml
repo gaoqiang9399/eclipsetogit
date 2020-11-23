@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="recipientListBase" title="指定收件人" type="2">
+<tableitem align="2" filedname="isDefault" id="15" indexed="6" label="是否默认" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="7" label="-" type="5" typepara="/mfCusDesignatedRecipient/deleteAjax;serialNo-serialNo;onclick-FormFactor.deleteTrAjax(this);" width="20" widthType="1"/>
+<tableitem align="2" filedname="recipientTel" id="13" indexed="5" label="收件人联系方式" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recipientAddress" id="12" indexed="4" label="收件地址" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recipientIdNum" id="11" indexed="3" label="收件人证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recipientName" id="10" indexed="1" label="收件人名称" row="1" type="4" typepara="/mfCusDesignatedRecipient/listShowDetailAjax;serialNo-serialNo;relNo-relNo;oneUrl-'/mfCusDesignatedRecipient/updateByOneAjax';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="recipientIdType" id="9" indexed="2" label="收件人证件类型" row="1" type="6" typepara="ID_TYPE" widthType="0"/>
+</table>

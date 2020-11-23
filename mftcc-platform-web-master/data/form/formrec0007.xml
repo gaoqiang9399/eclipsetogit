@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="rec0007" title="催收执行人选择">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mgrNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="执行人名称" mustinput="0" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mgrName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="执行人编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="任务编号" mustinput="" readonly="" row="1" />
+</form>

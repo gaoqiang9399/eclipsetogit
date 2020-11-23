@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssotherstockinbill0001" para="eadis_page" title="其他入库单表" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssOtherStockInBill/getById;otherStockInId-otherStockInId;onDbClick-getOSIB" type="2">
+<tableitem align="2" filedname="otherStockInId" id="8" indexed="0" label="全选" row="1" sortType="2" type="2" typepara="otherStockInId-otherStockInId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="9" indexed="1" label="单据日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="otherStockInNo" id="7" indexed="2" label="单据编号" mytitle="模板内容-otherStockInNo;" row="1" sortType="2" type="4" typepara="/pssOtherStockInBill/getById;otherStockInId-otherStockInId;onClick-getOSIB;subStringNub-20;" width="10" widthType="0"/>
+<tableitem align="2" filedname="otherInType" id="6" indexed="3" label="业务类别" row="1" sortType="2" type="6" typepara="PSS_OTHER_IN_TYPE" width="10" widthType="0"/>
+<tableitem align="3" filedname="otherInAmt" id="5" indexed="4" label="金额" row="1" sortType="2" type="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="4" indexed="5" label="供应商" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="regOpName" id="3" indexed="6" label="制单人" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="auditOpName" id="11" indexed="7" label="审核人" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="auditSts-1;" filedname="删除" id="2" indexed="12" label="-" row="1" sortType="2" type="5" typepara="/pssOtherStockInBill/deleteAjax;otherStockInId-otherStockInId;onClick-ajaxTrDelete(this)" widthType="0"/>
+</table>

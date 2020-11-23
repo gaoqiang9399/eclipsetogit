@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="lawenforcement" link="/mfThirdMftccHighcourt/findByPage" para="eadis_page" title="法执情况信息表" type="1">
+<tableitem align="2" filedname="relType" id="6" indexed="6" label="关联类型" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="relId" id="5" indexed="5" label="关联id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="busNumber" id="4" indexed="4" label="被查询人号码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="busName" id="3" indexed="3" label="被查询人名称" row="1" type="0"/>
+<tableitem align="2" filedname="busType" id="2" indexed="2" label="业务主键类型" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="busId" id="1" indexed="1" label="业务主键" row="1" type="99" typepara="/mfThirdMftccHighcourt/getById;busId-busId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="查看详情" id="9" indexed="9" label="-" type="5" typepara="/mfThirdMftccHighcourt/getById;busId-busId;cusNo-relId;busName-busName;busNumber-busNumber;query-'query';onClick-MfThirdMftccHighcourt.tableHeadConfig(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="requestParam" id="7" indexed="7" label="请求报文" row="1" type="99" widthType="0"/>
+</table>

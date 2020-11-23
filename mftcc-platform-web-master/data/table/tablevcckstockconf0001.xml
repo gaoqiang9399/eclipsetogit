@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vcckstockconf0001" para="eadis_page" title="盘库规则" type="2">
+<tableitem align="2" filedname="修改" id="19" indexed="18" label="-" row="1" type="5" typepara="action;confId-confId;onClick-vcCheckStockConfList.getById;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="18" indexed="19" label="-" row="1" type="5" typepara="/ckstockConf/deleteAjax;confId-confId;onClick-vcCheckStockConfList.deleteRow;" widthType="0"/>
+<tableitem align="2" filedname="flag" id="17" indexed="17" label="启用" row="1" sortType="1" type="6" typepara="YES_NO" width="5" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="7" indexed="8" label="登记人" row="1" sortType="1" type="0" width="7" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="15" indexed="16" label="最后修改时间" row="1" sortType="1" type="30" width="11" widthType="0"/>
+<tableitem align="2" filedname="checkDistance" id="5" indexed="6" label="最远检查距离(米)" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="photoResponseTime" id="4" indexed="5" label="照片反馈时间(小时)" row="1" sortType="1" type="0" width="13" widthType="0"/>
+<tableitem align="2" filedname="responseTime" id="3" indexed="4" label="反馈时间(小时)" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="12" indexed="13" label="最后修改人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="confName" id="2" indexed="2" label="规则名称" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="11" label="登记时间" row="1" sortType="1" type="30" width="11" widthType="0"/>
+</table>

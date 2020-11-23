@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="BusBuyMachineInfoList" link="/mfBusBuyMachineInfo/findByPage" para="eadis_page" title="农机租赁购机信息列表" type="1">
+<tableitem align="2" filedname="machineVersion" id="6" indexed="6" label="农机型号" row="1" type="4" typepara="/mfBusBuyMachineInfo/listShowDetailAjax;machineId-machineId;oneUrl-'/mfBusBuyMachineInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="scheduledBuyTime" id="9" indexed="9" label="预计购机时间" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="machineMerchant" id="8" indexed="8" label="农机商" row="1" type="0"/>
+<tableitem align="2" filedname="machineNum" id="7" indexed="7" label="台数" row="1" type="0"/>
+</table>

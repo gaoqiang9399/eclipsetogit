@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="baseexaminfo_1000" title="贷后检查结论基础表单">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="examHisId" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="检查登记编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="分级原因" maxlength="400" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sideLevel" fieldsize="INSIDE_LEVEL" fieldtype="2" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="申请分级" mustinput="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastLevel" fieldsize="INSIDE_LEVEL_Q" fieldtype="2" formactiveid="46" horVer="0" labelalign="3" labelcol="1" labelname="上期分级" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="INSIDE_LEVEL" fieldtype="2" formactiveid="47" horVer="0" labelalign="3" labelcol="1" labelname="本期自动分级" mustinput="" readonly="1" row="3"/>
+</form>

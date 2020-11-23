@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312"?><form id="dlcollateralpledge0002" title="抵押品信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="authName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="所有权人名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="抵押品名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="抵押品类型" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepAddr" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="存放地址" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeDesc" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="押品描述" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keeperNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="保管人" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keeperName" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="保管人名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepDate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="入库时间" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relsDate" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="出库时间" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepOrgNo" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="保管机构编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="keepOrgName" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="保管机构名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="押品状态" maxlength="10" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="refFlag" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="是否被关联" maxlength="1" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insNo" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="保险证编号" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insAmount" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="保险金额" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="insCrop" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="保险公司名称" maxlength="200" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="insEnd" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="保险到日期" maxlength="8" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairNo" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="公证书编号" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fairOrg" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="公证机构" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairDate" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="公正时间" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgNo" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="登记机构" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgName" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regCusNo" fieldtype="1" formactiveid="26" labelalign="3" labelcol="3" labelname="登记人" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="1" formactiveid="27" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="80" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgNo" fieldtype="1" formactiveid="28" labelalign="3" labelcol="3" labelname="更新机构编号" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgName" fieldtype="1" formactiveid="29" labelalign="3" labelcol="1" labelname="更新机构名称" maxlength="80" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="1" formactiveid="30" labelalign="3" labelcol="3" labelname="更新人" maxlength="30" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="1" formactiveid="31" labelalign="3" labelcol="1" labelname="更新人名称" maxlength="80" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="1" formactiveid="32" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="1" formactiveid="33" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="17"/>
+</form>

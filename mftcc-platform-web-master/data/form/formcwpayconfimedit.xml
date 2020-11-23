@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cwpayconfimedit" title="支出确认">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receiveAmt" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="应收金额" maxlength="14" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="rebackAmt" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="应退金额" maxlength="14" mustinput="" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="单笔合同ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAdvanceAmt" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" maxlength="14" mustinput="" readonly="1" row="2" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payType" fieldsize="PAY_CONFIM_TYPE" fieldtype="2" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="支出类型" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="refundAccount" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="退款账户" maxlength="100" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualAmt" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="实收金额" maxlength="14" mustinput="" row="3" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="rebackSum" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="应退总额" maxlength="14" mustinput="" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="payId" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="5" labelname="关联退费ID" mustinput="" readonly="" row="5"/>
+</form>

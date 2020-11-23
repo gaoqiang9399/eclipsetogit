@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveeducationlist" para="eadis_page" title="OA人事档案教育经历表" type="1">
+<tableitem align="2" filedname="gradDate" id="5" indexed="5" label="毕业时间" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="4" indexed="4" label="入学时间" row="1" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="gradSchool" id="3" indexed="3" label="毕业院校" mytitle="毕业院校-gradSchool;" type="4" typepara="/mfOaArchivesEducation/listShowDetailAjax;educationId-educationId;oneUrl-'/mfOaArchivesEducation/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="11" indexed="10" label="-" row="1" type="5" typepara="/mfOaArchivesEducation/input;baseId-baseId;educationId-educationId;onClick-OaArchivesDetail.educationadd;" width="5" widthType="0"/>
+<tableitem align="2" filedname="删除" id="10" indexed="12" label="-" row="1" type="5" typepara="/mfOaArchivesEducation/deleteAjax;educationId-educationId;baseId-baseId;onClick-OaArchivesDetail.educationdelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="education" id="8" indexed="9" label="学历" row="1" type="6" typepara="EDU" width="30" widthType="0"/>
+</table>

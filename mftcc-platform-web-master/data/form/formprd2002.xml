@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="prd2002" title="金融产品销售产品关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="金融产品号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prodNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="销售产品号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="prodName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="销售产品名称" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finaName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="金融产品名称" mustinput="" readonly="" row="2" />
+</form>

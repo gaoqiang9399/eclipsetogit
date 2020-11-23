@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CoreCompanySelect" para="eadis_page" title="核心企业选择" type="1">
+<tableitem align="2" filedname="coreCompanyName" id="3" indexed="3" label="核心企业" row="1" sortType="2" type="0" width="50" widthType="0"/>
+<tableitem align="2" filedname="socialCreditCode" id="9" indexed="10" label="社会信用代码" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="选择" id="8" indexed="11" label="-" mytitle="关联操作员-coreCompanyOpName;" type="5" typepara="/mfCusCoreCompany/getByIdAjax;coreCompanyUid-coreCompanyUid;onClick-chooseFinc;" width="10" widthType="0"/>
+</table>

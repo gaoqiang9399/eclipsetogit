@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="thirdpayresult0001" link="/mfRequestThirdPartyResult/findByPage" para="eadis_page" title="请求第三方响应内容表" type="1">
+<tableitem align="2" filedname="requestTime" id="6" indexed="6" label="处理时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincState" id="5" indexed="4" label="放款状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="第三方编号" id="4" indexed="3" label="借据" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="3" indexed="8" label="-" row="1" type="5" typepara="/mfRequestThirdPartyResult/deleteAjax;requestId-requestId;onClick-ajaxDelete(this)" width="2"/>
+<tableitem align="2" filedname="requestId" id="1" indexed="1" label="请求编号" row="1" type="4" typepara="/mfRequestThirdPartyResult/getById;requestId-requestId;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="8" indexed="2" label="客户" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestState" id="7" indexed="5" label="处理状态" row="1" type="0" widthType="0"/>
+</table>

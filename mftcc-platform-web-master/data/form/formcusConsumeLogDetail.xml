@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusConsumeLogDetail" title="消费记录详情">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="50" labelname="ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="51" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="53" labelname="登记人编号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="54" labelname="登记部门编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="55" labelname="登记部门名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="orderId" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="2" labelname="订单号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="59" labelname="关联编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="45" horVer="1" labelalign="1" labelcol="1" labelname="消费金额" maxlength="100" mustinput="" param="id" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="projectName" fieldtype="1" formactiveid="52" horVer="1" labelalign="1" labelcol="4" labelname="项目" maxlength="100" mustinput="" param="id" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="merchantName" fieldtype="1" formactiveid="57" horVer="1" labelalign="1" labelcol="3" labelname="商家" maxlength="100" mustinput="" param="id" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="ext1" fieldtype="1" formactiveid="58" horVer="1" labelalign="1" labelcol="2" labelname="备注" maxlength="100" mustinput="" param="id" readonly="" row="3"/>
+</form>

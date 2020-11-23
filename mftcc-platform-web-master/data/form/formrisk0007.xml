@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="risk0007" title="预警方案详情新">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="方案编号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="方案名称" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemType" fieldsize="RISK_ITEM_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="方案类型" maxlength="2" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemDesc" fieldsize="70" fieldtype="5" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="方案描述" maxlength="1000" mustinput="0" row="6" textAreaFieldRows="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="usedInd" fieldsize="YES_NO" fieldtype="21" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="是否启用" maxlength="1" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemSql" fieldsize="70" fieldtype="5" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="方案SQL语句" maxlength="2000" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemSqlDesc" fieldsize="70" fieldtype="5" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="方案SQL语句描述" maxlength="1000" mustinput="0" row="10" textAreaFieldRows="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemJavaClass" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="方案JAVA类" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemJavaDesc" fieldsize="70" fieldtype="5" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="方案JAVA类描述" maxlength="1000" mustinput="0" row="14" rowspan="2" textAreaFieldRows="1"/>
+</form>

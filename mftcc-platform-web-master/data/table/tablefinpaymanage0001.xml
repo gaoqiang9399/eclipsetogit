@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="finpaymanage0001" link="/finInvestPlan/findByPage" para="eadis_page" title="理财收益计划表" trDbClick="/finBusPact/getPactDetailInfo;busPactNo-busPactNo;busApplyId-busApplyId;onDbClick-getDetailPage(this);" type="1">
+<tableitem align="2" filedname="outFlag" id="16" indexed="17" label="支付阶段" row="1" type="6" typepara="PAY_STATUS" widthType="0"/>
+<tableitem align="3" filedname="gainSum" id="14" indexed="15" label="应收总金额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="5" label="客户名称" row="1" type="4" typepara="/finBusApply/getCustomerByNo;cusNo-cusNo;appId-appId;busApplyId-busApplyId;subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="3" indexed="3" label="客户号" row="1" type="99" typepara="/finBusApply/getCustomerByNo;cusNo-cusNo;appId-appId;busApplyId-busApplyId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="gainIntst" id="12" indexed="13" label="到期收益" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="busPactNo" id="2" indexed="2" label="合同号" type="4" typepara="/finBusPact/getPactDetailInfo;busPactNo-busPactNo;busApplyId-busApplyId;app-'0'" widthType="0"/>
+<tableitem align="3" filedname="gainPrcp" id="11" indexed="12" label="到期本金" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="planId" id="1" indexed="1" label="流水号" row="1" type="99" typepara="/finInvestPlan/getById;planId-planId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="支付" id="34" indexed="35" label="-" row="1" type="5" typepara="/finInvestPlan/getById;busPactNo-busPactNo;onClick-getPactInfo2(this);" width="2" widthType="0"/>
+</table>

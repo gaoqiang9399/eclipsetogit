@@ -1,0 +1,42 @@
+.leaseSelect-box {
+	position: absolute;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	border: 1px solid #a7acb1;
+	border-radius: 2px;
+	z-index: 19911027;
+}
+
+.leaseSelect-item {
+	cursor: pointer;
+}
+
+.leaseSelect-item:hover {
+	background-color: #dddddd;
+}
+
+.leaseSelect-item .item-label {
+	padding: 2px 2px 2px 5px;
+}
+
+.leaseSelect-item .item-value {
+	color: #b9b4b4;
+}
+
+.leaseSelect-item:hover .item-value {
+	color: #ffffff;
+}
+.leaseSelect-item .item-btn {
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 5px;
+    margin: 0px 0px 0px 5px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: none;
+    border-left: 1px #dddddd solid;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="compensatoryConfirm0001" link="/mfBusCompensatoryConfirm/findByPage" para="eadis_page" title="代偿确认表" type="2">
+<tableitem align="2" fieldStyle="fincId" filedname="fincId" id="27" indexed="26" label="借据号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryFeeSum" filedname="compensatoryFeeSum" id="26" indexed="25" label="合计值" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryPenalty" filedname="compensatoryPenalty" id="24" indexed="22" label="代偿违约金" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryPrcp" filedname="compensatoryPrcp" id="23" indexed="19" label="代偿本金" row="1" type="12" widthType="0"/>
+<tableitem align="2" fieldStyle="planId" filedname="planId" id="22" indexed="27" label="还款计划编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryOverIntst" filedname="compensatoryOverIntst" id="19" indexed="21" label="代偿逾期利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryIntst" filedname="compensatoryIntst" id="21" indexed="20" label="代偿利息" row="1" type="12" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryFee" filedname="compensatoryFee" id="20" indexed="23" label="代偿费" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="termNum" filedname="termNum" id="10" indexed="10" label="代偿期号" type="99" widthType="0"/>
+</table>

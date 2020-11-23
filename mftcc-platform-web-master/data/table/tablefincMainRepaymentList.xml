@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincMainRepaymentList" para="eadis_page" title="融资详情卖方还款下列表" type="1">
+<tableitem align="2" filedname="fincLoanBal" id="19" indexed="14" label="本次融资余额" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="checkbox" id="21" indexed="2" label="选择" type="2" typepara="checkbox-fincId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="fincLoanBal" id="20" indexed="15" label="本次融资余额" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="receId" id="18" indexed="12" label="应收账款id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="putoutAmt" id="9" indexed="13" label="融资金额" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="17" indexed="10" label="到期日" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="youHuiAmt" id="16" indexed="20" label="优惠金额" row="1" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="weiyueAmt" id="15" indexed="21" label="违约金额" row="1" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="6" indexed="7" label="本次融资到期日" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="rateAmt" id="14" indexed="16" label="应还利息" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="receAmt" id="4" indexed="5" label="应收账款金额" row="1" sortType="2" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="12" indexed="11" label="借据id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="thisRepayDate" id="11" indexed="18" label="还款日期" row="1" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="receNo" id="2" indexed="3" label="合同号/发票号" mytitle="合同/发票号-receNo;" row="1" sortType="2" type="0" typepara="/pledgeBaseInfo/getByIdForAccount;receId-receId;fincId-fincId;subStringNub-12;" width="8" widthType="0"/>
+<tableitem align="2" filedname="thisRepayAmt" id="10" indexed="19" label="还款金额" row="1" type="9" width="10" widthType="0"/>
+</table>

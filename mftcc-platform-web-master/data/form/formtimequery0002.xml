@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="timequery0002" title="时间轴查询配置表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="title" fieldtype="1" maxlength="50" formactiveid="2" labelalign="1" labelcol="2" labelname="标题" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="timeType" fieldtype="1" maxlength="5" formactiveid="3" labelalign="1" labelcol="1" labelname="时间类型all全部 min分钟,h小时,d天,m月" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="timeNumber" fieldtype="1" maxlength="0" formactiveid="4" labelalign="1" labelcol="2" labelname="时间值" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="1" maxlength="400" formactiveid="5" labelalign="1" labelcol="1" labelname="描述" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="useFlag" fieldtype="1" maxlength="1" formactiveid="6" labelalign="1" labelcol="2" labelname="启用标识0否1是" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="sort" fieldtype="1" maxlength="0" formactiveid="7" labelalign="1" labelcol="1" labelname="顺序" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="selectFlag" fieldtype="1" maxlength="10" formactiveid="8" labelalign="1" labelcol="2" labelname="默认选中标识" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="9" labelalign="1" labelcol="1" labelname="备用字段1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="10" labelalign="1" labelcol="2" labelname="备用字段2" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="11" labelalign="1" labelcol="1" labelname="备用字段3" mustinput="0" row="11"/>
+</form>

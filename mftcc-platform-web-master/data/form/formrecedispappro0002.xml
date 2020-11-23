@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="recedispappro0002" title="争议审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disputedAppId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="争议申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disputedInitiatorNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="5" labelname="争议发起方" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedInitiatorName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="争议发起方姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disputedType" fieldsize="DISPUTED_TYPE" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="争议类型" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relInvoiceNum" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="5" labelname="关联发票号" maxlength="400" mustinput="0" readonly="1" row="8"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="争议原因" maxlength="400" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="disputedDetail" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="争议货物明细" maxlength="400" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disputedResult" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="争议结果" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="disputedDate" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="5" labelname="争议解除时间" maxlength="8" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appSts" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="争议申请状态" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="busPleId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="押品业务关联编号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="登记人" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="50" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="登记部门" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="登记部门名称" maxlength="50" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="信息登记时间" maxlength="17" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="relPledgeName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="关联押品" mustinput="" readonly="1" row="3"/>
+</form>

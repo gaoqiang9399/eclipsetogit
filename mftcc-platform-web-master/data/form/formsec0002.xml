@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sec0002" title="登陆校验规则表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="codeType" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="规则种类" maxlength="60" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="规则描述" maxlength="600" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="itemValues" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="规则值" maxlength="300" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isUse" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="启用标志" maxlength="3" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isEdit" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="是否可编辑" maxlength="3" mustinput="0" row="5"/>
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="busparam0001" title="业务参数表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="paramId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="参数编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="3" labelcol="3" labelname="产品编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="terminalType" fieldtype="1" maxlength="1" formactiveid="3" labelalign="3" labelcol="1" labelname="1:pc 2:app 3:微信" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dayMaxPutAmt" fieldtype="1" maxlength="20" formactiveid="4" labelalign="3" labelcol="3" labelname="单日最大放款金额" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dayMaxPutCount" fieldtype="1" maxlength="10" formactiveid="5" labelalign="3" labelcol="1" labelname="单日最大放款笔数" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="monthMaxPutAmt" fieldtype="1" maxlength="20" formactiveid="6" labelalign="3" labelcol="3" labelname="单月最大放款金额" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="monthMaxPutCount" fieldtype="1" maxlength="0" formactiveid="7" labelalign="3" labelcol="1" labelname="单月最大放款笔数" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldtype="1" maxlength="1" formactiveid="8" labelalign="3" labelcol="3" labelname="是否启动  0：不启用1：启用" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="maxErrorTimes" fieldtype="1" maxlength="0" formactiveid="9" labelalign="3" labelcol="1" labelname="错误的最大输入次数" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="manyApplyFlag" fieldtype="1" maxlength="1" formactiveid="10" labelalign="3" labelcol="3" labelname="是否允许同时发起多笔授信0：否1：是" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataTerm" fieldtype="1" maxlength="0" formactiveid="11" labelalign="3" labelcol="1" labelname="资料有效期" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="allowApplyTermByRefuse" fieldtype="1" maxlength="0" formactiveid="12" labelalign="3" labelcol="3" labelname="被拒后允许再次发起申请的天数" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="verifyCodeEffectiveTerm" fieldtype="1" maxlength="0" formactiveid="13" labelalign="3" labelcol="1" labelname="验证码的有效期限" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busLink" fieldtype="1" maxlength="2" formactiveid="14" labelalign="3" labelcol="3" labelname="业务环节,0:完善资料 1:借款 2:提现" mustinput="0" row="7" />
+</form>

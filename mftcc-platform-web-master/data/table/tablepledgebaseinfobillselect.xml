@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pledgebaseinfobillselect" para="eadis_page" title="选择押品清单列表" type="2">
+<tableitem align="2" filedname="billName" id="4" indexed="4" label="名称" type="0" widthType="0"/>
+<tableitem align="2" filedname="billBrand" id="3" indexed="5" label="型号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pledgeBillNo" id="9" indexed="3" label="选择" row="1" type="2" typepara="pledgeBillNo-pledgeBillNo" widthType="0"/>
+<tableitem align="2" filedname="count" id="8" indexed="9" label="数量" row="1" type="0"/>
+<tableitem align="2" filedname="unitPrice" id="7" indexed="8" label="单价" row="1" type="12" widthType="0"/>
+</table>

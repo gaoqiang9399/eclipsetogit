@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInfoDw" para="eadis_page" title="客户信息下载列表" type="1">
+<tableitem align="2" filedname="queryDate" id="15" indexed="4" label="查询日期" row="1" sortType="2" type="1" width="25" widthType="0"/>
+<tableitem align="2" authority="ext5-0;" filedname="下载" id="13" indexed="24" label="-" row="1" type="5" typepara="/MfCusInfoDw/cusListDw;storagePage-storagePage;fileName-fileName;onClick-MfCusInfoDw.cusListDw(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="3" label="合同号" row="1" sortType="2" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="0" label="客户名称" row="1" type="3" typepara="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="appName" id="16" indexed="2" label="项目申请号" sortType="2" type="0" width="25" widthType="0"/>
+</table>

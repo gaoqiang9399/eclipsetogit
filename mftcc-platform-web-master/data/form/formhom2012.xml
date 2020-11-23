@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="hom2012" title="日志信息">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="makeDate" fieldstyle="wdate" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="记事日期" maxlength="8" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="makeMan" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="记事人" maxlength="10" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="title" fieldsize="50" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="标题" maxlength="30" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="eventType" fieldsize="EVENT_TYPE" fieldtype="4" formactiveid="4" labelalign="3" labelcol="1" labelname="事件类型" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="eventDate" fieldstyle="wdate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="事件开始日期" maxlength="8" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="eventTime" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="事件开始时间" maxlength="5" mustinput="0" onclick="showDiv();" row="4" unit="[例：09:00]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="eventDesc" fieldsize="80" fieldtype="5" formactiveid="12" labelalign="3" labelcol="1" labelname="事件说明" maxlength="200" mustinput="0" row="6" textAreaFieldRows="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="warnSetup" fieldsize="WARN_SETUP" fieldtype="4" formactiveid="6" labelalign="3" labelcol="1" labelname="提醒设置" mustinput="0" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="warnDate" fieldstyle="wdate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="提醒日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(warnDate);return false" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="warnTime" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="提醒时间" maxlength="5" mustinput="0" onclick="showDiv()" row="8" unit="[例：09:00]"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="warnStop" fieldstyle="wdate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="提醒终止" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(warnStop);return false" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="filler" fieldsize="80" fieldtype="5" formactiveid="11" labelalign="3" labelcol="1" labelname="备注" maxlength="100" mustinput="0" row="10" textAreaFieldRows="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="endDate" fieldstyle="wdate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="事件截止日期" mustinput="0" onclick="fPopUpCalendarDlg(endDate);return false" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endTime" fieldtype="1" formactiveid="15" labelalign="3" labelcol="3" labelname="事件截止时间" mustinput="" onclick="showDiv()" readonly="" row="5" unit="[例：09:00]"/>
+</form>

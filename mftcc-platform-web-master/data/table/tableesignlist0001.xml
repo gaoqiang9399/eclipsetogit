@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="esignlist0001" para="eadis_page" title="待签约列表" type="2">
+<tableitem align="2" authority="esignerType-1;esignerType-2;esignerType-3;esignerType-4;esignerType-5;esignerType-6;esignerType-7;esignerType-8;esignerType-9;esignerType-A;esignerType-B;ifEsigned-2;" filedname="签章" id="15" indexed="11" label="-" row="1" type="5" typepara="/mfBusPact/getCerCode;esignerNo-esignerNo;temBizNo-temBizNo;templateNo-templateNo;nodeNo-nodeNo;onclick-getDZQY;" widthType="0"/>
+<tableitem align="2" filedname="ifEsigned" id="6" indexed="8" label="签约状态" row="1" type="6" typepara="IF_ESIGNED" width="10" widthType="0"/>
+<tableitem align="2" filedname="esigner" id="3" indexed="6" label="签章人员名称" mytitle="文档名称-templateNameZh;" row="1" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="esignerType" id="8" indexed="9" label="签约人员类型" type="6" typepara="ESIGNER_TYPE" width="20" widthType="0"/>
+</table>

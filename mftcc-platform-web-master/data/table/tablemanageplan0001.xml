@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="manageplan0001" para="eadis_page" title="资方收款计划" type="5">
+<tableitem align="2" filedname="consultation" id="9" indexed="10" label="咨询费" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="platformConsultation" id="8" indexed="9" label="平台服务费" row="1" type="0"/>
+<tableitem align="2" filedname="repayInterest" id="7" indexed="8" label="应还利息" row="1" type="0"/>
+<tableitem align="2" filedname="status" id="15" indexed="16" label="还款状态" row="1" sortType="2" type="6" typepara="WX_REFUND_STAGE" widthType="0"/>
+<tableitem align="2" filedname="repayPrincipalAmt" id="6" indexed="7" label="应还本金" row="1" type="0"/>
+<tableitem align="2" filedname="planRepayAmt" id="14" indexed="15" label="应还总额" row="1" type="0"/>
+<tableitem align="2" filedname="repayPerDate" id="5" indexed="6" label="还款日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="actualRepaymentTime" id="13" indexed="14" label="实际还款日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayPerNo" id="4" indexed="5" label="还款期次" row="1" type="0"/>
+<tableitem align="2" filedname="prePaymentPenalty" id="12" indexed="13" label="违约金" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="guaranteeCost" id="11" indexed="12" label="担保费" row="1" type="0"/>
+<tableitem align="2" filedname="unionConsultationExpense" id="10" indexed="11" label="联合咨询费" row="1" type="0"/>
+</table>

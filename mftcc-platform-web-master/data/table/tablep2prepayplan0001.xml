@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="p2prepayplan0001" link="/p2pRepayPlan/findByPage" para="eadis_page" title="网贷-还款计划表" type="1">
+<tableitem align="2" filedname="opName" id="22" indexed="20" label="登记人员名称" row="1" type="0"/>
+<tableitem align="2" filedname="outFlag" id="18" indexed="19" label="还款计划状态" row="1" type="99" widthType="0"/>
+<tableitem align="3" filedname="repayPrcpIntstSum" id="9" indexed="10" label="应还本息合计" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="17" indexed="18" label="期号" row="1" type="0"/>
+<tableitem align="3" filedname="repayIntst" id="7" indexed="8" label="应还利息" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="15" indexed="16" label="本期结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="repayPrcp" id="6" indexed="7" label="应还本金" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planBeginDate" id="14" indexed="15" label="还款开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="bidissueId" id="4" indexed="6" label="标号" type="99" typepara="P2/pRepayPlan/getById;planId-planId;bidissueId-bidissueId;onClick-thisGetById" widthType="0"/>
+<tableitem align="3" filedname="feeSum" id="13" indexed="14" label="费用合计" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="详情" id="39" indexed="24" label="-" row="1" type="99" typepara="P2/pRepayPlan/getById;planId-planId;bidissueId-bidissueId;onClick-thisGetById" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0"/>
+<tableitem align="2" filedname="删除" id="38" indexed="40" label="-" row="1" type="99" typepara="P2/pRepayPlan/deleteAjax;planId-planId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="1" filedname="appName" id="40" indexed="6" label="标的名称" row="1" type="4" typepara="P2/pBidissueManage/getById;planId-planId;bidissueId-bidissueId;" widthType="0"/>
+<tableitem align="2" filedname="planId" id="1" indexed="1" label="流水号" row="1" type="99" typepara="P2/pRepayPlan/getById;planId-planId;query-'query'" widthType="0"/>
+</table>

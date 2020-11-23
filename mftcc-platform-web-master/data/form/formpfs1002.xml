@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pfs1002" title="平衡校验公式新增">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportType" fieldsize="REPORT_TYPE" fieldtype="2" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="报表类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="accRule" fieldsize="ACC_RULE" fieldtype="2" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="会计准则" mustinput="0" row="1"/>
+</form>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="cus0016" title="保证金信息">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="depositAmt" fieldtype="1" formactiveid="2" horVer="1" initvalue="1000" labelalign="3" labelcol="1" labelname="保证金金额" mustinput="" readonly="" row="1" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="depositBal" fieldtype="1" formactiveid="3" horVer="1" initvalue="1000" labelalign="3" labelcol="3" labelname="保证金余额" mustinput="" readonly="" row="1" unit="元" />
+</form>

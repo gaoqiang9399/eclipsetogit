@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditproduct0003" para="eadis_page" title="产品授信额度信息（审批）" type="2">
+<tableitem align="2" filedname="isCeilingLoop" id="18" indexed="13" label="额度是否可循环" row="1" type="6" typepara="YES_NO" widthType="0"/>
+<tableitem align="2" filedname="vouType" id="9" indexed="12" label="担保方式" row="1" type="99" typepara="VOU_TYPE" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="17" indexed="15" label="-" type="5" typepara="/mfCusPorductCredit/getByIdNewApprove;id-id;onClick-mfCusCreditProductDetail.editPorductCredit" width="2" widthType="0"/>
+<tableitem align="2" filedname="repaymentMode" id="8" indexed="11" label="还款方式" row="1" type="99" typepara="REPAY_TYPE" widthType="0"/>
+<tableitem align="2" filedname="baseType" id="16" indexed="14" label="基地" row="1" type="6" typepara="BASE_TYPE" widthType="0"/>
+<tableitem align="3" filedname="creditRate" id="7" indexed="10" label="利率%" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="depositRate" id="15" indexed="8" label="保证金比例%" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="rateType" id="6" indexed="9" label="利率类型" row="1" type="99" typepara="RATE_TYPE" widthType="0"/>
+<tableitem align="1" filedname="id" id="14" indexed="2" label="ID" row="1" type="99" typepara="/mfCusPorductCredit/getById;id-id;onClick-mfCusCreditProductDetail.getById" widthType="0"/>
+<tableitem align="3" filedname="creditAmt" id="5" indexed="7" label="授信额度" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="12" indexed="18" label="-" row="1" type="99" typepara="/mfCusPorductCredit/deleteAjax;id-id;onClick-mfCusCreditProductDetail.ajaxDelete" width="2" widthType="0"/>
+<tableitem align="2" filedname="kindNo" id="3" indexed="5" label="产品种类" row="1" type="6" typepara="KIND_NO" widthType="0"/>
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="classifyconfig0001" title="客户分类配置表单">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="optCode" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="4" labelname="分类类别名" mustinput="" readonly="" row="5" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="分类描述" maxlength="400" mustinput="1" readonly="" row="3" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="optName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="分类名称" mustinput="1" readonly="" row="1" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="keyName" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="4" labelname="数据字典" mustinput="" readonly="" row="2" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="seqn" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="4" labelname="显示顺序" mustinput="" readonly="" row="1" writeAuth="0"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sts" fieldsize="YES_NO" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="启用标识" mustinput="" readonly="" row="2" writeAuth="0"/>
+</form>

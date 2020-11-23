@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sys9001" title="系统日志">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="logId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="日志流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="操作主键" maxlength="600" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opSeqn" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="操作子健（与主键唯一确定一条记录）" maxlength="300" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opDesc" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="操作描述" maxlength="150" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opTab" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="操作表" maxlength="300" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opDate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="操作日期" maxlength="24" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opTime" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="操作时间" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="操作员号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="操作员机构" maxlength="30" mustinput="0" row="5"/>
+</form>

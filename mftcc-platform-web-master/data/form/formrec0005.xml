@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="rec0005" title="催收任务历史表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="hisNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="历史记录号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taskNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="业务流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="客户号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" labelwidth="25" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusTel" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="客户联系电话" labelwidth="25" maxlength="15" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recallType" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="催收类型" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="recallAmt" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="催收金额" maxlength="16" mustinput="0" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recallDate" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="催收日期" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recallWay" fieldsize="RECALL_WAY" fieldtype="21" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="催收方式" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="recallDesc" fieldtype="5" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="催收描述" maxlength="500" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="leaseModel" fieldtype="5" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="租赁物名称/车牌号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mgrNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="3" labelname="经办人" maxlength="30" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="mgrName" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="经办人名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="returnDesc" fieldtype="5" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="回执描述" maxlength="500" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isRecall" fieldsize="YES_NO" fieldtype="21" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="是否联系上承租人" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isCall" fieldsize="YES_NO" fieldtype="21" formactiveid="17" horVer="1" labelalign="1" labelcol="2" labelname="是否打通电话" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isArrive" fieldsize="YES_NO" fieldtype="21" formactiveid="18" horVer="1" labelalign="1" labelcol="1" labelname="是否到达实地催收" maxlength="1" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isMeet" fieldsize="YES_NO" fieldtype="21" formactiveid="19" horVer="1" labelalign="1" labelcol="2" labelname="是否遇见承租人" maxlength="1" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isLaw" fieldsize="YES_NO" fieldtype="21" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="是否发起诉讼" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="lawDesc" fieldtype="5" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="诉讼备注" maxlength="500" mustinput="0" row="25"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="curOverDays" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="逾期天数" mustinput="0" row="7"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="delayIntCumu" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="2" labelname="当前累计逾期金额" maxlength="16" mustinput="0" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="brcContAmt" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="违约金" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="termLimit" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="剩余期数" mustinput="0" row="11"/>
+<formelement datatype="1" fieldalign="1" fieldcol="3" fieldname="repayTerm" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="已还期数" mustinput="0" row="11"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="balSum" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="剩余未还租金" maxlength="16" mustinput="0" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isClose" fieldsize="YES_NO" fieldtype="21" formactiveid="28" horVer="1" labelalign="1" labelcol="2" labelname="是否收回租赁物" maxlength="1" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recallSts" fieldtype="99" formactiveid="29" labelalign="3" labelcol="3" labelname="状态" maxlength="2" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="riskLevel" fieldtype="99" formactiveid="30" labelalign="3" labelcol="3" labelname="风险级别" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="regDate" fieldtype="99" formactiveid="31" horVer="1" labelalign="1" labelcol="2" labelname="登记日期" maxlength="8" mustinput="0" row="5"/>
+</form>

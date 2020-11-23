@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="communicationlist" link="/mfOaInternalCommunication/findByPage" para="eadis_page" title="内容通讯消息表" type="1">
+<tableitem align="2" filedname="recoverySts" id="13" indexed="13" label="对方回复状态" sortType="1" type="6" typepara="RECOVERY_STS" width="15" widthType="0"/>
+<tableitem align="1" filedname="messageContent" id="3" indexed="4" label="消息内容" mytitle="消息内容-messageContent;" row="1" sortType="2" type="4" typepara="/mfOaInternalCommunication/getById;messageId-messageId;onClick-MfOaInternalCommunication_SendList.messageRecoveryDetail(this);subStringNub-30;" width="35" widthType="0"/>
+<tableitem align="2" filedname="readSts" id="10" indexed="10" label="对方读取状态" row="1" sortType="1" type="6" typepara="READ_STS" width="15" widthType="0"/>
+<tableitem align="2" filedname="messageId" id="1" indexed="1" label="消息编号" row="1" type="99" typepara="/mfOaInternalCommunication/getById;messageId-messageId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="sendTime" id="8" indexed="8" label="发信时间" row="1" sortType="1" type="30" width="20" widthType="0"/>
+<tableitem align="1" filedname="messageAcceptOpName" id="7" indexed="2" label="收信人" row="1" sortType="1" type="0" width="15" widthType="0"/>
+</table>

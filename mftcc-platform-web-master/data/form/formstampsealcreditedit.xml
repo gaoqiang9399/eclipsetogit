@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="stampsealcreditedit" title="授信合同盖章">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="protocolNo" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="协议号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合作银行" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="授信金额" maxlength="14" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="授信期限" maxlength="2" mustinput="" readonly="1" row="3" unit="个月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="stampDesc" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="授信说明" maxlength="200" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="contractId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="授信合同ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="stampTime" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="用印时间" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="盖章人编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="盖章人" mustinput="" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="盖章时间" mustinput="1" onfocus="fPopUpCalendarDlg({min:document.getElementsByName('stampTime')[0].value,name:'regTime'})" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="agenciesId" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="合作银行编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="6"/>
+</form>

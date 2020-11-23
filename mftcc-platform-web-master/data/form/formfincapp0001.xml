@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fincapp0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincAppAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="申请支用金额" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="putoutAmt" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="放款金额" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="putoutDate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="放款日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDateFinc" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="到期日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="finishDate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="3" labelname="还完日期" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lastReturnDate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="上次还款日期" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayedFincAmt" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="已还金额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="unrepayFincBal" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="未还金额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomBank" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomName" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="收款人" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="3" labelname="登记人" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincSts" fieldsize="FINC_STS" fieldtype="2" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="申请状态" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rateType" fieldsize="RATE_TYPE" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="利率类型" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="融资利率" mustinput="" readonly="" row="3" />
+</form>

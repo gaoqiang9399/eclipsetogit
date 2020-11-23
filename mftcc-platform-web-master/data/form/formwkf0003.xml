@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0003" title="操作员审批角色关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfUserName" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="1" labelname="操作员编号" labelwidth="20" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wkfRoleNo" fieldtype="1" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="3" labelname="审批角色编号" labelwidth="20" maxlength="10" mustinput="0" row="1"/>
+</form>

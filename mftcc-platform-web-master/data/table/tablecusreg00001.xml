@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusreg00001" para="eadis_page" link="/mfCusRegister/findByPage" title="注册信息" type="1">
+<tableitem align="2" filedname="删除" id="37" indexed="37" label="-" row="1" type="5" typepara="/mfCusRegister/deleteAjax;cusNo-cusNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

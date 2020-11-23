@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="wkf0041" title="选择会签人员">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nextUser" fieldtype="31" fieldwidth="80" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="请选择" labelwidth="20" mustinput="1" row="1"/>
+</form>

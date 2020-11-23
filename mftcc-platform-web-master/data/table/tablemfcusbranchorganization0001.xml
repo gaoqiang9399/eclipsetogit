@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfcusbranchorganization0001" link="/mfCusBranchOrganization/findByPage" para="eadis_page" title="分支机构" type="1">
+<tableitem align="2" filedname="删除" id="33" indexed="33" label="-" row="1" type="5" typepara="/mfCusBranchOrganization/deleteAjax;surveyId-surveyId;onClick-FormFactor.deleteTrAjax(this)" width="2"/>
+<tableitem align="2" filedname="firmName" id="31" indexed="8" label="企业名称" type="4" typepara="/mfCusBranchOrganization/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'MfCusBranchOrganizationActionAjax_updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="state" id="29" indexed="31" label="状态" row="1" type="0"/>
+<tableitem align="2" filedname="legalRepresentative" id="30" indexed="29" label="法定代表人" row="1" type="0"/>
+<tableitem align="2" filedname="registrationDate" id="28" indexed="30" label="注册时间" row="1" type="0"/>
+</table>

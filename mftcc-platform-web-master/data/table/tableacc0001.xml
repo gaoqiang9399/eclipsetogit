@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0001" para="eadis_page" link="/acLnPaySeq/findByPage" title="还款顺序表" type="1">
+    <tableitem align="2" filedname="paySeq" id="1" indexed="1" label="还款序号" row="1" type="4" typepara="/acLnPaySeq/getById;paySeq-paySeq;paySeqCde-paySeqCde;query-'query'"/>
+    <tableitem align="2" filedname="paySeqCde" id="2" indexed="2" label="还款顺序代码" row="1" type="4" typepara="/acLnPaySeq/getById;paySeq-paySeq;paySeqCde-paySeqCde;query-'query'"/>
+    <tableitem align="2" filedname="payAmtTyp" id="3" indexed="3" label="还款类型" row="1" type="0" />
+    <tableitem align="2" filedname="修改" id="4" indexed="4" label="-" row="1" type="5" typepara="/acLnPaySeq/getById;paySeq-paySeq;paySeqCde-paySeqCde;" width="2"/>
+    <tableitem align="2" filedname="删除" id="5" indexed="5" label="-" row="1" type="5" typepara="/acLnPaySeq/del;paySeq-paySeq;paySeqCde-paySeqCde;onClick-lkconfirm" width="2"/>
+</table>

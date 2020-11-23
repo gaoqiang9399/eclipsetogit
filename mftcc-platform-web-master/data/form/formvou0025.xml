@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0025" title="抵押物-海域权表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="担保编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seaUseNo" fieldtype="1" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="3" labelname="海域使用权证号" labelwidth="20" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useNo" fieldtype="1" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="1" labelname="水域滩涂养殖使用证号" labelwidth="20" maxlength="100" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seaUseReceiptNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="缴纳海域使用金专用收据编号" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="corporate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="法人代表" maxlength="60" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="seaType" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="用海类型" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="seaUsedHa" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="用海面积（公顷）" maxlength="16" mustinput="1" row="3" unit="公顷"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="批准使用起始日期" maxlength="2" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="ednDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="批准使用终止日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="抵押物类型" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="7" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAmt" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="7" unit="元" />
+</form>

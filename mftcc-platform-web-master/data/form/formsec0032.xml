@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sec0032" title="用户角色变更表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="logId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="编号" maxlength="0" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="auditType" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="修改类型" maxlength="54" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="userId" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="被修改人编号" maxlength="60" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="userName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="被修改人名字" maxlength="120" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="changeUserId" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="修改人编号" maxlength="60" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="changeUserName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="修改人名字" maxlength="120" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="auditTime" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="修改时间" maxlength="24" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark1" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="修改记录1" maxlength="1200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark2" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="修改记录2" maxlength="1200" mustinput="0" row="9"/>
+</form>

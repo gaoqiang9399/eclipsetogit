@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="wkf0043" title="审批用户">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="seq" fieldtype="99" fieldwidth="60" formactiveid="1" labelalign="3" labelcol="1" labelname="序号" labelwidth="40" maxlength="10" mustinput="0" readonly="1" row="2" unit="[自动生成]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfUserName" fieldtype="99" fieldwidth="30" formactiveid="2" labelalign="3" labelcol="1" labelname="操作员编号" labelwidth="20" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfRoleNo" fieldtype="99" fieldwidth="30" formactiveid="3" labelalign="3" labelcol="1" labelname="审批角色" labelwidth="20" maxlength="10" mustinput="0" onclick="funcWkfApprovalRolePop('wkfRoleNo','wkfRoleNo')" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="wkfBrNo" fieldtype="99" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="4" labelname="机构编号" labelwidth="20" mustinput="0" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="displayname" fieldstyle="input-width" fieldtype="1" fieldwidth="60" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="审批用户" labelwidth="40" mustinput="" onclick="prodAutoMenu(this,'/sysUser/getUserListAjax',sysUserCallBack,'opName','brName','-');" readonly="" row="1" />
+</form>

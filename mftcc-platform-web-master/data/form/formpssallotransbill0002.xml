@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="pssallotransbill0002" title="调拨单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="100" mustinput="" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="billDate" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="单据日期" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="alloTransNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="单据编号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="alloTransId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="单据ID" mustinput="" readonly="" row="4"/>
+</form>

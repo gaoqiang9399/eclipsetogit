@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="rentBusAccountsDetail" title="保理应收账款详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="receName" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="6" labelname="应收账款名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="receSts" fieldsize="RECE_STS" fieldtype="2" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="应收账款状态" mustinput="" readonly="1" row="5" />
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="receTransAmt" fieldsize="0.00" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="转让金额" maxlength="14" mustinput="" param="pledgeNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="receBeginDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="转让日" maxlength="8" mustinput="" onclick="fPopUpCalendarDlg()" param="pledgeNo;" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="receEndDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="应收账款到期日" maxlength="8" mustinput="" onclick="selectrili(this,null,today,null)" param="pledgeNo;" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="receInvoiceAmt" fieldsize="0.00" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="发票金额" maxlength="14" mustinput="" param="pledgeNo;" readonly="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="备注" maxlength="200" mustinput="" param="pledgeNo;" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receNo" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="发票号" maxlength="40" mustinput="" param="pledgeNo;" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="191" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pledgeNo" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="recePactNo" fieldtype="99" formactiveid="192" horVer="1" labelalign="1" labelcol="6" labelname="合同号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldcolspan="2" fieldname="receCounterparty" fieldtype="1" formactiveid="193" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="买方" mustinput="" readonly="1" row="1"/>
+</form>

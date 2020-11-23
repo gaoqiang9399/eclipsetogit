@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="querypacttodate" para="eadis_page" title="框架合同到期预警" type="1">
+<tableitem align="2" filedname="pactNo" id="6" indexed="4" label="合同号" mytitle="合同号-pactNo" row="1" type="3" typepara="17" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="4" indexed="2" label="联系电话" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="appName" id="3" indexed="3" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';subStringNub-8;onClick-getDetailRepayPlan(this);" widthType="0"/>
+<tableitem align="2" filedname="pactAmt" id="2" indexed="7" label="合同金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactEndDate" id="1" indexed="12" label="到期日期" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactBeginDate" id="8" indexed="8" label="开始日期" row="1" type="0" widthType="0"/>
+</table>

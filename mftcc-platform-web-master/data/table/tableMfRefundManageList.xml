@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfRefundManageList" para="eadis_page" title="退费申请合同选择列表" type="1">
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label="客户名称" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="5" indexed="5" label="委托担保合同编号" mytitle="配置名称-configName" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="选择" id="10" indexed="10" label="-" type="5" typepara=";pactId-pactId;onClick-MfRefundManage_SelectList.choseRefundManage;" width="20" widthType="0"/>
+</table>

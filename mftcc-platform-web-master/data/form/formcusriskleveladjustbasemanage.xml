@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusriskleveladjustbasemanage" title="风险处置">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="5" labelname="申请id" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="applySts" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="申请状态" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyProcessId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="保管审批流程编号" maxlength="50" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="当前审批节点" maxlength="50" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="当前审批节点名称" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="当前审批人员编号" maxlength="50" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartName" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="当前审批人员名称" maxlength="200" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="ID_TYPE" fieldtype="2" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="证件类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="证件号码" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="appName" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="担保方式" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="putoutAmt" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="借据金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="intstEndDate" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="借据结束日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="intstBeginDate" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="借据开始日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskLevel" fieldsize="EXAM_RISK_LEVEL" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="风险等级" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="riskLevelReason" fieldtype="5" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="风险等级认定理由" maxlength="400" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="riskId" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="5" labelname="风险Id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="manageSts" fieldsize="manage_sts" fieldtype="99" formactiveid="38" horVer="0" labelalign="3" labelcol="5" labelname="处置状态" mustinput="" readonly="" row="1"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="manageContent" fieldtype="5" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="处置内容" maxlength="200" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="manageType" fieldtype="1" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="处置方案" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="operateType" fieldsize="operate_type" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="调整类型" mustinput="" readonly="" row="7"/>
+</form>

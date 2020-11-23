@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cashier0001" title="出纳账户表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uid" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finBooks" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="帐套标识" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="账户编码唯一" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="账户名称" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="币种" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="银行账号银行类展示" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accHrt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="科目控制字" maxlength="100" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="科目名称" maxlength="60" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accountType" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="账户分类1：现金类；2：银行类；" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="occTime" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="时间戳最后一次修改日期" maxlength="17" mustinput="0" row="12"/>
+</form>

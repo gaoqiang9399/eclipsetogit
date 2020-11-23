@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reportQueryDealerList" para="eadis_page" title="报表经销商搜索" type="1">
+<tableitem align="1" filedname="cusName" id="5" indexed="6" label="经销商名称" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="1" filedname="cusNo" id="4" indexed="5" label="编号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="7" indexed="4" label="选择" sortType="2" type="2" width="20" widthType="0"/>
+</table>

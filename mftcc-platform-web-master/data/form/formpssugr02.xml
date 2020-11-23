@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="pssugr02" title="单位商品价格关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ugrId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="数据ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="unitId" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="3" labelname="单位ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitName" fieldtype="1" maxlength="40" formactiveid="3" labelalign="3" labelcol="1" labelname="单位名称" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="goodsId" fieldtype="1" maxlength="80" formactiveid="4" labelalign="3" labelcol="3" labelname="商品ID" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="retailPrice" fieldtype="1" maxlength="18" formactiveid="5" labelalign="3" labelcol="1" labelname="零售价" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wholesalePrice" fieldtype="1" maxlength="18" formactiveid="6" labelalign="3" labelcol="3" labelname="批发价" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vipPrice" fieldtype="1" maxlength="18" formactiveid="7" labelalign="3" labelcol="1" labelname="VIP会员价" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="discountRate1" fieldtype="1" maxlength="18" formactiveid="8" labelalign="3" labelcol="3" labelname="折扣率一(%)" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="discountRate2" fieldtype="1" maxlength="18" formactiveid="9" labelalign="3" labelcol="1" labelname="折扣率二(%)" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="estimatedPurchasePrice" fieldtype="1" maxlength="18" formactiveid="10" labelalign="3" labelcol="3" labelname="预计采购价" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" maxlength="0" formactiveid="11" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="6"/>
+</form>

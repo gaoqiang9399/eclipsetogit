@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="applylf0005" title="临汾分单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="0" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="业务模式" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincUse" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="融资用途" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="业务主办编号" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appTime" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="登记日期时分秒" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="0" readonly="" row="4" />
+<formelement alt="请输入备注，字数控制在200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="备注" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="99" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="0" readonly="1" row="9" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="借款金额" mustinput="" readonly="1" row="3" unit="元" />
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="借款期限" mustinput="" readonly="1" row="3" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="借款利率" mustinput="" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldsize="YES_NO" fieldtype="21" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="预支利息" mustinput="" readonly="1" row="4" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="预支利息金额" mustinput="" readonly="1" row="5" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fincUseDes" fieldtype="5" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="贷款用途" maxlength="200" mustinput="" readonly="1" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nextOpNo" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="下一岗位" mustinput="1" readonly="" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="43" horVer="0" labelalign="3" labelcol="1" labelname="部门编号" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="分单人员姓名" mustinput="" readonly="" row="8" />
+</form>

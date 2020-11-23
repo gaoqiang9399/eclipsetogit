@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="doc0002" link="/docTypeConfig/findByPage" para="eadis_page" title="文挡类型列表" trDbClick="/docTypeConfig/getById;docSplitNo-docSplitNo;onDbClick-newDocType" type="1">
+<tableitem align="1" filedname="docType" id="1" indexed="1" label="文档类型" row="1" type="6" typepara="DOC_TYPE"/>
+<tableitem align="1" filedname="docSplitName" id="3" indexed="2" label="文档名称" row="1" type="0"/>
+<tableitem align="1" filedname="docDesc" id="2" indexed="3" label="文档说明" row="1" type="0"/>
+<tableitem align="2" filedname="配置表单" id="7" indexed="4" label="-" row="1" type="5" typepara="/docTypeConfig/checkAndCreateFormAjax;docSplitNo-docSplitNo;docType-docType;onclick-formDesignThis(this);" widthType="0"/>
+<tableitem align="2" filedname="修改" id="6" indexed="5" label="-" row="1" type="5" typepara="../docTypeConfig/getById;docSplitNo-docSplitNo;onClick-newDocType" width="2"/>
+<tableitem align="2" buttonMark="DocTypeConfig004" filedname="删除" id="5" indexed="7" label="-" row="1" type="5" typepara="/docTypeConfig/deleteAjax;docSplitNo-docSplitNo;onClick-ajaxTrDelete(this)" width="2"/>
+</table>

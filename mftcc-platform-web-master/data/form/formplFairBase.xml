@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="plFairBase" title="公正信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="公证ID" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="collateralId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="押品编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="公证书编号" maxlength="80" mustinput="1" onblur="validateFairNo();" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairOrg" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="公证机构" maxlength="80" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="fairDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="公正时间" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regCusId" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgId" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="登记人机构" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgName" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人机构名称" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="登记日期" maxlength="8" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateCusId" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateCusName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="更新人姓名" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOrgId" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="更新人机构" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateOrgName" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="更新人机构名称" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateDate" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="押品类型ID" mustinput="" readonly="" row="8" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fairCus" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="公证人" maxlength="30" mustinput="1" readonly="" row="3" />
+</form>

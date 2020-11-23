@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="checkofflist" link="/mfBusCheckoffs/findByPage" para="eadis_page" title="核销申请表" type="1">
+<tableitem align="3" filedname="checkoffPrcp" id="33" indexed="13" label="核销本金(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="checkoffIntst" id="32" indexed="14" label="核销利息(元)" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="loanBal" id="31" indexed="6" label="贷款余额(元)" row="1" sortType="1" type="12" width="120" widthType="1"/>
+<tableitem align="1" filedname="appName" id="30" indexed="3" label="项目名称" mytitle="项目名称-appName" row="1" sortType="2" type="4" typepara="action;fincId-fincId;appId-appId;onClick-checkOffs.popAppItemInfo(this);subStringNub-10;" width="135" widthType="1"/>
+<tableitem align="2" filedname="checkoffStatusName" id="19" indexed="25" label="核销状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="action;cusNo-cusNo;appId-appId;onClick-checkOffs.popCusInfo(this);" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="4" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="checkoffType" id="12" indexed="7" label="核销类型" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="5" label="借据号" type="0" typepara="subStringNub-10;" width="190" widthType="1"/>
+<tableitem align="3" filedname="checkoffSum" id="10" indexed="16" label="核销合计(元)" row="1" sortType="1" type="4" typepara="action;checkoffId-checkoffId;onClick-checkOffs.checkOffAppDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="checkoffDate" id="34" indexed="17" label="核销时间" row="1" type="1" widthType="0"/>
+</table>

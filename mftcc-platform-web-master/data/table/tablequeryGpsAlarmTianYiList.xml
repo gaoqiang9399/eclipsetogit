@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryGpsAlarmTianYiList" para="eadis_page" title="GPS预警查询（天易）" type="1">
+<tableitem align="2" filedname="regTime" id="6" indexed="7" label="接收时间" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="speed" id="5" indexed="5" label="速度" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="imei" id="4" indexed="4" label="GPS设备ID" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="3" indexed="0" label="客户名" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="ext2" id="2" indexed="1" label="车辆名" row="1" sortType="2" type="4" typepara="/mfBusCollateralRel/getCollateralInfo;appId-appId;cusNo-cusNo;busCollaterlId-ext3;relId-appId;busEntrance-'1';onClick-getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="alarmType" id="7" indexed="2" label="预警类型" row="1" sortType="2" type="6" typepara="GPS_ALARM" widthType="0"/>
+</table>

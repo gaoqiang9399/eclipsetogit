@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusliabilitiesBase" link="/mfCusPersonLiabilities/findByPage" para="eadis_page" title="个人资产负债表" type="1">
+<tableitem align="2" filedname="totalAssetsAmt" id="99" indexed="98" label="总资产" type="4" typepara="/mfCusPersonLiabilities/getById;cusNo-cusNo;onClick-MfCusDyForm.getCusInfoById(this);subStringNub-12;" width="25" widthType="0"/>
+<tableitem align="2" filedname="personalAssetsAmt" id="102" indexed="101" label="个人资产净值" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="debtRatio" id="101" indexed="102" label="负债率(%)" row="1" type="17" width="25" widthType="0"/>
+<tableitem align="2" filedname="totalLiabilitiesAmt" id="100" indexed="100" label="总负债" row="1" type="0" width="25" widthType="0"/>
+</table>

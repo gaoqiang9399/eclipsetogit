@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head >
+		<title>列表表单</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script type="text/javascript" src="../../layout/view/js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript">
+        
+			$(document).ready(function() {
+				$("ul .ratingLi3 span").hide();
+				/*var ratingBg = $(".ratingBg").width()*0.9;
+				$(".ratingBg ul").css("width",ratingBg)*/
+				function showUl(i){
+					if($("ul .ratingLi3 span").eq(i).length>0){
+						$("ul .ratingLi3 span").eq(i).delay(1000).show(0,function(){
+							if($("ul .ratingLi3 span").eq(i+1).length>0){
+								showUl(i+1);
+							}
+							if($(this).parent().hasClass("ratingLi3Warning")){
+								$(this).parent().prev().addClass("ratingLi4Warning");
+							}
+							if($(this).parent().hasClass("ratingLi3Stop")){
+								$(this).parent().prev().addClass("ratingLi4Stop");
+							}
+						});
+					}
+					
+				}
+				showUl(0);
+			});
+        </script>
+		<style>
+		html{ height:100%}
+		body{  height:96%;}
+		h3{margin-top:0px;margin-bottom: 20px;margin-left: 20px;color: #4183a6; font-size: 16px;font-style: normal;
+font-family: "microsoft YaHei";font-weight:normal; display:block;}
+		.ratingBg{    border-radius: 5px;background-color: #ebebeb;height:100%;padding-top:10px;}
+		.ratingBg ul{ width:90%;margin:0 auto; overflow:hidden;}
+		.ratingBg ul li{ background:#fafafa; border-bottom:7px solid #ebebeb; height:40px; float:left; list-style:none; border:1px solid #e3e4e3; margin-top:5px; line-height:40px; text-align:center; font-size:12px;font-family: "microsoft YaHei"; color:#000;}
+		.ratingBg ul li.ratingLi1{ width:6%; color:#c1c2c2;display:none;}
+		.ratingBg ul li.ratingLi2{ width:17%;color:#000;font-weight:700;}
+		.ratingBg ul li.ratingLi3{ width:23%; color:#5e994a; text-align:left;}
+		.ratingBg ul li.ratingLi3 i{ margin-left:100px; margin-right:10px; font-size:18px;}
+		.ratingBg ul li.ratingLi3Warning{ color:#dfb64d;}
+		.ratingBg ul li.ratingLi3Stop{ color:#b1424d;}
+		.ratingBg ul li.ratingLi4{ width:53%; font-weight:700;}
+		.ratingBg ul li.ratingLi4Warning{ color:#dfb64d; background-color:#F9E6C2;}
+		.ratingBg ul li.ratingLi4Stop{ color:#b1424d; background-color:#f3c9ce;}
+		.ratingImg1{ display:inline-block; width:8px; height:8px; background:url(image/icon-lw.png) no-repeat; background-size:8px; margin-right:12px;}
+		.ratingButton{ width:120px; height:30px; line-height:30px; background:nnone; border:none; background-color:#009bed; color:#fff; font-size:14px; display:block; float:right; margin-right:4%; margin-top:30px;}
+		</style>
+		<link href="../../UIplug/Font-Awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	</head>
+<body style="" class="contentA">
+	<div class="ratingBg">
+    	<h3>授信风险评级信息</h3>
+    <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+    <ul>
+        <li class="ratingLi1"><i class="ratingImg1"></i>1</li>
+        <li class="ratingLi2">低风险</li>
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3 ratingLi3Warning"><span><i class="fa fa-exclamation-triangle"></i>不通过</span></li>
+     </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul>   
+        <li class="ratingLi1"><i class="ratingImg1"></i>2</li>
+        <li class="ratingLi2">低风险</li>
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>        
+      </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul>  
+        <li class="ratingLi1"><i class="ratingImg1"></i>3</li>
+        <li class="ratingLi2">高风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3 ratingLi3Stop"><span><i class="fa fa-ban"></i>不通过</span></li>
+       </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul>  
+        <li class="ratingLi1"><i class="ratingImg1"></i>4</li>
+        <li class="ratingLi2">低风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+        </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul> 
+        <li class="ratingLi1"><i class="ratingImg1"></i>5</li>
+        <li class="ratingLi2">低风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+        </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul> 
+        <li class="ratingLi1"><i class="ratingImg1"></i>6</li>
+        <li class="ratingLi2">低风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+        </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul> 
+        <li class="ratingLi1"><i class="ratingImg1"></i>7</li>
+        <li class="ratingLi2">低风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+        </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul> 
+        <li class="ratingLi1"><i class="ratingImg1"></i>8</li>
+        <li class="ratingLi2">低风险</li>
+        
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+        <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+        </ul>
+     </div>
+     <div style="overflow:hidden;margin-left:5%;" class="ratingDiv">
+     <ul> 
+        <li class="ratingLi1"><i class="ratingImg1"></i>9</li>
+        <li class="ratingLi2">低风险</li>
+       
+        <li class="ratingLi4">货贷重组后必须实行按月或按季分期还款，按月结息。</li>
+     	 <li class="ratingLi3"><span><i class="fa fa-check-circle-o"></i>通过</span></li>
+    </ul>
+    </div>
+    <input type="button" value="下一步" class="ratingButton">
+    </div>
+</body>
+</html>

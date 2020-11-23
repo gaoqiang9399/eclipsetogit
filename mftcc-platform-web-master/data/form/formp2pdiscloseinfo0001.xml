@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="p2pdiscloseinfo0001" title="网贷-披露-文本信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="serialno" fieldtype="1" maxlength="50" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bidissueId" fieldtype="1" maxlength="50" formactiveid="2" labelalign="3" labelcol="1" labelname="标号(关联标的)" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="1" maxlength="500" formactiveid="3" labelalign="3" labelcol="1" labelname="标题名称" mustinput="0" row="3" />
+</form>

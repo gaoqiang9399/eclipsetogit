@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="guaranteeForOthers" title="为他人担保记录明细" type="2">
+<tableitem align="2" filedname="guarantee_place" id="9" indexed="3" label="担保地址" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="guarantor" id="8" indexed="1" label="为谁担保" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="card_type" id="7" indexed="4" label="证件类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="card_num" id="6" indexed="5" label="证件号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loan_type" id="5" indexed="6" label="贷款类型" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="loan_count" id="4" indexed="7" label="贷款额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="guarantee_count" id="3" indexed="8" label="担保额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="due_date" id="2" indexed="9" label="截至日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="query_id" id="11" indexed="0" label="查询编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="balance" id="1" indexed="10" label="余额" type="0" widthType="0"/>
+<tableitem align="2" filedname="guarantee_date" id="10" indexed="2" label="担保日期" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0011" title="抵押物-林业表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCode" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="区域编码" maxlength="6" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="担保编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="areaName" fieldsize="80" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="区域名称" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="zhongdiNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="宗地号" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="woodType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="林种" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="woodName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="林地名字" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="getWay" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="取得方式" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="getAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="承包或购入金额" maxlength="16" mustinput="0" row="4" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="getDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="林权取得日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg();" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="otherAddress" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="小地名" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="linBan" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="林班" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="xiaoBan" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="小班" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mainTreeType" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="主要树种" maxlength="100" mustinput="0" row="6"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="treeNum" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="株数" maxlength="10" mustinput="0" row="7" unit="株"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="treeYear" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="树龄/林龄" maxlength="5" mustinput="0" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="woodArea" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="林地面积（亩）" maxlength="16" mustinput="0" row="8" unit="亩"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="woodRightPerson" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="林地使用权权利人" maxlength="80" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="treeRightPerson" fieldtype="1" formactiveid="18" labelalign="3" labelcol="1" labelname="森林或林木使用权利人" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="matureStartDate" fieldtype="1" fieldwidth="30" formactiveid="19" labelalign="3" labelcol="1" labelname="林地使用开始日期" labelwidth="20" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="matureEndDate" fieldtype="1" fieldwidth="30" formactiveid="20" labelalign="3" labelcol="3" labelname="林地使用到期日期" labelwidth="20" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaType" fieldsize="GUA_TYPE" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="抵押物类型" mustinput="" readonly="" row="12" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="申请号" mustinput="" readonly="" row="11" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAmt" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="" row="13" unit="元" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="担保类型" mustinput="" readonly="" row="13" />
+</form>

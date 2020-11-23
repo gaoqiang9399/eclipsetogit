@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="idrz_output" title="身份证认证服务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="身份证姓名" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idCardNum" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="身份证号码" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="message" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="校验结果" mustinput="" readonly="" row="2"/>
+</form>

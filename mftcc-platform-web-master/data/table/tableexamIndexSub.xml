@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="examIndexSub" para="eadis_page" title="检查项子项列表" type="2">
+<tableitem align="2" fieldStyle="remark" filedname="remark" id="4" indexed="6" label="子项描述" row="1" type="9" typepara="10" widthType="0"/>
+<tableitem align="2" fieldStyle="subName" filedname="subName" id="3" indexed="3" label="子项名称" row="1" type="9" typepara="10" widthType="0"/>
+<tableitem align="2" filedname="删除" id="8" indexed="13" label="-" type="5" typepara="/mfExamineIndexSub/deleteAjax;subId-subId;onClick-MfExamIndex.deleteIndexSub(this)" width="2" widthType="0"/>
+</table>

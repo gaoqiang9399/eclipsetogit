@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="ApiThirdServiceOrder0001" para="eadis_page" title="第三方还款列表" type="1">
+<tableitem align="2" filedname="planId" id="25" indexed="6" label="还款计划号" type="99" widthType="0"/>
+<tableitem align="2" filedname="详情" id="24" indexed="25" label="详情" row="1" type="5" typepara=";fincId-fincId;planId-planId;orderId-orderId;onClick-openApiThirdPayLogList(this)" widthType="0"/>
+<tableitem align="2" filedname="orderId" id="23" indexed="9" label="批次号" row="1" type="0" width="180" widthType="1"/>
+<tableitem align="3" filedname="repayAmount" id="22" indexed="12" label="还款金额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="appName" id="19" indexed="5" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="18" indexed="4" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="20" indexed="8" label="合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" authority="orderResult-SUCCESS;orderResult-WAITING;orderResult-PROCESSING;" filedname="还款" id="17" indexed="24" label="-" row="1" type="5" typepara="/apiThirdServiceOrder/singleRepayAjax;orderId-orderId;fincId-fincId;onClick-singleRepayAjax(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="errorCode" id="7" indexed="18" label="第三方代码" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="orderResult" id="5" indexed="14" label="状态" row="1" type="6" typepara="ORDER_RESULT" widthType="0"/>
+<tableitem align="2" filedname="orderTime" id="13" indexed="23" label="登记时间" row="1" type="30" width="160" widthType="1"/>
+<tableitem align="2" filedname="fincId" id="4" indexed="7" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="errorMsg" id="12" indexed="22" label="第三方返回消息" mytitle="消息-errorMsg;" row="1" sortType="2" type="3" typepara="12" width="180" widthType="1"/>
+</table>

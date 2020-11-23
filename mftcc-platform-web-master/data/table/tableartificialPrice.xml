@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="artificialPrice" title="世联重评列表" type="2">
+<tableitem align="2" filedname="人工结果" id="6" indexed="5" label="-" row="1" type="5" typepara="/mfBusCollateralRel/afreshAssessPriceAjax;pledgeNo-pledgeNo;pledgeShowNo-pledgeShowNo;onClick-shiLianAssess.afreshAssessPrice(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="重评" id="5" indexed="4" label="-" row="1" type="5" typepara="/mfBusCollateralRel/afreshAssessAjax;pledgeNo-pledgeNo;pledgeShowNo-pledgeShowNo;onClick-shiLianAssess.afreshAssess(this)" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="pledgeShowNo" filedname="pledgeShowNo" id="4" indexed="0" label="押品编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pledgeName" id="3" indexed="1" label="押品名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pleOriginalValue" id="2" indexed="2" label="抵押物估值" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="自动评估" id="7" indexed="3" label="-" type="5" typepara="/mfBusCollateralRel/getAssessValueAjax;pledgeNo-pledgeNo;pledgeShowNo-pledgeShowNo;onClick-shiLianAssess.getAssessValue(this)" widthType="0"/>
+</table>

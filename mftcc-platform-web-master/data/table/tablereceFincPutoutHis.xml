@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="receFincPutoutHis" para="eadis_page" title="应收账款融资放款历史列表" type="1">
+<tableitem align="2" filedname="fincApplySts" id="15" indexed="13" label="放款状态" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="14" indexed="3" label="融资编号" row="1" type="4" typepara="/mfBusFincApp/listShowDetailAjax;fincId-fincId;pactId-pactId;oneUrl-'';onClick-listShowDetail(this);" width="25" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="2" indexed="5" label="放款金额(元)" row="1" sortType="1" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="putoutAppDate" id="1" indexed="11" label="申请日期" row="1" sortType="1" type="1" width="15" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="16" indexed="4" label="账款合同号/发票号" type="0" widthType="0"/>
+</table>

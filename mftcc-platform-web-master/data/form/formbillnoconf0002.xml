@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="billnoconf0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billType" fieldsize="PSS_BILL_TYPE" fieldtype="2" formactiveid="2" labelalign="3" labelcol="1" labelname="单据类型" maxlength="2" mustinput="1" onchange="changeBillType()" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="noEx" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="前缀" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addYear" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="4" labelalign="3" labelcol="1" labelname="年" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addMonth" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="5" labelalign="3" labelcol="3" labelname="月" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="addDay" fieldsize="PSS_CHECK_ONLY" fieldtype="3" formactiveid="6" labelalign="3" labelcol="5" labelname="日" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="noEndDigit" fieldsize="PSS_DECIMAL_DIGIT" fieldtype="2" formactiveid="7" labelalign="3" labelcol="1" labelname="后缀位数" maxlength="1" mustinput="1" onchange="setDefaultDigit();" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="noStart" fieldtype="1" formactiveid="8" initvalue="1" labelalign="3" labelcol="3" labelname="起始号码" maxlength="6" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="noNow" fieldtype="1" formactiveid="9" labelalign="3" labelcol="5" labelname="当前号码" maxlength="80" mustinput="0" readonly="1" row="3"/>
+</form>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockmain0003" para="eadis_page" title="合格证信息(带选择列)" type="2">
+<tableitem align="2" filedname="saleDays" id="23" indexed="25" label="私售天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="affirmTime" id="22" indexed="37" label="认定时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="affirmResult" id="21" indexed="36" label="盘库认定结果" row="1" type="6" typepara="VC_AFFIRM_RESULT" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="19" indexed="2" label="全选" sortType="2" type="2" typepara="vin-vin;dealerName-dealerName;base-base;storageTime-storageTime;feedbackOpName-feedbackOpName;certificateId-certificateId;" widthType="0"/>
+<tableitem align="2" filedname="feedbackOpName" id="18" indexed="29" label="盘库人员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overDays" id="20" indexed="24" label="超期天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feedbackTime" id="17" indexed="26" label="最后盘库时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feedbackLocation" id="16" indexed="31" label="盘库位置" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="盘库文件" id="15" indexed="40" label="-" row="1" type="5" typepara="/vcTakeStockMain/getTackStockFileList;takeStockDetailId-takeStockDetailId;onClick-openNewDiv(this);" widthType="0"/>
+<tableitem align="2" filedname="vin" id="5" indexed="6" label="车架号" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="storageTime" id="14" indexed="21" label="入库时间" row="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="base" id="13" indexed="19" label="基地" row="1" type="6" typepara="VC_BASE" width="5" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="10" indexed="15" label="经销商" row="1" type="0" width="15" widthType="0"/>
+</table>

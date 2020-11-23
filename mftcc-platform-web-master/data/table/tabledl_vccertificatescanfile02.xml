@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vccertificatescanfile02" para="eadis_page" title="未上传扫描件合格证列表" type="1">
+<tableitem align="1" filedname="dealerName" id="8" indexed="4" label="经销商" mytitle="模板内容-dealerName" row="1" sortType="1" type="3" typepara="12" width="14" widthType="0"/>
+<tableitem align="2" filedname="sequence" id="50" indexed="5" label="合格证序号" row="1" sortType="1" type="0" width="9" widthType="0"/>
+<tableitem align="2" filedname="vin" id="14" indexed="6" label="车架号" row="1" sortType="1" type="4" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-VcCertificateScanfile_List.getCertificateDetailPage(this);" width="14" widthType="0"/>
+<tableitem align="2" filedname="taskNo" id="5" indexed="10" label="任务单号" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="sendCertificateDept" id="51" indexed="16" label="发证单位" row="1" sortType="1" type="6" typepara="VC_SEND_CERTIFICATE_DEPT" width="8" widthType="0"/>
+<tableitem align="2" filedname="vehicleTypeName" id="10" indexed="17" label="车型" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="configurationName" id="47" indexed="25" label="配置" row="1" sortType="1" type="0" width="7" widthType="0"/>
+<tableitem align="3" filedname="unitPrice" id="20" indexed="26" label="单价(元)" row="1" sortType="1" type="12" width="8" widthType="0"/>
+<tableitem align="2" filedname="certificateState" id="52" indexed="27" label="状态" row="1" sortType="1" type="6" typepara="VC_CERTIFICATE_STATE" width="5" widthType="0"/>
+<tableitem align="2" filedname="importDate" id="23" indexed="28" label="导入日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" authority="haveScanfile-1" filedname="上传扫描件" id="49" indexed="30" label="-" row="1" sortType="2" type="5" typepara="/vcCertificateScanfile/getAdd4BatchStoragePage;certificateId-certificateId;onClick-VcVehicleCertificate_List4BatchStorage.getAddScanfilePage(this)" widthType="0"/>
+</table>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="recourseConfirm0001" title="追偿收回">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户编号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="借款金额" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="compensatoryAlreadyTerm" fieldtype="99" formactiveid="11" labelalign="3" labelcol="3" labelname="代偿天数" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="recoursePenaltyFee" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="追偿违约金费率" maxlength="10" mustinput="0" readonly="1" row="6" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recourseCompany" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="追偿收回单位" maxlength="50" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="recoursePenalty" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="追偿违约金" maxlength="20" mustinput="0" row="7" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="recourseRatio" fieldtype="99" formactiveid="17" labelalign="3" labelcol="3" labelname="追偿所得比例" maxlength="400" mustinput="0" readonly="1" row="8" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" labelname="登记时间" maxlength="17" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="28" labelalign="3" labelcol="3" labelname="登记人号" maxlength="22" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" maxlength="500" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="34" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="35" labelalign="3" labelcol="1" maxlength="500" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="99" formactiveid="36" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="37" labelalign="3" labelcol="1" maxlength="255" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext7" fieldtype="99" formactiveid="38" labelalign="3" labelcol="3" maxlength="500" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="termMonth" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="借款期限" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="贷款利率" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="21" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="还款方式" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="pactBeginDate" fieldtype="1" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="pactEndDate" fieldtype="1" formactiveid="43" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guarantyAgency" fieldtype="99" formactiveid="44" horVer="0" labelalign="3" labelcol="3" labelname="追偿收回单位编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="recoverDate" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="1" labelname="追偿日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recourseFeeSum" fieldtype="99" formactiveid="46" horVer="0" labelalign="3" labelcol="3" labelname="追偿总额" maxlength="20" mustinput="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="recourseFee" fieldtype="1" formactiveid="47" horVer="0" labelalign="3" labelcol="3" labelname="追偿金额" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="recourseAllot" fieldtype="99" formactiveid="48" horVer="0" labelalign="3" labelcol="1" labelname="追偿分配金额" mustinput="" readonly="1" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="49" horVer="0" labelalign="3" labelcol="3" labelname="业务申请号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="99" formactiveid="50" horVer="0" labelalign="3" labelcol="3" labelname="合同号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="99" formactiveid="51" horVer="0" labelalign="3" labelcol="3" labelname="借据号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="planId" fieldtype="99" formactiveid="52" horVer="0" labelalign="3" labelcol="3" labelname="流水号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recourseId" fieldtype="99" formactiveid="53" horVer="0" labelalign="3" labelcol="3" labelname="追偿关联号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="54" horVer="0" labelalign="3" labelcol="3" labelname="登记编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="55" horVer="0" labelalign="3" labelcol="3" labelname="登记人员" mustinput="" readonly="" row="10"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="compensatoryFee" fieldtype="99" formactiveid="56" horVer="0" labelalign="3" labelcol="3" labelname="代偿费" mustinput="" readonly="" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recoverEnt" fieldsize="YES_NO" fieldtype="2" formactiveid="57" horVer="0" labelalign="3" labelcol="1" labelname="是否委外追偿" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recoverMode" fieldtype="1" formactiveid="58" horVer="0" labelalign="3" labelcol="3" labelname="追偿方式" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recoverBackType" fieldsize="RECOVER_TYPE" fieldtype="2" formactiveid="59" horVer="0" labelalign="3" labelcol="1" labelname="追偿收回资金分类" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="recourseInfo" fieldtype="5" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="回款来源" maxlength="400" mustinput="" readonly="1" row="8"/>
+</form>

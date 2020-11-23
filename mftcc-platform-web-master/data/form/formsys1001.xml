@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sys1001" title="大区配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regionName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="大区名称" maxlength="30" mustinput="0" row="1"/>
+</form>

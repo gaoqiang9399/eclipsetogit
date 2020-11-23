@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="maintenancedetail" title="押品维护/保养信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="maintenanceId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="养护ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="修改时间" maxlength="17" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="maintenanceProject" fieldtype="5" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="保养/维修项目" maxlength="200" mustinput="0" param="maintenanceId" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="4" fieldname="maintenanceSituation" fieldtype="5" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelcolspan="4" labelname="保养/维修情况" maxlength="200" mustinput="0" param="maintenanceId" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldcolspan="2" fieldname="maintenanceResult" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelcolspan="2" labelname="保养/维修结论" maxlength="50" mustinput="1" param="maintenanceId;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="maintenanceUnit" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelcolspan="2" labelname="保养/维修单位" maxlength="50" mustinput="1" param="maintenanceId" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="maintenancePerson" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="保养/维修人" maxlength="20" mustinput="1" param="maintenanceId" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="maintenanceAmount" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="3" labelname="保养/维修费用" maxlength="20" mustinput="1" onclick="func_uior_valFormat_tips(this, 'nonnegative');" param="maintenanceId" row="1" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="maintenanceTime" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="4" labelname="保养/维修时间" maxlength="8" mustinput="1" onclick="selectrili(this,null,null,today)" param="maintenanceId" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="登记人姓名" maxlength="50" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="regTime" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="登记时间" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="修改时间" maxlength="17" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="maintenanceType" fieldsize="MAINTENANCE_TYPE" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="养护类型" mustinput="1" param="maintenanceId" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="押品类别ID" mustinput="" readonly="" row="1"/>
+</form>

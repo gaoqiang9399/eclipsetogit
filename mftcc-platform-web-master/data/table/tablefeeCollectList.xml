@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="feeCollectList" para="eadis_page" title="费用收取列表" type="1">
+<tableitem align="2" filedname="chargeId" id="115" indexed="19" label="费用收取编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="114" indexed="28" label="业务阶段" row="1" type="6" typepara="FEE_COLLECT_APP_STS" widthType="0"/>
+<tableitem align="2" filedname="delFlag" id="112" indexed="29" label="业务状态" row="1" type="6" typepara="FEE_COLLECT_DEL_FLAG" widthType="0"/>
+<tableitem align="2" filedname="详情" id="111" indexed="30" label="-" row="1" type="5" typepara="/mfBusChargeFee/chargeFee;appId-appId;entranceNo-'FEE_COLLECT_ALONE';chargeId-chargeId;onClick-MfBusFeeCollect_List.getDetailPage(this);" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="109" indexed="5" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfBusFeeCollect_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="108" indexed="21" label="到账日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="feeChargeType" id="110" indexed="27" label="收费类型" row="1" sortType="2" type="6" typepara="FEE_CAHGE_TYPE" widthType="0"/>
+<tableitem align="3" filedname="accountAmt" id="17" indexed="20" label="到账金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="16" indexed="17" label="合同金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="合同编号" mytitle="合同编号-pactNo;" type="4" typepara="/mfBusPact/getById;appId-appId;pactId-pactId;busEntrance-'2';onClick-MfBusFeeCollect_List.getDetailPage(this);" widthType="0"/>
+</table>

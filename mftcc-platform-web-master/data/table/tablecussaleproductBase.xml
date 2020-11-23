@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cussaleproductBase" link="/mfCusSaleProduct/findByPage" para="eadis_page" title="销售产品" type="1">
+<tableitem align="2" filedname="productName" id="4" indexed="4" label="产品名称" type="4" typepara="/mfCusSaleProduct/listShowDetailAjax;saleId-saleId;cusNo-cusNo;oneUrl-'/mfCusSaleProduct/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="43" indexed="43" label="-" row="1" type="5" typepara="/mfCusSaleProduct/deleteAjax.action;saleId-saleId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="profitRate" id="9" indexed="9" label="销售毛利率" row="1" type="0"/>
+<tableitem align="2" filedname="profit" id="8" indexed="8" label="销售毛利润" row="1" type="0"/>
+<tableitem align="2" filedname="saleAmt" id="7" indexed="7" label="销售额" row="1" type="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="eval0003" para="eadis_page" link="/evalScenceDxRel/findByPage" title="评级定性评分指标项关联表" type="1">
+<tableitem align="2" filedname="scenceNo" id="1" indexed="1" label="评级场景编号" row="1" type="4" typepara="/evalScenceDxRel/getById;indexNo-indexNo;scenceNo-scenceNo;query-'query'"/>
+<tableitem align="2" filedname="indexNo" id="2" indexed="2" label="指标编号" row="1" type="4" typepara="/evalScenceDxRel/getById;indexNo-indexNo;scenceNo-scenceNo;query-'query'"/>
+<tableitem align="2" filedname="indexName" id="3" indexed="3" label="指标名称" row="1" type="0" />
+<tableitem align="2" filedname="indexDesc" id="4" indexed="4" label="指标描述" row="1" type="0" />
+<tableitem align="2" filedname="stdCore" id="5" indexed="5" label="指标得分" row="1" type="0" />
+<tableitem align="2" filedname="level" id="6" indexed="6" label="指标级别" row="1" type="0" />
+<tableitem align="2" filedname="upIndexNo" id="7" indexed="7" label="上级指标编号" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="9" indexed="9" label="-" row="1" type="5" typepara="/evalScenceDxRel/deleteAjax;indexNo-indexNo;scenceNo-scenceNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

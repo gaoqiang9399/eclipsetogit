@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tagbase0001" link="/loanTemplateTagBase/findByPage" para="eadis_page" title="标签基础表" type="1">
+<tableitem align="2" filedname="表头配置" id="14" indexed="14" label="-" row="1" type="5" typepara="/mfTagTableConfig/getListPage;keyNo-keyNo;onClick-MfTemplateTagBase_List.tableHeadConfig(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="表格列配置" id="13" indexed="15" label="-" type="5" typepara="/mfTagColumnConfig/getListPage;keyNo-keyNo;onClick-MfTemplateTagBase_List.tableColumnConfig(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="dataSourceType" id="4" indexed="4" label="来源类型" row="1" type="6" typepara="DATD_SOURCE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="remark" id="12" indexed="12" label="备注" row="1" type="0"/>
+<tableitem align="2" filedname="tagKeyName" id="3" indexed="3" label="标签名称" row="1" type="4" typepara="/mfTemplateTagBase/getById;serialNo-serialNo;onClick-MfTemplateTagBase_List.getTemplateTagBaseDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="10" indexed="13" label="启用标识" row="1" type="4" typepara="/mfTemplateTagBase/updateUseFlagAjax;serialNo-serialNo;" widthType="0"/>
+<tableitem align="2" filedname="groupFlag" id="9" indexed="9" label="分组标识" row="1" type="6" typepara="BOOKMARK_CLASS" widthType="0"/>
+</table>

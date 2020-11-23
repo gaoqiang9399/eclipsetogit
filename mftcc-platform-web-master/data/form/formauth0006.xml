@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="auth0006" title="授信信息审批表单-横向">
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="begDate" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="开始日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="authAmt" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="授信金额" mustinput="1" readonly="" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="calcAmt" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="测算金额" mustinput="" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="到期日期" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="登记人" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="authAppNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="5" labelname="申请号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldstyle="half" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="登记日期" maxlength="10" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldstyle="half" fieldtype="2" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" readonly="1" row="1"/>
+</form>

@@ -1,0 +1,143 @@
+body{
+	background-color: #F1F1F1;
+}
+.pms_form_div{
+	padding: 10px 0px 5px 10px;
+}
+.pms_form_div form{
+	margin:0px;
+}
+.pms_configure_body{
+	width: 100%;
+	height: 90%;
+}
+.pms_configure_div{
+	background-color: #f1f1f1;
+	padding: 10px;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+.pms_configure_sub{
+	background-color: #fff;
+	float: left;
+	height: 100%;
+	min-height: 95%;
+	width: 100%;
+	position: relative;
+	
+}
+.pms_configure_title{
+	text-align:left;
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height:40px;
+	line-height:40px;
+	background-color: #D6DBDE;
+}
+.pms_configure_title span{
+	padding-left: 20px;
+}
+
+.pms_configure_tree{
+	position:relative;
+	padding-bottom: 60px;
+	height: 99%;
+}
+
+.pms_configure_btn{
+	display: block;
+	position: absolute;
+	text-align: right;
+	bottom: 0px;
+	right:10px;
+}
+
+.pms_configure_save{
+	outline:none;
+	height:21px;
+	width:62px;
+	color:#000000;
+	font-size:12px;
+	text-align:center;
+	background-color:#fff;
+	border: 1px solid #000000;
+	 -moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */
+/*     margin: 5px 15px 15px auto; */
+}
+.pms_configure_sub .pms_configure_save{
+    margin: 5px 15px 15px auto;
+}
+
+::-moz-focus-inner{border:0px;}
+
+.data-rand-body{
+	 float: right;
+    height: 24px;
+    left: -15px;
+    position: relative;
+    top: -22px;
+    top: 0px \9;
+    *top: 0px;
+    _top: 0px;
+    width: 140px;
+}
+.data-rand-btn{
+	float: right;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    width: 20px;
+}
+.data-rand-btn i{
+	cursor: pointer;
+	border: 1px solid #000000;
+    display: block;
+    height: 24px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 22px;
+   	background: #3596DD;
+	color: rgba(255, 255, 255, 0.8);
+}
+.data-rand-body select{
+	color: rgba(0, 0, 0, 0.6);
+	height: 24px;
+	line-height: 22px;
+	width: 140px;
+	border: 1px solid #000000;
+}
+
+/* rcSwitcher */
+.ztree .swraper span{
+	margin-right: 0px;
+	line-height: 20px;
+	font-size:	8px;
+}
+.ztree .swraper.lease{
+	position: absolute;
+	right: 10px;
+}
+#treeData li.level0{
+	height: 30px;
+}
+.ztree .ico_close{
+	opacity: 0.5;
+}
+.ztree .ico_open{
+	opacity: 0.5;
+}
+.ztree .ico_docu{
+	opacity: 0.5;
+}
+i.i.loading{
+    position: absolute;
+    font-size: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+}

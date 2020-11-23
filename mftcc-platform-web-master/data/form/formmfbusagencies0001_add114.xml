@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="mfbusagencies0001_add114" title="title">
+<formelement alt="请输入机构名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="资金机构名称" maxlength="100" mustinput="1" row="2"/>
+<formelement alt="请输入对接人名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="对接人名称" maxlength="30" mustinput="1" row="3"/>
+<formelement alt="请输入对接人联系方式" datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtPhone" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="对接人联系方式" maxlength="30" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="4"/>
+<formelement alt="点击选择关联操作员" datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesOpName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="关联操作员" maxlength="500" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remarks" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="备注说明" maxlength="500" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesOpNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="资金机构类型" mustinput="1" row="1"/>
+</form>

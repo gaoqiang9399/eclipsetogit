@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="zxbgjbxx" title="征信报告基本信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="Id" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主键id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loginName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="登录名" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="报告id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idType" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="证件类型" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="reportTime" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="报告时间" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCard" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="证件号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="姓名" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="queryTime" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="报告查询时间" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="marriage" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="婚姻状况" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="grade" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="得分对应评级" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="score" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="模型评估得分" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="creditCards_overdue" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="信用卡逾期" maxlength="400" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="creditCards_unOverdue" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="信用卡未逾期" maxlength="400" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="creditCards_overdraft" fieldtype="5" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="透支超过60天的准贷记卡" maxlength="400" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="houseLoans_overdue" fieldtype="5" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="房贷逾期" maxlength="400" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="houseLoans_unOverdue" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="房贷未逾期" maxlength="400" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="otherLoans_overdue" fieldtype="5" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="其它贷款逾期" maxlength="400" mustinput="" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="guaranteeOthers_show" fieldtype="5" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="为他人担保" maxlength="400" mustinput="" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="otherLoans_unOverdue" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="其它贷款未逾期" maxlength="400" mustinput="" readonly="" row="13"/>
+</form>

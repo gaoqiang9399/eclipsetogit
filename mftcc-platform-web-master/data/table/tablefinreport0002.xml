@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="finreport0002" para="eadis_page" title="财务其他报表" type="2">
+<tableitem align="3" filedname="itemAAmt" id="6" indexed="8" label="本期数" row="1" sortType="2" type="0" width="15"/>
+<tableitem align="1" filedname="showName" id="5" indexed="5" label="项目" row="1" sortType="2" type="4" typepara="/cwReportItem/toDeployPage;reportItemId-reportItemId;onClick-ajaxShowItemView(this);" width="20"/>
+<tableitem align="2" filedname="lrTr" id="9" indexed="6" label="行次" row="1" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="xjllTr" id="8" indexed="7" label="行次" sortType="2" type="0" width="5" widthType="0"/>
+<tableitem align="3" filedname="itemBAmt" id="7" indexed="9" label="上期数" row="1" sortType="2" type="0" width="15"/>
+</table>

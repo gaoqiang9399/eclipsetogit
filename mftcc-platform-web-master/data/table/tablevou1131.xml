@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1131" para="eadis_page" link="/grtPStore/findByPage" title="208.商铺使用权 GRT_P_STORE" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPStore/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="storeAddress" id="2" indexed="2" label="商铺地址" row="1" type="0" />
+<tableitem align="2" filedname="storeFlg" id="3" indexed="3" label="是否有无商铺使用权证书" row="1" type="0" />
+<tableitem align="2" filedname="storeNo" id="4" indexed="4" label="商铺使用权证书号码" row="1" type="0" />
+<tableitem align="2" filedname="storeArea" id="5" indexed="5" label="商铺面积（平方米）" row="1" type="0" />
+<tableitem align="2" filedname="storeStartDate" id="6" indexed="6" label="使用权起始日期" row="1" type="0" />
+<tableitem align="2" filedname="storeEndDate" id="7" indexed="7" label="使用权到期日期" row="1" type="0" />
+<tableitem align="2" filedname="tenancyAmt" id="8" indexed="8" label="年租金" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="9" indexed="9" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/grtPStore/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

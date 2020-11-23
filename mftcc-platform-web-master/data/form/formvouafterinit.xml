@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="vouafterinit" title="初始化表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="1" onclick="selectCusDialog(MfVouAfterTrack_InitBusInfo.selectCusInfo,'','选择客户','6')" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="委托担保合同编号" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="cusNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="4" labelname="客户号" mustinput="" readonly="" row="1"/>
+</form>

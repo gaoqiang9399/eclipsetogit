@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="acl0001" para="eadis_page" link="" title="合同申请与租赁物关系表" type="2">
+<tableitem align="2" filedname="appContNo" id="1" indexed="1" label="合同申请流水号" row="1" type="4" typepara="/appContLeaseRel/getByIdAjax;appContNo-appContNo;leaseNo-leaseNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="leaseNo" id="2" indexed="2" label="租赁编号" row="1" type="4" typepara="/appContLeaseRel/getByIdAjax;appContNo-appContNo;leaseNo-leaseNo;query-'query';onClick-ajaxGetById(this);"/>
+</table>

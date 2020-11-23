@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="p2paccount0002" title="网贷-本地账户表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="serialno" fieldtype="99" maxlength="50" formactiveid="1" labelalign="1" labelcol="1" labelname="流水号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusNo" fieldtype="99" maxlength="30" formactiveid="2" labelalign="1" labelcol="1" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cifAccount" fieldtype="99" maxlength="50" formactiveid="3" labelalign="1" labelcol="1" labelname="客户账号 " mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="totalMoney" fieldtype="99" maxlength="20" formactiveid="4" labelalign="1" labelcol="1" labelname="总金额" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="useMoney" fieldtype="99" maxlength="20" formactiveid="5" labelalign="1" labelcol="1" labelname="可用金额" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="freezeMoney" fieldtype="99" maxlength="20" formactiveid="6" labelalign="1" labelcol="1" labelname="冻结金额" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="remark" fieldtype="99" maxlength="500" formactiveid="7" labelalign="1" labelcol="1" labelname="备注" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="regTime" fieldtype="99" maxlength="17" formactiveid="8" labelalign="1" labelcol="1" labelname="reg_time 登记时间" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" maxlength="17" formactiveid="9" labelalign="1" labelcol="1" labelname="lst_mod_time 最近修改时间" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext1" fieldtype="99" maxlength="100" formactiveid="10" labelalign="1" labelcol="1" labelname="ext1 " mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext2" fieldtype="99" maxlength="100" formactiveid="11" labelalign="1" labelcol="1" labelname="ext2 " mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext3" fieldtype="99" maxlength="100" formactiveid="12" labelalign="1" labelcol="1" labelname="ext3 " mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext4" fieldtype="99" maxlength="100" formactiveid="13" labelalign="1" labelcol="1" labelname="ext4 " mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext5" fieldtype="99" maxlength="100" formactiveid="14" labelalign="1" labelcol="1" labelname="ext5 " mustinput="0" row="25"/>
+</form>

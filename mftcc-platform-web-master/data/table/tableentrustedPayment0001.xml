@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="entrustedPayment0001" title="受托支付管理" type="1">
+<tableitem align="2" filedname="collectAccName" id="9" indexed="10" label="收款账号名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="collectAccount" id="8" indexed="8" label="收款账号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="受托登记" id="14" indexed="15" label="操作" row="1" type="5" typepara="../mfBusEntrustedPayment/epRegister;fincId-fincId;onClick-eqRegister(this)" widthType="0"/>
+<tableitem align="2" filedname="epAmt" id="5" indexed="6" label="受托金额(元)" row="1" type="4" typepara="../mfBusEntrustedPayment/epDetil;fincId-fincId;onClick-eqDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="putoutAmtReal" id="4" indexed="3" label="借据金额(元)" type="12" widthType="0"/>
+<tableitem align="2" filedname="epRegTime" id="12" indexed="14" label="受托时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="3" indexed="2" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="transferFlag" id="11" indexed="12" label="受托状态" row="1" type="6" typepara="TRANSFER_FLAG" widthType="0"/>
+<tableitem align="2" filedname="appName" id="2" indexed="1" label="项目名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="1" indexed="1" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="collectBank" id="10" indexed="11" label="收款账号开户行" row="1" type="0" widthType="0"/>
+</table>

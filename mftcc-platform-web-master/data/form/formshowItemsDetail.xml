@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="showItemsDetail" title="展示交易详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="seqId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="序列号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="usage" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="用途" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="银行号" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accType" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="账号类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openAccDept" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bankAcctName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="银行账户户主" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bankAcctId" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="银行账号" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idType" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="证件类型" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCode" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="证件号" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="amount" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="总金额" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="curType" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="货币类型" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="note" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="记录" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="5" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="备注" maxlength="400" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mobile" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="手机号" mustinput="" readonly="1" row="5"/>
+</form>

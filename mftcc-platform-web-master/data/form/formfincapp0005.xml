@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fincapp0005" title="放款审批表单">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="putoutAmt" fieldstyle="half" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="申请金额(元)" maxlength="20" mustinput="1" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="incomBank" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="开户行" mustinput="0" readonly="1" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="incomName" fieldstyle="half" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="收款人" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="incomAccount" fieldstyle="half" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="收款账号" mustinput="0" onclick="selectBankAcc()" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opName" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="5" labelname="登记人" mustinput="" readonly="1" row="8" />
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldstyle="half" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="3" labelname="合同利率(%)" mustinput="1" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="客户号" mustinput="" readonly="" row="10" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldstyle="half" fieldtype="81" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" onchange="WkfApprove.opinionTypeChange();" readonly="" row="5" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="6" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="fincId" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="放款申请号" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="5" labelname="申请编号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="33" horVer="0" labelalign="3" labelcol="5" labelname="合同编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="5"/>
+</form>

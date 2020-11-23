@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="buybackconf0001" para="eadis_page" link="/mfMoveableBuybackConfirm/findByPage" title="回购确认" type="1">
+<tableitem align="2" filedname="pledgeNo" id="3" indexed="3" label="押品编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="4" indexed="4" label="押品名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeWorth" id="6" indexed="6" label="押品价值" row="1" type="0" />
+<tableitem align="2" filedname="buyBackPrice" id="7" indexed="7" label="回购意向价" row="1" type="0" />
+<tableitem align="2" filedname="actualPrice" id="8" indexed="8" label="实际回购价" row="1" type="0" />
+<tableitem align="2" filedname="buyBackDate" id="9" indexed="9" label="回购时间" row="1" type="0" />
+<tableitem align="2" filedname="buyBackReason" id="10" indexed="10" label="回购原因" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="20" indexed="20" label="-" row="1" type="5" typepara="/mfMoveableBuybackConfirm/deleteAjax;confirmId-confirmId;onClick-ajaxDelete(this)" width="2"/>
+</table>

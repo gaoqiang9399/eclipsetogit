@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="enterprisefygg001" title="企业涉诉全类之法院公告" type="2">
+<tableitem align="2" filedname="enterpriseName" id="5" indexed="0" label="企业名称" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="court" id="4" indexed="1" label="执行法院" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="announcementType" id="3" indexed="2" label="公告类型" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="recordTime" id="2" indexed="3" label="立案时间" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="body" id="1" indexed="4" label="内容" type="0" widthType="0"/>
+</table>

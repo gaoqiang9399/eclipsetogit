@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MfCusCreditSearch" title="客户授信查询" type="1">
+<tableitem align="1" filedname="idNum" id="6" indexed="2" label="证件号码" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="4" indexed="6" label="授信开始日" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="0" label="客户名称" row="1" sortType="2" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="2" indexed="7" label="授信截止日" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="authBal" id="1" indexed="4" label="可用额度(元)" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="creditTerm" id="9" indexed="8" label="授信期限(月)" sortType="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="creditSum" id="8" indexed="3" label="授信额度(元)" row="1" sortType="1" type="4" typepara="/mfCusCreditApply/openHisData;cusNo-cusNo;wkfAppId-wkfAppId;onclick-getMfCusCreditInfo(this);" widthType="0"/>
+<tableitem align="2" filedname="isCeilingLoop" id="7" indexed="5" label="额度是否循环" row="1" sortType="2" type="6" typepara="YES_NO" widthType="0"/>
+</table>

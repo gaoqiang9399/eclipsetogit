@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="yangokingdee0001" link="/cwYangoKingdeeMst/findByPage" para="eadis_page" title="阳光金控金蝶对接主表" type="1">
+<tableitem align="2" filedname="voucherAbstract" id="9" indexed="3" label="摘要" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bookedDate" id="8" indexed="13" label="上传日期" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="kingdeeNo" id="7" indexed="12" label="金蝶凭证号" row="1" type="0"/>
+<tableitem align="1" filedname="errorMsg" id="6" indexed="14" label="异常信息" mytitle="errorMsg-errorMsg" type="3" typepara="15" widthType="0"/>
+<tableitem align="3" filedname="creditAmount" id="14" indexed="6" label="贷方金额" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="cashflowAmountLocal" id="13" indexed="7" label="现金流量金额" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="debitAmount" id="12" indexed="5" label="借方金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="voucherType" id="11" indexed="2" label="凭证字" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="voucherNo" id="1" indexed="1" label="凭证号" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="accountNumber" id="10" indexed="4" label="科目" row="1" type="0" widthType="0"/>
+</table>

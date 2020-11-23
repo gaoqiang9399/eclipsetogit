@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="pledgeclass0001" title="押品表单配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname=" 类别编号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="className" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="类别名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="是否启用 " maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="备注" maxlength="400" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="motherAddFormId" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="母版新增表单编号" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="motherDetailFormId" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="母版详情表单编号" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addFormId" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="新增表单编号" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailFormId" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="详情表单编号" maxlength="50" mustinput="0" row="5"/>
+</form>

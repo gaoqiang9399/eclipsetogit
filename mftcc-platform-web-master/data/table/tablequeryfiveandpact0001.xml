@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryfiveandpact0001" link="/mfPactFiveclass/findByPage" para="eadis_page" title="五级分类信息表" type="1">
+<tableitem align="2" filedname="fiveclass" id="5" indexed="7" label="五级分类" sortType="1" type="4" typepara="/mfPactFiveclass/fiveclassView;fiveclassId-fiveclassId;pactId-pactId;fincId-fincId;onclick-fiveclassView(this);" width="8" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="24" indexed="6" label="借据号" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="3" label="客户名称" mytitle="客户名-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailCus(this);subStringNub-12;" width="18" widthType="0"/>
+<tableitem align="2" filedname="pactSts" id="23" indexed="9" label="申请状态" row="1" sortType="1" type="6" typepara="PACT_STS" width="8" widthType="0"/>
+<tableitem align="2" filedname="classMehod" id="11" indexed="8" label="分类方式" row="1" sortType="1" type="6" typepara="CLASS_METHOD" width="8" widthType="0"/>
+<tableitem align="1" filedname="appName" id="2" indexed="5" label="项目名称" mytitle="项目名称-appName;" row="1" sortType="2" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getDetailApply(this);subStringNub-12;" width="16" widthType="0"/>
+<tableitem align="2" filedname="opName" id="22" indexed="15" label="登记人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="14" label="登记时间" row="1" sortType="1" type="1" width="8" widthType="0"/>
+</table>

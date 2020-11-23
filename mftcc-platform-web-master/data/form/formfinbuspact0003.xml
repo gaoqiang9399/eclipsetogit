@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="finbuspact0003" title="续期合同详情表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busApplyId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="理财申请号" maxlength="50" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busPactNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="理财合同号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="2" labelname="客户号" maxlength="50" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contractAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="合同金额" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="contractBal" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="可用金额" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termType" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="期限类型M：月类型；D：日类型；" maxlength="1" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termMonth" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="申请期限月" maxlength="10" mustinput="0" param2="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termDay" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="申请期限日" maxlength="10" mustinput="0" param2="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="termShow" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="期限" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="applyRate" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="2" labelname="利率" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="3" labelname="还款方式" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prdtNo" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="理财产品编号" maxlength="30" mustinput="0" param2="1" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="prdtName" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="4" labelname="理财产品名称" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyStatus" fieldsize="APPLY_STATUS" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="状态" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="remarks" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="备注说明" maxlength="500" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cardDate" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="刷卡日期" maxlength="8" mustinput="0" param2="1" row="17"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="breathDate" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="3" labelname="起息日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="breathBeginDate" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="4" labelname="合同开始日期" maxlength="8" mustinput="0" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="breathEndDate" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="合同到期日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="amtWay" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="2" labelname="理财资金方式" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bindingCard" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="关联银行卡编号" maxlength="50" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busStage" fieldtype="99" formactiveid="23" labelalign="3" labelcol="3" labelname="业务阶段-业务流程中的节点" maxlength="50" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nodeNo" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" labelname="业务阶段编号" maxlength="50" mustinput="0" param2="1" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo1" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="关联人编号1" maxlength="50" mustinput="0" param2="1" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo1Name" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" labelname="关联人名称1" maxlength="50" mustinput="0" param2="1" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo2" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="关联人编号2" maxlength="50" mustinput="0" param2="1" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo2Name" fieldtype="99" formactiveid="28" labelalign="3" labelcol="1" labelname="关联人名称2" maxlength="50" mustinput="0" param2="1" row="28"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo3" fieldtype="99" formactiveid="29" labelalign="3" labelcol="1" labelname="关联人编号3" maxlength="50" mustinput="0" param2="1" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo3Name" fieldtype="99" formactiveid="30" labelalign="3" labelcol="1" labelname="关联人名称3" maxlength="50" mustinput="0" param2="1" row="30"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo4" fieldtype="99" formactiveid="31" labelalign="3" labelcol="1" labelname="关联人编号4" maxlength="50" mustinput="0" param2="1" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo4Name" fieldtype="99" formactiveid="32" labelalign="3" labelcol="1" labelname="关联人名称4" maxlength="50" mustinput="0" param2="1" row="32"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo5" fieldtype="99" formactiveid="33" labelalign="3" labelcol="1" labelname="关联人编号5" maxlength="50" mustinput="0" param2="1" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo5Name" fieldtype="99" formactiveid="34" labelalign="3" labelcol="1" labelname="关联人名称5" maxlength="50" mustinput="0" param2="1" row="34"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo6" fieldtype="99" formactiveid="35" labelalign="3" labelcol="1" labelname="关联人编号6" maxlength="50" mustinput="0" param2="1" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo6Name" fieldtype="99" formactiveid="36" labelalign="3" labelcol="1" labelname="关联人名称6" maxlength="50" mustinput="0" param2="1" row="36"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="37" labelalign="3" labelcol="1" labelname="操作员编号" maxlength="30" mustinput="0" param2="1" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="38" labelalign="3" labelcol="1" labelname="操作员名称" maxlength="100" mustinput="0" param2="1" row="38"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="39" labelalign="3" labelcol="1" labelname="部门编号" maxlength="30" mustinput="0" param2="1" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="40" labelalign="3" labelcol="1" labelname="部门名称" maxlength="100" mustinput="0" param2="1" row="40"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="41" labelalign="3" labelcol="1" labelname="登记时间格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" param2="1" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModeTime" fieldtype="99" formactiveid="42" labelalign="3" labelcol="1" labelname="最后修改时间格式：yyyyMMdd HH:mm:ss" maxlength="17" mustinput="0" param2="1" row="42"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="referrerNo" fieldtype="99" formactiveid="43" labelalign="3" labelcol="1" labelname="推荐人编号" maxlength="50" mustinput="0" param2="1" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="45" labelalign="3" labelcol="1" labelname="扩展1" maxlength="100" mustinput="0" param2="1" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="46" labelalign="3" labelcol="1" labelname="扩展2" maxlength="100" mustinput="0" param2="1" row="46"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="47" labelalign="3" labelcol="1" labelname="扩展3" maxlength="100" mustinput="0" param2="1" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="48" labelalign="3" labelcol="1" labelname="扩展4" maxlength="100" mustinput="0" param2="1" row="48"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="49" labelalign="3" labelcol="1" labelname="扩展5" maxlength="100" mustinput="0" param2="1" row="49"/>
+</form>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval0002" title="评级财务评分指标项关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scenceNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="评级场景编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="指标编号" maxlength="15" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finCode" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="对应财务指标编号" maxlength="15" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="指标名称" maxlength="300" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexDesc" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="指标描述" maxlength="600" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="level" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="指标级别" maxlength="3" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upIndexNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="上级指标级别" maxlength="15" mustinput="0" row="7"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="stdVal" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="标准值" maxlength="16" mustinput="0" row="8"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="minVal" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="最低值" maxlength="16" mustinput="0" row="9"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="maxVal" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="最高值" maxlength="16" mustinput="0" row="10"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="stdScore" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="标准得分" maxlength="16" mustinput="0" row="11"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="minScore" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="最低得分" maxlength="16" mustinput="0" row="12"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="maxScore" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="最高得分" maxlength="16" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="是否可用" maxlength="3" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeCardId" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="评分卡" mustinput="" readonly="" row="15" />
+</form>

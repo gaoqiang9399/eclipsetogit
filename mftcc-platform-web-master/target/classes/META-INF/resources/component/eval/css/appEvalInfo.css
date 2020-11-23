@@ -1,0 +1,404 @@
+.eval-content{
+	height:100%;
+}
+.eval-content ul,.showprogress ul{
+	list-style: outside none none;
+	padding: 0;
+	margin: 0;
+}
+.eval-content .content_ul{
+	display: inline-flex;
+	height: 100%;
+	position: relative;
+}
+.eval-content .content_ul li{
+	float: left;
+	display: block;
+/* 	padding:5px 15px 15px; */
+}
+.eval-content .content_show{
+	display: block; 
+	overflow: hidden;
+	width: 100%;
+	height: calc(100% - 40px);
+}
+.showprogress .selected .span_btn {
+    border-bottom: 2px solid #418bac;
+}
+.showprogress .success .lable{
+	color: #a9a9a9;
+}
+.showprogress .span_btn {
+    display: block;
+    height: 39px;
+    width: 90px;
+    cursor: pointer;
+}
+.showprogress li {
+    float: left;
+    margin-right: 4px;
+    position: relative;
+}
+.showprogress {
+    border-bottom: 1px solid #e5e5e5;
+    display: block;
+    height: 40px;
+    width: 100%;
+}
+.showprogress .lable {
+    color: #a9a9a9;
+    display: block;
+    float: left;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+.showprogress .selected .lable {
+    color: #418bac;
+}
+.li_content .ls_list tr {
+    line-height: 26px;
+}
+/* .content_show .content_ul li{ */
+/* 	height: 100%; */
+/* } */
+.content_show .content_ul .li_content_type{
+	/* height: 100%; */
+	position: relative;
+}
+/* .content_show .content_ul .eval-app .li_content_type{ */
+/* 	height: auto; */
+/* } */
+.content_show .content_ul .li_content_type .li_content {
+/*     height: 100%; */
+    width: 100%;
+}
+
+.li_content .ls_list,.form_content .from_w{
+    font-size: 12px;
+}
+.li_content .ls_list tr:nth-child(2n) {
+    background: #f7f8fc none repeat scroll 0 0;
+}
+.li_content .ls_list tr:nth-child(2n) {
+    background: #f7f8fc none repeat scroll 0 0;
+}
+.li_content .ls_list select {
+    box-shadow: none;
+    height: 20px;
+    margin: 3px 0;
+    padding: 0 0 0 3px;
+}
+.li_content .ls_list_a tbody tr td.border_left{
+	/* border-bottom: 1px solid #afc5d0; */
+	border-right: 1px solid #afc5d0; 
+	border-top: 1px solid #afc5d0; 
+}
+.li_content .ls_list_a tbody tr td.border_center{
+	border-top: 1px solid #afc5d0;
+	border-bottom: 1px solid #afc5d0;
+}
+.li_content .ls_list_a tbody tr td.border_only_right{
+	border-right: 1px solid #afc5d0; 
+}
+.li_content .ls_list_a tbody tr.border_center_tr{
+	border-bottom: 1px solid #afc5d0;
+}
+.li_content .ls_list_a tbody tr td.border_right{
+	border-top: 1px solid #afc5d0;
+	border-left: 1px solid #afc5d0;
+	/* border-bottom: 1px solid #afc5d0; */
+}
+.border_right td {
+    padding-left: 10px;
+}
+.li_content .ls_list .align_left{
+	text-align: left;
+}
+.col_content .hiden{
+	display: none;
+}
+.scoreShow{
+	float: right; 
+	font-size: 14px; 
+	margin-right: 0px;
+	margin-top:5px
+}
+.li_content .ls_list thead th,.li_content .ls_list_a thead th {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #7e9abb;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ls_list_a>tbody>tr>td:first-child{
+	padding-top: 7px;
+	padding-left: 7px;	
+	border-bottom: 1px solid #afc5d0;
+}
+.ls_list_a>tbody>tr>td:last-child{	
+	border-bottom: 1px solid #afc5d0;
+}
+.ls_list_a .text_align_s {
+    padding-left: 15px;
+    text-align: left;
+    width: 36%;
+}
+.ls_list tbody tr td input[type=radio]{
+	margin-right: 5px; top: 2px; position: relative;height:13px
+}
+.li_content .ls_list tbody tr:hover{
+	background: #e0f2f8 none repeat scroll 0 0;
+}
+.li_content .ls_list tbody tr:hover td table>tbody>tr{
+	background: #e0f2f8 none repeat scroll 0 0;
+}
+.li_content .ls_list tbody tr:active{
+	background: #d8e5ff none repeat scroll 0 0;
+}
+.li_content .ls_list tbody tr:active td table>tbody>tr{
+	background: #e0f2f8 none repeat scroll 0 0;
+}
+.li_content .ls_list tbody tr.ckecked{
+	background: #d8e5ff none repeat scroll 0 0;
+}
+
+.li_content .from_w input[type="text"], 
+.li_content .from_w  input[type="password"], 
+.li_content .from_w  input[type="email"], 
+.li_content .from_w  input[type="number"], 
+.li_content .from_w  input[type="tel"], 
+.li_content .from_w  input[type="url"], 
+.li_content .from_w  select {
+    box-shadow: none;
+    height: 25px;
+    padding: 0 0 0 3px;
+    width: 200px;
+}
+.li_content table.from_w tr td {
+    height: 36px;
+    line-height: 36px;
+    padding: 0 5px 6px;
+    position: relative;
+    font-size: 12px;
+}
+div[name=evalapp] .li_content table.from_w tr td {
+	 height: 25px;
+    line-height: 25px;
+}
+div[name="evalapp"] .li_content table.from_w tr td.bartop {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    color: #7e9abb;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.li_content  {
+    margin-right: 15px;
+    margin-left: 1px;
+    margin-bottom: 40px;
+}
+.li_content .Required-font {
+    color: #dd2a18;
+    font-size: 12px;
+    position: absolute;
+    top: -7px;
+    width: 200px;
+}
+.li_content .from_btn input[type=button],
+.li_content .from_btn input[type=submit],
+.li_content .nextpve_btn input[type=button],
+.li_content .nextpve_btn input[type=submit] {
+    background: #418bac none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 20px 0;
+    width: 150px;
+}
+
+.li_content .from_btn {
+    left: calc(50% - 110px);
+    position: relative;
+    margin-bottom: 50px;
+}
+.li_content .nextpve_btn {
+    float: right;
+    position: relative;
+    top: calc(100% - 110px);
+    width: auto;
+}
+.li_content table.ls_list td {
+    text-align: left;
+    width:300px
+}
+.li_content table.ls_list{
+	margin-bottom: 40px;
+}
+.li_content table.ls_list td:first-child {
+    text-align: left;
+}
+.li_content table .font_weight{
+	font-weight:700;
+}
+
+.li_title > span {
+    color: #418bac;
+    font-size: 16px;
+    margin-left: 15px;
+    line-height:37px
+}
+.li_title {
+    color: #418bac;
+    font-size: 16px;
+    height: 30px;
+    background-color: #f8f9fc;
+    display: none;
+}
+
+.table_span {
+    border: 2px solid #f1f1f1;
+    border-radius: 2px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.table_title {
+    color: #7e9abb;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+}
+.li_content .table_span table.from_w tr td {
+    height: 25px;
+    line-height: 25px;
+}
+
+.li_content .table_span  .from_w  input[type="text"], 
+.li_content .table_span  .from_w  input[type="password"], 
+.li_content .table_span  .from_w  input[type="email"], 
+.li_content .table_span  .from_w  input[type="number"], 
+.li_content .table_span  .from_w  input[type="tel"], 
+.li_content .table_span  .from_w  input[type="url"], 
+.li_content .table_span  .from_w  select {
+    box-shadow: none;
+    height: 22px;
+    padding: 0 0 0 3px;
+    width: 200px;
+}
+.li_content .table_span  .from_w textarea{
+	resize: none; 
+	height: 50px; 
+	width: 80%;
+}
+.ls_list_a thead tr {
+    background-color: #f5f5f5;
+    line-height: 25px;
+}
+.ls_list_a.adj table{
+	line-height: 25px;	
+}
+.ls_list_a.adj tr td:last-child table td{
+	text-align: center;	
+}
+.align_left > select {
+    height: 21px;
+    margin: 2px;
+    padding: 0;
+}
+.ls_list_a.adj > tbody > tr > td {
+   //border: 2px solid #f5f5f5;
+}
+textarea{
+	line-height: 18px;
+}
+
+.content_show .content_ul .ztree .level0{
+	padding: 0;
+	margin: 5px 0 0 10px;
+	height: auto;
+	clear: both;
+}
+
+
+.evalMsgButton input {
+	background: #418bac;
+	border: 1px solid #418bac;
+	width: 80px;
+	line-height: 35px;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.eval-content table tbody tr {
+	height: 30px;
+}
+
+.font-color {
+	color: #418bac
+}
+
+.panel-heading {
+	height: 27px;
+	color: #418bac;
+}
+
+.panel-title {
+	margin-top: -9px
+}
+
+.span-title{
+	color: #418bac;
+	line-height:24px;
+}
+
+.max-height {
+	max-height: 400px;
+}
+.scoreShow{
+	color:#418bac;
+}
+.eval-app .mCustomScrollBox {
+	width:100%;
+}
+.first-td{
+	width:17%;
+	text-align:center;
+}
+.second-td{
+	width:23%;
+	padding-left:15px;
+	font-size:12px
+}
+.second-td-adj{
+	width:21%;
+	padding-left:15px;
+	font-size:12px
+}
+.third-td{
+	width:60%;
+}
+.cover {
+	cursor: default;
+}
+.ls_list_a tbody tr td.border_left {
+    border-bottom: 1px solid  #ddd;
+    border-right: 1px solid  #ddd;
+    font-size: 14px;
+}
+.evalCard table td{
+	line-height: 17px;
+	vertical-align: top;
+	padding-left: 0px;
+	color: #000000;
+}
+/* 给radiobutton增加交互，覆写bootstrap默认样式 */
+label {
+	display : inherit;
+    font-weight: inherit;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="appversion0001" link="/mfAppVersion/findByPage" para="eadis_page" title="app版本更新表" type="1">
+<tableitem align="2" filedname="publishTime" id="5" indexed="5" label="发布时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="ifUpdate" id="4" indexed="4" label="是否更新 0 否 1是" row="1" type="0"/>
+<tableitem align="2" filedname="appVersion" id="3" indexed="3" label="app版本号" row="1" type="0"/>
+<tableitem align="2" filedname="appName" id="2" indexed="2" label="app名称" row="1" type="0"/>
+<tableitem align="2" filedname="id" id="1" indexed="1" label="流水号" type="0" typepara="/mfAppVersion/getById;id-id;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="删除" id="7" indexed="7" label="-" row="1" type="5" typepara="/mfAppVersion/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

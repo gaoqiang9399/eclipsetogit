@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="assurer0001" title="保证人新增表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assureType" fieldsize="ASSURE_TYPE" fieldtype="2" formactiveid="9" labelalign="3" labelcol="3" labelname="保证人类型" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assurerName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="保证人名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="assureAmt" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="保证金额" maxlength="20" mustinput="0" row="4" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="rate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="保证比例" maxlength="10" mustinput="0" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relation" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="和被保证人的关系" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="20" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusAssure" fieldsize="BUS_ROLE" fieldtype="2" formactiveid="21" labelalign="3" labelcol="1" labelname="被担保方" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="申请编号" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assurerNo" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="保证人编号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="5" labelname="id" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="pactId" mustinput="" readonly="" row="1" />
+</form>

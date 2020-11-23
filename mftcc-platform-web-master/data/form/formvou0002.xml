@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="vou0002" title="担保与业务关联表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="业务申请号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeNoShow" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="担保编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="21" formactiveid="3" labelalign="3" labelcol="1" labelname="担保方式" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classNo" fieldtype="21" formactiveid="4" labelalign="3" labelcol="3" labelname="抵质押物类型" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="押品名称" mustinput="" readonly="" row="2" />
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="pledgeRate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="抵质押率" mustinput="" readonly="" row="3" unit="%" />
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="toolstelephone0001" title="手机号认证表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onClick='selectCusDialog(getCusPhoneDialog,null,null,2);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="手机号" maxlength="11" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="type" fieldtype="99" formactiveid="15" horVer="0" initvalue="3" labelalign="3" labelcol="1" labelname="认证类型" mustinput="" readonly="" row="3" />
+</form>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="expense0002" title="报销申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="expenseId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="申请人员编号" maxlength="22" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="申请人员部门编号" maxlength="10" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="审批节点名称" maxlength="20" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="申请人最后修改时间" maxlength="17" mustinput="0" row="28"/>
+<formelement alt="half" datatype="0" fieldalign="1" fieldcol="2" fieldname="type" fieldsize="EX_APP_TYPE" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="费用类别" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="部门" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="申请人姓名" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldstyle="half" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="费用名称" mustinput="1" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="amt" fieldstyle="half" fieldtype="1" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="费用金额" mustinput="1" readonly="" row="3" unit="元"/>
+<formelement alt="400个字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="applyReason" fieldtype="5" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="申请事由" maxlength="400" mustinput="1" readonly="" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="billCount" fieldstyle="half" fieldtype="1" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="发票数量" mustinput="1" row="5"/>
+<formelement alt="多张发票请登记最上一张发票号码" datatype="0" fieldalign="1" fieldcol="4" fieldname="billNo" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="3" labelname="发票号码" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="nowSub" fieldsize="YES_NO" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="是否立即提交" mustinput="" readonly="" row="6"/>
+</form>

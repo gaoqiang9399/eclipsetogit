@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="CreditIntentionBase" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="creditId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="授信意向编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="申请期限" maxlength="11" mustinput="1" onchange="mfCusCreditApplyInsert.creditTermOnBlur(this)" row="9" unit="月"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="申请金额" maxlength="11" mustinput="1" row="9" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="endDate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="授信止日期" maxlength="17" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="关联授信申请编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditType" fieldsize="CREDIT_TYPE_INTEN" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="授信类型" maxlength="1" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="financingReason" fieldtype="5" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="融资原因" maxlength="500" mustinput="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appPostName" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="申请人岗位名称" maxlength="50" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="申请人" maxlength="50" mustinput="1" readonly="1" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appProcessId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="3" labelname="申请人OA流程编号" maxlength="100" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uniqueOaId" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="向Oa发送请求时,单条申请记录的唯一编码，用于防重复提交" maxlength="64" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="30" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="登记部门名称" maxlength="80" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="17" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="2" labelname="最后修改时间" maxlength="17" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusBaseType" fieldsize="CUS_TYPE" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="客户类型" mustinput="0" param="anchors:['anchor1','anchor2']" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="个人客户锚点开始" labelstyle="anchor-start" mustinput="" param="[{cusBaseType:'2'}]" readonly="" row="2" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="个人客户锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="身份证号码" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appBrName" fieldtype="99" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="申请人部门" mustinput="" readonly="" row="11"/>
+<formelement datatype="20" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="申请日期" mustinput="1" onclick="fPopUpCalendarDlg({max: today})" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="企业客户锚点开始" labelstyle="anchor-start" mustinput="" param="[{cusBaseType:'1'}]" readonly="" row="5" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor2" fieldtype="2" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="企业客户锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="8" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="统一社会信用代码" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusCode" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="网点编号" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wangDianName" fieldtype="1" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="网点名称" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusTel" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="手机号" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusType" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="5" labelname="客户类型" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="43" horVer="0" labelalign="3" labelcol="5" labelname="客户编号" mustinput="" readonly="" row="2"/>
+</form>

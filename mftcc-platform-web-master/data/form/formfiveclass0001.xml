@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="fiveclass0001" title="五级分类模型表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allowManualFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="22" horVer="0" labelalign="3" labelcol="1" labelname="是否允许任意调整" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveFlag" fieldsize="YES_NO" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="是否启用审批" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="processName" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="审批流程" maxlength="50" mustinput="" onclick="window.top.showDialog('wkf_showView.action?fieldName=processName','选择流程编号',80,90)" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="1" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelId" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="processId" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="审批流程编号" mustinput="" readonly="" row="1" />
+</form>

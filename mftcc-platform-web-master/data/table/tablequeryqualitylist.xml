@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryqualitylist" link="/mfCusCustomer/findByPage" para="eadis_page" title="客户登记" type="1">
+<tableitem align="1" filedname="mergerReason" id="29" indexed="10" label="归类原因" mytitle="归类原因-mergerReason;" row="1" sortType="2" type="3" typepara="16"/>
+<tableitem align="2" filedname="regTime" id="31" indexed="9" label="归入时间" sortType="1" type="30" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="30" indexed="11" label="操作员" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="1" filedname="commAddress" id="18" indexed="8" label="通讯地址" mytitle="通讯地址-commAddress;" row="1" sortType="2" type="3" typepara="16" width="240" widthType="1"/>
+<tableitem align="1" filedname="idNum" id="6" indexed="6" label="证件号码" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="7" label="联系电话" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="idType" id="4" indexed="5" label="证件类型" row="1" sortType="2" type="99" typepara="ID_TYPE" width="12" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="3" indexed="4" label="客户类别" row="1" sortType="2" type="6" typepara="CUS_TYPE" width="8" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusClassify/getListPage;classifyInfoId-classifyInfoId;cusNo-cusNo;appId-appId;cusType-'1';onClick-getQualityDetail(this);subStringNub-12;" width="13" widthType="0"/>
+</table>

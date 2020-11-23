@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="examhisRegister002" title="实地核查详情表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busBrName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="事业部" mustinput="1" onclick="ExamineApplyAudit.selectBrDialog()" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examOpName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="主管领导" mustinput="" onclick="bindDataSource(this,'1','examOpNo','选择操作员',false,'','','0')" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="planName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="计划约见人" mustinput="1" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="examMonth" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="实地核查月份" mustinput="1" onclick="laydatemonth(this)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="核查企业" mustinput="1" onclick="ExamineApplyAudit.selectCusDialog()" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="planTime" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="计划约见时间" mustinput="1" readonly="1" row="3" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="examReason" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="实地考察原因" maxlength="400" mustinput="1" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="remark" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="1" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busBrNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="事业部编号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateName" fieldstyle="half" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="检查模型" mustinput="1" readonly="1" row="6" writeAuth="Advance"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examOpNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="主管领导编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNoSupplier" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="核查企业编号" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examHisId" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="检查登记编号" mustinput="" readonly="" row="7"/>
+</form>

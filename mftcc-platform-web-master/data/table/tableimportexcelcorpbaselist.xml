@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelcorpbaselist" para="eadis_page" link="/mfImportCusCorpBase/findByPage" title="历史数据导入企业客户基本信息" type="1">
+<tableitem align="2" filedname="importId" id="1" indexed="1" label="历史数据导入临时表编号" row="1" type="4" typepara="/mfImportCusCorpBase/getById;cusNo-cusNo;importId-importId;query-'query'"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="企业客户号" row="1" type="4" typepara="/mfImportCusCorpBase/getById;cusNo-cusNo;importId-importId;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="cusBaseType" id="4" indexed="4" label="客户大类（1-企业客户；2-个人客户；3-核心企业；4-渠道商；5-资金机构；6-仓储机构；7-保险机构；8-物流企业；9-担保公司；A-集团客户）" row="1" type="0" />
+<tableitem align="2" filedname="cusType" id="5" indexed="5" label="客户类型 " row="1" type="0" />
+<tableitem align="2" filedname="socialCreditCode" id="6" indexed="6" label="社会信用代码" row="1" type="0" />
+<tableitem align="2" filedname="contactsTel" id="7" indexed="7" label="联系人电话" row="1" type="0" />
+<tableitem align="2" filedname="contactsName" id="8" indexed="8" label="联系人姓名" row="1" type="0" />
+<tableitem align="2" filedname="loanCredNo" id="9" indexed="9" label="贷款卡编码" row="1" type="0" />
+<tableitem align="2" filedname="cusMngNo" id="10" indexed="10" label="客户经理编号" row="1" type="0" />
+<tableitem align="2" filedname="cusMngName" id="11" indexed="11" label="客户经理姓名" row="1" type="0" />
+<tableitem align="2" filedname="commAddress" id="12" indexed="12" label="通讯地址" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="13" indexed="13" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="14" indexed="14" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="15" indexed="15" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="16" indexed="16" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="17" indexed="17" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="18" indexed="18" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="19" indexed="19" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="20" indexed="20" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="21" indexed="21" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="hisId" id="24" indexed="24" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="readResult" id="25" indexed="25" label="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" row="1" type="0" />
+<tableitem align="2" filedname="readSts" id="26" indexed="26" label="解析excel数据状态：0失败1成功" row="1" type="0" />
+<tableitem align="2" filedname="importSts" id="27" indexed="27" label="数据导入状态：0待导入1已导入" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="29" indexed="29" label="-" row="1" type="5" typepara="/mfImportCusCorpBase/deleteAjax;cusNo-cusNo;importId-importId;onClick-ajaxDelete(this)" width="2"/>
+</table>

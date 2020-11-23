@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusEngineOutsideList" para="eadis_page" title="外访-工况情况列表" type="1">
+<tableitem align="2" filedname="outAddress" id="5" indexed="4" label="外访地点" type="4" typepara="/mfCusEngineOutside/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusEngineOutside/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" filedname="conEnvironment" id="4" indexed="5" label="施工环境" row="1" type="6" typepara="CON_ENVIRONMENT" widthType="0"/>
+<tableitem align="2" filedname="conPaymentt" id="34" indexed="7" label="回款方式" row="1" type="6" typepara="RETURN_PAYMENT" widthType="0"/>
+<tableitem align="2" filedname="conTerm" id="33" indexed="6" label="工程期限(月)" row="1" type="6" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="34" label="-" row="1" type="5" typepara="/mfCusEngineOutside/deleteAjax;id-id;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" width="2" widthType="0"/>
+</table>

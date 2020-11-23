@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root tagName="DIV" attr-id="json2html_demo1" attr-elem-class="weui_cells weui_cells_form">
+    <formelement tagName="DIV" attr-elem-class="weui_cell">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+            <formelement tagName="LABEL" attr-elem-class="weui_label"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+            <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="tel" attr-placeholder="请输入qq号"/>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_cell weui_vcode">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+            <formelement tagName="LABEL" attr-elem-class="weui_label"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+            <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="number" attr-placeholder="请输入验证码"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_ft">
+            <formelement tagName="IMG" attr-src="/assets/img/vcode.jpg"/>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_cell weui_cell_switch">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_hd weui_cell_primary"/>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_ft">
+            <formelement tagName="INPUT" attr-elem-class="weui_switch" attr-type="checkbox"/>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_cell">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+            <formelement tagName="LABEL" attr-for="" attr-elem-class="weui_label"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+            <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="date" attr-value=""/>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_cell">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_hd">
+            <formelement tagName="LABEL" attr-for="" attr-elem-class="weui_label"/>
+        </formelement>
+        <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+            <formelement tagName="INPUT" attr-elem-class="weui_input" attr-type="datetime-local" attr-value="" attr-placeholder=""/>
+        </formelement>
+    </formelement>
+    <formelement tagName="DIV" attr-elem-class="weui_cell weui_cell_select">
+        <formelement tagName="DIV" attr-elem-class="weui_cell_bd weui_cell_primary">
+            <formelement tagName="SELECT" attr-elem-class="weui_select" attr-name="select1">
+                <formelement tagName="OPTION" attr-selected="" attr-value="0"/>
+                <formelement tagName="OPTION" attr-value="1"/>
+                <formelement tagName="OPTION" attr-value="2"/>
+                <formelement tagName="OPTION" attr-value="3"/>
+            </formelement>
+        </formelement>
+    </formelement>
+</root>

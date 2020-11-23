@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusPublicVoiceDetail" title="舆情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="surveyId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="survey_id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="客户号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="remark" fieldtype="5" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="最后修改时间 格式：20170619 18:44:59" maxlength="17" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="delFlag" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="删除位 1 删除 0 默认" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="16" labelalign="3" labelcol="1" labelname="登记日期 格式：20170619" maxlength="8" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModDate" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改日期 格式：20170619" maxlength="8" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="18" labelalign="3" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="20" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="22" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="24" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="26" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="9" labelalign="3" labelcol="1" labelname="关联编号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="surveyData" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="1" labelname="调查时间" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="publicPraise" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="3" labelname="口碑情况" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="environmentalProtection" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="4" labelname="环保情况" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="illegalBuilding" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="违建情况" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fireSafety" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="1" labelname="消防安全" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assure" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="3" labelname="不动产抵押状况" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="pledge" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="2" labelname="抵押" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="paymentDays" fieldtype="1" formactiveid="35" horVer="1" labelalign="1" labelcol="2" labelname="账期" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rest" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="3" labelname="其他" maxlength="100" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="inquirer" fieldtype="1" formactiveid="37" horVer="1" labelalign="1" labelcol="2" labelname="调查人" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pledgeOnditions" fieldtype="1" formactiveid="38" horVer="1" labelalign="1" labelcol="4" labelname="动产及股权质押状况" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="entityPrimarykeys" mustinput="" param="surveyId;" readonly="" row="21"/>
+</form>

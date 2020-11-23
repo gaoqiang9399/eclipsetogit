@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="dl_archive_lend02" title="归档文件借阅信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="40" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveMainNo" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="归档编号" maxlength="40" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrower" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="借阅人" maxlength="40" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowerContact" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="借阅人联系方式" maxlength="200" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowingPurposes" fieldtype="5" formactiveid="6" labelalign="3" labelcol="1" labelname="借阅用途" maxlength="400" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="returnPlanDate" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="计划归还日期" maxlength="8" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="returnActualDate" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="实际归还日期" maxlength="8" mustinput="1" onclick="fPopUpCalendarDlg()" readonly="1" row="10" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,null,today)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="文件编号" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="文件名称" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="" readonly="1" row="6" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="opDate" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="登记日期" mustinput="" readonly="1" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opTime" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="1" row="8" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="borrowingDate" fieldtype="1" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="借阅时间" mustinput="" readonly="1" row="2" />
+</form>

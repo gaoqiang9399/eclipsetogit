@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivevoucherbus" title="业务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pactAmt" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="合同金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="pactBeginDate" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="放款开始日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="pactEndDate" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="放款结束日期" mustinput="" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="creditBeginDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="最高额主合同开始日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="creditEndDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="最高额主合同结束日期" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactNo" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="委托保证合同号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="putoutAmt" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="放款金额" mustinput="" readonly="1" row="3" unit="元"/>
+</form>

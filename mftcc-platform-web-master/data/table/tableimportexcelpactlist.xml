@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelpactlist" para="eadis_page" link="/mfImportBusPact/findByPage" title="历史数据导入融资合同表" type="1">
+<tableitem align="2" filedname="importId" id="1" indexed="1" label="历史数据导入临时表编号" row="1" type="4" typepara="/mfImportBusPact/getById;importId-importId;pactId-pactId;query-'query'"/>
+<tableitem align="2" filedname="pactId" id="2" indexed="2" label="合同号" row="1" type="4" typepara="/mfImportBusPact/getById;importId-importId;pactId-pactId;query-'query'"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="合同展示号" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="4" indexed="4" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="6" indexed="6" label="产品编号" row="1" type="0" />
+<tableitem align="2" filedname="kindName" id="7" indexed="7" label="产品名称" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="8" indexed="8" label="证件号码" row="1" type="0" />
+<tableitem align="2" filedname="pactAmt" id="9" indexed="9" label="合同金额" row="1" type="0" />
+<tableitem align="2" filedname="usableFincAmt" id="10" indexed="10" label="可支用金额" row="1" type="0" />
+<tableitem align="2" filedname="fincRate" id="11" indexed="11" label="利率" row="1" type="0" />
+<tableitem align="2" filedname="termType" id="12" indexed="12" label="期限类型" row="1" type="0" />
+<tableitem align="2" filedname="term" id="13" indexed="13" label="申请期限日" row="1" type="0" />
+<tableitem align="2" filedname="repayType" id="14" indexed="14" label="还款方式1等额本息2等额本金3利随本清4到期还本按月结息5到期还本按季结息6按计划" row="1" type="0" />
+<tableitem align="2" filedname="rateType" id="15" indexed="15" label="利率类型 1为年利率" row="1" type="0" />
+<tableitem align="2" filedname="overFloat" id="16" indexed="16" label="逾期利率浮动百分比" row="1" type="0" />
+<tableitem align="2" filedname="overRate" id="17" indexed="17" label="逾期利率" row="1" type="0" />
+<tableitem align="2" filedname="cmpdFloat" id="18" indexed="18" label="复利利率浮动百分比" row="1" type="0" />
+<tableitem align="2" filedname="cmpdRate" id="19" indexed="19" label="复利利率" row="1" type="0" />
+<tableitem align="2" filedname="vouType" id="20" indexed="20" label="担保方式（支持多选）" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="21" indexed="21" label="登记人号" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="22" indexed="22" label="合同开始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="23" indexed="23" label="合同结束日期" row="1" type="0" />
+<tableitem align="2" filedname="signDate" id="24" indexed="24" label="合同签订日期" row="1" type="0" />
+<tableitem align="2" filedname="authCycle" id="25" indexed="25" label="额度是否可循环：1-是，0-否" row="1" type="0" />
+<tableitem align="2" filedname="collectAccId" id="26" indexed="26" label="收款账户 关联mf_cus_bank_acc_manage表的ID" row="1" type="0" />
+<tableitem align="2" filedname="repayAccId" id="27" indexed="27" label="还款账户 关联mf_cus_bank_acc_manage表的ID" row="1" type="0" />
+<tableitem align="2" filedname="hisId" id="28" indexed="28" label="历史数据导入编号" row="1" type="0" />
+<tableitem align="2" filedname="readResult" id="29" indexed="29" label="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" row="1" type="0" />
+<tableitem align="2" filedname="readSts" id="30" indexed="30" label="解析excel数据状态：0失败1成功" row="1" type="0" />
+<tableitem align="2" filedname="importSts" id="31" indexed="31" label="数据导入状态：0待导入1已导入" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="32" indexed="32" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="33" indexed="33" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="34" indexed="34" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="35" indexed="35" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="36" indexed="36" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="37" indexed="37" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="38" indexed="38" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="39" indexed="39" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="40" indexed="40" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="41" indexed="41" label="" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="43" indexed="43" label="-" row="1" type="5" typepara="/mfImportBusPact/deleteAjax;importId-importId;pactId-pactId;onClick-ajaxDelete(this)" width="2"/>
+</table>

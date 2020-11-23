@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusassets00001" title="固定资产信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assetsId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="固定资产信息ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fixAssType" fieldsize="CORP_ASS_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="3" labelname="固定资产类型" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fixAssName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="固定资产名称" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="buyDate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="购置日期" maxlength="10" mustinput="1" onfocus="fPopUpCalendarDlg()" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assAreaVal" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="固定资产发证面积" maxlength="10" mustinput="1" row="3" unit="平方米"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assArea" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="固定资产实际面积" maxlength="10" mustinput="1" row="3" unit="平方米"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="buyPrice" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="购置价格" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="evalVal" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="评估价值" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="assNum" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="数量" mustinput="0" row="5"/>
+</form>

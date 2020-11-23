@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="pers0008" title="主要经济来源">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="mainEconSour" fieldtype="5" formactiveid="43" horVer="1" labelalign="1" labelcol="1" labelname="主要经济来源" maxlength="300" mustinput="0" param="cusNo;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="othEconSour" fieldtype="5" formactiveid="44" horVer="1" labelalign="1" labelcol="1" labelname="其它经济来源" maxlength="300" mustinput="0" param="cusNo;" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusNo" fieldtype="99" formactiveid="45" horVer="0" labelalign="3" labelcol="2" labelname="客户号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="46" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="cusNo" readonly="" row="1"/>
+</form>

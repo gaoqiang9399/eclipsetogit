@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="clearBrEdit" title="部门清理">
+<formelement alt="请选择操作员" datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="60" horVer="0" labelalign="3" labelcol="1" labelname="选择操作员" mustinput="0" onclick="MfBrClealInfo.selectOpByBr();" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='MfBrClealInfo.selectOpByBr();'&gt;&lt;/i&gt;"/>
+<formelement alt="请选择部门" datatype="0" fieldalign="1" fieldcol="2" fieldname="upOneName" fieldtype="1" formactiveid="63" horVer="0" labelalign="3" labelcol="1" labelname="选择清理部门" mustinput="1" onclick="MfBrClealInfo.selectbr(MfBrClealInfo.setSysOrgInfo);" readonly="1" row="1" unit=" &lt;i class='i i-fangdajing pointer' onclick='MfBrClealInfo.selectbr(MfBrClealInfo.setSysOrgInfo);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="64" horVer="0" labelalign="3" labelcol="1" labelname="部门编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="67" horVer="0" labelalign="3" labelcol="1" labelname="操作员编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="cusBusiness" fieldsize="CUS_BUDINES" fieldtype="3" formactiveid="68" horVer="0" labelalign="3" labelcol="1" labelname="清理类型" mustinput="1" row="3"/>
+</form>

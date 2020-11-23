@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwjiti0001" link="/cwJiti/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="3" filedname="jtBal" id="6" indexed="6" label="计提提取金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="jtTime" id="4" indexed="4" label="计提时间" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="jtType" id="3" indexed="3" label="计提类型" row="1" type="0"/>
+<tableitem align="2" filedname="jtId" id="2" indexed="2" label="计提唯一id" row="1" type="99" typepara="/cwJiti/getById;jtId-jtId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="pzPrefix" id="10" indexed="7" label="凭证" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="9" indexed="8" label="-" row="1" type="5" typepara="/cwJitiItem/getListPage;jtId-jtId;onClick-getJtItemByjtId" widthType="0"/>
+<tableitem align="2" filedname="删除" id="8" indexed="10" label="-" row="1" type="5" typepara="/cwJiti/deleteAjax;jtId-jtId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="BusBuyMachineInfoBase" title="农机租赁购机信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="machineId" fieldtype="90" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="业务关联编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="业务名称" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="客户编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="machineVersion" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="农机型号" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="machineNum" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="台数" maxlength="20" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="machineMerchant" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="农机商" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="scheduledBuyTime" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="预计购机时间" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg({min: today})" row="2" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="subsidiesArea" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="补贴地区" maxlength="50" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="machineImpact" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="机器作用" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="powerMarketPrice" fieldsize="元" fieldtype="1" formactiveid="12" labelalign="3" labelcol="1" labelname="功率市场价格" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="priceReasonable" fieldsize="YES_NO" fieldtype="2" formactiveid="13" labelalign="3" labelcol="3" labelname="价格是否合理" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regCusId" fieldtype="99" formactiveid="14" labelalign="3" labelcol="3" labelname="登记人编号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regCusName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="80" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOrgId" fieldtype="99" formactiveid="16" labelalign="3" labelcol="3" labelname="登记人机构" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOrgName" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="登记人机构名称" maxlength="80" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="18" labelalign="3" labelcol="3" labelname="登记日期" maxlength="17" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateCusId" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateCusName" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="更新人姓名" maxlength="80" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOrgId" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="更新人机构" maxlength="30" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="updateOrgName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="更新人机构名称" maxlength="80" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateDate" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="更新日期" maxlength="17" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="24" labelalign="3" labelcol="3" labelname="预留字段" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="26" labelalign="3" labelcol="3" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="typeName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="分档名称" maxlength="50" mustinput="" onclick="NmdNjzl.getNmdNjzlDialog('4',this)" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bigType" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="大类" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="middleType" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="小类" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="smallType" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="3" labelname="品目" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="typeConfig" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="1" labelname="基本配置和参数" mustinput="" readonly="1" row="6"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="typeSubsidy" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="中央财政补贴额" mustinput="" readonly="1" row="5" unit="元"/>
+</form>

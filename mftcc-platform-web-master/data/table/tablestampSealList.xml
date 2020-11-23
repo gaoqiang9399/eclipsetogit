@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="stampSealList" para="eadis_page" title="盖章列表" type="1">
+<tableitem align="2" filedname="guaranteePactNo" id="89" indexed="91" label="委托业务合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="88" indexed="105" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="creditPactNo" id="87" indexed="90" label="内部编号" type="0" widthType="0"/>
+<tableitem align="2" filedname="stampSts" id="85" indexed="102" label="用印状态" row="1" sortType="2" type="6" typepara="STAMP_STS" widthType="0"/>
+<tableitem align="2" authority="stampSts-1;stampSts-2;stampSts-4;stampSts-5;" filedname="盖章" id="98" indexed="106" label="-" row="1" type="5" typepara="/mfStampSealPact/input;id-id;onClick-sealApply(this)" width="2" widthType="0"/>
+<tableitem align="2" authority="stampSts-1;stampSts-2;stampSts-3;" filedname="盖章历史" id="102" indexed="107" label="-" row="1" type="5" typepara="/mfStampSealPact/detail;id-id;onClick-sealApplyDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="creditTerm" id="96" indexed="96" label="授信期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="vouAdvancePeriod" id="101" indexed="97" label="融资期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="84" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;onClick-MfCusCredit_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

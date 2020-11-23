@@ -1,0 +1,112 @@
+body{
+	background: #F9F9F9;
+}
+.box {
+	position: relative;
+	background: #F9F9F9;
+	width: 100%;
+	min-height: 100%;
+	padding:15px 30px 0px;
+	margin-bottom:20px;
+}
+
+.btn-app {
+	border-radius: 5px;
+	position: relative;
+	padding: 25px 5px;
+	margin: 50px 0 0 50px;
+	min-width: 190px;
+	height: 132px;
+	text-align: center;
+	color: #666;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	font-size: 12px;
+	-webkit-box-shadow: -2px 4px 8px #ccc;
+	-moz-box-shadow: -2px 4px 8px #ccc;
+	box-shadow: -2px 4px 8px #ccc;
+}
+
+.btn-app:hover {
+	background: #f4f4f4;
+	color: #333;
+	border-color: #ccc;
+}
+
+
+.btn-app>.badge {
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 20px;
+	padding: 3px;
+	min-width : 26px;
+}
+
+.badge i {
+	margin-right: 0px;
+}
+
+.btn-app div {
+	margin-top: 10px;
+}
+
+.btn-app .i {
+	margin-top: 10px;
+	font-size: 48px;
+	margin-right: 0px;
+}
+
+#archiveApply i {
+	color: #EB7F7E;
+}
+
+#archiveVoucherApply i {
+	color: #EB7F7E;
+}
+
+#archiveConfim i {
+	color: #43ADBD;
+}
+
+#lendIn i {
+	color: #3DB599;
+}
+
+#lendOut i {
+	color: #64A0EA;
+}
+
+#voucherReturn i {
+	color: #9E7EF0;
+}
+
+#voucherConfim i {
+	color: #43ADBD;
+}
+
+#archiveReturn i {
+	color: #3DB599;
+}
+
+#archiveBlock i {
+	color: #64A0EA;
+}
+
+#transferApply i {
+	color: #9E7EF0;
+}
+
+#receiveConfirm i {
+	color: #3DB599;
+}
+
+#archiveQuery i {
+	color: #64A0EA;
+}
+
+#archiveStatic i {
+	color: #9E7EF0;
+}

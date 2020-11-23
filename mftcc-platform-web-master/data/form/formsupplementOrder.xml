@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="supplementOrder" title="尽调补充表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reportMatter" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="报告涉及事项" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="applyMatter" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="申请决策事项" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="suppleMatter" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="在保情况与近期经营情况" mustinput="1" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="manageMatter" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="补充事项分析说明" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="conclusionMatter" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="结论及担保、反担保方案" mustinput="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="reportMatterDet" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="报告涉及事项详情" mustinput="" readonly="" row="2"/>
+</form>

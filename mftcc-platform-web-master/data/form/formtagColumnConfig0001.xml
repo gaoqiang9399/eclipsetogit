@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="tagColumnConfig0001" title="标签表格列对应字段配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="configId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="编号" maxlength="30" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="tableColumnId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="5" labelname="表格列编号" maxlength="30" mustinput="0" param2="1" row="2"/>
+<formelement alt="对应数据库表中字段" datatype="0" fieldalign="1" fieldcol="2" fieldname="columnId" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="字段标识" maxlength="30" mustinput="1" row="1"/>
+<formelement alt="列值的前缀描述" datatype="0" fieldalign="1" fieldcol="4" fieldname="columnName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="字段名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mergeFlag" fieldsize="CELL_TYPE" fieldtype="2" formactiveid="5" labelalign="3" labelcol="1" labelname="单元格类型" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="mergeStartLineNum" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="合并开始行号" mustinput="0" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="mergeStartColumnNum" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="合并开始列号" mustinput="0" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="mergeEndLineNum" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="合并结束行号" mustinput="0" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="mergeEndColumnNum" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="合并结束列号" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="highlightFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="10" labelalign="3" labelcol="5" labelname="是否突出显示" maxlength="1" mustinput="0" param2="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="highlightColor" fieldtype="99" formactiveid="11" labelalign="3" labelcol="5" labelname="突出显示背景颜色" maxlength="10" mustinput="0" param2="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formatType" fieldsize="FORMAT_TYPE" fieldtype="21" formactiveid="12" labelalign="3" labelcol="1" labelname="格式化类型" maxlength="2" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="decimalDigits" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="小数位数" mustinput="0" param2="1" row="6"/>
+<formelement alt="元、万元、%等" datatype="0" fieldalign="1" fieldcol="2" fieldname="columnUnit" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="单位" maxlength="10" mustinput="0" row="7"/>
+<formelement alt="数据字典key" datatype="0" fieldalign="1" fieldcol="4" fieldname="sysDictionryVal" fieldtype="1" formactiveid="15" labelalign="3" labelcol="3" labelname="字典项编号" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="keyNo" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="标签编号" mustinput="" param2="1" readonly="" row="3"/>
+<formelement alt="金额拆分格式参数、保留小数位、日期格式化类型。日期格式支持" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="formatParam" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="格式化参数" maxlength="100" mustinput="" readonly="" row="6"/>
+<formelement alt="暂时只支持两个字段拼接。后者字段标识" datatype="0" fieldalign="1" fieldcol="2" fieldname="groupId" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="字段组编号" mustinput="" readonly="" row="8"/>
+<formelement alt="例如2017/01/02-2018/01/02中的-" datatype="0" fieldalign="1" fieldcol="4" fieldname="splitStr" fieldtype="1" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="字段组分割符号" mustinput="" readonly="" row="8"/>
+<formelement alt="列值描述。" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="prefix" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="前缀" mustinput="" readonly="" row="9"/>
+</form>

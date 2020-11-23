@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tcph0001" link="/mfThirdServiceRecord/findByPage" para="eadis_page" title="三方数据记录表" type="1">
+<tableitem align="2" filedname="regTime" id="18" indexed="18" label="登记时间" row="1" type="0"/>
+<tableitem align="2" filedname="brName" id="17" indexed="17" label="登记机构名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="thirdName" id="7" indexed="7" label="第三方厂商名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="15" indexed="15" label="登记人名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="5" indexed="5" label="项目名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appId" id="4" indexed="4" label="申请号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

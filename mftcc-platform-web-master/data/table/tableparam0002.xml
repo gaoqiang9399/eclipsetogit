@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="param0002" para="eadis_page" link="" title="业务控制参数维护" type="2">
+<tableitem align="2" filedname="keyName" id="1" indexed="1" label="关键字" row="1" type="4" typepara="/busCtlParmMang/getByIdAjax;keyName-keyName;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="formula" id="2" indexed="2" label="公式" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="3" indexed="3" label="客户名称" row="1" type="0" />
+</table>

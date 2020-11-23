@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusInfoListForHignContract" para="eadis_page" title="最高额担保合同担保人信息展示列表" type="2">
+<tableitem align="2" filedname="cusNo" id="6" indexed="7" label="客户编号" row="1" sortType="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="5" label="联系电话" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="classifyType" id="5" indexed="6" label="客户分类" mytitle="项目名称-appName;" row="1" sortType="1" type="6" typepara="CLASSIFY_TYPE" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="4" label="联系人" row="1" sortType="2" type="0"/>
+<tableitem align="2" filedname="cusMngName" id="13" indexed="17" label="授信额度" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusType" id="4" indexed="1" label="客户类别" row="1" sortType="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;busEntrance-'apply';onClick-MfHighGuaranteeContract.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="7" indexed="3" label="证件号码" row="1" sortType="1" type="1" widthType="0"/>
+</table>

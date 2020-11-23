@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="true" id="wkf3002" title="授权申请修改">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="申请序号" labelwidth="20" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="change_type" fieldsize="CHANGE_TYPE" fieldtype="21" formactiveid="2" labelalign="3" labelcol="1" labelname="授权修改类型" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNoMark" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="客户号" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cif_name" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="客户名称" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="apply_op_no" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="申请人" maxlength="10" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="apply_date" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="申请时间" maxlength="8" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="apply_desc" fieldsize="50" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="申请原因" maxlength="400" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="app_op_no" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="审批人" maxlength="10" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="app_date" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="审批时间" maxlength="8" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="change_idea" fieldsize="50" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="change_sts" fieldsize="CHANGE_STS" fieldtype="21" formactiveid="11" labelalign="3" labelcol="1" labelname="审批状态" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="serv_no" fieldtype="1" fieldwidth="30" formactiveid="12" labelalign="3" labelcol="3" labelname="业务编号" labelwidth="20" maxlength="100" mustinput="0" readonly="1" row="1"/>
+</form>

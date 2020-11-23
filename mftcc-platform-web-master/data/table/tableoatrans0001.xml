@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="oatrans0001" link="/mfOaTrans/findByPage" para="eadis_page" title="业务移交历史信息表" type="2">
+<tableitem align="2" filedname="opName" id="13" indexed="9" label="登记人" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="transDate" id="4" indexed="3" label="移交日期" row="1" type="1" width="14" widthType="0"/>
+<tableitem align="1" filedname="transContent" id="3" indexed="4" label="移交内容" row="1" sortType="2" type="4" typepara="/mfOaTrans/getByTransId;transId-transId;onClick-OaTransList.getTransInfoByTransId(this);" width="30" widthType="0"/>
+<tableitem align="2" filedname="transOpName" id="12" indexed="1" label="移交人" row="1" sortType="2" type="0" width="14" widthType="0"/>
+<tableitem align="2" filedname="transId" id="1" indexed="5" label="移交号" row="1" type="99" typepara="/mfOaTrans/getById;transId-transId;query-'query'" widthType="0"/>
+<tableitem align="2" filedname="recOpName" id="8" indexed="2" label="接收人" sortType="2" type="0" width="14" widthType="0"/>
+</table>

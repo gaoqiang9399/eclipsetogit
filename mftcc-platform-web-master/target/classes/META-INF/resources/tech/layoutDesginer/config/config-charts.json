@@ -1,0 +1,220 @@
+{
+  "line": {
+    "name": "折线图",
+    "type": "line",
+    "option": {
+      "title": {
+        "text": "主标题文本",
+        "subtext": "副标题文本"
+      },
+      "tooltip": {
+        "show": true,
+        "formatter": "{a} <br>{b} : {c}",
+        "trigger": "axis"
+      },
+      "legend": {
+        "show": true,
+        "selectedMode": false,
+        "data": [
+          
+        ]
+      },
+      "toolbox": {
+        "show": true,
+        "feature": {
+          "dataView": {
+            "show": true,
+            "readOnly": true
+          },
+          "restore": {
+            "show": true
+          },
+          "saveAsImage": {
+            "show": true
+          }
+        }
+      },
+      "xAxis": [
+        {
+          "type": "category",
+          "name": ""
+        }
+      ],
+      "yAxis": [
+        {
+          "type": "value",
+          "name": ""
+        }
+      ],
+      "series": [
+        
+      ]
+    }
+  },
+  "bar": {
+    "name": "柱状图",
+    "type": "bar",
+    "option": {
+      "title": {
+        "text": "主标题文本",
+        "subtext": "副标题文本"
+      },
+      "tooltip": {
+        "show": true,
+        "formatter": "{a} <br>{b} : {c}",
+        "trigger": "axis"
+      },
+      "legend": {
+        "show": true,
+        "selectedMode": false,
+        "data": [
+          
+        ]
+      },
+      "toolbox": {
+        "show": true,
+        "feature": {
+          "dataView": {
+            "show": true,
+            "readOnly": true
+          },
+          "restore": {
+            "show": true
+          },
+          "saveAsImage": {
+            "show": true
+          }
+        }
+      },
+      "xAxis": [
+        {
+          "type": "category",
+          "name": ""
+        }
+      ],
+      "yAxis": [
+        {
+          "type": "value",
+          "name": ""
+        }
+      ],
+      "series": [
+        
+      ]
+    }
+  },
+  "pie": {
+    "name": "饼状图",
+    "type": "pie",
+    "option": {
+      "title": {
+        "x": "center",
+        "text": "某站点用户访问来源",
+        "subtext": "纯属虚构"
+      },
+      "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "formatter": "{a} <br/>{b} : {c} ({d}%)"
+      },
+      "legend": {
+        "show": true,
+        "orient": "vertical",
+        "x": "left",
+        "data": [
+          
+        ]
+      },
+      "toolbox": {
+        "show": true,
+        "feature": {
+          "dataView": {
+            "show": true,
+            "readOnly": true
+          },
+          "restore": {
+            "show": true
+          },
+          "saveAsImage": {
+            "show": true
+          }
+        }
+      },
+      "series": [
+        
+      ]
+    }
+  },
+  "radar": {
+    "name": "雷达图",
+    "type": "radar",
+    "option": {
+      "title": {
+        "text": "预算 vs 开销",
+        "subtext": "纯属虚构"
+      },
+      "tooltip": {
+        "show": true,
+        "islandFormatter": "{a} <br>{b} : {c}",
+        "trigger": "axis"
+      },
+      "legend": {
+        "show": true,
+        "orient": "vertical",
+        "x": "right",
+        "y": "bottom",
+        "data": [
+          
+        ]
+      },
+      "toolbox": {
+        "show": true,
+        "feature": {
+          "dataView": {
+            "show": true,
+            "readOnly": true
+          },
+          "restore": {
+            "show": true
+          },
+          "saveAsImage": {
+            "show": true
+          }
+        }
+      },
+      "polar": [
+        
+      ],
+      "series": [
+        
+      ]
+    }
+  },
+  "gauge": {
+    "name": "仪表盘",
+    "type": "gauge",
+    "option": {
+      "tooltip": {
+        "formatter": "{a} <br/>{b} : {c}%"
+      },
+      "toolbox": {
+        "show": true,
+        "feature": {
+          "dataView": {
+            "show": true,
+            "readOnly": true
+          },
+          "restore": {
+            "show": true
+          },
+          "saveAsImage": {
+            "show": true
+          }
+        }
+      },
+      "series": [
+        
+      ]
+    }
+  }
+}

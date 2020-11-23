@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pers0003" para="eadis_page" link="" title="个人负债" type="2">
+<tableitem align="2" filedname="debtee" id="4" indexed="4" label="债权人" row="1" type="0" />
+<tableitem align="2" filedname="persDebtType" id="5" indexed="5" label="债务类型" row="1" type="0" />
+<tableitem align="2" filedname="curNo" id="6" indexed="6" label="币种" row="1" type="0" />
+<tableitem align="2" filedname="debtAmt" id="7" indexed="7" label="欠债金额" row="1" type="0" />
+<tableitem align="2" filedname="startDate" id="8" indexed="8" label="起始日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="9" indexed="9" label="到期日期" row="1" type="0" />
+</table>

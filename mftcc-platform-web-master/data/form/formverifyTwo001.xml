@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="verifyTwo001" title="手机二要素">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="message" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="匹配结果" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idCardName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="姓名" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="mobile" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="手机号码" mustinput="" readonly="" row="1" />
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="changeInfo0001" para="eadis_page" title="变更字段信息" type="2">
+<tableitem align="2" filedname="afterTheChange" id="15" indexed="3" label="变更后值" type="0" width="33" widthType="0"/>
+<tableitem align="2" filedname="beforeTheChange" id="4" indexed="2" label="变更前值" row="1" type="0" width="33" widthType="0"/>
+<tableitem align="2" filedname="changeFieldName" id="2" indexed="0" label="变更字段" row="1" type="0" width="33" widthType="0"/>
+</table>

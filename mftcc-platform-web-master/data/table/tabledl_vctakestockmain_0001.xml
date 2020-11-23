@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockmain_0001" para="eadis_page" title="合格证盘库信息" trDbClick="/vcTakeStockMain/viewTakeStockInfo;takeStockMainId-takeStockMainId;query-'view';onDbClick-vcTakeStockMainList.getDetailPage(this);" type="1">
+<tableitem align="2" filedname="takeStockMainId" id="23" indexed="4" label="单据编号" row="1" type="4" typepara="/vcTakeStockMain/viewTakeStockInfo;takeStockMainId-takeStockMainId;query-'view';onClick-vcTakeStockMainList.getDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="26" indexed="5" label="经销商" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="takeStockMode" id="2" indexed="6" label="盘库类型" row="1" type="6" typepara="VC_TAKE_STOCK_MODE" width="10" widthType="0"/>
+<tableitem align="2" filedname="takeStockOpName" id="25" indexed="7" label="盘库人" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="takeStocksts" id="14" indexed="10" label="盘库状态" row="1" type="6" typepara="VC_TAKE_STOCK_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="27" indexed="11" label="登记人" row="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="takeStocksts-2;takeStocksts-3;takeStocksts-4" filedname="修改" id="18" indexed="37" label="-" row="1" sortType="2" type="5" typepara="/vcTakeStockMain/updateTakeStockInfo;takeStockMode-takeStockMode;takeStockMainId-takeStockMainId;query-'update';onClick-vcTakeStockMainList.openNewDiv(this);" width="5" widthType="0"/>
+<tableitem align="2" authority="takeStocksts-1;takeStocksts-3;takeStocksts-4" filedname="确认" id="19" indexed="38" label="-" row="1" sortType="2" type="99" typepara="action;takeStockMainId-takeStockMainId;onClick-confirmInfo;" width="5" widthType="0"/>
+<tableitem align="2" authority="takeStocksts-2;takeStocksts-3;takeStocksts-4" filedname="发起" id="24" indexed="39" label="-" row="1" type="5" typepara="/vcTakeStockMain/sendTakeStockAjax;takeStocksts-'2';takeStockMainId-takeStockMainId;onClick-sendTakeStock;" width="5" widthType="0"/>
+<tableitem align="2" authority="takeStocksts-3;takeStocksts-4" filedname="结束" id="21" indexed="41" label="-" row="1" type="5" typepara="/vcTakeStockMain/stopAjax;takeStocksts-'3';takeStockMainId-takeStockMainId;onClick-stop;" width="5" widthType="0"/>
+</table>

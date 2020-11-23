@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AgenciesShareProfitCusList" para="eadis_page" title="资金机构分润客户列表" type="1">
+<tableitem align="2" filedname="sel_all" id="16" indexed="0" label="全选" row="1" sortType="2" type="2" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="17" indexed="1" label="客户号" row="1" type="99" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;busEntrance-'apply';onClick-TrenchShareProfit.getDetailPage(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="7" indexed="5" label="证件号码" row="1" sortType="2" type="1" width="20" widthType="0"/>
+<tableitem align="1" filedname="contactsName" id="14" indexed="6" label="联系人" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="contactsTel" id="15" indexed="7" label="联系电话" row="1" sortType="2" type="0" width="20" widthType="0"/>
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="pssotherrecdetailbill0002" title="其他收入单明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherRecDetailId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="其他收入单明细ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="otherRecNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="3" labelname="其他收入单据编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" maxlength="0" formactiveid="3" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="buyType" fieldtype="1" maxlength="2" formactiveid="4" labelalign="3" labelcol="3" labelname="收入类别" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recAmt" fieldtype="1" maxlength="18" formactiveid="5" labelalign="3" labelcol="1" labelname="金额" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="memo" fieldtype="1" maxlength="400" formactiveid="6" labelalign="3" labelcol="3" labelname="分录备注" mustinput="0" row="3"/>
+</form>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="smsrecord0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recordNo" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="记录编号" maxlength="20" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recordName" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="记录名称" maxlength="50" mustinput="0" param2="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="infSendMode" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="信息发送方式(1:立即发送;2:定时发送)" maxlength="20" mustinput="0" param2="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendNo" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="发送条数" maxlength="20" mustinput="0" param2="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="undeliveredNo" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="未发送条数" maxlength="20" mustinput="0" param2="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="smsTemplate" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="短信模板" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="recordStatue" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="记录状态(1:发送完成;2:发送未完成;3:删除)" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="预留字段" maxlength="100" mustinput="0" row="27"/>
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cpws001" title="裁判文书">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fee" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="判决金额" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="partyTitle" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="当事人类型" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="caseCause" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="案由" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sortTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="结案时间" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="审理机构" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="caf" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="案件受理费" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="partyType" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="自然人" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lawOffice" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="律师事务所" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="地址" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pname" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="名称" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lawyer" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="律师" mustinput="" readonly="" row="6"/>
+</form>

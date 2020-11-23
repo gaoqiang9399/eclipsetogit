@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou0010" para="eadis_page" link="/vouMWood/findByPage" title="抵押物-林业表" type="1">
+<tableitem align="2" filedname="areaCode" id="1" indexed="1" label="区域编码" row="1" type="0" />
+<tableitem align="2" filedname="vouNo" id="2" indexed="2" label="担保编号" row="1" type="4" typepara="/vouMWood/getById;vouNo-vouNo;query-'query'"/>
+<tableitem align="2" filedname="areaName" id="3" indexed="3" label="区域名称" row="1" type="0" />
+<tableitem align="2" filedname="zhongdiNo" id="4" indexed="4" label="宗地号" row="1" type="0" />
+<tableitem align="2" filedname="wood Type" id="5" indexed="5" label="林种" row="1" type="0" />
+<tableitem align="2" filedname="wood Name" id="6" indexed="6" label="林地名字" row="1" type="0" />
+<tableitem align="2" filedname="getAmt" id="8" indexed="8" label="承包或购入金额" row="1" type="0" />
+<tableitem align="2" filedname="otherAddress" id="10" indexed="10" label="小地名" row="1" type="0" />
+<tableitem align="2" filedname="mainTreeType" id="13" indexed="13" label="主要树种" row="1" type="0" />
+<tableitem align="2" filedname="wood Area" id="16" indexed="16" label="林地面积（亩）" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="22" indexed="22" label="-" row="1" type="5" typepara="/vouMWood/deleteAjax;vouNo-vouNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

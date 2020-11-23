@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="reassignment0001" title="审批改派人员选择">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wkfTaskNo" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="wkfTaskNo" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bizPkNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="bizPkNo" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="userId" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="改派审批人" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="当前审批人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="description" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="当前审批岗位" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pasNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="pasNo" mustinput="" readonly="" row="4"/>
+</form>

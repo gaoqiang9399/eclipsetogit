@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="GB2312"?><form id="repay0002" title="还款历史总表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="还款历史ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="合同号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="还款客户编号" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accType" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="账款类型：1--应收账款2---融资账款" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shouldRepayAmt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="应还金额" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="realRepayAmt" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="实还金额" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayDate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="还款日期" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAccntAmt" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="冲销应收账款金额" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="returnFincAmt" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="冲销融资账款金额" maxlength="20" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="normalInterest" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="冲销正常利息" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="overdueInterest" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="冲销逾期利息" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="compoundInterest" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="冲销复利利息" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="discountAmt" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="优惠金额" maxlength="20" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remainAmt" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="尾款金额，同时累加至合同表中的尾款字段" maxlength="20" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="repayType" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="还款类型：1--正常 2--逾期 3--提前" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isAdvance" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="垫付标志：0--否 1--是" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="paymentType" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="支付方式：1--现金 2--银行转帐" maxlength="1" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记时间" maxlength="8" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="操作员编号" maxlength="22" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="操作员名称" maxlength="40" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="部门编号" maxlength="10" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="部门名称" maxlength="80" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="最后修改时间" maxlength="17" mustinput="0" row="23"/>
+</form>

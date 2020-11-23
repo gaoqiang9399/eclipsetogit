@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cusDriverLicenceDetail" title="驾驶证信息详情">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="50" labelname="ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="51" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="客户姓名" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="53" labelname="登记人编号" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="54" labelname="登记部门编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="55" labelname="登记部门名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="driverName" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="3" labelname="驾驶证人员姓名" maxlength="100" mustinput="0" onclick="selectrili(this,null,null,null,null);" param="cusNo" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relNo" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="59" labelname="关联编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="41" horVer="0" labelalign="3" labelcol="60" labelname="entityPrimarykeys" mustinput="" param="cusNo" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="address" fieldtype="1" formactiveid="45" horVer="1" labelalign="1" labelcol="3" labelname="住址" maxlength="100" mustinput="" param="cusNo" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sex" fieldsize="SEX" fieldtype="2" formactiveid="48" horVer="1" labelalign="1" labelcol="1" labelname="性别" mustinput="" param="cusNo" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nationality" fieldtype="1" formactiveid="49" horVer="1" labelalign="1" labelcol="3" labelname="国籍" maxlength="50" mustinput="" param="cusNo" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="fileNum" fieldtype="1" formactiveid="50" horVer="1" labelalign="1" labelcol="4" labelname="档案编号" maxlength="50" mustinput="" param="cusNo" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="driverNum" fieldtype="1" formactiveid="51" horVer="1" labelalign="1" labelcol="2" labelname="驾驶证编号" maxlength="30" mustinput="" param="cusNo" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="vehicleType" fieldtype="1" formactiveid="52" horVer="1" labelalign="1" labelcol="4" labelname="准驾车型" maxlength="2" mustinput="" param="cusNo" readonly="" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="startDate" fieldtype="1" formactiveid="53" horVer="1" labelalign="1" labelcol="1" labelname="有效起始日期" mustinput="" onclick="selectrili(this,null,null,today)" param="cusNo" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="endDate" fieldtype="1" formactiveid="54" horVer="1" labelalign="1" labelcol="2" labelname="有效结束日" mustinput="" onclick="selectrili(this,null,null,today)" param="cusNo" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="birthday" fieldtype="1" formactiveid="56" horVer="1" labelalign="1" labelcol="2" labelname="出生日期" mustinput="" onclick="selectrili(this,null,null,today)" param="cusNo" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="issuingOrgan" fieldtype="1" formactiveid="57" horVer="1" labelalign="1" labelcol="4" labelname="发证机关" maxlength="100" mustinput="" param="cusNo" readonly="" row="3"/>
+</form>

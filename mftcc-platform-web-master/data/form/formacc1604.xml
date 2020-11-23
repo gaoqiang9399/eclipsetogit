@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="acc1604" title="还款方式参数明细">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmNo" fieldtype="1" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="还款方式编号" labelwidth="20" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="seqn" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="明细序号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseRepayType" fieldsize="BASE_REPAY_TYPE" fieldtype="2" formactiveid="4" labelalign="3" labelcol="1" labelname="基本还款方式" maxlength="10" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="frmPerd" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="子阶段开始期数" maxlength="10" mustinput="1" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="4" fieldname="termAmtFlt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="该阶段本金比例" maxlength="10" mustinput="1" row="3" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="toPerd" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="子阶段结束期数" mustinput="1" readonly="" row="2"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="pgsBegCnt" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="等比(等额)开始期数" mustinput="" readonly="" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="pgsPrcpFreq" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="递增周期" mustinput="" readonly="" row="4"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="pgsPrcpPct" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="等比递增比例" mustinput="" readonly="" row="5" unit="%"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="pgsPrcpAmt" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="等额递增额度" mustinput="" readonly="" row="5" unit="元"/>
+</form>

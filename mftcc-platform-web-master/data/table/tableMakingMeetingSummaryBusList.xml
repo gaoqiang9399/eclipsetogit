@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="MakingMeetingSummaryBusList" link="/mfMakingMeetingSummaryBus/findByPage" para="eadis_page" title="会议纪要关联业务" type="1">
+<tableitem align="2" filedname="appName" id="6" indexed="8" label="业务名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="appId" id="5" indexed="7" label="申请ID" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="sort" id="14" indexed="4" label="序号" row="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="approveRemark" id="13" indexed="14" label="决策会意见隐藏" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="5" label="客户名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="12" indexed="6" label="客户名称隐藏" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="3" indexed="3" label="客户号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="approveRemark" id="7" indexed="9" label="决策会意见" mytitle="决策会意见-approveRemark" type="0" width="75" widthType="0"/>
+</table>

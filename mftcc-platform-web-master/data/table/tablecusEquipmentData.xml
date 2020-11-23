@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusEquipmentData" link="/mfCusEquipmentData/findByPage" para="eadis_page" title="设备数据_铁甲网" type="1">
+<tableitem align="2" filedname="删除" id="37" indexed="37" label="-" type="5" typepara="/mfCusEquipmentData/deleteAjax;uuid-uuid;cusNo-cusNo;relNo-relNo;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="equipmentProduce" id="12" indexed="12" label="出产年限" row="1" type="1" width="14" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户姓名" row="1" type="4" typepara="/mfCusEquipmentData/listShowDetailAjax;cusNo-cusNo;relNo-relNo;uuid-uuid;oneUrl-'/mfCusEquipmentData/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="deviceNo" id="10" indexed="10" label="机号" row="1" type="0" width="17" widthType="0"/>
+<tableitem align="2" filedname="equipmentType" id="9" indexed="9" label="设备型号" row="1" type="0" width="16" widthType="0"/>
+<tableitem align="2" filedname="equipmentBrand" id="8" indexed="8" label="设备品牌" row="1" type="0" width="18" widthType="0"/>
+</table>

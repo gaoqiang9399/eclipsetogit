@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="eval2006" title="综合评分非财务评分结果">
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="dlScore" fieldstyle="half" fieldtype="1" formactiveid="3" initvalue="0" labelalign="3" labelcol="1" labelname="定量得分" maxlength="16" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dlScorePercent" fieldstyle="half" fieldtype="1" formactiveid="4" initvalue="0" labelalign="3" labelcol="3" labelname="定量所占权重%" maxlength="16" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="dxScore" fieldstyle="half" fieldtype="1" formactiveid="5" initvalue="0" labelalign="3" labelcol="1" labelname="定性得分" maxlength="16" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dxScorePercent" fieldstyle="half" fieldtype="1" formactiveid="6" initvalue="0" labelalign="3" labelcol="3" labelname="定性所占权重%" maxlength="16" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="finScore" fieldstyle="half" fieldtype="1" formactiveid="7" initvalue="0" labelalign="3" labelcol="1" labelname="财务得分" maxlength="16" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="finScorePercent" fieldstyle="half" fieldtype="1" formactiveid="8" initvalue="0" labelalign="3" labelcol="3" labelname="财务所占权重%" maxlength="16" mustinput="0" readonly="1" row="1"/>
+</form>

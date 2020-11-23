@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dl_am_fmdi0002" title="归档信息明细表">
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileManageDetailNo" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="归档明细编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileManageNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="1" labelname="归档编号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docBizNo" fieldtype="1" maxlength="40" formactiveid="3" labelalign="3" labelcol="1" labelname="文档业务编号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="scNo" fieldtype="1" maxlength="10" formactiveid="4" labelalign="3" labelcol="1" labelname="场景编号" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docNo" fieldtype="1" maxlength="10" formactiveid="5" labelalign="3" labelcol="1" labelname="文档编号" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docType" fieldtype="1" maxlength="2" formactiveid="6" labelalign="3" labelcol="1" labelname="文档类型" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docSplitNo" fieldtype="1" maxlength="20" formactiveid="7" labelalign="3" labelcol="1" labelname="文档定义编号" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docSplitName" fieldtype="1" maxlength="50" formactiveid="8" labelalign="3" labelcol="1" labelname="文档描述名称" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docTypeName" fieldtype="1" maxlength="50" formactiveid="9" labelalign="3" labelcol="1" labelname="文档类型名称" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docName" fieldtype="1" maxlength="50" formactiveid="10" labelalign="3" labelcol="1" labelname="文档名称" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docSize" fieldtype="1" maxlength="16" formactiveid="11" labelalign="3" labelcol="1" labelname="文档大小" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docAddr" fieldtype="1" maxlength="1000" formactiveid="12" labelalign="3" labelcol="1" labelname="文档地址" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docEncryptAddr" fieldtype="1" maxlength="1000" formactiveid="13" labelalign="3" labelcol="1" labelname="文档加密地址" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="fileManageAddr" fieldtype="1" maxlength="1000" formactiveid="14" labelalign="3" labelcol="1" labelname="归档地址" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docAttribute" fieldtype="1" maxlength="2" formactiveid="15" labelalign="3" labelcol="1" labelname="文档属性" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="docStatus" fieldtype="1" maxlength="1" formactiveid="16" labelalign="3" labelcol="1" labelname="文档状态" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="isPaper" fieldtype="1" maxlength="1" formactiveid="17" labelalign="3" labelcol="1" labelname="是否存在纸制文档" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="paperAddr" fieldtype="1" maxlength="1000" formactiveid="18" labelalign="3" labelcol="1" labelname="纸制文档存放路径" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="regNo" fieldtype="1" maxlength="22" formactiveid="19" labelalign="3" labelcol="1" labelname="登记人" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="regName" fieldtype="1" maxlength="100" formactiveid="20" labelalign="3" labelcol="1" labelname="登记人名称" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="20" formactiveid="21" labelalign="3" labelcol="1" labelname="登记人部门编号" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="regDate" fieldtype="1" maxlength="8" formactiveid="22" labelalign="3" labelcol="1" labelname="登记日期" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="updNo" fieldtype="1" maxlength="22" formactiveid="23" labelalign="3" labelcol="1" labelname="更新人" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="updName" fieldtype="1" maxlength="100" formactiveid="24" labelalign="3" labelcol="1" labelname="更新人名称" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="updDate" fieldtype="1" maxlength="8" formactiveid="25" labelalign="3" labelcol="1" labelname="更新日期" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext1" fieldtype="1" maxlength="100" formactiveid="26" labelalign="3" labelcol="1" labelname="备用字段1" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext2" fieldtype="1" maxlength="100" formactiveid="27" labelalign="3" labelcol="1" labelname="备用字段2" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext3" fieldtype="1" maxlength="100" formactiveid="28" labelalign="3" labelcol="1" labelname="备用字段3" mustinput="0" row="28"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext4" fieldtype="1" maxlength="100" formactiveid="29" labelalign="3" labelcol="1" labelname="备用字段4" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" hoVer="1" fieldcol="2" fieldname="ext5" fieldtype="1" maxlength="100" formactiveid="30" labelalign="3" labelcol="1" labelname="备用字段5" mustinput="0" row="30"/>
+</form>

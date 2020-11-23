@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="finformula0002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="codeColumn" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="codeName" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="60" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulaColumn" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulaName" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="60" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formulaType" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="1" mustinput="0" row="7"/>
+</form>

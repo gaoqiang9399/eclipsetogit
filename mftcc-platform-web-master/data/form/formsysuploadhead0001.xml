@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sysuploadhead0001" title="上传员工头像表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="upload" fieldtype="9" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="员工头像" mustinput="" onchange="checkFileEnd(this)" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="员工姓名" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="uploadFileName" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="文件名" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="primaryKey" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="输入框" mustinput="" readonly="" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="filePath" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="文件路径" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="客户号" mustinput="" readonly="" row="6" />
+</form>

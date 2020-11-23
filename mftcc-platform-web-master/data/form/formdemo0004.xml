@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="demo0004" title="演示金额">
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="demoAmt2" fieldtype="1" formactiveid="1" horVer="1" labelalign="3" labelcol="2" labelname="逾期金额" mustinput="" readonly="" row="1" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="demoAmt" fieldtype="1" formactiveid="2" horVer="1" labelalign="3" labelcol="1" labelname="金额" mustinput="" readonly="" row="1" unit="元" />
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="demoAmt3" fieldtype="1" formactiveid="3" horVer="1" labelalign="3" labelcol="3" labelname="未还金额" mustinput="" readonly="" row="1" unit="元" />
+</form>

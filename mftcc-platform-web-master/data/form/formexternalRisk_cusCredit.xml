@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_cusCredit" title="外部数据评估报告-信用信息">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="empWagesSts" fieldsize="MAX_OVER_CNT" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="2年内最高连续逾期期数" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="creditCardNum" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="2年内累计逾期期数" maxlength="5" mustinput="1" readonly="" row="1" />
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditormanager0004" para="eadis_page" title="查询债权" type="1">
+<tableitem align="2" filedname="opName" id="49" indexed="27" label="操作员" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="48" indexed="26" label="登记时间" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="originalAmt" id="47" indexed="24" label="债权金额(元)" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="creditAmt" id="46" indexed="25" label="可用金额(元)" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditName" id="22" indexed="23" label="债权名称" mytitle="债权名称-creditName;" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditId" id="1" indexed="1" label="债权编号" mytitle="债权编号-creditId;" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="选择" id="45" indexed="49" label="-" row="1" type="5" typepara="#;creditId-creditId;onClick-choseCredit" width="2" widthType="0"/>
+</table>

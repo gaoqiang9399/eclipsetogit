@@ -1,0 +1,320 @@
+
+html, body {
+    background-color: #fff;
+    height: 100%;
+}
+.zTreeDemoBackground {
+    width: 100%;
+}
+.content ul {
+    overflow: hidden;
+    padding: 0;
+}
+.ztree * {
+    font-family: "Microsoft Yahei",Verdana,Simsun,"Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial;
+    font-size: 10pt;
+}
+.ztree li ul {
+    margin: 0;
+    padding: 0;
+}
+.ztree li {
+    background-color: #ffffff;
+    line-height: 26px;
+    padding: 0 10px;
+}
+.ztree li a {
+    border-radius: 3px;
+    cursor: default;
+    height: 26px;
+    padding-top: 0;
+    width: 100%;
+}
+.ztree li a.level1 {
+    height: 26px;
+}
+.ztree li a:hover {
+    background-color: #ebf6fe;
+    text-decoration: none;
+}
+.ztree.showIcon li a span.button.switch {
+    /* visibility: visible; */
+    display: block;
+}
+.ztree li a.curSelectedNode {
+    background-color: #ebf6fe;
+    border: medium none;
+    height: 26px;
+}
+.ztree li a .curSelectedBtn {
+    display: block !important;
+}
+.ztree li span {
+    line-height: 26px;
+}
+.ztree li span.button {
+}
+.ztree li .level1 span.button {
+    margin-top: 0;
+}
+.ztree li span.button.switch {
+    height: 16px;
+    width: 16px;
+}
+.ztree li.level0:first-child {
+    background-color: #fff;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.ztree li.level0:first-child a {
+    border-bottom: 1px solid #e1e1e1;
+    color: #7e9abb;
+    height: 26px;
+}
+.ztree li.level0:first-child span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: left;
+    width: 5%;
+}
+.ztree li.level0:first-child span.url {
+    width: 25%;
+    margin-right: 10px;
+}
+.ztree li.level0:first-child span.enName {
+    width: 5%;
+    margin-right: 2%;
+}
+.ztree li.level0:first-child span.desc {
+    width: 30%;
+}
+.ztree li.level0:first-child span.lev {
+    width: 3%;
+}
+.ztree li.level0:first-child span.css {
+    width: 13%;
+}
+.ztree li.level0:first-child span.sts {
+    width: 9%;
+}
+.ztree li.level0:first-child span.opt {
+    width: 5%;
+}
+.ztree li.level0#treeDemo_2 {
+    margin-top: 36px;
+}
+.ztree li a.level0 span {
+    color: #7e9abb;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ztree li span.button {
+    background-image: url("../imgs/trp.png");
+}
+.ztree li span.button.switch.level0 {
+    height: 26px;
+    width: 20px;
+}
+.ztree li:first-child span.button.switch.level0 {
+    background-image: none !important;
+}
+.ztree li span.button.switch.level1 {
+    background-image: url("../imgs/rep.png");
+    float: left;
+    height: 14px;
+    left: 4.5%;
+    position: relative;
+    top: 0;
+    width: 13px;
+}
+.ztree li span.button.noline_open {
+    background-position: 0 0;
+}
+.ztree li span.button.noline_close {
+    background-position: -18px 0;
+}
+.ztree li span.button.noline_open.level0 {
+    background-position: 8px 8px;
+}
+.ztree li span.button.noline_close.level0 {
+    background-position: -22px 8px;
+}
+.ztree li .btn {
+    border-radius: 3px;
+    float: right;
+    font-size: 10.5px;
+    margin-right: 1px;
+    margin-top: 2px;
+    padding: 1px 4px;
+}
+.ztree li .btn.add {
+    background-color: #32b5cb;
+    border: 1px solid #32b5cb;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3px;
+}
+.showBtn {
+    display: block !important;
+    top: -26px;
+}
+.hideBtn {
+    display: none !important;
+}
+.ztree li .dropdown-menu {
+}
+.ztree li .btn-group .btn {
+    left: 2px;
+    margin-right: 45%;
+    padding: 0 25px;
+    position: relative;
+    top: -25px;
+}
+.ztree li input {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 20px;
+    padding: 0 5px;
+    position: relative;
+    top: 2px;
+    /* visibility: hidden; */
+    display: none;
+    width: 100px;
+}
+.showVal {
+    background-color: transparent !important;
+    border: 0 none !important;
+    box-shadow: none !important;
+}
+.ztree li .inputVal {
+    color: #555;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ztree li .checkbox {
+    float: left;
+    margin-right: 2%;
+    top: -35px;
+   /*  visibility: hidden; */
+   display: none;
+}
+.ztree li .checkboxdiv {
+    float: left;
+    margin-right: 0px;
+    position: relative;
+    top: 1px;
+    width: 50px;
+}
+.ztree li .checkboxdiv span {
+    font-size: 12px;
+    left: 16px;
+    position: relative;
+    top: -2px;
+}
+.ztree li .EntranceUrl {
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 24%;
+}
+.ztree li .EntranceName {
+    margin-right: 2%;
+    width: 5%;
+}
+.ztree li .EntranceUrlDesc {
+    margin-right: 3%;
+    width: 28%;
+}
+.ztree li .EntranceLev {
+    width: 2%;
+}
+.ztree li .EntranceImgCss {
+    margin-right: 0.5%;
+    width: 12%;
+}
+.content {
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.chk_4 + label {
+    background: #f7836d none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset, 0 0 10px rgba(245, 146, 146, 0.4);
+    display: inline-block;
+    height: 18px;
+    margin-right: 30px;
+    padding: 10px 9px;
+    position: relative;
+    width: 55px;
+}
+.chk_4 + label::before {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    content: " ";
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 18px;
+    z-index: 99999;
+}
+.chk_4 + label::after {
+    color: white;
+    content: "OFF";
+    font-size: 12px;
+    left: 3px;
+    margin-left: -4px;
+    padding: 5px;
+    position: absolute;
+    top: -8px;
+}
+.chk_4:checked + label {
+    background: #32b5cb none repeat scroll 0 0;
+    box-shadow: 0 0 21px rgba(0, 0, 0, 0.1) inset, 0 0 10px rgba(146, 196, 245, 0.4);
+    height: 18px;
+}
+.chk_4:checked + label::after {
+    content: "ON";
+    font-size: 12px;
+    left: 8px;
+    top: -8px;
+}
+.chk_4:checked + label::before {
+    content: " ";
+    left: 36px;
+    position: absolute;
+    z-index: 99999;
+}
+.chk_4 + label::after {
+    left: 21px;
+}
+.chk_4 + label::after, .chk_4 + label::before {
+    transition: all 0.1s ease-in 0s;
+}
+.chk_4 {
+    display: none;
+    top: -13px;
+}
+.ztree .level1 .node_name {
+    display: none;
+}

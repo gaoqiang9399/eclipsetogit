@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cwcollectbatchlist_GCDB" para="eadis_page" title="费用确认工程担保" type="1">
+<tableitem align="1" filedname="cusName" id="6" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="3" typepara="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="4" indexed="5" label="委托担保合同号" row="1" sortType="2" type="3" typepara="15" width="15" widthType="0"/>
+<tableitem align="1" filedname="kindName" id="12" indexed="4" label="产品名称" mytitle="项目名称-appName" row="1" sortType="2" type="3" typepara="12" width="12" widthType="0"/>
+<tableitem align="3" filedname="pactAmt" id="2" indexed="6" label="保函金额（元）" row="1" sortType="1" type="12" width="10" widthType="0"/>
+<tableitem align="2" filedname="approvalRemark" id="21" indexed="9" label="审批意见" row="1" sortType="2" type="9" width="20" widthType="0"/>
+<tableitem align="2" filedname="collectTime" id="20" indexed="8" label="费用确认日期" sortType="2" type="9" width="10" widthType="0"/>
+<tableitem align="2" filedname="id" id="19" indexed="3" label="主键Id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="actualReceivedAmt" id="18" indexed="7" label="实际到账金额（元）" row="1" type="12" width="10" widthType="0"/>
+</table>

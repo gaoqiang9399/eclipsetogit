@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="pactinfo" title="理财合同详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prdtName" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="产品名称" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="busPactNo" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="合同编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contractAmt" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="合同金额" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="applyRate" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="4" labelname="利率" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="还款方式" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="合同开始日期" mustinput="" readonly="" row="3"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusShedList" link="/mfCusShed/findByPage" para="eadis_page" title="棚舍信息" type="1">
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="36" indexed="13" label="-" type="5" typepara="/mfCusShed/getById;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusShed/updateAjax';onClick-MfCusDyForm.updateCusTableInfo(this);subStringNub-12;" width="5" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名" row="1" type="4" typepara="/mfCusShed/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusShed/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="shedAddr" id="33" indexed="8" label="棚舍地址" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="36" label="-" row="1" type="5" typepara="/mfCusShed/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onClick-FormFactor.deleteTrAjax(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="buildDate" id="9" indexed="11" label="棚舍建造时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="shedArea" id="8" indexed="9" label="养殖面积(&#13217;)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="shedStructure" id="7" indexed="7" label="棚舍结构" row="1" type="0"/>
+</table>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplanapply" para="eadis_page" title="还款计划" type="1">
+<tableitem align="2" filedname="repayPrcpBalAfter" id="27" indexed="26" label="期末本金余额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="26" indexed="27" label="登记日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayPrcp" id="25" indexed="24" label="本金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="termNum" id="24" indexed="22" label="期号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayMonth" id="28" indexed="23" label="还款月(月)" type="0" widthType="0"/>
+</table>

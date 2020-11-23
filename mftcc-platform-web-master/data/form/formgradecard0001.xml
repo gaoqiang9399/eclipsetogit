@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="gradecard0001" title="评级评分卡配置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeCardId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="评分卡编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gradeCardName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="评分卡名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gradeCardType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="评分卡类型" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gradeCardTypeName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="评分卡类型名称" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalScenceNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="评级模型编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="evalScenceName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="评级模型名称" maxlength="50" mustinput="0" row="3"/>
+</form>

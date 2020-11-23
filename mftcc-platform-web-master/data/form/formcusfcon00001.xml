@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusfcon00001" title="客户表单配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="nameZn" fieldsize="CUS_FORMS" fieldtype="21" formactiveid="2" labelalign="3" labelcol="2" labelname="表单名" maxlength="50" mustinput="1" onblur="getCusForm();" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nameEn" fieldtype="99" formactiveid="3" labelalign="3" labelcol="3" labelname="表名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="formType" fieldtype="99" formactiveid="4" labelalign="3" labelcol="4" labelname="配置表单类型" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formBaseType" fieldtype="99" formactiveid="5" labelalign="3" labelcol="1" labelname="基础表单类型" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="isBase" fieldsize="YES_NO" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="2" labelname="是否基本表单" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="4" labelname="是否启用" mustinput="" readonly="" row="1" />
+</form>

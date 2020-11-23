@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_archive_detail01" para="eadis_page" title="归档明细信息表" type="2">
+<tableitem align="2" filedname="updateDate" id="9" indexed="8" label="更新日期" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="archiveDocSource" id="8" indexed="7" label="文件来源" row="1" sortType="1" type="6" typepara="ARCHIVE_DOC_SOURCE" width="8" widthType="0"/>
+<tableitem align="2" filedname="isLend" id="7" indexed="6" label="借出" row="1" sortType="1" type="6" typepara="YES_NO" width="5" widthType="0"/>
+<tableitem align="2" filedname="archiveDocStatus" id="6" indexed="5" label="状态" row="1" type="6" typepara="ARCHIVE_DOC_STATUS" width="5" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="5" indexed="4" label="明细分类" row="1" sortType="1" type="0" width="12" widthType="0"/>
+<tableitem align="2" filedname="docTypeName" id="4" indexed="3" label="文档类型" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" authority="archiveDocStatus-01" filedname="恢复" id="12" indexed="11" label="-" row="1" type="5" typepara="/archiveInfoDetail/recoverFileAjax;archiveDetailNo-archiveDetailNo;onClick-recoverFile(this)" widthType="0"/>
+<tableitem align="3" filedname="docSize" id="3" indexed="1" label="大小(kb)" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="下载" id="11" indexed="10" label="-" row="1" type="5" typepara="/archiveInfoDetail/downloadFile;archiveDetailNo-archiveDetailNo;onClick-downloadFile" widthType="0"/>
+<tableitem align="1" filedname="docName" id="2" indexed="0" label="文件名称" row="1" sortType="1" type="4" typepara="/archiveInfoDetail/getDetailPage;archiveDetailNo-archiveDetailNo;onClick-showDetail(this);" width="26" widthType="0"/>
+<tableitem align="2" filedname="预览" id="10" indexed="9" label="-" row="1" type="5" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" widthType="0"/>
+<tableitem align="2" filedname="archiveDocAttribute" id="1" indexed="2" label="属性" row="1" sortType="1" type="6" typepara="ARCHIVE_DOC_ATTRIBUTE" width="6" widthType="0"/>
+</table>

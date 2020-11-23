@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="RepayAppList" link="/mfRepayApply/findByPage" para="eadis_page" title="申请还款表" type="1">
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称" row="1" sortType="2" type="4" typepara="/mfRepayApply/getById;repayAppId-repayAppId;onClick-MfRepayApply_List.getById;" width="20" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="25" indexed="12" label="申请状态" sortType="2" type="6" typepara="REPAY_APP_STS" width="10" widthType="0"/>
+<tableitem align="2" authority="appSts-2;appSts-3;appSts-4;appSts-5" filedname="还款" id="24" indexed="25" label="-" row="1" sortType="2" type="5" typepara="/mfRepayApply/repaymentApproval;repayAppId-repayAppId;onClick-MfRepayApply_List.batchRepayment;" width="5" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="12" indexed="13" label="申请时间" row="1" sortType="1" type="30" width="20" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="11" indexed="11" label="还款日期" row="1" sortType="2" type="1" width="15" widthType="0"/>
+<tableitem align="2" filedname="repayAmt" id="10" indexed="10" label="还款金额（元）" row="1" sortType="2" type="12" width="15" widthType="0"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vctakestockmain0005" para="eadis_page" title="盘库明细列表（无按钮）" type="1">
+<tableitem align="2" filedname="盘库文件信息" id="29" indexed="37" label="-" row="1" type="5" typepara="/vcTakeStockMain/getTackStockFileList;takeStockDetailId-takeStockDetailId;onClick-openNewDiv(this);" widthType="0"/>
+<tableitem align="2" filedname="affirmDescription" id="28" indexed="35" label="认定说明" mytitle="模板内容-affirmDescription" row="1" type="3" typepara="35" width="25" widthType="0"/>
+<tableitem align="2" filedname="feedbackOpName" id="27" indexed="24" label="盘库人" row="1" type="0" width="6" widthType="0"/>
+<tableitem align="2" filedname="base" id="25" indexed="9" label="基地" row="1" type="6" typepara="VC_BASE" width="4" widthType="0"/>
+<tableitem align="2" filedname="takeStockDetailId" id="24" indexed="4" label="单据编号" row="1" type="99" typepara="/vcTakeStockMain/viewVcTakeStockDetail;takeStockDetailId-takeStockDetailId;onClick-openNewDiv(this);" width="8" widthType="0"/>
+<tableitem align="2" filedname="affirmResult" id="22" indexed="31" label="认定结果" row="1" type="6" typepara="VC_AFFIRM_RESULT" width="6" widthType="0"/>
+<tableitem align="2" filedname="affirmTime" id="18" indexed="34" label="认定日期" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="vin" id="5" indexed="5" label="车架号" row="1" type="4" typepara="/vcVehicleCertificate/getDetailPage;certificateId-certificateId;onClick-openNewDiv(this);" width="8" widthType="0"/>
+<tableitem align="2" filedname="storageTime" id="14" indexed="23" label="入库时间" mytitle="模板内容-storageTime" row="1" type="3" typepara="8" width="8" widthType="0"/>
+<tableitem align="2" filedname="dealerName" id="10" indexed="18" label="经销商" row="1" type="0" width="20" widthType="0"/>
+</table>

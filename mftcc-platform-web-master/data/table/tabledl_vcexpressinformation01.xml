@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_vcexpressinformation01" para="eadis_page" title="快递信息表" trClick=";onClick-Vcms.checkCurrentTr(this)" type="1">
+<tableitem align="2" filedname="expressId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="expressId-expressId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="expressNo" id="2" indexed="2" label="运单号" row="1" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="receivingCompany" id="3" indexed="3" label="收方公司" mytitle="模板内容-receivingCompany" row="1" sortType="1" type="3" typepara="23" width="25" widthType="0"/>
+<tableitem align="2" filedname="expressCompany" id="4" indexed="4" label="快递公司" row="1" sortType="1" type="6" typepara="VC_EXPRESS_COMPANY" width="10" widthType="0"/>
+<tableitem align="2" filedname="outStorageDate" id="5" indexed="5" label="出库日期" row="1" sortType="1" type="1" width="9" widthType="0"/>
+<tableitem align="2" filedname="importDate" id="6" indexed="6" label="导入日期" row="1" sortType="1" type="1" width="9" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="8" indexed="8" label="登记人" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="13" indexed="13" label="最后修改人" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="修改" id="18" indexed="14" label="-" row="1" sortType="2" type="5" typepara="/vcExpressInformation/getUpdatePage;expressId-expressId;onClick-VcExpressInformation_List.getUpdatePage;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="17" indexed="15" label="-" row="1" sortType="2" type="5" typepara="/vcExpressInformation/deleteAjax;expressId-expressId;onClick-VcExpressInformation_List.deleteExpressInformation(this)" widthType="0"/>
+</table>

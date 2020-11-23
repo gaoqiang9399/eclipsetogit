@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="apply_GCDB" para="eadis_page" title="工程担保申请列表" type="1">
+<tableitem align="2" filedname="manageOpName1" id="88" indexed="104" label="项目经理" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="3" filedname="appAmt" id="87" indexed="95" label="保函金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="breedName" id="99" indexed="97" label="产品种类" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext2" id="98" indexed="96" label="保函责任" row="1" sortType="2" type="6" typepara="GUARANTEE_FORM" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="97" indexed="94" label="保函期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="85" indexed="103" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appTime" id="96" indexed="98" label="申请日期" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="1" filedname="appName" id="92" indexed="84" label="委托保证合同" row="1" type="4" typepara="/mfBusApply/getSummary;appId-appId;onClick-enterClick(this);" widthType="0"/>
+</table>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="opencount0003" title="详情查看">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cust" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="申请人" maxlength="40" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="applyTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="申请时间" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openNumber" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="开户账号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="openBankNo" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="开户行行号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="openBandName" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="开户行名称" maxlength="100" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="openAccountName" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="开户单位名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="openRemark" fieldtype="5" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="开户备注" maxlength="100" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="操作人编号" maxlength="22" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="操作人名称" maxlength="40" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" maxlength="10" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" maxlength="80" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTeime" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" maxlength="17" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" maxlength="17" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="1" maxlength="200" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="43"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="45"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="47"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="26" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="49"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="27" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="51"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="28" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="53"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="state" fieldsize="OPEN_COUNT_STS" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="状态" mustinput="" readonly="1" row="4" />
+</form>

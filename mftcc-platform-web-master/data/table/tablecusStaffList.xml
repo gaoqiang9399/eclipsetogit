@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusStaffList" link="/mfCusStaff/findByPage" para="eadis_page" title="员工信息" type="1">
+<tableitem align="2" filedname="staffAverageWage" id="6" indexed="8" label="员工平均工资" row="1" type="0"/>
+<tableitem align="2" filedname="surveyTime" id="4" indexed="3" label="年份" row="1" type="4" typepara="/mfCusStaff/listShowDetailAjax;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusStaff/updateAjaxByOne';onClick-listShowDetail(this);" widthType="0"/>
+<tableitem align="2" filedname="staffSum" id="3" indexed="4" label="员工人数" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="21" indexed="23" label="-" row="1" type="5" typepara="/mfCusStaff/getById;surveyId-surveyId;cusNo-cusNo;oneUrl-'/mfCusStaff/updateAjax';onClick-updateCusTableInfo(this);" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="20" indexed="24" label="-" type="5" typepara="/mfCusStaff/deleteAjax.action;surveyId-surveyId;cusNo-cusNo;onClick-FormFactor.deleteTrAjax(this)" width="20" widthType="0"/>
+</table>

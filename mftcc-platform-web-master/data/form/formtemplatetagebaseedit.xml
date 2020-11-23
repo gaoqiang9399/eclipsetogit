@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="templatetagebaseedit" title="标签编辑表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tagKeyName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="标签名称" mustinput="1" readonly="" row="1"/>
+<formelement alt="标签取值的sql语句或java方法名" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="columnName" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="sql/java方法" maxlength="400" mustinput="0" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="groupFlag" fieldsize="BOOKMARK_CLASS" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="标签分组" mustinput="" onchange="MfTemplateTagBase_Insert.changeGroupFlag();" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sysDictionryVal" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="数据字典项" mustinput="" readonly="" row="3"/>
+<formelement alt="以PO_或PO_afterIn开头。例如PO_afterInFamilyInfo" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="poName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="表格类替换字段" mustinput="" readonly="" row="6"/>
+<formelement alt="用于标签配置展示使用，一般情况下和标签名称一致" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="标签说明" maxlength="200" mustinput="1" readonly="" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dataSourceType" fieldsize="DATD_SOURCE_TYPE" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="标签取值来源" mustinput="" row="1"/>
+<formelement alt="单位元、万元、%等" datatype="0" fieldalign="1" fieldcol="2" fieldname="tagUnit" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="标签计量单位" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="formatType" fieldsize="FORMAT_TYPE" fieldtype="21" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="格式化类型" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="paramType" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="参数类型" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="keyNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="标签编号" mustinput="" param2="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="serialNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="流水号" mustinput="" param2="1" readonly="" row="4"/>
+<formelement alt="请以@分割" datatype="0" fieldalign="1" fieldcol="6" fieldname="titleName" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="5" labelname="表格表头" mustinput="" param2="1" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tableHeaderFlag" fieldsize="YES_NO" fieldtype="21" formactiveid="16" horVer="0" labelalign="3" labelcol="3" labelname="配置封装表头标识" mustinput="" readonly="" row="7"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="lineNum" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="标签替换行行号" mustinput="" readonly="" row="8"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="columnNum" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="标签替换列列号" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tagReplacetype" fieldsize="TAG_REPLACE_TYPE" fieldtype="2" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="标签值替换类型" mustinput="" readonly="" row="7"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="sort" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="顺序" mustinput="" readonly="" row="11"/>
+<formelement alt="支持金额拆分、小数保留位数、日期格式化、日期及时间格式化、时间格式化格式" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="formatParam" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="格式化参数" mustinput="" readonly="" row="5"/>
+</form>

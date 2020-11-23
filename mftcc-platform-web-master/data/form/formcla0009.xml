@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cla0009" title="五级分类任务">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="任务编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taskType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="任务类型" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="业务种类" maxlength="2" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkDate" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="检查日期" maxlength="8" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="finishDate" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="检查完成日期" maxlength="8" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="taskSts" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="任务状态" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="任务执行人名称" maxlength="80" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="任务执行人编号" maxlength="30" mustinput="0" row="4"/>
+</form>

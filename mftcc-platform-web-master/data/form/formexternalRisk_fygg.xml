@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="externalRisk_fygg" title="法海网法律灰名单-法院公告">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fyggId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="法院公告唯一标识" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="body" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="公告内容" maxlength="400" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="court" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="法院名称" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sortTimeString" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="立案时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ggType" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="公告类型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keyId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="查看详情接口所需id" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sortTime" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="发布时间" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pname" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="当事人" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dataType" fieldsize="dataType" fieldtype="21" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="layout" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="版面" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cym" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="查询企业曾用名" mustinput="" readonly="1" row="10"/>
+</form>

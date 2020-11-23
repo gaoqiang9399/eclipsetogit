@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfvouafterpaymanageList" para="eadis_page" title="支出管理列表" type="1">
+<tableitem align="2" filedname="payDate" id="88" indexed="111" label="支出日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="3" filedname="actualBankDepositAmt" id="104" indexed="102" label="已收银行保证金" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="3" filedname="actualBankChargeAmt" id="87" indexed="101" label="已收银行手续费" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="97" indexed="115" label="-" type="5" typepara="/mfVouAfterPayManage/editPayManage;id-id;onclick-editPayManage(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="payType" id="102" indexed="96" label="支出类型" row="1" sortType="2" type="6" typepara="PAY_MANAGE_TYPE" widthType="0"/>
+<tableitem align="2" filedname="remark" id="109" indexed="105" label="备注" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="85" label="客户名称" row="1" type="0" typepara="/mfBusPact/getById;appId-appId;onClick-enterClick(this);" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="89" indexed="92" label="合同号" row="1" sortType="2" type="0" widthType="0"/>
+</table>

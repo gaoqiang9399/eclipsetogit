@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook>
+	<worksheet idx="0">
+		<section startRow="0" endRow="45"><!-- 开始行数，和结束行数-->
+			<mapping cell="B3">cusFinMain.cusName</mapping>
+			<mapping cell="B4">cusFinMain.finRptType</mapping>
+			<mapping cell="B5">cusFinMain.finRptDate</mapping>
+			<mapping cell="B6">cashflowsReportMap.CAaa</mapping>
+			<mapping cell="B7">cashflowsReportMap.CAaaaa</mapping>
+			<mapping cell="B8">cashflowsReportMap.CAaaab</mapping>
+			<mapping cell="B9">cashflowsReportMap.CAaaac</mapping>
+			<mapping cell="B10">cashflowsReportMap.CAaaad</mapping>
+			<mapping cell="B11">cashflowsReportMap.CAaaae</mapping>
+			<mapping cell="B12">cashflowsReportMap.CAaaaf</mapping>
+			<mapping cell="B13">cashflowsReportMap.CAaaag</mapping>
+			<mapping cell="B14">cashflowsReportMap.CAaaah</mapping>
+			<mapping cell="B15">cashflowsReportMap.CAaaai</mapping>
+			<mapping cell="B16">cashflowsReportMap.CAaaaj</mapping>
+			<mapping cell="B17">cashflowsReportMap.CAab</mapping>
+			<mapping cell="B18">cashflowsReportMap.CAabaa</mapping>
+			<mapping cell="B19">cashflowsReportMap.CAabab</mapping>
+			<mapping cell="B20">cashflowsReportMap.CAabac</mapping>
+			<mapping cell="B21">cashflowsReportMap.CAabad</mapping>
+			<mapping cell="B22">cashflowsReportMap.CAabae</mapping>
+			<mapping cell="B23">cashflowsReportMap.CAabaf</mapping>
+			<mapping cell="B24">cashflowsReportMap.CAabag</mapping>
+			<mapping cell="B25">cashflowsReportMap.CAabah</mapping>
+			<mapping cell="B26">cashflowsReportMap.CAabai</mapping>
+			<mapping cell="B27">cashflowsReportMap.CAabaj</mapping>
+			<mapping cell="B28">cashflowsReportMap.CAac</mapping>
+			<mapping cell="B29">cashflowsReportMap.CAacaa</mapping>
+			<mapping cell="B30">cashflowsReportMap.CAacab</mapping>
+			<mapping cell="B31">cashflowsReportMap.CAacac</mapping>
+			<mapping cell="B32">cashflowsReportMap.CAacad</mapping>
+			<mapping cell="B33">cashflowsReportMap.CAacae</mapping>
+			<mapping cell="B34">cashflowsReportMap.CAacaf</mapping>
+			<mapping cell="B35">cashflowsReportMap.CAacag</mapping>
+			<mapping cell="B36">cashflowsReportMap.CAacah</mapping>
+			<mapping cell="B37">cashflowsReportMap.CAacai</mapping>
+			<mapping cell="B38">cashflowsReportMap.CAad</mapping>
+			<mapping cell="B39">cashflowsReportMap.CAae</mapping>
+			<mapping cell="B40">cashflowsReportMap.CAaeaa</mapping>
+			<mapping cell="B41">cashflowsReportMap.CAaf</mapping>
+			<mapping cell="B42">cusFinMain.ifAud</mapping>
+			<mapping cell="B43">cusFinMain.audOrg</mapping>
+			<mapping cell="B44">cusFinMain.audIdea</mapping>
+			<mapping cell="B45">cusFinMain.audDate</mapping>
+		</section>
+	</worksheet>
+</workbook>

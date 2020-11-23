@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="vou1101" para="eadis_page" link="/grtPOther/findByPage" title="212.其他质押 GRT_P_OTHER" type="1">
+<tableitem align="2" filedname="guarantyId" id="1" indexed="1" label="担保_ID" row="1" type="4" typepara="/grtPOther/getById;guarantyId-guarantyId;query-'query'"/>
+<tableitem align="2" filedname="otherName" id="2" indexed="2" label="名称" row="1" type="0" />
+<tableitem align="2" filedname="otherNum" id="3" indexed="3" label="数量" row="1" type="0" />
+<tableitem align="2" filedname="buyAmt" id="4" indexed="4" label="原值（元）" row="1" type="0" />
+<tableitem align="2" filedname="areaLocation" id="5" indexed="5" label="存放地点" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="6" indexed="6" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="8" indexed="8" label="-" row="1" type="5" typepara="/grtPOther/deleteAjax;guarantyId-guarantyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

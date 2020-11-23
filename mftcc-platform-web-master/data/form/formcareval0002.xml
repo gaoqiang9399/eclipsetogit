@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="careval0002" title="车辆评估记录表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="业务关联编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carModelId" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="车型" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carZone" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="所在城市" maxlength="50" mustinput="0" row="5"/>
+<formelement alt="请填写车辆上牌日期，如2017-01" datatype="0" fieldalign="1" fieldcol="2" fieldname="carRegDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="上牌日期" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="carMile" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="行驶里程" maxlength="20" mustinput="0" row="7" unit="万里"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brand" fieldtype="21" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="品牌" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="series" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="车系" mustinput="" readonly="" row="2"/>
+</form>

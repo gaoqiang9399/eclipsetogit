@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlcollateralwarningdetail0001" para="eadis_page" link="" title="押品预警方案明细" type="2">
+<tableitem align="2" filedname="warnNo" id="1" indexed="1" label="方案编号" row="1" type="4" typepara="/collateralWarningDetail/getByIdAjax;warnDetailNo-warnDetailNo;warnNo-warnNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="warnDetailNo" id="2" indexed="2" label="方案明细编号" row="1" type="4" typepara="/collateralWarningDetail/getByIdAjax;warnDetailNo-warnDetailNo;warnNo-warnNo;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="warnType" id="3" indexed="3" label="预警类型" row="1" type="0" />
+<tableitem align="2" filedname="warnRemark" id="4" indexed="4" label="预警描述" row="1" type="0" />
+<tableitem align="2" filedname="warnValue" id="5" indexed="5" label="预警阈值" row="1" type="0" />
+<tableitem align="2" filedname="warnUnit" id="6" indexed="6" label="单位" row="1" type="0" />
+<tableitem align="2" filedname="isStart" id="7" indexed="7" label="是否启用" row="1" type="0" />
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawnsaving0002" title="质押人民币存款">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="savingType" fieldtype="1" maxlength="2" formactiveid="2" labelalign="3" labelcol="3" labelname="存款类型" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="savingAmount" fieldtype="1" maxlength="16" formactiveid="3" labelalign="3" labelcol="1" labelname="存款金额" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="savingAccId" fieldtype="1" maxlength="30" formactiveid="4" labelalign="3" labelcol="3" labelname="存款帐号" mustinput="0" row="2"/>
+</form>

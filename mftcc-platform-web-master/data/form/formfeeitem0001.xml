@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="feeitem0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="itemName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="费用项名称" maxlength="50" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="takeNode" fieldsize="FEE_TAKE_NODE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="收取节点" mustinput="1" onblur="getStandard()" onchange="getStandard()" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="standard" fieldsize="FEE_STANDARD" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="基准项" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="takeType" fieldsize="FEE_TAKE_TYPE" fieldtype="2" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="费率类型" mustinput="1" readonly="" row="2" />
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="rateScale" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="费率值" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="useFlag" fieldsize="USE_FLAG" fieldtype="2" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="启用标志" mustinput="1" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="id" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="4" />
+</form>

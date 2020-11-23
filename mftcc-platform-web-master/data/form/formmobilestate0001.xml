@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mobilestate0001" title="手机号码状态查询">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobile" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="手机号码" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="state" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="手机号状态" mustinput="" readonly="1" row="1" />
+</form>

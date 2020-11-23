@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="vcwarnlevel0001" para="eadis_page" title="预警级别表" type="2">
+<tableitem align="2" filedname="修改" id="17" indexed="16" label="-" row="1" type="5" typepara="action;levelId-levelId;onClick-vcWarnLevelList.getById;" widthType="0"/>
+<tableitem align="2" filedname="删除" id="16" indexed="17" label="-" row="1" type="5" typepara="/vcWarnLevel/deleteAjax;levelId-levelId;onClick-vcWarnLevelList.deleteRow;" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="7" indexed="7" label="登记人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="15" indexed="15" label="最后修改时间" row="1" sortType="1" type="30" width="15" widthType="0"/>
+<tableitem align="2" filedname="flag" id="5" indexed="8" label="启用" sortType="1" type="4" typepara="/vcWarnLevel/updateFlagAjax;levelId-levelId;" width="6" widthType="0"/>
+<tableitem align="2" filedname="levelDesc" id="4" indexed="4" label="级别描述" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="levelName" id="3" indexed="3" label="级别名称" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="lstModOpName" id="12" indexed="12" label="最后修改人" row="1" sortType="1" type="0" width="8" widthType="0"/>
+<tableitem align="2" filedname="warnLevel" id="2" indexed="2" label="级别" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="10" label="登记时间" row="1" sortType="1" type="30" width="15" widthType="0"/>
+</table>

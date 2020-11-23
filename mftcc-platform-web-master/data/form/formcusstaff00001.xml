@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusstaff00001" title="员工信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="客户ID" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="staffSum" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="员工总数" mustinput="0" row="2" unit="人"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="ageRange30" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="25-30岁" mustinput="0" row="3" unit="人"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ageRange45Up" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="45岁以上" mustinput="0" row="4" unit="人"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="juniorDegree" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="大专学历" mustinput="0" row="5" unit="人"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="otherDegree" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="其他" mustinput="0" row="6" unit="人"/>
+</form>

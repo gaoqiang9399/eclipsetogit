@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="app3015" title="合同申请登记信息">
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="orgName" fieldtype="1" formactiveid="1" horVer="0" labelalign="1" labelcol="1" labelname="登记机构" maxlength="80" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="2" horVer="0" labelalign="1" labelcol="1" labelname="登记人" maxlength="80" mustinput="" readonly="1" row="2" />
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="3" horVer="0" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="lstDate" fieldtype="1" formactiveid="4" horVer="0" labelalign="1" labelcol="1" labelname="更新日期" maxlength="8" mustinput="" readonly="" row="4" />
+</form>

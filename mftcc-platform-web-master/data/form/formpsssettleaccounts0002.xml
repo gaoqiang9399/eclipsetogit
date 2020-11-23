@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="psssettleaccounts0002" title="进销存-结账反结账表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="结账ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="settleAccountsDate" fieldtype="1" maxlength="8" formactiveid="2" labelalign="3" labelcol="3" labelname="结账日期" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="1" maxlength="400" formactiveid="3" labelalign="3" labelcol="1" labelname="备注" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regOpNo" fieldtype="1" maxlength="40" formactiveid="4" labelalign="3" labelcol="3" labelname="操作人编号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" maxlength="80" formactiveid="5" labelalign="3" labelcol="1" labelname="操作人名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regBrNo" fieldtype="1" maxlength="40" formactiveid="6" labelalign="3" labelcol="3" labelname="操作人机构编号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regBrName" fieldtype="1" maxlength="80" formactiveid="7" labelalign="3" labelcol="1" labelname="操作人机构名称" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" maxlength="17" formactiveid="8" labelalign="3" labelcol="3" labelname="操作时间" mustinput="0" row="4"/>
+</form>

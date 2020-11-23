@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="creditapprove0001" para="eadis_page" link="/mfCusCreditApplyHis/findByPage" title="授信申请审批历史表" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="" row="1" type="4" typepara="/mfCusCreditApplyHis/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="creditAppId" id="2" indexed="2" label="授信申请编号" row="1" type="0" />
+<tableitem align="2" filedname="cusType" id="3" indexed="3" label="客户类型" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="4" indexed="4" label="客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="creditSum" id="6" indexed="6" label="授信总额" row="1" type="0" />
+<tableitem align="2" filedname="isCeilingLoop" id="7" indexed="7" label="额度是否可循环" row="1" type="0" />
+<tableitem align="2" filedname="creditTerm" id="8" indexed="8" label="授信期限" row="1" type="0" />
+<tableitem align="2" filedname="beginDate" id="9" indexed="9" label="授信起日期" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="10" indexed="10" label="授信止日期" row="1" type="0" />
+<tableitem align="2" filedname="kindNo" id="11" indexed="11" label="产品种类编号" row="1" type="0" />
+<tableitem align="2" filedname="kindName" id="12" indexed="12" label="产品种类名称" row="1" type="0" />
+<tableitem align="2" filedname="creditAmt" id="13" indexed="13" label="授信额度" row="1" type="0" />
+<tableitem align="2" filedname="rateType" id="14" indexed="14" label="利率类型" row="1" type="0" />
+<tableitem align="2" filedname="creditRate" id="15" indexed="15" label="授信利率" row="1" type="0" />
+<tableitem align="2" filedname="repaymentMode" id="16" indexed="16" label="还款方式" row="1" type="0" />
+<tableitem align="2" filedname="vouType" id="17" indexed="17" label="担保方式" row="1" type="0" />
+<tableitem align="2" filedname="applyUsage" id="18" indexed="18" label="申请用途" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeNo" id="19" indexed="19" label="当前审批节点编号" row="1" type="0" />
+<tableitem align="2" filedname="approveNodeName" id="20" indexed="20" label="当前审批节点名称" row="1" type="0" />
+<tableitem align="2" filedname="approvePartNo" id="21" indexed="21" label="审批角色号/用户号" row="1" type="0" />
+<tableitem align="2" filedname="approvePartName" id="22" indexed="22" label="当前审批角色/用户名称" row="1" type="0" />
+<tableitem align="2" filedname="approveRemark" id="23" indexed="23" label="审批说明" row="1" type="0" />
+<tableitem align="2" filedname="approveResult" id="24" indexed="24" label="审批意见1同意2否决3退回上一环节4退回初审5不同意" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="5" typepara="/mfCusCreditApplyHis/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

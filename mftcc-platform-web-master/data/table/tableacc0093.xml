@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GBK"?>
+<table id="acc0093" para="eadis_page" link="/acLnPayPlnCur/findByPage" title="还款计划当期表" type="1">
+<tableitem align="2" filedname="contNo" id="1" indexed="1" label="合同号" row="1" type="4" typepara="/acLnPayPlnCur/getById;contNo-contNo;query-'query'"/>
+<tableitem align="2" filedname="perdNo" id="2" indexed="2" label="期号" row="1" type="0" />
+<tableitem align="2" filedname="endDate" id="3" indexed="3" label="到期日期" row="1" type="0" />
+<tableitem align="2" filedname="instmAmt" id="4" indexed="4" label="本期支付租金" row="1" type="0" />
+<tableitem align="2" filedname="ttlAmt" id="7" indexed="7" label="融资总额" row="1" type="0" />
+<tableitem align="2" filedname="修改" id="11" indexed="11" label="-" row="1" type="5" typepara="/acLnPayPlnCur/getById;contNo-contNo;" width="2"/>
+<tableitem align="2" filedname="删除" id="12" indexed="12" label="-" row="1" type="5" typepara="/acLnPayPlnCur/del;contNo-contNo;onClick-lkconfirm" width="2"/>
+</table>

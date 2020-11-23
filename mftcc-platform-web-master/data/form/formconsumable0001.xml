@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="consumable0001" title="低值易耗品信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consId" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="编号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="品名" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="storeNum" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="当前库存" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="price" fieldstyle="half" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="单价(元)" maxlength="10" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="sumPutNum" fieldstyle="half" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="总入库量" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="scrapNum" fieldstyle="half" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="报损数量" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appNum" fieldstyle="half" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="申领数量" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="specification" fieldstyle="half" fieldtype="1" formactiveid="10" labelalign="3" labelcol="1" labelname="规格型号" maxlength="40" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="barCode" fieldstyle="half" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="条形码" maxlength="40" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="登记人名称" maxlength="40" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="className" fieldstyle="half" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="类别" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appType" fieldstyle="half" fieldtype="1" formactiveid="18" labelalign="3" labelcol="1" labelname="申领类型" maxlength="1" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unit" fieldstyle="half" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="计量单位" maxlength="2" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="8"/>
+</form>

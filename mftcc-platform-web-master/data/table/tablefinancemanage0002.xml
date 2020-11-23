@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="financemanage0002" para="eadis_page" title="多笔业务展示表" type="2">
+<tableitem align="2" filedname="busStage" id="22" indexed="24" label="理财阶段" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="breathDate" id="17" indexed="19" label="起息日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="termMonth" id="7" indexed="10" label="理财期限（月）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contractAmt" id="5" indexed="8" label="理财金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="2" label="客户名称" row="1" type="99" typepara="/finBusApply/getCustomerByNo;cusNo-cusNo;busPactNo-busPactNo;appId-appId;busApplyId-busApplyId;onClick-FinBusApplyList.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="prdtName" id="13" indexed="6" label="产品名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="39" indexed="3" label="客户编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="cusTel" id="38" indexed="4" label="联系电话" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="busPactNo" id="2" indexed="5" label="合同号" row="1" type="4" typepara="/finBusPact/getPactDetailInfo;busPactNo-busPactNo;busApplyId-busApplyId;app-'1';" widthType="0"/>
+<tableitem align="2" filedname="busApplyId" id="1" indexed="1" label="理财申请号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="applyRate" id="10" indexed="13" label="年化收益率（%）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="37" indexed="39" label="业务主办" row="1" type="0" widthType="0"/>
+</table>

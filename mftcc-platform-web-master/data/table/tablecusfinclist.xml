@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusfinclist" para="eadis_page" title="客户视角借据列表" type="1">
+<tableitem align="2" filedname="putoutDate" id="11" indexed="17" label="放款日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="10" indexed="16" label="放款金额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="56" indexed="11" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="55" indexed="9" label="客户名称" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;cusType-'1';onClick-MfRiskLevelAdjust_Insert.getCusById;" widthType="0"/>
+<tableitem align="1" filedname="appName" id="53" indexed="10" label="项目名称" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;pactId-pactId;onClick-MfRiskLevelAdjust_Insert.getPactById;" widthType="0"/>
+</table>

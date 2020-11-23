@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sysforapp5001" para="eadis_page" title="移动端客户经理选择列表" type="1">
+<tableitem align="2" filedname="opName" id="2" indexed="4" label="名称" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="brName" id="22" indexed="5" label="部门" row="1" type="3" typepara="12" width="15" widthType="0"/>
+<tableitem align="2" filedname="opNo" id="21" indexed="3" label="账号" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" authority="buildInFlag-1" buttonMark="SysUser003" filedname="选择" id="20" indexed="29" label="-" row="1" type="5" typepara="/mfAppCusMng/insertAjax;opNo-opNo;onClick-insertCusMng(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="mobile" id="7" indexed="12" label="手机" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="roleName" id="16" indexed="8" label="角色" sortType="2" type="0" width="15" widthType="0"/>
+</table>

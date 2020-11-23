@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="p2p0001" title="业务区域维护关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessAreaId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="流水号" mustinput="" readonly="" row="1" rowspan="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessCode" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="区域编号" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="businessName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="区域名称" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isUse" fieldsize="USE_FLAG" fieldtype="2" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="启用状态" mustinput="1" readonly="" row="3"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="5" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="备注说明" maxlength="200" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="登记人员" mustinput="" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="登记时间" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModeTime" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="最后修改时间" mustinput="" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assOperName" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员" mustinput="" onclick="selectUserDialog(P2pBusinessAreaDetail.getRecDialog)" readonly="" row="4" unit="&lt;i class='i i-fangdajing pointer' onClick='selectUserDialog(P2pBusinessAreaDetail.getRecDialog);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assOper" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员编号" mustinput="" readonly="" row="9"/>
+</form>

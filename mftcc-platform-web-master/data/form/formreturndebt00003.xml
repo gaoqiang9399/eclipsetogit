@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="returndebt00003" title="还款信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="申请人" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="部门" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnAmt" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="本次还款" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="还款时间" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="returnType" fieldsize="PAY_TYPE" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="1" readonly="1" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="备注" mustinput="" readonly="1" row="3" />
+</form>

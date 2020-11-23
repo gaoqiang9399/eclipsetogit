@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="queryGpsAlarmList" title="查询GPS预警信息列表" type="1">
+<tableitem align="2" filedname="thirdName" id="3" indexed="0" label="设备名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="methodDes" id="2" indexed="1" label="预警描述" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="1" indexed="2" label="预警时间" type="30" widthType="0"/>
+</table>

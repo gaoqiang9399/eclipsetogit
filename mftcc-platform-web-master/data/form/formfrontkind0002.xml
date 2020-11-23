@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="frontkind0002" title="交易前端产品表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="产品编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mobileUse" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="移动端是否使用该产品，0不使用，1使用" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pcUse" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="pc交易端是否使用该产品，0不使用，1使用" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindDesc" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="交易端产品描述信息" maxlength="500" mustinput="0" row="5"/>
+</form>

@@ -1,0 +1,108 @@
+.search-group #formwkf0010{margin-left:-64px;}
+.search-group #formwkf0001{margin-left:-40px;}
+.search-group #formwkf0003{margin-left:-28px;margin-right:4px;}
+.search-group #formwkf0013{width:680px;margin-right:40px;}
+.search-group #formwkf0015{width:720px;}
+.search-group #formwkf0014{ width:990px;}
+.search-group table{ width:500px; display:inline-block; margin-left:-64px;margin-right:30px;margin-top:8px!important;}
+.search-group input.t_ico_tj,.search-group input.btn_80{margin-top:-32px!important;}
+.search-group table input{ 
+	padding:4px 10px 3px;
+	box-shadow:none;
+	border-radius:2px;
+	margin-top:-3px;
+	}			
+.search-group input.btn_80{
+	background-color:#54aced;
+	border:none;
+	height: 25px;
+    margin: 1px 5px 0;
+    padding: 0 10px;
+    width: auto;
+    color: #fff;
+    border-radius:2px;
+}
+.page_wn li {
+	float: left;
+	margin-right: 10px;
+	line-height: 24px;
+	list-style-type:none;
+}
+
+.page_wn li input[type="text"]{ 
+	padding:3px 0px;
+	box-shadow:none;
+/* 	border-radius:2px; */
+	margin-top:-3px;
+	text-align:center;
+	line-height: normal;
+	}
+.page_wn li input[type="submit"]{ 
+	background-color:#32b5cb;
+	border:none;
+	height: 24px;
+    margin: 1px 5px 0;
+    padding: 0 8px;
+    width: auto;
+    color: #fff;
+    border-radius:2px;
+    text-align:center;
+    font-size:14px;line-height:24px;
+	}	
+.page_w {
+/* 	position: fixed; */
+/* 	right: 0; */
+/* 	bottom: 20px; */
+	width: 100%;
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 12px;
+}
+
+.right_v form>.from_w tr td.bartop{ 
+	text-align:center;    
+	height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    }
+  .right_v form>.from_w tr td{    
+  	height: 36px;
+    line-height: 36px;
+    padding-bottom: 6px;
+    font-size:12px;
+    padding:5px;
+    }  
+  .right_v form>.from_w tr td input[type="text"]{height: 25px;
+    padding: 0 0px 0 3px;
+    box-shadow: none;
+    width: 260px;}  
+      .right_v form>.from_w tr td select{height: 25px;
+    padding: 0 0px 0 3px;
+    box-shadow: none;
+    width: 260px;}  
+  .right_v form>.from_btn .button3{    background: #009ce2 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    margin: 20px 0;
+    width: 180px;}  
+ .info .page_w{display:none}
+
+ .right_v form>.from_btn{ text-align:center;}
+  .right_v form>.from_btn .button_form{    background: #009ce2 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    margin: 20px 0;
+    width: 180px;}
+
+ table-layout: auto;

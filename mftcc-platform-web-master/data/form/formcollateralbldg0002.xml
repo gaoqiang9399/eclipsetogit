@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form id="collateralbldg0002" title="抵押品房屋信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bldgType" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="房产类型" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bldgDistrict" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="房屋所在区域" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bldgAddress" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="房屋详细地址" maxlength="200" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bldgAera" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="建筑面积" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bldgStruct" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="建筑结构" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belevator" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="是否有电梯" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="restUseYear" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="剩余年限" maxlength="0" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bldgContractNo" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="商品房买卖合同号" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bldgCertNo" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="房产证号" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="landCertNo" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="土地证号" maxlength="80" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="bldgFinDate" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="房屋建成时间" maxlength="8" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="firstBoughtDate" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="首次购入日期（二手房）" maxlength="8" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgUnitPrice" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="原单价（元/平方米）" maxlength="16" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bldgUseStatus" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="房产使用现状" maxlength="10" mustinput="0" row="8"/>
+</form>

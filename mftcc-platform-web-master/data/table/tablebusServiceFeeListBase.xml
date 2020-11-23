@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busServiceFeeListBase" link="/mfBusServiceFee/findByPage" para="eadis_page" title="服务费收取记录表" type="1">
+<tableitem align="2" filedname="chargePart" id="4" indexed="3" label="收费主体" row="1" type="0"/>
+<tableitem align="2" filedname="chargeDate" id="3" indexed="5" label="实收日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="11" indexed="12" label="登记日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="serviceFee" id="2" indexed="4" label="实收服务费" type="12" widthType="0"/>
+<tableitem align="2" filedname="删除" id="21" indexed="22" label="-" row="1" type="5" typepara="/mfBusServiceFee/deleteAjax;id-id;onClick-FormFactor.deleteTrAjax(this)" width="2" widthType="0"/>
+</table>

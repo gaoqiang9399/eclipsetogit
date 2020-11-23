@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="corpPartyList" para="eadis_page" title="风险核查关系人列表" type="2">
+<tableitem align="2" filedname="同盾核查" id="5" indexed="9" label="-" type="5" typepara="/apiReturnRecord/getTongdunCheck;partyName-highName;partyTel-phone;partyIdNum-idNum;onClick-MfCus_RiskManagement.tongduCheck(this);" width="20" widthType="0"/>
+<tableitem align="2" filedname="highName" id="1" indexed="1" label="关系人" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="19" indexed="6" label="身份证号" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="highCusType" id="18" indexed="4" label="与客户关系" row="1" type="0" typepara="HIGH_TYPE" width="20" widthType="0"/>
+<tableitem align="2" filedname="phone" id="16" indexed="5" label="手机号" row="1" type="0" width="20" widthType="0"/>
+</table>

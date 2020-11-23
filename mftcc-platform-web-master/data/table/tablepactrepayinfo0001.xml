@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pactrepayinfo0001" link="/mfBusRepayInfo/findByPage" para="eadis_page" title="杭州恩义还款信息表" type="1">
+<tableitem align="2" filedname="regTime" id="9" indexed="11" label="登记时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="16" indexed="14" label="-" type="5" typepara="/mfBusRepayInfo/getById;repayId-repayId;onClick-getById(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="repayErrorMsg" id="7" indexed="9" label="还款失败原因" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="repaySts" id="6" indexed="8" label="还款状态" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayAmt" id="5" indexed="5" label="还款总额" row="1" type="0"/>
+<tableitem align="2" filedname="appName" id="4" indexed="3" label="项目名称" row="1" type="4" typepara="/mfBusPact/getPactFincById;fincId-fincId;appId-appId;busEntrance-'3';onClick-getAppDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="13" indexed="12" label="最后操作时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" authority="repaySts-成功" filedname="划扣" id="12" indexed="13" label="-" row="1" type="5" typepara="/mfBusRepayInfo/deductByOneAjax;repayId-repayId;onClick-MfBusRepayInfo.ajaxDeduct(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="2" label="客户名称" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="2" indexed="4" label="借据号" row="1" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="importexcelexceldetail" title="历史数据导入明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="hisId" fieldtype="1" maxlength="30" formactiveid="2" labelalign="3" labelcol="3" labelname="历史数据导入编号" mustinput="0" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importId" fieldtype="1" maxlength="30" formactiveid="3" labelalign="3" labelcol="1" labelname="历史数据导入临时表编号" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="dataModel" fieldtype="1" maxlength="2" formactiveid="4" labelalign="3" labelcol="3" labelname="数据模块1客户信息2授信信息3合同信息4借据信息5还款计划6还款历史7押品信息8担保信息(押品)9担保信息(担保人)" mustinput="0" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="readResult" fieldtype="1" maxlength="200" formactiveid="5" labelalign="3" labelcol="1" labelname="解析数据结果：解析失败时，存储具体失败原因；成功时，存储“解析成功”" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="readSts" fieldtype="1" maxlength="1" formactiveid="6" labelalign="3" labelcol="3" labelname="解析excel数据状态：0失败1成功" mustinput="0" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="readDate" fieldtype="1" maxlength="1" formactiveid="7" labelalign="3" labelcol="1" labelname="解析excel数据日期" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="readTime" fieldtype="1" maxlength="1" formactiveid="8" labelalign="3" labelcol="3" labelname="解析excel数据时间" mustinput="0" row="4" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importSts" fieldtype="1" maxlength="1" formactiveid="9" labelalign="3" labelcol="1" labelname="数据导入状态：0待导入1已导入" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="importDate" fieldtype="1" maxlength="1" formactiveid="10" labelalign="3" labelcol="3" labelname="数据导入日期" mustinput="0" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="importTime" fieldtype="1" maxlength="1" formactiveid="11" labelalign="3" labelcol="1" labelname="数据导入时间" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" maxlength="20" formactiveid="12" labelalign="3" labelcol="3" labelname="操作人部门" mustinput="0" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="1" maxlength="20" formactiveid="13" labelalign="3" labelcol="1" labelname="操作人部门编号" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="1" maxlength="20" formactiveid="14" labelalign="3" labelcol="3" labelname="操作人编号" mustinput="0" row="7" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" maxlength="20" formactiveid="15" labelalign="3" labelcol="1" labelname="操作人姓名" mustinput="0" row="8" />
+</form>

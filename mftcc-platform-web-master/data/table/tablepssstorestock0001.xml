@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssstorestock0001" para="eadis_page" title="仓库库存表" type="2">
+<tableitem align="3" filedname="stockAvaQty" id="5" indexed="5" label="可用库存" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="stockBaseQty" id="4" indexed="4" label="基本库存" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="1" filedname="goodsName" id="3" indexed="3" label="商品" mytitle="模板内容-goodsName;" type="3" typepara="12" width="30" widthType="0"/>
+<tableitem align="1" filedname="storehouseName" id="2" indexed="2" label="仓库" mytitle="模板内容-storehouseName;" row="1" type="3" typepara="12" width="30" widthType="0"/>
+</table>

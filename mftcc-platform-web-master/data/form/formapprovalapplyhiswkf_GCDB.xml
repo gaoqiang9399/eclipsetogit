@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="approvalapplyhiswkf_GCDB" title="工程担保业务审批历史">
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldsize="0.00" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="保函金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="6" fieldname="fincRate" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="5" labelname="利率" mustinput="" readonly="1" row="1" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="breedName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="保函业务品种" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldsize="GUARANTEE_FORM" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="保函责任" mustinput="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="replyFincRate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="5" labelname="批复利率" mustinput="" readonly="1" row="2" unit="%"/>
+</form>

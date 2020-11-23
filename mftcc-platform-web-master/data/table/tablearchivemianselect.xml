@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivemianselect" para="eadis_page" title="归档列表" type="1">
+<tableitem align="1" filedname="pactNo" id="6" indexed="1" label="委托保证合同号" row="1" sortType="2" type="0" width="22" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="0" label="客户名称" row="1" sortType="1" type="0" width="22" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="4" indexed="3" label="产品名称" row="1" sortType="1" type="0" width="22" widthType="0"/>
+<tableitem align="2" filedname="archiveStatus" id="3" indexed="6" label="档案状态" sortType="1" type="99" typepara="ARCHIVE_STATUS" width="15" widthType="0"/>
+<tableitem align="2" filedname="选择" id="9" indexed="7" label="-" row="1" type="5" typepara="#;appId-appId;onClick-choseInvoice" width="2" widthType="0"/>
+</table>

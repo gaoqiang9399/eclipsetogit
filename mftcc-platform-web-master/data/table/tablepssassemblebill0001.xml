@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssassemblebill0001" para="eadis_page" title="组装单表" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssAssembleBill/getById;assembleBillId-assembleBillId;onDbClick-pssAssembleBill.getAB" type="2">
+<tableitem align="1" filedname="goodsName" id="27" indexed="6" label="组合件" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assembleBillId" id="26" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="assembleBillId-assembleBillId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="auditOpName" id="25" indexed="27" label="审核人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="20" indexed="22" label="制单人" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="goodsQty" id="9" indexed="7" label="组合件数量" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="auditSts" id="16" indexed="18" label="审核状态" row="1" sortType="1" type="6" typepara="PSS_AUDIT_STSED" widthType="0"/>
+<tableitem align="3" filedname="inUnitCost" id="7" indexed="10" label="组合件单位成本" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="unitName" id="5" indexed="8" label="单位" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="单据日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="inCost" id="12" indexed="14" label="组合件成本" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="assembleBillNo" id="2" indexed="4" label="单据编号" mytitle="模板内容-assembleBillNo;" row="1" sortType="1" type="4" typepara="/pssAssembleBill/getById;assembleBillId-assembleBillId;onClick-pssAssembleBill.getAB;subStringNub-20;" widthType="0"/>
+</table>

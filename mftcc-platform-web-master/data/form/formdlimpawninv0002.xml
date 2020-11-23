@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="dlimpawninv0002" title="质押仓单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="impawnId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="3" labelcol="1" labelname="担保资料编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="3" labelcol="3" labelname="仓单号码" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invName" fieldtype="1" maxlength="80" formactiveid="3" labelalign="3" labelcol="1" labelname="货物名称" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invQty" fieldtype="1" maxlength="0" formactiveid="4" labelalign="3" labelcol="3" labelname="货物数量" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invCt" fieldtype="1" maxlength="2" formactiveid="5" labelalign="3" labelcol="1" labelname="币种" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="boughtPrice" fieldtype="1" maxlength="16" formactiveid="6" labelalign="3" labelcol="3" labelname="购入价值" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invComName" fieldtype="1" maxlength="80" formactiveid="7" labelalign="3" labelcol="1" labelname="仓储公司名称" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invLocation" fieldtype="1" maxlength="200" formactiveid="8" labelalign="3" labelcol="3" labelname="存放地点" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="invStartDate" fieldtype="1" maxlength="8" formactiveid="9" labelalign="3" labelcol="1" labelname="存放起始日期" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="invDueDate" fieldtype="1" maxlength="8" formactiveid="10" labelalign="3" labelcol="3" labelname="仓单到期日期" mustinput="0" row="5"/>
+</form>

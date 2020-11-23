@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="creditquery0002" title="征信查询记录表">
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="queryId" fieldtype="1" maxlength="30" formactiveid="1" labelalign="1" labelcol="1" labelname="查询编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="cusNo" fieldtype="1" maxlength="30" formactiveid="2" labelalign="1" labelcol="2" labelname="客户号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="cusName" fieldtype="1" maxlength="30" formactiveid="3" labelalign="1" labelcol="1" labelname="客户名称" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="idNum" fieldtype="1" maxlength="30" formactiveid="4" labelalign="1" labelcol="2" labelname="客户身份证号" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="queryParm" fieldtype="1" maxlength="200" formactiveid="5" labelalign="1" labelcol="1" labelname="查询参数" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="queryResultName" fieldtype="1" maxlength="50" formactiveid="6" labelalign="1" labelcol="2" labelname="结果文件名" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="queryResultPath" fieldtype="1" maxlength="200" formactiveid="7" labelalign="1" labelcol="1" labelname="结果文件路径" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="queryDate" fieldtype="1" maxlength="8" formactiveid="8" labelalign="1" labelcol="2" labelname="查询日期" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="queryTime" fieldtype="1" maxlength="17" formactiveid="9" labelalign="1" labelcol="1" labelname="查询时间" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="requestState" fieldtype="1" maxlength="1" formactiveid="10" labelalign="1" labelcol="2" labelname="查询状态0未查询1已查询" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="opNo" fieldtype="1" maxlength="22" formactiveid="11" labelalign="1" labelcol="1" labelname="登记人编号" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="opName" fieldtype="1" maxlength="40" formactiveid="12" labelalign="1" labelcol="2" labelname="登记人姓名" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="lstModDate" fieldtype="1" maxlength="8" formactiveid="13" labelalign="1" labelcol="1" labelname="更新日期" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" maxlength="17" formactiveid="14" labelalign="1" labelcol="2" labelname="更新时间" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext1" fieldtype="1" maxlength="200" formactiveid="15" labelalign="1" labelcol="1" labelname="备用字段1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="4" fieldname="ext2" fieldtype="1" maxlength="200" formactiveid="16" labelalign="1" labelcol="2" labelname="备用字段2" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" horVer="1" fieldcol="2" fieldname="ext3" fieldtype="1" maxlength="200" formactiveid="17" labelalign="1" labelcol="1" labelname="备用字段3" mustinput="0" row="17"/>
+</form>

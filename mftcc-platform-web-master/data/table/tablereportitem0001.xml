@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="reportitem0001" para="eadis_page" title="报表项" trDbClick=";plateNo-plateNo;onDbClick-ajaxGetItemNo(this);" type="1">
+<tableitem align="2" filedname="reportItemId" id="6" indexed="5" label="编号" row="1" type="0" width="30"/>
+<tableitem align="1" filedname="reportName" id="5" indexed="7" label="名称" row="1" sortType="2" type="4"/>
+<tableitem align="2" filedname="选择" id="7" indexed="8" label="-" type="5" typepara=";plateNo-plateNo;onClick-chooseGetItemNo(this)" widthType="0"/>
+</table>

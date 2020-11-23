@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveextenddetail" para="eadis_page" title="非系统生成合同" type="2">
+<tableitem align="2" filedname="docName" id="12" indexed="2" label="文档名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="详情" id="11" indexed="11" label="-" type="5" typepara="/archiveInfoMain/pactExtendDetail;archiveDetailNo-archiveDetailNo;onClick-pactDetail(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="2" indexed="1" label="文档类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="archiveDocStatus" id="10" indexed="5" label="状态" row="1" type="6" typepara="ARCHIVE_DOC_STATE" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="9" indexed="3" label="合作银行" mytitle="合作银行-agenciesName" row="1" type="99" typepara="subStringNub-18;" widthType="0"/>
+</table>

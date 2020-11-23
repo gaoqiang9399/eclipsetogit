@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="sysTrenchList" para="eadis_page" title="渠道，资金机构操作员列表" type="1">
+<tableitem align="2" filedname="opName" id="2" indexed="3" label="用户名称" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="brName" id="22" indexed="4" label="部门" mytitle="部门-brName;" row="1" type="3" typepara="12" width="164" widthType="1"/>
+<tableitem align="2" filedname="opNo" id="21" indexed="6" label="登陆账号" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="roleName" id="16" indexed="8" label="角色" mytitle="角色-roleName" row="1" sortType="2" type="4" typepara="action;roleNo-roleNo;onClick-roleConfig;subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="mobile" id="7" indexed="12" label="手机" row="1" sortType="2" type="0" width="15" widthType="0"/>
+</table>

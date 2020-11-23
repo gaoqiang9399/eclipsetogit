@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cusperscredit0002" title="个人客户信用表">
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="creditId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="4" labelname="个人客户信用ID" maxlength="30" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="businessCredit" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="商业资信状况" maxlength="200" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="empWagesSts" fieldsize="BE_NOTHING" fieldtype="21" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="有无拖欠职工工资" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rentsSts" fieldsize="BE_NOTHING" fieldtype="21" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="有无拖欠水电费、租金" maxlength="1" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="22" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="客户经理编号" maxlength="10" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="performance" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="企业为他人担保的履约情况" maxlength="200" mustinput="1" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stateTaxSts" fieldsize="BE_NOTHING" fieldtype="21" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="有无拖欠国家税款" maxlength="1" mustinput="" readonly="" row="3" />
+</form>

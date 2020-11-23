@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfarchiveborrowRegister" title="借阅登记">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowerName" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="借阅人" maxlength="50" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="borrowingTime" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="借阅日期" maxlength="17" mustinput="1" onclick="fPopUpCalendarDlg({max:today})" row="2" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement alt="最多输入200汉字" datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowingPurposes" fieldtype="5" formactiveid="18" labelalign="3" labelcol="1" labelname="借阅原因" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="revertPlanDate" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="计划归还日期" maxlength="15" mustinput="1" onclick="fPopUpCalendarDlg({min:today})" row="3" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowId" fieldtype="99" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="borrowerNo" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="borrowerNo" mustinput="" readonly="" row="1"/>
+</form>

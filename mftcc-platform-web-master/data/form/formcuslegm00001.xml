@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cuslegm00001" title="法人代表家庭成员">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalMemberId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="家庭成员ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="客户名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idType" fieldsize="PERS_ID_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="3" labelname="家庭成员证件类型" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idNum" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="家庭成员证件号码" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="memberName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="姓名" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="famType" fieldsize="CUS_PERS_REL" fieldtype="21" formactiveid="7" labelalign="3" labelcol="1" labelname="家族关系" maxlength="2" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="apFamCorpName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="所在企业名称" maxlength="80" mustinput="0" row="3"/>
+</form>

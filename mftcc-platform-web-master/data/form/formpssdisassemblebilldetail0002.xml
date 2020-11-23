@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form id="pssdisassemblebilldetail0002" title="拆卸单明细表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="disassembleBillDetailId" fieldtype="1" maxlength="40" formactiveid="1" labelalign="3" labelcol="1" labelname="拆卸单据明细ID" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="disassembleBillNo" fieldtype="1" maxlength="40" formactiveid="2" labelalign="3" labelcol="3" labelname="拆卸单据编号" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" maxlength="0" formactiveid="3" labelalign="3" labelcol="1" labelname="序号" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="goodsId" fieldtype="1" maxlength="40" formactiveid="4" labelalign="3" labelcol="3" labelname="子件商品编号（主键）" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitId" fieldtype="1" maxlength="40" formactiveid="5" labelalign="3" labelcol="1" labelname="子件单位ID" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="baseUnitId" fieldtype="1" maxlength="40" formactiveid="6" labelalign="3" labelcol="3" labelname="子件基本单位ID" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storehouseId" fieldtype="1" maxlength="40" formactiveid="7" labelalign="3" labelcol="1" labelname="子件仓库" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="freightSpaceId" fieldtype="1" maxlength="40" formactiveid="8" labelalign="3" labelcol="3" labelname="子件仓位ID" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="goodsQty" fieldtype="1" maxlength="18" formactiveid="9" labelalign="3" labelcol="1" labelname="子件数量" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="baseQuantity" fieldtype="1" maxlength="18" formactiveid="10" labelalign="3" labelcol="3" labelname="子件基本数量" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inUnitCost" fieldtype="1" maxlength="18" formactiveid="11" labelalign="3" labelcol="1" labelname="子件入库单位成本" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="inCost" fieldtype="1" maxlength="18" formactiveid="12" labelalign="3" labelcol="3" labelname="子件入库成本" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="inBaseUnitCost" fieldtype="1" maxlength="18" formactiveid="13" labelalign="3" labelcol="1" labelname="子件入库基本单位成本" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="memo" fieldtype="1" maxlength="400" formactiveid="14" labelalign="3" labelcol="3" labelname="备注" mustinput="0" row="7"/>
+</form>

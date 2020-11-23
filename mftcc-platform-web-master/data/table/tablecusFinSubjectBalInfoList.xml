@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusFinSubjectBalInfoList" para="eadis_page" title="科目余额重点信息列表" type="2">
+<tableitem align="2" filedname="finRptDate2" id="6" indexed="5" label="2" row="1" sortType="2" type="4" typepara="/cusFinSubjectData/getDetailPage;subjectFirstNo-subjectNo;cusNo-cusNo;finRptDate-finRptDate2;onClick-getSubjectDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="finRptDate1" id="3" indexed="2" label="1" sortType="2" type="4" typepara="/cusFinSubjectData/getDetailPage;subjectFirstNo-subjectNo;cusNo-cusNo;finRptDate-finRptDate1;onClick-getSubjectDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="1" filedname="subjectName" id="2" indexed="1" label="科目名称" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="finRptDate3" id="1" indexed="6" label="3" row="1" sortType="2" type="4" typepara="/cusFinSubjectData/getDetailPage;subjectFirstNo-subjectNo;cusNo-cusNo;finRptDate-finRptDate3;onClick-getSubjectDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="finRptDate5" id="8" indexed="8" label="5" row="1" sortType="2" type="4" typepara="/cusFinSubjectData/getDetailPage;subjectFirstNo-subjectNo;cusNo-cusNo;finRptDate-finRptDate5;onClick-getSubjectDetailPage(this);" width="15" widthType="0"/>
+<tableitem align="2" filedname="finRptDate4" id="7" indexed="7" label="4" row="1" sortType="2" type="4" typepara="/cusFinSubjectData/getDetailPage;subjectFirstNo-subjectNo;cusNo-cusNo;finRptDate-finRptDate4;onClick-getSubjectDetailPage(this);" width="15" widthType="0"/>
+</table>

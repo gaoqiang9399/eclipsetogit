@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repayplanlistaccount" para="eadis_page" title="保理业务放款确认还款计划展示" type="3">
+<tableitem align="2" filedname="termNum" id="7" indexed="7" label="期号" row="1" type="0"/>
+<tableitem align="2" filedname="planBeginDate" id="22" indexed="8" label="开始日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="planEndDate" id="23" indexed="14" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="repayPrcp" id="12" indexed="15" label="应还本金(元)" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="repayIntst" id="25" indexed="16" label="应还利息(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="feeSum" id="28" indexed="17" label="费用总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpIntstSum" id="26" indexed="18" label="还款总额(元)" row="1" type="12" typepara="元" widthType="0"/>
+<tableitem align="2" filedname="repayPrcpBalAfter" id="27" indexed="19" label="期末本金余额(元)" row="1" type="12" typepara="元" widthType="0"/>
+</table>

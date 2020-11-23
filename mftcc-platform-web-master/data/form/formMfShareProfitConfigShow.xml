@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="MfShareProfitConfigShow" title="基础分润配置展示表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="主键id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="关联客户号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="3" labelalign="3" labelcol="1" labelname="关联客户姓名" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isBase" fieldtype="99" formactiveid="4" labelalign="3" labelcol="1" labelname="是否是基础数据：1-是；0-否；" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="configName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="配置名称" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="matchType" fieldsize="MATCH_TYPE" fieldtype="2" formactiveid="6" labelalign="3" labelcol="1" labelname="匹配类型" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calcBase" fieldsize="MATCH_TYPE" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="计算基数" maxlength="1" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calcMethod" fieldsize="CALC_METHOD" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="计算方式" maxlength="1" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="calcCoefficient" fieldsize="CALC_COEFFICIENT" fieldtype="2" formactiveid="9" labelalign="3" labelcol="1" labelname="计算系数" maxlength="1" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="calcFormula" fieldtype="5" formactiveid="10" labelalign="3" labelcol="1" labelname="计算公式" maxlength="200" mustinput="0" readonly="1" row="5"/>
+</form>

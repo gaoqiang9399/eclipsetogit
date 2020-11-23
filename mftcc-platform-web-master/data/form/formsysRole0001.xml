@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="sysRole0001" title="新增角色表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="roleName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="角色名称" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="roleNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="5" labelname="角色编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="roleType" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="角色类型" mustinput="" readonly="" row="1" />
+</form>

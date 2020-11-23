@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="humanResourcesapprove" title="人力需求审批详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="baseId" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="关联基础信息ID" maxlength="30" mustinput="0" param2="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appDepartment" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="申请部门" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="部门编号" maxlength="22" mustinput="0" param2="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="appDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="申请日期" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recruitmentPosition" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="招聘职位" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="14" horVer="0" labelalign="3" labelcol="5" labelname="操作员" mustinput="" onclick="fPopUpCalendarDlg();" readonly="" row="2"/>
+</form>

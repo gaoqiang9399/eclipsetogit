@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?><form id="nmd1002" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaNo" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="15" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="areaName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lev" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uplev" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="15" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaSts" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ifLeaf" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="2" mustinput="0" row="5"/>
+</form>

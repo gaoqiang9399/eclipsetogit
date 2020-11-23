@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="checkinv0001" para="eadis_page" link="/mfMoveableCheckInventoryInfo/findByPage" title="动产核库登记表" type="1">
+<tableitem align="2" filedname="kindIsStandard" id="2" indexed="2" label="押品种类是否在规定范围内" row="1" type="0" />
+<tableitem align="2" filedname="ownershipIsChange" id="3" indexed="3" label="押品权属是否变更" row="1" type="0" />
+<tableitem align="2" filedname="worthIsUnderMin" id="4" indexed="4" label="押品价值是否低于监管下限" row="1" type="0" />
+<tableitem align="2" filedname="isDevalue" id="5" indexed="5" label="押品是否贬值" row="1" type="0" />
+<tableitem align="2" filedname="isDamage" id="6" indexed="6" label="评级模型名称" row="1" type="0" />
+<tableitem align="2" filedname="checkOpName" id="8" indexed="8" label="核库人名称" row="1" type="0" />
+<tableitem align="2" filedname="checkDate" id="10" indexed="10" label="核库时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="18" indexed="18" label="-" row="1" type="5" typepara="/mfMoveableCheckInventoryInfo/deleteAjax;checkInventoryId-checkInventoryId;onClick-ajaxDelete(this)" width="2"/>
+</table>

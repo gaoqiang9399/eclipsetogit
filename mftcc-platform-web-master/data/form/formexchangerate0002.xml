@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="exchangerate0002" title="汇率表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="curshot" fieldsize="CUR_TYPE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="币种" maxlength="15" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="exchangeRate" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="汇率" maxlength="8" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rateno" fieldtype="99" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="2" />
+</form>

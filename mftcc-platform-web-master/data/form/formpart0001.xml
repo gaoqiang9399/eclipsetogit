@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="part0001" title="合作伙伴信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="客户号" maxlength="90" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户名称" maxlength="240" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="21" formactiveid="3" labelalign="3" labelcol="1" labelname="客户类型" maxlength="3" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="idType" fieldsize="CORP_ID_TYPE" fieldtype="21" formactiveid="4" labelalign="3" labelcol="1" labelname="证件类型" maxlength="3" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="证件号码" maxlength="90" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="6" labelalign="3" labelcol="3" labelname="登记机构号" maxlength="90" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="240" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="8" labelalign="3" labelcol="3" labelname="登记人" maxlength="90" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="240" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="3" labelname="最新登记机构号" maxlength="90" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstOrgName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="3" labelname="最新登记机构名称" maxlength="240" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="3" labelname="最新登记人" maxlength="90" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="最新登记人名称" maxlength="240" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="登记日期" maxlength="24" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="lstDate" fieldtype="1" formactiveid="15" labelalign="3" labelcol="3" labelname="更新日期" maxlength="24" mustinput="0" readonly="1" row="5"/>
+</form>

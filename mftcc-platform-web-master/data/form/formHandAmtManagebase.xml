@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="HandAmtManagebase" title="手续费管理">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="保后跟踪ID" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="委托保证合同编号" maxlength="200" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="产品名称" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projectName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="项目名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="actualReceivedHandAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="已收手续费" maxlength="14" mustinput="1" row="4" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="handAmt" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="应收手续费" maxlength="14" mustinput="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="申请人编号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="客户名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="65" labelalign="3" labelcol="1" labelname="更新时间" maxlength="17" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="99" formactiveid="66" labelalign="3" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincId" fieldtype="99" formactiveid="78" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="79" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="99" formactiveid="81" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="82" labelalign="3" labelcol="1" labelname="项目名称" maxlength="100" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="83" labelalign="3" labelcol="1" maxlength="4" mustinput="0" row="58"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="94" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="500" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" formactiveid="103" horVer="0" labelalign="3" labelcol="1" labelname="借据号" mustinput="" readonly="" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="actualPayHandAmt" fieldtype="1" formactiveid="104" horVer="0" labelalign="3" labelcol="1" labelname="实际支出手续费" maxlength="14" mustinput="1" readonly="" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="refundHandAmt" fieldtype="1" formactiveid="105" horVer="0" labelalign="3" labelcol="3" labelname="已退手续费" maxlength="14" mustinput="1" readonly="" row="5" unit="元"/>
+</form>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="fundplan0002" title="资金计划详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fundPlanType" fieldsize="FUND_PLAN_TYPE" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="类型" maxlength="1" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="unit" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="单位" maxlength="10" mustinput="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="project" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="项目" maxlength="50" mustinput="0" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fundPlanAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="金额" maxlength="12" mustinput="0" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fundPlanSts" fieldsize="FUND_PLAN_STS" fieldtype="2" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="状态" maxlength="1" mustinput="1" row="6"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="state" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="date" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="日期" mustinput="1" onclick="fPopUpCalendarDlg();" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="5" labelname="登记人编号" mustinput="" readonly="" row="3"/>
+</form>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssReportQueryGoodsList" para="eadis_page" title="进销存报表商品查询列表" type="1">
+<tableitem align="1" filedname="goodsName" id="5" indexed="6" label="商品名称" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="1" filedname="goodsId" id="4" indexed="5" label="商品编号" row="1" sortType="2" type="99" widthType="0"/>
+<tableitem align="2" filedname="goodsId" id="7" indexed="4" label="选择" row="1" sortType="2" type="2" width="20" widthType="0"/>
+</table>

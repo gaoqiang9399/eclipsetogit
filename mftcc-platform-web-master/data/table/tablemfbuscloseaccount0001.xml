@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfbuscloseaccount0001" para="eadis_page" title="销户申请表" type="2">
+<tableitem align="2" authority="appSts-1;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;closeReqType-02;" filedname="申请" id="19" indexed="18" label="-" row="1" sortType="2" type="5" typepara="/mfBusCloseAccount/submitAppAjax;closeId-closeId;appSts-appSts;onClick-MfBusCloseAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="appStationName" id="21" indexed="7" label="申请岗" row="1" type="0" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-1;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;" filedname="提交" id="18" indexed="21" label="-" row="1" sortType="2" type="5" typepara="/mfBusCloseAccountWkf/processSubmitAjax;wkfAppId-wkfAppId;onClick-MfBusCloseAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="closeTime" id="9" indexed="3" label="申请时间" row="1" sortType="2" type="4" typepara="/mfBusCloseAccount/getById;closeId-closeId;wkfAppId-wkfAppId;cusNo-cusNo;" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="20" indexed="17" label="申请状态" row="1" type="6" typepara="HM_APP_STS" widthType="0"/>
+<tableitem align="2" authority="appSts-0;appSts-2;appSts-3;appSts-4;appSts-5;appSts-6;appSts-9;closeReqType-02;" filedname="复核" id="17" indexed="20" label="-" row="1" sortType="2" type="5" typepara="/mfBusCloseAccount/submitChkAjax;closeId-closeId;appSts-appSts;onClick-MfBusCloseAccount.submitAppAndChk" width="2" widthType="0"/>
+<tableitem align="2" filedname="savingKind" id="7" indexed="6" label="存款种类" row="1" type="6" typepara="SAVING_KIND" widthType="0"/>
+<tableitem align="2" filedname="chkTime" id="15" indexed="16" label="复核时间" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="accountNature" id="5" indexed="5" label="账户性质" row="1" type="6" typepara="ACCOUNT_NATURE" widthType="0"/>
+<tableitem align="2" filedname="chkStationName" id="3" indexed="8" label="复核岗" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="openLicenceNo" id="10" indexed="4" label="开户许可证核准号" row="1" type="0" widthType="0"/>
+</table>

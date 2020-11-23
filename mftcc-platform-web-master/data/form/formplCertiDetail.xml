@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="plCertiDetail" title="权证信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certiId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="数据ID" maxlength="30" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certiNo" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="权属证书编号" maxlength="30" mustinput="1" param="certiId;collateralId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certiOrg" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="3" labelname="发证机构" maxlength="100" mustinput="0" param="certiId;collateralId;" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="certiAmount" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="权证价值" maxlength="16" mustinput="0" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="certiStartDate" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="2" labelname="权证发放日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg()" readonly="1" row="3" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="certiDueDate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="到期日期" maxlength="8" mustinput="0" onclick="selectrili(this)" param="certiId;collateralId;" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="5" fieldname="recDate" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="4" labelname="登记时间" maxlength="8" mustinput="0" onclick="selectrili(this,null,null,today)" param="certiId;collateralId;" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="recCusId" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="接收人编号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="recCusName" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="4" labelname="接收人名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="collateralId" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="classId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="押品类别ID" mustinput="" readonly="" row="9" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="dealType" fieldsize="DEAL_TYPE" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="交易类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="13" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="certiIdcollateralId" readonly="" row="1"/>
+</form>

@@ -1,0 +1,354 @@
+body{
+	background-color: #f1f1f1;
+}
+::-moz-focus-inner{border:0px;}
+a,a:hover,a:visited,a:link{
+	text-decoration:none;
+	outline: none;
+}
+.div_role_search{
+	width: 166px;
+	height: 25px;
+	position: absolute;
+	right:0px;
+	margin: 0 7px 0 10px;
+}
+.div_role_search input{
+	display:block;
+	height:25px;
+	margin: 0px;
+	border: none;
+	outline: none;
+}
+.div_role_search i{
+	width:25px;
+	height:25px;
+	margin: 0px;
+	background-color: #ffffff;
+	right: 0px;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	line-height: 25px;
+	cursor: pointer;
+}
+.fa-check-circle-o{
+	font-size: 30px;
+	position: absolute;
+    right: 4px;
+    top: 8px;
+    width: 30px;
+	height: 30px;
+    cursor: pointer;
+    color:#18FF00;
+    color:#ffffff;
+}
+.fa-times-circle-o{
+	font-size: 30px;
+	position: absolute;
+    right: 4px;
+    top: 42px;
+    width: 30px;
+	height: 30px;
+    cursor: pointer;
+    /* color:#ff0000; */
+    color:#fff;
+}
+
+.i_role_plus{
+	margin-top: 20px;
+	font-size: 47px;
+	color: #D8CDCD;
+}
+.div_role_body{
+	background-color: #F1F1F1;
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+}
+.div_role_rotate{
+	/* -webkit-perspective: 800px;
+    -webkit-perspective-origin: 50% 50%;
+    -moz-perspective: 800px;
+    -moz-perspective-origin: 50% 50%;
+    perspective: 800px;
+    perspective-origin: 50% 50%; */
+    padding: 5px 5px;
+    width: 224px;
+	height: 86px;
+	display: inline-block;
+}
+.div_role_obj{
+	padding:5px;
+	position:relative;
+	width: 220px;
+	height: 82px;
+	text-align: center;
+	transition: all 1s;
+	-webkit-transition: all 1s; /* Safari */
+}
+.div_role_front{
+	position: absolute;
+	width: 220px;
+	height: 80px;
+	border:1px solid #D7D7D7;
+	background-color: #FFF;
+	top:0px;
+	transition: all 1s;
+	-webkit-transition: all 1s; /* Safari */
+}
+.div_role_back{
+	display:none;
+	position: absolute;
+	width: 220px;
+	height: 80px;
+	border:1px solid #D7D7D7;
+	background-color: #32b5cb;
+	top:-80px;
+	transition: all 1s;
+	-webkit-transition: all 1s; /* Safari */
+}
+.sub_move_back{
+	transform:rotateX(0deg) translateZ(40px);
+	-webkit-transform:rotateX(0deg) translateZ(40px); /* Safari and Chrome */
+	-moz-transform:rotateX(0deg) translateZ(40px); /* Firefox */
+}
+.sub_move_front{
+	transform:rotateX(-90deg) translateZ(40px);
+	-webkit-transform:rotateX(-90deg) translateZ(40px); /* Safari and Chrome */
+	-moz-transform:rotateX(-90deg) translateZ(40px); /* Firefox */
+}
+.i_role_user{
+	z-index: 1;
+	color: #E5E5E5;
+	font-size: 65px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    background-image: url("../images/user_icon_1.png");
+    background-size:60px 60px;
+    display: block;
+	width: 60px;
+	height: 60px;
+}
+.div_role_no{
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 25px;
+}
+.role_dian{
+	position:absolute;
+	width:10px;
+	height:10px;
+	top: 10px;
+	left: 10px;
+	display: block;
+	border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	background-color: #32b5cb;
+	-moz-box-shadow:2px 2px 0px #2B71B0 inset;              
+    -webkit-box-shadow:2px 2px 0px #2B71B0 inset;           
+    box-shadow:2px 2px 0px #2B71B0 inset;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.div_role_name{
+	height: 50px;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 50px;
+}
+.div_role_back_ctrl{
+	text-align:left;
+	width: 175px;
+	height: 100%;
+}
+.div_role_back_ctrl div{
+	border-bottom: 1px solid #D4D4D4;
+}
+.div_role_back_ctrl input{
+	height: 26px;
+	width: 111px;
+	border: none;
+	outline: none;
+	padding: 0px;
+	padding-left: 5px;
+}
+
+.div_select select{
+	position: relative;
+	border-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	display: block;
+	height: 26px;
+	width: 131px;
+	overflow: hidden;
+}
+.div_role_back_ctrl select:active{outline:none;}
+.div_role_back_ctrl label{
+	color: #fff;
+	width: 64px;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+}
+.div_select{
+	height: 26px;
+	width: 111px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	overflow: hidden;
+	border: none;
+	display: inline-block;
+}
+.label_select{
+	top: -10px;
+	left: 0px;
+	position: relative;
+}
+.move_front .div_role_front{
+	top:-80px;
+	display: none;
+}
+.move_front .div_role_back{
+	top:0px;
+	display: block;
+}
+.move_back{
+}
+/* 锟斤拷锟斤拷锟酵Ｐэ拷锟� */
+.btn26 .ovrly {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn26 .buttons {
+	z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.btn26 .buttons .fa {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  /*   background-color: rgb(256, 256, 256); */
+/*  	 background-color:#2256B5; */
+ 	 background-color:#32b5cb;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    /* color: rgba(50, 50, 50, 0.9); */
+    color: rgba(255, 255, 255, 0.9);
+    -webkit-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -moz-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    -o-transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+    transition: all 0.3s cubic-bezier(0, 1.135, 0.73, 1.405);
+}
+.btn26 .buttons .i-yanjing {
+    background-color: #00D56F;
+}
+.btn26 .buttons .fa-trash-o {
+    background-color: #FF0000;
+}
+.btn26:hover .buttons .fa {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+.btn26:hover .ovrly {
+	z-index:10;
+    opacity: 1;
+}
+/* .btn26:hover .i_role_user {
+    color: #009de3;
+}
+.btn26:hover .role_dian {
+    background-color: #40D476;
+	-moz-box-shadow:2px 2px 0px #1AAB50 inset;              
+    -webkit-box-shadow:2px 2px 0px #1AAB50 inset;           
+    box-shadow:2px 2px 0px #1AAB50 inset;
+} */
+/* 锟脚达拷 */
+.div_role_view{
+	background-color: rgba(0,0,0,0.5);
+	/* opacity: 0.5; */
+	position: absolute;
+	z-index: 99;
+}
+
+.div_role_edit{
+	width:248px;
+	height:139px;
+	border:1px solid #D4D4D4;
+	margin:100px auto;
+	background-color: #FFFFFF;
+}
+.div_role_edit .close_btn{
+	position: fixed;
+	right: 0px;
+	top:0px;
+}
+.div_role_edit .edit_input{
+	position:relative;
+	display:block;
+}
+.div_role_edit .edit_tile{
+	height: 30px;
+	background-color: #F5F3F5;
+}
+.edit_input input{
+	position: absolute;
+	right: 0px; 
+}
+.edit_input label{
+	left:0px;
+	display: inline-block;
+	width: 120px;
+	
+}

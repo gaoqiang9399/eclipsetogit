@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="recetran0001" title="应收账款转让申请信息表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="receAmt" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="应收账款总额" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receBal" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="应收账款余额" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tranReces" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="转让押品" maxlength="1000" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tranAmt" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="转让金额" maxlength="20" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tranRate" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="转让比例" maxlength="10" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="feeAmt" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="费用信息" maxlength="20" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="备注" maxlength="400" mustinput="0" row="4"/>
+</form>

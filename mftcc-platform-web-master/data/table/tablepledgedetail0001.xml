@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="pledgedetail0001" para="eadis_page" link="/mfBusPledgeDetail/findByPage" title="押品信息清单" type="1">
+<tableitem align="2" filedname="detailId" id="1" indexed="1" label="流水号" row="1" type="4" typepara="/mfBusPledgeDetail/getById;detailId-detailId;query-'query'"/>
+<tableitem align="2" filedname="pledgeNo" id="2" indexed="2" label="押品的唯一标示" row="1" type="0" />
+<tableitem align="2" filedname="pledgeNoShow" id="3" indexed="3" label="押品编号" row="1" type="0" />
+<tableitem align="2" filedname="pledgeName" id="4" indexed="4" label="押品名称" row="1" type="0" />
+<tableitem align="2" filedname="relatePledgeNo" id="5" indexed="5" label="关联押品编号" row="1" type="0" />
+<tableitem align="2" filedname="classNo" id="6" indexed="6" label="所属类别编号，可以通过选择的方式录入" row="1" type="0" />
+<tableitem align="2" filedname="className" id="7" indexed="7" label="所属类别名称" row="1" type="0" />
+<tableitem align="2" filedname="pledgeSts" id="8" indexed="8" label="1 新登记、2 已引用。3  已入库 4 已出库、5押品处置" row="1" type="0" />
+<tableitem align="2" filedname="delflag" id="9" indexed="9" label="该押品是否已经被删除（0：没有；1：有）" row="1" type="0" />
+<tableitem align="2" filedname="addFlag" id="10" indexed="10" label="追加标志：0-不是追加的押品 1-追加的押品" row="1" type="0" />
+<tableitem align="2" filedname="pledgeAmount" id="11" indexed="11" label="押品数量" row="1" type="0" />
+<tableitem align="2" filedname="amountUnit" id="12" indexed="12" label="数量单位" row="1" type="0" />
+<tableitem align="2" filedname="pledgeRate" id="13" indexed="13" label="担保时实际价值=评估价值*抵质押率" row="1" type="0" />
+<tableitem align="2" filedname="envalue" id="14" indexed="14" label="押品的首次评估价值" row="1" type="0" />
+<tableitem align="2" filedname="envalueDate" id="15" indexed="15" label="押品的最初评估日期" row="1" type="0" />
+<tableitem align="2" filedname="envalueCrop" id="16" indexed="16" label="评估公司" row="1" type="0" />
+<tableitem align="2" filedname="belongRegister" id="17" indexed="17" label="0：否；1：是。" row="1" type="0" />
+<tableitem align="2" filedname="canExport" id="18" indexed="18" label="出库标志:0：否，1：是。" row="1" type="0" />
+<tableitem align="2" filedname="exportDate" id="19" indexed="19" label="出库日期" row="1" type="0" />
+<tableitem align="2" filedname="disabledDate" id="20" indexed="20" label="押品的失效日期" row="1" type="0" />
+<tableitem align="2" filedname="canImport" id="21" indexed="21" label="入库标志：0：否，1：是" row="1" type="0" />
+<tableitem align="2" filedname="importDate" id="22" indexed="22" label="入库日期" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="23" indexed="23" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="24" indexed="24" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="25" indexed="25" label="登记人名字" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="26" indexed="26" label="登记部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="27" indexed="27" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="28" indexed="28" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="cusNo" id="29" indexed="29" label="押品所有者客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="30" indexed="30" label="押品所有者客户名称" row="1" type="0" />
+<tableitem align="2" filedname="itemName" id="31" indexed="31" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="envalueCropCode" id="32" indexed="32" label="评估公司组织机构代码" row="1" type="0" />
+<tableitem align="2" filedname="certificateNo" id="33" indexed="33" label="权属证书编号" row="1" type="0" />
+<tableitem align="2" filedname="cusNoGua" id="34" indexed="34" label="担保客户编号" row="1" type="0" />
+<tableitem align="2" filedname="cusNameGua" id="35" indexed="35" label="担保客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="guaAmt" id="36" indexed="36" label="担保金额" row="1" type="0" />
+<tableitem align="2" filedname="guaRate" id="37" indexed="37" label="担保比例" row="1" type="0" />
+<tableitem align="2" filedname="pledgeAddress" id="38" indexed="38" label="押品地点" row="1" type="0" />
+<tableitem align="2" filedname="ifWriteWarrant" id="39" indexed="39" label="是否可以录权证 0否 1是" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="40" indexed="40" label="最后一次修改时间" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="41" indexed="41" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="42" indexed="42" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="43" indexed="43" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="44" indexed="44" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="45" indexed="45" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="46" indexed="46" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="47" indexed="47" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="48" indexed="48" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="49" indexed="49" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="50" indexed="50" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="52" indexed="52" label="-" row="1" type="5" typepara="/mfBusPledgeDetail/deleteAjax;detailId-detailId;onClick-ajaxDelete(this)" width="2"/>
+</table>

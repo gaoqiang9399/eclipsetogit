@@ -1,0 +1,158 @@
+/* commented backslash hack \*/
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+}
+.layoutTop {
+  z-index: 99;
+  top: 0;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: #3282cb;
+}
+.layoutTop .sysLog {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+}
+.layoutTop .sysLog .logo_top {
+  margin: 0 auto;
+}
+.layoutTop .sysLog .logo_top .centerDiv {
+  width: 320px;
+  margin: 0 auto;
+}
+.layoutTop .sysLog .logo_top .centerDiv .logotext {
+  line-height: 60px;
+  font-size: 24px;
+  color: white;
+  float: left;
+}
+.layoutTop .sysLog .logo_top .centerDiv .enterLogo {
+  float: left;
+  display: block;
+  margin: 0 auto;
+  width: 74px;
+  height: 64px;
+  background: url("../images/enterLogo.png") no-repeat;
+}
+.layoutTop .sysLog .logo_top .welcomeText {
+  display: block;
+  clear: both;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+}
+.mainCotent {
+  position: absolute;
+  height: 40%;
+  top: 30%;
+  width: 100%;
+  z-index: 2;
+}
+.mainCotent .iconmoon {
+  font-size: 26px;
+}
+.mainCotent .input-group-addon {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-right: none;
+  border-radius: 0px;
+  color: #3078c0;
+  text-align: center;
+  min-width: 50px;
+  padding: 0px 6px;
+}
+.layoutBottom {
+  bottom: 0;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: #3282cb;
+  z-index: 99;
+}
+.form-control {
+  font-size: 16px;
+  border: 1px solid #dadada;
+  border-radius: 0px;
+  box-shadow: none;
+  transition: none;
+}
+.form-control:focus {
+  border-radius: 0px;
+  box-shadow: none;
+  transition: none;
+}
+.btn {
+  border: 1px solid #dadada;
+  border-radius: 0px;
+  color: #3078c0;
+  outline: none;
+}
+.btn-icon {
+  width: 40px;
+  height: 34px;
+}
+.btn:hover {
+  color: #3078c0;
+  background: none;
+  border: 1px solid #dadada;
+}
+.btn-primary {
+  background: #3282cb;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 5px;
+}
+.btn-primary:hover {
+  background: #3282cb;
+  color: white;
+  border: 1px solid #dadada;
+  opacity: 0.8;
+}
+.input-group input {
+  font-size: 16px;
+  color: #887777;
+}
+.row {
+  margin-top: 8px;
+}
+.no-padding-left {
+  padding-left: 0;
+  padding-right: 0;
+}
+.validate {
+  padding: 0px;
+  text-align: center;
+}
+.changeCode {
+  font-size: 12px;
+  line-height: 30px;
+  text-decoration: underline;
+}
+.changeCodeText {
+  text-align: right;
+}
+#codeImage {
+  margin-top: 5px;
+}
+.errorMessageRow {
+  margin-bottom: -10px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: orange;
+}
+.erweima-tips {
+    background-image: url("../images/erweima_demo.png");
+	background-repeat: no-repeat;
+	padding: 1px 25px;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+	letter-spacing: 1px;
+}

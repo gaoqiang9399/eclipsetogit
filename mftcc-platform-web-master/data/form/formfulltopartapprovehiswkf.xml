@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="fulltopartapprovehiswkf" title="全职转兼职审批历史">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="name" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="姓名" maxlength="30" mustinput="0" onclick="MfOaFullToPart_Insert.selectName(MfOaFullToPart_Insert.changeBaseInfo);" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="hireDate" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="入职日期" maxlength="8" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="部门" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="positionShow" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="职务" maxlength="40" mustinput="0" row="2"/>
+</form>

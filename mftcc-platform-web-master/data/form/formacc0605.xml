@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="acc0605" title="核算纠错登记">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appNo" fieldtype="1" fieldwidth="30" formactiveid="1" labelalign="3" labelcol="1" labelname="申请号" labelwidth="20" maxlength="30" mustinput="0" readonly="1" row="1" unit="[自动生成]"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectAccNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="台账编号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contNo" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="合同号" maxlength="30" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rectType" fieldsize="RECT_TYPE" fieldtype="21" fieldwidth="30" formactiveid="4" labelalign="3" labelcol="3" labelname="纠错类型" labelwidth="20" maxlength="10" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cifName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="客户名称" maxlength="80" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="accName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="客户账号户名" maxlength="80" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dcInd" fieldsize="DIC_TYP" fieldtype="21" formactiveid="11" labelalign="3" labelcol="1" labelname="纠错方向" maxlength="10" mustinput="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="prcpAmt" fieldtype="1" formactiveid="13" initvalue="0.00" labelalign="3" labelcol="3" labelname="纠错本金" maxlength="16" mustinput="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="normInt" fieldtype="1" formactiveid="15" initvalue="0.00" labelalign="3" labelcol="1" labelname="违约金" maxlength="16" mustinput="1" row="6" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appSts" fieldsize="APP_STS" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="申请状态" maxlength="10" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rectSts" fieldsize="ALP_STATUS" fieldtype="21" formactiveid="18" labelalign="3" labelcol="1" labelname="状态" maxlength="10" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="upDate" fieldtype="1" formactiveid="19" labelalign="3" labelcol="3" labelname="更新时间" maxlength="10" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="txDate" fieldtype="1" formactiveid="20" labelalign="3" labelcol="1" labelname="登记时间" maxlength="10" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="appEndDate" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="终审时间" maxlength="10" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="登记人名称" maxlength="30" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="登记人" maxlength="10" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="登记机构名称" maxlength="80" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="25" labelalign="3" labelcol="1" labelname="登记机构" maxlength="10" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="payFeeNo" fieldtype="99" formactiveid="27" labelalign="3" labelcol="1" labelname="缴费编号" mustinput="" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cifType" fieldsize="CIF_TYPE" fieldtype="99" formactiveid="28" labelalign="3" labelcol="1" labelname="客户类型" mustinput="" readonly="1" row="5"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="perdNo" fieldtype="99" formactiveid="29" labelalign="3" labelcol="3" labelname="期号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accNo" fieldtype="1" formactiveid="30" labelalign="3" labelcol="1" labelname="客户账户" mustinput="" readonly="" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="odInt" fieldtype="1" formactiveid="31" labelalign="3" labelcol="3" labelname="手续费" mustinput="1" readonly="" row="6" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="perdNo" fieldtype="99" formactiveid="32" labelalign="3" labelcol="1" labelname="期号" mustinput="0" row="6"/>
+</form>

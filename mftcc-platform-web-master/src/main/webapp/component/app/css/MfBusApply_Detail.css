@@ -1,0 +1,62 @@
+/* 风险拦截相关  begin*/
+
+/* 风险拦截通过 */
+
+.risklevel-1 {
+	background-color: #00AA00;
+	color:#fff;
+}
+.risklevel-1:hover,
+.risklevel-1:focus {
+	background-color: #228B22;
+	color:#fff;
+}
+
+/* 风险拦截-无风险/通过 */
+.risklevel0 {
+	background-color: #00AA00;
+	color:#fff;
+}
+.risklevel0:hover,
+.risklevel0:focus {
+	background-color: #228B22;
+	color:#fff;
+}
+/* 风险拦截--低风险 */
+.risklevel1 {
+	background-color: #FCB865;
+	color:#fff;
+}
+.risklevel1:hover,
+.risklevel1:focus {
+	background-color: #E9AA64;
+	color:#fff;
+}
+/* 风险拦截--高风险*/
+.risklevel2 {
+	background-color: #E14A47;
+	color:#fff;
+}
+.risklevel2:hover,
+.risklevel2:focus {
+	background-color: #C9302C;
+	color:#fff;
+}
+/* 风险拦截--业务拒绝 */
+.risklevel99 {
+	background-color: #E14A47;
+	color:#fff;
+}
+.risklevel99:hover,
+.risklevel99:focus {
+	background-color: #C9302C;
+	color:#fff;
+}
+/* 风险拦截相关  end*/
+
+/* 认证报告样式 */
+.btn-dodgerblue {
+    color: #fff;
+    background-color: #32b5cb;
+    border-color: #ccc;
+}

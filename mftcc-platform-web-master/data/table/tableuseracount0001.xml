@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="useracount0001" para="eadis_page" link="/vmCifLineReg/findByPage" title="InnoDB free: 17408 kB" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="ID" row="1" type="4" typepara="/vmCifLineReg/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="openid" id="2" indexed="2" label="微信账户标识" row="1" type="0" />
+<tableitem align="2" filedname="cifNo" id="3" indexed="3" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cifAccount" id="4" indexed="4" label="账号" row="1" type="0" />
+<tableitem align="2" filedname="cusTel" id="5" indexed="5" label="客户手机号" row="1" type="0" />
+<tableitem align="2" filedname="cifEmail" id="6" indexed="6" label="email" row="1" type="0" />
+<tableitem align="2" filedname="cifNickname" id="7" indexed="7" label="昵称" row="1" type="0" />
+<tableitem align="2" filedname="cusType" id="8" indexed="8" label="客户类型" row="1" type="0" />
+<tableitem align="2" filedname="activeFlag" id="9" indexed="9" label="激活标志：1激活，0未激活" row="1" type="0" />
+<tableitem align="2" filedname="cifPassword" id="10" indexed="10" label="登陆密码" row="1" type="0" />
+<tableitem align="2" filedname="tradersPassword" id="11" indexed="11" label="交易密码" row="1" type="0" />
+<tableitem align="2" filedname="cifSalt" id="12" indexed="12" label="密钥 用于登录验证" row="1" type="0" />
+<tableitem align="2" filedname="regOrigin" id="13" indexed="13" label="注册来源 0 手机 1  pc" row="1" type="0" />
+<tableitem align="2" filedname="cifOrigin" id="14" indexed="14" label="客户来源 默认1" row="1" type="0" />
+<tableitem align="2" filedname="onlineFlag" id="15" indexed="15" label="线上/线下标记 0 线上 1 线下" row="1" type="0" />
+<tableitem align="2" filedname="accountFlag" id="16" indexed="16" label="开户标记 0 未开户 1 开户 默认1" row="1" type="0" />
+<tableitem align="2" filedname="cifHead" id="17" indexed="17" label="客户头像" row="1" type="0" />
+<tableitem align="2" filedname="lastIp" id="18" indexed="18" label="最后登陆ip" row="1" type="0" />
+<tableitem align="2" filedname="lastTime" id="19" indexed="19" label="最近登陆时间" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="20" indexed="20" label="注册时间" row="1" type="0" />
+<tableitem align="2" filedname="regIp" id="21" indexed="21" label="注册ip" row="1" type="0" />
+<tableitem align="2" filedname="occTime" id="22" indexed="22" label="时间戳" row="1" type="0" />
+<tableitem align="2" filedname="recommender" id="23" indexed="23" label="推荐人" row="1" type="0" />
+<tableitem align="2" filedname="recommendedCode" id="24" indexed="24" label="推荐码(用于推荐他人的)" row="1" type="0" />
+<tableitem align="2" filedname="registrationCode" id="25" indexed="25" label="注册码（注册时填写的）" row="1" type="0" />
+<tableitem align="2" filedname="integral" id="26" indexed="26" label="剩余积分" row="1" type="0" />
+<tableitem align="2" filedname="usedIntegral" id="27" indexed="27" label="已用积分" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="29" indexed="29" label="-" row="1" type="5" typepara="/vmCifLineReg/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

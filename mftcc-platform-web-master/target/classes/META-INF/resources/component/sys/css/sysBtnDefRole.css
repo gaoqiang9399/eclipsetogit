@@ -1,0 +1,339 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-font-smoothing:antialiased;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+button{
+	font-size: 12px;
+}
+
+.sys-btn-body {
+	height: 100%;
+	display: block;
+	width: 100%;
+}
+.sys-top{
+	height: 40px;
+	width: 98%;
+	display: block;
+	margin: 0 1%;
+}
+.sys-top button{
+	height: 30px;
+	width: 120px;
+	float:right;
+	border: 1px solid #ddd;
+	border-radius:4px;
+	background-color: #1e94cc;
+	color: #ffffff;
+	margin-top:5px;
+	margin-right:10px;
+	vertical-align: middle;
+}
+.sys-btn-lv {
+	display: block;
+	width: 32%;
+	height: calc(95% - 40px);
+	float: left;
+	/* border: 1px solid #000; */
+	margin: 0 0 1% 1%;
+}
+
+.sys-btn-lv.lv1 {
+	width: 20%;
+}
+
+.sys-btn-lv.lv2 {
+	width: 30%;
+}
+
+.sys-btn-lv.lv3 {
+	width: 45%;
+}
+
+
+
+.sys-btn-head {
+	position: relative;
+	border-bottom: 1px solid #ddd;
+}
+
+.sys-btn-head h3 {
+	background: none;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	margin: 0;
+	padding: 2px 0 0 10px;
+	color: #6D96B1;
+	font-size: 12px;
+	font-style: normal;
+	font-family: "microsoft YaHei";
+	line-height: 30px;
+}
+
+.sys-btn-head i {
+	color: #6D96B1;
+	position: absolute;
+	right: 12px;
+	top: 9px;
+	cursor: pointer;
+}
+
+.selectAllBtn{
+	position: absolute;
+	top: 7px;
+    right: 16px;	
+    display: none;
+}
+
+.sys-btn-lv.lv1 .sys-btn-head i {
+	
+}
+
+.sys-btn-lv.lv2 .sys-btn-head i {
+	display: none;
+}
+
+.sys-btn-lv.lv3 .sys-btn-head i {
+	display: none;
+}
+
+.sys-btn-tree {
+	height: calc(100% - 20px);
+	background: none;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.sys-btn-lv.lv3 .sys-btn-tree{
+	height: calc(100% - 60px);
+	border: 1px solid #ddd;
+	border-top: none;
+	border-bottom: none;
+}
+.sys-btn-lv.lv3 .sys-btn-button{
+	height: 40px;
+	border: 1px solid #ddd;
+	border-top: none;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	text-align: center;
+}
+.sys-btn-lv.lv3 .sys-btn-button button{
+	display:none;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #ddd;
+	border-radius:4px;
+	background-color: #1e94cc;
+	color: #ffffff;
+	margin-top:5px;
+	vertical-align: middle;
+}
+
+.ztree {
+	
+}
+
+.ztree li {
+	line-height: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+
+.ztree li.curSelectedNode {
+	background-color: #ebf0f5;
+}
+
+.ztree li span.button.chk{
+	float: right;
+	margin-right:15px;
+}
+
+.ztree li a {
+	width: 90%;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	color: #333;
+	background-color: transparent;
+	text-decoration: none;
+	vertical-align: top;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+
+.ztree li a.curSelectedNode {
+	height: auto;
+	background: none;
+	padding-top: 0px;
+	color: #000;
+}
+
+.ztree li span {
+	font-family: "Microsoft YaHei";
+	color: #666;
+	line-height: 40px;
+	float: left;
+}
+
+.ztree li a.curSelectedNode .node_name {
+	color: #1e94cc;
+}
+.sys-btn-lv.lv3 .ztree li a .node_name {
+	color: #1e94cc;
+	width: 150px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.ztree li span.desc{
+    float: right;
+    width: 50%;
+    overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.ztree li span.button {
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+}
+.ztree li span.button.delBtn {
+    margin-right: 10px;
+	float: right;
+	*vertical-align: middle;
+	background: url(../images/btn/del.png) no-repeat scroll 0 0
+		transparent;
+	background-position: 10px 10px;
+	background-size: 20px;
+}
+.ztree li span.button.editBtn {
+	float: right;
+	*vertical-align: middle;
+	background: url(../images/btn/edit.png) no-repeat scroll 0 0
+		transparent;
+	background-position: 10px 10px;
+	background-size: 20px;
+}
+
+.ztree li span.button.pIcon01_ico_open, .ztree li span.button.pIcon01_ico_close,
+	.ztree li span.button.pIcon01_ico_docu {
+	margin-right: 2px;
+	/* vertical-align: top; */
+	*vertical-align: middle;
+	background: url(../images/btn/com_128.png) no-repeat scroll 0 0
+		transparent;
+	background-position: 4px 4px;
+	background-size: 32px 32px;
+}
+
+.ztree li span.button.pIcon02_ico_open, .ztree li span.button.pIcon02_ico_close,
+	.ztree li span.button.pIcon02_ico_docu {
+	margin-right: 2px;
+	/* vertical-align: top; */
+	*vertical-align: middle;
+	background: url(../images/btn/fun_128.png) no-repeat scroll 0 0
+		transparent;
+	background-position: 4px 4px;
+	background-size: 32px 32px;
+}
+
+.ztree li span.button.pIcon03_ico_open, .ztree li span.button.pIcon03_ico_close,
+	.ztree li span.button.pIcon03_ico_docu {
+	margin-right: 2px;
+	/* vertical-align: top; */
+	*vertical-align: middle;
+	background: url(../images/btn/btn_128.png) no-repeat scroll 0 0
+		transparent;
+	background-position: 4px 4px;
+	background-size: 32px 32px;
+}
+
+.urlSet{
+	width: 20px;
+	height: 20px;
+	background: url(../images/btn/com_128.png);
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right:0;
+	top: 10px;
+}
+.smartD{
+	width:500px;
+	height:300px;
+	overflow:auto;
+	background:#ffffff;
+	display:none;
+}
+.smartDshow{
+	width:500px;
+	height:300px;
+	overflow:auto;
+	background:#ffffff;
+	border:1px solid #ddd;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-left: -250px;
+	margin-top: -150px;
+	display:inline-block; 
+}
+.smart_Ul{
+	width:100%;
+	height:auto;
+	list-style:none;
+	padding:10px 10px !important;
+	margin:0 !important;
+}
+.smart_Ul li{
+	width:100%;
+	height:40px;
+	position:relative;
+	border-bottom: 1px solid #dddddd;
+	padding-top:10px;
+}
+.urlCheck{
+	position:absolute;
+	right:0;
+	top: 13.75px;
+}
+.saveBtn{
+    width: 80px;
+	height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #1e94cc;
+    color: #ffffff;
+    margin-top: 5px;
+    vertical-align: middle;
+    position:absolute;
+    right: 150px;
+    bottom: 20px;
+}
+.closeBtn{
+    width: 80px;
+	height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #888888;
+    color: #ffffff;
+    margin-top: 5px;
+    vertical-align: middle;
+    position:absolute;
+    right: 40px;
+    bottom: 20px;
+}

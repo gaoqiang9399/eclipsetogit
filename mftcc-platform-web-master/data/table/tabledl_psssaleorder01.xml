@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="dl_psssaleorder01" para="eadis_page" title="销货订单" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssSaleOrder/getDetailPage;saleOrderId-saleOrderId;onDbClick-PssSaleOrder_List.getSaleOrder" type="2">
+<tableitem align="2" filedname="enabledStatus" id="29" indexed="13" label="使用状态" row="1" sortType="2" type="4" typepara="/pssSaleOrder/updateEnabledStatusAjax;saleOrderId-saleOrderId;" width="6" widthType="0"/>
+<tableitem align="2" authority="auditStsed-1;approvalStatus-02;approvalStatus-03;approvalStatus-05" filedname="删除" id="28" indexed="25" label="-" sortType="2" type="5" typepara="/pssSaleOrder/deleteSaleOrderAjax;saleOrderId-saleOrderId;onClick-PssSaleOrder_List.deleteSaleOrder(this)" widthType="0"/>
+<tableitem align="2" filedname="approvalStatus" id="26" indexed="20" label="审批状态" row="1" sortType="1" type="6" typepara="PSS_APPROVAL_STATUS" width="8" widthType="0"/>
+<tableitem align="2" filedname="regOpName" id="21" indexed="15" label="制单人" mytitle="模板内容-regOpName;" row="1" sortType="2" type="3" typepara="3" width="5" widthType="0"/>
+<tableitem align="2" filedname="billNos" id="9" indexed="6" label="关联销货单号" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="businessType" id="7" indexed="5" label="类别" row="1" sortType="1" type="6" typepara="PSS_SALE_BUSINESS_TYPE" width="5" widthType="0"/>
+<tableitem align="1" filedname="salerName" id="6" indexed="7" label="销售人员" mytitle="模板内容-salerName;" row="1" sortType="2" type="3" typepara="4" width="6" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="8" label="客户" mytitle="模板内容-cusName;" row="1" sortType="1" type="3" typepara="5" width="7" widthType="0"/>
+<tableitem align="2" filedname="deliveryDate" id="13" indexed="14" label="交货日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="2" filedname="saleOrderNo" id="4" indexed="4" label="订单编号" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="orderState" id="12" indexed="12" label="订单状态" row="1" sortType="2" type="6" typepara="PSS_SALE_ORDER_STATE" width="6" widthType="0"/>
+<tableitem align="2" filedname="orderDate" id="3" indexed="3" label="订单日期" row="1" sortType="1" type="1" width="8" widthType="0"/>
+<tableitem align="3" filedname="quantity" id="11" indexed="11" label="数量" row="1" sortType="1" type="0" width="5" widthType="0"/>
+<tableitem align="2" filedname="saleOrderId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="saleOrderId-saleOrderId;" width="4" widthType="0"/>
+<tableitem align="3" filedname="amount" id="10" indexed="10" label="销售金额" row="1" sortType="1" type="12" width="8" widthType="0"/>
+</table>

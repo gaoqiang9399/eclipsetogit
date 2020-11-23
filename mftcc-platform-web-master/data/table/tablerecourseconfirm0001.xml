@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="recourserecourseconfirm0001" para="eadis_page" title="追偿提醒" type="2">
+<tableitem align="1" filedname="cusName" id="5" indexed="2" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;onClick-getDetailCus(this);subStringNub-8;" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryFee" filedname="recourseFeeSum" id="14" indexed="18" label="追偿总额" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryIntst" filedname="compensatoryAlreadyTerm" id="12" indexed="15" label="代偿天数" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryPrcp" filedname="recoursePenaltyFee" id="11" indexed="13" label="追偿违约金费率" row="1" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="compensatoryPenalty" filedname="recoursePenalty" id="10" indexed="14" label="追偿违约金" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="compensatoryFee" id="18" indexed="17" label="代偿金额" type="0" widthType="0"/>
+<tableitem align="2" fieldStyle="termNum" filedname="id" id="9" indexed="9" label="编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="recourseDate" id="17" indexed="10" label="追偿到位日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" fieldStyle="planId" filedname="planId" id="16" indexed="20" label="还款计划编号" row="1" type="99" widthType="0"/>
+</table>

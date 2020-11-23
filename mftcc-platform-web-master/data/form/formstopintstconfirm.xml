@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="stopintstconfirm" title="停息确认">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincShowId" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="借据号" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="客户编号" maxlength="30" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="客户名称" maxlength="20" mustinput="0" onclick="bindDataSource(this, 'B', 'cusNo', '选择客户', false, null,'', null, MfBusStopIntstApply.cusChange, null,null)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="申请编号" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="appName" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" maxlength="50" mustinput="0" onclick="MfBusStopIntstApply.getbusappinfo();" readonly="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="stopPlanDate" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="计划停息日期" maxlength="8" mustinput="0" onclick="MfBusStopIntstApply.stopPlanDate();" readonly="1" row="4" unit="&lt;i class='i i-rili pointer' onClick='MfBusStopIntstApply.stopPlanDate();'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="loanBal" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="贷款余额" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="applyDate" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="申请日期" maxlength="8" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanAmt" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="贷款金额" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincId" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="3" labelname="借据号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindNo" fieldtype="99" formactiveid="23" horVer="0" labelalign="3" labelcol="3" labelname="产品编号" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactNo" fieldtype="99" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="合同展示号" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="benJin" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="应还本金" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="liXi" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="利息" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="yuQiLiXi" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="逾期利息" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="fuLiLiXi" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="复利利息" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="weiYueJin" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="违约金" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="total" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="停息结算总额" mustinput="" readonly="1" row="7" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="客户经理" mustinput="" readonly="1" row="8"/>
+</form>

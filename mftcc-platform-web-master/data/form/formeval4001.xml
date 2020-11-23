@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="eval4001" title="评级综合评价表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalLevel" fieldsize="EVAL_LEVEL" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="评级级别" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="evalAssess" fieldtype="5" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="级别描述" maxlength="400" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="evalScenceNo" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="4" labelname="评级场景编号" mustinput="" readonly="" row="1"/>
+</form>

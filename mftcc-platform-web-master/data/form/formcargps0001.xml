@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cargps0001" title="车辆gps">
+<formelement alt="请选择区域" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="info" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="所在位置" maxlength="10" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pleMediaBrand" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="车型" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="plate" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="车牌号" mustinput="" readonly="1" row="2"/>
+</form>

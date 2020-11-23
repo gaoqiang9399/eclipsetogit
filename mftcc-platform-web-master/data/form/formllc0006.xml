@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="llc0006" title="租后检查任务表">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="taskType" fieldsize="LLC_TASK_TYPE" fieldtype="21" fieldwidth="30" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="任务类型" labelwidth="20" maxlength="1" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="21" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="业务种类" maxlength="2" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="conNo" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="合同号" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="accNo" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="台账编号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="3" labelname="客户号" maxlength="30" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="cusName" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="2" labelname="客户名称" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="proxyNo" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="经销商编号" maxlength="30" mustinput="0" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="checkDate" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="检查日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(this);return false " readonly="1" row="5"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="finishDate" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="检查完成日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg(this);return false " readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskSts" fieldsize="FIVE_TASK_STS" fieldtype="2" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="任务状态" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="regName" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="2" labelname="任务执行人名称" maxlength="80" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="任务执行人编号" maxlength="30" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstDate" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="更新日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regDate" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="登记日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstRegName" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="最后更新人名称" maxlength="80" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegNo" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="最后更新人" maxlength="30" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgName" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记机构名称" maxlength="80" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgNo" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="登记机构" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="序号" maxlength="30" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="taskName" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="任务配置" mustinput="" readonly="" row="5" />
+</form>

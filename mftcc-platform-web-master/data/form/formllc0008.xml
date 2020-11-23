@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form id="llc0008" title="租后模版配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="序号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="模板名称" maxlength="80" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modelPath" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="模板路径" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="modelSts" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="模版状态" maxlength="1" mustinput="0" row="3"/>
+</form>

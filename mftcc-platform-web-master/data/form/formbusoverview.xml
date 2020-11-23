@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="busoverview" title="业务情况总览">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appTime" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="申请时间" mustinput="" param="appId" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appSts" fieldsize="APP_STS" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="办理阶段" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNameMng" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="业务经理" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="4" horver="0" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustInput="" param="appId" readonly="" row="1"/>
+</form>

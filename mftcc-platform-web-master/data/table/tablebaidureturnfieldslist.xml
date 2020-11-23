@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="baidureturnfieldslist" para="eadis_page" link="/mfBaiduReturnFields/findByPage" title="百度返回字段需求" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="id" row="1" type="4" typepara="/mfBaiduReturnFields/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="cusName" id="2" indexed="2" label="客户姓名" row="1" type="0" />
+<tableitem align="2" filedname="cusTel" id="3" indexed="3" label="客户手机号" row="1" type="0" />
+<tableitem align="2" filedname="idNum" id="4" indexed="4" label="客户身份证号" row="1" type="0" />
+<tableitem align="2" filedname="fincId" id="5" indexed="5" label="" row="1" type="0" />
+<tableitem align="2" filedname="channelSource" id="6" indexed="6" label="商户名称" row="1" type="0" />
+<tableitem align="2" filedname="storeName" id="7" indexed="7" label="门店名称" row="1" type="0" />
+<tableitem align="2" filedname="appName" id="8" indexed="8" label="项目名称" row="1" type="0" />
+<tableitem align="2" filedname="tremNum" id="9" indexed="9" label="客户贷款期数" row="1" type="0" />
+<tableitem align="2" filedname="loanAmt" id="10" indexed="10" label="贷款本金金额" row="1" type="0" />
+<tableitem align="2" filedname="loanSts" id="11" indexed="11" label="贷款状态" row="1" type="0" />
+<tableitem align="2" filedname="remittanceSts" id="12" indexed="12" label="打款状态" row="1" type="0" />
+<tableitem align="2" filedname="loanSuccessTime" id="13" indexed="13" label="贷款成功时间" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="14" indexed="14" label="创建时间" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="16" indexed="16" label="-" row="1" type="5" typepara="/mfBaiduReturnFields/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

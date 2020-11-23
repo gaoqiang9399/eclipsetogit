@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="busInterGuaranAdjustListBase" para="eadis_page" link="/mfBusInterGuaranAdjust/findByPage" title="预收利担费调整记录表" type="1">
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名" row="1" type="0" />
+<tableitem align="2" filedname="advanceInterest" id="4" indexed="4" label="预收利息" row="1" type="0" />
+<tableitem align="2" filedname="advanceGuarantee" id="5" indexed="5" label="预收担保费" row="1" type="0" />
+<tableitem align="2" filedname="adjustDate" id="6" indexed="6" label="调整日期" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="9" indexed="9" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="11" indexed="11" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="12" indexed="12" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="lstModDate" id="13" indexed="13" label="最后修改日期" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="22" indexed="22" label="-" row="1" type="5" typepara="/mfBusInterGuaranAdjust/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

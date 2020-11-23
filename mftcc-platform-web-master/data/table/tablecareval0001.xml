@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="careval0001" link="/mfPledgeCarEval/findByPage" para="eadis_page" title="车辆评估记录表" type="2">
+<tableitem align="1" filedname="title" id="19" indexed="8" label="车型名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="carRegDate" id="8" indexed="9" label="上牌日期" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="carMile" id="9" indexed="10" label="行驶里程（万公里）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="price" id="17" indexed="15" label="厂商指导价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="individualPrice" id="15" indexed="16" label="个人交易价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="dealerBuyPrice" id="14" indexed="17" label="车商收购价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="dealerPrice" id="16" indexed="18" label="车商零售价" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="2" filedname="opName" id="22" indexed="22" label="操作员" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="25" indexed="25" label="登记日期" row="1" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="查看" id="34" indexed="34" label="-" row="1" type="5" typepara="/mfPledgeCarEval/getById;evalId-evalId;onClick-viewCareval(this)" width="2" widthType="0"/>
+</table>

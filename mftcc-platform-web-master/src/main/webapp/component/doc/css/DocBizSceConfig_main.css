@@ -1,0 +1,112 @@
+.layout iframe {
+	background-color: #EBEBEB
+}
+
+.cell {
+	margin-top: 30px;
+}
+
+.handle span {
+	color: #059CED;
+	display: block;
+	position: absolute;
+	top: -29px;
+	font-size: 18px;
+	left: 0px;
+}
+
+/* ////\\\\\\\\\\\//// */
+.doc-title h3 {
+	color: #099CED;
+	/* border-bottom:none; */
+	border-bottom: 1px solid #099CED;
+}
+
+.doc-body .column {
+	height: 85%;
+}
+
+.doc-body .column .list-group {
+	background-color: #F2F5FC;
+	height: 100%;
+}
+
+.SplitDocsTree .ztree li {
+	position: relative;
+}
+
+.SplitDocsTree .fa {
+	position: absolute;
+	right: 0px;
+}
+
+.SplitDocsTree .fa-edit {
+	font-size: 18px;
+	right: 50px;
+}
+
+.SplitDocsTree .fa-times-circle-o {
+	font-size: 18px;
+	right: 30px;
+}
+
+.fa-plus-square-o {
+	font-size: 18px;
+	float: right;
+}
+
+.level0 .checkbox_true_part {
+	background-position: -26px -5px !important;
+}
+#SceDocTypeRelsTree li.level1{
+	width: 100%;
+}
+
+/* 页面样式移植 */
+
+/* end */
+/* switch样式 */
+/* #SplitDocsEdit {
+    box-sizing: unset;
+}
+#SplitDocsEdit .swraper {
+    border: 1px solid #00aaf1;
+    box-sizing: unset;
+    line-height: 18px;
+    margin: 0;
+}
+#SplitDocsEdit .swraper span {
+    box-sizing: unset;
+    line-height: 19px;
+    margin: 0;
+}
+#SplitDocsEdit .swraper .stoggler {
+    background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fff) repeat scroll 0 0;
+    box-sizing: unset;
+    height: 20px;
+}
+#SplitDocsEdit .swraper .stoggler.on {
+    background: #00aaf1 none repeat scroll 0 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 rgba(0, 0, 0, 0);
+}
+#SplitDocsEdit .stoggler .slabel-on, #SplitDocsEdit .stoggler .slabel-off {
+    letter-spacing: 0;
+}
+#SplitDocsEdit .swraper .stoggler .sblob {
+    background: rgba(0, 0, 0, 0) linear-gradient(#fff, #fff) repeat scroll 0 0;
+    box-shadow: 0 0 0 0 #00aaf1;
+}
+#SplitDocsEdit .swraper .stoggler.off .sblob {
+    background: rgba(0, 0, 0, 0) linear-gradient(#00aaf1, #00aaf1) repeat scroll 0 0;
+}
+#SplitDocsEdit .swraper .stoggler.on .sblob {
+    box-shadow: 0 0 0 0 #00aaf1;
+}
+#SplitDocsEdit .swraper .stoggler.on .sblob {
+    box-shadow: 0 0 0 0 #00aaf1;
+}
+#SplitDocsEdit .swraper .stoggler .sblob:hover {
+    box-shadow: 0 0 0 0 #00aaf1;
+} */

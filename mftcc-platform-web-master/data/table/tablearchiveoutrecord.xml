@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveoutrecord" para="eadis_page" title="借出记录" type="2">
+<tableitem align="2" filedname="archiveNum" id="9" indexed="8" label="归档次数" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="docSplitName" id="8" indexed="3" label="资料类别" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docType" id="17" indexed="4" label="资料类型" row="1" type="6" typepara="BORROW_OUT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="returnNum" id="16" indexed="17" label="退还次数" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="borrowOutNum" id="15" indexed="7" label="借出次数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docName" id="5" indexed="5" label="资料名称" mytitle="文件名-docName;" row="1" type="0" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" widthType="0"/>
+<tableitem align="2" filedname="borrowInNum" id="14" indexed="6" label="借阅次数" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="archiveDocStatus" id="13" indexed="18" label="状态" row="1" type="99" typepara="ARCHIVE_DOC_STATE" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="借出详情" id="2" indexed="19" label="-" type="5" typepara="/archiveInfoBorrow/getOutDetail;borrowId-borrowId;onClick-getOutDetail(this);" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="downBtn" filedname="下载" id="1" indexed="20" label="-" row="1" type="99" typepara="/archiveInfoDetail/downloadFile;archiveDetailNo-archiveDetailNo;onClick-downloadFile" width="2" widthType="0"/>
+</table>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="GuaranteeLiftApprove" title="解保申请审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="rollbackName" fieldtype="2" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="发回岗位" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvalOpinion" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="400" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="id" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="4" labelname="id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="pactId" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="4" labelname="合同ID" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="guaId" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="4" labelname="保函id" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="appId" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="4" labelname="申请ID" mustinput="" readonly="" row="2"/>
+</form>

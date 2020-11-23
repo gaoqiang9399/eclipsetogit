@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivefamily0001" title="OA人事档案家庭成员表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="familyId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="家庭成员id" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relishion" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="称谓" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="name" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="姓名" maxlength="30" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="workAddr" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="工作单位" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="position" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="职位" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="homeAddr" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="家庭住址" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="tel" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="联系方式" maxlength="15" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="Birthday" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="出生日期" mustinput="" onclick="fPopUpCalendarDlg({max: today,choose:OaArchivesFamily.getAge})" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="profession" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="职业" maxlength="50" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="age" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="3" labelname="年龄" maxlength="3" mustinput="" readonly="1" row="2" unit="岁"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="baseId" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="5" labelname="基础信息ID" mustinput="" readonly="" row="2"/>
+</form>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="examdoc" title="检查模型押品表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="templateName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="检查模型名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="templateId" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="检查模型编号" mustinput="" readonly="" row="1"/>
+</form>

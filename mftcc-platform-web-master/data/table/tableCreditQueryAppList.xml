@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="CreditQueryAppList" link="/mfCreditQueryApp/findByPage" para="eadis_page" title="" type="1">
+<tableitem align="2" authority="appSts-0;appSts-1;appSts-3;appSts-4;appSts-5;appSts-6;appSts-7;" filedname="作废" id="18" indexed="14" label="-" row="1" type="5" typepara="/mfCreditQueryApp/invalidAjax;id-id;onClick-MfCreditQueryApp_List.invalid;" widthType="0"/>
+<tableitem align="2" filedname="详情" id="17" indexed="18" label="-" row="1" type="5" typepara="/mfCreditQueryApp/getById;id-id;onClick-MfCreditQueryApp_List.getById;" widthType="0"/>
+<tableitem align="2" filedname="opName" id="7" indexed="7" label="申请人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="4" indexed="4" label="申请日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="overDate" id="13" indexed="13" label="过期日期" sortType="2" type="30" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="effectiveDays" id="12" indexed="12" label="有效天数（天）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="appSts" id="11" indexed="11" label="申请状态" row="1" sortType="2" type="6" typepara="CREDIT_QUERY_APP_STS" widthType="0"/>
+<tableitem align="2" filedname="esignDate" id="10" indexed="10" label="签约日期" row="1" sortType="2" type="1" widthType="0"/>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="gpsquery" title="GPS查询信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="objectId" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="设备ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="objectName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="车牌号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="transType" fieldsize="GPS_TRANS_TYPE" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="是否在线" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rcvTime" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="数据接收时间" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="Posmode" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="当前定位模式" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="statusDes" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="设备状态描述" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="gpsLocatinAddr" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="所在位置" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isstopState" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="启动/熄火" mustinput="" readonly="" row="5"/>
+</form>

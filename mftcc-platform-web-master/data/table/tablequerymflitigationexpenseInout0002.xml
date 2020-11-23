@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="querymflitigationexpenseInout0002" para="eadis_page" title="诉讼费用退款列表" type="1">
+<tableitem align="2" filedname="brName" id="29" indexed="25" label="所属区域" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="bussinessId" id="28" indexed="9" label="业务单据号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="inoutId" id="30" indexed="8" label="唯一id" type="0" widthType="0"/>
+<tableitem align="2" authority="confirmSts-1" filedname="详情" id="27" indexed="26" label="-" row="1" sortType="2" type="99" typepara="/mfLitigationExpenseInput/inputForConfirm;inoutId-inoutId;onClick-MfLitigationExpenseInout_Insert.finForminOutConfirm" widthType="0"/>
+<tableitem align="3" filedname="cusAssumeFee" id="26" indexed="12" label="客户承担费用（元）" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="25" indexed="10" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="totalExpenses" id="24" indexed="13" label="退款费用（元）" row="1" sortType="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="regDate" id="22" indexed="15" label="登记日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="applicant" id="5" indexed="15" label="经办人" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="3" filedname="receiveAmt" id="2" indexed="11" label="关联银行收款金额（元）" mytitle="项目名称-appName;" row="1" sortType="1" type="12" widthType="0"/>
+</table>

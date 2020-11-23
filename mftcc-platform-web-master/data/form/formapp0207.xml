@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="app0207" title="登记信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgNo" fieldtype="99" formactiveid="63" labelalign="3" labelcol="1" labelname="登记机构号" maxlength="90" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="orgName" fieldtype="1" formactiveid="64" labelalign="1" labelcol="1" labelname="登记机构" labelwidth="20" maxlength="240" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regNo" fieldtype="99" formactiveid="65" labelalign="3" labelcol="1" labelname="登记人" maxlength="90" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="3" fieldcol="2" fieldname="regName" fieldtype="1" formactiveid="66" labelalign="1" labelcol="1" labelname="登记人" maxlength="240" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstOrgNo" fieldtype="99" formactiveid="67" labelalign="3" labelcol="1" labelname="最新登记机构号" maxlength="90" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="lstOrgName" fieldtype="1" fieldwidth="30" formactiveid="68" labelalign="1" labelcol="3" labelname="最后修改机构" labelwidth="20" maxlength="240" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="3" fieldcol="4" fieldname="lstRegNo" fieldtype="1" formactiveid="69" labelalign="1" labelcol="3" labelname="最新登记人" maxlength="90" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstRegName" fieldtype="99" formactiveid="70" labelalign="1" labelcol="3" labelname="最后修改人" maxlength="240" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="3" fieldcol="2" fieldname="regDate" fieldtype="1" formactiveid="71" horVer="0" labelalign="1" labelcol="1" labelname="登记日期" mustinput="" readonly="" row="3" />
+<formelement datatype="6" fieldalign="3" fieldcol="4" fieldname="lstDate" fieldtype="1" formactiveid="72" horVer="0" labelalign="1" labelcol="3" labelname="更新日期" mustinput="" readonly="" row="3" />
+</form>

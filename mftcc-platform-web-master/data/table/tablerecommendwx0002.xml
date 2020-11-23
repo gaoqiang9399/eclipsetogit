@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="recommendwx0002" para="eadis_page" title="网信客户推荐(推荐的详细客户列表)" type="1">
+<tableitem align="2" filedname="cusTel" id="6" indexed="7" label="新增客户手机号" row="1" type="0"/>
+<tableitem align="2" filedname="source" id="5" indexed="5" label="来源" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="agenciesName" id="4" indexed="4" label="机构名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="ext1" id="12" indexed="12" label="状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="agenciesUid" id="3" indexed="3" label="机构uid" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="11" indexed="6" label="新增客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="10" indexed="11" label="登记时间" row="1" type="0"/>
+<tableitem align="2" filedname="cusNo" id="7" indexed="8" label="新增客户号" row="1" type="0"/>
+</table>

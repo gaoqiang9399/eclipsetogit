@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="thirdPayLogList" title="第三方放款日志列表" type="1">
+<tableitem align="2" filedname="fincChildId" id="4" indexed="3" label="子借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactId" id="3" indexed="1" label="合同号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="fincId" id="2" indexed="2" label="借据号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="requestId" id="1" indexed="0" label="请求编号" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="remark" id="9" indexed="4" label="第三方返回消息" type="0" widthType="0"/>
+<tableitem align="2" filedname="报文展示" id="8" indexed="7" label="操作按钮" row="1" type="5" typepara="/mfRequestThirdPartyRecord/openThirdPayLogPageAjax;requestId-requestId;onClick-openThirdPayLogPage(this)" widthType="0"/>
+<tableitem align="1" filedname="returnTime" id="7" indexed="6" label="记录时间" row="1" sortType="0" type="0" widthType="0"/>
+</table>

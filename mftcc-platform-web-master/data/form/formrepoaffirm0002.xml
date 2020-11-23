@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="repoaffirm0002" title="应收账款反转让确认表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repoAppId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="反转让编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busPleId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="业务抵质押编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="fincPrepayBal" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="融资预付款余额(元)" maxlength="20" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="accruedInterest" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="应付未付利息(元)" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="reduceAmt" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="减免金额(元)" maxlength="20" mustinput="1" onblur="MfReceRepoAffirm.reduceAmtChange();" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="receiptAmt" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="实收金额(元)" maxlength="20" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="receiptDate" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="收款日期" maxlength="8" mustinput="0" onclick="fPopUpCalendarDlg({max: today})" row="5" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="affirmRemark" fieldtype="5" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="确认说明" maxlength="200" mustinput="" readonly="" row="6" />
+</form>

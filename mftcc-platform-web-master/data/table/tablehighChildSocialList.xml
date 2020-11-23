@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="highChildSocialList" para="eadis_page" title="高管信息社会活动" type="2">
+<tableitem align="1" filedname="highChildReward" id="15" indexed="9" label="社会荣誉与学术成就" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="删除" id="26" indexed="12" label="-" type="5" typepara="/mfCusHighChildInfo/deleteAjax;highChildId-highChildId;onclick-MfCusHighInfo.deleteHighChild(this);" width="3" widthType="0"/>
+<tableitem align="1" filedname="highChildJob" id="5" indexed="5" label="所在职务" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="25" indexed="11" label="-" row="1" sortType="2" type="5" typepara="/mfCusHighChildInfo/getByIdAjax;highChildId-highChildId;oneUrl-'/mfCusHighChildInfo/updateAjax';onClick-MfCusHighInfo.updateHighChild(this);" width="3" widthType="0"/>
+<tableitem align="1" filedname="highChildCompany" id="4" indexed="3" label="所在机构" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="1" filedname="beginDate" id="2" indexed="1" label="开始日期" row="1" sortType="2" type="1" width="10" widthType="0"/>
+<tableitem align="1" filedname="endDate" id="1" indexed="2" label="结束日期" row="1" sortType="2" type="1" width="10" widthType="0"/>
+</table>

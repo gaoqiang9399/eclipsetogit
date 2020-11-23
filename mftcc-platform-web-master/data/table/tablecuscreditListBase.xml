@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cuscreditListBase" para="eadis_page" title="客户授信" type="1">
+<tableitem align="2" filedname="regTime" id="18" indexed="9" label="申请日期" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="templateCreditName" id="17" indexed="5" label="授信品种" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="2" filedname="creditTerm" id="7" indexed="8" label="授信期限（个月）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="16" indexed="11" label="授信结束日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="6" indexed="10" label="授信开始日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="manageOpName" id="13" indexed="20" label="项目经理" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="creditAppNo" id="4" indexed="1" label="授信编号" row="1" sortType="1" type="4" typepara="/mfCusCreditApply/getCusCreditView;cusNo-cusNo;creditAppId-creditAppId;busEntrance-'credit';entrance-'credit';onClick-MfCusCredit_List.getDetailPage(this);subStringNub-20;" width="15" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="12" indexed="19" label="办理阶段" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-MfCusCredit_List.getDetailPage(this);subStringNub-18;" width="20" widthType="0"/>
+<tableitem align="3" filedname="creditSum" id="1" indexed="6" label="授信总额(元)" row="1" sortType="2" type="12" widthType="0"/>
+</table>

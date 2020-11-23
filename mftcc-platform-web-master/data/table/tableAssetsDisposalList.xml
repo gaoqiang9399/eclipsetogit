@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="AssetsDisposalList" link="/mfAssetsDisposal/findByPage" para="eadis_page" title="资产处置" type="1">
+<tableitem align="2" filedname="transactionPrice" id="11" indexed="12" label="成交价格/租赁金额（元）" row="1" sortType="2" type="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="personInCharge" id="10" indexed="11" label="购买人/承租人" row="1" sortType="2" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="assetName" id="22" indexed="9" label="资产名称" sortType="2" type="4" typepara="/mfAssetsDisposal/getById;handleType-handleType;disposalId-disposalId;onClick-MfAssetsManage_Detail.getAssetsDisposalDetail;" width="20" widthType="0"/>
+<tableitem align="2" filedname="transactionDate" id="21" indexed="22" label="交易日期" row="1" sortType="2" type="1" width="20" widthType="0"/>
+<tableitem align="2" filedname="handleType" id="9" indexed="10" label="管理方式" row="1" sortType="2" type="6" typepara="HANDLE_TYPE" width="20" widthType="0"/>
+</table>

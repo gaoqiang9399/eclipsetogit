@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form id="prd4001" title="产品细化配置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="主键" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="finaNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="金融产品号" maxlength="10" mustinput="0" row="1"/>
+</form>

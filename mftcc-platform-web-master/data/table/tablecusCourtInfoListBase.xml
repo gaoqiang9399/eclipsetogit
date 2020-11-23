@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCourtInfoListBase" link="/mfCusCourtInfo/findByPage" para="eadis_page" title="法院信息 mf_cus_court_info" type="1">
+<tableitem align="2" filedname="reProsecutor" id="39" indexed="6" label="被上诉人" type="0" width="35" widthType="0"/>
+<tableitem align="2" fieldStyle="editBtn" filedname="编辑" id="38" indexed="10" label="-" row="1" type="5" typepara="/mfCusCourtInfo/getById;courtId-courtId;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusCourtInfo/updateAjax';onClick-updateCusTableInfo(this);subStringNub-16;" widthType="0"/>
+<tableitem align="1" filedname="judgExecuteResult" id="5" indexed="4" label="公告类型" row="1" type="4" typepara="/mfCusCourtInfo/listShowDetailAjax;courtId-courtId;cusNo-cusNo;relNo- relNo;oneUrl-'/mfCusCourtInfo/updateAjaxByOne';onClick-listShowDetail(this);subStringNub-16;" width="15" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="37" indexed="39" label="-" row="1" type="5" typepara="/mfCusCourtInfo/deleteAjax;courtId-courtId;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="5" widthType="0"/>
+<tableitem align="1" filedname="prosecutor" id="4" indexed="5" label="上诉人姓名" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="reProsecuteDate" id="8" indexed="9" label="刊登日期" row="1" type="1" width="10" widthType="0"/>
+<tableitem align="3" filedname="reProsecuteAmt" id="7" indexed="8" label="被起诉金额" row="1" type="99" width="10" widthType="0"/>
+</table>

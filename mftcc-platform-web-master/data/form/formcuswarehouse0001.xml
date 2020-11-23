@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="cuswarehouse0001" title="">
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="5" labelname="id" maxlength="30" mustinput="0" row="8"/>
+<formelement alt="请输入仓库面积" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="area" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="占地面积" maxlength="10" mustinput="1" row="3" unit="&#13217;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="style" fieldsize="WAREHOUSE_STYLE" fieldtype="2" formactiveid="3" labelalign="3" labelcol="1" labelname="建筑样式" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="autoDegree" fieldsize="WAREHOUSE_AUTO" fieldtype="2" formactiveid="4" labelalign="3" labelcol="1" labelname="自动化程度" maxlength="1" mustinput="0" row="5"/>
+<formelement alt="输入仓库准确地址" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="address" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="仓库地址" maxlength="100" mustinput="1" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="6" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="8"/>
+<formelement alt="请输入联系人" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="linkman" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="联系人" maxlength="25" mustinput="0" row="6"/>
+<formelement alt="请输入正确的电话号码" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="phone" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="联系电话" maxlength="11" mustinput="0" row="7"/>
+<formelement alt="50字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="name" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="仓库名称" maxlength="50" mustinput="1" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="cusNo" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="客户号" maxlength="30" mustinput="" readonly="" row="5" />
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="relNo" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="5" labelname="关联编号" mustinput="" readonly="" row="2"/>
+</form>

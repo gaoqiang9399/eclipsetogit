@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assurepaymentlist" link="/mfCusAssurePayment/findByPage" para="eadis_page" title="担保代偿列表" type="1">
+<tableitem align="2" filedname="prcpAmt" id="6" indexed="6" label="代偿本金" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="5" indexed="5" label="客户名称（债务人）" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="assureName" id="3" indexed="3" label="担保方名称" row="1" type="0" width="30" widthType="0"/>
+<tableitem align="2" filedname="intstSum" id="10" indexed="10" label="代偿利息合计" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="删除" id="33" indexed="33" label="-" type="5" typepara="/mfCusAssurePayment/deleteAjax;paymentId-paymentId;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="trench0001" link="/mfBusTrench/findByPage" para="eadis_page" title="渠道商列表" trDbClick="/mfBusTrench/getTrenchView;trenchId-trenchId;onDbClick-getViewCommon" type="2">
+<tableitem align="2" defaultShow="11" filedname="usedAmt" id="28" indexed="15" label="已使用额度" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="warningRate" id="27" indexed="17" label="预警比例(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="creditRate" id="26" indexed="16" label="额度剩余比例(%)" row="1" type="17" widthType="0"/>
+<tableitem align="2" filedname="creditBal" id="25" indexed="13" label="授信余额" type="99" widthType="0"/>
+<tableitem align="2" filedname="creditAmt" id="24" indexed="14" label="授信总额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="attachBrName" id="23" indexed="12" label="归属公司" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="trenchLevel" id="22" indexed="18" label="渠道层级级别" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="trenchButtName" id="9" indexed="10" label="联系人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="trenchName" id="3" indexed="3" label="渠道名称" mytitle="渠道商名称-trenchName" row="1" sortType="2" type="4" typepara="/mfBusTrench/getTrenchView;trenchId-trenchId;onClick-getViewCommon;subStringNub-13;" widthType="0"/>
+<tableitem align="2" filedname="trenchButtPhone" id="10" indexed="11" label="联系人电话" row="1" sortType="2" type="0" widthType="0"/>
+</table>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="collateraleval0002" title="房屋评估表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="appId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="业务关联编号" maxlength="50" mustinput="0" row="1"/>
+<formelement alt="请选择区域" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="areaCode" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="所在区域" maxlength="10" mustinput="1" row="2"/>
+<formelement alt="请选择物业类型" datatype="1" fieldalign="1" fieldcol="2" fieldname="thirdProperty" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="物业类型" mustinput="1" row="3"/>
+<formelement alt="请选择三级物业" datatype="1" fieldalign="1" fieldcol="4" fieldname="propertyType" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="二级物业" mustinput="0" row="3"/>
+<formelement alt="请输入小区名称" datatype="0" fieldalign="1" fieldcol="4" fieldname="projectName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="小区名称" maxlength="20" mustinput="1" row="3"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="buildArea" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="住宅面积" maxlength="18" mustinput="1" row="4" unit="&#13217;"/>
+<formelement alt="请输入产证地址" datatype="0" fieldalign="1" fieldcol="2" fieldname="address" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="产证地址" maxlength="50" mustinput="1" row="4"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="currentFloor" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="所在楼层" mustinput="0" row="5" unit="层"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="totalFloor" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="总楼层" mustinput="0" row="5" unit="层"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="toward" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="朝向" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="resultJson" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="第三方返回的结果" maxlength="65535" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="nodeNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="节点编号" maxlength="30" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="操作员编号" maxlength="10" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="操作员名称" maxlength="20" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="部门编号" maxlength="10" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brName" fieldtype="99" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="部门名称" maxlength="22" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regDate" fieldtype="99" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="登记日期" maxlength="8" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModDate" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="上次修改日期" maxlength="8" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext1" fieldtype="99" formactiveid="21" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext2" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="22"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="99" formactiveid="23" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext4" fieldtype="99" formactiveid="24" horVer="1" labelalign="1" labelcol="2" maxlength="100" mustinput="0" row="24"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="99" formactiveid="25" horVer="1" labelalign="1" labelcol="1" maxlength="100" mustinput="0" row="26"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="completionYear" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="建成年代" mustinput="" onclick="fPopUpCalendarDlg({})" readonly="" row="6" unit="&lt;i class='i i-rili pointer' onclick='selectrili(this,null,today,null)'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaCodeName" fieldtype="99" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="区域编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="thirdPropertyName" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="三级物业编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="propertyTypeName" fieldtype="99" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="二级物业名称" mustinput="" readonly="" row="8"/>
+</form>

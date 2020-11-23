@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="AssetsDisposalAuctionhiswkf" title="资产拍卖审批历史展示">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="assetName" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="资产名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="personInCharge" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="购买人" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="5" fieldname="transactionPrice" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="4" labelname="成交价格" maxlength="14" mustinput="0" row="1" unit="元"/>
+</form>

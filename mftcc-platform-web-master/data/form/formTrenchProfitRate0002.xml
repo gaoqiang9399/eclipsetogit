@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="TrenchProfitRate0002" title="渠道分润比例表">
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="6" labelname="唯一编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="trenchUid" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="5" labelname="渠道编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="trenchName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="渠道名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="baseStartAmt" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="基数起始值" maxlength="20" mustinput="0" param="id" row="1" unit="元"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="baseEndAmt" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="基数截止值" maxlength="20" mustinput="0" param="id" row="1" unit="元"/>
+<formelement datatype="17" fieldalign="1" fieldcol="5" fieldname="shareProfitRate" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="4" labelname="分润比例" maxlength="10" mustinput="0" param="id" row="1" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="0" param="id" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="opNo" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="5" labelname="登记人编号" maxlength="22" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="opName" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="6" labelname="登记人姓名" maxlength="40" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="brNo" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="5" labelname="登记部门编号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="brName" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="6" labelname="登记部门名称" maxlength="80" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="regTime" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="5" labelname="登记时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="lstModTime" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="6" labelname="最后修改时间" maxlength="17" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="regDate" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="5" labelname="登记日期" maxlength="8" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="lstModDate" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="6" labelname="最后修改日期" maxlength="8" mustinput="0" row="9"/>
+</form>

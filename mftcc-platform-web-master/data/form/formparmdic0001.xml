@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="parmdic0001" title="数据字典表单">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="3" />
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="fieldName" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="2" labelname="输入框" mustinput="" readonly="" row="4" />
+</form>

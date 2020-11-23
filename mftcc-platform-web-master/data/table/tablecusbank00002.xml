@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusbank00002" para="eadis_page" title="银行卡账号管理" type="1">
+<tableitem align="2" filedname="bank" id="6" indexed="7" label="开户行" row="1" type="0"/>
+<tableitem align="2" filedname="accountNo" id="4" indexed="4" label="卡号/折号" mytitle="bankNo-333" row="1" type="0"/>
+<tableitem align="2" filedname="accountName" id="2" indexed="2" label="账号名称" mytitle="账号名称-accountName" row="1" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="选择" id="7" indexed="8" label="-" row="1" type="5" typepara="#;id-id;accountNo-accountNo;accountName-accountName;bank-bank;onclick-choseBankAcc" width="2"/>
+</table>

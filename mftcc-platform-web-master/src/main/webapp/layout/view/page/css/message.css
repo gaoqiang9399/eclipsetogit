@@ -1,0 +1,110 @@
+body {
+  padding: 0px
+}
+.msgcontent {
+  width: calc(100% - 370px);
+  height: 100%;
+	margin-left: 200px;
+}
+.task_style {
+  float: left;
+  width: 100%;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+.task_head {
+  line-height: 30px;
+  height: 30px;
+  background: #e7edf7;
+}
+.task_content {
+  float: left;
+  width: 100%;
+}
+.contents {
+  float: left;
+  line-height: 25px;
+  padding: 5px 55px 0;
+  width: 100%
+}
+.contents>span {
+  color: #009BED;
+}
+.task_name {
+  float: left;
+  padding-left: 7px;
+}
+.task_name span {
+  padding-right: 5px;
+  font-weight: bold;
+}
+.time_icon {
+  float: right;
+  padding-left: 25px;
+  text-align: left;
+  width: 65px;
+}
+.content_btn {
+  float: left;
+  line-height: 35px;
+  padding: 5px 55px 10px
+}
+.content_btn>input[type="button"] {
+  background: #009ce2;
+  padding: 0 9px;
+  line-height: 20px;
+  border: none;
+  color: #fff;
+}
+.content_btn>input[type="button"]:hover {
+  background: #d94909
+}
+.jt-down {
+  padding-top: 5px
+}
+.content_operation {
+  float: left;
+  width: 100%
+}
+.operation_content {
+  float: left;
+  padding: 5px 10%;
+  margin: 5px 20%;
+  width: 60%;
+  background-color: #F7FCFE;
+  border: 1px solid #BFC9DA
+}
+.operation_btn {
+  float: left;
+  padding: 5px 213px;
+  width: 100%;
+  text-align: right;
+}
+.operation_btn .btn {
+  width: 85px;
+  height: 25px;
+  padding: 0
+}
+.op_table {
+  border: none;
+  font-size: 12px;
+}
+.op_table tr td {
+  border: none;
+  padding: 5px 3px;
+}
+.op_table tr td:first-child {
+  text-align: right
+}
+.op_table tr td:last-child {
+  text-align: left
+}
+.op_table textarea {
+  resize: none
+}
+i {
+  color: #C8C8C9
+}
+.tree {
+  left: 40px;
+}

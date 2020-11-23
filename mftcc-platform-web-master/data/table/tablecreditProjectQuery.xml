@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditProjectQuery" para="eadis_page" title="立项查询列表表单" type="1">
+<tableitem align="2" filedname="creditSum" id="8" indexed="8" label="项目额度" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="6" indexed="6" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="projectName" id="5" indexed="5" label="项目名称" mytitle="项目名称-projectName" type="4" typepara="/mfCusCreditApply/openHisData;wkfAppId-wkfAppId;cusNo-cusNo;onClick-MfCusCreditApplyProject.selectCredit(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="authBal" id="14" indexed="10" label="项目余额" row="1" type="12" widthType="0"/>
+<tableitem align="2" filedname="guarantyAgency" id="13" indexed="14" label="申请机构" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="projectNo" id="3" indexed="3" label="项目编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="busStage" id="12" indexed="13" label="办理阶段" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="11" indexed="12" label="授信失效日" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="10" indexed="11" label="授信开始日期" row="1" type="1" widthType="0"/>
+</table>

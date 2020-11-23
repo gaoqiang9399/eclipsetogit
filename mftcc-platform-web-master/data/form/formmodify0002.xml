@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="modify0002" title="动产调价申请表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modifyId" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="调价编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeName" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="押品名称隐藏" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="pledgeWorth" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="押品价值" maxlength="20" mustinput="0" readonly="1" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unitPrice" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="单价" maxlength="20" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="adjustedWorth" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="调整后价值" maxlength="20" mustinput="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="2" fieldname="adjustedUnitPrice" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="调整后单价" maxlength="20" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustedBasis" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="调价依据" maxlength="100" mustinput="1" row="5"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldname="adjustedReason" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="调价原因" maxlength="200" mustinput="1" row="6" rowspan="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeNo" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="押品名称" mustinput="1" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="busPleId" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="4" labelname="押品业务关联编号" mustinput="" readonly="" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="押品编号" mustinput="" readonly="1" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeBillNo" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="货物明细" mustinput="" readonly="" row="1" />
+</form>

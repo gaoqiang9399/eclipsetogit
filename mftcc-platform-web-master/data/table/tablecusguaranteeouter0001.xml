@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusguaranteeouter0001" link="/mfCusGuaranteeOuter/findByPage" para="eadis_page" title="对外担保信息表" type="1">
+<tableitem align="2" filedname="relationName" id="6" indexed="6" label="关联关系" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="endTime" id="4" indexed="4" label="债务到期时间" row="1" type="1" width="25" widthType="0"/>
+<tableitem align="2" filedname="guaranteeBal" id="3" indexed="3" label="担保余额(元)" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusNameGuaranteed" id="2" indexed="2" label="被担保人" mytitle="被担保人-cusNameGuaranteed" row="1" type="4" typepara="/mfCusGuaranteeOuter/listShowDetailAjax;id-id;cusNo-cusNo;relNo-relNo;oneUrl-'/mfCusGuaranteeOuter/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="7" indexed="7" label="-" type="5" typepara="/mfCusGuaranteeOuter/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

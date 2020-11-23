@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archivedetailedit" title="资料编辑">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDetailNo" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="归档明细编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="archiveMainNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="归档编号" maxlength="40" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="文件名称" maxlength="50" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="docSize" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="文件大小" maxlength="16" mustinput="0" readonly="1" row="2" unit="kb"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docAddr" fieldtype="99" formactiveid="7" labelalign="3" labelcol="1" labelname="文件地址" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docEncryptAddr" fieldtype="99" formactiveid="8" labelalign="3" labelcol="1" labelname="文件加密地址" maxlength="1000" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docType" fieldtype="99" formactiveid="10" labelalign="3" labelcol="1" labelname="文档类型编号" maxlength="2" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docTypeName" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="文档类型" maxlength="50" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="docSplitNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="文档细分类型编号" maxlength="20" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="scNo" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="场景编号" maxlength="10" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDocStatus" fieldsize="ARCHIVE_DOC_STATUS" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="文档状态" maxlength="2" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="archiveDocSource" fieldsize="ARCHIVE_DOC_SOURCE" fieldtype="99" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="文件来源" maxlength="2" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="更新人编号" maxlength="22" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateOpName" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="1" labelname="更新人名称" maxlength="40" mustinput="0" readonly="1" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateBrNo" fieldtype="99" formactiveid="23" labelalign="3" labelcol="1" labelname="更新人部门编号" maxlength="10" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="voucherType" fieldsize="VOUCHER_TYPE" fieldtype="2" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="凭证类型" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="voucherOtherNo" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="他项凭证号" mustinput="1" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="voucherOther" fieldtype="1" formactiveid="26" horVer="0" labelalign="3" labelcol="3" labelname="他项凭证" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="voucherOriginalNo" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="原始凭证号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="voucherOriginal" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="原始凭证" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="voucherHolder" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="1" labelname="权属人" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="docNo" fieldtype="99" formactiveid="30" horVer="0" labelalign="3" labelcol="5" labelname="资料编号" mustinput="" readonly="" row="4"/>
+</form>

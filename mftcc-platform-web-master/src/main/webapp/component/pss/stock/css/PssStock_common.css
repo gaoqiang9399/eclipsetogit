@@ -1,0 +1,83 @@
+/* .pss-date {
+	background-color: #FFF;
+	cursor: auto;
+	background: url(../images/datepicker_icon.png) right 0 no-repeat #FFF;
+}
+.items-btn{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 0 13px;
+	height: 28px;
+	border: 1px solid #c3c7cb;
+	border-radius: 2px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.ui-btn {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 0 13px;
+	height: 28px;
+	border: 1px solid #c3c7cb;
+	border-radius: 2px;
+	background: #fafdff;
+	LINE-HEIGHT: 2;
+	color: #555;
+	vertical-align: middle;
+	cursor: pointer
+}
+.ui-btn:hover {
+	background: #e3e7eb;
+	color: #555
+}
+.ui-btn:active {
+	background: #c3c7cb;
+	color: #555
+} */
+.txt{display:inline-block;*display:inline;zoom:1;margin-right:10px;}
+/* 倒三角 */
+/* .triangle-down {
+	display: inline-block;
+	vertical-align: middle;
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.triangle-up {
+	display: inline-block;
+	vertical-align: middle;
+	border-bottom: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.triangle-none {
+	display: inline-block;
+	vertical-align: middle;
+	//border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.pss-hide-btn{
+	display: none;
+	padding: 6px 18px;
+	position: absolute;
+	top: 41px;
+	border: 1px solid #c1c1c1;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .15);
+	background-color: #fff;
+	z-index: 1000
+} */
+.pss-chk-left{
+	left: 85px
+}
+.pss-imp-left{
+	left: 238px
+}
+/* .pss_block{
+	display: block
+} */
+.td_color{
+	color: red !important;
+}

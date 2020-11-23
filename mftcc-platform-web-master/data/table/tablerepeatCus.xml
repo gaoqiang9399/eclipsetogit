@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="repeatCus" para="eadis_page" title="重复客户" type="2">
+<tableitem align="1" filedname="cusName" id="3" indexed="3" label="客户名称" mytitle="客户名称-cusName;" row="1" type="3" typepara="16" width="45" widthType="0"/>
+<tableitem align="1" filedname="idNum" id="4" indexed="4" label="证件号码" mytitle="证件号码-idNum;" row="1" type="0" typepara="12" width="45" widthType="0"/>
+</table>

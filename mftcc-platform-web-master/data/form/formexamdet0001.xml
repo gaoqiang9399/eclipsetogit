@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form id="examdet0001" title="检查情况详情表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="detailId" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="详情编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="relateBussId" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="关联业务编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="examHisId" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="检查历史编号" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="indexId" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="检查指标项" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="indexValue" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="指标值" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="picId" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="数据字典" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riakLevel" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="风险级别" maxlength="2" mustinput="0" row="4"/>
+</form>

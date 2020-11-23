@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivetransferlist" para="eadis_page" title="档案移交" type="1">
+<tableitem align="1" filedname="appName" id="6" indexed="2" label="项目名称" sortType="1" type="0" typepara="/archiveInfoMain/getDetailPage;archiveMainNo-archiveMainNo;onClick-getDetailPage(this);" width="22" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="1" label="客户名称" row="1" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="receiveName" id="4" indexed="4" label="接收人" row="1" sortType="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="archiveStatus" id="3" indexed="8" label="档案状态" row="1" sortType="1" type="6" typepara="ARCHIVE_STATUS" width="8" widthType="0"/>
+<tableitem align="2" filedname="transferDate" id="1" indexed="6" label="移交申请日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="10" indexed="3" label="合同编号" row="1" sortType="1" type="0" width="15" widthType="0"/>
+</table>

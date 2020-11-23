@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GB2312"?><form id="parms0002" title="系统参数设置表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmId" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmType" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmDes" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmOne" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="当前选中(使用)的参数值，也是参数化设置页面的参数初始值" maxlength="20" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmOneDes" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmTwo" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="18" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmTwoDes" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmThree" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmThreeDes" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parmFour" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="18" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parmFourDes" fieldtype="1" formactiveid="12" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="condOne" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="condTwo" fieldtype="1" formactiveid="14" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="condThree" fieldtype="1" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="condFour" fieldtype="1" formactiveid="16" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="1" formactiveid="17" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="20" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="remark" fieldtype="1" formactiveid="18" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="400" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="updateFlag" fieldtype="1" formactiveid="19" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="1" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="brNo" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="10" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="1" formactiveid="21" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="80" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="22" horVer="1" labelalign="1" labelcol="2" labelname="参数分类 如 核算类、流程控制类" maxlength="2" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="modualId" fieldtype="1" formactiveid="23" horVer="1" labelalign="1" labelcol="1" labelname="参数模块编号" maxlength="2" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parentId" fieldtype="1" formactiveid="24" horVer="1" labelalign="1" labelcol="2" labelname="父级参数id 第一级(父级)为0 其它存父亲编号" maxlength="100" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="typeId" fieldtype="1" formactiveid="25" horVer="1" labelalign="1" labelcol="1" labelname="参数类型 0-父亲当做文字描述1-滑动两项值2-文本框3-多项选择" maxlength="2" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orderVal" fieldtype="1" formactiveid="26" horVer="1" labelalign="1" labelcol="2" labelname="排序标志" maxlength="3" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="visableFlag" fieldtype="1" formactiveid="27" horVer="1" labelalign="1" labelcol="1" labelname="显示与否 0-hide 1-show" maxlength="1" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="valueString" fieldtype="1" formactiveid="28" horVer="1" labelalign="1" labelcol="2" labelname="参数值@分隔" maxlength="100" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="valueStringDes" fieldtype="1" formactiveid="29" horVer="1" labelalign="1" labelcol="1" labelname="参数值描述@分隔 与参数值对应顺序" maxlength="500" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="validateType" fieldtype="1" formactiveid="30" horVer="1" labelalign="1" labelcol="2" labelname="参数验证类型 验证类型(0-all 1-float 2-int)" maxlength="2" mustinput="0" row="29"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="displayType" fieldtype="1" formactiveid="31" horVer="1" labelalign="1" labelcol="1" labelname="初始是否显示 0-hide 1-show" maxlength="1" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="uniteShow" fieldtype="1" formactiveid="32" horVer="1" labelalign="1" labelcol="2" labelname="参数单位" maxlength="10" mustinput="0" row="31"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="minVal" fieldtype="1" formactiveid="33" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="8" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="maxVal" fieldtype="1" formactiveid="34" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="20" mustinput="0" row="33"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="35" horVer="1" labelalign="1" labelcol="1" labelname="最近修改的操作员" maxlength="22" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opName" fieldtype="99" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="40" mustinput="0" row="35"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="37" horVer="1" labelalign="1" labelcol="1" labelname="最近修改时间" maxlength="17" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext1" fieldtype="99" formactiveid="38" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="100" mustinput="0" row="37"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="99" formactiveid="39" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext3" fieldtype="99" formactiveid="40" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="100" mustinput="0" row="39"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="99" formactiveid="41" horVer="1" labelalign="1" labelcol="1" labelname="" maxlength="100" mustinput="0" row="41"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="ext5" fieldtype="99" formactiveid="42" horVer="1" labelalign="1" labelcol="2" labelname="" maxlength="100" mustinput="0" row="41"/>
+</form>

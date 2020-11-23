@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="creditBreedList" para="eadis_page" title="授信业务品种列表" type="2">
+<tableitem align="2" filedname="creditAmt" id="27" indexed="13" label="授信额度" row="1" type="12" width="15" widthType="0"/>
+<tableitem align="1" filedname="breedName" id="15" indexed="12" label="业务品种" row="1" sortType="2" type="0" width="40" widthType="0"/>
+<tableitem align="2" filedname="删除" id="32" indexed="16" label="-" row="1" type="5" typepara="mfCusCreditApply/deleteBreed;id-id;onClick-deleteBreed(this)" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="31" indexed="15" label="-" type="5" typepara="mfCusCreditApply/breedDetailView;id-id;onClick-breedDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="agenciesCreditAmt" id="30" indexed="11" label="合作银行授信额度" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="breedAgenciesName" id="29" indexed="10" label="合作银行" row="1" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="breedlNo" id="28" indexed="14" label="breedlNo" row="1" type="99" widthType="0"/>
+</table>

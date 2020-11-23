@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="psscancelverificationbill0001" para="eadis_page" title="核销单表" trClick=";onClick-Pss.checkCurrentTr(this)" trDbClick="/pssCancelVerificationBill/getById;cancelId-cancelId;cancelType-cancelType;onDbClick-pssCancelVerificationBillList.getByIdThis(this)" type="2">
+<tableitem align="2" filedname="cancelId" id="1" indexed="1" label="全选" row="1" sortType="2" type="2" typepara="cancelId-cancelId;" width="4" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="2" label="单据日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cancelNo" id="2" indexed="3" label="单据编号" mytitle="模板内容-cancelNo;" row="1" sortType="1" type="4" typepara="/pssCancelVerificationBill/getById;cancelId-cancelId;cancelType-cancelType;onClick-pssCancelVerificationBillList.getByIdThis(this);subStringNub-20;" widthType="0"/>
+<tableitem align="2" filedname="cancelType" id="4" indexed="4" label="业务类型" row="1" sortType="2" type="6" typepara="PSS_CANCEL_TYPE" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="6" indexed="6" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="10" indexed="10" label="供应商名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="3" filedname="cancelAmt" id="13" indexed="13" label="核销金额" row="1" sortType="2" type="12" widthType="0"/>
+<tableitem align="1" filedname="regOpName" id="15" indexed="14" label="制单人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="删除" id="14" indexed="15" label="-" row="1" sortType="2" type="5" typepara="/pssCancelVerificationBill/deleteAjax;cancelId-cancelId;onClick-ajaxTrDelete(this)" width="2" widthType="0"/>
+</table>

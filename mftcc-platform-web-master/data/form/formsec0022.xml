@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?><form id="sec0022" title="请求日志表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="标识" maxlength="22" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="userId" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="用户代码" maxlength="60" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="userName" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="用户名称" maxlength="120" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="startTime" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="2" labelname="开始时间" maxlength="30" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="endTime" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="结束时间" maxlength="30" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="timeConsuming" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="2" labelname="运行时间" maxlength="16" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="actionName" fieldtype="1" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="请求动作" maxlength="300" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="actionPara" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="2" labelname="动作参数" maxlength="600" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belongDate" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="归属日" maxlength="30" mustinput="0" row="9"/>
+</form>

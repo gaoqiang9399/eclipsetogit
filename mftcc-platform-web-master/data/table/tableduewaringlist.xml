@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="duewaringlist" para="eadis_page" title="到期预警提醒列表" type="1">
+<tableitem align="2" filedname="详情" id="9" indexed="15" label="-" row="1" type="5" typepara="/cuslendWarning/getDueWarningDetailPage;cuslendWarnNo-cuslendWarnNo;onClick-updateVar" widthType="0"/>
+<tableitem align="2" filedname="flag" id="8" indexed="13" label="是否启用" row="1" type="4" typepara="/cuslendWarning/updateDueWarningFlagAjax;cuslendWarnNo-cuslendWarnNo;" widthType="0"/>
+<tableitem align="2" filedname="cuslendDays" id="4" indexed="4" label="指定天数" row="1" type="0"/>
+<tableitem align="2" filedname="标签配置" id="13" indexed="14" label="-" type="5" typepara="/cuslendWarning/baseTagSet;templateNo-cuslendWarnNo;onClick-baseTagSet(this);" widthType="0"/>
+<tableitem align="2" filedname="cuslendWarnType" id="3" indexed="3" label="预警类型" row="1" type="6" typepara="MSG_CUS_WARN_TYPE" widthType="0"/>
+<tableitem align="2" filedname="cuslendWarnLimit" id="12" indexed="12" label="最大预警次数" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cuslendWarnName" id="2" indexed="2" label="预警名称" row="1" type="0"/>
+<tableitem align="2" filedname="recCusType" id="11" indexed="5" label="接收人" row="1" type="6" typepara="MSG_RECIVER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="sendType" id="10" indexed="6" label="发送类型" row="1" type="6" typepara="MSG_SEND_TYPE" widthType="0"/>
+</table>

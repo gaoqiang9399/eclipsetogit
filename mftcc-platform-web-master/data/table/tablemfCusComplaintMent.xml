@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusComplaintMent" link="/mfCusComplaintMent/findByPage" para="eadis_page" title="申诉管理" type="1">
+<tableitem align="2" filedname="id" id="19" indexed="10" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="compCont" id="17" indexed="14" label="申诉内容" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="handleSts" id="16" indexed="15" label="处理状态" row="1" type="4" typepara="/mfCusComplaintMent/input;id-id;cusNo-cusNo;onClick-MfCusComplaintMent.getInput(this);" width="10" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="15" indexed="8" label="客户名称" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="cusNo" id="14" indexed="17" label="cusNo" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="13" indexed="16" label="id" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="idNum" id="12" indexed="11" label="证件号码" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" filedname="tel" id="11" indexed="12" label="手机号码" type="6" typepara="PROJ_SIZE" width="20" widthType="0"/>
+<tableitem align="2" filedname="compTime" id="10" indexed="13" label="申诉时间" row="1" type="0" width="10" widthType="0"/>
+</table>

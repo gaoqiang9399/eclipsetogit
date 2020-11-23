@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfmsgpledge0001" para="eadis_page" title="押品提醒、预警配置表" type="2">
+<tableitem align="1" filedname="sendType" id="13" indexed="13" label="发送方式类型" row="1" type="6" typepara="MSG_SEND_TYPE" widthType="0"/>
+<tableitem align="2" filedname="funType" id="3" indexed="3" label="功能点类型" row="1" type="6" typepara="FUN_TYPE" widthType="0"/>
+<tableitem align="1" filedname="reciverType" id="11" indexed="11" label="发送对象类型" row="1" type="6" typepara="MSG_RECIVER_TYPE" widthType="0"/>
+<tableitem align="1" filedname="funName" id="1" indexed="1" label="预警方案" mytitle="预警方案-funName;" sortType="2" type="4" typepara="/mfMsgPledge/getById;id-id;funType-funType;onClick-MfMsgPledgeList.getMfMsgPledge(this);subStringNub-18;"/>
+<tableitem align="2" filedname="modelContent" id="18" indexed="14" label="模板内容" mytitle="模板内容-modelContent;" row="1" type="3" typepara="25" widthType="0"/>
+<tableitem align="2" filedname="useFlag" id="17" indexed="19" label="是否启用" row="1" sortType="2" type="4" typepara="/mfMsgPledge/updateUseFlagAjax.action;id-id;"/>
+</table>

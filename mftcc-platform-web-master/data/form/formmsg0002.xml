@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312"?><form id="msg0002" title="系统消息管理表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="主键" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="title" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="消息标题" maxlength="255" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="content" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="消息内容" maxlength="2000" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendType" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="消息通知类型1 短信 2站内消息,3邮件" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="msgType" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="消息类型" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receiverId" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="接收者编号" maxlength="50" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receiverType" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="接收者类型1 操作员 2 客户 " maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="receiverNumber" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="接收者号码短信此字段为手机号邮件此字段为邮箱地址" maxlength="100" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendDate" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="发送日期" maxlength="8" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendTime" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="发送时间" maxlength="17" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createDate" fieldtype="99" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="创建日期" maxlength="8" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="createTime" fieldtype="99" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="创建时间" maxlength="17" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regName" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="消息发起人只记录名字不记录号" maxlength="200" mustinput="0" row="23"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="readFlag" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="是否已读0 未读, 1 已读" maxlength="1" mustinput="0" row="25"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sendSts" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="发送状态0 未发 ,1 已发" maxlength="1" mustinput="0" row="27"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="2000" mustinput="0" row="29"/>
+</form>

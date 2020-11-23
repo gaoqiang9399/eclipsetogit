@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusCorpRepServeListBase" link="/mfCusLegalEmployInfo/findByPage" para="eadis_page" title=" 法人对外任职情况表" type="1">
+<tableitem align="1" filedname="corpName" id="16" indexed="15" label="任职企业名称" row="1" type="4" typepara="/mfCusLegalEmployInfo/listShowDetailAjax;id-id;cusNo-cusNo;oneUrl-'/mfCusLegalEmployInfo/updateByOneAjax';onClick-listShowDetail(this);subStringNub-16;" width="25" widthType="0"/>
+<tableitem align="2" filedname="job" id="19" indexed="17" label="担任职务" row="1" type="0" width="25" widthType="0"/>
+<tableitem align="2" filedname="isLegal" id="17" indexed="18" label="是否法人代表" row="1" type="6" typepara="YES_NO" width="20" widthType="0"/>
+<tableitem align="2" filedname="officeTerm" id="20" indexed="19" label="任职年限" row="1" type="0" width="20" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="删除" id="21" indexed="20" label="-" row="1" type="5" typepara="/mfCusLegalEmployInfo/deleteAjax;id-id;cusNo-cusNo;relNo-relNo;onclick-FormFactor.deleteTrAjax(this);" width="10" widthType="0"/>
+</table>

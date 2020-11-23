@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="checkApproval" title="核销审批历史详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkoffPrcp" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="核销本金" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="checkoffIntst" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="2" labelname="核销利息" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="epAmt" fieldtype="99" formactiveid="3" horVer="0" labelalign="3" labelcol="3" labelname="批复受托金额" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkoffSum" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="3" labelname="核销合计" mustinput="" readonly="" row="1" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="4" fieldname="approveIdea" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="意见描述" mustinput="" readonly="" row="3"/>
+</form>

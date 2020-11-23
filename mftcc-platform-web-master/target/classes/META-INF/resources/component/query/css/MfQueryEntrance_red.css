@@ -1,0 +1,155 @@
+.mysearch-div{
+	margin-top:65px;
+}
+.search-div{
+	margin-bottom:75px;
+}
+
+.search-input-div {
+	/* border: 1px solid #A52A2A; */
+	border-radius: 0px;
+}
+
+.search-input {
+	border-radius: 0px !important;
+	border: 1px solid #A52A2A;
+}
+.search-input:focus{
+	border: 2px solid #A52A2A;
+}
+.search-input-div span {
+	background-color: #A52A2A;
+	border: 1px solid #A52A2A;
+	color: #fff;
+	border-radius: 0px !important;
+}
+.text-main-color{
+	color: #A52A2A;
+}
+
+
+
+/* 新版查询页面样式 */
+.global-search {
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.t_li{
+	width:120px;
+}
+
+.nav-tabs>li{
+	text-align:center;
+}
+a{
+	color:#000;
+}
+.global-search ul{
+	border:none;
+}
+.global-search ul li a{
+	border-radius:0px;
+	padding:5px 10px;
+	text-decoration: none;
+	border:none;
+}
+.global-search ul li a:hover{
+	background:#A52A2A;
+	color:#fff;
+}
+.global-search ul li .curr-select{
+	background:#781F1F;
+	color:#fff;
+}
+.global-search ul li .curr-select:hover{
+	background:#781F1F;
+	color:#fff;
+	
+}
+
+
+.mysearch {
+	border: 1px solid #ddd;
+	width:60%;
+	margin-left:20%;
+}
+.mysearch-content {
+	padding:0px 15px;
+}
+.search-title .nav-tabs > li > a {
+	padding:10px 25px;
+	border-radius:0px;
+	border:none;
+}
+.search-title .nav > li > a:hover,
+.search-title .nav > li > a:focus{
+	background:#781F1F;
+	color:#fff;
+	cursor: pointer;
+}
+.search-title .nav > li > a.active {
+	background:#781F1F;
+	color:#fff;
+}
+.search-content-div{
+	border-bottom: 1px solid #ddd;
+}
+
+.search-item{
+	height: 55px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom:-1px;
+}
+.search-item-icon{
+	display: block;
+	float: left;
+	height: 55px;
+	width: 55px;
+	text-align: right;
+	font-size: 20px;
+	line-height: 55px;
+}
+.search-item-content{
+	padding: 5px;
+	margin-left: 65px;
+	height: 55px;
+	line-height: 45px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.search-item:hover .inner-div{
+	background-color:#F5F5F5;
+	cursor: pointer;
+	height:53px;
+	margin-top:1px;
+}
+.search-item .inner-div{
+	height:53px;
+	margin-top:1px;
+}
+
+.add-item .i-jia3{
+	color:#AFAFAF;
+}
+
+
+.color1{
+	color:#C9797C;
+}
+.color2{
+	color:#4E89BB;
+}
+.color3{
+	color:#A08B5C;
+}
+.color4{
+	color:#9F9FD8;
+}
+.autocompleter{
+	border:none;
+}
+body{
+	background:#FFF;
+}

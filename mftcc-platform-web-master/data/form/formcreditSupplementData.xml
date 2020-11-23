@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="creditSupplementData" title="授信补充资料表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditAppId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="3" labelname="授信申请编号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="4" labelalign="3" labelcol="3" labelname="客户编号" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="客户名称" maxlength="100" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="立项授信总额" maxlength="20" mustinput="0" readonly="1" row="4" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isCeilingLoop" fieldsize="YES_NO" fieldtype="2" formactiveid="7" labelalign="3" labelcol="1" labelname="额度是否可循环" maxlength="1" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldstyle="half" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="授信期限" maxlength="2" mustinput="0" readonly="1" row="4" unit="月"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="授信止日期" maxlength="17" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindName" fieldtype="99" formactiveid="11" labelalign="3" labelcol="1" labelname="产品编号" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldsize="KIND_NO" fieldstyle="half" fieldtype="99" formactiveid="12" labelalign="3" labelcol="5" labelname="产品" maxlength="50" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="12" fieldalign="1" fieldcol="6" fieldname="creditAmt" fieldstyle="half" fieldtype="99" formactiveid="13" labelalign="3" labelcol="5" labelname="授信额度" maxlength="20" mustinput="0" readonly="1" row="8" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approveNodeNo" fieldtype="99" formactiveid="19" labelalign="3" labelcol="1" labelname="当前审批节点编号" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approveNodeName" fieldtype="99" formactiveid="20" labelalign="3" labelcol="3" labelname="当前审批节点名称" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="approvePartNo" fieldtype="99" formactiveid="21" labelalign="3" labelcol="1" labelname="审批角色号/用户号" maxlength="22" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="approvePartName" fieldtype="99" formactiveid="22" labelalign="3" labelcol="3" labelname="当前审批角色/用户名称" maxlength="40" mustinput="0" row="11"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approveRemark" fieldtype="5" formactiveid="23" labelalign="3" labelcol="1" labelname="审批说明" maxlength="200" mustinput="1" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="81" formactiveid="24" labelalign="3" labelcol="1" labelname="意见类型" maxlength="2" mustinput="1" onchange="WkfApprove.opinionTypeChange();" row="10"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="half" fieldtype="1" formactiveid="25" horVer="0" labelalign="3" labelcol="1" labelname="授信起日期" labelstyle="startRang" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="项目说明" maxlength="400" mustinput="" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="27" horVer="0" labelalign="3" labelcol="3" labelname="客户类型" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="creditType" fieldsize="CREDIT_TYPE" fieldtype="99" formactiveid="28" horVer="0" labelalign="3" labelcol="5" labelname="授信类型" mustinput="" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="rollbackName" fieldtype="2" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="发回岗位" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="projectNo" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="项目编号" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="projectType" fieldsize="PROJECT_TYPE" fieldtype="2" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="业务类型" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guarantyAgencyName" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="担保机构" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="responsibleOpName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="3" labelname="负责人" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="projectSource" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="项目来源" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="projectName" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="responsibleBrName" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="1" labelname="申请部门" mustinput="0" readonly="1" row="7"/>
+</form>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mfCusBorrowerList" para="eadis_page" title="共同借款人展示列表" type="2">
+<tableitem align="2" filedname="contactsTel" id="14" indexed="7" label="联系电话" type="0" widthType="0"/>
+<tableitem align="2" filedname="contactsName" id="13" indexed="6" label="联系人" mytitle="联系人-contactsName;" row="1" type="0" typepara="6" widthType="0"/>
+<tableitem align="1" filedname="idNum" id="12" indexed="4" label="共借人证件号码" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="3" indexed="1" label="共借人名称" row="1" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusType" id="1" indexed="3" label="客户类别" row="1" type="6" typepara="CUS_TYPE" widthType="0"/>
+</table>

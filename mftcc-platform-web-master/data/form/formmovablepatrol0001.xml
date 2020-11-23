@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?><form id="movablepatrol0001" title="动产巡库登记表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="patrolOpNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="巡库人" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="patrolOpName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="巡库人名称" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="patrolDate" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="巡库时间" maxlength="8" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="quantityIsTrue" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="品名、数量是否正确" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isDamage" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="是否有包装破损、锈蚀" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isStackTrue" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="是否有按要求堆放" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isStackChange" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="是否变更堆位" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isAbnormalGoodsLabel" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="有无其他异常货物标签" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isRisk" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="是否存在风险" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="riskType" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="存在风险情况" maxlength="1" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="riskRemark" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="风险情况说明" maxlength="200" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="storageCapacityRemark" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="仓库库容情况" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="inventoryConditionRemark" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="仓库存货条件" maxlength="200" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="mechEquipmentRemark" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="仓库机械设备" maxlength="200" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="staffTurnoverRemark" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="仓库人员变化" maxlength="200" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="stockRemark" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="收货情况" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="shipmentRemark" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="出货情况" maxlength="200" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="remark" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="总结或补充" maxlength="200" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="manageRemark" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="仓库管理动态" maxlength="200" mustinput="0" row="10"/>
+</form>

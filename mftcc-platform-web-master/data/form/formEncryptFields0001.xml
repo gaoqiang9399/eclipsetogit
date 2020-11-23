@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="EncryptFields0001" title="加密字段">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="tableName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="加密表名" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="columnName" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="加密字段" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="memo" fieldtype="5" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="描述" maxlength="400" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldId" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="id" mustinput="" readonly="" row="4"/>
+</form>

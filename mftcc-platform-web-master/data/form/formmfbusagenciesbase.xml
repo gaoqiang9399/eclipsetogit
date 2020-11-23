@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="mfbusagenciesbase" title="资金机构新增表单">
+<formelement alt="请输入机构名称" datatype="0" fieldalign="1" fieldcol="4" fieldname="agenciesName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="3" labelname="资金机构名称" maxlength="100" mustinput="1" row="1"/>
+<formelement alt="请输入对接人名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesButtName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="对接人名称" maxlength="30" mustinput="1" row="5"/>
+<formelement alt="请输入对接人联系方式" datatype="0" fieldalign="1" fieldcol="4" fieldname="agenciesButtPhone" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="对接人联系方式" maxlength="30" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="5"/>
+<formelement alt="点击选择关联操作员" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agenciesOpName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="关联操作员" maxlength="500" mustinput="1" readonly="1" row="6"/>
+<formelement alt="500字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remarks" fieldtype="5" formactiveid="7" labelalign="3" labelcol="1" labelname="备注说明" maxlength="500" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesOpNo" fieldtype="99" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="关联操作员编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusType" fieldsize="CUS_TYPE" fieldtype="2" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="资金机构类型" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesUid" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="编号" mustinput="" readonly="" row="8"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditBal" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="授信余额" maxlength="14" mustinput="" readonly="" row="6" unit="元"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="agenciesDesc" fieldtype="5" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="资金机构简介" maxlength="200" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="supportProductsName" fieldtype="1" formactiveid="15" horVer="0" labelalign="3" labelcol="1" labelname="支持产品" mustinput="1" onclick="MfBusAgencies.selectKindNo();" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="supportProducts" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="5" labelname="支持产品" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="parentAgenciesName" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="上级资金机构" mustinput="" onclick="MfBusAgencies.selectAgencies();" readonly="1" row="2" unit="&lt;i class='i i-fangdajing pointer' onclick='MfBusApply_applyInput.selectCusDialog();'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="parentAgenciesId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="上级资金机构编号" mustinput="" readonly="" row="2"/>
+</form>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="movable0001" para="eadis_page" link="/mfMoveableUnusualTailInfo/findByPage" title="异常情况跟踪登记表" type="1">
+<tableitem align="2" filedname="unusualTailId" id="1" indexed="1" label="异常情况跟踪编号" row="1" type="4" typepara="/mfMoveableUnusualTailInfo/getById;unusualTailId-unusualTailId;query-'query'"/>
+<tableitem align="2" filedname="tailDate" id="2" indexed="2" label="跟踪时间" row="1" type="0" />
+<tableitem align="2" filedname="tailOpNo" id="3" indexed="3" label="跟踪人" row="1" type="0" />
+<tableitem align="2" filedname="tailOpName" id="4" indexed="4" label="跟踪人名称" row="1" type="0" />
+<tableitem align="2" filedname="unusualDealType" id="5" indexed="5" label="对账结果" row="1" type="0" />
+<tableitem align="2" filedname="dealRemark" id="6" indexed="6" label="处理情况说明" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="15" indexed="15" label="-" row="1" type="5" typepara="/mfMoveableUnusualTailInfo/deleteAjax;unusualTailId-unusualTailId;onClick-ajaxDelete(this)" width="2"/>
+</table>

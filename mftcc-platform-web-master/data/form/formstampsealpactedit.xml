@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="stampsealpactedit" title="单笔合同盖章">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="主键" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="creditPactNo" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="内部编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="agenciesName" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="合作银行" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="creditSum" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="授信金额" maxlength="14" mustinput="" readonly="1" row="3" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="creditTerm" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="3" labelname="授信期限" maxlength="2" mustinput="" readonly="1" row="3" unit="个月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="stampDesc" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="授信说明" maxlength="200" mustinput="0" readonly="1" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="pactId" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="5" labelname="单笔合同ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="guaranteePactNo" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="委托保证合同编号" mustinput="" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="vouAdvanceAmt" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="担保金额" mustinput="" readonly="1" row="6" unit="元"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="vouAdvancePeriod" fieldtype="1" formactiveid="13" horVer="0" labelalign="3" labelcol="3" labelname="担保期限" mustinput="" readonly="1" row="6" unit="个月"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="14" horVer="0" labelalign="3" labelcol="1" labelname="还款方式" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="guaranteeOption" fieldsize="YES_NO" fieldtype="2" formactiveid="15" horVer="0" labelalign="3" labelcol="3" labelname="担保换期权" mustinput="" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="reverseVouType" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="反担保方式" mustinput="" readonly="1" row="8"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="stampTime" fieldtype="1" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="用印时间" mustinput="" readonly="1" row="11"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="盖章时间" mustinput="1" onfocus="fPopUpCalendarDlg()" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="opNo" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="3" labelname="盖章人编号" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="agenciesId" fieldtype="99" formactiveid="21" horVer="0" labelalign="3" labelcol="5" labelname="合作银行编号" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="kindNo" fieldtype="99" formactiveid="22" horVer="0" labelalign="3" labelcol="5" labelname="产品编号" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="1" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="锚点开始" labelstyle="anchor-start" mustinput="" readonly="" row="4" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="anchor1" fieldtype="2" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="锚点结束" labelstyle="anchor-end" mustinput="" readonly="" row="9" selrange="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="stampType" fieldstyle="anchor-ctrl" fieldtype="99" formactiveid="25" horVer="0" labelalign="3" labelcol="5" labelname="stampType" mustinput="" param="anchors:['anchor1']" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="stampId" fieldtype="99" formactiveid="26" horVer="0" labelalign="3" labelcol="5" labelname="stampId" mustinput="" readonly="" row="2"/>
+</form>

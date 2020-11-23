@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="cwjiti0001" title="计提表单设计">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="jiTiType" fieldtype="22" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="计提方式" mustinput="1" param="0-全部|1-五级分类|" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allJiTi" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="全部提取比例" mustinput="1" readonly="" row="2" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="zcJiTi" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="正常分类提取比例" mustinput="1" readonly="" row="3" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="gzJiTi" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="1" labelname="关注分类提取比例" mustinput="1" readonly="" row="4" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cjJiTi" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="次级分类提取比例" mustinput="1" readonly="" row="5" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kyJiTi" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="1" labelname="可疑分类提取比例" mustinput="1" readonly="" row="6" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ssJiTi" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="损失分类提取比例" mustinput="1" readonly="" row="7" unit="%"/>
+</form>

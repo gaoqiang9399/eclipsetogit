@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archiveworkbase" title="OA人事档案工作经历表">
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="workId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="2" labelname="工作经历ID" maxlength="30" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="baseId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="4" labelname="基础信息ID" maxlength="22" mustinput="0" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="half" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="开始日期" maxlength="10" mustinput="1" onfocus="fPopUpCalendarDlg({max: today})" readonly="1" row="2" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="half" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="结束日期" maxlength="8" mustinput="1" onfocus="fPopUpCalendarDlg({max: today})" readonly="1" row="2" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this,null,null,today);'&gt;&lt;/i&gt;"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="workContent" fieldtype="5" formactiveid="5" labelalign="3" labelcol="1" labelname="工作内容" maxlength="200" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="jobTitle" fieldstyle="half" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="职务" maxlength="20" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="confirmPerson" fieldstyle="half" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="证明人" maxlength="15" mustinput="1" row="3"/>
+<formelement alt="11位手机号码" datatype="0" fieldalign="1" fieldcol="4" fieldname="comfirmTel" fieldstyle="half" fieldtype="1" formactiveid="9" labelalign="3" labelcol="3" labelname="证明人电话" maxlength="11" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="companyName" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="公司名称" mustinput="1" readonly="" row="1" />
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dimissionReason" fieldtype="5" formactiveid="11" horVer="0" labelalign="3" labelcol="1" labelname="离职原因" maxlength="200" mustinput="" readonly="" row="6"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="salaryMonth" fieldtype="1" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="月薪" maxlength="7" mustinput="" readonly="" row="4" unit="元"/>
+</form>

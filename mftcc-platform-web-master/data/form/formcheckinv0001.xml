@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="checkinv0001" title="动产核库登记表">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindIsStandard" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="押品种类是否在规定范围内" maxlength="1" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ownershipIsChange" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="押品权属是否变更" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="worthIsUnderMin" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="押品价值是否低于监管下限" maxlength="1" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="isDevalue" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="押品是否贬值" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="isDamage" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="评级模型名称" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="checkOpNo" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="核库人" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkOpName" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="核库人名称" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="checkDate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="核库时间" maxlength="8" mustinput="0" row="5"/>
+</form>

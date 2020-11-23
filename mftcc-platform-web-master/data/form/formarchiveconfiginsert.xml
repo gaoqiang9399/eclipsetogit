@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="archiveconfiginsert" title="归档设置">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="archiveName" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="名称" mustinput="1" onclick="ArchiveConfig.getArchiveInfoDialog(archiveInfoCallBack);" readonly="1" row="1" unit="&lt;i class='i i-fangdajing pointer'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="archiveMode" fieldsize="ARCHIVE_MODE" fieldtype="2" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="归档方式" mustinput="1" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="archiveType" fieldsize="ARCHIVE_TYPE" fieldtype="2" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="归档类型" mustinput="1" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="id" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="主键id" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="relationNo" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="关联关系" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="archiveDesc" fieldtype="99" formactiveid="6" horVer="0" labelalign="3" labelcol="4" labelname="说明" mustinput="" readonly="" row="4"/>
+</form>

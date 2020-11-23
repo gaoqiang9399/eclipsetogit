@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="loantrackemr012" title="贷款轨迹-逾期平台详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="type" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="类型" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cycle" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="周期" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="emr012Type" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="机构" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="platformCode" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="平台代码" mustinput="" readonly="" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="counts" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="该平台的逾期数量" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="money" fieldtype="1" formactiveid="7" horVer="0" labelalign="3" labelcol="3" labelname="逾期金额区间" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="time" fieldtype="1" formactiveid="8" horVer="0" labelalign="3" labelcol="1" labelname="最近逾期时间" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="count" fieldtype="1" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="总逾期数量" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="countPlanform" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="总逾期平台数" mustinput="" readonly="" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lastOverdueTime" fieldtype="1" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="最近逾期时间" mustinput="" readonly="" row="5"/>
+</form>

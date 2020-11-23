@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="cusdebtArmourInfoBase" para="eadis_page" link="/mfCusDebtArmourInfo/findByPage" title="铁甲网-个人客户负债表" type="1">
+<tableitem align="2" filedname="删除" id="44" indexed="44" label="-" row="1" type="5" typepara="/mfCusDebtArmourInfo/deleteAjax;debtId-debtId;onClick-ajaxDelete(this)" width="2"/>
+</table>

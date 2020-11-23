@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="examhis0001" link="/mfExamineHis/findByPage" para="eadis_page" title="检查历史表" type="2">
+<tableitem align="2" filedname="riskLevel" id="12" indexed="15" label="风险级别" row="1" type="6" typepara="EXAM_RISK_LEVEL" widthType="0"/>
+<tableitem align="2" filedname="templateName" id="21" indexed="3" label="检查模型" row="1" type="4" typepara="action;templateId-templateId;examHisId-examHisId;onClick-BusExamine.examineDetailResultByList(this)" widthType="0"/>
+<tableitem align="2" filedname="examSts" id="19" indexed="22" label="检查状态" row="1" type="6" typepara="EXAM_STS"/>
+<tableitem align="2" filedname="endDate" id="9" indexed="4" label="检查日期" row="1" type="1" typepara="action;templateId-templateId;docuTemplate-docuTemplate;formTemplate-formTemplate;examHisId-examHisId;onClick-openExamDetail(this)" widthType="0"/>
+</table>

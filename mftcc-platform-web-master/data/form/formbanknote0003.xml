@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="banknote0003" title="票据审批表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="billId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="票据编号" maxlength="30" mustinput="0" row="1"/>
+<formelement alt="请输入票据的出票行" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="billBank" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="出票行" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement alt="请输入票据总金额" datatype="12" fieldalign="1" fieldcol="2" fieldname="billSum" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="票据总额(元)" maxlength="20" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="billType" fieldsize="BANK_BILL_TYPE" fieldtype="2" formactiveid="4" labelalign="3" labelcol="3" labelname="票据类型" maxlength="1" mustinput="0" readonly="1" row="2"/>
+<formelement alt="请输入要打款的账户名称" datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="账户名称" maxlength="100" mustinput="0" readonly="1" row="3"/>
+<formelement alt="请输入账号" datatype="0" fieldalign="1" fieldcol="4" fieldname="accountNo" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="账号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement alt="根据账号带出" datatype="0" fieldalign="1" fieldcol="2" fieldname="bank" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="开户行名称" maxlength="50" mustinput="0" readonly="1" row="4"/>
+<formelement alt="根据账号带出" datatype="0" fieldalign="1" fieldcol="4" fieldname="bankNo" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="大行行号" maxlength="50" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="txAmt" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="打款金额(元)" maxlength="20" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="txRate" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="打款利率(%)" maxlength="10" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opNo" fieldtype="99" formactiveid="12" labelalign="3" labelcol="1" labelname="登记人编号" maxlength="22" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opName" fieldtype="99" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人姓名" maxlength="40" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brNo" fieldtype="99" formactiveid="14" labelalign="3" labelcol="1" labelname="登记部门编号" maxlength="10" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="brName" fieldtype="99" formactiveid="15" labelalign="3" labelcol="1" labelname="登记部门名称" maxlength="80" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModTime" fieldtype="99" formactiveid="17" labelalign="3" labelcol="1" labelname="最后修改时间" maxlength="17" mustinput="0" row="14"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="18" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="opinionType" fieldtype="8" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="1" row="8" />
+<formelement datatype="30" fieldalign="1" fieldcol="2" fieldname="regTime" fieldtype="1" formactiveid="20" horVer="0" labelalign="3" labelcol="1" labelname="申请时间" mustinput="" readonly="1" row="6" />
+</form>

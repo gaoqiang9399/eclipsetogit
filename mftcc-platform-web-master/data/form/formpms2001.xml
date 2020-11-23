@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?><form id="pms2001" title="数据权限子表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="funNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="业务功能编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pmsLv" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="权限类型编号" maxlength="2" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pmsName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="权限类型名称" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pmsField" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="指定字段" maxlength="20" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pmsSts" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="是否启用指定字段" maxlength="2" mustinput="0" row="3"/>
+</form>

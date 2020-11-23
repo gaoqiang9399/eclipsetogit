@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="false" id="prd0001" title="销售产品">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="prodName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="业务品种:" maxlength="240" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaseType" fieldsize="LEASE_TYPE" fieldtype="2" formactiveid="4" labelalign="3" labelcol="3" labelname="租赁方式:" maxlength="6" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="glNo" fieldtype="99" formactiveid="5" labelalign="3" labelcol="5" labelname="核算产品编号" maxlength="30" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="prodType" fieldsize="PROD_TYPE" fieldtype="2" formactiveid="6" horVer="0" labelalign="3" labelcol="5" labelname="产品类型:" maxlength="6" mustinput="" readonly="" row="1" />
+</form>

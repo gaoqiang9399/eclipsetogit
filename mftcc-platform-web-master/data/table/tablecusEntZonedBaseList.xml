@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cusEntZonedBaseList" para="eadis_page" title="客户行业分类历史列表" type="2">
+<tableitem align="2" filedname="amtSum" id="6" indexed="6" label="上一年末资产总额(万元)" row="1" type="15" widthType="0"/>
+<tableitem align="2" filedname="lstModTime" id="11" indexed="11" label="划型时间" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="newProjSize" id="10" indexed="10" label="行业划型" row="1" type="6" typepara="PROJ_SIZE" widthType="0"/>
+<tableitem align="2" filedname="wayClassDes" id="9" indexed="9" label="行业" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="people" id="8" indexed="8" label="员工人数（上年）" type="1" widthType="0"/>
+<tableitem align="2" filedname="incomeSum" id="7" indexed="7" label="上一年度营业收入(万元)" row="1" type="15" widthType="0"/>
+</table>

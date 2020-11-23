@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="assetspreservationlist" link="/mfAssetsPreservation/findByPage" para="eadis_page" title="资产保全（涉诉，查封（保全），解封，抵债的押品）" type="1">
+<tableitem align="2" authority="involvementSts-2;involvementSts-4" filedname="查封" id="19" indexed="14" label="-" row="1" type="5" typepara="/mfAssetsPreservation/assetsPreservation;id-id;involvementSts-'2';onClick-MfAssetsPreservation_List.assetsPreservation;" width="5" widthType="0"/>
+<tableitem align="2" authority="involvementSts-1;involvementSts-3;involvementSts-4" filedname="续查封" id="20" indexed="17" label="-" row="1" type="5" typepara="/mfAssetsPreservation/assetsPreservation;id-id;involvementSts-'5';onClick-MfAssetsPreservation_List.assetsPreservation;" width="5" widthType="0"/>
+<tableitem align="2" authority="involvementSts-1;involvementSts-3;involvementSts-4" filedname="解封" id="18" indexed="15" label="-" row="1" type="5" typepara="/mfAssetsPreservation/assetsPreservation;id-id;involvementSts-'3';onClick-MfAssetsPreservation_List.assetsPreservation;" width="5" widthType="0"/>
+<tableitem align="2" filedname="caseId" id="17" indexed="5" label="案件编号" row="1" sortType="2" type="0" width="15" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="7" indexed="9" label="查封到期日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" filedname="involvementSts" id="16" indexed="10" label="涉诉状态" row="1" sortType="2" type="6" typepara="INVOLVEMENT_STS" width="10" widthType="0"/>
+<tableitem align="2" filedname="startDate" id="6" indexed="7" label="查封开始日期" row="1" sortType="1" type="1" width="10" widthType="0"/>
+<tableitem align="2" authority="involvementSts-1;involvementSts-3;involvementSts-4" filedname="抵债" id="14" indexed="16" label="-" row="1" sortType="2" type="5" typepara="/mfAssetsPreservation/assetsPreservation;id-id;involvementSts-'4';onClick-MfAssetsPreservation_List.assetsPreservation;" width="5" widthType="0"/>
+<tableitem align="2" filedname="pledgeNo" id="5" indexed="4" label="资产名称" row="1" sortType="2" type="0" typepara="/pledgeBaseInfo/getById;pledgeNo-pledgeNo;entranceType-'pledge';subStringNub-12;" width="15" widthType="0"/>
+<tableitem align="2" filedname="caseTitle" id="3" indexed="6" label="案件名称" sortType="2" type="4" typepara="/mfLawsuit/getById;caseId-caseId;onClick-MfAssetsPreservation_List.getLawsuitById(this);subStringNub-20;" width="10" widthType="0"/>
+<tableitem align="2" filedname="opName" id="10" indexed="13" label="操作员" row="1" sortType="2" type="0" width="10" widthType="0"/>
+</table>

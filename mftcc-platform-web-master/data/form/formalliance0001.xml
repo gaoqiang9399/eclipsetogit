@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="alliance0001" title="联保体">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="1" labelname="联保体名称" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceLeader" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="联保体小组组长" maxlength="100" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="contactInformation" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="联系方式" maxlength="100" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="loanLimit" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="授信额度" maxlength="10" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="availableBalance" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="可用余额" maxlength="10" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext2" fieldtype="1" formactiveid="14" labelalign="3" labelcol="1" labelname="预留字段2" maxlength="100" mustinput="0" row="14"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext3" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="预留字段3" maxlength="100" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext4" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="预留字段4" maxlength="100" mustinput="0" row="16"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext5" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="预留字段5" maxlength="100" mustinput="0" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext6" fieldtype="1" formactiveid="18" labelalign="3" labelcol="1" labelname="预留字段6" maxlength="100" mustinput="0" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext7" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="预留字段7" maxlength="100" mustinput="0" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext8" fieldtype="1" formactiveid="20" labelalign="3" labelcol="1" labelname="预留字段8" maxlength="100" mustinput="0" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext9" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="预留字段9" maxlength="100" mustinput="0" row="21"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="ext10" fieldtype="1" formactiveid="22" labelalign="3" labelcol="1" labelname="预留字段10" maxlength="100" mustinput="0" row="22"/>
+</form>

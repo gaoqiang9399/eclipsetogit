@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="importexcelconfiglist" para="eadis_page" link="/mfImpotCheckConfig/findByPage" title="历史数据导入校验配置表" type="1">
+<tableitem align="2" filedname="configId" id="1" indexed="1" label="编号" row="1" type="4" typepara="/mfImpotCheckConfig/getById;configId-configId;query-'query'"/>
+<tableitem align="2" filedname="dataModel" id="2" indexed="2" label="数据模块1客户信息2授信信息3合同信息4借据信息5还款计划6还款历史7押品信息8担保信息(押品)9担保信息(担保人)" row="1" type="0" />
+<tableitem align="2" filedname="columnZh" id="3" indexed="3" label="字段中文名称" row="1" type="0" />
+<tableitem align="2" filedname="columnEn" id="4" indexed="4" label="字段属性名称" row="1" type="0" />
+<tableitem align="2" filedname="isCheck" id="5" indexed="5" label="是否校验" row="1" type="0" />
+<tableitem align="2" filedname="checkRules" id="6" indexed="6" label="校验规则" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="7" indexed="7" label="说明" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="9" indexed="9" label="-" row="1" type="5" typepara="/mfImpotCheckConfig/deleteAjax;configId-configId;onClick-ajaxDelete(this)" width="2"/>
+</table>

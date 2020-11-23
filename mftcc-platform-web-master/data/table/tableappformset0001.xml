@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="appformset0001" para="eadis_page" link="/mfFrontAppform/findByPage" title="交易前端申请表单设置" type="1">
+<tableitem align="2" filedname="id" id="1" indexed="1" label="" row="1" type="4" typepara="/mfFrontAppform/getById;id-id;query-'query'"/>
+<tableitem align="2" filedname="kindNo" id="2" indexed="2" label="产品编号" row="1" type="0" />
+<tableitem align="2" filedname="fieldName" id="3" indexed="3" label="数据库中的字段名称" row="1" type="0" />
+<tableitem align="2" filedname="fieldUnit" id="4" indexed="4" label="字段单位" row="1" type="0" />
+<tableitem align="2" filedname="mobleShow" id="5" indexed="5" label="是否在移动端展示该数据" row="1" type="0" />
+<tableitem align="2" filedname="pcShow" id="6" indexed="6" label="是否在交易端展示该字段，0不展示，1展示" row="1" type="0" />
+<tableitem align="2" filedname="defaultVal" id="7" indexed="7" label="字段默认值" row="1" type="0" />
+<tableitem align="2" filedname="mobileUse" id="8" indexed="8" label="移动端是否使用该字段，0不使用，1使用" row="1" type="0" />
+<tableitem align="2" filedname="pcUse" id="9" indexed="9" label="pc交易端是否使用该字段，0不使用，1使用" row="1" type="0" />
+<tableitem align="2" filedname="fieldLabel" id="10" indexed="10" label="字段在交易端显示的中文名称" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="12" indexed="12" label="-" row="1" type="5" typepara="/mfFrontAppform/deleteAjax;id-id;onClick-ajaxDelete(this)" width="2"/>
+</table>

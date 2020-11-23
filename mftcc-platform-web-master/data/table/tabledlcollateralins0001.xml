@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="dlcollateralins0001" para="eadis_page" link="" title="保险信息" type="2">
+<tableitem align="2" filedname="insId" id="1" indexed="1" label="保险ID" row="1" type="4" typepara="/insInfo/getByIdAjax;insId-insId;query-'query';onClick-ajaxGetById(this);"/>
+<tableitem align="2" filedname="collateralId" id="2" indexed="2" label="押品编号" row="1" type="0" />
+<tableitem align="2" filedname="insNo" id="3" indexed="3" label="保险证编号" row="1" type="0" />
+<tableitem align="2" filedname="insAmount" id="4" indexed="4" label="保险金额" row="1" type="0" />
+<tableitem align="2" filedname="insCrop" id="5" indexed="5" label="保险公司名称" row="1" type="0" />
+<tableitem align="2" filedname="insEnd" id="6" indexed="6" label="保险到日期" row="1" type="0" />
+<tableitem align="2" filedname="regCusId" id="7" indexed="7" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="regCusName" id="8" indexed="8" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="regOrgId" id="9" indexed="9" label="登记人机构" row="1" type="0" />
+<tableitem align="2" filedname="regOrgName" id="10" indexed="10" label="登记人机构名称" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="11" indexed="11" label="登记日期" row="1" type="0" />
+<tableitem align="2" filedname="updateCusId" id="12" indexed="12" label="更新人编号" row="1" type="0" />
+<tableitem align="2" filedname="updateCusName" id="13" indexed="13" label="更新人姓名" row="1" type="0" />
+<tableitem align="2" filedname="updateOrgId" id="14" indexed="14" label="更新人机构" row="1" type="0" />
+<tableitem align="2" filedname="updateOrgName" id="15" indexed="15" label="更新人机构名称" row="1" type="0" />
+<tableitem align="2" filedname="updateDate" id="16" indexed="16" label="更新日期" row="1" type="0" />
+</table>

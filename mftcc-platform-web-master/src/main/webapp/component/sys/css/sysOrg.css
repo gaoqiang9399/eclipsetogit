@@ -1,0 +1,274 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#rMenu {
+	position: absolute;
+	//visibility: hidden;
+	top: 6;
+	left:22px;
+	background-color: #fff;
+	text-align: left;
+	padding: 2px;
+}
+.sys-org-tree .ztree{
+	margin-top:45px;
+	margin-left:10px;
+}
+
+
+div#rMenu ul{
+	padding: 0px;
+	margin: 0px;
+}
+div#rMenu ul li {
+	margin: 1px 0;
+	padding: 0 5px;
+	cursor: pointer;
+	list-style: none outside none;
+	background-color: #DFDFDF;
+	font-size:12px;
+}
+div#rMenu ul li:hover{
+	background-color: #4dbaeb;
+	color:#fff;
+}
+
+.formDiv{
+	text-align: center;
+}
+.formDiv table {
+	margin: 40px auto;
+	width: 50%;
+	font-size:12px;
+}
+
+.formDiv table tr {
+	height: 40px;
+}
+
+.saveBtn {
+	margin: 0px auto;
+	background-color: #32b5cb;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 0px;
+	border: none;
+	padding: 5px;
+	width: 80px;
+	height:30px;
+	display: inline-block;
+}
+
+.sys-org-body {
+	display: block;
+	position: absolute;
+	top: 0px;
+	bottom: 5px;
+	left: 0px;
+	right: 0px;
+	overflow-y: auto;
+}
+
+.sys-org-tree {
+	height: 100%;
+	width: 236px;
+	background-color: #f7f7f7;
+	border-right:1px solid #ddd;
+	display: inline-block;
+	float: left;
+}
+
+.sys-org-info {
+	height: 100%;
+	width: calc(100% - 236px);
+	background-color: #ffffff;
+	display: inline-block;
+}
+
+.sys-org-tree .ztree a.curSelectedNode {
+	background-color: transparent;
+}
+
+.sys-org-tree .ztree a.level0 {
+	height: 41px;
+}
+
+.sys-org-tree .ztree a.level0 .node_name {
+	margin-left: 10px;
+	line-height: 41px;
+}
+
+.sys-org-tree .ztree li span.button.orgIcon1_ico_open {
+	margin-right: 2px;
+	background: url(../images/orgIcon01.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 41px;
+	width: 41px;
+	margin-left: 3px;
+	*vertical-align: middle
+}
+.sys-org-tree .ztree li span.button.orgIcon1_ico_docu {
+	margin-right: 2px;
+	background: url(../images/orgIcon01.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 41px;
+	width: 41px;
+	margin-left: 3px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon1_ico_close {
+	margin-right: 2px;
+	background: url(../images/orgIcon01.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 41px;
+	width: 41px;
+	margin-left: 3px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree a.level1 {
+	height: 46px;
+}
+
+.sys-org-tree .ztree a.level1 .node_name {
+	margin-left: 10px;
+	line-height: 46px;
+}
+
+.sys-org-tree .ztree ul.level1 {
+	padding: 0px;
+}
+
+.sys-org-tree .ztree li span.button.orgIcon2_ico_open {
+	margin-right: 2px;
+	background: url(../images/orgIcon02.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 46px;
+	width: 11px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon2_ico_close {
+	margin-right: 2px;
+	background: url(../images/orgIcon02_off.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 46px;
+	width: 11px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon2_ico_docu {
+	margin-right: 2px;
+	background: url(../images/orgIcon02_off.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 49px;
+	width: 11px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree a.level2 {
+	height: 21px;
+}
+
+.sys-org-tree .ztree ul.level2 {
+	padding: 0px;
+}
+
+.sys-org-tree .ztree a.level2 .node_name {
+	line-height: 13px;
+	vertical-align: top;
+}
+
+.sys-org-tree .ztree li span.button.orgIcon3_ico_open {
+	margin-right: 2px;
+	background: url(../images/orgIcon03.png) no-repeat scroll 0 0
+		transparent;
+	/* vertical-align: top; */
+	height: 23px;
+	width: 48px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon3_ico_close {
+	margin-right: 2px;
+	background: url(../images/orgIcon03.png) no-repeat scroll 0 0
+		transparent;
+	/* vertical-align: top; */
+	height: 23px;
+	width: 48px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon3_ico_docu {
+	margin-right: 2px;
+	background: url(../images/orgIcon03.png) no-repeat scroll 0 0
+		transparent;
+	/* vertical-align: top; */
+	height: 23px;
+	width: 48px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li.level3 {
+	height: 19px;
+}
+
+.sys-org-tree .ztree a.level3 {
+	height: 19px;
+}
+
+.sys-org-tree .ztree a.level3 .node_name {
+	line-height: 15px;
+	font-size: 12px;
+	/* vertical-align: top; */
+}
+
+.sys-org-tree .ztree li span.button.orgIcon4_ico_open {
+	margin-right: 2px;
+	background: url(../images/orgIcon04.png) no-repeat scroll 0 0
+		transparent;
+	/* vertical-align: top; */
+	height: 19px;
+	width: 67px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon4_ico_close {
+	margin-right: 2px;
+	background: url(../images/orgIcon04.png) no-repeat scroll 0 0
+		transparent;
+	/* 	vertical-align: top; */
+	height: 19px;
+	width: 63px;
+	*vertical-align: middle
+}
+
+.sys-org-tree .ztree li span.button.orgIcon4_ico_docu {
+	margin-right: 2px;
+	background: url(../images/orgIcon04.png) no-repeat scroll 0 0
+		transparent;
+	/* vertical-align: top; */
+	height: 19px;
+	width: 63px;
+	*vertical-align: middle
+}
+
+
+.sys-org-ztree{
+	width:240px;
+}
+.sys-org-list{
+	width:calc(100% - 240px);
+}
+.sys-org-ztree .mCSB_scrollTools{
+	width:2px !important;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincapp0001_cash" para="eadis_page" title="获取待还款列表" type="1">
+<tableitem align="2" filedname="intstEndDate" id="51" indexed="15" label="还款日期" row="1" type="1" typepara="/mfBusFincApp/getById;fincId-fincId" widthType="0"/>
+<tableitem align="2" filedname="putoutDate" id="11" indexed="12" label="放款日期" row="1" type="1"/>
+<tableitem align="2" filedname="loanBal" id="10" indexed="17" label="待还金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="overdueSts" id="57" indexed="18" label="逾期状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="56" indexed="11" label="合同编号" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="55" indexed="9" label="客户名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="appName" id="53" indexed="10" label="项目名称" row="1" type="0" widthType="0"/>
+</table>

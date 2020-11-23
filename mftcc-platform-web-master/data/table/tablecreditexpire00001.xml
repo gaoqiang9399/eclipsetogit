@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="cuscreditListBase" para="eadis_page" title="客户授信到期" type="1">
+<tableitem align="2" filedname="creditTerm" id="7" indexed="7" label="授信期限(月)" row="1" sortType="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="endDate" id="16" indexed="9" label="授信结束日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="pactNo" id="3" indexed="3" label="授信合同号" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="projectName" id="15" indexed="4" label="项目名称" mytitle="项目名称-projectName" sortType="2" type="3" typepara="12" widthType="0"/>
+<tableitem align="2" filedname="beginDate" id="6" indexed="8" label="授信开始日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="2" indexed="0" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCreditApply/getCusCreditView;cusNo-cusNo;creditAppId-creditAppId;busEntrance-'credit';entrance-'credit';onClick-MfCusCredit_List.getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="3" filedname="creditSum" id="1" indexed="5" label="授信总额(元)" row="1" sortType="1" type="12" widthType="0"/>
+</table>

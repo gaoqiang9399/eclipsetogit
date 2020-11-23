@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="GB2312"?><form id="cuscoop00001" title="合作机构基本信息">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgaNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="企业客户号" maxlength="20" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="orgaName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="客户名称" maxlength="100" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="usedName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="曾用名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="engName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="3" labelname="英文名" maxlength="100" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="orgaType" fieldtype="1" formactiveid="5" labelalign="3" labelcol="1" labelname="机构类型" maxlength="1" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="legalRepresName" fieldtype="1" formactiveid="6" labelalign="3" labelcol="3" labelname="法人代表姓名" maxlength="80" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="legalIdType" fieldtype="1" formactiveid="7" labelalign="3" labelcol="1" labelname="法人代表证件类型" maxlength="1" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="legalIdNum" fieldtype="1" formactiveid="8" labelalign="3" labelcol="3" labelname="法人代表证件号码" maxlength="30" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="setupDate" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="成立年份" maxlength="4" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="careaProvice" fieldtype="1" formactiveid="10" labelalign="3" labelcol="3" labelname="行政区划" maxlength="6" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="careaCity" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="客户所属市" maxlength="6" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="careaCounty" fieldtype="1" formactiveid="12" labelalign="3" labelcol="3" labelname="客户所属县" maxlength="6" mustinput="0" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="postalCode" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="邮政编号" maxlength="6" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="corpNature" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="企业性质" maxlength="1" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayClass" fieldtype="1" formactiveid="15" labelalign="3" labelcol="1" labelname="行业分类" maxlength="6" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayMaxClass" fieldtype="1" formactiveid="16" labelalign="3" labelcol="3" labelname="大类" maxlength="6" mustinput="0" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="wayMidClass" fieldtype="1" formactiveid="17" labelalign="3" labelcol="1" labelname="中类" maxlength="6" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="wayMinClass" fieldtype="1" formactiveid="18" labelalign="3" labelcol="3" labelname="小类" maxlength="6" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="empCnt" fieldtype="1" formactiveid="19" labelalign="3" labelcol="1" labelname="从业人数" maxlength="0" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assetSum" fieldtype="1" formactiveid="20" labelalign="3" labelcol="3" labelname="资产总额" maxlength="20" mustinput="0" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="bussIncome" fieldtype="1" formactiveid="21" labelalign="3" labelcol="1" labelname="营业收入" maxlength="20" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="gradeModel" fieldtype="1" formactiveid="22" labelalign="3" labelcol="3" labelname="评分模型" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="newIndustry" fieldtype="1" formactiveid="23" labelalign="3" labelcol="1" labelname="是否战略新兴产业" maxlength="1" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="autoEnterprise" fieldtype="1" formactiveid="24" labelalign="3" labelcol="3" labelname="是否自治区百亿工程企业" maxlength="1" mustinput="0" row="12"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="belongWay" fieldtype="1" formactiveid="25" labelalign="3" labelcol="1" labelname="行业分类（隐藏）" maxlength="6" mustinput="0" row="13"/>
+</form>

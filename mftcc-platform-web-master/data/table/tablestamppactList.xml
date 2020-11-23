@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="stamppactList" para="eadis_page" title="单笔合同用印" type="1">
+<tableitem align="2" filedname="guaranteePactNo" id="89" indexed="91" label="委托业务合同号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="regTime" id="88" indexed="104" label="登记时间" row="1" type="30" widthType="0"/>
+<tableitem align="2" filedname="creditPactNo" id="87" indexed="90" label="内部编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="stampSts" id="85" indexed="102" label="用印状态" row="1" sortType="2" type="6" typepara="STAMP_STS" widthType="0"/>
+<tableitem align="2" authority="registSts-0;" filedname="合同登记" id="99" indexed="107" label="-" row="1" type="99" typepara="/mfStampPactRegist/input;id-id;onClick-registApply(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="approveUser" id="104" indexed="105" label="审批人" type="0" widthType="0"/>
+<tableitem align="2" authority="stampSts-1;stampSts-2;stampSts-3;stampSts-4;" filedname="合同登记详情" id="103" indexed="108" label="-" row="1" type="99" typepara="/mfStampPactRegist/detail;id-id;onClick-registApply(this)" widthType="0"/>
+<tableitem align="2" filedname="用印详情" id="102" indexed="106" label="-" row="1" type="5" typepara="/mfStampPact/stampDetail;id-id;onClick-stampApplyDetail(this)" widthType="0"/>
+<tableitem align="2" filedname="creditTerm" id="96" indexed="96" label="授信期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="vouAdvancePeriod" id="101" indexed="97" label="融资期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="92" indexed="84" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;onClick-MfCusCredit_List.getDetailPage(this);subStringNub-20;" widthType="0"/>
+</table>

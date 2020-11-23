@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiverewardslist" para="eadis_page" title="OA人事档案奖惩记录表" type="1">
+<tableitem align="2" filedname="删除" id="6" indexed="5" label="-" row="1" type="5" typepara="/mfOaArchivesRewards/deleteAjax;rewardId-rewardId;baseId-baseId;onClick-OaArchivesDetail.rewardsdelete(this)" width="5" widthType="0"/>
+<tableitem align="2" filedname="编辑" id="5" indexed="4" label="-" row="1" type="5" typepara="/mfOaArchivesRewards/input;baseId-baseId;rewardId-rewardId;onClick-OaArchivesDetail.rewardsadd;" width="5" widthType="0"/>
+<tableitem align="2" filedname="rewardOrPunishment" id="4" indexed="1" label="惩罚/奖励" row="1" type="6" typepara="REWARD_PUNISHMNET" width="20" widthType="0"/>
+<tableitem align="2" filedname="adwards" id="3" indexed="2" label="奖项" mytitle="奖项-adwards;" type="3" typepara="12" width="20" widthType="0"/>
+<tableitem align="2" filedname="adwardDate" id="2" indexed="0" label="日期" row="1" type="4" typepara="/mfOaArchivesRewards/listShowDetailAjax;rewardId-rewardId;oneUrl-'/mfOaArchivesRewards/updateByOneAjax';onClick-listShowDetail(this);subStringNub-12;" width="20" widthType="0"/>
+<tableitem align="2" filedname="reason" id="1" indexed="3" label="惩罚原因" mytitle="惩罚原因-reason;" row="1" type="3" typepara="12" width="30" widthType="0"/>
+</table>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busSealConfirmListBase" link="/mfBusSealConfirm/findByPage" para="eadis_page" title="用章确认表" type="1">
+<tableitem align="2" filedname="删除" id="32" indexed="32" label="-" row="1" type="99" typepara="/mfBusSealConfirm/deleteAjax;id-id;appId-appId;onClick-ajaxDelete(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="appAmt" id="9" indexed="9" label="借款金额" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="cusNameFund" id="8" indexed="8" label="借款银行" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="sealState" id="16" indexed="16" label="盖章状态" row="1" type="6" typepara="SEAL_CONFIRM" widthType="0"/>
+<tableitem align="2" filedname="kindName" id="6" indexed="6" label="产品名称" row="1" type="0"/>
+<tableitem align="2" filedname="sealPerson" id="15" indexed="15" label="盖章人员" row="1" type="0"/>
+<tableitem align="2" filedname="sealDate" id="14" indexed="14" label="盖章日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="cusName" id="4" indexed="4" label="客户名" row="1" type="0"/>
+<tableitem align="2" filedname="fincRate" id="13" indexed="13" label="借款利率" type="0" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="12" indexed="12" label="申请期限" row="1" type="0" widthType="0"/>
+</table>

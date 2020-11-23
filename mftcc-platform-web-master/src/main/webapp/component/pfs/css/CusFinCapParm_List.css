@@ -1,0 +1,72 @@
+.btn-this {
+	width: 70px;
+	height: 31px;
+	background: rgb(50, 181, 203) none repeat scroll 0% 0%;
+	border-radius: 0px;
+	border: medium none;
+	color: rgb(255, 255, 255);
+}
+
+.span-this {
+	color: #32B5CB;
+	cursor: pointer;
+}
+
+.table_content .ls_list tr td.td-des {
+	text-align: left;
+	width: 70%;
+	padding-left: 20px;
+}
+
+.table_content .ls_list tr td.td-des1 {
+	text-align: left;
+	width: 70%;
+	padding-left: 40px;
+}
+
+.table_content .ls_list tr td.td-des2 {
+	text-align: left;
+	width: 70%;
+	padding-left: 60px;
+}
+
+.td-caozuo {
+	text-align: center;
+}
+
+.addRow {
+	background: rgba(0, 0, 0, 0) url(../../pms/imgs/tipsico.png) no-repeat scroll 1px -39px;
+	height: 20px;
+	width: 20px;
+}
+
+.delRow {
+	background: rgba(0, 0, 0, 0) url(../../pms/imgs/tipsico.png) no-repeat scroll 1px -19px;
+	height: 20px;
+	width: 20px;
+	margin-left: 10px;
+}
+
+.btn {
+	padding: 6px 10px;
+}
+
+#ys-div td {
+	text-align: center;
+}
+
+#ys-div td input {
+	height: 25px;
+	line-height: 25px
+}
+
+
+#ys-div td select {
+	height: 25px;
+	/* padding-top: 5px;
+	padding-bottom: 5px; */
+	padding-bottom: 2px;
+}
+#newParm-form #newParm-dgcctag .table {
+	margin-bottom:40px;
+}

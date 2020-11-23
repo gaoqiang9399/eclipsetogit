@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312"?><form id="penalty0002" title="违约金主表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" horVer="1" labelalign="1" labelcol="1" labelname="唯一序号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="kindNo" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="产品种类编号" maxlength="10" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repayTypeNo" fieldtype="99" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="还款方式编号" maxlength="2" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="penaltyReceiveType" fieldtype="99" formactiveid="4" horVer="1" labelalign="1" labelcol="1" labelname="违约金计算类型:1-百分比%,2-固定金额,3-阶梯比例  逾期违约金Parm_dic表OVER_PENALTY_ACCOUNT_TYPE,提前还款违约金Parm_dic表PRE_REPAY_PENALTY_ACCOUNT_TYPE" maxlength="1" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="penaltyReceiveValue" fieldtype="99" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="违约金计算类型对应值：违约金计算类型选择固定额度时存储的是金额，选择固定百分比时存储的是百分比如:5%，存储的是5，选择阶梯比例时查询mf_sys_penalty_child" maxlength="20" mustinput="0" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="penaltyCalcBaseType" fieldtype="99" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="违约金按照比例收取计算基数类型：01-合同金额 02-合同余额(计算时) 03-借据金额 04-借据余额(计算时) 05-提前还款本金 06-提前还款金额(提前还款本金+提前还款时的利息)" maxlength="1" mustinput="0" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="penaltyReceiveCycle" fieldtype="99" formactiveid="7" horVer="1" labelalign="1" labelcol="1" labelname="违约金计算周期：1-一次性（即每期逾期后，只收取一次违约金）2-按逾期天数" maxlength="1" mustinput="0" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="repaymentLimitMouth" fieldtype="99" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="从放款时间开始几个月内不得提前还款" maxlength="0" mustinput="0" row="13"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="useFlag" fieldtype="99" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="启用标识0-禁用,1-启用parm_dic表key_name=USE_FLAG" maxlength="1" mustinput="0" row="15"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="penaltyType" fieldtype="99" formactiveid="10" horVer="1" labelalign="1" labelcol="1" labelname="违约金分类 ：1-逾期违约金，提前还款违约金" maxlength="1" mustinput="0" row="17"/>
+</form>

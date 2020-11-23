@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="fincapprovalstslist" para="eadis_page" title="放款审批状态查询" type="1">
+<tableitem align="2" filedname="pactNo" id="9" indexed="4" label="合同编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="intstEndDate" id="8" indexed="8" label="结束日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="fincApplySts" id="7" indexed="10" label="审批状态" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="putoutAppDate" id="6" indexed="9" label="申请日期" row="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="intstBeginDate" id="5" indexed="7" label="起息日期" row="1" type="1" widthType="0"/>
+<tableitem align="3" filedname="putoutAmt" id="4" indexed="6" label="借据金额(元)" row="1" type="12" widthType="0"/>
+<tableitem align="1" filedname="appName" id="2" indexed="2" label="项目名称" row="1" sortType="2" type="4" typepara="/mfBusPact/getById;appId-appId;fincId-fincId;busEntrance-'5';onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="1" label="客户名称" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;onClick-getDetailPage(this);subStringNub-12;" widthType="0"/>
+<tableitem align="2" filedname="fincShowId" id="10" indexed="5" label="借据编号" type="0" widthType="0"/>
+</table>

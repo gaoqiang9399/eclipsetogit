@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?><form formTitleShowFlag="true" id="consumable0004" title="用品详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="consName" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="用品名称" maxlength="40" mustinput="1" row="1" unit="&lt;i class='i i-fangdajing pointer' onclick='selectConsDialog(OaConsInsert.getConsDialog);'&gt;&lt;/i&gt;"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="price" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="1" labelname="单价" maxlength="10" mustinput="1" row="3"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="operateNum" fieldstyle="half" fieldtype="1" formactiveid="6" horVer="0" labelalign="3" labelcol="3" labelname="入库数量" maxlength="20" mustinput="1" row="2"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="operateRemark" fieldtype="5" formactiveid="9" horVer="0" labelalign="3" labelcol="1" labelname="备注" maxlength="200" mustinput="0" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="specification" fieldstyle="half" fieldtype="1" formactiveid="10" horVer="0" labelalign="3" labelcol="3" labelname="规格型号" maxlength="40" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="unit" fieldsize="CONS_UNIT" fieldstyle="half" fieldtype="21" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="计量单位" maxlength="2" mustinput="1" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldstyle="half" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="进货时间" mustinput="1" onclick="fPopUpCalendarDlg(this);return false" readonly="" row="3" unit="&lt;i class='i i-rili pointer' onClick='selectrili(this);'&gt;&lt;/i&gt;" />
+</form>

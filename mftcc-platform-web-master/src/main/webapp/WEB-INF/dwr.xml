@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN" "http://getahead.org/dwr/dwr30.dtd">
+<dwr>
+	<allow>
+		<convert converter="bean" match="app.component.entity.ValueBean">
+			<!-- 这里可以扩展 -->
+			<param name="include"
+				value="name1,name2,name3,name4,name5,name6,name7,value1,value2,value3,value4,value5">
+			</param>
+		</convert>
+		<convert converter="bean" match="app.component.entity.SysButton">
+			<param name="include" value="menu_no,button_no,button_desc">
+			</param>
+		</convert>
+		<convert converter="bean" match="app.component.entity.SysUserButton">
+			<param name="include" value="id,user_id,menu_no,button_no">
+			</param>
+		</convert>
+		<convert converter="bean" match="app.component.entity.CreditReport">
+			<param name="include"
+				value="name1,name2,name3,name4,name5,name6,name7,name8,name9,value1,value2,value3,value4,value5,value6">
+			</param>
+		</convert>
+
+		<convert converter="bean" match="java.lang.*" />
+		<!-- 工作流操作wkf -->
+		<create javascript="workflowDwr" creator="new">
+			<param name="class" value="app.component.wkf.controller.WorkflowDwrController" />
+			<include method="getTaskInfo"></include>
+			<include method="getTask"></include>
+			<include method="findNextTransition"></include>
+			<include method="findBackTransition"></include>
+			<include method="findExecutorByTransition"></include>
+			<include method="findWkfApprovalRole"></include>
+		</create>
+		<!-- 新机构 --> 
+		<create javascript="SysOrgDwr" creator="new">
+			<param name="class" value="app.component.sys.fajax.SysOrgDwr" />
+			<include method="searchSysOrg" />
+			<include method="checkDownOne" />
+		</create>
+		<convert converter="bean"
+			match="app.component.sys.entity.SysOrg">
+			<param name="include"
+				value="brNo,brName,brLev,upOne,upTwo,brTel,brFax,brType,brAddr,brPost,brFinCode,brSts,bizType,brArea" />
+		</convert> 
+		
+		<!-- 页面上方提示信息 -->
+		<!-- <create javascript="pageInfo" creator="new">
+			<param name="class" value="app.tech.dwr.PageInfo" />
+		</create> -->
+		
+		<!-- 手机号,登录号是否存在  
+        <create javascript="SysUserDwr" creator="new">
+			<param name="class" value="app.component.sys.fajax.SysUserDwr" />
+			<include method="checkExist" />
+		</create>
+		<convert converter="bean"
+			match="app.component.sys.entity.SysUser">
+			<param name="include" value="opNo,opName,passwordhash,job,sex,birthday,mobile,businesstelephone,businessfax,email,lastModDate,pwdInvalDate,idNo,opSts,brNo,roleNo,frame,color" />
+		</convert>
+		-->
+		<!-- 文档窗口保存后消息推送  -->
+		<create creator="new" javascript="PageMessageSend">  
+            <param name="class" value="app.component.model.fajax.PageMessageSend"/>  
+         </create> 
+		<!-- 任务消息推送  -->
+		<create creator="new" javascript="MessagePush">  
+            <param name="class" value="app.tech.dwr.MessagePush"/>  
+         </create>
+        <convert converter="bean"
+			match="app.component.talk.entity.SysTalkRecord">
+			<param name="include"
+				value="soruceUserId,targetUserId,soruceUserName,targetUserName,recordContent,sendTime,recordStatus,recordType" />
+		</convert> 
+	</allow>
+</dwr>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="QueryOp0001" para="eadis_page" link="/mfQueryAccountInfo/findByPage" title="查询账号信息表" type="1">
+<tableitem align="2" filedname="queryOpNo" id="1" indexed="1" label="查询员编号" row="1" type="4" typepara="/mfQueryAccountInfo/getById;queryOpNo-queryOpNo;query-'query'"/>
+<tableitem align="2" filedname="queryOpName" id="2" indexed="2" label="查询员名称" row="1" type="0" />
+<tableitem align="2" filedname="queryBrNo" id="3" indexed="3" label="查询员部门编号" row="1" type="0" />
+<tableitem align="2" filedname="queryBrName" id="4" indexed="4" label="查询员部门名称" row="1" type="0" />
+<tableitem align="2" filedname="queryNum" id="5" indexed="5" label="累计查询次数" row="1" type="0" />
+<tableitem align="2" filedname="lastQueryDate" id="6" indexed="6" label="最近一次查询日期" row="1" type="0" />
+<tableitem align="2" filedname="lastQueryTime" id="7" indexed="7" label="最近一次查询时间" row="1" type="0" />
+<tableitem align="2" filedname="useFlag" id="8" indexed="8" label="启用标识" row="1" type="0" />
+<tableitem align="2" filedname="queryType" id="9" indexed="9" label="查询类型01征信查询" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="11" indexed="11" label="-" row="1" type="5" typepara="/mfQueryAccountInfo/deleteAjax;queryOpNo-queryOpNo;onClick-ajaxDelete(this)" width="2"/>
+</table>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="importexcelcensuslist" link="MfCusImportExcelCensusAction_findByPage.action" para="eadis_page" title="历史数据导入明细统计表" type="2">
+<tableitem align="2" filedname="successCount" id="6" indexed="7" label="校验通过数量" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="sumCount" id="5" indexed="6" label="导入数量" row="1" type="0"/>
+<tableitem align="2" filedname="importTableName" id="4" indexed="4" label="导入数据" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="failCount" id="7" indexed="8" label="校验不通过数量" row="1" type="0" widthType="0"/>
+</table>

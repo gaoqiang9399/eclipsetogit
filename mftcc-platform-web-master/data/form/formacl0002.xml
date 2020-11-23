@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="GB2312"?><form id="acl0002" title="合同申请与租赁物关系表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appContNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="合同申请流水号" maxlength="30" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="leaseNo" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname="租赁编号" maxlength="30" mustinput="0" row="1"/>
+</form>

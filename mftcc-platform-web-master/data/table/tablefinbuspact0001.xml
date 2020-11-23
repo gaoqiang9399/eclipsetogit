@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="finbuspact0001" link="/finBusPact/findByPage" para="eadis_page" title="理财业务合同表" type="2">
+<tableitem align="2" filedname="applyStatus" id="15" indexed="16" label="状态" row="1" sortType="2" type="6" typepara="APPLY_STATUS" widthType="0"/>
+<tableitem align="2" filedname="invest" id="6" indexed="8" label="收益（元）" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="债权" id="51" indexed="51" label="债权列表" row="1" sortType="2" type="5" width="8" widthType="0"/>
+<tableitem align="2" filedname="contractAmt" id="5" indexed="6" label="理财金额（元）" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="busPactNo" id="2" indexed="2" label="合同号" row="1" sortType="2" type="4" typepara="/finBusPact/getPactDetailInfo;busPactNo-busPactNo;busApplyId-busApplyId;" widthType="0"/>
+<tableitem align="2" filedname="termShow" id="10" indexed="7" label="期限" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="breathEndDate" id="20" indexed="15" label="到期日" row="1" sortType="2" type="30" widthType="0"/>
+</table>

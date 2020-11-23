@@ -1,0 +1,35 @@
+.input-group-lg > .form-control{
+		border-radius: 0px;
+	}
+	.cb-upload-div .webuploader-pick{
+		padding: 0px 10px;
+		background: inherit;
+		border: none;
+	}
+	.cb-upload-div .input-group-addon{
+		background-color: rgb(50, 181, 203);
+		color: rgb(255, 255, 255);
+		border-color: rgb(50, 181, 203);
+		border-radius: 0px !important;
+	}
+	 .tab-ul li {
+		display:inline-block;
+		margin-right:10px;
+		color:#32b5cb;
+		cursor: pointer;
+	}
+	 .tab-ul li:hover {
+		color:#009db7;
+	}
+	.finData-div{
+		margin-top:20px;
+		padding:0px;
+		
+	}
+	.table_content .ls_list tr td .i {
+		color:#32b5cb;
+	}
+	#picker{
+		line-height: 1;
+	}
+		

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="mainBusinessCusInfoList" para="eadis_page" title="下游客户信息及赊销政策" type="2">
+<tableitem align="2" filedname="删除" id="26" indexed="12" label="-" type="5" typepara="/mfCusMainBusiness/deleteAjax;mainId-mainId;mainType-'3';onclick-MfCusMainBusiness.deleteAjax(this);" width="3" widthType="0"/>
+<tableitem align="1" filedname="cooperateYears" id="5" indexed="5" label="合作年限" row="1" sortType="1" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="accountPeriod" id="4" indexed="3" label="结算账期" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="supplierName" id="2" indexed="1" label="客户名称" row="1" sortType="2" type="0" width="10" widthType="0"/>
+<tableitem align="1" filedname="serviceContent" id="1" indexed="2" label="销售产品或服务内容" row="1" sortType="2" type="0" width="20" widthType="0"/>
+</table>

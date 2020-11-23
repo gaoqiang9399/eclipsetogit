@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="riskAuditList" para="eadis_page" title="稽核历史列表" type="1">
+<tableitem align="2" filedname="approvePartName" id="25" indexed="18" label="审批人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="chargeName" id="24" indexed="3" label="评审责任人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="opName" id="23" indexed="4" label="稽核人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="auditDate" id="22" indexed="6" label="稽核日期" row="1" sortType="2" type="1" widthType="0"/>
+<tableitem align="2" filedname="auditType" id="21" indexed="5" label="稽核类型" row="1" sortType="2" type="6" typepara="AUDIT_TYPE" widthType="0"/>
+<tableitem align="2" filedname="详情" id="18" indexed="24" label="-" row="1" sortType="2" type="5" typepara="/mfBusRiskAudit/getDetailPage;auditId-auditId;onClick-MfBusRiskAudit_list.getDetailPage(this)" width="100" widthType="1"/>
+<tableitem align="2" filedname="appName" id="20" indexed="2" label="项目名称" mytitle="项目名称-appName;" sortType="2" type="4" typepara="/mfBusApply/getSummary;appId-appId;cusNo-cusNo;busEntrance-'1';onClick-MfBusRiskAudit_accurateList.getDetailPage(this);subStringNub-12;" width="165" widthType="1"/>
+<tableitem align="2" filedname="appSts" id="11" indexed="17" label="稽核状态" row="1" sortType="2" type="6" typepara="APP_STS" width="7" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="1" indexed="1" label="客户名称" mytitle="客户名称-cusName;" row="1" sortType="2" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;appId-appId;cusType-'1';onClick-MfBusRiskAudit_list.getDetailPage(this);subStringNub-8;" width="150" widthType="1"/>
+</table>

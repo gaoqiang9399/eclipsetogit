@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="tablefincapp0001_cash" para="eadis_page" title="获取待还款列表" type="1">
+<tableitem align="2" filedname="appName" id="53" indexed="9" label="项目名称" row="1" type="4" typepara="/mfBusPact/getById;pactId-pactId;"/>
+<tableitem align="2" filedname="pactId" id="56" indexed="10" label="合同编号" row="1" type="0"/>
+<tableitem align="2" filedname="cusName" id="55" indexed="11" label="客户名称" row="1" type="4" typepara="/mfCusCustomer/getById;cusNo-cusNo;cusType-'1';"/>
+<tableitem align="2" filedname="appTime" id="51" indexed="14" label="放款申请时间" row="1" type="1" typepara="/mfBusFincApp/getById;fincId-fincId"/>
+<tableitem align="3" filedname="putoutAmt" id="10" indexed="16" label="放款金额" row="1" type="0"/>
+<tableitem align="2" filedname="putoutDate" id="11" indexed="17" label="放款日期" row="1" type="1"/>
+<tableitem align="2" filedname="fincSts" id="52" indexed="18" label="申请状态" row="1" type="6" typepara="FINC_STS"/>
+<tableitem align="2" authority="fincSts-2;fincSts-3;fincSts-5;fincSts-6;fincSts-7;" filedname="复核" id="57" indexed="19" label="-" row="1" type="5" typepara="/mfBusFincApp/fincReview;fincId-fincId;pactId-pactId;onClick-finReview(this);" width="2"/>
+</table>

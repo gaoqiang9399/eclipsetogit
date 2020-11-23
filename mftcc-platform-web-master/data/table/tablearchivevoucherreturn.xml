@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archivevoucherreturn" para="eadis_page" title="凭证退还" type="2">
+<tableitem align="2" filedname="extLstr03" id="4" indexed="8" label="原始凭证编号" type="0" widthType="0"/>
+<tableitem align="2" filedname="查看他项凭证" id="11" indexed="11" label="-" row="1" type="5" typepara="/archiveInfoVoucherReturn/editForConfim;certiId-certiId;onClick-editNew(this);" width="2" widthType="0"/>
+<tableitem align="2" filedname="certiNo" id="2" indexed="1" label="权证编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="certificateName" id="1" indexed="5" label="权属人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="contractedName" id="10" indexed="2" label="权属证名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="dealType" id="9" indexed="3" label="权证类型" row="1" type="6" typepara="DEAL_TYPE" widthType="0"/>
+</table>

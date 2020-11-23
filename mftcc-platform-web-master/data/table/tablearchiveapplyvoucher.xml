@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="archiveapplyvoucher" para="eadis_page" title="凭证列表" type="2">
+<tableitem align="2" filedname="docSplitName" id="9" indexed="3" label="凭证类型" row="1" type="6" typepara="VOUCHER_TYPE" widthType="0"/>
+<tableitem align="2" filedname="voucherHolder" id="18" indexed="16" label="权属人" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="voucherOther" id="17" indexed="15" label="他项凭证名称" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="voucherOriginal" id="16" indexed="5" label="原始凭证名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="voucherOriginalNo" id="15" indexed="4" label="原始凭证编号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="docNos" id="14" indexed="1" label="选择" row="1" type="99" typepara="docNo-docNo;voucherHolder-voucherHolder" widthType="0"/>
+<tableitem align="2" filedname="voucherOtherNo" id="5" indexed="6" label="他项凭证号" mytitle="文件名-docName;" row="1" type="99" typepara="/archiveInfoDetail/previewFileAjax;archiveDetailNo-archiveDetailNo;onClick-previewFile(this);" widthType="0"/>
+<tableitem align="2" fieldStyle="delBtn" filedname="编辑" id="2" indexed="19" label="-" row="1" type="99" typepara="/archiveInfoDetail/getBigForm;archiveDetailNo-archiveDetailNo;onClick-getBigForm(this)" width="2" widthType="0"/>
+<tableitem align="2" fieldStyle="downBtn" filedname="删除" id="1" indexed="18" label="-" type="5" typepara="/archiveInfoDetail/deleteOriginVoucherAjax;archiveDetailNo-archiveDetailNo;onclick-ajaxTrDelete(this);" width="2" widthType="0"/>
+</table>

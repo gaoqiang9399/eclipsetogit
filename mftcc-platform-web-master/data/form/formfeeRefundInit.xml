@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="feeRefundInit" title="退费初始化表单">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="pactNo" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="1" labelname="合同编号" mustinput="1" onclick="MfBusFeeRefund_Insert.selectPact();" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="1" fieldcolspan="4" fieldname="remark" fieldtype="1" formactiveid="201" horVer="0" initvalue="请先选择一笔合同，自动带出合同相关信息。" labelalign="3" labelcol="1" labelname="说明" mustinput="0" readonly="1" row="2" selrange="2"/>
+</form>

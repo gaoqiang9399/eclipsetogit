@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vccertificatepost_address02" title="合格证邮寄地址表">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addressId" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="ID" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="2" labelalign="3" labelcol="1" labelname="经销商ID" maxlength="50" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerName" fieldtype="1" formactiveid="3" labelalign="3" labelcol="1" labelname="经销商全称" maxlength="100" mustinput="1" onclick="VcCertificatePostAddress_Update.bindDealer(this)" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="addresseeName" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="接收人姓名" maxlength="100" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="addresseeIdCardNo" fieldtype="1" formactiveid="5" labelalign="3" labelcol="3" labelname="接收人身份证号" maxlength="50" mustinput="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="telephoneNumber" fieldtype="1" formactiveid="6" labelalign="3" labelcol="1" labelname="电话号码" maxlength="50" mustinput="0" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="phoneNumber" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="手机号码" maxlength="50" mustinput="1" onblur="func_uior_valFormat_tips(this, 'mobile');" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="detailedAddress" fieldtype="1" formactiveid="8" labelalign="3" labelcol="1" labelname="接收详细地址" maxlength="200" mustinput="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="abbreviatedAddress" fieldtype="1" formactiveid="9" labelalign="3" labelcol="1" labelname="地址简称" maxlength="50" mustinput="1" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="regOpName" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="登记人" maxlength="100" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="regBrName" fieldtype="1" formactiveid="13" labelalign="3" labelcol="1" labelname="登记人机构" maxlength="100" mustinput="0" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="regTime" fieldtype="1" formactiveid="14" labelalign="3" labelcol="3" labelname="登记时间" maxlength="17" mustinput="0" readonly="1" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="lstModOpName" fieldtype="1" formactiveid="16" labelalign="3" labelcol="1" labelname="最后修改人" maxlength="100" mustinput="0" readonly="1" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="lstModBrName" fieldtype="1" formactiveid="18" labelalign="3" labelcol="1" labelname="最后修改人机构" maxlength="100" mustinput="0" readonly="1" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="lstModTime" fieldtype="1" formactiveid="19" labelalign="3" labelcol="3" labelname="最后修改时间" maxlength="17" mustinput="0" readonly="1" row="8"/>
+</form>

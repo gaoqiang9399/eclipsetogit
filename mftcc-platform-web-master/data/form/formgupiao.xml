@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="gupiao" title="股票（权）">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeShowNo" fieldtype="1" formactiveid="1" labelalign="3" labelcol="1" labelname="押品编号" maxlength="30" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pledgeName" fieldtype="1" formactiveid="2" labelalign="3" labelcol="3" labelname=" 押品名称" maxlength="80" mustinput="0" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNo" fieldtype="1" formactiveid="4" labelalign="3" labelcol="1" labelname="客户名称" maxlength="80" mustinput="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classSecondName" fieldtype="1" formactiveid="7" labelalign="3" labelcol="3" labelname="类别名称" maxlength="80" mustinput="0" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pledgeMethod" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" labelalign="3" labelcol="1" labelname="担保类别" maxlength="2" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="17" fieldalign="1" fieldcol="2" fieldname="pledgeRate" fieldtype="1" formactiveid="11" labelalign="3" labelcol="1" labelname="抵质押率" maxlength="16" mustinput="0" row="5" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="28" horVer="0" labelalign="3" labelcol="1" labelname="股东名称" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="29" horVer="0" labelalign="3" labelcol="3" labelname="认缴出资金额" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="30" horVer="0" labelalign="3" labelcol="1" labelname="占公司股权比例" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="31" horVer="0" labelalign="3" labelcol="3" labelname="实际出资金额" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="1" labelname="出资时间" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="3" labelname="出资方式" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="质押股数" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="3" labelname="质押股份占持有股份比例" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldsize="YES_NO" fieldtype="2" formactiveid="36" horVer="0" initvalue="1" labelalign="3" labelcol="1" labelname="是否可转让" mustinput="" param="YES" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="股权证书编号" mustinput="" readonly="" row="10"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fieldName" fieldtype="5" formactiveid="38" horVer="0" labelalign="3" labelcol="1" labelname="说明" maxlength="400" mustinput="" readonly="" row="11"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="classId" fieldtype="1" formactiveid="39" horVer="0" labelalign="3" labelcol="3" labelname="押品类别" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="keepStatus" fieldsize="KEEP_STATUS" fieldtype="2" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="押品状态" mustinput="" readonly="" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateName" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="3" labelname="所有权人名称" mustinput="" readonly="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="99" formactiveid="42" horVer="0" labelalign="3" labelcol="1" labelname="客户" mustinput="" readonly="" row="12"/>
+</form>

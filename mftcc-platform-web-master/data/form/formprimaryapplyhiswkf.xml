@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="primaryapplyhiswkf" title="业务初选审批历史表单">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="99" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="合同编号" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="appId" fieldtype="99" formactiveid="2" horVer="1" labelalign="1" labelcol="5" labelname="申请编号" mustinput="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="busModel" fieldsize="BUS_MODEL" fieldtype="99" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="业务模式" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="99" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="担保方式" mustinput="" readonly="" row="2" />
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt" fieldtype="1" formactiveid="6" horVer="1" labelalign="1" labelcol="1" labelname="申请金额" mustinput="" readonly="1" row="1" unit="元"/>
+<formelement datatype="3" fieldalign="1" fieldcol="2" fieldname="fincRate" fieldtype="99" formactiveid="7" horVer="0" labelalign="3" labelcol="1" labelname="利率" mustinput="" readonly="" row="2" unit="%" />
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="term" fieldtype="1" formactiveid="8" horVer="1" labelalign="1" labelcol="3" labelname="申请期限" mustinput="" readonly="1" row="1" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusMngName" fieldtype="99" formactiveid="9" horVer="0" labelalign="3" labelcol="3" labelname="客户经理" mustinput="" readonly="" row="2" />
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="beginDate" fieldstyle="beginDate" fieldtype="99" formactiveid="10" horVer="0" labelalign="3" labelcol="1" labelname="合同开始日期" mustinput="" onclick="selectrili(this,null,null,today)" param="pactId;" readonly="" row="2"/>
+<formelement datatype="6" fieldalign="1" fieldcol="4" fieldname="endDate" fieldstyle="endDate" fieldtype="99" formactiveid="11" horVer="0" labelalign="3" labelcol="3" labelname="合同结束日期" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="pactSts" fieldsize="PACT_STS" fieldtype="99" formactiveid="12" horVer="0" labelalign="3" labelcol="1" labelname="合同状态" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fincUse" fieldsize="TRADE" fieldtype="99" formactiveid="13" horVer="0" labelalign="3" labelcol="1" labelname="贷款投向" maxlength="50" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="15" horVer="1" labelalign="1" labelcol="1" labelname="担保方式" mustinput="" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="signDate" fieldtype="99" formactiveid="16" horVer="0" labelalign="3" labelcol="1" labelname="合同签订日期" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="payCondition" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="3" labelname="付款条件" maxlength="200" mustinput="" readonly="" row="2" />
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="pactId" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="合同号" mustinput="" readonly="" row="6" />
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="entityPrimarykeys" fieldtype="99" formactiveid="19" labelalign="1" labelcol="1" labelname="entityPrimarykeys" mustinput="0" param="pactId" readonly="" row="1"/>
+<formelement datatype="3" fieldalign="1" fieldcol="3" fieldname="fincRate" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="2" labelname="申请利率" mustinput="" readonly="1" row="1" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="5" fieldname="repayType" fieldsize="REPAY_TYPE" fieldtype="2" formactiveid="21" horVer="1" labelalign="1" labelcol="4" labelname="还款方式" mustinput="" row="1"/>
+</form>

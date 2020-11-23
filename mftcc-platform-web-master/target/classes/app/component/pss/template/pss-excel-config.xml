@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excels>
+	<!-- excel标签参看:ExcelDefinition,Field标签参看:FieldValue -->
+	<!-- 购货订单导入 -->
+	<excel id="PssBuyOrder_import" class="app.component.pss.purchases.entity.PssBuyOrder" sheetname="购货订单">
+		<field name="orderDate" title="订单日期" uniformStyle="true" isNull="false"/>
+		<field name="deliveryDate" title="交货日期" uniformStyle="true"/>
+		<field name="buyOrderNo" title="订单编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商编号" uniformStyle="true" isNull="false"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<!-- <field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="thisPayment" title="本次付款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/> -->
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssBuyOrderDetail" class="app.component.pss.purchases.entity.PssBuyOrderDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 购货订单导出 -->
+	<excel id="PssBuyOrder_export" class="app.component.pss.purchases.entity.PssBuyOrder" sheetname="购货订单">
+		<field name="orderDate" title="订单日期" uniformStyle="true"/>
+		<field name="buyOrderNo" title="订单编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商" uniformStyle="true"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<field name="amount" title="购货金额" uniformStyle="true"/>
+		<field name="orderState" title="订单状态" uniformStyle="true"/>
+		<field name="deliveryDate" title="交货日期" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field type="children" id="PssBuyOrderDetail" class="app.component.pss.purchases.entity.PssBuyOrderDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="购货单价"/>
+			<filedchild name="discountRate" title="折扣率(%)"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+		</field>
+	</excel>
+	
+	<!-- 购货单导入 -->
+	<excel id="PssBuyBill_import" class="app.component.pss.purchases.entity.PssBuyBill" sheetname="购货单">
+		<field name="billDate" title="单据日期" uniformStyle="true" isNull="false"/>
+		<field name="buyBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商编号" uniformStyle="true" isNull="false"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="thisPayment" title="本次付款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssBuyBillDetail" class="app.component.pss.purchases.entity.PssBuyBillDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 购货单导出 -->
+	<excel id="PssBuyBill_export" class="app.component.pss.purchases.entity.PssBuyBill" sheetname="购货单">
+		<field name="billDate" title="单据日期" uniformStyle="true"/>
+		<field name="buyBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商编号" uniformStyle="true"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<field name="amount" title="购货金额" uniformStyle="true"/>
+		<field name="discountAfterAmount" title="优惠后金额" uniformStyle="true"/>
+		<field name="paid" title="已付款" uniformStyle="true"/>
+		<field name="paidState" title="付款状态" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field name="discountRate" title="优惠率(%)" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="debt" title="本次欠款" uniformStyle="true"/>
+		<field type="children" id="PssBuyBillDetail" class="app.component.pss.purchases.entity.PssBuyBillDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="购货单价"/>
+			<filedchild name="discountRate" title="折扣率(%)"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+			<filedchild name="buyOrderNo" title="关联购货订单号"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+		</field>
+	</excel>
+	
+	<!-- 购货退货单导入 -->
+	<excel id="PssBuyReturnBill_import" class="app.component.pss.purchases.entity.PssBuyReturnBill" sheetname="购货退货单">
+		<field name="billDate" title="单据日期" uniformStyle="true" isNull="false"/>
+		<field name="buyReturnBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商编号" uniformStyle="true" isNull="false"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="thisRefund" title="本次退款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssBuyReturnBillDetail" class="app.component.pss.purchases.entity.PssBuyReturnBillDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 购货退货单导出 -->
+	<excel id="PssBuyReturnBill_export" class="app.component.pss.purchases.entity.PssBuyReturnBill" sheetname="购货退货单">
+		<field name="billDate" title="单据日期" uniformStyle="true"/>
+		<field name="buyReturnBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="supplierId" title="供应商编号" uniformStyle="true"/>
+		<field name="supplierName" title="供应商名称" uniformStyle="true"/>
+		<field name="discountAfterAmount" title="优惠后金额" uniformStyle="true"/>
+		<field name="refunded" title="已退款" uniformStyle="true"/>
+		<field name="refundState" title="退款状态" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field name="discountRate" title="优惠率(%)" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="debt" title="本次欠款" uniformStyle="true"/>
+		<field type="children" id="PssBuyReturnBillDetail" class="app.component.pss.purchases.entity.PssBuyReturnBillDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="购货单价"/>
+			<filedchild name="discountRate" title="优惠率(%)"/>
+			<filedchild name="discountAmount" title="优惠金额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+			<filedchild name="buyOrderNo" title="关联购货订单号"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+		</field>
+	</excel>
+	
+	<!-- 销货订单导入 -->
+	<excel id="PssSaleOrder_import" class="app.component.pss.sales.entity.PssSaleOrder" sheetname="销货订单">
+		<field name="orderDate" title="订单日期" uniformStyle="true" isNull="false"/>
+		<field name="deliveryDate" title="交货日期" uniformStyle="true"/>
+		<field name="saleOrderNo" title="订单编号" uniformStyle="true"/>
+		<field name="cusNo" title="客户" uniformStyle="true" isNull="false"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<!-- <field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="thisPayment" title="本次付款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/> -->
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssSaleOrderDetail" class="app.component.pss.sales.entity.PssSaleOrderDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 销货订单导出 -->
+	<excel id="PssSaleOrder_export" class="app.component.pss.sales.entity.PssSaleOrder" sheetname="销货订单">
+		<field name="orderDate" title="订单日期" uniformStyle="true"/>
+		<field name="saleOrderNo" title="订单编号" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<field name="cusNo" title="客户" uniformStyle="true"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="amount" title="销货金额" uniformStyle="true"/>
+		<field name="orderState" title="订单状态" uniformStyle="true"/>
+		<field name="deliveryDate" title="交货日期" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field type="children" id="PssSaleOrderDetail" class="app.component.pss.sales.entity.PssSaleOrderDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="销货单价"/>
+			<filedchild name="discountRate" title="折扣率(%)"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+		</field>
+	</excel>
+
+	<!-- 销货单导入 -->
+	<excel id="PssSaleBill_import" class="app.component.pss.sales.entity.PssSaleBill" sheetname="销货单">
+		<field name="billDate" title="单据日期" uniformStyle="true" isNull="false"/>
+		<field name="saleBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="cusNo" title="客户编号" uniformStyle="true" isNull="false"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="customerCost" title="客户承担费用" uniformStyle="true"/>
+		<field name="thisReceipt" title="本次收款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssSaleBillDetail" class="app.component.pss.sales.entity.PssSaleBillDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 销货单导出 -->
+	<excel id="PssSaleBill_export" class="app.component.pss.sales.entity.PssSaleBill" sheetname="销货单">
+		<field name="billDate" title="单据日期" uniformStyle="true"/>
+		<field name="saleBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<field name="cusNo" title="客户" uniformStyle="true"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="amount" title="销货金额" uniformStyle="true"/>
+		<field name="discountAfterAmount" title="优惠后金额" uniformStyle="true"/>
+		<field name="received" title="已收款" uniformStyle="true"/>
+		<field name="receivedState" title="收款状态" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field name="discountRate" title="优惠率(%)" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="thisDebt" title="本次欠款" uniformStyle="true"/>
+		<field type="children" id="PssSaleBillDetail" class="app.component.pss.sales.entity.PssSaleBillDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="销货单价"/>
+			<filedchild name="taxUnitPrice" title="含税单价"/>
+			<filedchild name="discountRate" title="折扣率(%)"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+			<filedchild name="saleOrderNo" title="关联销货订单号"/>
+		</field>
+	</excel>
+	
+	<!-- 销货退货单导入 -->
+	<excel id="PssSaleReturnBill_import" class="app.component.pss.sales.entity.PssSaleReturnBill" sheetname="销货退货单">
+		<field name="billDate" title="单据日期" uniformStyle="true" isNull="false"/>
+		<field name="saleReturnBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="cusNo" title="客户编号" uniformStyle="true" isNull="false"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<!--<field name="customerCost" title="客户承担费用" uniformStyle="true"/>-->
+		<field name="thisRefund" title="本次退款" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssSaleReturnBillDetail" class="app.component.pss.sales.entity.PssSaleReturnBillDetail">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量" isNull="false"/>
+			<filedchild name="unitPrice" title="单价"/>
+			<filedchild name="discountRate" title="折扣率%"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="storehouseId" title="仓库" isNull="false"/>
+			<!-- <filedchild name="" title="批次"/>
+			<filedchild name="" title="生产日期"/> -->
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 销货退货单导出 -->
+	<excel id="PssSaleReturnBill_export" class="app.component.pss.sales.entity.PssSaleReturnBill" sheetname="销货退货单">
+		<field name="billDate" title="单据日期" uniformStyle="true"/>
+		<field name="saleReturnBillNo" title="单据编号" uniformStyle="true"/>
+		<field name="salerNo" title="销售人员" uniformStyle="true"/>
+		<field name="cusNo" title="客户" uniformStyle="true"/>
+		<field name="cusName" title="客户名称" uniformStyle="true"/>
+		<field name="amount" title="销货金额" uniformStyle="true"/>
+		<field name="discountAfterAmount" title="优惠后金额" uniformStyle="true"/>
+		<field name="refunded" title="已退款" uniformStyle="true"/>
+		<field name="refundState" title="退款状态" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="auditOpName" title="审核人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field name="discountRate" title="优惠率(%)" uniformStyle="true"/>
+		<field name="discountAmount" title="优惠金额" uniformStyle="true"/>
+		<field name="settlementAccount" title="结算账户" uniformStyle="true"/>
+		<field name="thisDebt" title="本次欠款" uniformStyle="true"/>
+		<field type="children" id="PssSaleReturnBillDetail" class="app.component.pss.sales.entity.PssSaleReturnBillDetail">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="quantity" title="数量"/>
+			<filedchild name="unitPrice" title="销货单价"/>
+			<filedchild name="taxUnitPrice" title="含税单价"/>
+			<filedchild name="discountRate" title="折扣率(%)"/>
+			<filedchild name="discountAmount" title="折扣额"/>
+			<filedchild name="amount" title="金额"/>
+			<filedchild name="taxRate" title="税率%"/>
+			<filedchild name="taxAmount" title="税额"/>
+			<filedchild name="totalPriceWithTax" title="价税合计"/>
+			<filedchild name="storehouseId" title="仓库"/>
+			<filedchild name="memo" title="备注"/>
+			<filedchild name="saleOrderNo" title="关联销货订单号"/>
+		</field>
+	</excel>
+	
+	<!-- 调拨单导入 -->
+	<excel id="PssAlloTransBill_import" class="app.component.pss.stock.entity.PssAlloTransBill" sheetname="调拨单">
+		<field name="billDate" title="单据日期" uniformStyle="true" isNull="false"/>
+		<field name="alloTransNo" title="单据编号" uniformStyle="true"/>
+		<field name="memo" title="单据备注" uniformStyle="true"/>
+		<field type="children" id="PssAlloTransDetailBill" class="app.component.pss.stock.entity.PssAlloTransDetailBill">
+			<filedchild name="goodsId" title="商品编号" isNull="false"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="goodsQty" title="数量" isNull="false"/>
+			<filedchild name="outStorehouseId" title="调出仓库" isNull="false"/>
+			<filedchild name="inStorehouseId" title="调入仓库" isNull="false"/>
+			<filedchild name="memo" title="备注"/>
+		</field> 
+	</excel>
+	<!-- 调拨单导出 -->
+	<excel id="PssAlloTransBill_export" class="app.component.pss.stock.entity.PssAlloTransBill" sheetname="调拨单">
+		<field name="billDate" title="单据日期" uniformStyle="true"/>
+		<field name="alloTransNo" title="单据编号" uniformStyle="true"/>
+		<field name="regOpName" title="制单人" uniformStyle="true"/>
+		<field name="memo" title="备注" uniformStyle="true"/>
+		<field type="children" id="PssAlloTransDetailBill" class="app.component.pss.stock.entity.PssAlloTransDetailBill">
+			<filedchild name="goodsId" title="商品编号"/>
+			<filedchild name="goodsName" title="商品名称"/>
+			<filedchild name="goodsModel" title="商品型号"/>
+			<filedchild name="detailIds" title="属性"/>
+			<!-- <filedchild name="" title="商品条码"/> -->
+			<filedchild name="unitId" title="单位"/>
+			<filedchild name="goodsQty" title="数量"/>
+			<filedchild name="outStorehouseId" title="调出仓库"/>
+			<filedchild name="inStorehouseId" title="调入仓库"/>
+			<filedchild name="memo" title="备注"/>
+		</field>
+	</excel>
+	
+</excels>

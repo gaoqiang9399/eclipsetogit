@@ -1,0 +1,166 @@
+.bigform_content .formDiv input[type="text"], .bigform_content .formDiv  input[type="password"],
+	.bigform_content .formDiv  input[type="email"], .bigform_content .formDiv  input[type="number"],
+	.bigform_content .formDiv  input[type="tel"], .bigform_content .formDiv  input[type="url"],
+	.bigform_content .formDiv  select {
+	height: 35px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 260px;
+}
+
+.bigform_content input[type="text"], .bigform_content input[type="password"],
+	.bigform_content input[type="email"], .bigform_content input[type="number"],
+	.bigform_content input[type="tel"], .bigform_content input[type="url"],
+	.bigform_content select {
+	height: 35px;
+	padding: 0 0px 0 3px;
+	box-shadow: none;
+	width: 260px;
+}
+
+.bigform_content .content_table .ls_list tr {
+	line-height: 40px;
+}
+
+.bigform_content .content_table .ls_list thead tr th {
+	border-bottom: 1px solid #e9ebf2;
+	font-size: 12px;
+	color: #000000;
+	font-weight:normal;
+	height: 41px;
+	line-height: 41px;
+	text-align:center;
+}
+
+.bigform_content .content_table .ls_list tbody tr td {
+	font-size: 12px;
+	color: #808080;
+}
+
+.bigform_content .content_table .ls_list tbody tr:nth-child(odd) {
+	background: #f9f9f9;
+	height: 40px;
+}
+
+.bigform_content .content_table .ls_list tbody tr:nth-child(even) {
+	height: 40px;
+}
+
+.bigform_content .content_table .ls_list tbody tr:hover{
+	background-color:#f0fdff !important;
+}
+
+.bigform_content .input_btn input[type="button"] {
+	float: right;
+	margin-right: 10px;
+	background: #32B5CB none repeat scroll 0 0;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	height: 35px;
+	width: 80px;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 15px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.bigform_content .input_btn input[type="button"]:hover {
+	background: #009db7;
+}
+
+.content_table .input_btn {
+	margin-bottom: 5px;
+	overflow:hidden;
+	margin-top: 10px;
+}
+.content_form {
+    padding-top: 10px !important;
+}
+
+.bigform_content .content_table{
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.bigForm_content_form  table tr td {
+	padding: 0 20px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+
+.col_content .title{
+	color:#32b5cb;
+}
+
+.bgColor {
+    border: 2px solid #F2F5FB;
+    border-radius: 4px;
+    margin: 10px;
+    height: auto;
+}
+
+.table_content {
+    overflow: hidden;
+    padding: 10px 10px 0px 15px
+}
+
+.col_content .title {
+    margin: 2px 5px;
+    padding: 1px 5px;
+    color: #32b5cb;
+    height: 35px;
+}
+.select-border input[type="button"],.col_content input[type="button"] {
+    background-color: #32b5cb;
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    height: 22px;
+    margin: 1px 5px 0;
+    padding: 0 10px;
+    width: auto;
+}
+.col_content span {
+	top: -35px;
+	position: relative;
+	float: right;
+	font-size:12px;
+}
+
+.table_content .readonly_border {
+    border: none;
+}
+
+.content_table .ls_list input{
+	width: 50px !important;
+	height: 25px !important;
+	margin: 0 !important;
+	padding:0 !important;
+}
+
+
+.content_table .Required-font {
+	font-size: 12px;
+	color: #DD2A18;
+	width: 200px;
+	/* display: inline-block; */
+	position: absolute;
+	top: 5px;
+}
+.content_table .Required-font i {
+	font-size: 16px;
+	color: #DD2A18;
+	width: 20px;
+	height: 20px;
+}
+
+.content_table .Required-font i {
+	animation: required 1s linear 0s infinite alternate running;
+	-moz-animation: required 1s linear 0s infinite alternate running;
+	-webkit-animation: required 1s linear 0s infinite alternate running;
+	-o-animation: required 1s linear 0s infinite alternate running;
+}
+

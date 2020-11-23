@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="busFincFeeCollect" para="eadis_page" title="费用收取列表" type="2">
+<tableitem align="2" filedname="itemNo" id="31" indexed="51" label="费用编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="id" id="28" indexed="47" label="编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="itemName" id="24" indexed="23" label="费用名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="collectFeeAmt" id="23" indexed="29" label="收费金额" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="修改" id="49" indexed="45" label="操作按钮" row="1" type="5" typepara="/mfBusFeePlan/perfectBusFeePlan;appFeeId-id;planId-planId;onClick-MfBusAppFee_FincBusAppFee.perfectBusFeePlan(this)" widthType="0"/>
+<tableitem align="2" fieldStyle="feeAccountNo" filedname="feeAccountNo" id="48" indexed="43" label="收费账号" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="planId" id="47" indexed="46" label="费用计划编号" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="receivableFeeAmt" id="46" indexed="39" label="应收费用" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="feeMainName" filedname="feeMainName" id="45" indexed="41" label="收费主体名称" row="1" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeAccountId" id="44" indexed="42" label="收费账号" row="1" type="99" widthType="0"/>
+<tableitem align="2" fieldStyle="feeVoucherNo" filedname="feeVoucherNo" id="43" indexed="44" label="收费凭证号" type="0" widthType="0"/>
+<tableitem align="2" filedname="feeMainNo" id="42" indexed="40" label="收费主体" row="1" type="99" widthType="0"/>
+<tableitem align="2" filedname="repayDate" id="41" indexed="38" label="收费日期" row="1" type="9" widthType="0"/>
+<tableitem align="2" filedname="deductFeeAmt" id="39" indexed="36" label="减免金额" row="1" type="9" widthType="0"/>
+<tableitem align="2" fieldStyle="ext3" filedname="notReturnFee" id="40" indexed="37" label="费用余额" row="1" type="0" widthType="0"/>
+</table>

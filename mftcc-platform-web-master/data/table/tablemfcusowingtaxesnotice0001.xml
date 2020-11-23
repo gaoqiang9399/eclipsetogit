@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table id="mfcusowingtaxesnotice0001" para="eadis_page" link="/mfCusOwingTaxesNotice/findByPage" title="欠税公告" type="1">
+<tableitem align="2" filedname="surveyId" id="1" indexed="1" label="survey_id" row="1" type="4" typepara="/mfCusOwingTaxesNotice/getById;surveyId-surveyId;query-'query'"/>
+<tableitem align="2" filedname="cusNo" id="2" indexed="2" label="客户号" row="1" type="0" />
+<tableitem align="2" filedname="cusName" id="3" indexed="3" label="客户名称" row="1" type="0" />
+<tableitem align="2" filedname="applyPersonName" id="4" indexed="4" label="申请人名称" row="1" type="0" />
+<tableitem align="2" filedname="applyPersonNameFlag" id="5" indexed="5" label="申请人名称是否一致 1-是 0-否" row="1" type="0" />
+<tableitem align="2" filedname="applyPersonIdentity" id="6" indexed="6" label="申请人身份" row="1" type="0" />
+<tableitem align="2" filedname="applyPersonIdentityFlag" id="7" indexed="7" label="申请人身份是否一致 1-是 0-否" row="1" type="0" />
+<tableitem align="2" filedname="remark" id="8" indexed="8" label="备注" row="1" type="0" />
+<tableitem align="2" filedname="opNo" id="9" indexed="9" label="登记人编号" row="1" type="0" />
+<tableitem align="2" filedname="opName" id="10" indexed="10" label="登记人姓名" row="1" type="0" />
+<tableitem align="2" filedname="brNo" id="11" indexed="11" label="登记部门编号" row="1" type="0" />
+<tableitem align="2" filedname="brName" id="12" indexed="12" label="登记部门名称" row="1" type="0" />
+<tableitem align="2" filedname="regTime" id="13" indexed="13" label="登记时间 格式：20170619 18:44:59" row="1" type="0" />
+<tableitem align="2" filedname="lstModTime" id="14" indexed="14" label="最后修改时间 格式：20170619 18:44:59" row="1" type="0" />
+<tableitem align="2" filedname="delFlag" id="15" indexed="15" label="删除位 1 删除 0 默认" row="1" type="0" />
+<tableitem align="2" filedname="regDate" id="16" indexed="16" label="登记日期 格式：20170619" row="1" type="0" />
+<tableitem align="2" filedname="lstModDate" id="17" indexed="17" label="最后修改日期 格式：20170619" row="1" type="0" />
+<tableitem align="2" filedname="ext1" id="18" indexed="18" label="预留字段" row="1" type="0" />
+<tableitem align="2" filedname="ext2" id="19" indexed="19" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext3" id="20" indexed="20" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext4" id="21" indexed="21" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext5" id="22" indexed="22" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext6" id="23" indexed="23" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext7" id="24" indexed="24" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext8" id="25" indexed="25" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext9" id="26" indexed="26" label="" row="1" type="0" />
+<tableitem align="2" filedname="ext10" id="27" indexed="27" label="" row="1" type="0" />
+<tableitem align="2" filedname="publishData" id="28" indexed="28" label="发布日期" row="1" type="0" />
+<tableitem align="2" filedname="taxpayerNo" id="29" indexed="29" label="纳税人识别号" row="1" type="0" />
+<tableitem align="2" filedname="owingTaxesNo" id="30" indexed="30" label="欠税税种" row="1" type="0" />
+<tableitem align="2" filedname="presentBackTaxes" id="31" indexed="31" label="当前发生的欠税额" row="1" type="0" />
+<tableitem align="2" filedname="owingTaxesBalance" id="32" indexed="32" label="欠税余额" row="1" type="0" />
+<tableitem align="2" filedname="tax_authority" id="33" indexed="33" label="税务机关" row="1" type="0" />
+<tableitem align="2" filedname="删除" id="35" indexed="35" label="-" row="1" type="5" typepara="/mfCusOwingTaxesNotice/deleteAjax;surveyId-surveyId;onClick-ajaxDelete(this)" width="2"/>
+</table>

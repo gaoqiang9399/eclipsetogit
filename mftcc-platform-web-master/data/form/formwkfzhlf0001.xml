@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="wkfzhlf0001" title="中汇临汾审批form">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldstyle="half" fieldtype="1" formactiveid="1" horVer="0" labelalign="3" labelcol="3" labelname="产品名称" mustinput="0" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldstyle="half" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="1" labelname="客户名称" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="appAmt1" fieldstyle="half" fieldtype="1" formactiveid="3" horVer="0" labelalign="3" labelcol="1" labelname="申请金额(元)" mustinput="0" readonly="1" row="5"/>
+<formelement datatype="3" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldstyle="half" fieldtype="1" formactiveid="4" horVer="0" labelalign="3" labelcol="3" labelname="申请利率(%)" mustinput="1" readonly="" row="6" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="term" fieldstyle="half" fieldtype="1" formactiveid="5" horVer="0" labelalign="3" labelcol="3" labelname="申请期限" mustinput="0" row="5"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="19"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNoMng" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号（隐）" mustinput="" readonly="" row="20"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appId" fieldtype="1" formactiveid="21" horVer="0" labelalign="3" labelcol="1" labelname="申请ID" mustinput="" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="wkfAppId" fieldtype="99" formactiveid="22" horVer="1" labelalign="1" labelcol="4" labelname="业务节编号" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="opinionType" fieldtype="2" formactiveid="23" horVer="0" labelalign="3" labelcol="1" labelname="意见类型" mustinput="" readonly="" row="9"/>
+<formelement alt="200字以内" datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="approvalOpinion" fieldtype="5" formactiveid="24" horVer="0" labelalign="3" labelcol="1" labelname="审批意见" maxlength="200" mustinput="1" readonly="" row="10" unit="&lt;i class='i i-bianji3 hover-icon'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="appName" fieldstyle="half" fieldtype="1" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="项目名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vouType" fieldsize="VOU_TYPE" fieldstyle="half" fieldtype="2" formactiveid="28" horVer="0" labelalign="3" labelcol="3" labelname="担保方式" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="idNum" fieldtype="1" formactiveid="32" horVer="0" labelalign="3" labelcol="3" labelname="身份证号" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusTel" fieldtype="1" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="联系电话" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="fieldName" fieldtype="5" formactiveid="34" horVer="0" labelalign="3" labelcol="1" labelname="反担保方案" maxlength="400" mustinput="" readonly="" row="8"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="35" horVer="0" labelalign="3" labelcol="1" labelname="授信额度" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="fieldName" fieldtype="1" formactiveid="36" horVer="0" labelalign="3" labelcol="1" labelname="反担保措施" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fieldName" fieldtype="1" formactiveid="37" horVer="0" labelalign="3" labelcol="3" labelname="费率" mustinput="" readonly="" row="7"/>
+</form>

@@ -1,0 +1,33 @@
+.amt{
+	width: 120px;
+	text-align:right;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.date{
+	text-align:center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.firstTd{
+	width:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.second{
+	width:60px;
+	text-align:center;
+	
+}
+.project{
+	width:80px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.sum{
+ 	font-weight:bold;
+}

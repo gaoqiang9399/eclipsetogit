@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="apply0002" title="业务申请表单(进件)">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindName" fieldtype="1" formactiveid="1" horVer="1" labelalign="1" labelcol="3" labelname="产品名称" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusName" fieldtype="1" formactiveid="2" horVer="1" labelalign="1" labelcol="1" labelname="客户名称" mustinput="1" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="usableFincAmt" fieldtype="1" formactiveid="3" horVer="1" labelalign="1" labelcol="1" labelname="申请金额" mustinput="1" readonly="" row="3" unit="元"/>
+<formelement datatype="9" fieldalign="1" fieldcol="4" fieldname="fincRate" fieldtype="1" formactiveid="4" horVer="1" labelalign="1" labelcol="3" labelname="利率" mustinput="1" readonly="" row="3" unit="%"/>
+<formelement datatype="1" fieldalign="1" fieldcol="2" fieldname="termMonth" fieldtype="1" formactiveid="5" horVer="1" labelalign="1" labelcol="1" labelname="申请期限月" mustinput="1" readonly="" row="5" unit="月"/>
+<formelement datatype="1" fieldalign="1" fieldcol="4" fieldname="termDay" fieldtype="1" formactiveid="6" horVer="1" initvalue="0" labelalign="1" labelcol="3" labelname="申请期限日" mustinput="1" readonly="" row="5" unit="日"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="normCalcType" fieldsize="NORM_CALC_TYPE" fieldtype="2" formactiveid="7" horVer="1" labelalign="1" labelcol="3" labelname="利息计算方式" mustinput="" readonly="" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vouType" fieldsize="VOU_TYPE" fieldtype="2" formactiveid="8" horVer="1" labelalign="1" labelcol="1" labelname="担保方式" mustinput="" readonly="" row="9"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusMngName" fieldtype="1" formactiveid="9" horVer="1" labelalign="1" labelcol="1" labelname="客户经理" mustinput="" onclick="selectUserDialog(this);" readonly="1" row="11" unit="&lt;i class='i i-fangdajing pointer' onclick='selectUser(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assName1" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="协办人员1" mustinput="" onclick="selectUserDialog(this);" readonly="1" row="11" unit="&lt;i class='i i-fangdajing pointer' onclick='selectUser(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assName2" fieldtype="1" formactiveid="11" horVer="1" labelalign="1" labelcol="1" labelname="协办人员2" mustinput="" onclick="selectUserDialog(this);" readonly="1" row="13" unit="&lt;i class='i i-fangdajing pointer' onclick='selectUser(this);'&gt;&lt;/i&gt;"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="remark" fieldtype="5" formactiveid="12" horVer="1" labelalign="1" labelcol="1" labelname="备注" maxlength="400" mustinput="" readonly="" row="15"/>
+<formelement datatype="9" fieldalign="1" fieldcol="2" fieldname="overFloat" fieldtype="1" formactiveid="13" horVer="1" labelalign="1" labelcol="1" labelname="逾期利率" mustinput="1" row="7" unit="%"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="busModel" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="1" labelname="业务模式" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="kindNo" fieldtype="99" formactiveid="15" horVer="1" labelalign="1" labelcol="3" labelname="产品编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="cusNo" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="3" labelname="客户编号" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="assNo1" fieldtype="99" formactiveid="17" horVer="0" labelalign="3" labelcol="1" labelname="协办人员编号1（隐）" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="assNo2" fieldtype="99" formactiveid="18" horVer="0" labelalign="3" labelcol="3" labelname="协办人员编号2（隐）" mustinput="" readonly="" row="17"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="cusNoMng" fieldtype="99" formactiveid="19" horVer="0" labelalign="3" labelcol="1" labelname="客户经理编号（隐）" mustinput="" readonly="" row="18"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="fincUse" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="3" labelname="贷款用途" maxlength="50" mustinput="1" readonly="" row="9"/>
+</form>

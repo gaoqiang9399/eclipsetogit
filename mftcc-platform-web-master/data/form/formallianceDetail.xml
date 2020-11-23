@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="allianceDetail" title="联保体详情">
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="id" fieldtype="99" formactiveid="1" labelalign="3" labelcol="1" labelname="唯一编号" maxlength="50" mustinput="0" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="contactInformation" fieldtype="1" formactiveid="10" horVer="1" labelalign="1" labelcol="3" labelname="联系方式" maxlength="30" mustinput="0" param="id" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="opNo" fieldtype="99" formactiveid="13" horVer="1" labelalign="1" labelcol="6" labelname="操作员编号" maxlength="30" mustinput="0" param="trenchUid" param2="1" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="opName" fieldtype="99" formactiveid="14" horVer="1" labelalign="1" labelcol="6" labelname="登记人" maxlength="100" mustinput="0" param2="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="7" fieldname="brName" fieldtype="99" formactiveid="16" horVer="1" labelalign="1" labelcol="6" labelname="登记部门" maxlength="100" mustinput="0" param2="1" readonly="1" row="7"/>
+<formelement datatype="0" fieldalign="1" fieldcol="6" fieldname="regTime" fieldtype="99" formactiveid="17" horVer="1" labelalign="1" labelcol="5" labelname="登记时间" mustinput="" param2="1" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceName" fieldtype="1" formactiveid="20" horVer="1" labelalign="1" labelcol="1" labelname="联保体名称" mustinput="0" param="id" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="2" fieldname="loanLimit" fieldtype="99" formactiveid="34" horVer="1" labelalign="1" labelcol="1" labelname="授信额度" maxlength="20" mustinput="0" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="3" fieldname="allianceLeaderName" fieldtype="1" formactiveid="36" horVer="1" labelalign="1" labelcol="2" labelname="小组组长" mustinput="" param="id" readonly="1" row="1"/>
+<formelement datatype="12" fieldalign="1" fieldcol="3" fieldname="availableBalance" fieldtype="99" formactiveid="37" horVer="1" labelalign="1" labelcol="2" labelname="可用余额" maxlength="20" mustinput="" row="3" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="loopFlag" fieldsize="YES_NO" fieldtype="99" formactiveid="38" horVer="1" labelalign="1" labelcol="3" labelname="额度是否可循环" mustinput="" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="allianceLeaderId" fieldtype="99" formactiveid="39" horVer="0" labelalign="3" labelcol="1" labelname="小组组长id" mustinput="" readonly="" row="7"/>
+<formelement datatype="6" fieldalign="1" fieldcol="2" fieldname="validBeginDate" fieldtype="1" formactiveid="40" horVer="1" labelalign="1" labelcol="1" labelname="有效开始日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="6" fieldalign="1" fieldcol="3" fieldname="validEndDate" fieldtype="1" formactiveid="41" horVer="1" labelalign="1" labelcol="2" labelname="有效结束日期" mustinput="" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="areaName" fieldtype="99" formactiveid="42" horVer="1" labelalign="1" labelcol="1" labelname="信用村" mustinput="" readonly="1" row="3"/>
+</form>

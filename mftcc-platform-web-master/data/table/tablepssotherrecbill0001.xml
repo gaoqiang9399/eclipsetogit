@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<table exportExcel="0" id="pssotherrecbill0001" para="eadis_page" title="其他收入单表" type="2">
+<tableitem align="3" filedname="recAmt" id="6" indexed="8" label="金额" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="cusName" id="5" indexed="7" label="客户名称" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" authority="auditSts-1;" filedname="删除" id="13" indexed="13" label="-" row="1" sortType="2" type="5" typepara="/pssOtherRecBill/deleteOtherRecBillAjax;otherRecId-otherRecId;onClick-PssOtherRecBill.deleteOtherRecBill(this)" width="2" widthType="0"/>
+<tableitem align="2" filedname="billDate" id="3" indexed="4" label="单据日期" row="1" sortType="1" type="1" widthType="0"/>
+<tableitem align="2" filedname="otherRecId" id="12" indexed="3" label="全选" row="1" sortType="2" type="2" typepara="otherRecId-otherRecId;" width="4" widthType="0"/>
+<tableitem align="1" filedname="auditOpName" id="11" indexed="12" label="审核人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="1" filedname="regOpName" id="10" indexed="11" label="制单人" row="1" sortType="2" type="0" widthType="0"/>
+<tableitem align="2" filedname="otherRecNo" id="9" indexed="6" label="单据编号" mytitle="模板内容-otherRecNo;" sortType="1" type="4" typepara="/pssOtherRecBill/getDetailPage;otherRecId-otherRecId;otherRecNo-otherRecNo;onClick-PssOtherRecBill.getByIdThis(this);subStringNub-20;" widthType="0"/>
+</table>

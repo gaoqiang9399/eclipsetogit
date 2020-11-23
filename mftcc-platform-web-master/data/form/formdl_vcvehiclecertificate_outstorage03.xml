@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?>
+<form formTitleShowFlag="false" id="dl_vcvehiclecertificate_outstorage03" title="合格证特殊出库">
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="certificateNo" fieldtype="1" formactiveid="2" horVer="0" labelalign="3" labelcol="3" labelname="合格证编号" maxlength="50" mustinput="0" readonly="1" row="3"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="vin" fieldtype="1" formactiveid="14" horVer="0" labelalign="3" labelcol="3" labelname="车架号" maxlength="50" mustinput="0" readonly="1" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="outStorageMode" fieldsize="VC_OUT_STORAGE_MODE" fieldtype="2" formactiveid="26" horVer="0" labelalign="3" labelcol="1" labelname="出库方式" mustinput="1" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="certificateId" fieldtype="99" formactiveid="27" horVer="0" labelalign="3" labelcol="1" labelname="ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="outStorageDescription" fieldtype="5" formactiveid="33" horVer="0" labelalign="3" labelcol="1" labelname="出库描述" maxlength="400" mustinput="" readonly="" row="6"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="dealerId" fieldtype="99" formactiveid="40" horVer="0" labelalign="3" labelcol="1" labelname="经销商ID" mustinput="" readonly="" row="1"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldcolspan="3" fieldname="dealerName" fieldtype="1" formactiveid="41" horVer="0" labelalign="3" labelcol="1" labelname="经销商名称" mustinput="" readonly="1" row="2"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="vehicleTypeName" fieldtype="1" formactiveid="44" horVer="0" labelalign="3" labelcol="1" labelname="车型" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="4" fieldname="configurationName" fieldtype="1" formactiveid="45" horVer="0" labelalign="3" labelcol="3" labelname="配置" mustinput="" readonly="1" row="4"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="colourName" fieldtype="1" formactiveid="46" horVer="0" labelalign="3" labelcol="1" labelname="颜色" mustinput="" readonly="1" row="5"/>
+<formelement datatype="12" fieldalign="1" fieldcol="4" fieldname="unitPrice" fieldtype="1" formactiveid="47" horVer="0" labelalign="3" labelcol="3" labelname="单价" mustinput="" readonly="1" row="5" unit="元"/>
+<formelement datatype="0" fieldalign="1" fieldcol="2" fieldname="sequence" fieldtype="1" formactiveid="48" horVer="0" labelalign="3" labelcol="1" labelname="合格证序号" mustinput="" readonly="1" row="3"/>
+</form>
